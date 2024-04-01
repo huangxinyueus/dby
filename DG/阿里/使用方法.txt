@@ -1,0 +1,9 @@
+
+以下接口任选其一：
+
+file://tvbox/阿里订阅/api.json
+
+clan://localhost/tvbox/阿里订阅/api.json
+
+http://127.0.0.1:9978/file/tvbox/阿里订阅/api.json
+
