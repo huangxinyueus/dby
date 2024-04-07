@@ -1,4 +1,4 @@
-//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+//关注微信公众号：奇友汇，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
@@ -125,6 +125,17 @@
             "filterable": 0,
             "changeable": 1,
             "ext": "https://www.maolvys.com/"
+        },
+        {
+            "key": "csp_Zxzj",
+            "name": "🏚️在线",
+            "type": 3,
+            "api": "csp_Zxzj",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.zxzja.com/"
         },
         {
             "key": "csp_Xinsj",
@@ -306,17 +317,6 @@
             "name": "🙀盘搜索",
             "type": 3,
             "api": "csp_PanSearch",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
-        },
-        {
-            "key": "Dovx",
-            "name": "😾七夜",
-            "type": 3,
-            "api": "csp_Dovx",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,

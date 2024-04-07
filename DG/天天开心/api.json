@@ -1,4 +1,4 @@
-//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+//关注微信公众号：奇友汇，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
@@ -53,6 +53,16 @@
             "ext": "./json/玩我哥哥.json"
         },
         {
+            "key": "csp_xBPQ_白嫖",
+            "name": "🎦白嫖影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/白嫖影视.json"
+        },
+        {
             "key": "玩偶哥哥",
             "name": "🎦玩偶|哥哥",
             "type": 3,
@@ -90,33 +100,6 @@
             "ext": "./js/jianpian.js"
         },
         {
-            "key": "csp_Bdys",
-            "name": "🎦哔嘀影视",
-            "type": 3,
-            "api": "csp_Bdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Kuaikan",
-            "name": "🎦快看影视",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Ikanbot",
-            "name": "🎦Ikanbot",
-            "type": 3,
-            "api": "csp_Ikanbot",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "低端影视",
             "name": "🎦低端┃秒播",
             "type": 3,
@@ -136,17 +119,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://bo.czys.me"
-        },
-        {
-            "key": "达达龟",
-            "name": "🎦达龟┃2K",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "playerType": "1",
-            "ext": "./json/dadagui.json"
         },
         {
             "key": "csp_星辰",
@@ -233,6 +205,17 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/55.json"
+        },
+        {
+            "key": "达达龟",
+            "name": "🎦达龟┃2K",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playerType": "1",
+            "ext": "./json/dadagui.json"
         },
         {
             "key": "农民影视",
