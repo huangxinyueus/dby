@@ -1,4 +1,4 @@
-//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+//关注微信公众号：奇友汇，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
@@ -197,7 +197,8 @@
             "api": "csp_BaiPiao",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.baipiaoys.com:9092"
         },
         {
             "key": "saohuo",
@@ -694,9 +695,7 @@
                 "ffzy"
             ],
             "regex": [
-                "25.0666",
-                "25.08",
-                "20.52"
+                "18.0"
             ]
         },
         {
@@ -705,8 +704,8 @@
                 "lz"
             ],
             "regex": [
-                "18.5333",
-                "19.52"
+                "17.2",
+                "19.84"
             ]
         },
         {
@@ -724,6 +723,7 @@
                 "yzzy"
             ],
             "regex": [
+                "18.66",
                 "19.52",
                 "19.13"
             ]
@@ -745,20 +745,8 @@
                 "kuaikan"
             ],
             "regex": [
-                "20.123",
-                "20.167"
-            ]
-        },
-        {
-            "name": "♻️索尼",
-            "hosts": [
-                "suonizy"
-            ],
-            "regex": [
-                "16.3333",
-                "15.1666",
-                "15.2666",
-                "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
+                "15.32",
+                "15.231"
             ]
         },
         {
@@ -768,16 +756,6 @@
             ],
             "regex": [
                 "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
-            ]
-        },
-        {
-            "name": "♻️蜗牛",
-            "hosts": [
-                "vip.123pan.cn",
-                "rescdn.wuxivlog.cn"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"
             ]
         },
         {
