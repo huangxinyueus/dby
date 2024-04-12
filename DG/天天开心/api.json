@@ -14,7 +14,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣热播",
+            "name": "关注公众号“天天开心2024”",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "searchable": 0,
@@ -221,11 +221,8 @@
             "key": "农民影视",
             "name": "🎦农民┃秒播",
             "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/nongmin.json"
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/农民影视.js"
         },
         {
             "key": "奈飞影视",
@@ -921,6 +918,16 @@
             "filterable": 1
         },
         {
+            "key": "csp_AliPS",
+            "name": "📀喵狸盘搜(搜索)",
+            "type": 3,
+            "api": "csp_AliPS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./txt/alitoken.txt"
+        },
+        {
             "key": "csp_XYQHiker_影搜",
             "name": "📀影搜(搜索)",
             "type": 3,
@@ -1033,6 +1040,16 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": "./json/qietiyu.json"
+        },
+        {
+            "key": "csp_Yj1211",
+            "name": "📡JustLive",
+            "type": 3,
+            "api": "csp_Yj1211",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "88看球",
