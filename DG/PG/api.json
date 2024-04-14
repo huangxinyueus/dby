@@ -1,4 +1,4 @@
-//关注微信公众号：奇友汇，发送“本地包”，获取本地包更新链接与图文教程。
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./pg.jar",
@@ -264,6 +264,17 @@
             "ext": "./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json"
         },
         {
+            "key": "ddys",
+            "name": "低端影视|网盘",
+            "type": 3,
+            "api": "csp_Ddys",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://ddys.pro/$$$proxy$$$1$$$"
+        },
+        {
             "key": "Xinshijue",
             "name": "新视觉|网盘",
             "type": 3,
@@ -338,7 +349,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"
+            "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$proxy$$$1"
         },
         {
             "key": "Bdys_spider",
@@ -714,16 +725,6 @@
             "timeout": 60
         },
         {
-            "key": "YQKan",
-            "name": "一起看",
-            "type": 3,
-            "api": "csp_YQKan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "索尼资源",
             "name": "索尼┃资源",
             "type": 1,
@@ -892,6 +893,17 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1
+        },
+        {
+            "key": "Ikanbot",
+            "name": "爱看机器人",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://v.ikanbot.com$$$proxy"
         },
         {
             "key": "csp_YingShi",
