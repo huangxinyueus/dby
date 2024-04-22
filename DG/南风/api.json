@@ -21,7 +21,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://www.czys03.com/"
+            "ext": "https://www.cz233.com/"
         },
         {
             "key": "csp_AppTT",
@@ -137,16 +137,6 @@
             "ext": "https://www.80yy3.com/"
         },
         {
-            "key": "csp_Zxzj",
-            "name": "🏚️在线",
-            "type": 3,
-            "api": "csp_Zxzj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.zxzja.com/"
-        },
-        {
             "key": "csp_Bttwoo",
             "name": "✌比特",
             "type": 3,
@@ -184,13 +174,14 @@
             "filterable": 1
         },
         {
-            "key": "csp_YQKan",
-            "name": "🌎一起看",
+            "key": "csp_Zxzj",
+            "name": "🏚️在线",
             "type": 3,
-            "api": "csp_YQKan",
+            "api": "csp_Zxzj",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "changeable": 1,
+            "ext": "https://www.zxzja.com/"
         },
         {
             "key": "csp_SixV",
@@ -769,55 +760,13 @@
     ],
     "rules": [
         {
-            "name": "wp",
-            "hosts": [
-                "vip.123pan.cn",
-                "rescdn.wuxivlog.cn"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-            ]
-        },
-        {
-            "name": "索尼",
-            "hosts": [
-                "suonizy"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15.1666,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15.2666,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-            ]
-        },
-        {
-            "name": "海外看",
-            "hosts": [
-                "haiwaikan"
-            ],
-            "regex": [
-                "8.1748",
-                "10.0099",
-                "10.3333"
-            ]
-        },
-        {
-            "name": "星星",
-            "hosts": [
-                "aws.ulivetv.net"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
             "name": "kk",
             "hosts": [
                 "kuaikan"
             ],
             "regex": [
+                "15.32",
+                "15.231",
                 "5",
                 "20.123",
                 "20.167",
@@ -832,6 +781,7 @@
             "regex": [
                 "18.4",
                 "15.1666",
+                "16.5333",
                 "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"
             ]
         },
@@ -841,8 +791,20 @@
                 "suonizy"
             ],
             "regex": [
+                "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+",
                 "15.1666",
-                "15.2666"
+                "15.2666",
+                "16.3333",
+                "15.266667"
+            ]
+        },
+        {
+            "name": "bf",
+            "hosts": [
+                "bfzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
             ]
         },
         {
@@ -855,44 +817,59 @@
             ]
         },
         {
-            "name": "量子",
+            "name": "lz",
             "hosts": [
                 "vip.lz",
-                "v.cdnlz",
                 "hd.lz",
+                "v.cdnlz",
                 "yzzy1.play"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:18.5333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                "18.5333",
+                "19.52",
+                "18.6666",
+                "17.2",
+                "19.84"
             ]
         },
         {
-            "name": "非凡",
+            "name": "ff",
             "hosts": [
                 "vip.ffzy",
-                "hd.ffzy"
+                "hd.ffzy",
+                "ffzy"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:25.0666,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                "25.0666",
+                "18.0",
+                "25.08",
+                "20.52",
+                "25.1",
+                "25.1999"
             ]
         },
         {
-            "name": "暴风",
+            "name": "ls",
             "hosts": [
-                "bfzy",
-                "s5.bfzycdn"
+                "leshiyun"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                "15.92"
             ]
         },
         {
-            "name": "火山",
+            "name": "yz",
+            "hosts": [
+                "yzzy"
+            ],
+            "regex": [
+                "18.66",
+                "19.52",
+                "19.13"
+            ]
+        },
+        {
+            "name": "hs",
             "hosts": [
                 "huoshan.com"
             ],
@@ -901,7 +878,7 @@
             ]
         },
         {
-            "name": "抖音",
+            "name": "dy",
             "hosts": [
                 "douyin.com"
             ],
@@ -915,9 +892,9 @@
                 "magnet"
             ],
             "regex": [
-                "最 新",
-                "直 播",
-                "更 新"
+                "最新",
+                "直播",
+                "更新"
             ]
         }
     ],

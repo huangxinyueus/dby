@@ -39,16 +39,6 @@
             "changeable": 0
         },
         {
-            "key": "短剧",
-            "name": "🌈上头┃短剧",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/上头短剧.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
             "key": "酷看",
             "name": "💡酷看┃秒播",
             "type": 3,
@@ -109,7 +99,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czys03.com/"
+            "ext": "https://www.cz233.com/"
+        },
+        {
+            "key": "七七",
+            "name": "👒七七┃秒播",
+            "type": 3,
+            "api": "csp_Kunyu77",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "南瓜",
@@ -118,6 +118,16 @@
             "api": "csp_NanGua",
             "timeout": 15,
             "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "低端",
+            "name": "⏮️低端┃外剧",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -132,26 +142,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "./json/nmys.json"
-        },
-        {
-            "key": "七七",
-            "name": "👒七七┃秒播",
-            "type": 3,
-            "api": "csp_Kunyu77",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "低端",
-            "name": "⏮️低端┃外剧",
-            "type": 3,
-            "api": "csp_Ddrk",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "毛驴",
@@ -432,11 +422,12 @@
             "key": "夸搜",
             "name": "🐺夸搜┃搜索",
             "type": 3,
-            "api": "csp_QuarkPanso",
+            "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
+                "pan": "quark",
                 "quarkCookie": "tvfan/cookie.txt",
                 "from": "4k|auto|fhd"
             }
@@ -801,21 +792,15 @@
     ],
     "lives": [
         {
-            "name": "ITV",
+            "name": "XIUTAN",
             "type": 0,
-            "url": "./lives/ITV.txt",
+            "url": "./lives/XIUTAN.txt",
             "epg": ""
         },
         {
             "name": "IPV6",
             "type": 0,
             "url": "./lives/IPV6.txt",
-            "epg": ""
-        },
-        {
-            "name": "XIUTAN",
-            "type": 0,
-            "url": "./lives/XIUTAN.txt",
             "epg": ""
         }
     ]

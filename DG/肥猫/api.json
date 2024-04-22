@@ -42,8 +42,28 @@
             "name": "🏔┃耐看┃影视",
             "type": 3,
             "playerType": "2",
-            "api": "csp_Nkdy",
-            "searchable": 0
+            "api": "csp_Nkdy"
+        },
+        {
+            "key": "csp_NfApp",
+            "name": "🔷┃南坊┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_NfApp"
+        },
+        {
+            "key": "csp_Czys",
+            "name": "🍊┃橙汁┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Czys"
+        },
+        {
+            "key": "csp_Juqq",
+            "name": "⭕┃剧圈┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Juqq"
         },
         {
             "key": "csp_LiteApple",
@@ -95,7 +115,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czys03.com/"
+            "ext": "https://www.cz233.com/"
         },
         {
             "key": "csp_AppRZ",
@@ -214,6 +234,13 @@
             "playerType": "2",
             "api": "./api/drpy2.min.js",
             "ext": "./js/TVB云播.js"
+        },
+        {
+            "key": "小蚂蚁",
+            "name": "🐜┃蚂蚁┃影视",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/小蚂蚁2.js"
         },
         {
             "key": "csp_Xb6v",
