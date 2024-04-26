@@ -39,6 +39,15 @@
             "changeable": 0
         },
         {
+            "key": "短剧",
+            "name": "🌈上头┃短剧",
+            "type": 3,
+            "api": "csp_Djuu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "酷看",
             "name": "💡酷看┃秒播",
             "type": 3,

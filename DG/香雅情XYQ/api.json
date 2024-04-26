@@ -1,4 +1,4 @@
-//关注微信公众号：奇友汇，发送“本地包”，获取本地包更新链接与图文教程。
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
@@ -229,31 +229,23 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzy55.com"
+            "ext": "https://www.cz233.com"
         },
         {
-            "key": "csp_Bdys",
-            "name": "🐞哔嘀影视",
+            "key": "csp_XYQHiker_哔嘀影视",
+            "name": "🧲哔嘀影视(XYQH)",
             "type": 3,
-            "api": "csp_Bdys",
+            "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "./json/哔嘀影视.json"
         },
         {
             "key": "csp_Ddys",
             "name": "🐞低端影视",
             "type": 3,
             "api": "csp_Ddys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Kunyu77",
-            "name": "🐞77影视",
-            "type": 3,
-            "api": "csp_Kunyu77",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -390,35 +382,6 @@
             "ext": "./json/Bili短剧.json"
         },
         {
-            "key": "csp_短剧网",
-            "name": "短剧网",
-            "type": 3,
-            "api": "csp_Duanjuw",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_XYQHiker_996影视",
-            "name": "996影视(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/996影视.json"
-        },
-        {
-            "key": "csp_XYQBiu_88看球",
-            "name": "88看球(XYQ)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/88看球.json"
-        },
-        {
             "key": "csp_Yj1211",
             "name": "📡JustLive",
             "type": 3,
@@ -447,26 +410,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./json/虎牙直播.json"
-        },
-        {
-            "key": "csp_XYQHiker_斗鱼直播",
-            "name": "🐠斗鱼直播(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./json/斗鱼直播.json"
-        },
-        {
-            "key": "csp_XYQBiu_网易CC直播",
-            "name": "🕸网易CC直播(XYQ)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/网易CC直播.json"
         }
     ],
     "parses": [

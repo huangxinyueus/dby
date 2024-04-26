@@ -230,6 +230,16 @@
             "filterable": 1
         },
         {
+            "key": "csp_Djuu",
+            "name": "🌈短剧",
+            "type": 3,
+            "api": "csp_Djuu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_Yj1211",
             "name": "📽️在线直播",
             "type": 3,
