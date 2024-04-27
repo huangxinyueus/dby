@@ -14,14 +14,14 @@
             "filterable": 1
         },
         {
-            "key": "csp_Czsapp",
+            "key": "csp_NewCz",
             "name": "🏭厂长",
             "type": 3,
-            "api": "csp_Czsapp",
+            "api": "csp_NewCz",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://www.cz233.com/"
+            "ext": "https://www.czys.top/"
         },
         {
             "key": "csp_AppTT",
