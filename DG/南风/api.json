@@ -21,7 +21,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://www.czys.top/"
+            "ext": "https://czzy.top/"
         },
         {
             "key": "csp_AppTT",
@@ -85,6 +85,16 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "https://www.baipiaoys.com:9092/"
+        },
+        {
+            "key": "csp_Xdys",
+            "name": "💥小点",
+            "type": 3,
+            "api": "csp_Xdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
         },
         {
             "key": "csp_Jianpian",
@@ -181,7 +191,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.zxzja.com/"
+            "ext": "https://www.zxzjhd.com/"
         },
         {
             "key": "csp_SixV",
@@ -278,9 +288,9 @@
             "changeable": 0,
             "ext": {
                 "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "quarkCookie": "tvfan/cookie.txt",
+                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
                 "from": "4k|auto|fhd",
-                "siteUrl": "https://api.wogg.xyz/",
+                "siteUrl": "https://www.wogg.link/",
                 "danMu": "弹"
             }
         },
@@ -337,15 +347,16 @@
             }
         },
         {
-            "key": "csp_QuarkPanso",
+            "key": "QuarkPanso",
             "name": "🐺夸搜",
             "type": 3,
-            "api": "csp_QuarkPanso",
+            "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "quarkCookie": "tvfan/cookie.txt",
+                "pan": "quark",
+                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -358,9 +369,18 @@
             "quickSearch": 0,
             "ext": {
                 "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "quarkCookie": "tvfan/cookie.txt",
+                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
                 "from": "4k|auto|fhd"
             }
+        },
+        {
+            "key": "csp_Local",
+            "name": "📚本地",
+            "type": 3,
+            "api": "csp_Local",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
         },
         {
             "key": "csp_Nbys",
@@ -422,54 +442,10 @@
                 "分类值": "1&2&3&4&12&5",
                 "副标题": "<div class=\"module-item-note\">&&</div>",
                 "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-                "线路数组": "data-dropdown-value=&&</div>",
-                "线路标题": "<span>&&</small>",
+                "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
                 "导演": "导演：&&</div>",
                 "主演": "主演：&&</div>",
                 "简介": "<p>&&</p>"
-            }
-        },
-        {
-            "key": "黑狐",
-            "name": "💢黑狐",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "playerType": "2",
-            "ext": {
-                "站名": "黑狐影院",
-                "主页url": "http://fagmn.com",
-                "数组": "class=\"stui-vodlist__box\"&&</a",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
-                "过滤词": "/hls/#php",
-                "副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
-                "搜索模式": "1",
-                "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索标题": "title=\"&&\"",
-                "搜索链接": "href=\"&&\"",
-                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "搜索后缀": "/view/",
-                "线路数组": "href=\"#down&&/a>",
-                "线路标题": ">&&<",
-                "播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
-                "状态": "地区：&&</p>",
-                "导演": "导演：&&</p>",
-                "主演": "主演：&&</p>",
-                "简介": "简介：&&</div>",
-                "播放列表": "<a&&/a>",
-                "播放标题": ">&&<",
-                "播放链接": "href=\"&&\"",
-                "免嗅": "0",
-                "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-                "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
             }
         },
         {
