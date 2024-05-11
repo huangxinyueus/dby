@@ -3,6 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
+    "logo": "http://我不是.肥猫.live/fatcat.jpg",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
@@ -38,18 +39,20 @@
             "ext": "https://www.80yy3.com/"
         },
         {
+            "key": "胖虎",
+            "name": "🐯┃胖虎┃影视",
+            "type": 3,
+            "api": "csp_Panghu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_Nkdy",
             "name": "🏔┃耐看┃影视",
             "type": 3,
             "playerType": "2",
             "api": "csp_Nkdy"
-        },
-        {
-            "key": "csp_Czys",
-            "name": "🍊┃橙汁┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Czys"
         },
         {
             "key": "csp_Juqq",
@@ -63,7 +66,10 @@
             "name": "🍎┃苹果┃影视",
             "type": 3,
             "playerType": "2",
-            "api": "csp_LiteApple"
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_Panda_玩偶哥哥",
@@ -117,13 +123,6 @@
             "playerType": "2",
             "api": "csp_AppRZ",
             "ext": "http://rzys.xyz/"
-        },
-        {
-            "key": "csp_Freeok",
-            "name": "️️👌┃FreeOK┃影视",
-            "type": 3,
-            "playerType": "1",
-            "api": "csp_Freeok"
         },
         {
             "key": "csp_Nmys",
@@ -188,20 +187,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_GanFan",
-            "name": "🍙┃干饭┃影视",
-            "type": 3,
-            "api": "csp_GanFan",
-            "playerType": 2
-        },
-        {
-            "key": "白嫖",
-            "name": "🌅┃白嫖┃影视",
-            "type": 3,
-            "api": "csp_BaiPiao",
-            "playerType": "2"
         },
         {
             "key": "saohuo",
@@ -372,22 +357,6 @@
             "api": "csp_Voflix",
             "playerType": "2",
             "ext": "https://www.voflix.me/"
-        },
-        {
-            "key": "csp_Duanju",
-            "name": "🎭┃短剧┃视频",
-            "type": 3,
-            "api": "csp_Duanju",
-            "playerType": "2",
-            "searchable": 0
-        },
-        {
-            "key": "种子短剧",
-            "name": "🍒┃短剧┃种子",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/种子短剧.js",
-            "playerType": 2
         },
         {
             "key": "alist",

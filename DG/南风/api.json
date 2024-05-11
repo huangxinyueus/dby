@@ -75,18 +75,6 @@
             "changeable": 1
         },
         {
-            "key": "csp_BaiPiao",
-            "name": "👻白嫖",
-            "type": 3,
-            "api": "csp_BaiPiao",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://www.baipiaoys.com:9092/"
-        },
-        {
             "key": "csp_Xdys",
             "name": "💥小点",
             "type": 3,
@@ -170,15 +158,6 @@
             "name": "👀快看",
             "type": 3,
             "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Kunyu77",
-            "name": "👒酷云七七",
-            "type": 3,
-            "api": "csp_Kunyu77",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
