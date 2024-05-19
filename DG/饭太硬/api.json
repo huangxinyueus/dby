@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌕公众号【神秘的哥哥们】",
+            "name": "🌕全接口智能过滤广告",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -58,28 +58,6 @@
             "changeable": 1
         },
         {
-            "key": "原创",
-            "name": "☀原创┃无广",
-            "type": 3,
-            "api": "csp_YCyz",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "厂长",
-            "name": "📔厂长┃不卡",
-            "type": 3,
-            "api": "csp_NewCz",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://czzy.top/"
-        },
-        {
             "key": "视觉",
             "name": "👓视觉┃多线",
             "type": 3,
@@ -109,6 +87,28 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "原创",
+            "name": "☀原创┃不卡",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "📔厂长┃不卡",
+            "type": 3,
+            "api": "csp_NewCz",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://czzy.top/"
         },
         {
             "key": "糯米",
@@ -206,7 +206,7 @@
         },
         {
             "key": "Lib",
-            "name": "🌟立播┃无广",
+            "name": "🌟立播┃不卡",
             "type": 3,
             "api": "csp_Libvio",
             "timeout": 15,

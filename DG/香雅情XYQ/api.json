@@ -5,12 +5,6 @@
     "spider": "./spider.jar",
     "lives": [
         {
-            "name": "本地live文件",
-            "type": 0,
-            "url": "./lives/本地live文件.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
             "name": "FMM_IPV6",
             "type": 0,
             "url": "./lives/FMM_IPV6.txt",
@@ -225,7 +219,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.cz233.com"
+            "ext": "https://www.czys.top"
         },
         {
             "key": "csp_Bdys",
@@ -254,7 +248,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://oiuzy.haitu33.com"
+            "ext": "http://112.124.0.131:20000"
         },
         {
             "key": "csp_Ikanbot",
