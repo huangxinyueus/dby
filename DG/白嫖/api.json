@@ -98,16 +98,6 @@
             "ext": "公众号:影视资源站"
         },
         {
-            "key": "zz",
-            "name": "短剧|种子",
-            "type": 3,
-            "api": "csp_App",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://zzdj.cc/api.php/provide/vod"
-        },
-        {
             "key": "bili",
             "name": "休闲|B站",
             "type": 3,
