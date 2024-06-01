@@ -1,23 +1,11 @@
-    {
-    
-    "作者":"天天开心",
-    
-    "站名":"白嫖电影网",
-    
-    "主页url":"https://dy.gduan.com/",
-    
-    "简介":"<p>&&</p>",
-    
-    "导演":"导演：&&</div>",
-    
-    "主演":"主演：&&</div>",
-        
-    "影片状态":"备注：&&</div>",
-    
-    "线路数组":"<h3&&</h3>",
-    
-    "线路标题":"+>&&",
-    
-    "分类url":"https://dy.gduan.com/index.php/vod/type/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;ax",
-    
-    "分类":"电影$1#电视剧$2#综艺$3#动漫$4"}
+  {
+"站名": "白嫖电影网",
+"作者": "天天开心",
+"分类url": "https://dy.gduan.com/index.php/vod/detail/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}.html[https://dy.gduan.com/index.php/vod/detail/id/{cateId}.html]",
+"分类": "电影&剧集&动漫&综艺",
+"分类值": "1&2&4&3",
+
+"简介": ">&&</p>",
+"排序": "时间$time#人气$hits#评分$score",
+"主页url": "https://dy.gduan.com/"
+}  

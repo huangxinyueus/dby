@@ -24,14 +24,19 @@
             "ext": "https://czzy.top/"
         },
         {
-            "key": "csp_Nmys",
+            "key": "农民",
             "name": "🥝农民",
             "type": 3,
-            "api": "csp_Nmys",
+            "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/nmys.json"
+            "ext": {
+                "数组": "<li>&&</li>",
+                "图片": "src=\"&&\"",
+                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
+                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
+            }
         },
         {
             "key": "csp_AppTT",
@@ -59,16 +64,6 @@
             "name": "💡酷看",
             "type": 3,
             "api": "csp_Kkys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "csp_LiteApple",
-            "name": "🍎小苹果",
-            "type": 3,
-            "api": "csp_LiteApple",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -105,6 +100,16 @@
             "ext": "http://api2.rinhome.com"
         },
         {
+            "key": "csp_Xinsj",
+            "name": "✨新视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.80yy3.com/"
+        },
+        {
             "key": "csp_DiDuan",
             "name": "📺低端",
             "type": 3,
@@ -135,16 +140,6 @@
             "ext": "https://www.maolvys.com/"
         },
         {
-            "key": "csp_Xinsj",
-            "name": "✨新视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.80yy3.com/"
-        },
-        {
             "key": "csp_Bttwoo",
             "name": "✌比特",
             "type": 3,
@@ -152,6 +147,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Kekys",
+            "name": "👻可可",
+            "type": 3,
+            "api": "csp_Kekys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "csp_Lib",
@@ -171,6 +177,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_LiteApple",
+            "name": "🍎小苹果",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
         },
         {
             "key": "csp_Zxzj",
@@ -287,9 +303,9 @@
             "changeable": 0,
             "ext": {
                 "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
                 "from": "4k|auto|fhd",
-                "siteUrl": "https://woggapi.333232.xyz/",
+                "siteUrl": "https://www.wogg.link/",
                 "danMu": "弹"
             }
         },
@@ -311,19 +327,6 @@
             "name": "📀盘搜",
             "type": 3,
             "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "from": "4k|auto|fhd"
-            }
-        },
-        {
-            "key": "csp_UpYun",
-            "name": "☁️Up云搜",
-            "type": 3,
-            "api": "csp_UpYun",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -355,7 +358,7 @@
             "changeable": 0,
             "ext": {
                 "pan": "quark",
-                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -369,7 +372,7 @@
             "changeable": 0,
             "ext": {
                 "pan": "quark",
-                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -382,7 +385,7 @@
             "quickSearch": 0,
             "ext": {
                 "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "quarkCookie": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/cookie.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -811,6 +814,7 @@
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
+    "logo": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/sub/LiuHua.gif",
     "doh": [
         {
             "name": "Google",

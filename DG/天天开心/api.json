@@ -61,24 +61,34 @@
             "ext": "./js/jianpian.js"
         },
         {
-            "key": "茶狐杯",
-            "name": "🎦茶狐杯",
+            "key": "美柏",
+            "name": "🎦美柏",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/茶狐杯.json"
+            "ext": "./json/美柏.json"
         },
         {
-            "key": "文才",
-            "name": "🎦文才",
+            "key": "胖虎",
+            "name": "🎦胖虎",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/文才.json"
+            "ext": "./json/胖虎.json"
+        },
+        {
+            "key": "剧圈圈",
+            "name": "🎦剧圈圈",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/剧圈圈.json"
         },
         {
             "key": "csp_xBPQ_九八",
@@ -158,17 +168,49 @@
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
+            "playerType": 1,
             "changeable": 1
         },
         {
-            "key": "csp_xBPQ白嫖电影网",
-            "name": "🎦白嫖电影网",
+            "key": "原创",
+            "name": "🎦原创┃无广",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "playerType": 1,
+            "changeable": 1
+        },
+        {
+            "key": "4K影视",
+            "name": "🎦4K影视",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/白嫖电影网.json"
+            "ext": "./json/4K影视.json"
+        },
+        {
+            "key": "神仙影视",
+            "name": "🎦神仙影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/神仙影视.json"
+        },
+        {
+            "key": "西屋影视",
+            "name": "🎦西屋影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/西屋影视.json"
         },
         {
             "key": "qimaoys",
@@ -238,6 +280,36 @@
             }
         },
         {
+            "key": "子子影视",
+            "name": "🎦子子影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/子子.json"
+        },
+        {
+            "key": "茶狐杯",
+            "name": "🎦茶狐杯",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/茶狐杯.json"
+        },
+        {
+            "key": "文才",
+            "name": "🎦文才",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/文才.json"
+        },
+        {
             "key": "三米ys",
             "name": "🎦三米影视",
             "type": 3,
@@ -270,6 +342,7 @@
             "name": "🎦苹果┃无广",
             "type": 3,
             "api": "csp_LiteApple",
+            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -282,6 +355,7 @@
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
+            "playerType": 1,
             "changeable": 1,
             "ext": "https://www.80yy3.com/"
         },
@@ -343,6 +417,16 @@
                 "副标题": "class=\"pic-text text-right\"&&</span>",
                 "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >"
             }
+        },
+        {
+            "key": "csp_xBPQ白嫖电影网",
+            "name": "🎦白嫖影视网",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/白嫖电影网.json"
         },
         {
             "key": "老六影视",
@@ -458,25 +542,14 @@
             "ext": "./json/shyyVIP.json"
         },
         {
-            "key": "赘婿影视",
-            "name": "🎦赘婿影视",
+            "key": "csp_xBPQ看客影视",
+            "name": "🎦看客影视",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": {
-                "数组": "video-img lazyload&&</p>",
-                "副标题": "mr-xs-0\">&&</span>",
-                "简介": "entry-content clearfix\">&&</p>",
-                "搜索url": "https://zhuixu.cc/Kansearch/-------------/?wd=",
-                "线路数组": "data-target=\"#ewave-playlist-&&</li>",
-                "线路标题": ">&&</a >",
-                "播放数组": "<ul class=\"row ewave-tab-content ewave-playlist-content&&</ul>",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "分类url": "https://zhuixu.cc/type/{cateId}-{catePg}/",
-                "分类": "剧集$2#电影$1#番剧$4#纪录$39#短剧$44#体育$45#娱乐$46#解说$48"
-            }
+            "ext": "./json/看客影视.json"
         },
         {
             "key": "奈飞影视",
@@ -517,6 +590,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/TVB.json"
+        },
+        {
+            "key": "csp_Kuaikan",
+            "name": "🎦快看影视",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "达达龟",
@@ -587,6 +669,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/qiyou.json"
+        },
+        {
+            "key": "光棍影视",
+            "name": "🎦光棍┃秒播",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/guangun.json"
         },
         {
             "key": "VIP影视",
