@@ -2,11 +2,11 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://深色壁纸.xxooo.cf/",
+    "wallpaper": "https://深色壁纸.饭.eu.org/",
     "sites": [
         {
             "key": "豆豆",
-            "name": "接口全面更新！top改com",
+            "name": "重要更新！接口的top改com",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -288,7 +288,8 @@
             "key": "88js",
             "name": "⚽ 88┃看球",
             "type": 3,
-            "api": "csp_Kanqiu",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/88看球.js",
             "style": {
                 "type": "list"
             },
@@ -302,19 +303,6 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/jrk.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "310js",
-            "name": "⚽310┃看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/310直播.js",
             "style": {
                 "type": "list"
             },

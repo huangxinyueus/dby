@@ -57,16 +57,6 @@
             "timeout": 10
         },
         {
-            "key": "南瓜",
-            "name": "🎃南瓜┃直连",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 10
-        },
-        {
             "key": "玩偶",
             "name": "👽玩偶┃4K",
             "type": 3,
@@ -840,15 +830,21 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "live-1",
             "type": 0,
-            "url": "./lives/live.txt",
+            "url": "./lives/live-1.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {
-            "name": "iptv",
+            "name": "live-2",
             "type": 0,
-            "url": "./lives/iptv.txt",
+            "url": "./lives/live-2.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "live-3",
+            "type": 0,
+            "url": "./lives/live-3.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {
@@ -858,15 +854,9 @@
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {
-            "name": "mitv",
+            "name": "gat",
             "type": 0,
-            "url": "./lives/mitv.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "ddns",
-            "type": 0,
-            "url": "./lives/ddns.txt",
+            "url": "./lives/gat.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
@@ -1049,9 +1039,7 @@
                 "uhibo.com",
                 ".*boku.*",
                 ".*nivod.*",
-                ".*ulivetv.*",
-                "wogg.link",
-                "wogg.xyz"
+                ".*ulivetv.*"
             ]
         },
         {
