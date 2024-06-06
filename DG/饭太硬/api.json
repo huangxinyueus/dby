@@ -617,7 +617,7 @@
         },
         {
             "key": "fan",
-            "name": "导航 https://饭太硬.com",
+            "name": "导航 www.饭太硬.com",
             "type": 3,
             "api": "csp_XPath",
             "searchable": 1,
@@ -629,7 +629,7 @@
             "name": "请勿相信视频中广告",
             "type": 3,
             "api": "csp_XPath",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 0,
             "changeable": 0
         }
