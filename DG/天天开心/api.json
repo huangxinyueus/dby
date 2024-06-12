@@ -198,6 +198,17 @@
             "ext": "./json/西屋影视.json"
         },
         {
+            "key": "剧集",
+            "name": "🎦剧集影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "搜索url": "https://wap.ijujitv.cc/search/-------------.html?wd=**",
+                "分类url": "https://wap.ijujitv.cc/show/{cateId}--------{catePg}---{year}.html",
+                "分类": "陆剧$6#日剧$2#美剧$3#泰剧$4#港剧$7#台剧$8#短剧$9"
+            }
+        },
+        {
             "key": "mayiys",
             "name": "🎦蚂蚁影视",
             "type": 3,
@@ -1406,6 +1417,7 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/88看球.js",
+            "playerType": 1,
             "style": {
                 "type": "list"
             },
@@ -1420,6 +1432,7 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/jrk.js",
+            "playerType": 1,
             "style": {
                 "type": "list"
             },
@@ -1434,8 +1447,9 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "searchable": 1,
-            "quickSearch": 1,
+            "playerType": 1,
             "ua": "okhttp/3.15",
+            "quickSearch": 1,
             "filterable": 0,
             "ext": "./js/310.js"
         },
@@ -1444,11 +1458,12 @@
             "name": "🐧鹅鹅┃体育",
             "type": 3,
             "api": "csp_XPath",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
             "style": {
                 "type": "list"
             },
             "searchable": 0,
-            "ua": "okhttp/3.15",
             "quickSearch": 0,
             "changeable": 0,
             "ext": "./json/企鹅直播.json"
