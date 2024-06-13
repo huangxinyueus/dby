@@ -24,14 +24,19 @@
             "ext": "https://www.czzy.top"
         },
         {
-            "key": "csp_Nmys",
+            "key": "农民",
             "name": "🥝农民",
             "type": 3,
-            "api": "csp_Nmys",
+            "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/nmys.json"
+            "ext": {
+                "数组": "<li>&&</li>",
+                "图片": "src=\"&&\"",
+                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
+                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
+            }
         },
         {
             "key": "csp_TianTian",
@@ -43,14 +48,14 @@
             "filterable": 1
         },
         {
-            "key": "csp_VidHub",
-            "name": "🦄视频库",
+            "key": "csp_Ikanbot",
+            "name": "❤️Ikanbot",
             "type": 3,
-            "api": "csp_VidHub",
+            "api": "csp_Ikanbot",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://vidhub1.cc"
+            "ext": "https://v.aikanbot.com"
         },
         {
             "key": "热播",
@@ -106,23 +111,13 @@
         },
         {
             "key": "csp_Xdys",
-            "name": "💥小点",
+            "name": "💥兄弟",
             "type": 3,
             "api": "csp_Xdys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0
-        },
-        {
-            "key": "csp_Jianpian",
-            "name": "🧲荐片",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://api2.rinhome.com"
         },
         {
             "key": "csp_Xinsj",
@@ -144,25 +139,15 @@
             "filterable": 0
         },
         {
-            "key": "csp_Auete",
-            "name": "🐼奥特",
+            "key": "csp_Cddys",
+            "name": "🍓蛋蛋",
             "type": 3,
-            "api": "csp_Auete",
+            "api": "csp_Cddys",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://auete.pro/"
-        },
-        {
-            "key": "csp_MLYS",
-            "name": "🐴毛驴",
-            "type": 3,
-            "api": "csp_MLYS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": "https://www.maolvys.com/"
+            "changeable": 1
         },
         {
             "key": "csp_Bttwoo",
@@ -221,6 +206,70 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.zxzjhd.com/"
+        },
+        {
+            "key": "csp_Jianpian",
+            "name": "🧲荐片",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://api2.rinhome.com"
+        },
+        {
+            "key": "csp_Mp4Mov",
+            "name": "🧲Mp4电影",
+            "type": 3,
+            "api": "csp_Mp4Mov",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_SeedHub",
+            "name": "🧲SeedHub",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_KubaCL",
+            "name": "🧲酷吧电影",
+            "type": 3,
+            "api": "csp_KubaCL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_MeijuMi",
+            "name": "🧲美剧迷",
+            "type": 3,
+            "api": "csp_MeijuMi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Xunlei8",
+            "name": "🧲迅雷吧",
+            "type": 3,
+            "api": "csp_Xunlei8",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_MeijuTT",
+            "name": "🧲美剧天堂",
+            "type": 3,
+            "api": "csp_MeijuTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_SixV",
@@ -363,6 +412,19 @@
             }
         },
         {
+            "key": "csp_UpYun",
+            "name": "☁️Up云搜",
+            "type": 3,
+            "api": "csp_UpYun",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+                "from": "4k|auto|fhd"
+            }
+        },
+        {
             "key": "csp_MIPanSo",
             "name": "🦋米搜",
             "type": 3,
@@ -422,17 +484,6 @@
             "filterable": 1
         },
         {
-            "key": "ikanbot",
-            "name": "❤️ikanbot",
-            "type": 3,
-            "playerType": "2",
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/ikanbot.js"
-        },
-        {
             "key": "骚火",
             "name": "💢骚火",
             "type": 3,
@@ -487,25 +538,6 @@
                 "导演": "导演：&&</div>",
                 "主演": "主演：&&</div>",
                 "简介": "<p>&&</p>"
-            }
-        },
-        {
-            "key": "蛋蛋",
-            "name": "💢蛋蛋",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "嗅探词": "v3.toutiaovod.com#v3-dy-o.zjcdn#.m3u8#/tos/#.mp4",
-                "请求头": "手机#Referer$https://www.dandanju.cc/",
-                "分类url": "https://www.dandanju.cc/show/{cateId}--------{catePg}---2023.html",
-                "分类": "电影$1#剧集$2#动漫$4#综艺$4",
-                "数组": " <li class=\"col-md-6 col-sm-4 col-xs-3&&</li",
-                "搜索模式": "1",
-                "搜索url": "https://www.dandanju.cc/search/{wd}----------1---.html",
-                "搜索数组": "<li class=\"active clearfix&&</li"
             }
         },
         {

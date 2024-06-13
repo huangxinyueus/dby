@@ -47,6 +47,16 @@
             "timeout": 10
         },
         {
+            "key": "南瓜",
+            "name": "🎃南瓜┃直连",
+            "type": 3,
+            "api": "csp_Nangua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
             "key": "小苹果",
             "name": "🍎苹果┃直连",
             "type": 3,
@@ -699,6 +709,26 @@
             "url": "Web"
         },
         {
+            "name": "-4K-",
+            "type": 1,
+            "url": "http://110.40.61.123:7777/api/?key=IxRXSU7o6P9PzlIxrW&url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-二小-",
+            "type": 1,
+            "url": "http://43.136.176.188:91/api/?key=f99226916774bfa29c9af99b2c736fd9&url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+                }
+            }
+        },
+        {
             "name": "-咸鱼-",
             "type": 0,
             "url": "https://jx.xyflv.cc/?url=",
@@ -720,16 +750,6 @@
             }
         },
         {
-            "name": "-爱酷-",
-            "type": 0,
-            "url": "https://jx.zhanlangbu.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
             "name": "-云解析-",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
@@ -743,16 +763,6 @@
             "name": "-777-",
             "type": 0,
             "url": "https://jx.jsonplayer.com/player/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-剖云-",
-            "type": 0,
-            "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -851,7 +861,7 @@
             "name": "fanmingming",
             "type": 0,
             "url": "./lives/fanmingming.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "epg": ""
         },
         {
             "name": "gat",
