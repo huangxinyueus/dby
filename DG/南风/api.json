@@ -80,16 +80,6 @@
             "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
         },
         {
-            "key": "csp_NanGua",
-            "name": "🎃南瓜",
-            "type": 3,
-            "api": "csp_NanGua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Kkys",
             "name": "💡酷看",
             "type": 3,
@@ -107,6 +97,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "csp_Jpys",
+            "name": "💮金牌",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
             "changeable": 1
         },
         {
@@ -144,6 +144,16 @@
             "type": 3,
             "api": "csp_Cddys",
             "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "csp_NanGua",
+            "name": "🎃南瓜",
+            "type": 3,
+            "api": "csp_NanGua",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -206,6 +216,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.zxzjhd.com/"
+        },
+        {
+            "key": "csp_Auete",
+            "name": "🐼奥特",
+            "type": 3,
+            "api": "csp_Auete",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://auete.pro/"
         },
         {
             "key": "csp_Jianpian",
@@ -282,6 +302,16 @@
             "ext": "http://www.xb6v.com/"
         },
         {
+            "key": "csp_XYQHikerAL_4KHDR",
+            "name": "🧲4KHDR",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/4KHDR.json"
+        },
+        {
             "key": "csp_SP360",
             "name": "💘360",
             "type": 3,
@@ -293,7 +323,7 @@
         },
         {
             "key": "csp_Anime1",
-            "name": "🌸动漫",
+            "name": "🌸Anime动漫",
             "type": 3,
             "api": "csp_Anime1",
             "searchable": 1,
@@ -305,15 +335,6 @@
             "name": "🚌动漫巴士",
             "type": 3,
             "api": "csp_Dm84",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "Ying",
-            "name": "🌸樱花动漫",
-            "type": 3,
-            "api": "csp_Ying",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -339,7 +360,7 @@
         },
         {
             "key": "csp_Yj1211",
-            "name": "📽️在线直播",
+            "name": "📽️JustLive",
             "type": 3,
             "api": "csp_Yj1211",
             "searchable": 1,
@@ -371,6 +392,36 @@
                 "siteUrl": "https://www.wogg.link/",
                 "danMu": "弹"
             }
+        },
+        {
+            "key": "csp_XYQHikerAL_阿里土豆",
+            "name": "🥔阿里土豆",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/土豆.json"
+        },
+        {
+            "key": "csp_XYQHikerAL__影搜",
+            "name": "😈影搜",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/影搜.json"
+        },
+        {
+            "key": "csp_XYQHikerAL__ED3000",
+            "name": "0️⃣ED3000",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/ED3000.json"
         },
         {
             "key": "csp_YiSo",
@@ -763,6 +814,58 @@
             "url": "Demo"
         },
         {
+            "name": "xmflv",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ]
+            }
+        },
+        {
+            "name": "咸鱼",
+            "type": 0,
+            "url": "https://jx.xyflv.cc/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ]
+            }
+        },
+        {
             "name": "777",
             "type": 0,
             "url": "https://jx.777jiexi.com/player/?url=",
@@ -818,58 +921,6 @@
                 "header": {
                     "User-Agent": "okhttp/4.1.0"
                 }
-            }
-        },
-        {
-            "name": "xmflv",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
-            }
-        },
-        {
-            "name": "咸鱼",
-            "type": 0,
-            "url": "https://jx.xyflv.cc/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
             }
         }
     ],

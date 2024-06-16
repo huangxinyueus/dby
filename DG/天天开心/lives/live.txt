@@ -25,7 +25,8 @@
 凤凰资讯频道,http://61.221.215.25:8800/hls/47/index.m3u8
 凤凰资讯频道,http://103.95.24.37:880/fhzx.m3u8
 凤凰资讯频道,http://146.56.153.245:20121/bysid/257
-
+TVB翡翠台,http://60.30.198.43:5080/香蕉哥/tvb翡翠/hls.m3u8
+TVB翡翠台,http://60.30.198.43:5080/香蕉哥/tvb翡翠2/hls.m3u8
 香港凤凰频道,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 香港凤凰频道,https://epg.pw/stream/b3ab43b2415df405226d5b25f38e51432ca7d32b5a240e0aa1f3e201d181442f.m3u8
 香港凤凰频道,http://hikvision.city:880/fhxgt.m3u8
@@ -169,6 +170,23 @@ HBO（美）,http://117.114.153.25:8180/TV00000000000000000074@HHZT
 
 
 💝央视频道👉开心,#genre#
+CCTV1,http://ttkx.live:55/lib/ysp.php?id=cctv1
+CCTV2,http://ttkx.live:55/lib/ysp.php?id=cctv2
+CCTV4,http://ttkx.live:55/lib/ysp.php?id=cctv4
+CCTV5,http://ttkx.live:55/lib/ysp.php?id=cctv5
+CCTV5+,http://ttkx.live:55/lib/ysp.php?id=cctv5p
+CCTV7,http://ttkx.live:55/lib/ysp.php?id=cctv7
+CCTV9,http://ttkx.live:55/lib/ysp.php?id=cctv9
+CCTV10,http://ttkx.live:55/lib/ysp.php?id=cctv10
+CCTV11,http://ttkx.live:55/lib/ysp.php?id=cctv11
+CCTV12,http://ttkx.live:55/lib/ysp.php?id=cctv12
+CCTV13,http://ttkx.live:55/lib/ysp.php?id=cctv13
+CCTV14,http://ttkx.live:55/lib/ysp.php?id=cctv14
+CCTV15,http://ttkx.live:55/lib/ysp.php?id=cctv15
+CCTV16,http://ttkx.live:55/lib/ysp.php?id=cctv16
+CCTV17,http://ttkx.live:55/lib/ysp.php?id=cctv17
+CCTV4K,http://ttkx.live:55/lib/ysp.php?id=cctv4K
+CCTV8K,http://ttkx.live:55/lib/ysp.php?id=cctv8K
 CCTV16,http://iptv123.msns.cn:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://118.248.172.253:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://118.248.172.253:8088/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -860,6 +878,38 @@ CCTV_17,http://58.57.21.166:9901/tsfile/live/0019_1.m3u8
 扬州生活,https://cm-wshls.homecdn.com/live/8bf.m3u8
 扬州邗江,https://cm-wshls.homecdn.com/live/8c3.m3u8
 💝卫视频道👉全网,#genre#
+北京卫视,http://ttkx.live:55/lib/ysp.php?id=北京卫视
+辽宁卫视,http://ttkx.live:55/lib/ysp.php?id=辽宁卫视
+湖南卫视,http://ttkx.live:55/lib/ysp.php?id=湖南卫视
+浙江卫视,http://ttkx.live:55/lib/ysp.php?id=浙江卫视
+江苏卫视,http://ttkx.live:55/lib/ysp.php?id=江苏卫视
+安徽卫视,http://ttkx.live:55/lib/ysp.php?id=安徽卫视
+东方卫视,http://ttkx.live:55/lib/ysp.php?id=东方卫视
+湖北卫视,http://ttkx.live:55/lib/ysp.php?id=湖北卫视
+天津卫视,http://ttkx.live:55/lib/ysp.php?id=天津卫视
+黑龙江卫视,http://ttkx.live:55/lib/ysp.php?id=黑龙江卫视
+东南卫视,http://ttkx.live:55/lib/ysp.php?id=东南卫视
+山东卫视,http://ttkx.live:55/lib/ysp.php?id=山东卫视
+广东卫视,http://ttkx.live:55/lib/ysp.php?id=广东卫视
+广西卫视,http://ttkx.live:55/lib/ysp.php?id=广西卫视
+贵州卫视,http://ttkx.live:55/lib/ysp.php?id=贵州卫视
+江西卫视,http://ttkx.live:55/lib/ysp.php?id=江西卫视
+河北卫视,http://ttkx.live:55/lib/ysp.php?id=河北卫视
+河南卫视,http://ttkx.live:55/lib/ysp.php?id=河南卫视
+四川卫视,http://ttkx.live:55/lib/ysp.php?id=四川卫视
+重庆卫视,http://ttkx.live:55/lib/ysp.php?id=重庆卫视
+深圳卫视,http://ttkx.live:55/lib/ysp.php?id=深圳卫视
+海南卫视,http://ttkx.live:55/lib/ysp.php?id=海南卫视
+新疆卫视,http://ttkx.live:55/lib/ysp.php?id=新疆卫视
+兵团卫视,http://ttkx.live:55/lib/ysp.php?id=兵团卫视
+CETV1,http://ttkx.live:55/lib/ysp.php?id=CETV1
+CGTN英语,http://ttkx.live:55/lib/ysp.php?id=CGTN英语
+CGTN纪录,http://ttkx.live:55/lib/ysp.php?id=CGTN纪录
+CGTN俄语,http://ttkx.live:55/lib/ysp.php?id=CGTN俄语
+CGTN西语,http://ttkx.live:55/lib/ysp.php?id=CGTN西语
+CGTN阿语,http://ttkx.live:55/lib/ysp.php?id=CGTN阿语
+CGTN法语,http://ttkx.live:55/lib/ysp.php?id=CGTN法语
+
 湖南卫视,http://118.248.172.253:8088/tsfile/live/0002_2.m3u8?key=txiptv&playlive=1&authid=0
 湖南都市,http://118.248.172.253:8088/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南娱乐,http://118.248.172.253:8088/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1447,7 +1497,7 @@ CCTV8K超清,https://tv.cry33.com/ys4k.php?id=8k
 邵氏影院@代,http://huanqiuzhibo.cn/manifest/douyu.php?id=4246519
 邵氏影院@代,http://www.goodiptv.club/douyu/4246519
 重温经典频道,http://mtw.so/5NPX0U
-重温经典频道,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
+重温经典频道,http://live.dxms.top:80/dwy/cwjd.php
 重温经典频道,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 经典电影频道,https://ali.hlspull.yximgs.com/live/asdfg32522.flv 
 经典影院频道,https://ali.hlspull.yximgs.com/live/asdfg32516.flv 
@@ -2745,6 +2795,42 @@ MOMO综合,P2p://generationnexxxt.com:19806/659391fc000353d298b54dbe4b486dab
 MOMO亲子,P2p://generationnexxxt.com:19806/2f2d9ad70ce7410aa99f2b9fa1753dd4
 
 mitv港澳频道,#genre#
+凤凰中文台,mitv://generationnexxxt.com:19806/64e1ab2a000417167359b3ca0417008f
+凤凰资讯台,mitv://generationnexxxt.com:19806/6684e9f6606f49fba9b6de846dbdcb64
+凤凰香港台,mitv://generationnexxxt.com:19806/8e396c3ec52f4eee9e5b7868042b1bf2
+HKS卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+港台31,mitv://generationnexxxt.com:19806/e4b56cb972e940ee8be694602294d242
+港台32,mitv://generationnexxxt.com:19806/9c0a161f9c59476584fe4d8effc125b6
+港台33,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
+港台34,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
+港台35,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
+HOY TV,mitv://generationnexxxt.com:19806/10c18372b612479086c1f259245543ff
+J2,mitv://generationnexxxt.com:19806/6a623cf5c0bc4c96b8fd45a47af4a872
+无线财经体育资讯台,mitv://generationnexxxt.com:19806/8bcc654c89f74ebdb4e82062ef5f998c
+ViuTVsix,mitv://generationnexxxt.com:19806/ba99e7a39d9c4e74bacc5de14f58dcf6
+ViuTV,mitv://generationnexxxt.com:19806/976916e8baee45a89d5e023224f7ab2b
+TVB星河(粤),mitv://generationnexxxt.com:19806/0c08d9d705a747908c23ba652726d777
+澳门-MACAU,mitv://generationnexxxt.com:19806/f9ba8df6f9ed45789e882211735e6414
+澳门莲花,mitv://generationnexxxt.com:19806/4c56fbe4e68541a9a759fa269574f98b
+now新闻台,mitv://generationnexxxt.com:19806/d7a5bbf5664945cc8589b36b8434d68d
+HKC 18,mitv://generationnexxxt.com:19806/140377dc9e0848678d614d451d69af9e
+戏曲台,mitv://generationnexxxt.com:19806/4c3b3c3a6c8849c3aa0fc9938859e134
+TVB娱乐新闻台,mitv://generationnexxxt.com:19806/46bb3afe133d4cd8ac4b195c7f5f428c
+千禧经典台,mitv://generationnexxxt.com:19806/1a5b04c67ece47bb87aa482e2c73138a
+Thrill,mitv://generationnexxxt.com:19806/1c3c73215afd42558101c3ee65737202
+明珠台,mitv://generationnexxxt.com:19806/9993262cc067418a983f0c7ec18adef9
+香港国际财经台,mitv://generationnexxxt.com:19806/6aa47af091b54d618d1513b1bc23b0b9
+18台,mitv://generationnexxxt.com:19806/8bf8f53c61944785b13817297101af20
+now财经台,mitv://generationnexxxt.com:19806/88f95058c046453a973e2540701ccb4e
+美亚电影台(粤语),mitv://generationnexxxt.com:19806/ee16565eb5fe46be8d22cbbde1fa9fae
+Hands Up,mitv://generationnexxxt.com:19806/7a79a82b627a417f897895b4adf874aa
+粤语片台,mitv://generationnexxxt.com:19806/3a44c9c92439443494b8ecff6fdb2336
+亚洲剧台,mitv://generationnexxxt.com:19806/ee081a662356489d8b2170952ec91d24
+功夫台,mitv://generationnexxxt.com:19806/ef6373344abf4bedae4d49ac953c1742
+HOY资讯台,mitv://generationnexxxt.com:19806/eb5a565eb80d40509f0a248018dfd337
+黄金翡翠台,mitv://generationnexxxt.com:19806/864714d6ebe847edaa948e9104107f12
+
+
 无线新闻台,mitv://147.135.39.171:9906/658f93d500090264f39e82304f2d4370
 无线新闻台,mitv://147.135.39.171:9906/659ad8a20009ddcb1fa351025e007328
 无线新闻台,mitv://generationnexxxt.com:19806/85a50e6db781406bacc41b10a75a70d5
@@ -3160,5 +3246,4 @@ Smart知识台,P2p://generationnexxxt.com:19806/65939c760002de7398de3a2e3f1b051b
 Star World,P2p://generationnexxxt.com:19806/e60c9c99922d4fed8cfb3a8333f2d360
 Tech Storm,P2p://generationnexxxt.com:19806/994876c6aadc4234ba73441f18d36602
 韩国娱乐,P2p://generationnexxxt.com:19806/80d680dc15ec44bea9c3a3160ecdcb14
-
 
