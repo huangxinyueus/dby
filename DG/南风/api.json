@@ -186,7 +186,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.libvio.pw/"
+            "ext": "https://www.libvio.cc/"
         },
         {
             "key": "csp_Kuaikan",
@@ -386,12 +386,22 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+                "aliToken": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt",
                 "from": "4k|auto|fhd",
                 "siteUrl": "https://www.wogg.link/",
                 "danMu": "弹"
             }
+        },
+        {
+            "key": "csp_Yisou",
+            "name": "🆎XYQ易搜",
+            "type": 3,
+            "api": "csp_Yisou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "./txt/token.txt"
         },
         {
             "key": "csp_XYQHikerAL_阿里土豆",
@@ -402,6 +412,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/土豆.json"
+        },
+        {
+            "key": "csp_Gitcafe",
+            "name": "📜小纸条",
+            "type": 3,
+            "api": "csp_Gitcafe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "./txt/token.txt"
         },
         {
             "key": "csp_XYQHikerAL__影搜",
@@ -432,7 +452,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+                "aliToken": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -445,7 +465,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+                "aliToken": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -458,7 +478,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+                "aliToken": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -471,7 +491,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+                "aliToken": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -485,7 +505,7 @@
             "changeable": 0,
             "ext": {
                 "pan": "quark",
-                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -499,7 +519,7 @@
             "changeable": 0,
             "ext": {
                 "pan": "quark",
-                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },
@@ -511,8 +531,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
-                "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+                "aliToken": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt",
                 "from": "4k|auto|fhd"
             }
         },

@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://like.xn--z7x900a.com/ppic/feimao.php",
-    "logo": "http://like.xn--z7x900a.com/fatcat.jpg",
+    "logo": "http://like.xn--z7x900a.com/panda/0262.png",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
@@ -64,6 +64,13 @@
             "filterable": 1,
             "playerType": 1,
             "ext": "https://physvod.com"
+        },
+        {
+            "key": "csp_FengGo",
+            "name": "🐕┃疯狗┃影视",
+            "type": 3,
+            "api": "csp_FengGo",
+            "playerType": 2
         },
         {
             "key": "csp_Nkdy",
@@ -146,8 +153,10 @@
             "key": "FreeOK",
             "name": "️️👌┃Fre┃影视",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/FreeOK.js"
+            "api": "csp_FreeOK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "毛驴",
@@ -476,9 +485,9 @@
             "key": "drpy_哔哩",
             "name": "🅱┃哔哩┃合集",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "csp_Bili",
             "playerType": 1,
-            "ext": "./js/B站.js"
+            "ext": "./json/bilibili.json"
         },
         {
             "key": "儿童",

@@ -10,6 +10,312 @@
             "type": 0,
             "url": "./lives/live.txt",
             "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "①猫TV线路",
+            "type": 0,
+            "url": "./lives/①猫TV线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "①更新列表",
+            "type": 0,
+            "url": "./lives/①更新列表.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "V4",
+            "type": 0,
+            "url": "./lives/V4.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "哈TV",
+            "type": 0,
+            "url": "./lives/哈TV.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "新视界②线",
+            "type": 0,
+            "url": "./lives/新视界②线.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "开心频道",
+            "type": 0,
+            "url": "./lives/开心频道.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "IPTV线路",
+            "type": 0,
+            "url": "./lives/IPTV线路.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "159",
+            "type": 0,
+            "url": "./lives/159.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "春盈-爱尚",
+            "type": 0,
+            "url": "./lives/春盈-爱尚.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "169焦点",
+            "type": 0,
+            "url": "./lives/169焦点.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "159欧华",
+            "type": 0,
+            "url": "./lives/159欧华.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "广东电信",
+            "type": 0,
+            "url": "./lives/广东电信.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "安博",
+            "type": 0,
+            "url": "./lives/安博.txt",
+            "epg": ""
+        },
+        {
+            "name": "重庆有线",
+            "type": 0,
+            "url": "./lives/重庆有线.txt",
+            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "虎牙",
+            "type": 0,
+            "url": "./lives/虎牙.txt",
+            "epg": ""
+        },
+        {
+            "name": "斗鱼",
+            "type": 0,
+            "url": "./lives/斗鱼.txt",
+            "epg": ""
+        },
+        {
+            "name": "斯玛特2",
+            "type": 0,
+            "url": "./lives/斯玛特2.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "浙江移动",
+            "type": 0,
+            "url": "./lives/浙江移动.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "③晴天专线",
+            "type": 0,
+            "url": "./lives/③晴天专线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "④晴天线路",
+            "type": 0,
+            "url": "./lives/④晴天线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑤天微线路",
+            "type": 0,
+            "url": "./lives/⑤天微线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑥蓝影兔源",
+            "type": 0,
+            "url": "./lives/⑥蓝影兔源.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑦木鱼线路",
+            "type": 0,
+            "url": "./lives/⑦木鱼线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑧涛集线路",
+            "type": 0,
+            "url": "./lives/⑧涛集线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑨野火线路",
+            "type": 0,
+            "url": "./lives/⑨野火线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑩IPTV线路",
+            "type": 0,
+            "url": "./lives/⑩IPTV线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑪V6明线路",
+            "type": 0,
+            "url": "./lives/⑪V6明线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑫V6阳线路",
+            "type": 0,
+            "url": "./lives/⑫V6阳线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑬ipv6线路",
+            "type": 0,
+            "url": "./lives/⑬ipv6线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑭开心线路",
+            "type": 0,
+            "url": "./lives/⑭开心线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑮网盘线路",
+            "type": 0,
+            "url": "./lives/⑮网盘线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑯梅州线路",
+            "type": 0,
+            "url": "./lives/⑯梅州线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑰飞龙线路",
+            "type": 0,
+            "url": "./lives/⑰飞龙线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑱欧华线路",
+            "type": 0,
+            "url": "./lives/⑱欧华线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑲测试线路",
+            "type": 0,
+            "url": "./lives/⑲测试线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "⑳晴天线路",
+            "type": 0,
+            "url": "./lives/⑳晴天线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②①综合线路",
+            "type": 0,
+            "url": "./lives/②①综合线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②②综合二线",
+            "type": 0,
+            "url": "./lives/②②综合二线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②③综合三线",
+            "type": 0,
+            "url": "./lives/②③综合三线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②④综合四线",
+            "type": 0,
+            "url": "./lives/②④综合四线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②⑤探探线路",
+            "type": 0,
+            "url": "./lives/②⑤探探线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②⑥范明线路",
+            "type": 0,
+            "url": "./lives/②⑥范明线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②⑦范明电台",
+            "type": 0,
+            "url": "./lives/②⑦范明电台.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②⑧饭太线路",
+            "type": 0,
+            "url": "./lives/②⑧饭太线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "②⑨肥猫线路",
+            "type": 0,
+            "url": "./lives/②⑨肥猫线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "③⑩俊于线路",
+            "type": 0,
+            "url": "./lives/③⑩俊于线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "③①斗鱼线路",
+            "type": 0,
+            "url": "./lives/③①斗鱼线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "③②虎牙线路",
+            "type": 0,
+            "url": "./lives/③②虎牙线路.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "③③斗鱼专线",
+            "type": 0,
+            "url": "./lives/③③斗鱼专线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "③④虎牙专线",
+            "type": 0,
+            "url": "./lives/③④虎牙专线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "③⑤MV专线",
+            "type": 0,
+            "url": "./lives/③⑤MV专线.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         }
     ],
     "sites": [
@@ -597,6 +903,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/看客影视.json"
+        },
+        {
+            "key": "农民影视",
+            "name": "🎦农民┃秒播",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/nongmin.json"
         },
         {
             "key": "奈飞影视",
