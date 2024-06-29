@@ -420,6 +420,17 @@
             "ext": "./json/348.json"
         },
         {
+            "key": "hipy_js_采集之王[合]",
+            "name": "🎦采集之王[合]",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 210,
+            "ext": "./json/采集静态.json"
+        },
+        {
             "key": "csp_五五",
             "name": "🎦五五┃秒播",
             "type": 3,
@@ -1645,6 +1656,16 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./py/cctv.py"
+        },
+        {
+            "key": "py_cctv1",
+            "name": "🌔央视大全.py",
+            "type": 3,
+            "api": "./api/cctv.py",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": ""
         },
         {
             "key": "相声小品",

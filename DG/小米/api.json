@@ -7,80 +7,90 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣┃主页",
+            "name": "🌈豆瓣┃甄别广告",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "csp_Duopan",
-            "name": "蜡笔┃4K4K",
+            "name": "🖍️蜡笔┃4K4K",
             "type": 3,
             "api": "csp_Duopan",
             "playerType": 2,
             "filterable": 1,
-            "ext": "https://duopan.fun/"
-        },
-        {
-            "key": "csp_NanGua",
-            "name": "南瓜┃1080P",
-            "type": 3,
-            "api": "csp_NanGua",
-            "playerType": 2,
-            "filterable": 1
-        },
-        {
-            "key": "新视觉",
-            "name": "视觉┃1080P",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "胖虎",
-            "name": "胖虎┃影视",
-            "type": 3,
-            "api": "csp_Panghu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 1,
-            "ext": "https://physvod.com"
-        },
-        {
-            "key": "csp_Juqq",
-            "name": "剧圈┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Juqq"
+            "ext": "http://mpanso.com"
         },
         {
             "key": "csp_wanou",
-            "name": "玩偶┃阿里",
+            "name": "🧸玩偶┃4K4K",
             "api": "csp_Wogg",
             "type": 3,
             "searchable": 1,
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": "./txt/token.txt"
+            "ext": "https://www.wogg.link"
         },
         {
-            "key": "厂长",
-            "name": "厂长┃影视",
+            "key": "csp_NanGua",
+            "name": "🎃南瓜┃APP",
             "type": 3,
-            "playerType": "2",
-            "api": "csp_Czsapp",
+            "api": "csp_NanGua",
+            "playerType": 2,
+            "filterable": 1
+        },
+        {
+            "key": "csp_蚂蚁",
+            "name": "🐜蚂蚁┃无广",
+            "type": 1,
+            "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
+            "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url=",
+            "filterable": 1
+        },
+        {
+            "key": "drpy_哔哩",
+            "name": "🎵哔哩┃合集",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "playerType": 1,
+            "ext": "./js/B站.js"
+        },
+        {
+            "key": "csp_官采",
+            "name": "🍑官采┃采集",
+            "type": 1,
+            "api": "https://vipcj.timizy.top/api.php/provide/vod/",
+            "playUrl": "https://www.cgdyw.net/jiexi/jiekou-2/?url=",
+            "filterable": 1
+        },
+        {
+            "key": "csp_SP360",
+            "name": "🐠360┃官源",
+            "type": 3,
+            "api": "csp_SP360"
+        },
+        {
+            "key": "云播",
+            "name": "☁️云播┃影视",
+            "type": 3,
+            "api": "csp_Tvyb",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://czzy.top/"
+            "playerType": 1,
+            "ext": ""
+        },
+        {
+            "key": "csp_Juqq",
+            "name": "⭕️剧圈┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Juqq"
         },
         {
             "key": "可可",
-            "name": " 可可┃影视",
+            "name": "🌲可可┃影视",
             "type": 3,
             "playerType": "2",
             "api": "csp_Keke",
@@ -90,7 +100,7 @@
         },
         {
             "key": "4开",
-            "name": "4KK┃影视",
+            "name": "📺4KK┃影视",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -111,7 +121,7 @@
         },
         {
             "key": "黑狐",
-            "name": "黑狐┃影视",
+            "name": "🦊黑狐┃影视",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -153,7 +163,7 @@
         },
         {
             "key": "XBPQ_文才",
-            "name": "文才┃秒播",
+            "name": "🌽文才┃秒播",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -199,8 +209,31 @@
             }
         },
         {
+            "key": "剧哥哥",
+            "name": "🧍兄弟┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.jugege.cc/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "搜索模式": "1",
+                "搜索url": "https://www.jugege.cc/rss.xml?wd={wd}",
+                "搜索数组": "<item>&&</item",
+                "搜索标题": "<title>&&</title",
+                "搜索链接": "<link>&&</link",
+                "搜索图片": "https://img1.baidu.com/it/u=3089581607,2904981351&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": "huoshanvod.com#.mp4#m3u8#.m3u8#/tos/",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$1#连续剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.jugege.cc/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html"
+            }
+        },
+        {
             "key": "saohuo",
-            "name": "1080P┃骚火",
+            "name": "🔥1080P┃骚火",
             "type": 3,
             "searchable": 1,
             "changeable": 0,
@@ -222,8 +255,61 @@
             }
         },
         {
+            "key": "爱看",
+            "name": "🎀爱看┃小米",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.3ayy.com",
+                "简介": "module-info-introduction\">&&</p>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "影片类型": "module-info-tag\">&&立即播放",
+                "影片状态": "集数：&&</div>",
+                "数组": "<a&&module-poster-item-info\"[不包含:夸克]",
+                "标题": "title=\"&&\"",
+                "副标题": "note\">&&</div>",
+                "嗅探词": ".mp4#.m3u8",
+                "过滤词": "/player/#/index/",
+                "图片": "data-original=\"&&\"",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://www.3ayy.com/ajax/suggest.html?mid=1&wd={wd}",
+                "搜索模式": "1",
+                "搜索二次截取": "\"list\":[&&]",
+                "搜索数组": "{&&}",
+                "搜索标题": "\"name\":\"&&\"",
+                "搜索图片": "\"pic\":\"&&\"",
+                "搜索链接": "https://www.3ayy.com/video/+\"id\":&&,+.html",
+                "播放数组": "module-play-list-base\">&&</div>",
+                "播放标题": "<span>&&</span>",
+                "播放列表": "<a&&</a>",
+                "分类url": "https://www.3ayy.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;a",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+        {
+            "key": "双黄",
+            "name": "🥚双黄┃BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "嗅探词": "v3.toutiaovod.com#v3-dy-o.zjcdn#.m3u8#/tos/#.mp4",
+                "请求头": "手机#Referer$https://www.dandanju.cc/",
+                "分类url": "https://www.dandanju.cc/show/{cateId}--------{catePg}---2023.html",
+                "分类": "电影$1#剧集$2#动漫$4#综艺$4",
+                "数组": " <li class=\"col-md-6 col-sm-4 col-xs-3&&</li",
+                "搜索模式": "1",
+                "搜索url": "https://www.dandanju.cc/rss.xml?wd={wd}",
+                "搜索数组": "<item>&&</item",
+                "搜索标题": "<title>&&</title",
+                "搜索链接": "<link>&&</link",
+                "搜索图片": "https://img1.baidu.com/it/u=3089581607,2904981351&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
+            }
+        },
+        {
             "key": "热播库",
-            "name": "热播┃1080P",
+            "name": "⚽️热播┃1080P",
             "type": 3,
             "changeable": 1,
             "jar": "./jars/4开.jar",
@@ -256,7 +342,7 @@
         },
         {
             "key": "zhitiao",
-            "name": "阿里┃易搜",
+            "name": "☁️阿里┃易搜",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -265,35 +351,8 @@
             "ext": "satoken=e96da071-9159-4827-89e1-ea93eea899e1"
         },
         {
-            "key": "freeok",
-            "name": "OK┃1080P",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "jar": "./jars/4开.jar",
-            "ext": {
-                "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html;;ar1",
-                "请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                "分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺",
-                "分类值": "1&2&3&4",
-                "副标题": "<div class=\"module-item-note\">&&</div>",
-                "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-                "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-                "线路标题": "<span>&&</small>",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "简介": "<p>&&</p>"
-            }
-        },
-        {
-            "key": "csp_SP360",
-            "name": "360┃官源",
-            "type": 3,
-            "api": "csp_SP360"
-        },
-        {
             "key": "csp_YouShengBook",
-            "name": "有声┃小说",
+            "name": "📖有声┃小说",
             "type": 3,
             "playerType": "2",
             "api": "csp_YouShengBook",
@@ -305,7 +364,7 @@
         },
         {
             "key": "csp_FirstAid",
-            "name": "急救┃教学",
+            "name": "🍧急救┃教学",
             "type": 3,
             "api": "csp_FirstAid",
             "searchable": 0,
@@ -317,21 +376,8 @@
             "gridview": "0-0-4.1"
         },
         {
-            "key": "88js",
-            "name": "88┃看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "Jrsjs",
-            "name": "JRS┃球迷",
+            "name": "🏀JRS┃球迷",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/jrk.js",
@@ -344,27 +390,19 @@
         },
         {
             "key": "米搜",
-            "name": "米搜┃网盘",
+            "name": "🌾米搜┃4K4K",
             "type": 3,
             "api": "csp_MiSou",
             "ext": "./txt/kk.txt"
         },
         {
-            "key": "drpy_哔哩",
-            "name": "哔哩┃合集",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "playerType": 1,
-            "ext": "./js/B站.js"
-        },
-        {
             "key": "push_agent",
-            "name": "MiSou.fun",
+            "name": "切勿相信博彩广告｜请于24小时内删除测试内容｜官网MiSou.fun",
             "type": 3,
             "api": "csp_Push",
             "playerType": "1",
             "searchable": 0,
-            "ext": ""
+            "ext": "./txt/kk.txt"
         }
     ],
     "parses": [
@@ -380,8 +418,8 @@
         },
         {
             "name": "小米3",
-            "type": 1,
-            "url": "http://119.91.123.253:2345/Api/yun.php?url=",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jx/jx.php?url=",
             "ext": {
                 "flag": [
                     "qq",
