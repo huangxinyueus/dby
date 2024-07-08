@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "⬇️【阿里夸克先扫码】⬇️",
+            "name": "⬇️【网盘类先扫码】⬇️",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -143,18 +143,18 @@
             "changeable": 1
         },
         {
-            "key": "Wexwencai",
-            "name": "🎇文才┃秒播🎇",
-            "type": 3,
-            "api": "csp_Wexwencai",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexbaipiao",
             "name": "🎇星星┃秒播🎇",
             "type": 3,
             "api": "csp_Wexbaipiao",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wex4Kav",
+            "name": "🎇急速┃秒播🎇",
+            "type": 3,
+            "api": "csp_Wex4Kav",
             "searchable": 1,
             "changeable": 1
         },
@@ -237,48 +237,6 @@
             "api": "csp_Wexbttwo",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "haiwaikan",
-            "name": "🛝海看┃采集🛝",
-            "type": 1,
-            "api": "https://haiwaikan.com/api.php/provide/vod?",
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "国产剧",
-                "韩剧",
-                "日剧",
-                "台剧",
-                "泰剧",
-                "港剧",
-                "欧美剧",
-                "冒险片",
-                "剧情片",
-                "动作片",
-                "同性片",
-                "喜剧片",
-                "奇幻片",
-                "恐怖片",
-                "悬疑片",
-                "惊悚片",
-                "战争片",
-                "歌舞片",
-                "灾难片",
-                "爱情片",
-                "犯罪片",
-                "科幻片",
-                "纪录片",
-                "经典片",
-                "动画电影",
-                "韩国综艺",
-                "国产综艺",
-                "日本综艺",
-                "欧美综艺",
-                "日本动漫",
-                "国产动漫",
-                "欧美动漫"
-            ]
         },
         {
             "key": "360",
@@ -400,6 +358,22 @@
             "searchable": 1,
             "changeable": 1,
             "playerType": 1
+        },
+        {
+            "key": "Wexzijiantv",
+            "name": "🌺葵花┃4K🌺",
+            "type": 3,
+            "api": "csp_Wexzijiantv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexwencai",
+            "name": "🌺文才┃秒播🌺",
+            "type": 3,
+            "api": "csp_Wexwencai",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "Wexxpgtv",
