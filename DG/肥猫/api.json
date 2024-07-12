@@ -53,6 +53,38 @@
             "filterable": 1
         },
         {
+            "key": "csp_SuBaiBai",
+            "name": "🏳️┃素白┃影视",
+            "type": 3,
+            "api": "csp_SuBaiBai"
+        },
+        {
+            "key": "csp_Zx1080",
+            "name": " 👰┃最新┃影视",
+            "type": 3,
+            "api": "csp_Zx1080",
+            "playerType": 2
+        },
+        {
+            "key": "csp_Ikan",
+            "name": "💕┃爱看┃影视",
+            "type": 3,
+            "api": "csp_Ikan",
+            "playerType": 2
+        },
+        {
+            "key": "csp_PTT",
+            "name": "🦨┃屁颠┃影视",
+            "type": 3,
+            "api": "csp_PTT"
+        },
+        {
+            "key": "csp_Taozi",
+            "name": "🍑┃桃子┃影视",
+            "type": 3,
+            "api": "csp_Taozi"
+        },
+        {
             "key": "哔嘀",
             "name": "😹┃哔嘀┃影视",
             "type": 3,
@@ -91,6 +123,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Netfixtv",
+            "name": "💌┃至臻┃影视",
+            "type": 3,
+            "api": "csp_Netfixtv",
+            "playerType": 2,
+            "filterable": 1,
+            "ext": ""
         },
         {
             "key": "csp_Panda_玩偶哥哥",

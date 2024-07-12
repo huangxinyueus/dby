@@ -428,7 +428,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive\"": "tvfan/Cloud-drive.txt",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
             }
         },
@@ -441,7 +441,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive\"": "tvfan/Cloud-drive.txt",
+                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
             }
         },

@@ -21,7 +21,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://www.czzy.top"
+            "ext": "https://czzy.top/"
         },
         {
             "key": "农民",
@@ -156,6 +156,24 @@
             "filterable": 1
         },
         {
+            "key": "csp_Xinsj",
+            "name": "✨新视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_FengGo",
+            "name": "🐶疯狗",
+            "type": 3,
+            "api": "csp_FengGo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_Xdys",
             "name": "💥兄弟",
             "type": 3,
@@ -164,16 +182,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0
-        },
-        {
-            "key": "csp_Xinsj",
-            "name": "✨新视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.80yy3.com/"
         },
         {
             "key": "csp_DiDuan",
@@ -584,6 +592,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
+                "pan": "quark",
                 "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
                 "from": "4k|auto"
             }

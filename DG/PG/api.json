@@ -302,6 +302,17 @@
             "ext": "./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json"
         },
         {
+            "key": "蜡笔网盘",
+            "name": "蜡笔|网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
+        },
+        {
             "key": "Gaoqing",
             "name": "中国高清网|网盘",
             "type": 3,
