@@ -32,11 +32,7 @@
             "api": "csp_Wexconfig",
             "searchable": 0,
             "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            }
+            "indexs": 0
         },
         {
             "key": "玩偶",
@@ -327,18 +323,18 @@
             "changeable": 0
         },
         {
-            "key": "Twobt",
-            "name": "🛩️Twobt┃P2P🛩",
-            "type": 3,
-            "api": "csp_WexTwobt",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "下方需用在线接口",
             "name": "🥁⬇️下方需用在线接口⬇️🥁",
             "type": 3,
             "api": "csp_Douban",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexemby",
+            "name": "🀄️emby┃4K🀄️",
+            "type": 3,
+            "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1
         },
@@ -360,10 +356,10 @@
             "playerType": 1
         },
         {
-            "key": "Wexzijiantv",
-            "name": "🌺葵花┃4K🌺",
+            "key": "Wexkoukou",
+            "name": "🌺扣扣┃4K🌺",
             "type": 3,
-            "api": "csp_Wexzijiantv",
+            "api": "csp_Wexkoukou",
             "searchable": 1,
             "changeable": 1
         },
@@ -563,6 +559,17 @@
             "changeable": 1
         },
         {
+            "key": "自定义",
+            "name": "🥇DIY┃播放🥇",
+            "type": 3,
+            "api": "csp_Wexdiy",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "上方需用在线接口",
             "name": "🥁⬆️上方需用在线接口⬆️🥁",
             "type": 3,
@@ -725,17 +732,6 @@
             "api": "csp_Wexyingso",
             "searchable": 1,
             "changeable": 0
-        },
-        {
-            "key": "自定义",
-            "name": "🥇DIY┃播放┃全能",
-            "type": 3,
-            "api": "csp_Wexdiy",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "push_agent",

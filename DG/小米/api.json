@@ -22,15 +22,6 @@
             "ext": "https://mihdr.top/"
         },
         {
-            "key": "csp_labi",
-            "name": "🖍️蜡笔┃无广4K",
-            "type": 3,
-            "api": "csp_Duopan",
-            "playerType": 2,
-            "filterable": 1,
-            "ext": "https://duopan.fun/"
-        },
-        {
             "key": "csp_wanou",
             "name": "🧸玩偶┃无广4K",
             "api": "csp_Wogg",
@@ -47,6 +38,17 @@
             "type": 3,
             "api": "csp_NanGua",
             "playerType": 2,
+            "filterable": 1
+        },
+        {
+            "key": "云云",
+            "name": "🦊云云┃影视",
+            "type": 3,
+            "playerType": "2",
+            "ext": "http://122.228.84.103:6117/api.php/app/",
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1
         },
         {
@@ -70,6 +72,18 @@
             "name": "🍑桃子┃测试",
             "type": 3,
             "api": "csp_Taozi"
+        },
+        {
+            "key": "csp_农民",
+            "name": "🐶汪汪┃1080P",
+            "type": 3,
+            "api": "csp_Nongm"
+        },
+        {
+            "key": "csp_全网",
+            "name": "🥣全网┃1080P",
+            "type": 3,
+            "api": "csp_Quanwk"
         },
         {
             "key": "csp_SP360",
@@ -406,7 +420,7 @@
         {
             "name": "小米3",
             "type": 1,
-            "url": "http://47.108.219.167/guanjie/dytt.php?url=",
+            "url": "http://vps1681711.vpszy.sanfengyun.cn/api_khd/api_json.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -416,7 +430,6 @@
                     "奇艺",
                     "youku",
                     "优酷",
-                    "tucheng",
                     "sohu",
                     "搜狐",
                     "letv",
@@ -425,23 +438,18 @@
                     "芒果",
                     "tnmb",
                     "seven",
-                    "yzm",
-                    "aliyun",
-                    "RJuMao",
                     "bilibili",
-                    "1905",
-                    "xinvip",
-                    "XAL",
-                    "qiqi",
-                    "XALS",
-                    "YuMi-vip"
-                ]
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
             }
         },
         {
-            "name": "小米12",
-            "type": 0,
-            "url": "https://www.cgdyw.net/jiexi/jiekou-2/?url=",
+            "name": "小米",
+            "type": 1,
+            "url": "http://122.228.84.103:7777/api/?key=J3RDcpC4cTTSrpyEeD&url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -451,7 +459,6 @@
                     "奇艺",
                     "youku",
                     "优酷",
-                    "tucheng",
                     "sohu",
                     "搜狐",
                     "letv",
@@ -460,17 +467,12 @@
                     "芒果",
                     "tnmb",
                     "seven",
-                    "yzm",
-                    "aliyun",
-                    "RJuMao",
                     "bilibili",
-                    "1905",
-                    "xinvip",
-                    "XAL",
-                    "qiqi",
-                    "XALS",
-                    "YuMi-vip"
-                ]
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
             }
         }
     ],
