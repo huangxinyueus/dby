@@ -35,6 +35,17 @@
             "indexs": 0
         },
         {
+            "key": "115",
+            "name": "💓‍115┃4K💓‍",
+            "type": 3,
+            "api": "csp_Wex115share",
+            "searchable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "玩偶",
             "name": "💓‍玩偶┃4K💓‍",
             "type": 3,
@@ -323,26 +334,10 @@
             "changeable": 0
         },
         {
-            "key": "下方需用在线接口",
-            "name": "🥁⬇️下方需用在线接口⬇️🥁",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexemby",
             "name": "🀄️emby┃4K🀄️",
             "type": 3,
             "api": "csp_Wexemby",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexhuaruitv",
-            "name": "🌺花蕊┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexhuaruitv",
             "searchable": 1,
             "changeable": 1
         },

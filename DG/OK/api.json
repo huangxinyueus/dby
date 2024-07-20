@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🤓QQ频道┃OK杰克",
+            "name": "🤓公众号┃OK猫开发",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -76,6 +76,8 @@
             "changeable": 1,
             "ext": {
                 "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
                 "wogg": true
             },
             "timeout": 30
@@ -204,6 +206,23 @@
             "timeout": 30
         },
         {
+            "key": "我的UC",
+            "name": "😼我的┃UC",
+            "type": 3,
+            "api": "csp_MyUc",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "uc_cookie": "file://TV/uc_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
             "key": "阿里合集",
             "name": "🦋阿里┃合集",
             "type": 3,
@@ -220,20 +239,6 @@
                 "type": "list"
             },
             "timeout": 30
-        },
-        {
-            "key": "团长",
-            "name": "🗽团长┃4K",
-            "type": 3,
-            "api": "csp_Tzfile",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "file://TV/ali_token.txt",
-                "cookie": "file://TV/quark_cookie.txt"
-            },
-            "timeout": 25
         },
         {
             "key": "土豆网盘",
@@ -340,6 +345,27 @@
             "filterable": 1,
             "changeable": 1,
             "timeout": 25
+        },
+        {
+            "key": "木耳",
+            "name": "🪴木耳┃采集",
+            "type": 1,
+            "api": "https://json.heimuer.xyz/api.php/provide/vod",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "华为",
+            "name": "🍇华为┃采集",
+            "type": 1,
+            "api": "https://cjhwba.com/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 10
         },
         {
             "key": "快手直播",
@@ -630,7 +656,9 @@
             "changeable": 0,
             "ext": {
                 "token": "file://TV/ali_token.txt",
-                "cookie": "file://TV/quark_cookie.txt"
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
             },
             "timeout": 5
         }
@@ -771,6 +799,12 @@
             "name": "live-3",
             "type": 0,
             "url": "./lives/live-3.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "高清",
+            "type": 0,
+            "url": "./lives/高清.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {
