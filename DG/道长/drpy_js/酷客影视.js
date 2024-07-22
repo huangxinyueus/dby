@@ -1,11 +1,1 @@
-Object.assign(muban.首图2.二级, {
-    tabs: '.stui-pannel__head h3',
-});
-var rule = {
-    模板: '首图2',
-    title: '酷客影视',
-    host: 'https://www.kkeyys.com',
-    url: '/vodshow/fyclass--------fypage---.html',
-    searchUrl: '/vodsearch/**----------fypage---.html',
-    tab_exclude: '本周热门|最新更新',
-}
+qz2VfkB3O9fqiff5MjJa/NOxIkzNuMv7K54K23vKJOSw++yJ8kLPZGH7bSG3+EXPt4QIAb8pNoprEt1UZ1T/V4W/sp4A5sfUtLeuACMYWQe1KwhJN9KGVLad9F06m3DJf4UKGy2nF6D8SlobdUjU7fQVhTQd4huJknINNo21kNQGbTvHPxDQBr/QFC364PNW3AXXAznlMXcX3pT8++qVD5QnlF5L4W7RYhoOOBvyMHD/vMvhOlJvqhMZkA4uAftUu1hQ1d1z5L179eZpvh5YNIrPDenPi/gGNihTzQeHy6JhBAjZ5oJfMlPIuG71KtmrxGX7OUgKCvVbLDq853/xIht2NxHhWPfNAGC5Xli/R+9N6zyfQP9MZHzglSKTlVB8uYGuws42d6CRM+j7g9T72WwbQy9kgQlNG7cKYRp3kDHNcMt/8xGC/9kjSviwMjqT

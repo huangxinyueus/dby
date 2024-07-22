@@ -1,12 +1,1 @@
-// https://suoniapi.com/api.php/provide/vod/?ac=list
-// https://suoniapi.com/api.php/provide/vod/from/snm3u8/?ac=list
-
-var rule = {
-    模板: '采集1',
-    title: '索尼资源[资]',
-    host: 'https://suoniapi.com',
-    // homeTid: '13',
-    homeTid: '',
-    cate_exclude: '电影|电视剧|综艺|动漫|电影解说|体育|演员|新闻资讯|诺克|女频',
-    parse_url: '',
-}
+V+hZMnIfwMO9gMvyNYJF9HbsFOm+DovTWK4YQmko8bH/zm6QJDydqewuDzqrkdx0l2EJPuDkB9H5B0ZJdaH975Q3AZnSgHJRHmY9YAARKoZ+9TWpwg9j9huwJSe8fBRvhYsPhtEij8qwbnuB9thZhGioEAn7TtdS5iKFx9lmaXO2lKFsciQhEQPnqS9BczyHejGI52U260rKQOifQloJZ1eaXzhGGc0XbDTkhw5tl37+54kAHNvQ9CpRrLa/pJMjRTrrLAIpCm0wv9U4CKoMLYqYl/LG+QYOd8ESNYfmTCLK2u6gE0XsW5rLUGz+GePWqZUVVdPKYlPKGDmwJAB4hBXpZKha7td9kJj2Ng6PaO/5Mqrg2qAqIq4gOKh5DAdynCXkssECuQVhGm1JOfoksj0xafVGyvgjDdTDcIxMzqszCP6kJsgXPnMD6NQXg4PywKjD027M5+AzEwkSHu0IP5mAU1BlVaXpmIsQkNk6RISx7o5AFuSJARw0snlRSLaQkhCDXheCMitD1gdrChKbdw==

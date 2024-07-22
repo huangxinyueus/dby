@@ -1,15 +1,1 @@
-Object.assign(muban.首图2.二级, {
-    tabs: '.stui-pannel__head h3',
-});
-var rule = {
-    模板: '首图2',
-    title: '想看影院',
-    host: 'https://xiangkan1.com',
-    url: '/list-fyclass-fypage.html',
-    class_parse: '.stui-header__menu li:gt(0):lt(7);a&&Text;a&&href;.*/list-(.*?).html',
-    searchUrl: '/search-**----------fypage---.html',
-    二级访问前: $js.toString(() => {
-        MY_URL = MY_URL.replace('play-', 'detail-');
-    }),
-    搜索: 'ul.stui-vodlist li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href',
-}
+T2JqZWN0LmFzc2lnbihtdWJhbi7pppblm74yLuS6jOe6pywgewogICAgdGFiczogJy5zdHVpLXBhbm5lbF9faGVhZCBoMycsCn0pOwp2YXIgcnVsZSA9IHsKICAgIOaooeadvzogJ+mmluWbvjInLAogICAgdGl0bGU6ICfmg7PnnIvlvbHpmaInLAogICAgaG9zdDogJ2h0dHBzOi8veGlhbmdrYW4xLmNvbScsCiAgICB1cmw6ICcvbGlzdC1meWNsYXNzLWZ5cGFnZS5odG1sJywKICAgIGNsYXNzX3BhcnNlOiAnLnN0dWktaGVhZGVyX19tZW51IGxpOmd0KDApOmx0KDcpO2EmJlRleHQ7YSYmaHJlZjsuKi9saXN0LSguKj8pLmh0bWwnLAogICAgc2VhcmNoVXJsOiAnL3NlYXJjaC0qKi0tLS0tLS0tLS1meXBhZ2UtLS0uaHRtbCcsCiAgICDkuoznuqforr/pl67liY06ICRqcy50b1N0cmluZygoKSA9PiB7CiAgICAgICAgTVlfVVJMID0gTVlfVVJMLnJlcGxhY2UoJ3BsYXktJywgJ2RldGFpbC0nKTsKICAgIH0pLAogICAg5pCc57SiOiAndWwuc3R1aS12b2RsaXN0IGxpO2EmJnRpdGxlOy5sYXp5bG9hZCYmZGF0YS1vcmlnaW5hbDsucGljLXRleHQmJlRleHQ7YSYmaHJlZicsCn0=

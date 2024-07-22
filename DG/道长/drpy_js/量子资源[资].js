@@ -1,11 +1,1 @@
-// https://cj.lziapi.com/api.php/provide/vod/?ac=list
-
-var rule = {
-    模板: '采集1',
-    title: '量子资源[资]',
-    host: 'https://cj.lziapi.com',
-    // homeTid: '13',
-    homeTid: '',
-    cate_exclude: '电影片|连续剧|综艺片|动漫片|电影解说|体育|演员|新闻资讯',
-    parse_url: '',
-}
+H4sIAIMbnmYC/9PXV8goKSkottLXT87Sy6nKTCzI1EvOz9UH0QUZBfoFRfllmSmp+mX5Kfr2icm2OZnFJVxcZYlFCkWlOakKtgrVXApA8GzFwmdz91spqL9sb385u81QXQcsXJJZkpMKFu1/unbCi60tz3ZNiAZSsVD5jPziEqA0VidAlegDXZifmxqSmQJUaGgM1wgTggokJ5akxqdWJOeUpoAsfD5l69O9G593tte82D/v+e61TzuX1zzfvedF5y6Q2NOuFc/2rAaxIOpeLF/8Yv2Wmid7J79o2lTzbM+UpxNn1DybtuHl9N1Ax75Ytx5qSUFiUXFqfGlRDsTeWgBHU6ibPgEAAA==

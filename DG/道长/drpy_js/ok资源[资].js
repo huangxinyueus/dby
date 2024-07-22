@@ -1,12 +1,1 @@
-// https://api.okzy.org/api.php/provide/vod/from/okm3u8/at/xml
-// https://api.okzy.org/api.php/provide/vod/?ac=list
-
-var rule = {
-    模板: '采集1',
-    title: 'OK资源[资]',
-    host: 'https://api.okzy.org',
-    // homeTid: '13',
-    homeTid: '',
-    cate_exclude: '电影|电视剧|综艺|动漫|体育赛事|斯诺克',
-    parse_url: '',
-}
+H4sIAIIbnmYC/9PXV8goKSkottLXTyzI1MvPrqrUyy9KB3MKMgr0C4ryyzJTUvXL8lP004ryc/Xzs3ONSy30E0v0K3JzuPRJ0G6fmGybk1lcwsVVllikUFSak6pgq1DNpQAEz1YsfDZ3v5WC+sv29pez2wzVdcDCJZklOalAUX/vF1tbnu2aEA2kYqFyGfnFJUApbLZDVYDclp+bGpKZAlRnaAzXBxOCCiQnlqTGp1Yk55SmgOx6PmXr070ba4DUi+VtTzuX1zzfvedF566ap10rnu1ZXfNk7+QXTZtebJ39ZFd3zbNp61+s3/W0tRtqVEFiUXFqfGlRDsT0WgDgI6MkXQEAAA==

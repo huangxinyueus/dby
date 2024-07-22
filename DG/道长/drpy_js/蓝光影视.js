@@ -1,9 +1,1 @@
-var rule = {
-    模板: 'mxpro',
-    title: '蓝光影视',
-    host: 'https://lgysw.cn',
-    url: '/vodshow/fyclass--------fypage---.html',
-    searchUrl: '/vodsearch/**----------fypage---/',
-    class_parse: '.navbar-items li;a&&Text;a&&href;.*/(.*?)/',
-    cate_exclude: '今日更新|热榜',
-}
+h36A5I5KdeB29zb3iwNWV2y7g637nkMoiC8thhxc2MRHtl9PGDuTuW04HKCKO4tmbEz4y4R7L/e9W3IhkeN1A4IBQheGVhTM1kQgQ8SfDpmfD8Jc1eYNGPsgLKiiye4pWePdd88Vbn1LxinCwcBggHqnV67OIhXbIePABj8Oz7zTqBhf92KDCmx6bsjwgiJU0omHEfQZrP0gSPounVeLwT9wvtX6RTNbhL6t4ymkz9I8tEILgvdsLT2c3kBln3Ghw61oBocZiRYq9Hu+eCxa5kAMO0bd0hOff78Fpk/DZy97Svxt0+l+7G08NAfkFCs6/nvro++TdgJRUItqf/BJWxzJcfjPBXDljU0W9S9+8GtTbv+MGbD6sYzgdaPsANxYhD09Il2osMUBeIx22lkHPw==

@@ -1,11 +1,1 @@
-// https://www.jkdy.cc/api.php/provide/vod/?ac=list
-
-var rule = {
-    模板: '采集1',
-    title: '极客资源[资]',
-    host: 'https://www.jkdy.cc',
-    // homeTid: '13',
-    homeTid: '',
-    cate_exclude: '',
-    parse_url: 'https://www.jkdy.cc/jx/vid.php?url=',
-}
+H4sIAIIbnmYC/9PXV8goKSkottLXLy8v18vKTqnUS07WTyzI1CvIKNAvKMovy0xJ1S/LT9G3T0y2zcksLuHiKkssUigqzUlVsFWo5lIAgmcrFj6bu99KQf1le/vL2W2G6jpg4ZLMkpxUoOizeY1P1y16sbXl2a4J0UAqFiqfkV9cApTG4gCoAn2g6/JzU0MyU4DKDI3h2mBCUIHkxJLU+NSK5JzSlFSEaEFiUXFqfGlRDnYr9LMq9IF+A3nTHqjIFqirFgB3saXhDgEAAA==

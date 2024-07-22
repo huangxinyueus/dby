@@ -1,15 +1,1 @@
-Object.assign(muban.mxone5.二级, {
-    tabs: $js.toString(() => {
-        TABS = ['道长在线']
-    }),
-    lists: '.module-blocklist:eq(#id)&&a',
-});
-muban.mxone5.二级.title = '.title-link&&Text;.tag-link&&Text';
-var rule = {
-    模板: 'mxone5',
-    title: '人人影视',
-    host: 'https://www.renren.pro',
-    url: '/list/fyclass?page=fypage',
-    searchUrl: '/search?wd=**',
-    class_parse: '.nav-menu-items&&li;a&&Text;a&&href;/list/(.*)',
-}
+H4sIAIIbnmYC/1VUuZKjVhTN5ys6G3uYEQItwLgcgBD70hIIBIkL0AMhHvsiYEqpI8dOXA6ceJw67SrbPzMztv/CuKe7yr716i3nnnPqJefq/gUEzcyr6zjKvkhb38tmf//8/ccffsdnHx6++/Ph/eu7dy/upmo8v3579/IUdzM/b5o8fQPjDNydFy9fv7h9+dWLzqvuqhaCu6+fBJ9++enTj39Mkie/iffoEzcQTOiHh4dpffzt17/ef/vUOud1M3XOTVPUb1H0er3OqqZJ6lmQp0+UtoITA62qJi/QcAjg9PNwCGPYgGp2blL4xPuMfPOZ/u5dCGdeBbzb7fHqD7cbWngRmBz+PR7BAXjV7fY/+SQVlrVIPxeC2wNOeDvG4BekVUmql7TmvpvzIK8vTBQdsrjgRi+Nz0aJXbf5DmuwA1MYG8rYbGh4jWNquw3pYWRwILa640arrFw5J05LzyjaBbyfUigdUoWxzN3UdgzvQHknYijdVgaNbKpdaSKSbLA85rtzElAYgcrWNosW5iBJGdmmq6Y4mhJG9rGzubdbnYUxSpxYaovZinlvxrHXVq4SAUtPt4due2UCTfQoUB/6ezUA4qH11zZjQWK899dEgdPj4AgEUiyI8iKyhx0tZ3NXTxyZ7EiPv6ydDKPkdV8j2np0kSXZUwQUOqZAF6RtjUe2TRX9umChWtgsQMoqpcxyoxuJjNbtArCOQhVnZXQyRl5HomVJhXVRELzf5aV6BCXrnxDBi6Nt2S6b4AAsXrS4fRuGqnpcLDXO5G3CsxCCW+JCn7FJSBPtZifhGkV4uJLIWUaWo5EDA2K9i5kxGFECIFRWi1I9N+ba4NSyUu8PDXQva8nqOl5sWqY3cb/2hayiSlhLXbpp62Ku+QkkjnysHKMd3cmlXZXHlXW0q470LWGhhdgulu+lvFmNgWpe9zScG2uGh9uC4UTL5ctkI+/FhLX6qwjpkqlEiLMnzk7K1aaNhR03T+29kqglKK1NhZl7ubfWhVOA8kRXVriXz9Mzh0FJ0aV0jIWc28vUrqErSSi5nDuJFF0w1YqdcCFiHMxbCiUIa0YHgKgGm8BcKc25YOkVzILwzVT3FuRW42Giotcjfsm2Z1ujVYI/NTrRBRt1zh9Lt5AEGXX04kQtQ/0wRxa93HMsdV/N1YEn6NrRbD4jbbVwdXpKkqYMbSBZSLLSYsOZt7pipvhKO3uFwmPO4OHaXlUVNyPVDkKy7hJIZpPshGaxgbrBJYLktoswku+uI3LeZQhUeAsfj0m4WLqoqazdcNo4xFlrKEqvdLdvS1+40vRTZuspwMH58DwggvHVq/+G/Hk63P4BKZ3qI/MEAAA=

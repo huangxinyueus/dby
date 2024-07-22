@@ -1,9 +1,1 @@
-muban.海螺3.二级.title = 'h2&&Text;.hl-text-conch&&Text';
-var rule = {
-    模板: '海螺3',
-    title: '看客影院',
-    host: 'https://kanke.cc',
-    searchUrl: '/Search/**----------fypage---/',
-    url: '/Type/fyclass-fypage/',
-    class_parse: 'body&&.hl-nav li:gt(0);a&&Text;a&&href;Type/(.*?)/',
-}
+bXViYW4u5rW36J66My7kuoznuqcudGl0bGUgPSAnaDImJlRleHQ7LmhsLXRleHQtY29uY2gmJlRleHQnOwp2YXIgcnVsZSA9IHsKICAgIOaooeadvzogJ+a1t+ieujMnLAogICAgdGl0bGU6ICfnnIvlrqLlvbHpmaInLAogICAgaG9zdDogJ2h0dHBzOi8va2Fua2UuY2MnLAogICAgc2VhcmNoVXJsOiAnL1NlYXJjaC8qKi0tLS0tLS0tLS1meXBhZ2UtLS0vJywKICAgIHVybDogJy9UeXBlL2Z5Y2xhc3MtZnlwYWdlLycsCiAgICBjbGFzc19wYXJzZTogJ2JvZHkmJi5obC1uYXYgbGk6Z3QoMCk7YSYmVGV4dDthJiZocmVmO1R5cGUvKC4qPykvJywKfQ==

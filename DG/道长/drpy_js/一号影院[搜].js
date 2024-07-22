@@ -1,14 +1,1 @@
-Object.assign(muban.mxpro.二级, {
-    tab_text: 'div--small&&Text',
-    // list_url_prefix: 'push://',
-});
-var rule = {
-    模板: 'mxpro',
-    title: '一号影院5',
-    host: 'https://001.pm',
-    cate_exclude: '今日更新',
-    url: '/index.php/vod/show/id/fyclass/page/fypage.html',
-    searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
-    class_parse: '.navbar-items li:gt(0):lt(8);a&&Text;a&&href;.*/(\\d+)',
-    tab_exclude: '排序',
-}
+qz2VfkB3O9fqiff5MjJa/ASdotKRYPNu8cLtwdABO3MDeyNp8SITwKEVrcmMRsD6s0DQiKXK91uXHy81Bhzh8/x9ikit/CpkLifH8HJ+/wjnnRGLyLFdrr+uQ3Nox9WkLNdQKYiuZDDG1XFNrLhIRQC7m33K6cD7zerGF0gFmvkFa1cmAW0tTCSwwGr73ePlEwc0qeNtLLx0UW0qoL893eJnL0CufGauDD2lCuP5AUUD1UDEV6/GfJLPM3Th6NOvPIILHfzRQcZZWcAXa4kGJXTYjEiXHrRE2YJNEgP+9eBaPKu0kY8+GJX3zBAvrcuoZk/pGCER53hRvECqCHG4XIaptfSx9DjR2B0+KWX6GdKoFquThrZ6Jgo0TK0tpYjzduAhN3B9tlPu38O8EnKV9bVMQpaTr1GITqcIiGKfYWDpYgel6lQB/TCuhKaVGsOS7KjY4OR2SE2vdWXziA6X0Hp/IYAHk++CUjee4zn7sDJgkgHoN8CnjJVYn6FXAw18/i23k2Le3HwO4E38+2eNVp2sa//HC3eHRiHpklKQ+JMqH4/LyQP2HsglZRL+aDAI6iRDOA6AscYZJFA+EMOD5goEqsYPrb/r9jQV34avV4g=

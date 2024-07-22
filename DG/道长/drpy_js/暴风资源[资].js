@@ -1,11 +1,1 @@
-// https://bfzyapi.com/api.php/provide/vod/?ac=list
-
-var rule = {
-    模板: '采集1',
-    title: '暴风资源[资]',
-    host: 'https://bfzyapi.com',
-    // homeTid: '13',
-    homeTid: '',
-    cate_exclude: '电影片|连续剧|综艺片|动漫片|电影解说|体育|演员|新闻资讯',
-    parse_url: '',
-}
+Ly8gaHR0cHM6Ly9iZnp5YXBpLmNvbS9hcGkucGhwL3Byb3ZpZGUvdm9kLz9hYz1saXN0Cgp2YXIgcnVsZSA9IHsKICAgIOaooeadvzogJ+mHh+mbhjEnLAogICAgdGl0bGU6ICfmmrTpo47otYTmupBb6LWEXScsCiAgICBob3N0OiAnaHR0cHM6Ly9iZnp5YXBpLmNvbScsCiAgICAvLyBob21lVGlkOiAnMTMnLAogICAgaG9tZVRpZDogJycsCiAgICBjYXRlX2V4Y2x1ZGU6ICfnlLXlvbHniYd86L+e57ut5YmnfOe7vOiJuueJh3zliqjmvKvniYd855S15b2x6Kej6K+0fOS9k+iCsnzmvJTlkZh85paw6Ze76LWE6K6vJywKICAgIHBhcnNlX3VybDogJycsCn0=
