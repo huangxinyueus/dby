@@ -1,0 +1,41 @@
+{
+    "warningText": "关注公众号:打发，分享者随时更新。",
+    "urls": [
+        {
+            "name": "👨｜业余本地｜👨",
+            "url": "clan://localhost/yydf/yydf2024/yydf.json"
+        },
+        {
+            "name": "🔮｜道长本地🔮",
+            "url": "clan://localhost/yydf/drpy/index.json"
+        },
+        {
+            "name": "🔥｜开心本地🔥",
+            "url": "clan://localhost/yydf/ttkx/ttkx.json"
+        },
+        {
+            "name": "🧞‍｜PG本地🧞‍",
+            "url": "clan://localhost/yydf/pg/jsm.json"
+        },
+        {
+            "name": "🐃‍｜二小在线🐃‍",
+            "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"
+        },
+        {
+            "name": "👶‍｜OK本地👶‍",
+            "url": "clan://localhost/yydf/ok/ok.json"
+        },
+        {
+            "name": "🍚｜饭总本地🍚",
+            "url": "clan://localhost/yydf/fty/fty.json"
+        },
+        {
+            "name": "🌹｜香神本地🌹",
+            "url": "clan://localhost/yydf/xyq/xyq.json"
+        },
+        {
+            "name": "🤕‍｜短剧在线🤕‍",
+            "url": "http://74.120.175.78/JK/XYQTVBox/dj.json"
+        }
+    ]
+}
