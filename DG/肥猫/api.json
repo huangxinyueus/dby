@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://like.xn--z7x900a.com/ppic/feimao.php",
-    "logo": "http://like.xn--z7x900a.com/panda/0262.png",
+    "logo": "https://like.xn--z7x900a.com/panda/0262.png",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
@@ -57,6 +57,18 @@
             "name": "🏳️┃素白┃影视",
             "type": 3,
             "api": "csp_SuBaiBai"
+        },
+        {
+            "key": "csp_Nongm",
+            "name": "🌾️┃农民┃影视",
+            "type": 3,
+            "api": "csp_Nongm"
+        },
+        {
+            "key": "csp_Quanwk",
+            "name": "🗺️️┃全网┃影视",
+            "type": 3,
+            "api": "csp_Quanwk"
         },
         {
             "key": "csp_Zx1080",

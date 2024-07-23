@@ -83,6 +83,38 @@
             "timeout": 30
         },
         {
+            "key": "立播弹幕版",
+            "name": "🐰立播┃在线",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 30
+        },
+        {
+            "key": "蜡笔弹幕",
+            "name": "👠蜡笔┃在线",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://duopan.fun",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
             "key": "韩圈",
             "name": "🦄韩圈┃App",
             "type": 3,
@@ -274,17 +306,6 @@
             "filterable": 1,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
             "ext": "./txt/dadagui.txt",
-            "timeout": 15
-        },
-        {
-            "key": "libvio_js",
-            "name": "🐰利播┃在线",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "./txt/libvio.txt",
             "timeout": 15
         },
         {
@@ -488,21 +509,6 @@
             "timeout": 10
         },
         {
-            "key": "海洋听书js",
-            "name": "🎧海洋┃听书",
-            "type": 3,
-            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "./txt/haiyangtingshu.txt",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "timeout": 10
-        },
-        {
             "key": "bili",
             "name": "🅱哔哔┃合集",
             "type": 3,
@@ -610,6 +616,33 @@
             "name": "🐚夸克盘搜┃搜索",
             "type": 3,
             "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "米搜",
+            "name": "🌖米搜┃搜索",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://www.misou.fun"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "夸搜",
+            "name": "🚢夸搜┃搜索",
+            "type": 3,
+            "api": "csp_Qkso",
             "searchable": 1,
             "filterable": 1,
             "changeable": 0,
