@@ -50,6 +50,14 @@
             "filterable": 1
         },
         {
+            "key": "csp_Nkdy",
+            "name": "🥛耐看┃APP",
+            "type": 3,
+            "api": "csp_Nkdy",
+            "playerType": 2,
+            "filterable": 1
+        },
+        {
             "key": "csp_蚂蚁",
             "name": "🐜蚂蚁┃无广",
             "type": 1,
@@ -149,42 +157,9 @@
             "key": "QIYIU",
             "name": "🦌奇优┃影视",
             "type": 3,
-            "jar": "./jars/QIYIU.jar",
             "changeable": 1,
-            "api": "csp_XBPQ",
-            "playerType": "1",
-            "ext": {
-                "主页url": "http://www.qiyoudy1.com",
-                "数组": "<div class=\"stui-vodlist__box\">&&</div>",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "搜索url": "http://www.qiyoudy1.com/search.php;post;searchword={wd}",
-                "搜索模式": "1",
-                "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索标题": "title=\"&&\"",
-                "搜索链接": "href=\"&&\"",
-                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "搜索后缀": "/view/",
-                "线路数组": "<a data-toggle=\"tab\"&&/a>[排序:播放源2>播放源3>播放源4>播放源1]",
-                "线路标题": ">&&<",
-                "播放数组": "<ul class=\"stui-content__playlist clearfix&&</ul>",
-                "影片年代": "年份：&&</p>",
-                "影片地区": "地区：&&<span",
-                "影片类型": "类型：&&</a>",
-                "导演": "导演：&&</p>",
-                "主演": "主演：&&</p>",
-                "简介": "简介：&&</a>",
-                "播放列表": "<a&&/a>",
-                "播放标题": ">&&<",
-                "播放链接": "href=\"&&\"",
-                "播放链接前缀": "http://www.qiyoudy1.com",
-                "嗅探词": ".m3u8#.mp4#.flv#.mp3#.m4a",
-                "分类url": "http://www.qiyoudy1.com/list/{cateId}_{catePg}.html?order={by}",
-                "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
-            }
+            "api": "csp_Qiyou",
+            "playerType": "1"
         },
         {
             "key": "黑狐",
@@ -235,7 +210,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/QIYIU.jar",
+            "jar": "./jars/小米.jar",
             "playerType": "2",
             "api": "csp_XBPQ",
             "ext": {
@@ -263,7 +238,8 @@
                 "播放数组": "vod_play_url\"&&\"vod_[替换:\\#>>\",:\"]",
                 "播放列表": ":&&,",
                 "播放标题": "\"&&$",
-                "播放链接": "http://134.122.136.84/btjson.php/?url=+$&&\"",
+                "跳转解析": "nmys$http://pan.qiaoji8.com/tvbox/neibu.php?url=#BBA$http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+                "播放链接": "解析+$&&\"",
                 "跳转播放链接": "url\"*\"&&\""
             }
         },

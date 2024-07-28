@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "玩偶新添加优汐线路",
+            "name": "全接口智能过滤广告",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -206,15 +206,6 @@
             "timeout": 15,
             "playerType": 1,
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-        },
-        {
-            "key": "比特",
-            "name": "🍄比特┃秒播",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "南瓜",
