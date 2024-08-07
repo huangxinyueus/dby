@@ -13,13 +13,17 @@
             "searchable": 0
         },
         {
-            "key": "csp_Netfixtv",
-            "name": "👀至臻┃自建4K",
+            "key": "csp_zhizhen",
+            "name": "🌹至臻┃4K4K",
             "type": 3,
             "api": "csp_Duopan",
-            "playerType": 2,
             "filterable": 1,
-            "ext": "http://mpanso.com/"
+            "ext": {
+                "site_urls": [
+                    "http://mihdr.top",
+                    "http://mpanso.com"
+                ]
+            }
         },
         {
             "key": "csp_wanou",
@@ -30,7 +34,13 @@
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": "https://wogg.xxooo.cf/"
+            "ext": {
+                "site_urls": [
+                    "https://wogg.xxooo.cf/",
+                    "https://www.wogg.bf/",
+                    "https://www.wogg.net/"
+                ]
+            }
         },
         {
             "key": "csp_LiteApple",
@@ -72,14 +82,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_蚂蚁",
-            "name": "🐜蚂蚁┃无广",
-            "type": 1,
-            "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
-            "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url=",
-            "filterable": 1
-        },
-        {
             "key": "huohuo",
             "name": "💥火火┃独家",
             "type": 3,
@@ -88,7 +90,7 @@
         },
         {
             "key": "Bili",
-            "name": "哔哔┃合集",
+            "name": "🎒哔哔┃合集",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -110,7 +112,8 @@
             "key": "csp_全网",
             "name": "🥣全网┃独家",
             "type": 3,
-            "api": "csp_Xdys"
+            "api": "csp_Quanwk",
+            "ext": "https://888.qkw1.cc/"
         },
         {
             "key": "csp_SP360",

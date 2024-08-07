@@ -34,7 +34,12 @@
             "api": "csp_Duopan",
             "playerType": 2,
             "filterable": 1,
-            "ext": "https://duopan.fun/"
+            "ext": {
+                "site_urls": [
+                    "https://duopan.fun",
+                    "http://labipan.com"
+                ]
+            }
         },
         {
             "key": "nangua",
