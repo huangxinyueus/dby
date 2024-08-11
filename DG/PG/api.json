@@ -305,17 +305,6 @@
             "ext": "./lib/tokenm.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG"
         },
         {
-            "key": "Wo4k",
-            "name": "玩偶4K|磁力",
-            "type": 3,
-            "api": "csp_Wo4k",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"
-        },
-        {
             "key": "Wobg",
             "name": "玩偶表哥|网盘",
             "type": 3,
@@ -324,7 +313,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json$$$WOBG"
         },
         {
             "key": "yydsys",
@@ -335,7 +324,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json$$$WNLG"
         },
         {
             "key": "蜡笔网盘",
@@ -346,7 +335,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://duopan.fun/$$$noproxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://duopan.fun/$$$noproxy$$$1$$$./lib/wogg.json$$$LABI"
         },
         {
             "key": "Gaoqing",
@@ -434,7 +423,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$noproxy$$$1"
+            "ext": "./lib/tokenm.json$$$https://www.hdhive.online/$$$noproxy$$$1"
         },
         {
             "key": "Ppxzy",
@@ -1380,6 +1369,14 @@
         }
     ],
     "lives": [
+        {
+            "name": "zouming.ipv6",
+            "type": 0,
+            "url": "http://127.0.0.1:10079/p/0/proxy/http://ww.zouming.com/ipv6.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
         {
             "name": "live.ipv6",
             "type": 0,
