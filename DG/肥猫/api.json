@@ -32,7 +32,6 @@
             "name": "🖍︎┃蜡笔┃影视",
             "type": 3,
             "api": "csp_Duopan",
-            "playerType": 2,
             "filterable": 1,
             "ext": {
                 "site_urls": [
@@ -148,7 +147,6 @@
             "name": "💌┃至臻┃影视",
             "type": 3,
             "api": "csp_Netfixtv",
-            "playerType": 2,
             "filterable": 1,
             "ext": "http://mpanso.com"
         },
