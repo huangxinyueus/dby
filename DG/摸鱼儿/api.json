@@ -61,26 +61,14 @@
         },
         {
             "key": "测压已通过",
-            "name": "🌟摸鱼自建┃4K解析",
+            "name": "🌟摸鱼追觅┃4K解析",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " http://4k.摸鱼儿.com/api.php/app/"
-        },
-        {
-            "key": "酷酷",
-            "name": "💯腾云驾雾┃4K测试",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./jars/登录.jar",
-            "playerType": "2",
-            "api": "csp_XBPQ",
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=腾云驾雾"
+            "ext": "http://122.228.85.203:3366/api.php/app/"
         },
         {
             "key": "玩偶智能",
