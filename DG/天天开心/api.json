@@ -114,12 +114,6 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "⑥蓝影兔源",
-            "type": 0,
-            "url": "./lives/⑥蓝影兔源.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
             "name": "⑦限时线路",
             "type": 0,
             "url": "./lives/⑦限时线路.txt",
@@ -469,7 +463,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "playerType": "1",
-            "api": "./api/apiv435drpy2.min.js",
+            "api": "./api/drpy2.min.js",
             "ext": "./js/jp.js"
         },
         {

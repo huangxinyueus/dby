@@ -27,9 +27,18 @@
         },
         {
             "key": "Wexconfig",
-            "name": "🐮配置┃中心🐮",
+            "name": "🐮通用类型┃配置中心🐮",
             "type": 3,
             "api": "csp_Wexconfig",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0
+        },
+        {
+            "key": "Wexokconfig",
+            "name": "🐮影视专用┃配置中心🐮",
+            "type": 3,
+            "api": "csp_Wexokconfig",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0
