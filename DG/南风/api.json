@@ -92,15 +92,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Ikan",
-            "name": "💖爱看",
-            "type": 3,
-            "api": "csp_Ikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_SuBaiBai",
             "name": "⛅️素白白",
             "type": 3,
@@ -328,15 +319,6 @@
             "name": "🚌动漫巴士",
             "type": 3,
             "api": "csp_Dm84",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Ysj",
-            "name": "📮异世界",
-            "type": 3,
-            "api": "csp_Ysj",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
