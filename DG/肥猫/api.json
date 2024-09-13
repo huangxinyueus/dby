@@ -82,12 +82,6 @@
             "api": "csp_Nongm"
         },
         {
-            "key": "csp_Quanwk",
-            "name": "🗺️️┃全网┃影视",
-            "type": 3,
-            "api": "csp_Quanwk"
-        },
-        {
             "key": "csp_Kanke",
             "name": " 👀┃看客┃影视",
             "type": 3,
@@ -147,7 +141,7 @@
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": ""
+            "ext": "https://www.wogg.net"
         },
         {
             "key": "比特",
