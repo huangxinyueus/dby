@@ -1,3 +1,5 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
@@ -127,26 +129,34 @@
             "ext": "http://43.248.100.147:9891/api.php/app/"
         },
         {
-            "key": "六六六",
-            "name": "六六六｜APP",
-            "playerType": 1,
+            "key": "追剧猫",
+            "name": "追剧猫｜APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " http://122.228.85.203:1000/api.php/app/"
+            "ext": "https://jingxiang.lingutv.cn/api.php/app/"
+        },
+        {
+            "key": "酷影视",
+            "name": "酷影视｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         {
             "key": "丘丘影视",
             "name": "丘丘｜APP",
-            "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " http://111.173.115.204:2211/api.php/app/"
+            "ext": "http://111.173.115.204:2211/api.php/app/"
         },
         {
             "key": "南瓜影视",
@@ -1686,18 +1696,8 @@
             "url": "Demo"
         },
         {
-            "name": "666专线",
-            "url": "http://122.228.85.203:7979/api/?key=e5ef7605633990b8d99ee1bfae196786&url=",
-            "type": "1"
-        },
-        {
-            "name": "YY专线",
-            "url": "http://122.228.85.203:6789/api/?key=de7ed0ead4328fe74ade88bd922e3f4f&url=",
-            "type": "1"
-        },
-        {
             "name": "XGJ专线",
-            "url": "http://43.248.100.147:1122/bba/xgjjson.php?url=",
+            "url": "http://43.248.100.147:6068/bba/781xgjjson.php?url=",
             "flag": [
                 "BBA"
             ],
@@ -1729,19 +1729,8 @@
             "type": "1"
         },
         {
-            "name": "OL专线",
-            "url": "http://110.40.39.158:5000/api/jiexi/common?Key=7idBzIqEEFyf4AYYXt&url=",
-            "flag": [
-                "BTOL"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
             "name": "4K专线",
-            "url": "http://110.42.7.182:881/api/?key=qEDfo9v5Uk48DVmu6W&url=",
+            "url": "https://jf.hanliu8.cn/api/?key=qEDfo9v5Uk48DVmu6W&url=",
             "flag": [
                 "4kvip"
             ],
@@ -1752,7 +1741,7 @@
         },
         {
             "name": "MX专线",
-            "url": "http://110.42.7.182:881/api/?key=qEDfo9v5Uk48DVmu6W&url=",
+            "url": "https://jf.hanliu8.cn/api/?key=qEDfo9v5Uk48DVmu6W&url=",
             "flag": [
                 "m78"
             ],
@@ -1762,30 +1751,42 @@
             "type": "1"
         },
         {
-            "name": "BD专线",
-            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
-            "flag": [
-                "nmys"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "MY专线",
-            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
-            "flag": [
-                "mytv"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
             "name": "XGJ专线",
-            "url": "http://43.248.119.153:9991/jx/?url=",
+            "url": "http://43.248.100.147:6068/KEY/70xgjgj.php?url=",
+            "flag": [
+                "youku",
+                "qq",
+                "qiyi",
+                "bilibili",
+                "mgtv",
+                "pptv",
+                "xigua"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "LL专线",
+            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
+            "flag": [
+                "youku",
+                "qq",
+                "qiyi",
+                "bilibili",
+                "mgtv",
+                "pptv",
+                "xigua"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "HH专线",
+            "url": "https://api.huohua.vip/api/?key=LqSFybBQvYzN52Tneg&url=",
             "flag": [
                 "youku",
                 "qq",
@@ -1802,7 +1803,7 @@
         },
         {
             "name": "XGJ聚合",
-            "url": "http://43.248.100.147:1122/XGJ/jxzy.php?url=",
+            "url": "http://43.248.100.147:6068//KEY/XGJ/root/key/44jxzy.php?url=",
             "flag": [
                 "youku",
                 "qq",
@@ -1815,20 +1816,9 @@
                 "ETH-",
                 "mytv",
                 "nmys",
-                "BTOL",
+                "BBA",
                 "4kvip",
                 "m78"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "DM专线",
-            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
-            "flag": [
-                "yhdm"
             ],
             "header": {
                 "User-Agent": "Dalvik/2.1.0"
@@ -2089,6 +2079,12 @@
             "name": "直播3",
             "type": 0,
             "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 1
+        },
+        {
+            "name": "直播4",
+            "type": 0,
+            "url": "http://mmitv.top/pltv/merization.php?id=list&user=t0k1b5&token=17af41bb&text=diypbox",
             "playerType": 1
         }
     ],

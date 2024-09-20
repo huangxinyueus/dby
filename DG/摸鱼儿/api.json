@@ -65,13 +65,24 @@
         },
         {
             "key": "摸鱼瓜子",
-            "name": "❤️嗑嗑瓜子┃超清纯净",
+            "name": "❤️嗑嗑瓜子┃2K纯净",
             "type": 3,
             "api": "./api/drpy.min.js",
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
             "ext": "./js/guazi.js"
+        },
+        {
+            "key": "醉挽清风",
+            "name": "❤️醉挽清风┃4K纯净",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/qingfeng.js"
         },
         {
             "key": "蜡笔弹幕",
@@ -506,19 +517,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
-        },
-        {
-            "key": "文才弹幕",
-            "name": "💮文采┃蓝光┃弹幕",
-            "type": 3,
-            "api": "csp_Jpys",
-            "jar": "./jars/弹幕配置.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
         },
         {
             "key": "文采",
@@ -1361,9 +1359,9 @@
             "url": "Web"
         },
         {
-            "name": "zhuimi",
+            "name": "zhuimi-super",
             "type": 1,
-            "url": "http://www.mpanso.com/%E6%88%91%E7%88%B1%E4%BD%A0.php?url=",
+            "url": "http://103.117.123.51:6523/zhuimi666.php?url=",
             "ext": {
                 "flag": [
                     "qq",
