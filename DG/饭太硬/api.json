@@ -139,25 +139,37 @@
             "changeable": 1
         },
         {
+            "key": "萌米",
+            "name": "👀萌米┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+        },
+        {
+            "key": "欢视",
+            "name": "👓欢视┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+        },
+        {
             "key": "热播",
             "name": "📺热播┃多线",
             "type": 3,
             "api": "csp_AppTT",
-            "timeout": 15,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-        },
-        {
-            "key": "萌米",
-            "name": "👀萌米┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "timeout": 15,
-            "playerType": 1,
-            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
         },
         {
             "key": "南瓜",
@@ -175,7 +187,6 @@
             "name": "👻可可┃多线",
             "type": 3,
             "api": "csp_Kekys",
-            "timeout": 15,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -420,14 +431,11 @@
             "key": "Sso",
             "name": "🐌盘他┃三盘",
             "type": 3,
-            "api": "csp_PanSso",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/盘他.js",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
+            "changeable": 0
         },
         {
             "key": "夸搜",
