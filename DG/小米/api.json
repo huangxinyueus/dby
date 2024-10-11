@@ -52,12 +52,36 @@
             }
         },
         {
+            "key": "FERRR",
+            "name": "👀FREE┃1080P",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/FREE.js"
+        },
+        {
             "key": "米搜",
             "name": "🌾米搜┃盘盘4K",
             "type": 3,
             "api": "csp_MiSou",
             "changeable": 0,
             "ext": "./txt/kk.txt"
+        },
+        {
+            "key": "88看球",
+            "name": "🏀看球┃直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/kanqiu.js"
         },
         {
             "key": "csp_LiteApple",
@@ -137,46 +161,34 @@
             "playerType": 2
         },
         {
-            "key": "hipy_闪电",
-            "name": "⚡️闪电┃1080P",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/闪电.js"
-        },
-        {
             "key": "hipy_js_腾云驾雾[官]",
             "name": "🌞腾腾┃解析",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/ttt.js"
+            "ext": "./js/ttt111222.js"
         },
         {
             "key": "guoguo",
             "name": "🌞果果┃解析",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/guoguo.js"
+            "ext": "./js/guoguo111222.js"
         },
         {
             "key": "摘星",
             "name": "✨星星┃1080P",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -343,20 +355,6 @@
             }
         },
         {
-            "key": "有声小说js",
-            "name": "🎧有声┃小说",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/有声小说吧.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "csp_FirstAid",
             "name": "🍧急救┃教学",
             "type": 3,
@@ -368,48 +366,6 @@
                 "ratio": 3.8
             },
             "gridview": "0-0-4.1"
-        },
-        {
-            "key": "dr_兔小贝",
-            "name": "📚儿童┃启蒙",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "虎牙直播js",
-            "name": "🐯虎牙┃直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/huya2.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "Jrsjs",
-            "name": "🏀JRS┃球迷",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "push_agent",

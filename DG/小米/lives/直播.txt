@@ -414,14 +414,20 @@ http://gslbservstudent.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contenti
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「IPV4」",咪咕直播 𝟜𝟝「IPV4」
 http://gslbservstudent.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011531&livemode=1&stbId=3
 #INSERT_HERE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 季前赛 黄蜂 vs 热火 邢晨
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 季前赛 尼克斯 vs 奇才 王凯
 https://tv.iill.top/NBA/1
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 季前赛 骑士 vs 公牛 邵化谦
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 季前赛 雷霆 vs 火箭 周鹏
 https://tv.iill.top/NBA/2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 季前赛 活塞 vs 太阳 刘沛元
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 季前赛 马刺 vs 魔术 王晓晨
 https://tv.iill.top/NBA/3
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 季前赛 老鹰 vs 步行者 周赫
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:25 季前赛 国王 vs 勇士 邢晨
 https://tv.iill.top/NBA/4
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」16:30 重庆狼队 vs 上海EDG.M 重庆狼队 vs 上海EDG.M 官方解说
+https://tv.iill.top/Migu/1
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」19:40 济南RW侠 vs 北京WB 济南RW侠 vs 北京WB 官方解说
+https://tv.iill.top/Migu/2
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「lol」19:40 英雄联盟S14瑞士轮Day6 官方解说
+https://tv.iill.top/Migu/3
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•咪咕「TV」",CCTV 1 综合
 https://tv.iill.top/migu/cctv1
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•咪咕「TV」",CCTV 2 财经
