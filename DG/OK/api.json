@@ -47,6 +47,16 @@
             "timeout": 10
         },
         {
+            "key": "南瓜",
+            "name": "🎃南瓜┃直连",
+            "type": 3,
+            "api": "csp_Nangua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
             "key": "玩偶",
             "name": "👽玩偶┃4K",
             "type": 3,
@@ -61,6 +71,16 @@
                 "wogg": true
             },
             "timeout": 30
+        },
+        {
+            "key": "糯米",
+            "name": "🍓糯米┃秒播",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
         },
         {
             "key": "小苹果",
@@ -147,8 +167,7 @@
                 "token": "file://TV/ali_token.txt",
                 "cookie": "file://TV/quark_cookie.txt",
                 "uc_cookie": "file://TV/uc_cookie.txt",
-                "site": "https://libvio.link",
-                "danmu": true
+                "site": "https://libvio.link"
             },
             "timeout": 30
         },
@@ -163,8 +182,23 @@
             "ext": {
                 "token": "file://TV/ali_token.txt",
                 "cookie": "file://TV/quark_cookie.txt",
-                "site": "http://labipan.com",
-                "danmu": true
+                "site": "http://labipan.com"
+            },
+            "timeout": 25
+        },
+        {
+            "key": "木偶弹幕",
+            "name": "🪵木偶┃在线",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://mogg.小胡.top"
             },
             "timeout": 25
         },
@@ -669,8 +703,7 @@
             "ext": {
                 "token": "file://TV/ali_token.txt",
                 "cookie": "file://TV/quark_cookie.txt",
-                "uc_cookie": "file://TV/uc_cookie.txt",
-                "danmu": true
+                "uc_cookie": "file://TV/uc_cookie.txt"
             },
             "timeout": 5
         }
