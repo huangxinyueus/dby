@@ -129,14 +129,14 @@
             "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         {
-            "key": "丘丘影视",
-            "name": "丘丘｜APP",
+            "key": "新感觉",
+            "name": "新感觉｜APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://111.173.115.204:2211/api.php/app/"
+            "ext": "http://43.248.100.147:9892/api.php/app/"
         },
         {
             "key": "南瓜影视",
@@ -893,8 +893,8 @@
             "key": "动漫巴士",
             "name": "巴士｜动漫",
             "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/动漫巴士.json"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/动漫巴士.js"
         },
         {
             "key": "樱花动漫",
@@ -1040,18 +1040,6 @@
             }
         },
         {
-            "key": "一起看弹幕",
-            "name": "一起看｜弹幕",
-            "type": 3,
-            "api": "csp_Yqk",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
             "key": "荐片弹幕",
             "name": "荐片｜弹幕",
             "type": 3,
@@ -1074,17 +1062,6 @@
             "filterable": 1,
             "ext": {
                 "site": "https://www.yjys05.com",
-                "danmu": true
-            }
-        },
-        {
-            "key": "不太灵弹幕",
-            "name": "不太灵｜弹幕",
-            "type": 3,
-            "api": "csp_Bt0",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
                 "danmu": true
             }
         },
@@ -1227,20 +1204,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://4k.4u4.cn",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克团长弹幕",
-            "name": "团长｜4K弹幕",
-            "type": 3,
-            "api": "csp_Tzfile",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "danmu": true
             }
         },
@@ -1653,6 +1616,16 @@
             }
         },
         {
+            "key": "短剧合集",
+            "name": "短剧｜合集",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/短剧合集.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
@@ -1704,9 +1677,140 @@
             }
         },
         {
-            "name": "推荐4K",
-            "type": 1,
-            "url": "http://jx.jwl.icu/jx.php?url="
+            "name": "XG蓝光",
+            "url": "http://43.248.100.147:6068/bba/xgjjiexi.php?url=",
+            "flag": [
+                "BBA"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "XM蓝光",
+            "url": "http://121.62.61.51:6888/api/?key=wyn1txZX5RKA2kVFUX&url=",
+            "flag": [
+                "NBY"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "MX蓝光",
+            "url": "http://122.51.15.119:1234/home/api?type=ys&cc=&uid=52565&key=bfhorsvAEGHMRV3469&url=",
+            "flag": [
+                "MXTV"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "LX蓝光",
+            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
+            "flag": [
+                "LXTX"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "TX蓝光",
+            "url": "http://43.248.100.147:9527/jx.php?url=",
+            "flag": [
+                "TX"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "MY蓝光",
+            "url": "http://zy.uiovo.com/api/?key=85907fa019f741cdf0e0a15ec078ca0a&ud=113&url=",
+            "flag": [
+                "mytv",
+                "nmys",
+                "yhdm"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "BN蓝光",
+            "url": "http://43.248.128.138:1111/home/api?type=ys&uid=3085188&key=egioqrtxzABORUW269&url=",
+            "flag": [
+                "BNNB"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "DJ专线",
+            "url": "http://jx.voooe.cn/api/?key=aa70f97f8c109a3c6937ea27a98da6e0&url=",
+            "flag": [
+                "duanju"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "XGJ官解",
+            "url": "http://43.248.100.147:6068/KEY/XGJ/root/key/gg.php?url=",
+            "flag": [
+                "youku",
+                "qq",
+                "qiyi",
+                "bilibili",
+                "mgtv",
+                "sohu",
+                "letv",
+                "xigua"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "XGJ聚合",
+            "url": "http://43.248.100.147:6068/KEY/XGJ/root/key/k.php?url=",
+            "flag": [
+                "youku",
+                "qq",
+                "qiyi",
+                "bilibili",
+                "mgtv",
+                "pptv",
+                "xigua",
+                "NBY",
+                "ETH-",
+                "BBA",
+                "LXTX",
+                "TX",
+                "MXTV",
+                "mytv",
+                "nmys",
+                "yhdm",
+                "BNNB",
+                "duanju"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
         },
         {
             "name": "线路1",
@@ -1832,18 +1936,6 @@
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "一起看广告",
-            "hosts": [
-                "yqk88"
-            ],
-            "regex": [
-                "18.4",
-                "15.1666",
-                "16.5333",
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
             ]
         },
         {
