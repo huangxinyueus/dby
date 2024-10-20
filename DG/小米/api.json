@@ -52,24 +52,11 @@
             }
         },
         {
-            "key": "FERRR",
-            "name": "👀FREE┃1080P",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/FREE.js"
-        },
-        {
             "key": "米搜",
             "name": "🌾米搜┃盘盘4K",
             "type": 3,
             "api": "csp_MiSou",
-            "changeable": 0,
-            "ext": "./txt/kk.txt"
+            "changeable": 0
         },
         {
             "key": "88看球",
@@ -200,7 +187,7 @@
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/ttt111222.js"
+            "ext": "./js/ttt.js"
         },
         {
             "key": "guoguo",
@@ -212,7 +199,7 @@
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/guoguo111222.js"
+            "ext": "./js/guoguo.js"
         },
         {
             "key": "摘星",
@@ -281,21 +268,6 @@
             "ext": "https://www.wwgz.cn/"
         },
         {
-            "key": "csp_yigeg",
-            "name": "🥬菠菜┃1080P",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_Pptv",
-            "ext": "https://yigeg.pro/"
-        },
-        {
-            "key": "csp_SP360",
-            "name": "🐠360┃1080P",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_SP360"
-        },
-        {
             "key": "QIYIU",
             "name": "🦌奇优┃1080P",
             "type": 3,
@@ -362,8 +334,7 @@
             "type": 3,
             "api": "csp_Push",
             "playerType": "1",
-            "searchable": 0,
-            "ext": "./txt/kk.txt"
+            "searchable": 0
         }
     ],
     "parses": [

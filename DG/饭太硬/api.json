@@ -106,10 +106,29 @@
             "changeable": 1
         },
         {
+            "key": "比特",
+            "name": "🍄比特┃秒播",
+            "type": 3,
+            "api": "csp_Bttwoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "苹果",
             "name": "🍎苹果┃不卡",
             "type": 3,
             "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "原创",
+            "name": "☀原创┃不卡",
+            "type": 3,
+            "api": "csp_YCyz",
+            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -123,17 +142,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czzy77.com/"
-        },
-        {
-            "key": "原创",
-            "name": "☀原创┃不卡",
-            "type": 3,
-            "api": "csp_YCyz",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
+            "ext": "http://www.czzy77.com/"
         },
         {
             "key": "萌米",
@@ -197,7 +206,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.zxzjhd.com/"
+            "ext": "http://www.zxzjhd.com/"
         },
         {
             "key": "低端",
@@ -221,15 +230,6 @@
             "ext": "./js/jp.js"
         },
         {
-            "key": "比特",
-            "name": "🍄比特┃秒播",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "Auete",
             "name": "🏝奥特┃无广",
             "type": 3,
@@ -238,7 +238,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://auete.pro/"
+            "ext": "https://auete.com/"
         },
         {
             "key": "新6V",
@@ -285,6 +285,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "926看球",
+            "name": "⚽926┃看球",
+            "type": 3,
+            "api": "csp_kanqiu926",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "88js",
