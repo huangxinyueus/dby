@@ -1,0 +1,16 @@
+﻿{
+				"分类url": "https://www.modiandy.com/{cateId}/{class}/page/{catePg};;k",
+				"分类": "电影$dianying#连续剧$dianshiju#综艺$zongyi#动漫$dongman",
+				"图片": "_src=\"&&\"",
+				"图片": "_src=\"&&\"",
+				"线路数组": "<h5 class=\"item-name\">&&</h5",
+				"线路标题": "💢简影👉+</b><b>&&</b><b>",
+				"多线数组": "<h5 class=\"item-name\">&&</h5",
+				"多线链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"episodes-list&&</ul",
+				"播放列表": "<li&&</li",
+				"播放标题": ">&&</a",
+				"播放链接": "href=\"&&\"",
+				"起始页": "1",
+				"剧情": "剧情片$juqing#喜剧片$xiju#爱情片$aiqing#动作片$dongzuo#恐怖片$kongbu#科幻片$kehuan#战争片$zhanzheng#悬疑片$xuanyi#犯罪片$fanzui#冒险片$maoxian#奇幻片$qihuan#西部片$xibu#历史片$lishi#同性片$tongxing#动画片$donghua||短剧$duanju#大陆剧$dalu#港台剧$gangtai#日韩剧$rihan#美剧$meiju#泰剧$taiju#海外剧$haiwai||大陆综艺$dalu#港台综艺$gangtai#日韩综艺$rihan#欧美综艺$oumei#其他综艺$qita||国漫$guoman#日漫$riman#美漫$meiman#其他$qita"
+			}

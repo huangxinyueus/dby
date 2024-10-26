@@ -1,0 +1,13 @@
+﻿ {
+				"免嗅": "0",
+				"分类url": "https://www.woaimoon.net/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+				"分类": "电视剧$2#电影$1#综艺$3#动漫$4",
+				"数组": "class=\"pack-packcover returl list-top-b\">&&pack-infolist",
+				"标题": "title=\"&&\"",
+				"副标题": "pack-prb hidden\">&&</span>",
+				"图片": "data-original=\"&&\"",
+				"链接": "href=\"&&\"",
+				"简介": "id=\"cText\">&&</a>",
+				"线路数组": "channelname swiper-slide\">&&</a>",
+				"线路标题": "💢简影👉+&nbsp;&&<[排序:腾讯>奇艺>优酷>芒果TV>搜狐>其它]"
+			}

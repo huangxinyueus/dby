@@ -1,16 +1,18 @@
 ﻿{
   "spider": "./xmbjm.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "logo": "https://4708.kstore.space/logo.gif",
-
-"lives": [
- {
-      "name": "IPV",
+  "logo": "https://gitee.com/xmbjmck/ck/raw/master/logo.gif",
+  "lives": [
+    {
+      "name": "TV线路",
       "type": 0,
-      "url": "https://4708.kstore.space/omg/iplove.txt",
-      "playerType": 1
-    }],
-
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    }
+  ],
   "sites": [
     {
       "key": "豆瓣",
@@ -62,7 +64,7 @@
       "name": "拾光☪电视台",
       "type": 3,
       "api": "./lib/sdtv.js",
-      "ext": "./lib/zb.txt",
+      "ext": "./lib/kxzb1.txt",
       "jar": "./lib/sdtv.jar"
     },
     {
@@ -269,8 +271,6 @@
         "国产综艺"
       ]
     },
-
-
     {
       "key": "韩圈",
       "name": "拾光☪韩剧",
@@ -406,7 +406,20 @@
         "分类": "陆剧$6#日剧$2#美剧$3#泰剧$4#港剧$7#台剧$8#短剧$9"
       }
     },
- 
+    {
+      "key": " 百姓 ",
+      "name": "拾光☪百姓",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "简介": "请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
+        "分类url": "https://www.gymboreejn.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.gymboreejn.com/vodtype/{cateId}.html]",
+        "分类": "电影$1#剧集$2#综艺$3#动漫$4#动画片$29#短剧$31#影视解说$32#邵氏电影$39"
+      }
+    },
 
     {
       "key": "三米ys",
@@ -428,7 +441,17 @@
       "filterable": 1,
       "ext": "./lib/美柏.json"
     },
-
+{
+      "key": "凯奇追剧",
+      "name": "拾光☪凯奇",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "+hl-content-text\">&&</span>",
+        "分类url": "https://www.kqyy.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanshipin"
+      }
+    },
     
     {
       "key": "热播之家",
@@ -638,7 +661,16 @@
       "order_num": 6,
       "ext": "./lib/4k剧院.js"
     },
-
+    {
+      "key": "茶狐杯",
+      "name": "拾光☪茶狐杯",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/茶狐杯.json"
+    },
     {
       "key": "奈飞影视",
       "name": "拾光☪鸭奈飞",
@@ -1158,7 +1190,7 @@
 
 {
  "key":"xbpq_韩迷TV",
- "name":"拾光☪韩蜜影视",
+ "name":"拾光☪韩蜜",
  "type":3,
  "api":"csp_XBPQ",
  "searchable":1,
@@ -1172,7 +1204,7 @@
 
 {
     "key":"电视剧网",
-    "name":"拾光☪剧透影视",
+    "name":"拾光☪剧透",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1195,7 +1227,7 @@
     
     {
     "key":"清凌影院",
-    "name":"拾光☪清凌影视",
+    "name":"拾光☪清凌",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1206,7 +1238,7 @@
     
     {
     "key":"森林影院",
-    "name":"拾光☪森林影视",
+    "name":"拾光☪森林",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1218,7 +1250,7 @@
     
     {
     "key":"94影院",
-    "name":"拾光☪九四影视",
+    "name":"拾光☪九四",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1231,7 +1263,7 @@
     
     {
     "key":"理理影院",
-    "name":"拾光☪理理影视",
+    "name":"拾光☪理理",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1240,46 +1272,11 @@
     "ext":"./0831/理理影院.json"
     },
     
-    {
-    "key":"四九影院",
-    "name":"拾光☪四九影视",
-    "type":3,
-    "api":"csp_XBPQ",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"./1024/49影视网.json"
-    },
     
-
-    
-    {
-    "key":"猛男影院",
-    "name":"拾光☪猛男影视",
-    "type":3,
-    "api":"csp_XBPQ",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"./1024/猛男.json"
-    },
-
- 
-
-    {
-    "key":"鬼片之家",
-    "name":"拾光☪鬼片之家",
-    "type":3,
-    "api":"csp_XBPQ",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"./1024/鬼片之家.json"
-    },
     
         {
             "key": "蜻蜓伦理",
-            "name": "拾光☪蜻蜓影视",
+            "name": "拾光☪蜻蜓",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -1617,8 +1614,6 @@
       },
       "timeout": 20
     },
-
-
     {
       "key": "bili_综合",
       "name": "拾光☪哔哩",
