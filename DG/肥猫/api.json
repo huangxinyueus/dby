@@ -37,9 +37,17 @@
                 "site_urls": [
                     "https://duopan.fun",
                     "http://labipan.com",
-                    "http://feimaoai.site"
+                    "http://feimaoai.site",
+                    "https://mihdr.top"
                 ]
             }
+        },
+        {
+            "key": "追剧",
+            "name": "⭐｜追更｜专区",
+            "type": 3,
+            "api": "./api/9121b57512b75f996d3122a424b04355.js",
+            "ext": "./txt/9d68d4ce43a3ec0cf97ed4633f979e15.txt"
         },
         {
             "key": "csp_SuBaiBai",

@@ -225,7 +225,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣热播请关注公众号：“开心软件”",
+            "name": "豆瓣热播请关注公众号：“开心软件”不迷路",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -255,12 +255,15 @@
             }
         },
         {
-            "key": "开心直播点播",
-            "name": "📺︎开心直播点播",
+            "key": "lf_live10_min",
+            "name": "📺︎开心软件直播",
             "type": 3,
-            "api": "./api/sdtv.js",
-            "ext": "./txt/kxzb1.txt",
-            "jar": "./jars/开心直播点播.jar"
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "./api/lf_live10_min-output.js",
+            "ext": "./json/lf_live.json"
         },
         {
             "key": "好趣网",
@@ -472,6 +475,28 @@
                 "ratio": 1.433
             },
             "timeout": 10
+        },
+        {
+            "key": "csp_AppRZ",
+            "name": "🕵忍者┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_AppRZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://rzys.xyz/"
+        },
+        {
+            "key": "csp_AppDaMi",
+            "name": "🍚大米┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_AppDaMi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://app-v1.ecoliving168.com/"
         },
         {
             "key": "ddys_js",
@@ -2351,6 +2376,14 @@
             "ext": "./js/六月听书.js"
         },
         {
+            "key": "csp_Kugou",
+            "name": "🐶┃酷狗",
+            "type": 3,
+            "api": "csp_Kugou",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
             "key": "hipy_js_KTV歌厅[听]",
             "name": "🎤KTV歌厅(drpy_t3)",
             "type": 3,
@@ -2406,6 +2439,11 @@
             "name": "聚合0",
             "type": 3,
             "url": "Web"
+        },
+        {
+            "name": "虾米1",
+            "type": 0,
+            "url": "https://150.138.78.37:4399/api/?key=94b07e0b2c0e8244&url="
         },
         {
             "name": "-777-",

@@ -616,15 +616,27 @@
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
     "lives": [
         {
-            "name": "LIVE",
+            "name": "IPV4",
             "type": 0,
-            "url": "./lives/LIVE.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/IPV4.txt",
+            "epg": ""
         },
         {
-            "name": "IPV6",
+            "name": "IPV6①",
             "type": 0,
-            "url": "./lives/IPV6.txt",
+            "url": "./lives/IPV6①.txt",
+            "epg": ""
+        },
+        {
+            "name": "IPV6②",
+            "type": 0,
+            "url": "./lives/IPV6②.txt",
+            "epg": ""
+        },
+        {
+            "name": "平台直播",
+            "type": 0,
+            "url": "./lives/平台直播.txt",
             "epg": ""
         }
     ]
