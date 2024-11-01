@@ -133,12 +133,10 @@
             "ext": ""
         },
         {
-            "key": "csp_Czsapp",
-            "name": "🪖厂长┃1080P",
+            "key": "csp_Nkdy",
+            "name": "🌽耐看┃影视",
             "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "ext": "https://www.czzy.site/"
+            "api": "csp_Nkdy"
         },
         {
             "key": "hipy_js_腾云驾雾[官]",
@@ -217,18 +215,6 @@
             "changeable": 0,
             "api": "csp_Wwys",
             "ext": "https://www.wwgz.cn/"
-        },
-        {
-            "key": "AI2",
-            "name": "📺米米┃1080P",
-            "type": 3,
-            "api": "csp_AI",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "playerType": 2,
-            "jar": "./jars/天天.jar",
-            "ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
         },
         {
             "key": "csp_FirstAid",

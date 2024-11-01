@@ -337,19 +337,6 @@
             "changeable": 0
         },
         {
-            "key": "企鹅xp",
-            "name": "🐧鹅鹅┃体育",
-            "type": 3,
-            "api": "csp_XPath",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/企鹅直播.json"
-        },
-        {
             "key": "酷奇",
             "name": "🎤酷奇┃MV",
             "type": 3,
@@ -375,7 +362,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/MTV.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/MTV.json"
+            }
         },
         {
             "key": "虎牙直播js",
@@ -498,7 +487,7 @@
         },
         {
             "key": "Bili",
-            "name": "🅱哔哔┃合集",
+            "name": "🅱哔哔合集┃弹幕",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -508,11 +497,13 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/bilibili.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/bilibili.json"
+            }
         },
         {
             "key": "Biliych",
-            "name": "🅱明星┃演唱会",
+            "name": "🅱明星演唱会┃弹幕",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -522,7 +513,9 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/biliych.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/biliych.json"
+            }
         },
         {
             "key": "dr_兔小贝",
@@ -550,7 +543,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/少儿教育.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/少儿教育.json"
+            }
         },
         {
             "key": "小学课堂",
@@ -564,7 +559,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/小学课堂.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/小学课堂.json"
+            }
         },
         {
             "key": "初中课堂",
@@ -578,7 +575,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/初中课堂.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/初中课堂.json"
+            }
         },
         {
             "key": "高中教育",
@@ -592,7 +591,9 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/高中课堂.json"
+            "ext": {
+                "json": "https://notabug.org/fantaiying/ext/raw/main/高中课堂.json"
+            }
         },
         {
             "key": "fan",
