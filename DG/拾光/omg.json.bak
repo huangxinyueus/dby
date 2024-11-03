@@ -1,18 +1,16 @@
 ﻿{
   "spider": "./xmbjm.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "logo": "https://gitee.com/xmbjmck/ck/raw/master/logo.gif",
-  "lives": [
-    {
-      "name": "TV线路",
+  "logo": "https://4708.kstore.space/logo.gif",
+
+"lives": [
+ {
+      "name": "IPV",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    }
-  ],
+      "url": "https://4708.kstore.space/zhibo/tv.txt",
+      "playerType": 1
+    }],
+
   "sites": [
     {
       "key": "豆瓣",
@@ -24,6 +22,8 @@
       "filterable": 0,
       "ext": "./lib/douban.js"
     },
+    
+    
     {
       "key": "csp_LocalFile",
       "name": "💻本地目录",
@@ -64,7 +64,7 @@
       "name": "拾光☪电视台",
       "type": 3,
       "api": "./lib/sdtv.js",
-      "ext": "./lib/kxzb1.txt",
+      "ext": "./lib/zb.txt",
       "jar": "./lib/sdtv.jar"
     },
     {
@@ -152,16 +152,16 @@
     },
     
     {
-			"key": "hipy_js_南瓜影视[优]",
-			"name": "拾光☪南瓜",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./js/南瓜影视[优].js"
-		},
+      "key": "南瓜影视",
+      "name": "拾光☪南瓜",
+      "type": 3,
+      "api": "csp_Nangua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    
+    
     {
       "key": "小苹果弹幕版",
       "name": "拾光☪苹果",
@@ -271,6 +271,8 @@
         "国产综艺"
       ]
     },
+
+
     {
       "key": "韩圈",
       "name": "拾光☪韩剧",
@@ -353,16 +355,17 @@
       "filterable": 1,
       "ext": "./lib/七新影视.json"
     },
-    {
-      "key": "csp_XYQHiker_可可影视",
-      "name": "拾光☪可可",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/可可影视.json"
-    },
+{
+            "key": "可可影视",
+            "name": "拾光☪可可",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./1024/可可影视.json",
+            "jar": "./jar/xyqxbpq.jar"
+        },
 {
       "key": "4K影视",
       "name": "拾光☪4K影视",
@@ -406,20 +409,7 @@
         "分类": "陆剧$6#日剧$2#美剧$3#泰剧$4#港剧$7#台剧$8#短剧$9"
       }
     },
-    {
-      "key": " 百姓 ",
-      "name": "拾光☪百姓",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
-        "分类url": "https://www.gymboreejn.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.gymboreejn.com/vodtype/{cateId}.html]",
-        "分类": "电影$1#剧集$2#综艺$3#动漫$4#动画片$29#短剧$31#影视解说$32#邵氏电影$39"
-      }
-    },
+ 
 
     {
       "key": "三米ys",
@@ -441,17 +431,7 @@
       "filterable": 1,
       "ext": "./lib/美柏.json"
     },
-{
-      "key": "凯奇追剧",
-      "name": "拾光☪凯奇",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "+hl-content-text\">&&</span>",
-        "分类url": "https://www.kqyy.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanshipin"
-      }
-    },
+
     
     {
       "key": "热播之家",
@@ -661,16 +641,7 @@
       "order_num": 6,
       "ext": "./lib/4k剧院.js"
     },
-    {
-      "key": "茶狐杯",
-      "name": "拾光☪茶狐杯",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/茶狐杯.json"
-    },
+
     {
       "key": "奈飞影视",
       "name": "拾光☪鸭奈飞",
@@ -1038,6 +1009,31 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/360影视[官].js"
     },
+
+ {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "拾光☪腾腾4K",
+      "type": 3,
+      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/ttt.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "拾光☪果果4K",
+      "type": 3,
+      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
+    },
     {
       "key": "木偶网盘",
       "name": "拾光☪木偶",
@@ -1175,7 +1171,13 @@
       "timeout": 25
     },
 
- 
+ {
+            "key": "完美弹幕",
+            "name": "拾光☪完美弹幕",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./1024/完美弹幕.js"
+        },
 
 {
  "key":"csp_xBPQ_blifun影院",
@@ -1190,7 +1192,7 @@
 
 {
  "key":"xbpq_韩迷TV",
- "name":"拾光☪韩蜜",
+ "name":"拾光☪韩蜜影视",
  "type":3,
  "api":"csp_XBPQ",
  "searchable":1,
@@ -1204,7 +1206,7 @@
 
 {
     "key":"电视剧网",
-    "name":"拾光☪剧透",
+    "name":"拾光☪剧透影视",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1227,7 +1229,7 @@
     
     {
     "key":"清凌影院",
-    "name":"拾光☪清凌",
+    "name":"拾光☪清凌影视",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1238,7 +1240,7 @@
     
     {
     "key":"森林影院",
-    "name":"拾光☪森林",
+    "name":"拾光☪森林影视",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1250,7 +1252,7 @@
     
     {
     "key":"94影院",
-    "name":"拾光☪九四",
+    "name":"拾光☪九四影视",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1263,7 +1265,7 @@
     
     {
     "key":"理理影院",
-    "name":"拾光☪理理",
+    "name":"拾光☪理理影视",
     "type":3,
     "api":"csp_XBPQ",
     "searchable":1,
@@ -1272,11 +1274,46 @@
     "ext":"./0831/理理影院.json"
     },
     
+    {
+    "key":"四九影院",
+    "name":"拾光☪四九影视",
+    "type":3,
+    "api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"./1024/49影视网.json"
+    },
     
+
+    
+    {
+    "key":"猛男影院",
+    "name":"拾光☪猛男影视",
+    "type":3,
+    "api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"./1024/猛男.json"
+    },
+
+ 
+
+    {
+    "key":"鬼片之家",
+    "name":"拾光☪鬼片之家",
+    "type":3,
+    "api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"./1024/鬼片之家.json"
+    },
     
         {
             "key": "蜻蜓伦理",
-            "name": "拾光☪蜻蜓",
+            "name": "拾光☪蜻蜓影视",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -1404,6 +1441,137 @@
             }
         },
         
+{
+            "key": "日系料理",
+            "name": "拾光☪日系料理",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {"请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； PEHM00 Build/SKQ1.210216.001；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36&&Cookie@c6s_RobotVerify=1；； gg_iscookie=1；； _ga=GA1.1.1482105610.1729155635；； c6s_uv=21e3094d1ded55b9be44364d1d0ac6ec；； gg_show_number3644=3",
+"编码": "UTF-8",
+
+                "主页url": "https://xn--ieu270c.mnrj0z53.xyz",
+                "数组": "默认--<div class=\"gal\">&&</a||搜索--<div class=\"gal\">&&</a",
+                "图片": "original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "</i>&&<",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"&&\"",
+                "跳转播放链接": "\"url\": \"&&\"",
+                "搜索模式": "1",
+                "搜索url": "/index.php?m=vod-search-wd-{wd}-pg-{pg}.htm",
+                "分类url": "/index.php?m=vod-type-id-{cateId}-pg-{catePg}.htm;;z",
+                "分类": "国产视频$495#国产传媒$496#中文字幕$497#日本有码$498#日本无码$499#强奸乱伦$500#制服诱惑$501#激情欧美$502#成人动漫$503#抖阴视频$504#人妖伪娘$505#萝莉少女$1116#SM调教$1117#三级片$1118"
+            }
+        },
+
+
+{
+            "key": "不雅视频",
+            "name": "拾光☪雅趣影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://byym13.buzz/",
+                "数组": "fed-list-item&&</li>",
+                "图片": "('&&')",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"[替换:display>>detail]",
+                "分类url": "https://byym13.buzz/sort/{cateId}/{catePg};;z",
+                "分类": "无码专区&制服诱惑&三级伦理&AI换脸&中文字幕&卡通动漫&欧美系列&美女主播&国产自拍&熟女人妻&萝莉少女&女同性爱&多人群交&美乳巨乳&强奸乱伦&抖阴视频&韩国主播&网红头条&网爆黑料&欧美无码&女优明星&SM调教&AV解说&日本AV&国产视频&动漫天堂&黑料吃瓜&伦理剧情&稀缺资源&中文字幕&角色剧情&无码推荐&丝袜美腿&传媒影视&国产精品&美女主播&素人拍摄&偷拍自拍&里番作品&3D动漫&同人作品&热门事件&吃瓜事件&采集帮助&SPA养生&日韩精品&制服淫穴&台湾swag&日本无码&日本有码&中字无码&主播视讯&欧美性爱&日本乱伦&AV解说&国产AV&乱伦国产&强奸乱伦&AI换脸&制服诱惑&滴滴探花&成人动漫&SPA养生&日本乱伦&萝莉少女",
+                "分类值": "21&25&27&29&30&32&35&36&38&40&42&44&46&48&49&50&51&52&53&54&55&56&57&257&258&259&260&261&262&263&264&265&266&267&268&269&270&271&272&273&274&275&276&277&278&279&280&281&282&283&284&285&286&287&288&289&290&291&292&293&294&295&296&297&298"}
+                },
+                
+                {
+
+      "key": "51黑料福利社",
+      "name": "拾光☪51黑料",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "发布地址": "https://51heiliaofulishe.com",
+        "主页url": "https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/ko",
+        "数组": "class=\"item-box\">&&</a",
+        "图片": "src=\"&&\"",
+        "副标题": "<!-- <small>&&</small> -->",
+        "简介": "description\" content=\"&&|全站免费",
+        "链接": "https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/v/+href=\"/voddetail/&&/\"+/",
+        "搜索模式": "1",
+        "搜索url": "https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/s/page/{pg}/wd/{wd}/",
+        "分类数组": "<a&&/a",
+        "分类标题": ">&&<",
+        "分类ID": "/t/&&/",
+        "分类url": "https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/t/{cateId}-{catePg}/;;z"
+      }
+ },
+ 
+ {
+            "key": "金陵乐园",
+            "name": "拾光☪金陵乐园",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "ext":{
+                "主页url": "https://jud.jllth9.motorcycles/cn/home/web/",
+                "直接播放": "1",
+                "数组": "img\">&&</p",
+                "图片": "src=\"&&\"",
+                "标题": "title-p\">*_self\">&&</a>",
+                "副标题": "</i>&&</span>",
+                "链接": "href=\"&&\"[替换:play#.html>>/sid/1/nid/1.html]",
+                "搜索模式": "1",
+                "搜索url": "https://jud.jllth9.motorcycles/cn/home/web/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类url": "https://jud.jllth9.motorcycles/cn/home/web/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+                "分类": "自拍偷拍&巨乳波霸&强奸乱伦&人妻熟女&制服丝袜&花季少女&无码露毛&群P多人&人兽人妖&男同女同&韩日专区&欧美色情&成人动漫&三级剧情",
+                "分类值": "20&21&22&23&24&25&26&27&28&29&30&31&32&33"
+            }},
+ 
+ {
+            "key": "蜜桃屯",
+            "name": "拾光☪蜜桃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "ext": {
+                "二次截取": "class=\"block-post&&align=\"center",
+                "数组": "target=\"_blank&&class=\"info-post",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "直接播放": "1",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索url": "https://www.okav13.mom/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类url": "https://www.okav13.mom/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
+                "分类": "国产AV$1#日韩AV$2#欧美AV$3#污污动漫$4#高清字幕$5#顶级主播$9#外流泄密$11#偷窥偷拍$14#传媒剧情$15#强奸乱伦$13#三级伦理$16",
+                "排序": "热门$hits#点赞$up#评分$score"
+            }
+        },
+        {
+            "key": "黑客出品",
+            "name": "拾光☪不伦不类",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://www.hahads.com/show/20-----------.html",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "分类url": "https://www.hahads.com/show/20-{cateId}-------{catePg}---.html",
+                "分类": "大陆&香港&台湾&美国&法国&英国&日本&韩国&泰国&印度&西班牙&加拿大&俄罗斯&新加坡&其它",
+                "分类值": "*"
+            }
+        },
+        
+
         {
 			"key": "hipy_js_一点视频[密]",
 			"name": "拾光☪一点视频",
@@ -1614,6 +1782,8 @@
       },
       "timeout": 20
     },
+
+
     {
       "key": "bili_综合",
       "name": "拾光☪哔哩",
@@ -1863,13 +2033,13 @@
    
     {
       "key": "js_a8音乐",
-      "name": "拾光☪A8音乐",
+      "name": "拾光☪国内FM",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./drpy_libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/a8yy.js"
+      "ext": "./js/广播迷FM[听].js"
     },
 
 {
@@ -1895,6 +2065,8 @@
 			"order_num": 0,
 			"ext": "./js/种子音乐[听].js"
 		},
+		
+	
 		
 		{
 			"key": "hipy_js_中华听书网[听]",
