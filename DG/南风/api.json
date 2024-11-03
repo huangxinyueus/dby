@@ -13,8 +13,8 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/douban.json"
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {
@@ -34,8 +34,18 @@
             "searchable": 0,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
+        },
+        {
+            "key": "csp_Jpys",
+            "name": "🥇金牌",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "csp_TianTian",
@@ -328,9 +338,8 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://www.wogg.net/",
-                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/wogg.json"
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "./json/wogg.json"
             }
         },
         {
@@ -341,9 +350,8 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "http://labipan.com/",
-                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/wogg.json"
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "./json/wogg.json"
             }
         },
         {
@@ -355,7 +363,7 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -368,7 +376,7 @@
             "switchable": 0,
             "ext": {
                 "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf",
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -379,7 +387,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -390,7 +398,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -402,8 +410,8 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "share": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/网盘集合.json"
+                "commonConfig": "./json/peizhi.json",
+                "share": "./json/网盘集合.json"
             }
         },
         {
@@ -418,8 +426,8 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/youtube.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
+                "json": "./json/youtube.json",
+                "cookie": "./json/youtubecookie.json"
             }
         },
         {
@@ -432,7 +440,7 @@
             "switchable": 0,
             "ext": {
                 "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -443,7 +451,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {

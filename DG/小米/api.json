@@ -91,6 +91,15 @@
             "jar": "./jars/天天.jar"
         },
         {
+            "key": "🌟客星",
+            "name": "🌟客星┃1080P",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "caHR0cDovLzE1NC4zNy4yMjAuMTc6NjYyMnw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM=",
+            "jar": "./jars/天天.jar"
+        },
+        {
             "key": "繁荣",
             "name": "🥝凡人┃1080P",
             "type": 3,
