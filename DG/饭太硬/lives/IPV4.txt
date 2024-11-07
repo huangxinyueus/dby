@@ -1,119 +1,1175 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1综合
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265183188
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2财经
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667329
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3综艺
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667206
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4中文国际
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667639
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4欧洲
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667313
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4美洲
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667335
-#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV-5体育
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667565
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+体育赛事
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265106763
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV-6电影
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667482
-#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV-7国防军事
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667268
-#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视",CCTV-8电视剧
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667466
-#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视",CCTV-9纪录
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667202
-#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视",CCTV-10科教
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667631
-#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视",CCTV-11戏曲
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667429
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视",CCTV-12社会与法
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667607
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",CCTV-13新闻
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667474
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视",CCTV-14少儿
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667325
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15音乐
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667535
-#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17农业农村
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667526
-#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",东方卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=264104266
-#EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=531262154
-#EXTINF:-1 tvg-id="59" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视",青海卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=531262027
-#EXTINF:-1 tvg-id="55" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" group-title="卫视",陕西卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=816409120
-#EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=531261978
-#EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="卫视",江西卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=810783159
-#EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=264104188
-#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=263541274
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",大湾区卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218882
-#EXTINF:-1 tvg-id="37" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视",海南卫视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=531262161
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",高清大片
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218862
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",香港电影
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265219029
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",军事大片
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218878
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",热剧联播
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218955
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",赛事最经典
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218921
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",体坛名栏汇
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218759
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",新片放映厅
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218930
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",Y+剧场
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=140151866
-#EXTINF:-1 tvg-id="6606" tvg-name="四海钓鱼" tvg-logo="" group-title="生活",四海钓鱼
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667494
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",江苏教育
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265219146
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",山东教育
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218942
-#EXTINF:-1 tvg-id="1983" tvg-name="游戏风云" tvg-logo="" group-title="生活",游戏风云
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667664
-#EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="" group-title="生活",欢笑剧场
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=202812323
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",之江纪录
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=80891335
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",杭州综合
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=76680661
-#EXTINF:-1 tvg-id="" tvg-name="明珠台" tvg-logo="" group-title="生活",杭州明珠
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=76680568
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",杭州生活
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=76680574
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",杭州影视
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=76680745
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",杭州少儿体育
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=76680756
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道高清
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265667599
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道1
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265219065
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道2
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218959
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道3
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218910
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道4
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218991
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道5
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218689
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道6
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218934
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道7
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265219037
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道8
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218971
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道9
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=265218886
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="生活",熊猫频道10
-http://127.0.0.1:9978/proxy?do=Migu&proxyApi=aHR0cDovL2Fpa2Fudm9kLm1pZ3V2aWRlby5jb20vdmlkZW8vcC9saXZlLmpzcD91c2VyPWd1ZXN0JmNoYW5uZWw9&id=65218794
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://175.147.87.248:8888/rtp/232.0.0.27:1234
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://106.120.14.74:2333/udp/225.1.8.1:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://123.113.237.160:8888/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://114.243.156.93:8888/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://114.243.106.165:8888/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://123.113.176.137:9000/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://221.217.54.246:8686/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://123.113.14.115:8012/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://114.254.80.240:2222/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://114.246.180.128:4022/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://123.117.36.74:4001/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://111.199.232.88:18888/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://221.221.151.0:8888/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://61.55.46.35:4022/rtp/239.253.92.83:8012
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://111.192.0.32:4022/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://114.240.43.235:8012/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV1.png" group-title="央视频道",CCTV1
+http://171.116.226.246:8082/rtp/226.0.2.16:8040
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://175.150.152.34:9007/rtp/232.0.0.135:1234
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://123.113.14.115:8012/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://106.120.14.74:2333/udp/225.1.8.2:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://123.113.237.160:8888/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://114.243.156.93:8888/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://222.129.33.14:8888/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://111.199.232.88:18888/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://114.243.106.165:8888/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://221.221.151.0:8888/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://221.217.54.246:8686/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://111.192.0.32:4022/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://114.240.43.235:8012/rtp/239.3.1.60:8084
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://175.147.87.248:8888/rtp/232.0.0.135:1234
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://61.55.46.35:4022/rtp/239.253.92.190:6065
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://175.150.152.34:9005/rtp/232.0.0.135:1234
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://171.116.226.246:8082/rtp/226.0.2.154:9144
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV2.png" group-title="央视频道",CCTV2
+http://175.150.152.34:9020/rtp/232.0.0.135:1234
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://121.29.111.73:8888/rtp/239.253.92.191:6057
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://175.147.87.248:8888/rtp/232.0.0.170:1234
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://61.55.46.35:4022/rtp/239.253.92.191:6057
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://106.120.14.74:2333/udp/225.1.8.88:8000
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://123.113.237.160:8888/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://114.243.156.93:8888/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://123.113.176.137:9000/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://123.113.14.115:8012/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://114.254.80.240:2222/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://114.246.180.128:4022/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://111.199.232.88:18888/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://114.243.106.165:8888/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://221.217.54.246:8686/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://171.116.226.246:8082/rtp/226.0.2.208:9576
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://111.192.0.32:4022/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://175.150.152.34:9020/rtp/232.0.0.170:1234
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://114.240.43.235:8012/rtp/239.3.1.172:8001
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV3.png" group-title="央视频道",CCTV3
+http://175.150.152.34:9005/rtp/232.0.0.170:1234
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://175.147.87.248:8888/rtp/232.0.0.201:1234
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://61.55.46.35:4022/rtp/239.253.92.251:6141
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://123.113.14.115:8012/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://114.246.180.128:4022/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://123.113.237.160:8888/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://114.243.156.93:8888/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://111.199.232.88:18888/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://114.240.43.235:8012/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://171.116.226.246:8082/rtp/226.0.2.156:9160
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://221.217.54.246:8686/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://106.120.14.74:2333/udp/225.1.8.4:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://111.192.0.32:4022/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://114.243.106.165:8888/rtp/239.3.1.105:8092
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://175.150.152.34:9005/rtp/232.0.0.201:1234
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://171.116.226.246:8082/rtp/226.0.2.21:8080
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4.png" group-title="央视频道",CCTV4
+http://175.150.152.34:9007/rtp/232.0.0.201:1234
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://114.246.180.128:4022/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://123.113.237.160:8888/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://111.199.232.88:18888/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://221.217.54.246:8686/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://123.113.14.115:8012/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://114.243.156.93:8888/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://111.192.0.32:4022/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
+http://114.240.43.235:8012/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://123.113.237.160:8888/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://111.199.232.88:18888/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://221.217.54.246:8686/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://123.113.14.115:8012/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://114.243.106.165:8888/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://221.221.151.0:8888/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://114.243.156.93:8888/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://111.192.0.32:4022/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://121.29.111.73:8888/rtp/239.253.93.193:6371
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://114.240.43.235:8012/rtp/239.3.1.214:4220
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://121.29.111.73:8888/rtp/239.253.92.181:6046
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://61.55.46.35:4022/rtp/239.253.92.181:6046
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://123.113.237.160:8888/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://171.116.226.246:8082/rtp/226.0.2.209:9584
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://114.243.156.93:8888/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://123.113.14.115:8012/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://114.246.180.128:4022/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://123.117.36.74:4001/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://111.199.232.88:18888/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://114.243.106.165:8888/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://221.217.54.246:8686/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://106.120.14.74:2333/udp/225.1.8.89:8000
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://111.192.0.32:4022/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5.png" group-title="央视频道",CCTV5
+http://114.240.43.235:8012/rtp/239.3.1.173:8001
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://123.113.14.115:8012/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://114.246.180.128:4022/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://123.113.237.160:8888/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://111.199.232.88:18888/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://114.243.106.165:8888/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://221.217.54.246:8686/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://106.120.14.74:2333/udp/225.1.8.20:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://171.116.226.246:8082/rtp/226.0.2.168:9256
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://114.243.156.93:8888/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://111.192.0.32:4022/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://114.240.43.235:8012/rtp/239.3.1.130:8004
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV5+.png" group-title="央视频道",CCTV5+
+http://175.150.152.34:9005/rtp/232.0.0.93:1234
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://121.29.111.73:8888/rtp/239.253.92.193:6058
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://175.150.152.34:9020/rtp/232.0.0.172:1234
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://171.116.226.246:8082/rtp/226.0.2.210:9592
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://114.243.156.93:8888/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://123.113.176.137:9000/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://114.246.180.128:4022/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://123.113.237.160:8888/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://123.117.36.74:4001/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://111.199.232.88:18888/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://221.217.54.246:8686/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://114.254.80.240:2222/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://106.120.14.74:2333/udp/225.1.8.84:8000
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://111.192.0.32:4022/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV6.png" group-title="央视频道",CCTV6
+http://114.240.43.235:8012/rtp/239.3.1.174:8001
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://175.150.152.34:9020/rtp/232.0.0.136:1234
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://114.243.156.93:8888/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://123.113.14.115:8012/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://106.120.14.74:2333/udp/225.1.8.7:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://114.246.180.128:4022/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://123.113.237.160:8888/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://123.117.36.74:4001/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://171.116.226.246:8082/rtp/226.0.2.159:9184
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://111.199.232.88:18888/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://114.243.106.165:8888/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://221.217.54.246:8686/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://221.221.151.0:8888/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://111.192.0.32:4022/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://61.55.46.35:4022/rtp/239.253.92.194:6059
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV7.png" group-title="央视频道",CCTV7
+http://114.240.43.235:8012/rtp/239.3.1.61:8104
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://175.150.152.34:9005/rtp/232.0.0.173:1234
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://175.150.152.34:9007/rtp/232.0.0.173:1234
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://175.150.152.34:9020/rtp/232.0.0.173:1234
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://61.55.46.35:4022/rtp/239.253.92.195:6060
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://123.113.14.115:8012/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://114.246.180.128:4022/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://123.117.36.74:4001/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://123.113.237.160:8888/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://171.116.226.246:8082/rtp/226.0.2.211:9600
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://114.243.156.93:8888/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://111.199.232.88:18888/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://114.243.106.165:8888/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://221.217.54.246:8686/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://106.120.14.74:2333/udp/225.1.8.85:8000
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://111.192.0.32:4022/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV8.png" group-title="央视频道",CCTV8
+http://114.240.43.235:8012/rtp/239.3.1.175:8001
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://123.113.14.115:8012/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://106.120.14.74:2333/udp/225.1.8.9:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://114.246.180.128:4022/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://123.117.36.74:4001/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://123.113.237.160:8888/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://114.243.156.93:8888/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://111.199.232.88:18888/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://221.217.54.246:8686/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://121.29.111.73:8888/rtp/239.253.92.107:6020
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://114.240.43.235:8012/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://111.192.0.32:4022/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://61.55.46.35:4022/rtp/239.253.92.107:6020
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV9.png" group-title="央视频道",CCTV9
+http://114.243.106.165:8888/rtp/239.3.1.62:8112
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://175.150.152.34:9020/rtp/232.0.0.138:1234
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://106.120.14.74:2333/udp/225.1.8.10:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://114.246.180.128:4022/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://123.113.237.160:8888/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://123.117.36.74:4001/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://111.199.232.88:18888/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://114.243.106.165:8888/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://123.113.14.115:8012/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://171.116.226.246:8082/rtp/226.0.2.162:9208
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://114.243.156.93:8888/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://221.217.54.246:8686/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://111.192.0.32:4022/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV10.png" group-title="央视频道",CCTV10
+http://114.240.43.235:8012/rtp/239.3.1.63:8116
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://123.113.14.115:8012/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://114.246.180.128:4022/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://123.113.237.160:8888/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://123.117.36.74:4001/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://111.199.232.88:18888/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://114.243.106.165:8888/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://221.217.54.246:8686/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://106.120.14.74:2333/udp/225.1.8.73:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://114.243.156.93:8888/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://111.192.0.32:4022/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://61.55.46.35:4022/rtp/239.253.93.153:6321
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV11.png" group-title="央视频道",CCTV11
+http://114.240.43.235:8012/rtp/239.3.1.152:8120
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://106.120.14.74:2333/udp/225.1.8.12:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://114.246.180.128:4022/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://114.243.156.93:8888/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://111.199.232.88:18888/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://221.217.54.246:8686/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://121.29.111.73:8888/rtp/239.253.92.197:6062
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://111.192.0.32:4022/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://61.55.46.35:4022/rtp/239.253.92.197:6062
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://123.113.237.160:8888/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://114.240.43.235:8012/rtp/239.3.1.64:8124
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV12.png" group-title="央视频道",CCTV12
+http://171.116.226.246:8082/rtp/226.0.2.164:9224
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://121.29.111.73:8888/rtp/239.253.92.13:8008
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://175.147.87.248:8888/rtp/232.0.0.15:1234
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://61.55.46.35:4022/rtp/239.253.92.13:8008
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://106.120.14.74:2333/udp/225.1.8.168:8130
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://222.129.33.14:8888/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://123.113.14.115:8012/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://106.120.14.74:2333/udp/225.1.1.10:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://114.246.180.128:4022/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://123.113.237.160:8888/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://123.117.36.74:4001/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://114.243.156.93:8888/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://111.199.232.88:18888/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://114.243.106.165:8888/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://221.217.54.246:8686/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://114.254.80.240:2222/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://171.116.226.246:8082/rtp/226.0.2.165:9232
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://111.192.0.32:4022/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV13.png" group-title="央视频道",CCTV13
+http://114.240.43.235:8012/rtp/239.3.1.124:8128
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://175.150.152.34:9020/rtp/232.0.0.140:1234
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://106.120.14.74:2333/udp/225.1.8.14:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://114.246.180.128:4022/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://123.113.237.160:8888/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://114.243.156.93:8888/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://111.199.232.88:18888/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://114.243.106.165:8888/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://221.217.54.246:8686/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://111.192.0.32:4022/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://121.29.111.73:8888/rtp/239.253.92.198:6063
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://61.55.46.35:4022/rtp/239.253.92.198:6063
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV14.png" group-title="央视频道",CCTV14
+http://114.240.43.235:8012/rtp/239.3.1.65:8132
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://175.150.152.34:9020/rtp/232.0.0.179:1234
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://222.129.33.14:8888/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://123.113.176.137:9000/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://106.120.14.74:2333/udp/225.1.8.74:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://114.246.180.128:4022/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://123.113.237.160:8888/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://111.199.232.88:18888/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://114.243.106.165:8888/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://114.243.156.93:8888/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://114.240.43.235:8012/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://111.192.0.32:4022/rtp/239.3.1.153:8136
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV15.png" group-title="央视频道",CCTV15
+http://121.29.111.73:8888/rtp/239.253.93.154:6322
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://114.246.180.128:4022/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://123.113.237.160:8888/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://171.116.226.246:8082/rtp/226.0.2.169:9264
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://114.243.156.93:8888/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://111.199.232.88:18888/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://114.243.106.165:8888/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://221.217.54.246:8686/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://114.240.43.235:8012/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV16.png" group-title="央视频道",CCTV16
+http://111.192.0.32:4022/rtp/239.3.1.184:8001
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://175.150.152.34:9005/rtp/232.0.0.230:1234
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://175.150.152.34:9007/rtp/232.0.0.230:1234
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://175.150.152.34:9020/rtp/232.0.0.230:1234
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://114.246.180.128:4022/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://114.243.156.93:8888/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://106.120.14.74:2333/udp/225.1.8.17:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://123.113.237.160:8888/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://171.116.226.246:8082/rtp/226.0.2.170:9272
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://111.199.232.88:18888/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://221.217.54.246:8686/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://111.192.0.32:4022/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://114.240.43.235:8012/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV17.png" group-title="央视频道",CCTV17
+http://114.243.106.165:8888/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV世界地理" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV世界地理.png" group-title="央视频道",CCTV世界地理
+http://171.116.226.246:8082/rtp/226.0.2.222:9688
+#EXTINF:-1 tvg-name="CCTV央视文化" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV央视文化.png" group-title="央视频道",CCTV央视文化
+http://171.116.226.246:8082/rtp/226.0.2.219:9664
+#EXTINF:-1 tvg-name="CCTV怀旧剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV怀旧剧场.png" group-title="央视频道",CCTV怀旧剧场
+http://171.116.226.246:8082/rtp/226.0.2.224:9704
+#EXTINF:-1 tvg-name="CCTV第一剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV第一剧场.png" group-title="央视频道",CCTV第一剧场
+http://171.116.226.246:8082/rtp/226.0.2.221:9680
+#EXTINF:-1 tvg-name="CCTV风云剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV风云剧场.png" group-title="央视频道",CCTV风云剧场
+http://121.29.111.73:8888/rtp/239.253.93.251:6429
+#EXTINF:-1 tvg-name="CCTV风云剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV风云剧场.png" group-title="央视频道",CCTV风云剧场
+http://171.116.226.246:8082/rtp/226.0.2.227:9728
+#EXTINF:-1 tvg-name="CCTV风云音乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CCTV风云音乐.png" group-title="央视频道",CCTV风云音乐
+http://171.116.226.246:8082/rtp/226.0.2.220:9672
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://106.120.14.74:2333/udp/225.1.8.79:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://114.246.180.128:4022/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://123.113.237.160:8888/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://111.199.232.88:18888/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://114.243.106.165:8888/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://221.217.54.246:8686/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://171.116.226.246:8082/rtp/226.0.2.188:9416
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://114.243.156.93:8888/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://111.192.0.32:4022/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东南卫视.png" group-title="卫视频道",东南卫视
+http://221.221.151.0:8888/rtp/239.3.1.156:8148
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://175.150.152.34:9020/rtp/232.0.0.122:1234
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://114.246.180.128:4022/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://123.113.237.160:8888/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://111.199.232.88:18888/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://114.243.106.165:8888/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://123.113.14.115:8012/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://106.120.14.74:2333/udp/225.1.8.45:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://171.116.226.246:8082/rtp/226.0.2.175:9312
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://114.243.156.93:8888/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://221.217.54.246:8686/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://111.192.0.32:4022/rtp/239.3.1.136:8032
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/东方卫视.png" group-title="卫视频道",东方卫视
+http://121.29.111.73:8888/rtp/239.253.92.89:8019
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://175.150.152.34:9005/rtp/232.0.0.117:1234
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://175.150.152.34:9007/rtp/232.0.0.117:1234
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://175.150.152.34:9020/rtp/232.0.0.117:1234
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://121.29.111.73:8888/rtp/239.253.92.87:8014
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://123.113.237.160:8888/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://123.113.14.115:8012/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://106.120.14.74:2333/udp/225.1.8.21:8002
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://114.246.180.128:4022/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://171.116.226.246:8082/rtp/226.0.2.177:9328
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://114.243.156.93:8888/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://111.199.232.88:18888/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://221.221.151.0:8888/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://111.192.0.32:4022/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/北京卫视.png" group-title="卫视频道",北京卫视
+http://114.240.43.235:8012/rtp/239.3.1.241:8000
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://121.29.111.73:8888/rtp/239.253.92.202:6147
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://175.150.152.34:9020/rtp/232.0.0.180:1234
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://114.246.180.128:4022/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://123.113.237.160:8888/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://123.117.36.74:4001/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://111.199.232.88:18888/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://171.116.226.246:8082/rtp/226.0.2.58:8376
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://114.243.156.93:8888/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://221.217.54.246:8686/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://114.240.43.235:8012/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://111.192.0.32:4022/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://221.221.151.0:8888/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://114.243.106.165:8888/rtp/239.3.1.240:8172
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/四川卫视.png" group-title="卫视频道",四川卫视
+http://175.150.152.34:9020/rtp/232.0.0.185:1234
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/四川卫视.png" group-title="卫视频道",四川卫视
+http://61.55.46.35:4022/rtp/239.253.92.16:6043
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://175.150.152.34:9005/rtp/232.0.0.125:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://175.150.152.34:9007/rtp/232.0.0.125:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://114.243.106.165:8888/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://106.120.14.74:2333/udp/225.1.8.48:8044
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://123.113.237.160:8888/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://114.246.180.128:4022/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://123.117.36.74:4001/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://111.199.232.88:18888/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://221.217.54.246:8686/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://121.29.111.73:8888/rtp/239.253.92.91:8021
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://111.192.0.32:4022/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://175.147.87.248:8888/rtp/232.0.0.125:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://175.150.152.34:9020/rtp/232.0.0.125:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://61.55.46.35:4022/rtp/239.253.92.91:8021
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://114.240.43.235:8012/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://171.116.226.246:8082/rtp/226.0.2.148:9096
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://114.243.156.93:8888/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/天津卫视.png" group-title="卫视频道",天津卫视
+http://221.221.151.0:8888/rtp/239.3.1.141:1234
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://175.150.152.34:9020/rtp/232.0.0.141:1234
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://175.147.87.248:8888/rtp/232.0.0.141:1234
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://106.120.14.74:2333/udp/225.1.8.52:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://114.246.180.128:4022/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://123.117.36.74:4001/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://114.243.106.165:8888/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://123.113.237.160:8888/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://111.199.232.88:18888/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://221.221.151.0:8888/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://221.217.54.246:8686/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://171.116.226.246:8082/rtp/226.0.2.145:9072
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://111.192.0.32:4022/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://114.240.43.235:8012/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://114.243.156.93:8888/rtp/239.3.1.211:8064
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://61.55.46.35:4022/rtp/239.253.92.209:6566
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://175.150.152.34:9020/rtp/232.0.0.131:1234
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://114.243.106.165:8888/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://106.120.14.74:2333/udp/225.1.8.50:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://114.246.180.128:4022/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://123.113.237.160:8888/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://114.243.156.93:8888/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://111.199.232.88:18888/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://221.217.54.246:8686/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://123.117.36.74:4001/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://221.221.151.0:8888/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://111.192.0.32:4022/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://61.55.46.35:4022/rtp/239.253.92.207:8109
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://171.116.226.246:8082/rtp/226.0.2.149:9104
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山东卫视.png" group-title="卫视频道",山东卫视
+http://114.240.43.235:8012/rtp/239.3.1.209:8052
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/山西卫视.png" group-title="卫视频道",山西卫视
+http://171.116.226.246:8082/rtp/226.0.2.152:9128
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://175.150.152.34:9020/rtp/232.0.0.130:1234
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.254.80.240:2222/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://106.120.14.74:2333/udp/225.1.8.49:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.246.180.128:4022/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.243.156.93:8888/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://222.129.33.14:8888/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://111.199.232.88:18888/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.243.106.165:8888/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://221.217.54.246:8686/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.240.43.235:8012/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://221.221.151.0:8888/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://171.116.226.246:8082/rtp/226.0.2.146:9080
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://111.192.0.32:4022/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.254.94.146:2222/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广东卫视.png" group-title="卫视频道",广东卫视
+http://114.254.93.135:2222/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广西卫视.png" group-title="卫视频道",广西卫视
+http://121.29.111.73:8888/rtp/239.253.92.76:8043
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/广西卫视.png" group-title="卫视频道",广西卫视
+http://171.116.226.246:8082/rtp/226.0.2.231:9760
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://175.150.152.34:9020/rtp/232.0.0.116:1234
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://114.246.180.128:4022/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://111.199.232.88:18888/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://123.117.36.74:4001/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://222.129.33.14:8888/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://114.243.106.165:8888/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://106.120.14.74:2333/udp/225.1.8.44:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://171.116.226.246:8082/rtp/226.0.2.176:9320
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://221.221.151.0:8888/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://114.240.43.235:8012/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://111.192.0.32:4022/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://114.243.156.93:8888/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://123.113.237.160:8888/rtp/239.3.1.135:8028
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://121.29.111.73:8888/rtp/239.253.92.19:6145
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://106.120.14.74:2333/udp/225.1.8.171:8166
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://111.199.232.88:18888/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://221.217.54.246:8686/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://106.120.14.74:2333/udp/225.1.1.9:8164
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://114.246.180.128:4022/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://171.116.226.246:8082/rtp/226.0.2.54:8344
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://114.243.156.93:8888/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://221.221.151.0:8888/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/江西卫视.png" group-title="卫视频道",江西卫视
+http://114.240.43.235:8012/rtp/239.3.1.123:8164
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://61.55.46.35:4022/rtp/239.253.92.154:6011
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://114.246.180.128:4022/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://221.217.54.246:8686/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://171.116.226.246:8082/rtp/226.0.2.178:9336
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://114.243.156.93:8888/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://111.199.232.88:18888/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://114.240.43.235:8012/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://111.192.0.32:4022/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://106.120.14.74:2333/udp/225.1.8.76:8002
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://221.221.151.0:8888/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://114.243.106.165:8888/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河北卫视.png" group-title="卫视频道",河北卫视
+http://123.113.237.160:8888/rtp/239.3.1.148:8072
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河南卫视.png" group-title="卫视频道",河南卫视
+http://121.29.111.73:8888/rtp/239.253.92.137:6144
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/河南卫视.png" group-title="卫视频道",河南卫视
+http://171.116.226.246:8082/rtp/226.0.2.52:8328
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://175.150.152.34:9020/rtp/232.0.0.123:1234
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://121.29.111.73:8888/rtp/239.253.92.90:8020
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://106.120.14.74:2333/udp/225.1.8.46:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://114.246.180.128:4022/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://114.243.156.93:8888/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://111.199.232.88:18888/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://221.217.54.246:8686/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://123.117.36.74:4001/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://221.221.151.0:8888/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://114.240.43.235:8012/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://61.55.46.35:4022/rtp/239.253.92.90:8020
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://111.192.0.32:4022/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://171.116.226.246:8082/rtp/226.0.2.144:9064
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://123.113.237.160:8888/rtp/239.3.1.137:8036
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/海南卫视.png" group-title="卫视频道",海南卫视
+http://175.150.152.34:9020/rtp/232.0.0.26:1234
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/海南卫视.png" group-title="卫视频道",海南卫视
+http://61.55.46.35:4022/rtp/239.253.93.155:6323
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/海南卫视.png" group-title="卫视频道",海南卫视
+http://171.116.226.246:8082/rtp/226.0.2.212:9608
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://175.150.152.34:9020/rtp/232.0.0.110:1234
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://106.120.14.74:2333/udp/225.1.8.43:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://114.246.180.128:4022/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://123.117.36.74:4001/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://114.243.156.93:8888/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://111.199.232.88:18888/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://171.116.226.246:8082/rtp/226.0.2.147:9088
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://114.243.106.165:8888/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://221.221.151.0:8888/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://111.192.0.32:4022/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://121.29.111.73:8888/rtp/239.253.92.86:8017
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://114.240.43.235:8012/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://61.55.46.35:4022/rtp/239.253.92.86:8017
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/深圳卫视.png" group-title="卫视频道",深圳卫视
+http://123.113.237.160:8888/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://175.150.152.34:9005/rtp/232.0.0.124:1234
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://175.150.152.34:9020/rtp/232.0.0.124:1234
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://175.150.152.34:9007/rtp/232.0.0.124:1234
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://114.246.180.128:4022/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://114.243.156.93:8888/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://111.199.232.88:18888/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://114.243.106.165:8888/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://221.221.151.0:8888/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://221.217.54.246:8686/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://171.116.226.246:8082/rtp/226.0.2.150:9112
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://111.192.0.32:4022/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://106.120.14.74:2333/udp/225.1.8.47:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://61.55.46.35:4022/rtp/239.253.92.210:6567
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://114.240.43.235:8012/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://123.113.237.160:8888/rtp/239.3.1.138:8044
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://175.150.152.34:9020/rtp/232.0.0.115:1234
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://114.246.180.128:4022/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://123.117.36.74:4001/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://114.243.156.93:8888/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://111.199.232.88:18888/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://114.243.106.165:8888/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://221.217.54.246:8686/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://61.55.46.35:4022/rtp/239.253.92.84:8015
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://123.113.14.115:8012/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://111.192.0.32:4022/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://221.221.151.0:8888/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://106.120.14.74:2333/udp/225.1.8.41:8012
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://114.240.43.235:8012/rtp/239.3.1.132:8012
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://61.55.46.35:4022/rtp/239.253.92.105:6055
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://121.29.111.73:8888/rtp/239.253.92.105:6055
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://106.120.14.74:2333/udp/225.1.8.77:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://114.243.156.93:8888/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://111.199.232.88:18888/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://221.217.54.246:8686/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://111.192.0.32:4022/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://114.240.43.235:8012/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://114.243.106.165:8888/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://123.113.237.160:8888/rtp/239.3.1.149:8076
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/贵州卫视.png" group-title="卫视频道",贵州卫视
+http://175.150.152.34:9020/rtp/232.0.0.181:1234
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://106.120.14.74:2333/udp/225.1.8.51:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://111.199.232.88:18888/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://123.117.36.74:4001/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://114.243.106.165:8888/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://221.217.54.246:8686/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://221.221.151.0:8888/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://114.240.43.235:8012/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://111.192.0.32:4022/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://61.55.46.35:4022/rtp/239.253.92.115:6056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://121.29.111.73:8888/rtp/239.253.92.115:6056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://171.116.226.246:8082/rtp/226.0.2.173:9296
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://114.243.156.93:8888/rtp/239.3.1.210:8056
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://175.150.152.34:9020/rtp/232.0.0.126:1234
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://106.120.14.74:2333/udp/225.1.8.172:8162
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://61.55.46.35:4022/rtp/239.253.92.10:6053
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://114.246.180.128:4022/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://123.113.237.160:8888/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://114.243.156.93:8888/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://111.199.232.88:18888/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://114.243.106.165:8888/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://221.217.54.246:8686/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://171.116.226.246:8082/rtp/226.0.2.174:9304
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://111.192.0.32:4022/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://114.240.43.235:8012/rtp/239.3.1.122:8160
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://175.150.152.34:9020/rtp/232.0.0.186:1234
+#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/青海卫视.png" group-title="卫视频道",青海卫视
+http://171.116.226.246:8082/rtp/226.0.2.59:8384
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://123.117.36.74:4001/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://106.120.14.74:2333/udp/225.1.8.42:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://114.246.180.128:4022/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://123.113.237.160:8888/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://114.243.156.93:8888/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://111.199.232.88:18888/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://114.243.106.165:8888/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://221.221.151.0:8888/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://221.217.54.246:8686/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://121.29.111.73:8888/rtp/239.253.92.85:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://111.192.0.32:4022/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://61.55.46.35:4022/rtp/239.253.92.85:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://175.150.152.34:9020/rtp/232.0.0.95:1234
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://114.240.43.235:8012/rtp/239.3.1.133:8016
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://175.150.152.34:9005/rtp/232.0.0.95:1234
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://175.150.152.34:9007/rtp/232.0.0.95:1234
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CHC动作电影.png" group-title="其他频道",CHC动作电影
+http://171.116.226.246:8082/rtp/226.0.2.94:8012
+#EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/CHC高清电影.png" group-title="其他频道",CHC高清电影
+http://171.116.226.246:8082/rtp/226.0.2.93:8004
+#EXTINF:-1 tvg-name="淘BABY" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘BABY.png" group-title="其他频道",淘BABY
+http://106.120.14.74:2333/udp/225.1.8.36:8002
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://114.246.180.128:4022/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://123.117.36.74:4001/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://114.243.156.93:8888/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://111.199.232.88:18888/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://221.221.151.0:8888/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://111.192.0.32:4022/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://114.240.43.235:8012/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘Baby" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘Baby.png" group-title="其他频道",淘Baby
+http://114.243.106.165:8888/rtp/239.3.1.238:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://123.113.14.115:8012/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://114.246.180.128:4022/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://123.117.36.74:4001/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://114.243.156.93:8888/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://111.199.232.88:18888/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://106.120.14.74:2333/udp/225.1.8.37:8002
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://114.240.43.235:8012/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://111.192.0.32:4022/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘剧场.png" group-title="其他频道",淘剧场
+http://114.243.106.165:8888/rtp/239.3.1.95:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://114.246.180.128:4022/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://123.117.36.74:4001/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://111.199.232.88:18888/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://123.113.14.115:8012/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://221.221.151.0:8888/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://221.217.54.246:8686/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://111.192.0.32:4022/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://114.240.43.235:8012/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://106.120.14.74:2333/udp/225.1.8.61:8002
+#EXTINF:-1 tvg-name="淘娱乐" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘娱乐.png" group-title="其他频道",淘娱乐
+http://114.243.156.93:8888/rtp/239.3.1.100:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://106.120.14.74:2333/udp/225.1.8.38:8002
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://123.117.36.74:4001/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://111.199.232.88:18888/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://221.217.54.246:8686/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://123.113.14.115:8012/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://114.246.180.128:4022/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://114.243.156.93:8888/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://111.192.0.32:4022/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://114.240.43.235:8012/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="淘电影" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/淘电影.png" group-title="其他频道",淘电影
+http://123.113.237.160:8888/rtp/239.3.1.250:8001
+#EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/第一剧场.png" group-title="其他频道",第一剧场
+http://61.55.46.35:4022/rtp/239.253.93.138:6428
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/都市剧场.png" group-title="其他频道",都市剧场
+http://61.55.46.35:4022/rtp/239.253.93.227:6405
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/都市剧场.png" group-title="其他频道",都市剧场
+http://171.116.226.246:8082/rtp/226.0.2.81:8560
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/都市剧场.png" group-title="其他频道",都市剧场
+http://175.150.152.34:9020/rtp/232.0.0.149:1234
+#EXTINF:-1 tvg-name="11-05-16" group-title="11-05-16", 11-05-16
+https://git.3zx.top/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/TB/mv.mp4

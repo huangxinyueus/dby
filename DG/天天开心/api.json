@@ -266,6 +266,20 @@
             "ext": "./json/lf_live.json"
         },
         {
+            "key": "alllive",
+            "name": "📽️一直播┃LIVE",
+            "type": 3,
+            "api": "csp_Alllive",
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
             "key": "好趣网",
             "name": "🎦好趣网",
             "type": 3,
@@ -451,6 +465,23 @@
             "timeout": 10
         },
         {
+            "key": "立播弹幕版",
+            "name": "🐰立播┃弹幕",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "./txt/tok.txt",
+                "cookie": "./txt/quark.txt",
+                "uc_cookie": "./txt/uc.txt",
+                "site": "https://libvio.link",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
             "key": "无忧短剧",
             "name": "🌈无忧┃短剧",
             "type": 3,
@@ -475,6 +506,17 @@
                 "ratio": 1.433
             },
             "timeout": 10
+        },
+        {
+            "key": "csp_Nongm",
+            "name": "🕵农民┃APP",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Nongm",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.wwgz.cn/"
         },
         {
             "key": "csp_AppRZ",
@@ -1141,16 +1183,6 @@
             "ext": "./js/素白白[优].js"
         },
         {
-            "key": "csp_XYQHiker_农民影视",
-            "name": "🎦农民影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/农民影视.json"
-        },
-        {
             "key": "csp_XYQHiker_七新影视",
             "name": "🎦七新影视",
             "type": 3,
@@ -1682,23 +1714,6 @@
                 "danmu": true
             },
             "timeout": 25
-        },
-        {
-            "key": "立播网盘",
-            "name": "📀立播┃网盘",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "./txt/tok.txt",
-                "cookie": "./txt/quark.txt",
-                "uc_cookie": "./txt/uc.txt",
-                "site": "https://libvio.link",
-                "danmu": true
-            },
-            "timeout": 30
         },
         {
             "key": "土豆网盘",

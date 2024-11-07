@@ -5,10 +5,10 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "csp_Douban",
+            "key": "csp_DouDou",
             "name": "🔍豆瓣┃本接口免费-🈲贩卖",
             "type": 3,
-            "api": "csp_Douban",
+            "api": "csp_DouDou",
             "searchable": 0,
             "filterable": 1,
             "changeable": 1,
@@ -133,15 +133,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_SuBaiBai",
-            "name": "⛅️素白白",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Tvyb",
             "name": "☁️TVB云播",
             "type": 3,
@@ -151,15 +142,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://www.tvyun01.com/"
-        },
-        {
-            "key": "csp_FengGo",
-            "name": "🐶疯狗",
-            "type": 3,
-            "api": "csp_FengGo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_Jiaozi",
@@ -355,6 +337,18 @@
             }
         },
         {
+            "key": "木偶",
+            "name": "🧸木偶",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "./json/wogg.json"
+            }
+        },
+        {
             "key": "星剧社",
             "name": "⭐️星剧社",
             "type": 3,
@@ -428,6 +422,18 @@
             "ext": {
                 "json": "./json/youtube.json",
                 "cookie": "./json/youtubecookie.json"
+            }
+        },
+        {
+            "key": "Tg | 豆瓣",
+            "name": "🅿Tg|豆瓣（墙外）",
+            "type": 3,
+            "api": "csp_TgYunDouBanPan",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {

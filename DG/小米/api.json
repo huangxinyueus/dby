@@ -86,7 +86,7 @@
             "name": "☁️天天┃1080P",
             "type": 3,
             "api": "csp_TTian",
-            "playerType": 1,
+            "playerType": 2,
             "ext": "baHR0cDovL29wLnlzZHFqcy5jbg==",
             "jar": "./jars/天天.jar"
         },
@@ -95,7 +95,7 @@
             "name": "🌟客星┃1080P",
             "type": 3,
             "api": "csp_Xdai",
-            "playerType": 1,
+            "playerType": 2,
             "ext": "caHR0cDovLzE1NC4zNy4yMjAuMTc6NjYyMnw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM=",
             "jar": "./jars/天天.jar"
         },
@@ -104,8 +104,8 @@
             "name": "🥝凡人┃1080P",
             "type": 3,
             "api": "csp_Frong",
-            "playerType": 1,
-            "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTV8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
+            "playerType": 2,
+            "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTZ8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
             "jar": "./jars/天天.jar"
         },
         {
@@ -126,20 +126,21 @@
             "searchable": 1,
             "changeable": 1,
             "api": "csp_Jpyy",
-            "playerType": 1,
+            "playerType": 2,
             "filterable": 1,
             "ext": ""
         },
         {
-            "key": "csp_subaobai",
-            "name": "✍️白白┃1080P",
+            "key": "csp_饭团",
+            "name": "🍙饭团┃点击",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_SuBaiBai",
-            "playerType": 1,
+            "api": "csp_FanTuan",
+            "playerType": 2,
             "filterable": 1,
-            "ext": ""
+            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+            "ext": "https://fantuan.vip/"
         },
         {
             "key": "csp_Nkdy",

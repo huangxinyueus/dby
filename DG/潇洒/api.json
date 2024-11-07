@@ -1,8 +1,9 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
-    "homeLogo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
             "key": "豆瓣",
@@ -1190,13 +1191,6 @@
                 "site": "https://www.yjys05.com",
                 "danmu": true
             }
-        },
-        {
-            "key": "四维空间弹幕",
-            "name": "四维空间｜4K弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/四维空间弹幕.js"
         },
         {
             "key": "玩偶弹幕",

@@ -606,6 +606,38 @@
             "changeable": 0
         },
         {
+            "key": "bili",
+            "name": "🅱哔哔┃合集🅱",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./txt/bili001.txt"
+            }
+        },
+        {
+            "key": "biliych",
+            "name": "🅱哔哔┃歌曲🅱",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./txt/bilisong.txt"
+            }
+        },
+        {
             "key": "Wexqingfengdj",
             "name": "🎼舞曲┃摇头🎼",
             "type": 3,

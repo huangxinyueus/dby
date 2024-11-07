@@ -47,19 +47,28 @@
             "name": "⭐｜追更｜专区",
             "type": 3,
             "api": "./api/9121b57512b75f996d3122a424b04355.js",
-            "ext": "./txt/9d68d4ce43a3ec0cf97ed4633f979e15.txt"
+            "ext": "./txt/b274f252614cde727532dee18088c64e.txt"
         },
         {
             "key": "csp_SuBaiBai",
             "name": "🏳️┃素白┃影视",
             "type": 3,
-            "api": "csp_SuBaiBai"
+            "api": "csp_SuBaiBai",
+            "ext": "http://subaibai.com"
         },
         {
             "key": "csp_Jpyy",
             "name": "🥇️┃金牌┃影视",
             "type": 3,
             "api": "csp_Jpyy"
+        },
+        {
+            "key": "csp_Netfixtv",
+            "name": "💌┃至臻┃影视",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": "http://mpanso.com"
         },
         {
             "key": "csp_Nkdy",
@@ -72,14 +81,6 @@
             "name": "🛳️┃看客┃影视",
             "type": 3,
             "api": "csp_Kanke"
-        },
-        {
-            "key": "csp_Feifys",
-            "name": "🐒️┃狒狒┃影视",
-            "type": 3,
-            "api": "csp_Feifys",
-            "playerType": 2,
-            "ext": "https://www.ffys.top"
         },
         {
             "key": "csp_Qiyou",
@@ -138,14 +139,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Netfixtv",
-            "name": "💌┃至臻┃影视",
-            "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "ext": "http://mpanso.com"
         },
         {
             "key": "csp_Panda_玩偶哥哥",
