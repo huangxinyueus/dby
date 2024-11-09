@@ -298,40 +298,34 @@ http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000013/index.m3u8?
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/百事通.png" group-title="•数字「IPV6」",你叫啥都行 𝟠「IPV6」
 http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000017/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000017&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #INSERT_HERE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」01:50 精英联赛阶段 利雅得胜利 vs 艾因 刘畅
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意甲」03:35 联赛 热那亚 vs 科莫 乔迁
 https://tv.iill.top/FB/1
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」01:50 二级小组赛 塞帕罕 vs 沙迦 张天翼
-https://tv.iill.top/FB/2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」17:45 精英联赛阶段 浦项铁人 vs 山东泰山足球俱乐部 梁祥宇 李彦 姚安妮
-https://tv.iill.top/FB/3
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」17:50 精英联赛阶段 横滨水手 vs 武里南联 周楚雄
-https://tv.iill.top/FB/4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」19:50 二级小组赛 曼谷联 vs 理文 鹿中原
-https://tv.iill.top/FB/5
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」19:50 二级小组赛 南定 vs 淡滨尼流浪者 盛斌
-https://tv.iill.top/FB/6
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」21:50 二级小组赛 纳萨夫 vs 伊尔比德侯赛因 张天翼
-https://tv.iill.top/FB/7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」21:50 二级小组赛 金色世纪 vs 布赖代合作 王子睿
-https://tv.iill.top/FB/8
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」23:50 二级小组赛 科威特竞技 vs 迪拜青年国民 鹿中原
-https://tv.iill.top/FB/9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」23:50 二级小组赛 永恒体育 vs 巴格达空军 谭逸雄
-https://tv.iill.top/FB/10
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠」23:50 二级小组赛 大不里士拖拉机 vs 库洛布光 乔迁
-https://tv.iill.top/FB/11
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」01:30 法兰克福冠军赛：男女单打1/16决赛
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:45 常规赛 公牛 vs 森林狼 孙博 闫宇峰 秋童
+https://tv.iill.top/NBA/1
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:45 常规赛 公牛 vs 森林狼 英文原声
+https://tv.iill.top/NBA/2
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 马刺 vs 开拓者 王晓晨
+https://tv.iill.top/NBA/3
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 马刺 vs 开拓者 英文原声
+https://tv.iill.top/NBA/4
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 雄鹿 vs 爵士 张浩岳
+https://tv.iill.top/NBA/5
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」01:30 法兰克福冠军赛：男女单打1/8决赛 周冠达
 https://tv.iill.top/Migu/1
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「咪咕」08:00 《体育日报》第30期 《体育日报》第三十期
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」01:30 法兰克福冠军赛：男女单打1/8决赛 清流
 https://tv.iill.top/Migu/2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」17:30 济南RW侠 vs 重庆狼队 济南RW侠 vs 重庆狼队 官方解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」01:30 法兰克福冠军赛：男女单打1/8决赛 英文解说
 https://tv.iill.top/Migu/3
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」20:30 法兰克福冠军赛：男女单打1/8决赛 周冠达 侯英超
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「咪咕」08:00 《体育日报》第32期 《体育日报》第三十二期
 https://tv.iill.top/Migu/4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」20:30 法兰克福冠军赛：男女单打1/8决赛 清流
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」17:30 待定 vs 待定 重庆狼队 vs 武汉eStarPro 官方解说
 https://tv.iill.top/Migu/5
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」20:30 法兰克福冠军赛：男女单打1/8决赛 英文解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」20:30 法兰克福冠军赛：男女单打1/4决赛 周冠达 侯英超
 https://tv.iill.top/Migu/6
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」20:30 法兰克福冠军赛：男女单打1/4决赛 清流
+https://tv.iill.top/Migu/7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」20:30 法兰克福冠军赛：男女单打1/4决赛 英文解说
+https://tv.iill.top/Migu/8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•咪咕「TV」",CCTV 1 综合
 https://tv.iill.top/migu/cctv1
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•咪咕「TV」",CCTV 2 财经

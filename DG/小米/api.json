@@ -149,6 +149,18 @@
             "api": "csp_Nkdy"
         },
         {
+            "key": "xiongmao2",
+            "name": "🐼猫咪┃1080P",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/xiongmao.js"
+        },
+        {
             "key": "hipy_js_腾云驾雾[官]",
             "name": "🌞腾腾┃解析",
             "type": 3,

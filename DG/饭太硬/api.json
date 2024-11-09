@@ -39,7 +39,7 @@
         },
         {
             "key": "alllive",
-            "name": "📽️一直播┃LIVE",
+            "name": "📽️一直播┃直播",
             "type": 3,
             "api": "csp_Alllive",
             "playerType": 2,
@@ -106,6 +106,17 @@
             "changeable": 1
         },
         {
+            "key": "zxzj",
+            "name": "🍊在线┃秒播",
+            "type": 3,
+            "api": "csp_Zxzj",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.zxzjhd.com/"
+        },
+        {
             "key": "比特",
             "name": "🍄比特┃秒播",
             "type": 3,
@@ -142,7 +153,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvEpcoxZIYRQNwQCG8Otba0yUlXQMqbvyrYj1rF/ef6Syy5Zj/ZkmAqgHsuU3lxEs8zPFZMXNqLxA+MbSlPxmlA1/58U/OgZ2I7cEW5ZHV6hg=="
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
         },
         {
             "key": "热播",
@@ -177,6 +188,16 @@
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
         },
         {
+            "key": "速播",
+            "name": "⏮️速播┃多线",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvEpcoxb5sQXd8GDXUTvbqvx0peQcuZ7GvQ0UGD/a2mS238cHqYkiBgwCduCiYrTZJtbwdDUt/L2w/LOWADxikKl6I8Cqz6OD9lIxS2anA6ytPprjXXepEhRI1g+FIGqkCgBFA="
+        },
+        {
             "key": "欢视",
             "name": "👓欢视┃多线",
             "type": 3,
@@ -193,27 +214,6 @@
             "type": 3,
             "api": "csp_Kekys",
             "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "zxzj",
-            "name": "🍊在线┃外剧",
-            "type": 3,
-            "api": "csp_Zxzj",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.zxzjhd.com/"
-        },
-        {
-            "key": "低端",
-            "name": "⏮️低端┃外剧",
-            "type": 3,
-            "api": "csp_Ddrk",
-            "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -506,14 +506,14 @@
         },
         {
             "key": "Biliych",
-            "name": "🅱明星演唱会┃弹幕",
+            "name": "🅱哔哔演唱会┃弹幕",
             "type": 3,
             "api": "csp_Bili",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             },
-            "searchable": 1,
+            "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
             "ext": {

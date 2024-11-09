@@ -52,6 +52,14 @@
             "changeable": 1
         },
         {
+            "key": "Wexbiliys",
+            "name": "💓‍哔哩┃影视💓‍",
+            "type": 3,
+            "api": "csp_Wexbiliys",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "115",
             "name": "💓‍115┃4K💓‍",
             "type": 3,
@@ -172,22 +180,6 @@
             "name": "🎇星星┃秒播🎇",
             "type": 3,
             "api": "csp_Wexbaipiao",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wex4Kav",
-            "name": "🎇急速┃秒播🎇",
-            "type": 3,
-            "api": "csp_Wex4Kav",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Subaibai",
-            "name": "🎇拜拜┃秒播🎇",
-            "type": 3,
-            "api": "csp_Subaibai",
             "searchable": 1,
             "changeable": 1
         },

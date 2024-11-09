@@ -291,16 +291,6 @@
             "ext": "./js/好趣网.js"
         },
         {
-            "key": "4K_XYQHiker",
-            "name": "🎦4K┃XYQHiker",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/4kav.json"
-        },
-        {
             "key": "荐片",
             "name": "🎦荐片┃P2P",
             "type": 3,
@@ -438,19 +428,6 @@
             "timeout": 10
         },
         {
-            "key": "厂长弹幕版",
-            "name": "🌸厂长┃弹幕",
-            "type": 3,
-            "api": "csp_Czzy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            },
-            "timeout": 10
-        },
-        {
             "key": "荐片弹幕版",
             "name": "⚔️荐片┃手机",
             "type": 3,
@@ -530,17 +507,6 @@
             "ext": "http://rzys.xyz/"
         },
         {
-            "key": "csp_AppDaMi",
-            "name": "🍚大米┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://app-v1.ecoliving168.com/"
-        },
-        {
             "key": "ddys_js",
             "name": "🍄低端┃在线",
             "type": 3,
@@ -550,6 +516,17 @@
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
             "ext": "./txt/ddys.txt",
             "timeout": 15
+        },
+        {
+            "key": "果果4K解析_js",
+            "name": "🌞果果4K(解析)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/果果4K.js"
         },
         {
             "key": "🌞腾腾4K解析_js",
@@ -612,16 +589,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/河马短剧.json"
-        },
-        {
-            "key": "csp_XYQHiker_短剧屋",
-            "name": "🎦短剧屋",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/短剧屋.json"
         },
         {
             "key": "js_星芽短剧",
@@ -1172,27 +1139,6 @@
             "ext": "./js/宇航影视.js"
         },
         {
-            "key": "js_subaibai",
-            "name": "🎦白白影视",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/素白白[优].js"
-        },
-        {
-            "key": "csp_XYQHiker_七新影视",
-            "name": "🎦七新影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/七新影视.json"
-        },
-        {
             "key": "csp_XYQHiker_可可影视",
             "name": "🎦可可影视",
             "type": 3,
@@ -1338,20 +1284,6 @@
             "ext": "./json/xcys.json"
         },
         {
-            "key": " 百姓 ",
-            "name": "🎦农民影视2",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
-                "分类url": "https://www.gymboreejn.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.gymboreejn.com/vodtype/{cateId}.html]",
-                "分类": "电影$1#剧集$2#综艺$3#动漫$4#动画片$29#短剧$31#影视解说$32#邵氏电影$39"
-            }
-        },
-        {
             "key": "三米ys",
             "name": "🎦三米影视",
             "type": 3,
@@ -1477,16 +1409,6 @@
             "ext": "./json/qiyou.json"
         },
         {
-            "key": "光棍影视",
-            "name": "🎦光棍",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/guangun.json"
-        },
-        {
             "key": "子子影视",
             "name": "🎦子子影视",
             "type": 3,
@@ -1602,16 +1524,6 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/搜狗.js"
-        },
-        {
-            "key": "360影视",
-            "name": "🎦360影视(官)",
-            "type": 3,
-            "api": "csp_SP360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
         },
         {
             "key": "木偶网盘",
