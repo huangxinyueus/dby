@@ -13,7 +13,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "\"./json/douban.json\""
         },
         {
             "key": "Doubana",
@@ -23,7 +23,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "\"./json/douban.json\""
         },
         {
             "key": "Wexconfig",
@@ -717,7 +717,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/qie.json"
+            "ext": "\"./json/qie.json\""
         },
         {
             "key": "Wexmiso",

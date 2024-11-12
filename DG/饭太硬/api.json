@@ -97,15 +97,6 @@
             "changeable": 1
         },
         {
-            "key": "糯米",
-            "name": "🍓糯米┃秒播",
-            "type": 3,
-            "api": "csp_Nmyswv",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "zxzj",
             "name": "🍊在线┃秒播",
             "type": 3,
@@ -227,7 +218,7 @@
             "changeable": 1,
             "playerType": "1",
             "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
+            "ext": "\"./js/jp.js\""
         },
         {
             "key": "Auete",
@@ -302,7 +293,7 @@
             "name": "⚽ 88┃看球",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
+            "ext": "\"./js/88看球.js\"",
             "style": {
                 "type": "list"
             },
@@ -315,7 +306,7 @@
             "name": "⚽ 310┃看球",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/310直播.js",
+            "ext": "\"./js/310直播.js\"",
             "style": {
                 "type": "list"
             },
@@ -328,7 +319,7 @@
             "name": "⚽ Jrs┃球迷",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
+            "ext": "\"./js/jrk.js\"",
             "style": {
                 "type": "list"
             },
@@ -341,7 +332,7 @@
             "name": "🎤酷奇┃MV",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
+            "ext": "\"./js/酷奇MV.js\"",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -371,7 +362,7 @@
             "name": "🐯虎牙┃直播",
             "type": 3,
             "api": "./api/drpy2.js",
-            "ext": "./js/huya2.js",
+            "ext": "\"./js/huya2.js\"",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -386,7 +377,7 @@
             "name": "🐟斗鱼┃直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/斗鱼直播.js",
+            "ext": "\"./js/斗鱼直播.js\"",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -401,7 +392,7 @@
             "name": "🎧有声┃小说",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/有声小说吧.js",
+            "ext": "\"./js/有声小说吧.js\"",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -525,7 +516,7 @@
             "name": "📚儿童┃启蒙",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
+            "ext": "\"./js/兔小贝.js\"",
             "style": {
                 "type": "rect",
                 "ratio": 1.597

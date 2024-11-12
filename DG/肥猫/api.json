@@ -43,13 +43,6 @@
             }
         },
         {
-            "key": "追剧",
-            "name": "⭐｜追更｜专区",
-            "type": 3,
-            "api": "./api/9121b57512b75f996d3122a424b04355.js",
-            "ext": "./txt/b274f252614cde727532dee18088c64e.txt"
-        },
-        {
             "key": "csp_SuBaiBai",
             "name": "🏳️┃素白┃影视",
             "type": 3,
@@ -61,6 +54,20 @@
             "name": "🥇️┃金牌┃影视",
             "type": 3,
             "api": "csp_Jpyy"
+        },
+        {
+            "key": "csp_Nongm",
+            "name": "🌾️┃农民┃影视",
+            "type": 3,
+            "api": "csp_Nongm",
+            "ext": "https://wwgz.cn"
+        },
+        {
+            "key": "csp_Nongm",
+            "name": "🕵️┃忍者┃影视",
+            "type": 3,
+            "api": "csp_AppRZ",
+            "ext": "http://rzys.xyz/"
         },
         {
             "key": "csp_Netfixtv",
@@ -114,7 +121,7 @@
             "name": "💖┃Ivdy┃影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./json/ivdy.json",
+            "ext": "\"./json/ivdy.json\"",
             "searchable": 0
         },
         {
@@ -200,14 +207,14 @@
             "type": 3,
             "playerType": "2",
             "api": "./api/drpy2.min.js",
-            "ext": "./js/ddys.js"
+            "ext": "\"./js/ddys.js\""
         },
         {
             "key": "虎虎",
             "name": "🐯┃虎虎┃影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./json/虎虎.json"
+            "ext": "\"./json/虎虎.json\""
         },
         {
             "key": "csp_SP360",
@@ -233,7 +240,7 @@
             "name": "📚┃有声┃小说",
             "type": 3,
             "playerType": "2",
-            "api": "csp_YouShengBook",
+            "api": "csp_LaoBaiBook",
             "searchable": 0,
             "style": {
                 "type": "rect",
@@ -298,7 +305,7 @@
             "api": "./api/drpy2.min.js",
             "searchable": 0,
             "quickSearch": 0,
-            "ext": "./js/酷奇MV.js"
+            "ext": "\"./js/酷奇MV.js\""
         },
         {
             "key": "MTV",
@@ -307,7 +314,7 @@
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
-            "ext": "./json/MTV.json"
+            "ext": "\"./json/MTV.json\""
         },
         {
             "key": "虎牙直播js",
@@ -317,7 +324,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "playerType": 1,
-            "ext": "./js/huya2.js"
+            "ext": "\"./js/huya2.js\""
         },
         {
             "key": "斗鱼js",
@@ -327,7 +334,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "playerType": 1,
-            "ext": "./js/斗鱼直播.js"
+            "ext": "\"./js/斗鱼直播.js\""
         },
         {
             "key": "聚短视频js",
@@ -336,7 +343,20 @@
             "api": "./api/drpy2.min.js",
             "searchable": 0,
             "quickSearch": 0,
-            "ext": "./js/短视频.js"
+            "ext": "\"./js/短视频.js\""
+        },
+        {
+            "key": "看球",
+            "name": "⚾┃看球┃直播",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "gridview": 3,
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "drpy_js_310直播",
@@ -348,28 +368,28 @@
             "style": {
                 "type": "list"
             },
-            "ext": "./js/310直播.js"
+            "ext": "\"./js/310直播.js\""
         },
         {
             "key": "米搜",
             "name": "🌖┃米搜┃网盘",
             "type": 3,
             "api": "csp_MiSou",
-            "ext": "./txt/kk.txt"
+            "ext": "\"./txt/kk.txt\""
         },
         {
             "key": "csp_Pansou",
             "name": "🚢┃盘搜┃网盘",
             "type": 3,
             "api": "csp_Pansou",
-            "ext": "./txt/token.txt"
+            "ext": "\"./txt/token.txt\""
         },
         {
             "key": "csp_PanSearch",
             "name": "🚃┃盘搜┃网盘",
             "type": 3,
             "api": "csp_PanSearch",
-            "ext": "./txt/token.txt"
+            "ext": "\"./txt/token.txt\""
         },
         {
             "key": "drpy_哔哩",
@@ -377,7 +397,7 @@
             "type": 3,
             "api": "csp_Bili",
             "playerType": 1,
-            "ext": "./json/bilibili.json"
+            "ext": "\"./json/bilibili.json\""
         },
         {
             "key": "儿童",
@@ -391,7 +411,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "./js/兔小贝.js"
+            "ext": "\"./js/兔小贝.js\""
         },
         {
             "key": "少儿",
@@ -405,7 +425,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "./json/少儿教育.json"
+            "ext": "\"./json/少儿教育.json\""
         },
         {
             "key": "小学",
@@ -419,7 +439,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "./json/小学课堂.json"
+            "ext": "\"./json/小学课堂.json\""
         },
         {
             "key": "初中",
@@ -433,7 +453,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "./json/初中课堂.json"
+            "ext": "\"./json/初中课堂.json\""
         },
         {
             "key": "高中",
@@ -447,7 +467,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "./json/高中课堂.json"
+            "ext": "\"./json/高中课堂.json\""
         },
         {
             "key": "push_agent",
