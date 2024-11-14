@@ -819,33 +819,39 @@
     ],
     "lives": [
         {
-            "name": "电影",
+            "name": "电影Live",
             "type": 0,
-            "url": "./lives/电影.txt",
+            "url": "./lives/电影Live.txt",
             "epg": ""
         },
         {
-            "name": "live-1",
+            "name": "电视Live",
             "type": 0,
-            "url": "./lives/live-1.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "./lives/电视Live.txt",
+            "epg": ""
         },
         {
-            "name": "live-2",
+            "name": "网络Live",
             "type": 0,
-            "url": "./lives/live-2.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "./lives/网络Live.txt",
+            "epg": ""
         },
         {
-            "name": "live-3",
+            "name": "体育Live",
             "type": 0,
-            "url": "./lives/live-3.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "./lives/体育Live.txt",
+            "epg": ""
         },
         {
-            "name": "fanmingming",
+            "name": "MyTV",
             "type": 0,
-            "url": "./lives/fanmingming.txt",
+            "url": "./lives/MyTV.txt",
+            "epg": ""
+        },
+        {
+            "name": "范明明",
+            "type": 0,
+            "url": "./lives/范明明.txt",
             "epg": ""
         },
         {

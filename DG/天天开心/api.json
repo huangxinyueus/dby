@@ -428,6 +428,19 @@
             "timeout": 10
         },
         {
+            "key": "厂长弹幕版",
+            "name": "🌸厂长┃弹幕",
+            "type": 3,
+            "api": "csp_Czzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
             "key": "荐片弹幕版",
             "name": "⚔️荐片┃手机",
             "type": 3,
@@ -485,15 +498,15 @@
             "timeout": 10
         },
         {
-            "key": "csp_Nongm",
+            "key": "csp_Nmys",
             "name": "🕵农民┃APP",
             "type": 3,
             "playerType": "2",
-            "api": "csp_Nongm",
+            "api": "csp_Nmys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.wwgz.cn/"
+            "ext": "https://vip.wwgz.cn/"
         },
         {
             "key": "csp_AppRZ",
@@ -538,6 +551,13 @@
             "filterable": 1,
             "order_num": 0,
             "ext": "\"./js/腾腾4K.js\""
+        },
+        {
+            "key": "闪雷影视",
+            "name": "🚀闪雷┃JS",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "\"./js/闪雷影视.js\""
         },
         {
             "key": "金牌影视",
