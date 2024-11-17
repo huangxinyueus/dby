@@ -36,6 +36,12 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
+            "name": "抖音、斗鱼、B站、YY、Afreeca、Youtube",
+            "type": 0,
+            "url": "./lives/抖音、斗鱼、B站、YY、Afreeca、Youtube.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
             "name": "电影",
             "type": 0,
             "url": "./lives/电影.txt",

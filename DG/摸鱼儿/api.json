@@ -104,22 +104,6 @@
             "ext": "\"./js/mgtv.js\""
         },
         {
-            "key": "夸克土豆弹幕",
-            "name": "☘️土豆资源┃4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "jar": "./jars/配置中心.jar",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "./txt/token.txt",
-                "cookie": "./txt/quark.txt",
-                "site": "https://yunpan.yunpay.cc",
-                "danmu": true
-            }
-        },
-        {
             "key": "夸克蜡笔弹幕",
             "name": "🖍︎蜡笔资源┃4K弹幕",
             "type": 3,
@@ -186,29 +170,6 @@
                 "cookie": "file://tvbox/bilibili.txt"
             },
             "timeout": 10
-        },
-        {
-            "key": "醉挽清风",
-            "name": "🌀醉挽清风┃4K纯净",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "\"./js/qingfeng.js\""
-        },
-        {
-            "key": "小满万全",
-            "name": "🌀小满万全┃4K纯净",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "\"./js/mgtv.js\""
         },
         {
             "key": "alllive",

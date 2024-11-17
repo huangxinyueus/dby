@@ -13,21 +13,15 @@
             "epg": ""
         },
         {
-            "name": "IPV6",
+            "name": "o2",
             "type": 0,
-            "url": "./lives/IPV6.txt",
+            "url": "./lives/o2.txt",
             "epg": ""
         },
         {
-            "name": "1",
+            "name": "o3",
             "type": 0,
-            "url": "./lives/1.txt",
-            "epg": ""
-        },
-        {
-            "name": "2",
-            "type": 0,
-            "url": "./lives/2.txt",
+            "url": "./lives/o3.txt",
             "epg": ""
         }
     ],
@@ -41,7 +35,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:11/13❤",
+            "name": "📢o公告❤更新:11/16❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -1353,31 +1347,8 @@
             "type": "1",
             "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=",
             "ext": {
-                "flag": [
-                    "youku",
-                    "qq",
-                    "qiyi",
-                    "bilibili",
-                    "mgtv",
-                    "pptv",
-                    "xigua",
-                    "NBY",
-                    "ETH-",
-                    "BBA",
-                    "TX",
-                    "MXTV",
-                    "mytv",
-                    "nmys",
-                    "yhdm",
-                    "BNNB",
-                    "letu",
-                    "DJWB",
-                    "DJWX",
-                    "DJWT",
-                    "duanju"
-                ],
                 "header": {
-                    "User-Agent": "Dalvik/2.1.0"
+                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
                 }
             }
         },
@@ -1399,7 +1370,7 @@
         {
             "name": "欧歌APP",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=4&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=8&url="
         },
         {
             "name": "线路1",
@@ -1414,7 +1385,7 @@
         {
             "name": "线路2",
             "type": 0,
-            "url": "https://jx.quankan.app/?url=",
+            "url": "https://bd.jx.cn/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1434,7 +1405,7 @@
         {
             "name": "线路4",
             "type": 0,
-            "url": "https://jx.aidouer.net/?url=",
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36",
@@ -1455,7 +1426,7 @@
         {
             "name": "线路7",
             "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url="
+            "url": "https://player.mrgaocloud.com/player/?url="
         }
     ],
     "flags": [

@@ -819,12 +819,6 @@
     ],
     "lives": [
         {
-            "name": "电影Live",
-            "type": 0,
-            "url": "./lives/电影Live.txt",
-            "epg": ""
-        },
-        {
             "name": "电视Live",
             "type": 0,
             "url": "./lives/电视Live.txt",

@@ -567,23 +567,6 @@
             "ext": "./JS/碟调影视.js"
         },
         {
-            "key": "畅梦影视",
-            "name": "畅梦｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/畅梦影视.js"
-        },
-        {
-            "key": "子子影视",
-            "name": "子子｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/子子影视.json"
-        },
-        {
             "key": "奇趣影视",
             "name": "奇趣｜影视",
             "type": 3,
@@ -2005,23 +1988,23 @@
     ],
     "lives": [
         {
-            "name": "直播1",
+            "name": "直播",
             "type": 0,
-            "url": "./live.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
+            "playerType": 2
         },
         {
-            "name": "直播2",
+            "name": "范明明",
             "type": 0,
             "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-            "playerType": 1
+            "playerType": 2
         },
         {
-            "name": "直播3",
-            "type": 0,
-            "url": "https://tv.iill.top/m3u/Gather",
-            "playerType": 1
+            "name": "肥羊",
+            "type": 3,
+            "api": "csp_Ysptp",
+            "ext": "./live.txt",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         }
     ],
     "flags": [

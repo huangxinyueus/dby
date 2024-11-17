@@ -2,8 +2,8 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://like.xn--z7x900a.com/ppic/feimao.php",
-    "logo": "https://like.xn--z7x900a.com/panda/0262.png",
+    "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
+    "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
@@ -63,7 +63,7 @@
             "ext": "https://wwgz.cn"
         },
         {
-            "key": "csp_Nongm",
+            "key": "csp_AppRZ",
             "name": "🕵️┃忍者┃影视",
             "type": 3,
             "api": "csp_AppRZ",
@@ -90,10 +90,32 @@
             "api": "csp_Kanke"
         },
         {
+            "key": "csp_Dadag",
+            "name": "🐢️┃达龟┃影视",
+            "type": 3,
+            "api": "csp_Dadag"
+        },
+        {
             "key": "csp_Qiyou",
             "name": "🥝┃奇优┃影视",
             "type": 3,
-            "api": "csp_Qiyou"
+            "api": "csp_Qiyou",
+            "ext": "http://www.dyxz2.com/"
+        },
+        {
+            "key": "csp_Fantuan",
+            "name": "🍙┃饭团┃影视",
+            "type": 3,
+            "api": "csp_Fantuan",
+            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+            "ext": "https://www.fantuan.vip"
+        },
+        {
+            "key": "csp_Quanwk",
+            "name": "👀┃全看┃影视",
+            "type": 3,
+            "api": "csp_Quanwk",
+            "ext": "https://www.91qkw.com"
         },
         {
             "key": "nangua",
@@ -101,13 +123,6 @@
             "type": 3,
             "playerType": "2",
             "api": "./api/ng_open.js"
-        },
-        {
-            "key": "csp_Tvyb",
-            "name": "☁︎┃云播┃影视",
-            "type": 3,
-            "api": "csp_Tvyb",
-            "playerType": 2
         },
         {
             "key": "csp_J",
@@ -181,7 +196,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://cz01.vip/"
+            "ext": "http://www.czzyvideo.com"
         },
         {
             "key": "可可",
@@ -253,22 +268,6 @@
             "type": 3,
             "playerType": "2",
             "api": "csp_Dm84"
-        },
-        {
-            "key": "csp_Anime1",
-            "name": "🐶┃日本┃动漫",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Anime1"
-        },
-        {
-            "key": "csp_xifan",
-            "name": "🍚┃稀饭┃动漫",
-            "type": 3,
-            "api": "csp_Xifan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_FirstAid",
@@ -376,13 +375,6 @@
             "type": 3,
             "api": "csp_MiSou",
             "ext": "\"./txt/kk.txt\""
-        },
-        {
-            "key": "csp_Pansou",
-            "name": "🚢┃盘搜┃网盘",
-            "type": 3,
-            "api": "csp_Pansou",
-            "ext": "\"./txt/token.txt\""
         },
         {
             "key": "csp_PanSearch",
