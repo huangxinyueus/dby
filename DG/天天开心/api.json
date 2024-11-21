@@ -36,39 +36,15 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
+            "name": "IPTV研究所",
+            "type": 0,
+            "url": "./lives/IPTV研究所.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
             "name": "抖音、斗鱼、B站、YY、Afreeca、Youtube",
             "type": 0,
             "url": "./lives/抖音、斗鱼、B站、YY、Afreeca、Youtube.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "电影",
-            "type": 0,
-            "url": "./lives/电影.txt",
-            "epg": ""
-        },
-        {
-            "name": "猫TV线路",
-            "type": 0,
-            "url": "./lives/猫TV线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "晴天专线",
-            "type": 0,
-            "url": "./lives/晴天专线.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑨野火线路",
-            "type": 0,
-            "url": "./lives/⑨野火线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑩IPTV线路",
-            "type": 0,
-            "url": "./lives/⑩IPTV线路.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
@@ -78,130 +54,10 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "⑫V6阳线路",
-            "type": 0,
-            "url": "./lives/⑫V6阳线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑬ipv6线路",
-            "type": 0,
-            "url": "./lives/⑬ipv6线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑭网盘线路",
-            "type": 0,
-            "url": "./lives/⑭网盘线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑮梅州线路",
-            "type": 0,
-            "url": "./lives/⑮梅州线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑰飞龙线路",
-            "type": 0,
-            "url": "./lives/⑰飞龙线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑱欧华线路",
-            "type": 0,
-            "url": "./lives/⑱欧华线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑲测试线路",
-            "type": 0,
-            "url": "./lives/⑲测试线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑳晴天线路",
-            "type": 0,
-            "url": "./lives/⑳晴天线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②①综合线路",
-            "type": 0,
-            "url": "./lives/②①综合线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②②综合二线",
-            "type": 0,
-            "url": "./lives/②②综合二线.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②③综合三线",
-            "type": 0,
-            "url": "./lives/②③综合三线.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②④综合四线",
-            "type": 0,
-            "url": "./lives/②④综合四线.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②⑤探探线路",
-            "type": 0,
-            "url": "./lives/②⑤探探线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
             "name": "②⑥范明线路",
             "type": 0,
             "url": "./lives/②⑥范明线路.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②⑦范明电台",
-            "type": 0,
-            "url": "./lives/②⑦范明电台.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②⑧饭太线路",
-            "type": 0,
-            "url": "./lives/②⑧饭太线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "②⑨肥猫线路",
-            "type": 0,
-            "url": "./lives/②⑨肥猫线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "③⓪俊于线路",
-            "type": 0,
-            "url": "./lives/③⓪俊于线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "③①斗鱼线路",
-            "type": 0,
-            "url": "./lives/③①斗鱼线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "肥羊斗鱼",
-            "type": 0,
-            "url": "./lives/肥羊斗鱼.txt",
-            "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "肥羊虎牙",
-            "type": 0,
-            "url": "./lives/肥羊虎牙.txt",
-            "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
         },
         {
             "name": "③②备用虎牙",
@@ -220,12 +76,6 @@
             "type": 0,
             "url": "./lives/③④16万MV.txt",
             "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "③⑤MV专线",
-            "type": 0,
-            "url": "./lives/③⑤MV专线.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         }
     ],
     "sites": [

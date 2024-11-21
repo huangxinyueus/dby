@@ -11,18 +11,6 @@
             "type": 0,
             "url": "./lives/o.txt",
             "epg": ""
-        },
-        {
-            "name": "o2",
-            "type": 0,
-            "url": "./lives/o2.txt",
-            "epg": ""
-        },
-        {
-            "name": "o3",
-            "type": 0,
-            "url": "./lives/o3.txt",
-            "epg": ""
         }
     ],
     "sites": [
@@ -35,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:11/16❤",
+            "name": "📢o公告❤更新:11/17❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
