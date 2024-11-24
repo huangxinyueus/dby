@@ -17,7 +17,8 @@ https://tv.mytvsuper.xyz/astro/tianying/tianying.m3u8
 https://tv.mytvsuper.xyz/hami/amc/amc.m3u8
 #EXTINF:-1,tvg-id="200TVBS台劇台" tvg-name="200TVBS台劇台" tvg-logo="https://epg.v1.mk/logo/200TVBS台劇台.png" group-title="Pixman「野生」",TVB生活台 
 https://tv.mytvsuper.xyz/tvb/shenghuo/stream.m3u8
-
+#EXTINF:-1,tvg-id="RTHK31" tvg-name="RTHK31" tvg-logo="https://epg.v1.mk/logo/RTHK31.png" group-title="Pixman「野生」",RTHKTV32
+https://tv.mytvsuper.xyz/tvb/RTHKTV32/RTHKTV32.m3u8
 
 
 
@@ -1109,133 +1110,506 @@ http://gslbserv.itv.cmvideo.cn:80/6000000006000030630/1.m3u8?channel-id=wasusyt&
 
 
 
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•湖南「IPV6」",CCTV1 综合「IPV6」
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="•山东「IPV6」",山东卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000301/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.v1.mk/logo/山东卫视.png" group-title="•山东「IPV6」",山东卫视 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000370/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东体育" tvg-name="山东体育" tvg-logo="https://epg.v1.mk/logo/山东体育.png" group-title="•山东「IPV6」",山东体育
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000315/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东体育" tvg-name="山东体育" tvg-logo="https://epg.v1.mk/logo/山东体育.png" group-title="•山东「IPV6」",山东体育 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000373/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东公共" tvg-name="山东公共" tvg-logo="https://epg.v1.mk/logo/山东公共.png" group-title="•山东「IPV6」",山东公共
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000314/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东农科" tvg-name="山东农科" tvg-logo="https://epg.v1.mk/logo/山东农科.png" group-title="•山东「IPV6」",山东农科
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000339/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东少儿" tvg-name="山东少儿" tvg-logo="https://epg.v1.mk/logo/山东少儿.png" group-title="•山东「IPV6」",山东少儿
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000340/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东少儿" tvg-name="山东少儿" tvg-logo="https://epg.v1.mk/logo/山东少儿.png" group-title="•山东「IPV6」",山东少儿 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000375/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东文旅" tvg-name="山东文旅" tvg-logo="https://epg.v1.mk/logo/山东文旅.png" group-title="•山东「IPV6」",山东文旅
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000337/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东文旅" tvg-name="山东文旅" tvg-logo="https://epg.v1.mk/logo/山东文旅.png" group-title="•山东「IPV6」",山东文旅 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000377/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东生活" tvg-name="山东生活" tvg-logo="https://epg.v1.mk/logo/山东生活.png" group-title="•山东「IPV6」",山东生活
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000336/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东综艺" tvg-name="山东综艺" tvg-logo="https://epg.v1.mk/logo/山东综艺.png" group-title="•山东「IPV6」",山东综艺
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000338/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东综艺" tvg-name="山东综艺" tvg-logo="https://epg.v1.mk/logo/山东综艺.png" group-title="•山东「IPV6」",山东综艺 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000378/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东齐鲁" tvg-name="山东齐鲁" tvg-logo="https://epg.v1.mk/logo/山东齐鲁.png" group-title="•山东「IPV6」",山东齐鲁
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000313/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://epg.v1.mk/logo/山东教育卫视.png" group-title="•山东「IPV6」",山东教育卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000331/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="NewTV山东" tvg-name="NewTV山东" tvg-logo="https://epg.v1.mk/logo/NewTV山东.png" group-title="•山东「IPV6」",山东居家购物
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000700/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="NewTV山东" tvg-name="NewTV山东" tvg-logo="https://epg.v1.mk/logo/NewTV山东.png" group-title="•山东「IPV6」",山东交通广播
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00003002/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="NewTV山东" tvg-name="NewTV山东" tvg-logo="https://epg.v1.mk/logo/NewTV山东.png" group-title="•山东「IPV6」",山东经济广播
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00003001/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="•山东「IPV6」",CCTV4K HEVC 25M
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000382/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="•山东「IPV6」",CCTV1
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000311/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="•山东「IPV6」",CCTV2
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000317/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="•山东「IPV6」",CCTV3
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000359/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="•山东「IPV6」",CCTV3 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000371/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="•山东「IPV6」",CCTV4
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000320/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="•山东「IPV6」",CCTV4欧洲
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000350/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="•山东「IPV6」",CCTV4美洲
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000351/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="•山东「IPV6」",CCTV5
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000360/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="•山东「IPV6」",CCTV5 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000372/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="•山东「IPV6」",CCTV5+
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000316/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="•山东「IPV6」",CCTV6
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000361/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="•山东「IPV6」",CCTV6 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000374/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="•山东「IPV6」",CCTV7
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000318/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="•山东「IPV6」",CCTV8
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000362/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="•山东「IPV6」",CCTV8 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000376/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="•山东「IPV6」",CCTV9
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000319/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="•山东「IPV6」",CCTV10
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000321/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="•山东「IPV6」",CCTV11
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000344/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="•山东「IPV6」",CCTV12
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000322/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="•山东「IPV6」",CCTV13
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000345/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="•山东「IPV6」",CCTV14
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000323/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="•山东「IPV6」",CCTV15
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000346/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="•山东「IPV6」",CCTV17
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000303/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cetv1" tvg-name="cetv1" tvg-logo="https://epg.v1.mk/logo/cetv1.png" group-title="•山东「IPV6」",CETV1
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000076/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CETV2" tvg-name="CETV2" tvg-logo="https://epg.v1.mk/logo/CETV2.png" group-title="•山东「IPV6」",CETV2 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000077/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cetv4" tvg-name="cetv4" tvg-logo="https://epg.v1.mk/logo/cetv4.png" group-title="•山东「IPV6」",CETV4
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000666/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cgtn英语" tvg-name="cgtn英语" tvg-logo="https://epg.v1.mk/logo/cgtn英语.png" group-title="•山东「IPV6」",CGTN英语
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000352/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cgtn纪录" tvg-name="cgtn纪录" tvg-logo="https://epg.v1.mk/logo/cgtn纪录.png" group-title="•山东「IPV6」",CGTN纪录
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000353/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://epg.v1.mk/logo/cgtn俄语.png" group-title="•山东「IPV6」",CGTN俄语
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000357/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://epg.v1.mk/logo/cgtn法语.png" group-title="•山东「IPV6」",CGTN法语
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000355/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://epg.v1.mk/logo/cgtn西班牙语.png" group-title="•山东「IPV6」",CGTN西班牙语
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000354/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://epg.v1.mk/logo/CGTN阿拉伯语.png" group-title="•山东「IPV6」",CGTN阿拉伯语
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000356/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="chc动作电影" tvg-name="chc动作电影" tvg-logo="https://epg.v1.mk/logo/chc动作电影.png" group-title="•山东「IPV6」",CHC动作电影
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002030/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="chc家庭影院" tvg-name="chc家庭影院" tvg-logo="https://epg.v1.mk/logo/chc家庭影院.png" group-title="•山东「IPV6」",CHC家庭影院
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002028/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://epg.v1.mk/logo/CHC影迷电影.png" group-title="•山东「IPV6」",CHC影迷电影
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002029/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV东方财经" tvg-name="SITV东方财经" tvg-logo="https://epg.v1.mk/logo/SITV东方财经.png" group-title="•山东「IPV6」",SiTV东方财经
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002025/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV乐游" tvg-name="SITV乐游" tvg-logo="https://epg.v1.mk/logo/SITV乐游.png" group-title="•山东「IPV6」",SiTV乐游
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002016/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV" tvg-name="SITV" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="•山东「IPV6」",SiTV动漫秀场
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002000/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV劲爆体育" tvg-name="SITV劲爆体育" tvg-logo="https://epg.v1.mk/logo/SITV劲爆体育.png" group-title="•山东「IPV6」",SiTV劲爆体育
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002026/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV法治天地" tvg-name="SITV法治天地" tvg-logo="https://epg.v1.mk/logo/SITV法治天地.png" group-title="•山东「IPV6」",SiTV法治天地
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002010/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV" tvg-name="SITV" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="•山东「IPV6」",SiTV游戏风云
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002024/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV" tvg-name="SITV" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="•山东「IPV6」",SiTV生活时尚
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002019/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV都市剧场" tvg-name="SITV都市剧场" tvg-logo="https://epg.v1.mk/logo/SITV都市剧场.png" group-title="•山东「IPV6」",SiTV都市剧场
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002022/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV金色学堂" tvg-name="SITV金色学堂" tvg-logo="https://epg.v1.mk/logo/SITV金色学堂.png" group-title="•山东「IPV6」",SiTV金色学堂
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002018/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="SITV" tvg-name="SITV" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="•山东「IPV6」",SiTV魅力足球
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002021/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://epg.v1.mk/logo/上海纪实人文.png" group-title="•山东「IPV6」",上海纪实人文
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000333/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://epg.v1.mk/logo/北京纪实科教.png" group-title="•山东「IPV6」",北京纪实科教
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000332/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://epg.v1.mk/logo/金鹰纪实.png" group-title="•山东「IPV6」",金鹰纪实
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000334/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://epg.v1.mk/logo/北京卡酷少儿.png" group-title="•山东「IPV6」",北京卡酷少儿
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000661/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.v1.mk/logo/金鹰卡通.png" group-title="•山东「IPV6」",金鹰卡通
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002027/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://epg.v1.mk/logo/快乐垂钓.png" group-title="•山东「IPV6」",快乐垂钓
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000648/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="茶" tvg-name="茶" tvg-logo="https://epg.v1.mk/logo/茶.png" group-title="•山东「IPV6」",茶频道
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000649/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="文物宝库" tvg-name="文物宝库" tvg-logo="https://epg.v1.mk/logo/文物宝库.png" group-title="•山东「IPV6」",文物宝库
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000658/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="梨园" tvg-name="梨园" tvg-logo="https://epg.v1.mk/logo/梨园.png" group-title="•山东「IPV6」",梨园频道
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000656/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://epg.v1.mk/logo/武术世界.png" group-title="•山东「IPV6」",武术世界
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000657/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="精彩影视" tvg-name="精彩影视" tvg-logo="https://epg.v1.mk/logo/精彩影视.png" group-title="•山东「IPV6」",精彩影视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002012/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://epg.v1.mk/logo/中国交通.png" group-title="•山东「IPV6」",中国交通
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000073/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="•山东「IPV6」",东南卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000310/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.v1.mk/logo/东方卫视.png" group-title="•山东「IPV6」",东方卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000309/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.v1.mk/logo/云南卫视.png" group-title="•山东「IPV6」",云南卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000367/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="•山东「IPV6」",北京卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000302/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.v1.mk/logo/吉林卫视.png" group-title="•山东「IPV6」",吉林卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000363/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="•山东「IPV6」",四川卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000348/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.v1.mk/logo/天津卫视.png" group-title="•山东「IPV6」",天津卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000327/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.v1.mk/logo/安徽卫视.png" group-title="•山东「IPV6」",安徽卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000328/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.v1.mk/logo/广东卫视.png" group-title="•山东「IPV6」",广东卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000307/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/广西卫视.png" group-title="•山东「IPV6」",广西卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000368/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.v1.mk/logo/江苏卫视.png" group-title="•山东「IPV6」",江苏卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000304/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/江西卫视.png" group-title="•山东「IPV6」",江西卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000335/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.v1.mk/logo/河北卫视.png" group-title="•山东「IPV6」",河北卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000330/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="•山东「IPV6」",河南卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000358/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="•山东「IPV6」",河南卫视 HEVC
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000369/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.v1.mk/logo/浙江卫视.png" group-title="•山东「IPV6」",浙江卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000305/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.v1.mk/logo/海南卫视.png" group-title="•山东「IPV6」",海南卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000347/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="•山东「IPV6」",深圳卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000308/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.v1.mk/logo/湖北卫视.png" group-title="•山东「IPV6」",湖北卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000325/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.v1.mk/logo/湖南卫视.png" group-title="•山东「IPV6」",湖南卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000324/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.v1.mk/logo/甘肃卫视.png" group-title="•山东「IPV6」",甘肃卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000349/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.v1.mk/logo/贵州卫视.png" group-title="•山东「IPV6」",贵州卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000329/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.v1.mk/logo/辽宁卫视.png" group-title="•山东「IPV6」",辽宁卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000326/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.v1.mk/logo/重庆卫视.png" group-title="•山东「IPV6」",重庆卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000341/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.v1.mk/logo/青海卫视.png" group-title="•山东「IPV6」",青海卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000366/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.v1.mk/logo/黑龙江卫视.png" group-title="•山东「IPV6」",黑龙江卫视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000306/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://epg.v1.mk/logo/三沙卫视.png" group-title="•山东「IPV6」",三沙卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000078/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://epg.v1.mk/logo/兵团卫视.png" group-title="•山东「IPV6」",兵团卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000071/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://epg.v1.mk/logo/内蒙古卫视.png" group-title="•山东「IPV6」",内蒙古卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000040/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="厦门卫视1套" tvg-name="厦门卫视1套" tvg-logo="https://epg.v1.mk/logo/厦门卫视1套.png" group-title="•山东「IPV6」",厦门卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000075/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://epg.v1.mk/logo/宁夏卫视.png" group-title="•山东「IPV6」",宁夏卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000043/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://epg.v1.mk/logo/山西卫视.png" group-title="•山东「IPV6」",山西卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000032/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="延边卫视1" tvg-name="延边卫视1" tvg-logo="https://epg.v1.mk/logo/延边卫视1.png" group-title="•山东「IPV6」",延边卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000668/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://epg.v1.mk/logo/新疆卫视.png" group-title="•山东「IPV6」",新疆卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000044/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://epg.v1.mk/logo/西藏卫视.png" group-title="•山东「IPV6」",西藏卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000045/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="农林卫视" tvg-name="农林卫视" tvg-logo="https://epg.v1.mk/logo/农林卫视.png" group-title="•山东「IPV6」",农林卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000072/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://epg.v1.mk/logo/陕西卫视.png" group-title="•山东「IPV6」",陕西卫视 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000029/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="北京哈哈炫动" tvg-name="北京哈哈炫动" tvg-logo="https://epg.v1.mk/logo/北京哈哈炫动.png" group-title="•山东「IPV6」",哈哈炫动 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000050/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="嘉佳卡通(1)" tvg-name="嘉佳卡通(1)" tvg-logo="https://epg.v1.mk/logo/嘉佳卡通(1).png" group-title="•山东「IPV6」",嘉佳卡通 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000074/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="新动漫" tvg-name="新动漫" tvg-logo="https://epg.v1.mk/logo/新动漫.png" group-title="•山东「IPV6」",新动漫 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000659/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="优优宝贝" tvg-name="优优宝贝" tvg-logo="https://epg.v1.mk/logo/优优宝贝.png" group-title="•山东「IPV6」",优优宝贝 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000641/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://epg.v1.mk/logo/优漫卡通.png" group-title="•山东「IPV6」",优漫卡通 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000049/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="金鹰卡通5" tvg-name="金鹰卡通5" tvg-logo="https://epg.v1.mk/logo/金鹰卡通5.png" group-title="•山东「IPV6」",金鹰卡通 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000047/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="先锋乒羽" tvg-name="先锋乒羽" tvg-logo="https://epg.v1.mk/logo/先锋乒羽.png" group-title="•山东「IPV6」",先锋乒羽 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000650/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="中华特产" tvg-name="中华特产" tvg-logo="https://epg.v1.mk/logo/中华特产.png" group-title="•山东「IPV6」",中华特产 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000642/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="书画频道" tvg-name="书画频道" tvg-logo="https://epg.v1.mk/logo/书画频道.png" group-title="•山东「IPV6」",书画频道 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000651/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://epg.v1.mk/logo/四海钓鱼.png" group-title="•山东「IPV6」",四海钓鱼 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000640/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="江苏财富天下" tvg-name="江苏财富天下" tvg-logo="https://epg.v1.mk/logo/江苏财富天下.png" group-title="•山东「IPV6」",财富天下 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000607/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://epg.v1.mk/logo/环球旅游.png" group-title="•山东「IPV6」",环球旅游 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000643/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="车迷频道" tvg-name="车迷频道" tvg-logo="https://epg.v1.mk/logo/车迷频道.png" group-title="•山东「IPV6」",车迷频道 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000645/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="海看演艺" tvg-name="海看演艺" tvg-logo="https://epg.v1.mk/logo/海看演艺.png" group-title="•山东「IPV6」",海看演艺
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000400/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="济南新闻综合" tvg-name="济南新闻综合" tvg-logo="https://epg.v1.mk/logo/济南新闻综合.png" group-title="•山东「IPV6」",济南新闻综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00004000/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",潍坊影视综艺
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000217/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",潍坊新闻综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000215/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",潍坊科教文旅
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000218/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",潍坊经济生活
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000216/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",潍坊高新区
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001106/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",乳山综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001049/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="上海五星体育" tvg-name="上海五星体育" tvg-logo="https://epg.v1.mk/logo/上海五星体育.png" group-title="•山东「IPV6」",五莲新闻综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001068/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",即墨新闻综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001080/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="嘎嘎威" tvg-name="嘎嘎威" tvg-logo="https://epg.v1.mk/logo/嘎嘎威.png" group-title="•山东「IPV6」",威海新闻综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000274/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="嘎嘎威" tvg-name="嘎嘎威" tvg-logo="https://epg.v1.mk/logo/嘎嘎威.png" group-title="•山东「IPV6」",威海公共 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000275/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",奎文综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001027/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="NewTV安徽" tvg-name="NewTV安徽" tvg-logo="https://epg.v1.mk/logo/NewTV安徽.png" group-title="•山东「IPV6」",安丘综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001015/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="仁寿综合" tvg-name="仁寿综合" tvg-logo="https://epg.v1.mk/logo/仁寿综合.png" group-title="•山东「IPV6」",寿光综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001000/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="仁寿综合" tvg-name="仁寿综合" tvg-logo="https://epg.v1.mk/logo/仁寿综合.png" group-title="•山东「IPV6」",寿光蔬菜
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001045/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",岚山综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001044/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",崂山综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001022/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="临平新闻" tvg-name="临平新闻" tvg-logo="https://epg.v1.mk/logo/临平新闻.png" group-title="•山东「IPV6」",平度综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001054/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="德州图文频道" tvg-name="德州图文频道" tvg-logo="https://epg.v1.mk/logo/德州图文频道.png" group-title="•山东「IPV6」",德州公共
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000207/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="BTV文艺" tvg-name="BTV文艺" tvg-logo="https://epg.v1.mk/logo/BTV文艺.png" group-title="•山东「IPV6」",文登综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001017/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="•山东「IPV6」",新泰综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001029/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CBN每日影院" tvg-name="CBN每日影院" tvg-logo="https://epg.v1.mk/logo/CBN每日影院.png" group-title="•山东「IPV6」",日照新闻综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000262/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CBN每日影院" tvg-name="CBN每日影院" tvg-logo="https://epg.v1.mk/logo/CBN每日影院.png" group-title="•山东「IPV6」",日照科技生活 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000263/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="乐昌电视台" tvg-name="乐昌电视台" tvg-logo="https://epg.v1.mk/logo/乐昌电视台.png" group-title="•山东「IPV6」",昌乐综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001033/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",栖霞综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001055/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="IHOT爱军武" tvg-name="IHOT爱军武" tvg-logo="https://epg.v1.mk/logo/IHOT爱军武.png" group-title="•山东「IPV6」",武城新闻综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001059/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="烟台电视台" tvg-name="烟台电视台" tvg-logo="https://epg.v1.mk/logo/烟台电视台.png" group-title="•山东「IPV6」",烟台公共 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000281/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="烟台电视台" tvg-name="烟台电视台" tvg-logo="https://epg.v1.mk/logo/烟台电视台.png" group-title="•山东「IPV6」",烟台影视
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000283/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="烟台电视台" tvg-name="烟台电视台" tvg-logo="https://epg.v1.mk/logo/烟台电视台.png" group-title="•山东「IPV6」",烟台新闻综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000280/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="烟台电视台" tvg-name="烟台电视台" tvg-logo="https://epg.v1.mk/logo/烟台电视台.png" group-title="•山东「IPV6」",烟台经济科技
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000282/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",牟平新闻 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001076/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",牟平生活 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001077/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="万荣" tvg-name="万荣" tvg-logo="https://epg.v1.mk/logo/万荣.png" group-title="•山东「IPV6」",荣成综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001053/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="未知频道" tvg-name="未知频道" tvg-logo="https://epg.v1.mk/logo/未知频道.png" group-title="•山东「IPV6」",莒县综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001014/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="CIBN好莱坞" tvg-name="CIBN好莱坞" tvg-logo="https://epg.v1.mk/logo/CIBN好莱坞.png" group-title="•山东「IPV6」",莱西综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001067/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="诸暨新闻综合" tvg-name="诸暨新闻综合" tvg-logo="https://epg.v1.mk/logo/诸暨新闻综合.png" group-title="•山东「IPV6」",诸城综合 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001004/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青岛1 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000500/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青岛2 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000501/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青岛3 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000502/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青岛4 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000503/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青岛5 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000504/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青岛6 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000505/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青州文化旅游
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001057/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="bestv青春动漫" tvg-name="bestv青春动漫" tvg-logo="https://epg.v1.mk/logo/bestv青春动漫.png" group-title="•山东「IPV6」",青州综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001042/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="LS龙翔时代" tvg-name="LS龙翔时代" tvg-logo="https://epg.v1.mk/logo/LS龙翔时代.png" group-title="•山东「IPV6」",龙口综合
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001005/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="AHZYTY" tvg-name="AHZYTY" tvg-logo="https://epg.v1.mk/logo/AHZYTY.png" group-title="•山东「IPV6」",ZYTV
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001113/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="106時尚運動X" tvg-name="106時尚運動X" tvg-logo="https://epg.v1.mk/logo/106時尚運動X.png" group-title="•山东「IPV6」",1077
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001074/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="1710899543253-CKT-抠图" tvg-name="1710899543253-CKT-抠图" tvg-logo="https://epg.v1.mk/logo/1710899543253-CKT-抠图.png" group-title="•山东「IPV6」",1084
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001083/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="1710899543253-CKT-抠图" tvg-name="1710899543253-CKT-抠图" tvg-logo="https://epg.v1.mk/logo/1710899543253-CKT-抠图.png" group-title="•山东「IPV6」",1086
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001085/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="1710899543253-CKT-抠图" tvg-name="1710899543253-CKT-抠图" tvg-logo="https://epg.v1.mk/logo/1710899543253-CKT-抠图.png" group-title="•山东「IPV6」",1087
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001086/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="1710899543253-CKT-抠图" tvg-name="1710899543253-CKT-抠图" tvg-logo="https://epg.v1.mk/logo/1710899543253-CKT-抠图.png" group-title="•山东「IPV6」",1088
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001087/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="1710899543253-CKT-抠图" tvg-name="1710899543253-CKT-抠图" tvg-logo="https://epg.v1.mk/logo/1710899543253-CKT-抠图.png" group-title="•山东「IPV6」",1089
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001088/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="106時尚運動X" tvg-name="106時尚運動X" tvg-logo="https://epg.v1.mk/logo/106時尚運動X.png" group-title="•山东「IPV6」",1090
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001089/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="106時尚運動X" tvg-name="106時尚運動X" tvg-logo="https://epg.v1.mk/logo/106時尚運動X.png" group-title="•山东「IPV6」",1091
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001090/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="106時尚運動X" tvg-name="106時尚運動X" tvg-logo="https://epg.v1.mk/logo/106時尚運動X.png" group-title="•山东「IPV6」",1092
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001091/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="106時尚運動X" tvg-name="106時尚運動X" tvg-logo="https://epg.v1.mk/logo/106時尚運動X.png" group-title="•山东「IPV6」",1093
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001092/index.m3u8?IASHttpSessionId=
+#EXTINF:-1,tvg-id="20240102075110855TEMPIMAGE" tvg-name="20240102075110855TEMPIMAGE" tvg-logo="https://epg.v1.mk/logo/20240102075110855TEMPIMAGE.png" group-title="•山东「IPV6」",1101 576
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00001100/index.m3u8?IASHttpSessionId=
+
+
+
+
+
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•海南「IPV6」",CCTV1 综合「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010144/1.m3u8
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•湖南「IPV6」",CCTV2 财经「IPV6」
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•海南「IPV6」",CCTV2 财经「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/1.m3u8
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.iill.top/logo/CCTV3.png" group-title="•湖南「IPV6」",CCTV3 综艺「IPV6」
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.iill.top/logo/CCTV3.png" group-title="•海南「IPV6」",CCTV3 综艺「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/1.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.iill.top/logo/CCTV4.png" group-title="•湖南「IPV6」",CCTV4 中文国际「IPV6」
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.iill.top/logo/CCTV4.png" group-title="•海南「IPV6」",CCTV4 中文国际「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010017/1.m3u8
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.iill.top/logo/CCTV5.png" group-title="•湖南「IPV6」",CCTV5 体育「IPV6」
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.iill.top/logo/CCTV5.png" group-title="•海南「IPV6」",CCTV5 体育「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010145/1.m3u8
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.iill.top/logo/CCTV5+.png" group-title="•湖南「IPV6」",CCTV5+ 体育赛事「IPV6」
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.iill.top/logo/CCTV5+.png" group-title="•海南「IPV6」",CCTV5+ 体育赛事「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/1.m3u8
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.iill.top/logo/CCTV6.png" group-title="•湖南「IPV6」",CCTV6 电影「IPV6」
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.iill.top/logo/CCTV6.png" group-title="•海南「IPV6」",CCTV6 电影「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/1.m3u8
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.iill.top/logo/CCTV7.png" group-title="•湖南「IPV6」",CCTV7 国防军事「IPV6」
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.iill.top/logo/CCTV7.png" group-title="•海南「IPV6」",CCTV7 国防军事「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010215/1.m3u8
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.iill.top/logo/CCTV8.png" group-title="•湖南「IPV6」",CCTV8 电视剧「IPV6」
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.iill.top/logo/CCTV8.png" group-title="•海南「IPV6」",CCTV8 电视剧「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/1.m3u8
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.iill.top/logo/CCTV9.png" group-title="•湖南「IPV6」",CCTV9 纪录「IPV6」
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.iill.top/logo/CCTV9.png" group-title="•海南「IPV6」",CCTV9 纪录「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010217/1.m3u8
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.iill.top/logo/CCTV10.png" group-title="•湖南「IPV6」",CCTV 10 科教「IPV6」
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.iill.top/logo/CCTV10.png" group-title="•海南「IPV6」",CCTV 10 科教「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010203/1.m3u8
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.iill.top/logo/CCTV11.png" group-title="•湖南「IPV6」",CCTV 11 戏曲「IPV6」
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.iill.top/logo/CCTV11.png" group-title="•海南「IPV6」",CCTV 11 戏曲「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010092/1.m3u8
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.iill.top/logo/CCTV12.png" group-title="•湖南「IPV6」",CCTV 12 社会与法「IPV6」
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.iill.top/logo/CCTV12.png" group-title="•海南「IPV6」",CCTV 12 社会与法「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010205/1.m3u8
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.iill.top/logo/CCTV13.png" group-title="•湖南「IPV6」",CCTV 13 新闻「IPV6」
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.iill.top/logo/CCTV13.png" group-title="•海南「IPV6」",CCTV 13 新闻「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010093/1.m3u8
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.iill.top/logo/CCTV14.png" group-title="•湖南「IPV6」",CCTV 14 少儿「IPV6」
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.iill.top/logo/CCTV14.png" group-title="•海南「IPV6」",CCTV 14 少儿「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010207/1.m3u8
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.iill.top/logo/CCTV15.png" group-title="•湖南「IPV6」",CCTV 15 音乐「IPV6」
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.iill.top/logo/CCTV15.png" group-title="•海南「IPV6」",CCTV 15 音乐「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.iill.top/logo/CCTV16.png" group-title="•湖南「IPV6」",CCTV 16 奥林匹克「IPV6」
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.iill.top/logo/CCTV16.png" group-title="•海南「IPV6」",CCTV 16 奥林匹克「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.iill.top/logo/CCTV17.png" group-title="•湖南「IPV6」",CCTV 17 农村农业「IPV6」
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.iill.top/logo/CCTV17.png" group-title="•海南「IPV6」",CCTV 17 农村农业「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/1.m3u8
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.iill.top/logo/湖南卫视.png" group-title="•湖南「IPV6」",湖南卫视「IPV6」
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.iill.top/logo/湖南卫视.png" group-title="•海南「IPV6」",湖南卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010224/1.m3u8
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.iill.top/logo/浙江卫视.png" group-title="•湖南「IPV6」",浙江卫视「IPV6」
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.iill.top/logo/浙江卫视.png" group-title="•海南「IPV6」",浙江卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/1.m3u8
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.iill.top/logo/江苏卫视.png" group-title="•湖南「IPV6」",江苏卫视「IPV6」
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.iill.top/logo/江苏卫视.png" group-title="•海南「IPV6」",江苏卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010225/1.m3u8
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.iill.top/logo/东方卫视.png" group-title="•湖南「IPV6」",东方卫视「IPV6」
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.iill.top/logo/东方卫视.png" group-title="•海南「IPV6」",东方卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010219/1.m3u8
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.iill.top/logo/北京卫视.png" group-title="•湖南「IPV6」",北京卫视「IPV6」
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.iill.top/logo/北京卫视.png" group-title="•海南「IPV6」",北京卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.iill.top/logo/广东卫视.png" group-title="•湖南「IPV6」",广东卫视「IPV6」
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.iill.top/logo/广东卫视.png" group-title="•海南「IPV6」",广东卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010221/1.m3u8
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.iill.top/logo/重庆卫视.png" group-title="•湖南「IPV6」",重庆卫视「IPV6」
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.iill.top/logo/重庆卫视.png" group-title="•海南「IPV6」",重庆卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010218/1.m3u8
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.iill.top/logo/深圳卫视.png" group-title="•湖南「IPV6」",深圳卫视「IPV6」
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.iill.top/logo/深圳卫视.png" group-title="•海南「IPV6」",深圳卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/1.m3u8
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.iill.top/logo/四川卫视.png" group-title="•湖南「IPV6」",四川卫视「IPV6」
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.iill.top/logo/四川卫视.png" group-title="•海南「IPV6」",四川卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010115/1.m3u8
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.iill.top/logo/广西卫视.png" group-title="•湖南「IPV6」",广西卫视「IPV6」
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.iill.top/logo/广西卫视.png" group-title="•海南「IPV6」",广西卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/1.m3u8
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.iill.top/logo/天津卫视.png" group-title="•湖南「IPV6」",天津卫视「IPV6」
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.iill.top/logo/天津卫视.png" group-title="•海南「IPV6」",天津卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010069/1.m3u8
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.iill.top/logo/安徽卫视.png" group-title="•湖南「IPV6」",安徽卫视「IPV6」
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.iill.top/logo/安徽卫视.png" group-title="•海南「IPV6」",安徽卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010041/1.m3u8
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.iill.top/logo/山东卫视.png" group-title="•湖南「IPV6」",山东卫视「IPV6」
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.iill.top/logo/山东卫视.png" group-title="•海南「IPV6」",山东卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010066/1.m3u8
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.iill.top/logo/江西卫视.png" group-title="•湖南「IPV6」",江西卫视「IPV6」
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.iill.top/logo/江西卫视.png" group-title="•海南「IPV6」",江西卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.iill.top/logo/河北卫视.png" group-title="•湖南「IPV6」",河北卫视「IPV6」
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.iill.top/logo/河北卫视.png" group-title="•海南「IPV6」",河北卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010101/1.m3u8
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.iill.top/logo/东南卫视.png" group-title="•湖南「IPV6」",东南卫视「IPV6」
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.iill.top/logo/东南卫视.png" group-title="•海南「IPV6」",东南卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/1.m3u8
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.iill.top/logo/湖北卫视.png" group-title="•湖南「IPV6」",湖北卫视「IPV6」
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.iill.top/logo/湖北卫视.png" group-title="•海南「IPV6」",湖北卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010223/1.m3u8
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.iill.top/logo/贵州卫视.png" group-title="•湖南「IPV6」",贵州卫视「IPV6」
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.iill.top/logo/贵州卫视.png" group-title="•海南「IPV6」",贵州卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/1.m3u8
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.iill.top/logo/辽宁卫视.png" group-title="•湖南「IPV6」",辽宁卫视「IPV6
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.iill.top/logo/辽宁卫视.png" group-title="•海南「IPV6」",辽宁卫视「IPV6
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010061/1.m3u8
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.iill.top/logo/黑龙江卫视.png" group-title="•湖南「IPV6」",黑龙江卫视「IPV6」
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.iill.top/logo/黑龙江卫视.png" group-title="•海南「IPV6」",黑龙江卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010222/1.m3u8
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.iill.top/logo/云南卫视.png" group-title="•湖南「IPV6」",云南卫视「IPV6」
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.iill.top/logo/云南卫视.png" group-title="•海南「IPV6」",云南卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.iill.top/logo/甘肃卫视.png" group-title="•湖南「IPV6」",甘肃卫视「IPV6」
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.iill.top/logo/甘肃卫视.png" group-title="•海南「IPV6」",甘肃卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.iill.top/logo/青海卫视.png" group-title="•湖南「IPV6」",青海卫视「IPV6」
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://epg.iill.top/logo/青海卫视.png" group-title="•海南「IPV6」",青海卫视「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
-#EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://epg.iill.top/logo/NewTV哒啵赛事.png" group-title="•湖南「IPV6」",NewTV 哒啵赛事「IPV6」
+#EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://epg.iill.top/logo/NewTV哒啵赛事.png" group-title="•海南「IPV6」",NewTV 哒啵赛事「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010120/1.m3u8
-#EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://epg.iill.top/logo/NewTV黑莓动画.png" group-title="•湖南「IPV6」",NewTV 黑莓动画「IPV6」
+#EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://epg.iill.top/logo/NewTV黑莓动画.png" group-title="•海南「IPV6」",NewTV 黑莓动画「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010002/1.m3u8
-#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://epg.iill.top/logo/NewTV黑莓电影.png" group-title="•湖南「IPV6」",NewTV 黑莓电影「IPV6」
+#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://epg.iill.top/logo/NewTV黑莓电影.png" group-title="•海南「IPV6」",NewTV 黑莓电影「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010073/1.m3u8
-#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://epg.iill.top/logo/NewTV超级电影.png" group-title="•湖南「IPV6」",NewTV 超级电影「IPV6」
+#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://epg.iill.top/logo/NewTV超级电影.png" group-title="•海南「IPV6」",NewTV 超级电影「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010064/1.m3u8
-#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://epg.iill.top/logo/NewTV超级电视剧.png" group-title="•湖南「IPV6」",NewTV 超级电视剧「IPV6」
+#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://epg.iill.top/logo/NewTV超级电视剧.png" group-title="•海南「IPV6」",NewTV 超级电视剧「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010065/1.m3u8
-#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://epg.iill.top/logo/NewTV超级综艺.png" group-title="•湖南「IPV6」",NewTV 超级综艺「IPV6」
+#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://epg.iill.top/logo/NewTV超级综艺.png" group-title="•海南「IPV6」",NewTV 超级综艺「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010062/1.m3u8
-#EXTINF:-1 tvg-id="金牌综艺" tvg-name="金牌综艺" tvg-logo="https://epg.iill.top/logo/NewTV金牌综艺.png" group-title="•湖南「IPV6」",NewTV 金牌综艺「IPV6」
+#EXTINF:-1 tvg-id="金牌综艺" tvg-name="金牌综艺" tvg-logo="https://epg.iill.top/logo/NewTV金牌综艺.png" group-title="•海南「IPV6」",NewTV 金牌综艺「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010086/1.m3u8
-#EXTINF:-1 tvg-id="东北热剧" tvg-name="东北热剧" tvg-logo="https://epg.iill.top/logo/NewTV东北热剧.png" group-title="•湖南「IPV6」",NewTV 东北热剧「IPV6」
+#EXTINF:-1 tvg-id="东北热剧" tvg-name="东北热剧" tvg-logo="https://epg.iill.top/logo/NewTV东北热剧.png" group-title="•海南「IPV6」",NewTV 东北热剧「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010021/1.m3u8
-#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://epg.iill.top/logo/NewTV古装剧场.png" group-title="•湖南「IPV6」",NewTV 古装剧场「IPV6」
+#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://epg.iill.top/logo/NewTV古装剧场.png" group-title="•海南「IPV6」",NewTV 古装剧场「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010004/1.m3u8
-#EXTINF:-1 tvg-id="欢乐剧场" tvg-name="欢乐剧场" tvg-logo="https://epg.iill.top/logo/NewTV欢乐剧场.png" group-title="•湖南「IPV6」",NewTV 欢乐剧场「IPV6」
+#EXTINF:-1 tvg-id="欢乐剧场" tvg-name="欢乐剧场" tvg-logo="https://epg.iill.top/logo/NewTV欢乐剧场.png" group-title="•海南「IPV6」",NewTV 欢乐剧场「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010025/1.m3u8
-#EXTINF:-1 tvg-id="怡伴健康" tvg-name="怡伴健康" tvg-logo="https://epg.iill.top/logo/NewTV怡伴健康.png" group-title="•湖南「IPV6」",NewTV 怡伴健康「IPV6」
+#EXTINF:-1 tvg-id="怡伴健康" tvg-name="怡伴健康" tvg-logo="https://epg.iill.top/logo/NewTV怡伴健康.png" group-title="•海南「IPV6」",NewTV 怡伴健康「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010082/1.m3u8
-#EXTINF:-1 tvg-id="潮妈辣婆" tvg-name="潮妈辣婆" tvg-logo="https://epg.iill.top/logo/NewTV潮妈辣婆.png" group-title="•湖南「IPV6」",NewTV 潮妈辣婆「IPV6」
+#EXTINF:-1 tvg-id="潮妈辣婆" tvg-name="潮妈辣婆" tvg-logo="https://epg.iill.top/logo/NewTV潮妈辣婆.png" group-title="•海南「IPV6」",NewTV 潮妈辣婆「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010005/1.m3u8
-#EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="https://epg.iill.top/logo/NewTV军旅剧场.png" group-title="•湖南「IPV6」",NewTV 军旅剧场「IPV6」
+#EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="https://epg.iill.top/logo/NewTV军旅剧场.png" group-title="•海南「IPV6」",NewTV 军旅剧场「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010079/1.m3u8
-#EXTINF:-1 tvg-id="军事评论" tvg-name="军事评论" tvg-logo="https://epg.iill.top/logo/NewTV军事评论.png" group-title="•湖南「IPV6」",NewTV 军事评论「IPV6」
+#EXTINF:-1 tvg-id="军事评论" tvg-name="军事评论" tvg-logo="https://epg.iill.top/logo/NewTV军事评论.png" group-title="•海南「IPV6」",NewTV 军事评论「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010080/1.m3u8
-#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://epg.iill.top/logo/NewTV中国功夫.png" group-title="•湖南「IPV6」",NewTV 中国功夫「IPV6」
+#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://epg.iill.top/logo/NewTV中国功夫.png" group-title="•海南「IPV6」",NewTV 中国功夫「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010087/1.m3u8
-#EXTINF:-1 tvg-id="农业致富" tvg-name="农业致富" tvg-logo="https://epg.iill.top/logo/NewTV农业致富.png" group-title="•湖南「IPV6」",NewTV 农业致富「IPV6」
+#EXTINF:-1 tvg-id="农业致富" tvg-name="农业致富" tvg-logo="https://epg.iill.top/logo/NewTV农业致富.png" group-title="•海南「IPV6」",NewTV 农业致富「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010085/1.m3u8
-#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://epg.iill.top/logo/NewTV动作电影.png" group-title="•湖南「IPV6」",NewTV 动作电影「IPV6」
+#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://epg.iill.top/logo/NewTV动作电影.png" group-title="•海南「IPV6」",NewTV 动作电影「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010003/1.m3u8
-#EXTINF:-1 tvg-id="家庭剧场" tvg-name="家庭剧场" tvg-logo="https://epg.iill.top/logo/NewTV家庭剧场.png" group-title="•湖南「IPV6」",NewTV 家庭剧场「IPV6」
+#EXTINF:-1 tvg-id="家庭剧场" tvg-name="家庭剧场" tvg-logo="https://epg.iill.top/logo/NewTV家庭剧场.png" group-title="•海南「IPV6」",NewTV 家庭剧场「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010074/1.m3u8
-#EXTINF:-1 tvg-id="惊悚悬疑" tvg-name="惊悚悬疑" tvg-logo="https://epg.iill.top/logo/NewTV惊悚悬疑.png" group-title="•湖南「IPV6」",NewTV 惊悚悬疑「IPV6」
+#EXTINF:-1 tvg-id="惊悚悬疑" tvg-name="惊悚悬疑" tvg-logo="https://epg.iill.top/logo/NewTV惊悚悬疑.png" group-title="•海南「IPV6」",NewTV 惊悚悬疑「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010077/1.m3u8
-#EXTINF:-1 tvg-id="精品萌宠" tvg-name="精品萌宠" tvg-logo="https://epg.iill.top/logo/NewTV精品萌宠.png" group-title="•湖南「IPV6」",NewTV 精品萌宠「IPV6」
+#EXTINF:-1 tvg-id="精品萌宠" tvg-name="精品萌宠" tvg-logo="https://epg.iill.top/logo/NewTV精品萌宠.png" group-title="•海南「IPV6」",NewTV 精品萌宠「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010146/1.m3u8
-#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://epg.iill.top/logo/NewTV精品体育.png" group-title="•湖南「IPV6」",NewTV 精品体育「IPV6」
+#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://epg.iill.top/logo/NewTV精品体育.png" group-title="•海南「IPV6」",NewTV 精品体育「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010078/1.m3u8
-#EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://epg.iill.top/logo/NewTV精品大剧.png" group-title="•湖南「IPV6」",NewTV 精品大剧「IPV6」
+#EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://epg.iill.top/logo/NewTV精品大剧.png" group-title="•海南「IPV6」",NewTV 精品大剧「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010072/1.m3u8
-#EXTINF:-1 tvg-id="精品记录" tvg-name="精品记录" tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" group-title="•湖南「IPV6」",NewTV 精品记录「IPV6」
+#EXTINF:-1 tvg-id="精品记录" tvg-name="精品记录" tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" group-title="•海南「IPV6」",NewTV 精品记录「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010076/1.m3u8
 
 
@@ -1536,6 +1910,169 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="•甘肃「IPV6」",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:1 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/28ai" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 28 AI 智慧賽馬
+http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
+
+#EXTINF:2 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/channel5hd" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", Channel 5 HD
+http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
+
+#EXTINF:3 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/channel8hd" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", Channel 8 HD
+http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
+
+#EXTINF:4 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", Channel U HD
+http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
+
+#EXTINF:5 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/mytvsuper18" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", myTV SUPER 18台
+http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
+
+#EXTINF:6 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/popc" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", PopC
+http://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
+
+#EXTINF:7 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/rockaction" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", ROCK Action
+http://aktv.top/AKTV/live/aktv/rockaction/AKTV.m3u8
+
+#EXTINF:8 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/tvbplus" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", TVB Plus
+http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+
+#EXTINF:9 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/tvbs" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", TVBS
+http://aktv.top/AKTV/live/aktv/tvbs/AKTV.m3u8
+
+#EXTINF:10 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/tvbs-1" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", TVBS-新聞台
+http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
+
+#EXTINF:11 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/tvn" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", tvN
+http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
+
+#EXTINF:12 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-12" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 中天亞洲台
+http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
+
+#EXTINF:13 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-8" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 中天新聞台
+http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
+
+#EXTINF:14 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-10" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 中視
+http://aktv.top/AKTV/live/aktv/null-10/AKTV.m3u8
+
+#EXTINF:15 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-15" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 千禧經典台
+http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
+
+#EXTINF:16 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/hk" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 娛樂新聞台(HK)
+http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
+
+#EXTINF:17 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-9" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 寰宇新聞台
+http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
+
+#EXTINF:18 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-13" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 日本全天新聞
+http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
+
+#EXTINF:19 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-19" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 明珠剧集台(北美)
+http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
+
+#EXTINF:20 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-2" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 明珠台
+http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
+
+#EXTINF:21 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-1" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 無線新聞台
+http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+
+#EXTINF:22 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/hk-1" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 美亞電影台(HK)
+http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+
+#EXTINF:23 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-18" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 翡翠剧集台(北美)
+http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
+
+#EXTINF:24 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 翡翠台
+http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
+
+#EXTINF:25 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-17" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 翡翠综合台(北美)
+http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
+
+#EXTINF:26 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-11" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 華視
+http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
+
+#EXTINF:27 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-6" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 靖天電影台
+http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
+
+#EXTINF:28 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-3" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 鳳凰中文
+http://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8
+
+#EXTINF:29 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-4" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 鳳凰資訊
+http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8
+
+#EXTINF:30 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-5" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 鳳凰香港
+http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
+
+#EXTINF:31 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-21" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 黃金翡翠台
+http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
+
+#EXTINF:32 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-22" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 龍華日韓台
+http://aktv.top/AKTV/live/aktv/null-22/AKTV.m3u8
+
+#EXTINF:33 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-7" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 龍華經典台
+http://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
+
+#EXTINF:34 group-title="AKTV" aktv-server-group="AKTV" tvg-id="aktv/null-23" tvg-logo="" provider="AKTV" provider-logo="" provider-type="AKTV", 龍華電影台
+http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
+
+#EXTINF:35 group-title="AKTV" aktv-server-group="AKTV2" tvg-id="aktv2/viutv99" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="AKTV", viutv 99
+http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
+
+#EXTINF:36 group-title="AKTV" aktv-server-group="AKTV2" tvg-id="aktv2/viutv696" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="AKTV", viutv6 96
+http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
+
+#EXTINF:37 group-title="AKTV" aktv-server-group="AKTV2" tvg-id="aktv2/null-1" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="AKTV", 无线新闻台(北美)	
+http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
+
+#EXTINF:38 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/animaxhk" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", Animax-HK
+http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
+
+#EXTINF:39 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/c" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", C+台
+http://aktv.top/AKTV/live/aktv3/c/AKTV.m3u8
+
+#EXTINF:40 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/dw" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", DW
+http://aktv.top/AKTV/live/aktv3/dw/AKTV.m3u8
+
+#EXTINF:41 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/france24" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", France 24
+http://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
+
+#EXTINF:42 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/kix" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", KIX
+http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
+
+#EXTINF:43 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/lovenaturehd" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", Love Nature HD
+http://aktv.top/AKTV/live/aktv3/lovenaturehd/AKTV.m3u8
+
+#EXTINF:44 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nhkworldjapan" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", NHK World-Japan
+http://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
+
+#EXTINF:45 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nickjr" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", Nick Jr
+http://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
+
+#EXTINF:46 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nickelodeon" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", Nickelodeon
+http://aktv.top/AKTV/live/aktv3/nickelodeon/AKTV.m3u8
+
+#EXTINF:47 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/rockaction" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", ROCK Action
+http://aktv.top/AKTV/live/aktv3/rockaction/AKTV.m3u8
+
+#EXTINF:48 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/thrill" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", Thrill
+http://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
+
+#EXTINF:49 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/zoomoo" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", ZooMoo
+http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
+
+#EXTINF:50 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-3" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", 亞洲新聞台
+http://aktv.top/AKTV/live/aktv3/null-3/AKTV.m3u8
+
+#EXTINF:51 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", 東方衛視國際頻道
+http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
+
+#EXTINF:52 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-2" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="AKTV", 無線衛星新聞台
+http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 
 
 
