@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:11/21❤",
+            "name": "📢o公告❤更新:11/24❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -143,15 +143,6 @@
             "filterable": 1
         },
         {
-            "key": "比特影视",
-            "name": "💡比特｜影视",
-            "type": 3,
-            "api": "csp_Bttwo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "瓜子影视1",
             "name": "💡瓜子｜影视",
             "type": 3,
@@ -260,6 +251,15 @@
             "filterable": 0
         },
         {
+            "key": "忍者影视",
+            "name": "💡忍者｜影视",
+            "type": 3,
+            "api": "csp_AppRZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_XYQHiker_农民影视",
             "name": "🧿农民｜影视",
             "type": 3,
@@ -332,25 +332,6 @@
             }
         },
         {
-            "key": "一个G",
-            "name": "🧿逸哥┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "影片年代": "<divclass=\"module-info-tag\">&&</div>",
-                "影片状态": "备注：&&</div>",
-                "影片类型": "module-info-tag\">&&立即播放",
-                "简介": "请勿相信影片中的广告，以免上当受骗。+style=\"line-height:20px;\"&&</div>",
-                "线路数组": "data-dropdown-value=&&</div>",
-                "线路标题": "<span>&&</span>",
-                "分类url": "https://yigeg.pro/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
-            }
-        },
-        {
             "key": "656",
             "name": "🧿梦想┃影视",
             "type": 3,
@@ -417,6 +398,15 @@
                 "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
             }
+        },
+        {
+            "key": "克隆合集",
+            "name": "🧿克隆｜合集",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/klhj.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
         },
         {
             "key": "糯米弹幕",

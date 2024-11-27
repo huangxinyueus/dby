@@ -76,32 +76,24 @@
                 "token": "./txt/token.txt",
                 "cookie": "./txt/quark.txt",
                 "uc_cookie": "./txt/uc.txt",
-                "site": "http://www.muoupan.top",
+                "site": "http://mogg.小胡.top",
                 "danmu": true
             }
         },
         {
-            "key": "醉挽清风",
-            "name": "🌀醉挽清风┃4K弹幕",
+            "key": "风中知秋",
+            "name": "🌀风中知秋┃4K纯净",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "csp_AppYsV3",
+            "jar": "./jars/风中知秋.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/qingfeng.js"
-        },
-        {
-            "key": "小满万全",
-            "name": "🌀小满万全┃4K纯净",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/mgtv.js"
+            "ext": {
+                "cmsApis": "UP4wckC350BpK3+jAtNI2bALiFmoKuT3saBr3tEJwib2fyd/xcLxfgaGGQQtWFUy",
+                "jxApi": "teViWfrkLeUW9XHAVTi63BPgORqZDJWqTHcpNex30AUNpjwQbj2x+zPZhEgVFKdu",
+                "prefix": "Vjg339EykTqCGOzkWu38CGyBHHEtp7snRpwV7kGvMmk="
+            }
         },
         {
             "key": "夸克蜡笔弹幕",
@@ -891,6 +883,19 @@
             }
         },
         {
+            "key": "UCsousou",
+            "name": "🌈优汐搜搜┃4K纯净",
+            "type": 3,
+            "api": "csp_UuSs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
             "key": "米搜",
             "name": "🦋米盘搜搜┃4K纯净",
             "type": 3,
@@ -1320,7 +1325,7 @@
         {
             "name": "zhuimi-super",
             "type": 1,
-            "url": "http://110.40.61.139:4655/zhuimi666.php?url=",
+            "url": "",
             "ext": {
                 "flag": [
                     "qq",
