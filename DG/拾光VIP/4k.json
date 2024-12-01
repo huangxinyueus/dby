@@ -1,51 +1,45 @@
 ﻿{
-    "spider": "./jar/pg.jar",
-    "sites": [
-        {
-            "key": "JS",
-            "name": "甄嬛｜4K影院",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/4KAV.js"
-        },
-        {
-            "key": "07104K-剧院",
-            "name": "紫薇｜4K影院",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/4K剧院.js"
-        },
+    "spider": "./jar/xmbjm.jar",
+"logo": "https://4708.kstore.space/logo.gif",
+
+"lives": [
  {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "🌞腾腾┃4K",
+      "name": "IPV",
+      "type": 0,
+      "url": "https://4708.kstore.space/zhibo/tv.txt",
+      "playerType": 1
+    }],
+    "sites": [
+ {
+      "key": "豆瓣",
+      "name": "豆瓣热播请关注公众号：拾光趣乐屋",
       "type": 3,
-      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/ttt.js"
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1
     },
-    {
-      "key": "guoguo",
-      "name": "🌞果果┃4K",
+    
+{
+      "key": "直播影视",
+      "name": "直播间",
       "type": 3,
-      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
+      "api": "./jar/sdtv.js",
+      "ext": "./jar/feimaolive.json",
+      "jar": "./jar/sdtv.jar"
+    },
+    
+    {
+      "key": "配置中心",
+      "name": "网盘‍配置",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
       "changeable": 0,
-      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.43
+      }
     },
 {
             "key": "玩偶",
@@ -63,34 +57,186 @@
                 "danMu": "弹"
             }
         },
+{
+      "key": "木偶网盘",
+      "name": "木偶┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "http://www.mogg.top",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "夸克多多弹幕",
+      "name": "多多┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://tv.yydsys.top",
+        "danmu": true
+      }
+    },
+
+    
+    
+    {
+      "key": "至臻网盘",
+      "name": "至臻┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://mihdr.top",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "欧歌网盘",
+      "name": "欧歌┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://woog.nxog.eu.org/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "蜡笔网盘",
+      "name": "蜡笔┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "http://labipan.com/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    {
+      "key": "立播网盘",
+      "name": "立播┃4K弹幕",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://libvio.link",
+        "danmu": true
+      },
+      "timeout": 30
+    },
+    {
+      "key": "土豆网盘",
+      "name": "土豆┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://dcyun.cc/",
+        "danmu": true
+      },
+      "timeout": 25
+    },
+    
+
+ 
+{
+      "key": "立播盘",
+      "name": "立播┃4K弹幕",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/tvbox/uc.txt",
+        "site": "https://www.libvio.fun/",
+        "danmu": true
+      },
+      "timeout": 30
+    },
+{
+      "key": "csp_饭团",
+      "name": "🍙饭团┃1080P",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_FanTuan",
+      "playerType": 2,
+      "filterable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "ext": "https://fantuan.vip/"
+    },
  {
       "key": "天天",
       "name": "☁️天天┃1080P",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 1,
+      "playerType": 2,
       "ext": "baHR0cDovL29wLnlzZHFqcy5jbg==",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729754716332/qj.jar;md5;1c2663a32f99e9e488cb4777ba1ea73f"
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732107398295/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"
     },
     {
       "key": "🌟客星",
       "name": "🌟客星┃1080P",
       "type": 3,
       "api": "csp_Xdai",
-      "playerType": 1,
-      "ext": "caHR0cDovLzE1NC4zNy4yMjAuMTc6NjYyMnw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM=",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729754716332/qj.jar;md5;1c2663a32f99e9e488cb4777ba1ea73f"
+      "playerType": 2,
+      "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732107398295/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"
     },
-    {
+{
       "key": "繁荣",
       "name": "🥝凡人┃1080P",
       "type": 3,
       "api": "csp_Frong",
-      "playerType": 1,
-      "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTV8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729754716332/qj.jar;md5;1c2663a32f99e9e488cb4777ba1ea73f"
+      "playerType": 2,
+      "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjgxMzN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
+      "jar": "./lib/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"
     },
-
             {
             "key": "0728yt",
             "name": "影探｜4K影院",

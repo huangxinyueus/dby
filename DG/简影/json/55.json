@@ -4,19 +4,18 @@
 
 	"站名": "55影视",
 
-	"主页url": "https://www.55kan.com/",
-
+	"主页url": "https://www.wuwuys.com/,
+	"搜索url":"/search/-------------.html?wd={wd}",
+    "搜索数组": "<li class=\"active*clearfix\"&&</li",
+    "搜索图片": "original=\"&&\"",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": "pic-text text-right\"&&</span>",
+    "搜索链接": "href=\"&&\"",
 	"简介": "+<p class=\"col-pd\"&&</p>",
-
 	"导演": "导演：&&</p>",
-
 	"主演": "主演：&&</p>",
-
 	"线路数组": "<h3 class=\"title\">&&/h3>",
-
 	"线路标题": "💢简影👉+>&&<",
-
-	"分类url": "https://www.55kan.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html;;ak",
-
+	"分类url": "/show/{cateId}-{area}-{by}------{catePg}---{year}.html;;ak",
 	"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
 }

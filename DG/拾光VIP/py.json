@@ -1,9 +1,18 @@
 ﻿{
     "spider": "./jar/py.jar",
+"logo": "https://4708.kstore.space/logo.gif",
+
+"lives": [
+ {
+      "name": "IPV",
+      "type": 0,
+      "url": "https://4708.kstore.space/zhibo/tv.txt",
+      "playerType": 1
+    }],
     "sites": [
         {
             "key": "B站影视",
-            "name": "B站影视(py)",
+            "name": "B站影视┃PY",
             "type": 3,
             "api": "./py/py_1712024bilibilimd.py",
             "searchable": 1,
@@ -14,7 +23,7 @@
         },
         {
             "key": "动漫",
-            "name": "动漫(py)",
+            "name": "动漫┃PY",
             "type": 3,
             "api": "./py/py_动漫.py",
             "searchable": 1,
@@ -24,7 +33,7 @@
         },
         {
             "key": "央视库",
-            "name": "央视库(py)",
+            "name": "央视库┃PY",
             "type": 3,
             "searchable": 1,
             "playerType": 2,
@@ -34,7 +43,7 @@
         },
         {
             "key": "T4直播转点播",
-            "name": "教育库(py)",
+            "name": "教育库┃PY",
             "type": 4,
             "api": "http://120.53.102.254/dsp16",
             "searchable": 1,
@@ -43,7 +52,7 @@
         },
         {
             "key": "央视",
-            "name": "央视(py)",
+            "name": "央视┃PY",
             "type": 3,
             "api": "./py/py_1712024cntv.py",
             "searchable": 1,
@@ -54,7 +63,7 @@
         },
         {
             "key": "本地新然景",
-            "name": "然景(py)",
+            "name": "然景┃PY",
             "type": 3,
             "api": "./py/py_央视然景.py",
             "searchable": 1,
@@ -65,7 +74,7 @@
         },
         {
             "key": "两个BT",
-            "name": "两个BT(py)",
+            "name": "两个BT┃PY",
             "type": 3,
             "api": "./py/py_两个BT.py",
             "searchable": 1,
@@ -75,7 +84,7 @@
         },
         {
             "key": "py_live",
-            "name": "py_live(py)",
+            "name": "Live┃PY",
             "type": 3,
             "api": "./py/py_live_new.py",
             "searchable": 1,
@@ -85,7 +94,7 @@
         },
         {
             "key": "哔哩1",
-            "name": "哔哩1(py)",
+            "name": "哔哩①┃PY",
             "type": 3,
             "api": "./py/py_2772024bilibilivd.py",
             "searchable": 1,
@@ -98,7 +107,7 @@
         },
         {
             "key": "哔哩2",
-            "name": "哔哩2(py)",
+            "name": "哔哩②┃PY",
             "type": 3,
             "api": "./py/py_1712024bilibilivd.py",
             "searchable": 1,
@@ -109,9 +118,69 @@
                 "json": "./json/1712024bilibili.json"
             }
         },
+{
+            "key": "py猎手",
+            "name": "猎手┃PY",
+            "type": 3,
+            "api": "./py/py_电影猎手.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        
+                {
+            "key": "py_幕启py",
+            "name": "幕启┃PY",
+            "type": 3,
+            "api": "./py/py_幕启.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+             {
+            "key": "py_bilibili",
+            "name": "哔哩┃PY",
+            "type": 3,
+            "api": "./py/py_bilibili.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+                {
+            "key": "py_hitv",
+            "name": "Hitv┃PY",
+            "type": 3,
+            "api": "./py/py_hitv.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+                
+                
+
+                {
+            "key": "py_可可",
+            "name": "可可┃PY",
+            "type": 3,
+            "api": "./py/py_可可.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+                
+                
+                {
+            "key": "py_五五短剧",
+            "name": "五五短剧┃PY",
+            "type": 3,
+            "api": "./py/五五短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
         {
             "key": "黑料18+",
-            "name": "黑料18+(py)",
+            "name": "黑料18┃PY",
             "type": 3,
             "api": "./py/py_黑料.py",
             "searchable": 1,

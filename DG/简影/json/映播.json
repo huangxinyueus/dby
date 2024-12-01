@@ -1,5 +1,6 @@
 {
 		"主页url": "https://www.ingbo.tv/",
+		"搜索url":"https://www.ingbo.tv/search/index.html?keyword={wd}",
 		"数组": "<div class=\"public-list-div public-list-bj&&</div",
 		"标题": "alt=\"&&\"",
 		"副标题": "public-list-prb hide ft2\"&&</span",

@@ -1,10 +1,10 @@
 ﻿ {
 				"主页url": "https://lkvod.me",
-				"数组": "<div class=\"public-list-box public-pic-b&&<div>",
+			"数组": "<div class=\"public-list-box public-pic-b [swiper]&&</div></div></div>",
 				"图片": "data-src=\"&&\"",
 				"标题": "title=\"&&\"",
 				"链接": "href=\"&&\"",
-				"副标题": "class=\"public-list-subtitle cor5 hide ft2\">&&</div></div>",
+				"副标题": "public-list-subtitle cor5 hide ft2\">&&",
 				"简介": "<div id=\"height_limit\" class=\"text cor3\">&&</div>",
 				"线路数组": "<i class=\"fa ds-dianying\"&&</a>",
 				"线路标题": "💢简影👉+>&nbsp;&&<",
