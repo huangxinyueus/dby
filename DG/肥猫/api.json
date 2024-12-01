@@ -118,12 +118,6 @@
             "api": "csp_Kanke"
         },
         {
-            "key": "csp_Dadag",
-            "name": "🐢️┃达龟┃影视",
-            "type": 3,
-            "api": "csp_Dadag"
-        },
-        {
             "key": "csp_Qiyou",
             "name": "🥝┃奇优┃影视",
             "type": 3,
@@ -150,7 +144,7 @@
             "name": "🎃┃南瓜┃影视",
             "type": 3,
             "playerType": "2",
-            "api": "./api/ng_open.js"
+            "api": "csp_NanGua"
         },
         {
             "key": "csp_J",
@@ -164,7 +158,7 @@
             "name": "💖┃Ivdy┃影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./json/ivdy.json",
+            "ext": "https://img2.gelonghui.com/library/ea5ba-5f15b1f1-2ca0-4dda-86b4-c86954b5bd37null",
             "searchable": 0
         },
         {
@@ -243,21 +237,6 @@
             "type": 3,
             "api": "csp_Xb6v",
             "playerType": "2"
-        },
-        {
-            "key": "低端",
-            "name": "🛣┃低端┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/ddys.js"
-        },
-        {
-            "key": "虎虎",
-            "name": "🐯┃虎虎┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/虎虎.json"
         },
         {
             "key": "csp_SP360",
@@ -395,7 +374,7 @@
             "style": {
                 "type": "list"
             },
-            "ext": "./js/310直播.js"
+            "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
         },
         {
             "key": "米搜",

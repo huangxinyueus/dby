@@ -50,7 +50,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/tvbox/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "南瓜弹幕",
@@ -431,7 +431,7 @@
             "style": {
                 "type": "list"
             },
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/tvbox/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "雷鲸",
@@ -440,7 +440,7 @@
             "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1,
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/tvbox/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "天翼",
@@ -449,7 +449,16 @@
             "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0,
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/tvbox/wex.jar"
+            "jar": "./wex.jar"
+        },
+        {
+            "key": "Emby",
+            "name": "Emby｜4K",
+            "type": 3,
+            "api": "csp_Wexemby",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./wex.jar"
         },
         {
             "key": "无忧短剧",
@@ -717,7 +726,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://888.qkw2.cc"
+            "ext": "https://www.91qkw.com"
         },
         {
             "key": "看客影视",
@@ -773,7 +782,8 @@
             "api": "csp_Qiyou",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "http://www.dyxz2.com/"
         },
         {
             "key": "骚火影视",
@@ -783,6 +793,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "可可影视",
+            "name": "可可｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/可可影视.json"
         },
         {
             "key": "金牌影视",
@@ -836,7 +856,8 @@
             "api": "csp_Subaibai",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "http://subaibai.com"
         },
         {
             "key": "小苹果",
@@ -1706,8 +1727,8 @@
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
-            "api": "./js/quark.min.js",
-            "ext": "./js/短剧合集.js",
+            "api": "./JS/quark.min.js",
+            "ext": "./JS/短剧合集.js",
             "style": {
                 "type": "list"
             }

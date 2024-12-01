@@ -85,14 +85,27 @@
             "name": "🌀风中知秋┃4K纯净",
             "type": 3,
             "api": "csp_AppYsV3",
-            "jar": "./jars/风中知秋.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "cmsApis": "UP4wckC350BpK3+jAtNI2bALiFmoKuT3saBr3tEJwib2fyd/xcLxfgaGGQQtWFUy",
-                "jxApi": "teViWfrkLeUW9XHAVTi63BPgORqZDJWqTHcpNex30AUNpjwQbj2x+zPZhEgVFKdu",
+                "jxApi": "Wej8dsjSOejyktB12mocSLWTi825PIxEG4czSppvUqp1CDqccQ6jsoQpTPy0wQZY",
                 "prefix": "Vjg339EykTqCGOzkWu38CGyBHHEtp7snRpwV7kGvMmk="
+            }
+        },
+        {
+            "key": "炉火茶香",
+            "name": "🌀炉火茶香┃4K纯净",
+            "type": 3,
+            "api": "csp_AppYsV3",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cmsApis": "UP4wckC350BpK3+jAtNI2blhjGe5XpRJzt28WdKpAOLIdkF5c7qnry0vLSuNURpG",
+                "jxApi": "Wej8dsjSOejyktB12mocSLWTi825PIxEG4czSppvUqp1CDqccQ6jsoQpTPy0wQZY",
+                "prefix": "dJfwfXAVjjaQz8j4tCkylOzM25rS6UDt2JFvGkrFC/U="
             }
         },
         {
@@ -1323,9 +1336,9 @@
             "url": "Demo"
         },
         {
-            "name": "zhuimi-super",
+            "name": "一",
             "type": 1,
-            "url": "",
+            "url": "https://jx.xiaofengtv.com/jx.php?url=",
             "ext": {
                 "flag": [
                     "qq",
