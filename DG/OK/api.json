@@ -849,6 +849,42 @@
             "epg": ""
         },
         {
+            "name": "肥羊国内直播",
+            "type": 0,
+            "url": "./lives/肥羊国内直播.txt",
+            "epg": ""
+        },
+        {
+            "name": "肥羊TPTV",
+            "type": 0,
+            "url": "./lives/肥羊TPTV.txt",
+            "epg": ""
+        },
+        {
+            "name": "肥羊虎牙一起看",
+            "type": 0,
+            "url": "./lives/肥羊虎牙一起看.txt",
+            "epg": ""
+        },
+        {
+            "name": "肥羊B站直播",
+            "type": 0,
+            "url": "./lives/肥羊B站直播.txt",
+            "epg": ""
+        },
+        {
+            "name": "肥羊斗鱼一起看",
+            "type": 0,
+            "url": "./lives/肥羊斗鱼一起看.txt",
+            "epg": ""
+        },
+        {
+            "name": "肥羊YY轮播",
+            "type": 0,
+            "url": "./lives/肥羊YY轮播.txt",
+            "epg": ""
+        },
+        {
             "name": "gat",
             "type": 0,
             "url": "./lives/gat.txt",

@@ -1,6 +1,6 @@
-globalThis.h_ost = 'http://124.223.11.25:11024/';
-var key = CryptoJS.enc.Base64.parse("NjYyYjIxYWZlM2Y2YWRmMw==");
-var iv = CryptoJS.enc.Base64.parse("NjYyYjIxYWZlM2Y2YWRmMw==");
+globalThis.h_ost = 'http://mitu.jiajiayoutian.top/';
+var key = CryptoJS.enc.Base64.parse("ZDAzMmMxMjg3NmJjNjg0OA==");
+var iv = CryptoJS.enc.Base64.parse("ZDAzMmMxMjg3NmJjNjg0OA==");
 globalThis.AES_Decrypt = function(word) {
     try {
         var decrypt = CryptoJS.AES.decrypt(word, key, {
@@ -60,6 +60,7 @@ globalThis.vodids = function(ids) {
     });
     let html = JSON.parse(html1);
     const rdata = JSON.parse(AES_Decrypt(html.data));
+    console.log(rdata);
     const data = {
         vod_id: ids,
         vod_name: rdata.vod.vod_name,
@@ -74,7 +75,7 @@ globalThis.vodids = function(ids) {
     rdata.vod_play_list.forEach((value) => {
         data.vod_play_from += value.player_info.show + '$$$';
         value.urls.forEach((v) => {
-            data.vod_play_url += v.name + '$' + value.player_info.parse + '|' + v.url + '#';
+            data.vod_play_url += v.name + '$' + value.player_info.parse + '|' + v.url + '|' + rdata.vod.vod_name + '|' + v.name + '#';
         });
         data.vod_play_url += '$$$';
     });
@@ -97,56 +98,64 @@ globalThis.ssvod = function(wd) {
     return AES_Decrypt(html.data);
 }
 //解析
-globalThis.jxx = function(id, url) {
-    /* if(""!=='104847347'){
-      return 'https://mp4.ziyuan.wang/view.php/3c120366111dde9c318be64962b5684f.mp4';
-     }*/
-    if (id.startsWith('http')) {
-        let purl = JSON.parse(request(id + url)).url;
-        return {
-            parse: 0,
-            url: purl,
-            jx: 0,
-            danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
-        };
-    }
-    if (id == 0) {
-        return {
-            parse: 0,
-            url: id + url,
-            jx: 1,
-            danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
-        };
-    }
-
-    let html1 = request(h_ost + 'api.php/getappapi.index/vodParse', {
-        method: 'POST',
-        headers: {
-            'User-Agent': 'okhttp/3.14.9',
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: {
-            parse_api: id,
-            url: AES_Encrypt(url),
+globalThis.jxx = function(id, url, name, juji) {
+    try {
+        if ("147258369" !== '147258369') {
+            return 'https://mp4.ziyuan.wang/view.php/3c120366111dde9c318be64962b5684f.mp4';
         }
-    });
-    let html = AES_Decrypt(JSON.parse(html1).data);
-    console.log(html);
-    let decry = html.replace(/\n/g, '').replace(/\\/g, '');
-    let matches = decry.match(/"url":"([^"]+)"/);
-    if (!matches || matches[1] === null) {
-        matches = decry.match(/"url": "([^"]+)"/);
+        if (id.startsWith('http')) {
+            let purl = JSON.parse(request(id + url)).url;
+            return {
+                parse: 0,
+                url: purl,
+                jx: 0,
+                danmaku: 'http://43.242.202.175:9595/njsdm.php?key=147258369&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+            };
+        }
+        if (id == 0) {
+            return {
+                parse: 0,
+                url: id + url,
+                jx: 1,
+                danmaku: 'http://43.242.202.175:9595/njsdm.php?key=147258369&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+            };
+        }
+
+        let html1 = request(h_ost + 'api.php/getappapi.index/vodParse', {
+            method: 'POST',
+            headers: {
+                'User-Agent': 'okhttp/3.14.9',
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: {
+                parse_api: id,
+                url: AES_Encrypt(url),
+            }
+        });
+        let html = AES_Decrypt(JSON.parse(html1).data);
+        console.log(html1);
+        let decry = html.replace(/\n/g, '').replace(/\\/g, '');
+        let matches = decry.match(/"url":"([^"]+)"/);
+        if (!matches || matches[1] === null) {
+            matches = decry.match(/"url": "([^"]+)"/);
+        }
+        return {
+            parse: 0,
+            url: matches[1],
+            jx: 0,
+            danmaku: 'http://43.242.202.175:9595/njsdm.php?key=147258369&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+        };
+    } catch {
+        return {
+            parse: 0,
+            url: '',
+            jx: 0
+        };
     }
-    return {
-        parse: 0,
-        url: matches[1],
-        jx: 0,
-        danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
-    };
 }
 
 var rule = {
-    title: '小虎斑|悠悠',
+    title: '米兔[资]',
     host: '',
     detailUrl: 'fyid',
     searchUrl: '**',
@@ -159,7 +168,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         const parts = input.split('|');
-        input = jxx(parts[0], parts[1]);
+        input = jxx(parts[0], parts[1], parts[2], parts[3]);
     }),
     推荐: $js.toString(() => {
         let data = vod1(0, 0);

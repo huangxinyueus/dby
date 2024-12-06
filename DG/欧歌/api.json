@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:11/24❤",
+            "name": "📢o公告❤更新:11/30❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -42,7 +42,9 @@
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.eu.org",
-                    "https://wog.nxog.eu.org"
+                    "https://ogog.nxog.eu.org",
+                    "http://woog.nxog.asia",
+                    "http://1.woog.xn--dkw.xn--6qq986b3xl"
                 ]
             }
         },
@@ -89,28 +91,10 @@
             "filterable": 1
         },
         {
-            "key": "南瓜",
-            "name": "💡南瓜｜影视",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "天天",
             "name": "💡天天┃影视",
             "type": 3,
             "api": "csp_AppTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "韩小圈",
-            "name": "💡韩小｜影视",
-            "type": 3,
-            "api": "csp_HanXiaoQuan",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -156,15 +140,6 @@
             "name": "💡骚火｜影视",
             "type": 3,
             "api": "csp_SaoHuo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "小苹果1",
-            "name": "💡苹果｜影视",
-            "type": 3,
-            "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -400,15 +375,6 @@
             }
         },
         {
-            "key": "克隆合集",
-            "name": "🧿克隆｜合集",
-            "type": 4,
-            "api": "https://api.paoyun.eu.org/klhj.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
             "key": "糯米弹幕",
             "name": "💘糯米｜弹幕",
             "type": 3,
@@ -433,18 +399,6 @@
             }
         },
         {
-            "key": "南瓜弹幕",
-            "name": "💘南瓜┃弹幕",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
             "key": "天天弹幕",
             "name": "💘天天┃弹幕",
             "type": 3,
@@ -462,18 +416,6 @@
             "type": 3,
             "api": "csp_Jianpian",
             "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "小苹果弹幕",
-            "name": "💘苹果┃弹幕",
-            "type": 3,
-            "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,

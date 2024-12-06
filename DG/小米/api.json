@@ -25,11 +25,13 @@
             "name": "🧸玩偶┃4K4K",
             "type": 3,
             "api": "csp_Wogg",
+            "changeable": 0,
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "https://wogg.xxooo.cf",
-                    "http://www.wogg.bf",
+                    "https://woggpan.333232.xyz/",
+                    "https://wogg.xxooo.cf/",
+                    "https://woggapi.888484.xyz/",
                     "https://www.wogg.net"
                 ],
                 "threadinfo": {
@@ -43,10 +45,13 @@
             "name": "💯至臻┃4K4K",
             "type": 3,
             "api": "csp_Duopan",
+            "changeable": 0,
             "filterable": 1,
             "ext": {
                 "site_urls": [
                     "https://mihdr.top",
+                    "http://www.xhww.net",
+                    "http://xhww.net",
                     "https://xiaomiai.site"
                 ],
                 "url_key": "Duopan",
@@ -61,6 +66,7 @@
             "name": "💌MIUC┃4K4K",
             "type": 3,
             "api": "csp_MiUc",
+            "changeable": 0,
             "filterable": 1,
             "ext": {
                 "site_urls": [
@@ -110,71 +116,6 @@
             "ext": "./js/kanqiu.js"
         },
         {
-            "key": "瓜子",
-            "name": "🍉瓜子┃1080P",
-            "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0
-        },
-        {
-            "key": "天天",
-            "name": "☁️天天┃1080P",
-            "type": 3,
-            "api": "csp_TTian",
-            "playerType": 2,
-            "ext": "baHR0cDovL29wLnlzZHFqcy5jbg==",
-            "jar": "./jars/天天.jar"
-        },
-        {
-            "key": "🌟客星",
-            "name": "🌟客星┃1080P",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
-            "jar": "./jars/天天.jar"
-        },
-        {
-            "key": "zhaixing",
-            "name": "✨摘星┃1080P",
-            "type": 3,
-            "api": "csp_AppZX",
-            "playerType": 2
-        },
-        {
-            "key": "熊猫",
-            "name": "🐈熊猫┃1080P",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "caHR0cDovL2dldGFwcC50dnliYXBwLmNvbXxtaWNrMjQ1OG1pY2syNDU4fG1pY2syNDU4bWljazI0NTg=",
-            "jar": "./jars/天天.jar"
-        },
-        {
-            "key": "繁荣",
-            "name": "🥝凡人┃1080P",
-            "type": 3,
-            "api": "csp_Frong",
-            "playerType": 2,
-            "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjgxMzN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
-            "jar": "./jars/天天.jar"
-        },
-        {
-            "key": "csp_LiteApple",
-            "name": "🍎苹果┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_LiteApple",
-            "playerType": 1,
-            "filterable": 1,
-            "ext": ""
-        },
-        {
             "key": "csp_JPYY",
             "name": "🥇文采┃1080P",
             "type": 3,
@@ -184,6 +125,15 @@
             "playerType": 2,
             "filterable": 1,
             "ext": ""
+        },
+        {
+            "key": "csp_Wwys",
+            "name": "👨农民┃1080P",
+            "type": 3,
+            "playerType": 2,
+            "changeable": 0,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn/"
         },
         {
             "key": "csp_XSX",
@@ -206,44 +156,103 @@
             "ext": "https://subaibai.com/"
         },
         {
-            "key": "csp_Tvyb",
-            "name": "☁️云播┃1080P",
-            "type": 3,
-            "api": "csp_Tvyb"
-        },
-        {
-            "key": "csp_Czsapp",
-            "name": "🏭厂长┃1080P",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "ext": "http://www.czzyvideo.com"
-        },
-        {
-            "key": "csp_饭团",
-            "name": "🍙饭团┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_Fantuan",
-            "playerType": 2,
-            "filterable": 1,
-            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-            "ext": "https://fantuan.vip/"
-        },
-        {
-            "key": "csp_Dm84",
-            "name": "🎨动漫┃1080P",
-            "type": 3,
-            "api": "csp_Dm84",
-            "playerType": 2
-        },
-        {
             "key": "huohuo",
             "name": "💥火火┃1080P",
             "type": 3,
             "changeable": 0,
             "api": "csp_SaoHuo"
+        },
+        {
+            "key": "瓜子",
+            "name": "🍉瓜子┃1080P",
+            "type": 3,
+            "api": "csp_Gz360",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0
+        },
+        {
+            "key": "csp_MiTuApp",
+            "name": "🐰米兔┃1080P",
+            "type": 3,
+            "api": "csp_MiTuApp",
+            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="
+        },
+        {
+            "key": "csp_电影",
+            "name": "🎬电影┃1080P",
+            "type": 3,
+            "api": "csp_MiTuApp",
+            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="
+        },
+        {
+            "key": "zhaixing",
+            "name": "✨摘星┃1080P",
+            "type": 3,
+            "api": "csp_AppZX",
+            "playerType": 2
+        },
+        {
+            "key": "csp_zhufan",
+            "name": "🚗追饭┃1080P",
+            "searchable": 1,
+            "quickSearch": 1,
+            "type": 3,
+            "api": "csp_MiTo",
+            "ext": {
+                "url": "http://xiafan.zhuiju666.com",
+                "dataKey": "aassddwwxxllsx1x",
+                "playKey": "bbssqdbbssll25sx",
+                "version": "1.1.0"
+            }
+        },
+        {
+            "key": "csp_LiteApple",
+            "name": "🍎苹果┃1080P",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_LiteApple",
+            "playerType": 1,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "hipy_js_腾云驾雾[官]",
+            "name": "🌞腾腾┃解析",
+            "type": 3,
+            "api": "./api/drpy2.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/tm.js"
+        },
+        {
+            "key": "guoguo",
+            "name": "🌞果果┃解析",
+            "type": 3,
+            "api": "./api/drpy2.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/guoguo.js"
+        },
+        {
+            "key": "csp_视觉",
+            "name": "🔭视觉┃PYTHON",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "api": "./api/shijue.py",
+            "playerType": 2,
+            "filterable": 1
         },
         {
             "key": "荐片",
@@ -252,15 +261,6 @@
             "type": 3,
             "playerType": "1",
             "ext": "http://api2.rinhome.com"
-        },
-        {
-            "key": "csp_Wwys",
-            "name": "🐶汪汪┃1080P",
-            "type": 3,
-            "playerType": 2,
-            "changeable": 0,
-            "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn/"
         },
         {
             "key": "csp_FirstAid",
@@ -296,9 +296,9 @@
             "url": "Web"
         },
         {
-            "name": "4K解析",
+            "name": "解析1",
             "type": 1,
-            "url": "https://jx.xiaofengtv.com/jx.php?url=",
+            "url": "https://www.mpanso.com/muou/qilin.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -327,36 +327,7 @@
         {
             "name": "反弹",
             "type": 1,
-            "url": "http://27.25.141.188:6688/api/?key=cc10901237ea968438714d7f0303986b&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
-            "name": "1080解析1",
-            "type": 1,
-            "url": "https://zy.qiaoji8.com/neibu.php?url=",
+            "url": "",
             "ext": {
                 "flag": [
                     "qq",
@@ -385,7 +356,7 @@
         {
             "name": "1080解析",
             "type": 1,
-            "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url=",
+            "url": "",
             "ext": {
                 "flag": [
                     "qq",

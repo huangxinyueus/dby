@@ -82,7 +82,7 @@
         },
         {
             "key": "风中知秋",
-            "name": "🌀风中知秋┃4K纯净",
+            "name": "🌀风中知秋┃4K弹幕",
             "type": 3,
             "api": "csp_AppYsV3",
             "searchable": 1,
@@ -96,7 +96,7 @@
         },
         {
             "key": "炉火茶香",
-            "name": "🌀炉火茶香┃4K纯净",
+            "name": "🌀炉火茶香┃4K弹幕",
             "type": 3,
             "api": "csp_AppYsV3",
             "searchable": 1,
@@ -312,6 +312,16 @@
             "ext": "https://www.czzy77.com/"
         },
         {
+            "key": "木星",
+            "name": "🌞木星┃多线┃纯净",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
+        },
+        {
             "key": "原创",
             "name": "☀原创┃不卡┃纯净",
             "type": 3,
@@ -521,15 +531,6 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=央视经典"
-        },
-        {
-            "key": "短剧",
-            "name": "🌈上头┃短剧┃热推",
-            "type": 3,
-            "api": "csp_Djtt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "无忧短剧",
@@ -935,14 +936,43 @@
             }
         },
         {
-            "key": "Sso",
-            "name": "🐌盘他盘他┃4K纯净",
+            "key": "PanSso",
+            "name": "🐌盘他盘他┃三盘搜索",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/盘他.js",
+            "api": "csp_PanSso",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "YpanSo",
+            "name": "🐟盘她盘她┃三盘搜索",
+            "type": 3,
+            "api": "csp_YpanSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "xzso",
+            "name": "👻盘它盘它┃三盘搜索",
+            "type": 3,
+            "api": "csp_xzso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
         },
         {
             "key": "夸克影搜弹幕",
@@ -1272,6 +1302,17 @@
             "style": {
                 "type": "rect",
                 "ratio": 3.8
+            }
+        },
+        {
+            "key": "926看球",
+            "name": "⚽926┃看球┃直播",
+            "type": 3,
+            "api": "csp_kanqiu926",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
             }
         },
         {

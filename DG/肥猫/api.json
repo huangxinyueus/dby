@@ -28,6 +28,20 @@
             "playerType": 2
         },
         {
+            "key": "csp_FeiMaoUC",
+            "name": "⚡┃闪电┃优汐",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://feimaouc.cloud:666",
+                    "http://feimao.tech:666"
+                ],
+                "url_key": "FeiMaoUC"
+            }
+        },
+        {
             "key": "csp_Duopan",
             "name": "🖍︎┃蜡笔┃影视",
             "type": 3,
@@ -40,22 +54,7 @@
                     "http://feimaoai.site",
                     "https://mihdr.top"
                 ],
-                "url_key": "Duopan"
-            }
-        },
-        {
-            "key": "csp_FeiMaoUC",
-            "name": "🐼┃肥猫┃UC",
-            "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "http://www.mucpan.cc",
-                    "http://ucmi.fun",
-                    "http://www.ucmi.fun"
-                ],
-                "url_key": "FeiMaoUC"
+                "url_key": "Duopan2"
             }
         },
         {
@@ -86,6 +85,21 @@
             "ext": "http://rzys.xyz/"
         },
         {
+            "key": "csp_XMUC",
+            "name": "🍚┃小米┃UC",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://www.mucpan.cc",
+                    "http://ucmi.fun",
+                    "http://www.ucmi.fun"
+                ],
+                "url_key": "XMUC"
+            }
+        },
+        {
             "key": "csp_Netfixtv",
             "name": "💌┃️至臻┃影视",
             "type": 3,
@@ -93,9 +107,11 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
+                    "http://www.xhww.net",
+                    "http://xhww.net",
                     "https://xiaomiai.site"
                 ],
-                "url_key": "Netfixtv",
+                "url_key": "Netfixtv2",
                 "token": "",
                 "ucCookie": "",
                 "quarkCookie": "",
