@@ -72,6 +72,14 @@
             }
         },
         {
+            "key": "盘他",
+            "name": "💓‍盘他┃4K💓‍",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "雷鲸",
             "name": "💓‍雷鲸┃4K💓‍",
             "type": 3,
@@ -244,6 +252,14 @@
             "name": "🎇大鼻涕┃秒播🎇",
             "type": 3,
             "api": "csp_Wexbttwo",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexBDys",
+            "name": "🎇滴滴┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexBDys",
             "searchable": 1,
             "changeable": 1
         },
