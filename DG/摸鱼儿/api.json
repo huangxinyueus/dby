@@ -81,34 +81,6 @@
             }
         },
         {
-            "key": "风中知秋",
-            "name": "🌀风中知秋┃4K弹幕",
-            "type": 3,
-            "api": "csp_AppYsV3",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cmsApis": "UP4wckC350BpK3+jAtNI2bALiFmoKuT3saBr3tEJwib2fyd/xcLxfgaGGQQtWFUy",
-                "jxApi": "Wej8dsjSOejyktB12mocSLWTi825PIxEG4czSppvUqp1CDqccQ6jsoQpTPy0wQZY",
-                "prefix": "Vjg339EykTqCGOzkWu38CGyBHHEtp7snRpwV7kGvMmk="
-            }
-        },
-        {
-            "key": "炉火茶香",
-            "name": "🌀炉火茶香┃4K弹幕",
-            "type": 3,
-            "api": "csp_AppYsV3",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cmsApis": "UP4wckC350BpK3+jAtNI2blhjGe5XpRJzt28WdKpAOLIdkF5c7qnry0vLSuNURpG",
-                "jxApi": "Wej8dsjSOejyktB12mocSLWTi825PIxEG4czSppvUqp1CDqccQ6jsoQpTPy0wQZY",
-                "prefix": "dJfwfXAVjjaQz8j4tCkylOzM25rS6UDt2JFvGkrFC/U="
-            }
-        },
-        {
             "key": "夸克蜡笔弹幕",
             "name": "🖍︎蜡笔资源┃4K弹幕",
             "type": 3,

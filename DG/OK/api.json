@@ -855,6 +855,18 @@
             "epg": ""
         },
         {
+            "name": "肥羊咪咕电视直播",
+            "type": 0,
+            "url": "./lives/肥羊咪咕电视直播.txt",
+            "epg": ""
+        },
+        {
+            "name": "肥羊咪咕赛事直播",
+            "type": 0,
+            "url": "./lives/肥羊咪咕赛事直播.txt",
+            "epg": ""
+        },
+        {
             "name": "肥羊TPTV",
             "type": 0,
             "url": "./lives/肥羊TPTV.txt",

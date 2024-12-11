@@ -29,10 +29,10 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "https://woggpan.333232.xyz/",
-                    "https://wogg.xxooo.cf/",
-                    "https://woggapi.888484.xyz/",
-                    "https://www.wogg.net"
+                    "http://woggpan.333232.xyz/",
+                    "http://wogg.xxooo.cf/",
+                    "http://woggapi.888484.xyz/",
+                    "http://www.wogg.net"
                 ],
                 "threadinfo": {
                     "chunksize": 450,
@@ -326,8 +326,8 @@
         },
         {
             "name": "反弹",
-            "type": 1,
-            "url": "",
+            "type": 0,
+            "url": "https://jx.hls.one/?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -349,14 +349,14 @@
                     "1905"
                 ],
                 "header": {
-                    "User-Agent": "okhttp/4.9.1"
+                    "User-Agent": "User-Agent:Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"
                 }
             }
         },
         {
             "name": "1080解析",
             "type": 1,
-            "url": "",
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
             "ext": {
                 "flag": [
                     "qq",

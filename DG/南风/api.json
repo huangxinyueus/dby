@@ -428,6 +428,15 @@
             }
         },
         {
+            "key": "AList",
+            "name": "🅰AList",
+            "type": 3,
+            "api": "csp_AList",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "./json/alist.json"
+        },
+        {
             "key": "网盘集合",
             "name": "🅿网盘集合|4K",
             "type": 3,

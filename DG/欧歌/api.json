@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:11/30❤",
+            "name": "📢o公告❤更新:12/08❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -95,6 +95,15 @@
             "name": "💡天天┃影视",
             "type": 3,
             "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "韩小圈",
+            "name": "💡韩小｜影视",
+            "type": 3,
+            "api": "csp_HanXiaoQuan",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -181,28 +190,10 @@
             "filterable": 1
         },
         {
-            "key": "铁剧影视",
-            "name": "💡铁剧｜影视",
-            "type": 3,
-            "api": "csp_WebBr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "真心影视",
             "name": "💡真心｜影视",
             "type": 3,
             "api": "csp_WebGZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "耐看影视",
-            "name": "💡耐看｜影视",
-            "type": 3,
-            "api": "csp_WebNK",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -233,6 +224,75 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "星星影视",
+            "name": "💡星星｜影视",
+            "type": 3,
+            "api": "csp_AppZX",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "KhY021WelCEl+6MsvwnzaLK5slLrVkVKpWWFo0f0XrIG4I/KFx5RJf8ee99ij0p6UXFSzynUUoQn+CMLXQSrHrks8dKtjc6OXESxcMCKZWCfIZLnBIHXbQkKgwbMN1ancbdBF0wmVANCCrQQTm2Nd1Q68RP63nGTicCesKtoaOomHl8T0c2P6T1te5WMsJkNyDa8tsgx5q0uDyR6+QqFAx0l92nhDqQ8"
+        },
+        {
+            "key": "米米影视",
+            "name": "💡米米｜影视",
+            "type": 3,
+            "api": "csp_AppZX",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "KhY021WelCEl+6MsvwnzaLK5sg6yEQRc8CLY+R2wReBS99eCRx9APeYSJ5VWzBI5XnVfjFiTSsduqSYOWQC3AqI3+tLwmZ/aT2z/PZuRbHjEUNX8RMiGfg8bkgTbOVjmN6hVB1V3ZE4DTbUbATLmIUci/wOblS2T54u1dxfP2owIfTg1nKSiYD1ndF3VotBmw5u8hM7jpJZ3Ugcaqy/mTj7oMr8="
+        },
+        {
+            "key": "云云影视",
+            "name": "💡云云｜影视",
+            "type": 3,
+            "api": "csp_AppLma",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "KhY021WelCEl+6MsvwnzaPusskyiDwxc/zHc8gWyReBS+prQb0FAAvlCb5Uoj4LihPmHGDbnCYo/risaDE3tISvdDENCSVt4yNkc/84/jK0C1mB7qQzP6tbIGNAuvYFQ5GG9wtLMcQNCCr0aUEOhalQ68ReunWqH5JzX96l/BDfD/4KyVQlAKaurrptTFwKIRcQ7DU0yNCOv0eHPd48jyYXnc/YzNv9jY54k0unLa6z06bdWLsj4G0aNHwcp3IxydlT/taKaA0S27Tmdq7nkMyq26a39g1MHcVEvL6x7xZmF+nOYuZBIiIxzh36dj2ues4Nt2ukFtac="
+        },
+        {
+            "key": "凡人影视",
+            "name": "💡凡人｜影视",
+            "type": 3,
+            "api": "csp_AppFr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "全网影视",
+            "name": "💡全网｜影视",
+            "type": 3,
+            "api": "csp_Quanwk",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.91qkw.com"
+        },
+        {
+            "key": "奇优影视",
+            "name": "💡奇优｜影视",
+            "type": 3,
+            "api": "csp_Qiyou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://www.dyxz2.com/"
+        },
+        {
+            "key": "素白白",
+            "name": "💡白白｜影视",
+            "type": 3,
+            "api": "csp_Subaibai",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://subaibai.com"
         },
         {
             "key": "csp_XYQHiker_农民影视",
@@ -272,26 +332,6 @@
                 "搜索副标题": "class=\"boottom\"*<div>&&</div",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
                 "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
-            }
-        },
-        {
-            "key": "兄弟",
-            "name": "🧿️兄弟┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "嗅探词": ".m3u8?#sns-creator-preview.xhscdn.com#.m3u8#47.96.255.149#v3-cold-src.toutiaovod.com#38.61.5.6:11301#tvcms.aikanhd.vip#.mp4",
-                "过滤词": "/dmku.brovod.top/#xdad.m3u8",
-                "影片年代": "<divclass=\"module-info-tag\">&&</div>",
-                "影片状态": "备注：&&</div>",
-                "影片类型": "module-info-tag\">&&立即播放",
-                "线路数组": "data-dropdown-value=&&</div>",
-                "线路标题": "<span>&&</span>",
-                "分类url": "https://www.brovod.com/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-                "分类": "电影$1#剧集$2#动漫$4#综艺$3#纪录片$5#短剧$6"
             }
         },
         {
@@ -375,6 +415,23 @@
             }
         },
         {
+            "key": "哔哩弹幕",
+            "name": "🅱哔哩｜弹幕",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "./txt/bilibili.txt"
+            },
+            "timeout": 10
+        },
+        {
             "key": "糯米弹幕",
             "name": "💘糯米｜弹幕",
             "type": 3,
@@ -436,21 +493,41 @@
             }
         },
         {
-            "key": "哔哩弹幕",
-            "name": "🅱哔哩｜弹幕",
+            "key": "厂长弹幕",
+            "name": "💘厂长｜弹幕",
             "type": 3,
-            "api": "csp_Bilimd",
+            "api": "csp_Czzy",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
             "ext": {
-                "cookie": "./txt/bilibili.txt"
-            },
-            "timeout": 10
+                "danmu": true
+            }
+        },
+        {
+            "key": "热播弹幕",
+            "name": "💘热播｜弹幕",
+            "type": 3,
+            "api": "csp_ReBo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "哔嘀弹幕",
+            "name": "💘哔嘀｜弹幕",
+            "type": 3,
+            "api": "csp_Bdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://www.xlys01.com",
+                "danmu": true
+            }
         },
         {
             "key": "立播弹幕",
@@ -480,7 +557,7 @@
                 "token": "./txt/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "https://wogg.nxog.eu.org",
+                "site": "https://woog.nxog.asia",
                 "danmu": true
             }
         },
@@ -997,39 +1074,6 @@
             "ext": "./js/我的哔哩.js?type=url&params=./json/合集.json"
         },
         {
-            "key": "无忧短剧",
-            "name": "🐞无忧｜短剧",
-            "type": 3,
-            "api": "csp_Duanj",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "在线短剧",
-            "name": "🐞在线｜短剧",
-            "type": 3,
-            "api": "csp_Duanju",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "星芽短剧",
-            "name": "🐞星芽｜短剧",
-            "type": 3,
-            "api": "csp_AppXY",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
             "key": "酷狗",
             "name": "🐾酷狗┃音乐",
             "type": 3,
@@ -1045,14 +1089,22 @@
             }
         },
         {
-            "key": "直播转点播",
-            "name": "📺电视┃直播",
+            "key": "星芽短剧",
+            "name": "🐞星芽｜短剧",
             "type": 3,
-            "api": "./api/live.js",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://o.nxog.top/m//json/live.php?ou=公众号欧歌APP"
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "河马短剧",
+            "name": "🐞河马｜短剧",
+            "type": 3,
+            "api": "csp_AppHMDJ",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "Dm84",
@@ -1110,23 +1162,6 @@
             }
         },
         {
-            "key": "58动漫",
-            "name": "🤣吾吧┃动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "简介": "⚠️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>",
-                "线路数组": "data-toggle=\"tab&&</a>",
-                "线路标题": ">&&<",
-                "搜索url": "http://www.ting38.com/search.php?searchword={wd}",
-                "分类url": "http://www.ting38.com/ting/{cateId}-{catePg}.html",
-                "分类": "新番日漫$1#国产动漫$2#欧美动漫$3#动漫电影$4"
-            }
-        },
-        {
             "key": "魔都资源",
             "name": "🤣魔都┃动漫",
             "type": 1,
@@ -1147,6 +1182,16 @@
                 "分类url": "https://nyafun.cc/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
                 "分类": "TV动画$20#国漫$24#日漫$23#美漫$25#剧场版$21"
             }
+        },
+        {
+            "key": "直播转点播",
+            "name": "📺电视┃直播",
+            "type": 3,
+            "api": "./api/live.js",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://o.nxog.top/m//json/live.php?ou=公众号欧歌APP"
         },
         {
             "key": "本地",
