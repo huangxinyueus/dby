@@ -324,7 +324,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "https://www.wogg.net/",
+                "siteUrl": "https://www.wogg.net",
                 "filter": "./json/wogg.json"
             }
         },
@@ -356,7 +356,7 @@
         },
         {
             "key": "至臻",
-            "name": "💌至臻",
+            "name": "💯至臻",
             "type": 3,
             "api": "csp_kongbai",
             "searchable": 1,
@@ -376,8 +376,34 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://mogg.xn--yetu07f.top/",
+                "siteUrl": "http://mogg.xn--yetu07f.top",
                 "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "MIUC",
+            "name": "💌MIUC",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "http://www.mucpan.cc/",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "盘Ta",
+            "name": "🍥盘Ta",
+            "type": 3,
+            "api": "csp_PanTa",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "siteUrl": "https://www.91panta.cn/",
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -525,7 +551,7 @@
         },
         {
             "key": "有声小说吧",
-            "name": "有声小说吧",
+            "name": "📚有声小说吧",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "playerType": "2",
@@ -536,7 +562,7 @@
         },
         {
             "key": "JRKAN直播",
-            "name": "JRKAN直播",
+            "name": "🏀JRKAN直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "searchable": 0,
@@ -814,6 +840,18 @@
             "name": "feiyang.tptv",
             "type": 0,
             "url": "./lives/feiyang.tptv.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.migu",
+            "type": 0,
+            "url": "./lives/feiyang.migu.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.miguevent",
+            "type": 0,
+            "url": "./lives/feiyang.miguevent.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {

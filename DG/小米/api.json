@@ -14,7 +14,7 @@
         },
         {
             "key": "配置",
-            "name": "🔧️网盘┃配置4K 修复弹窗 夸夸非会员3G可播",
+            "name": "️⚙️网盘┃配置4K 修复弹窗 夸夸非会员3G可播",
             "type": 3,
             "changeable": 0,
             "searchable": 0,
@@ -83,7 +83,7 @@
         },
         {
             "key": "米搜",
-            "name": "🌾米搜┃4K4K",
+            "name": "🔍米搜┃4K4K",
             "type": 3,
             "api": "csp_MiSou",
             "changeable": 0
@@ -95,7 +95,7 @@
             "api": "csp_Bili",
             "playerType": 2,
             "ext": {
-                "json": "./json/bibi.json",
+                "json": "./json/bili.json",
                 "cookie": ""
             },
             "style": {
@@ -107,7 +107,7 @@
             "key": "88看球",
             "name": "🏀看球┃直播",
             "type": 3,
-            "api": "./api/drpy2.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -117,7 +117,7 @@
         },
         {
             "key": "csp_JPYY",
-            "name": "🥇文采┃1080P",
+            "name": "🚗文采┃1080P",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -125,6 +125,13 @@
             "playerType": 2,
             "filterable": 1,
             "ext": ""
+        },
+        {
+            "key": "csp_Xlys",
+            "name": "🍤哔嘀┃1080P",
+            "api": "csp_Xlys",
+            "type": 3,
+            "playerType": 2
         },
         {
             "key": "csp_Wwys",
@@ -188,24 +195,17 @@
             "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="
         },
         {
-            "key": "zhaixing",
-            "name": "✨摘星┃1080P",
-            "type": 3,
-            "api": "csp_AppZX",
-            "playerType": 2
-        },
-        {
             "key": "csp_zhufan",
-            "name": "🚗追饭┃1080P",
+            "name": "🍚追饭┃1080P",
             "searchable": 1,
             "quickSearch": 1,
             "type": 3,
             "api": "csp_MiTo",
             "ext": {
-                "url": "http://xiafan.zhuiju666.com",
+                "url": "http://103.88.35.251:8989",
                 "dataKey": "aassddwwxxllsx1x",
                 "playKey": "bbssqdbbssll25sx",
-                "version": "1.1.0"
+                "version": "2.1.0"
             }
         },
         {
@@ -221,9 +221,9 @@
         },
         {
             "key": "hipy_js_腾云驾雾[官]",
-            "name": "🌞腾腾┃解析",
+            "name": "🐧腾腾┃1080P",
             "type": 3,
-            "api": "./api/drpy2.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -233,9 +233,9 @@
         },
         {
             "key": "guoguo",
-            "name": "🌞果果┃解析",
+            "name": "🥭果果┃4K4K",
             "type": 3,
-            "api": "./api/drpy2.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -326,8 +326,8 @@
         },
         {
             "name": "反弹",
-            "type": 0,
-            "url": "https://jx.hls.one/?url=",
+            "type": 1,
+            "url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
             "ext": {
                 "flag": [
                     "qq",

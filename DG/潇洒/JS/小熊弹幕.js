@@ -106,7 +106,7 @@ globalThis.jxx = function(id, url, name, juji) {
             parse: 1,
             url: id + url,
             jx: 0,
-            danmaku: 'http://43.242.202.175:9595/njsdm.php?key=147258369&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+            danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&url=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
         };
     }
     if (id == 0) {
@@ -114,7 +114,7 @@ globalThis.jxx = function(id, url, name, juji) {
             parse: 0,
             url: id + url,
             jx: 1,
-            danmaku: 'http://43.242.202.175:9595/njsdm.php?key=147258369&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+            danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&url=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
         };
     }
 
@@ -140,7 +140,7 @@ globalThis.jxx = function(id, url, name, juji) {
         parse: 0,
         url: matches[1],
         jx: 0,
-        danmaku: 'http://43.242.202.175:9595/njsdm.php?key=147258369&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+        danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&url=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
     };
 }
 

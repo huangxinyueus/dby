@@ -53,18 +53,6 @@
             "jar": "./wex.jar"
         },
         {
-            "key": "南瓜弹幕",
-            "name": "南瓜｜弹幕",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
             "key": "厂长弹幕",
             "name": "厂长｜弹幕",
             "type": 3,
@@ -538,11 +526,14 @@
             "filterable": 0
         },
         {
-            "key": "爱你短剧",
-            "name": "爱你｜短剧",
+            "key": "爱我短剧",
+            "name": "爱我｜短剧",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/爱你短剧.js"
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/爱我短剧.json"
         },
         {
             "key": "短剧屋",
@@ -572,15 +563,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.tvkuys.xyz/api.php/app/"
-        },
-        {
-            "key": "南瓜影视",
-            "name": "南瓜｜APP",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "天天影视",
@@ -803,16 +785,6 @@
             "filterable": 1
         },
         {
-            "key": "FreeOK",
-            "name": "️️Free｜影视",
-            "type": 3,
-            "api": "csp_FreeOK",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.freeok.lol"
-        },
-        {
             "key": "奇优影视",
             "name": "奇优｜影视",
             "type": 3,
@@ -840,6 +812,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XBPQ/可可影视.json"
+        },
+        {
+            "key": "海纳影视",
+            "name": "海纳｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/海纳影视.json"
         },
         {
             "key": "金牌影视",
@@ -1775,7 +1757,7 @@
         {
             "name": "臻享",
             "type": "1",
-            "url": "https://jk.123zy.cool/jx/jx.php?url=",
+            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -1805,6 +1787,35 @@
             "name": "推荐",
             "type": 1,
             "url": "https://jxjson.icu/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "优选",
+            "type": 1,
+            "url": "http://1.94.221.189:88/algorithm.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -2101,6 +2112,18 @@
             "name": "肥羊YY轮播",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊咪咕电视直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/migu.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊咪咕赛事直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/miguevent.m3u",
             "ua": "okhttp/3.15"
         }
     ],
