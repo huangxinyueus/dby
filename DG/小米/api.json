@@ -21,6 +21,14 @@
             "api": "csp_Config"
         },
         {
+            "key": "csp_SuBaiBai",
+            "name": "☁️白白┃1080P",
+            "type": 3,
+            "api": "csp_SuBaiBai",
+            "playerType": 2,
+            "ext": "https://subaibai.com/"
+        },
+        {
             "key": "csp_Wogg",
             "name": "🧸玩偶┃4K4K",
             "type": 3,
@@ -62,6 +70,13 @@
             }
         },
         {
+            "key": "小怡",
+            "name": "🔍怡搜┃4K4K",
+            "type": 3,
+            "api": "csp_XiaoYi",
+            "changeable": 0
+        },
+        {
             "key": "csp_UC",
             "name": "💌MIUC┃4K4K",
             "type": 3,
@@ -87,21 +102,6 @@
             "type": 3,
             "api": "csp_MiSou",
             "changeable": 0
-        },
-        {
-            "key": "csp_Bili",
-            "name": "🆎哔哩┃哔哩",
-            "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/bili.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
         },
         {
             "key": "88看球",
@@ -155,14 +155,6 @@
             "ext": ""
         },
         {
-            "key": "csp_SuBaiBai",
-            "name": "☁️白白┃1080P",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "playerType": 2,
-            "ext": "https://subaibai.com/"
-        },
-        {
             "key": "huohuo",
             "name": "💥火火┃1080P",
             "type": 3,
@@ -179,6 +171,13 @@
             "filterable": 1,
             "order_num": 0,
             "changeable": 0
+        },
+        {
+            "key": "csp_南瓜",
+            "name": "🎃南瓜┃1080P",
+            "type": 3,
+            "api": "csp_MiTuApp",
+            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cDovLzExMS4xODAuMjA2LjEyNzozMzAiLAogICAgICAgICJkYXRhS2V5IjogInZhM2hmNzkzbjNDRmR2RlMiLAogICAgICAgICJkYXRhSXYiOiAidmEzaGY3OTNuM0NGZHZGUyIsCiAgICAgICAgImRldmljZUlkIjogIjIzODEzYjE1YmY3YmQzNTljYjhkMzJmOWQwMjg2MjQ0YyIKICB9"
         },
         {
             "key": "csp_MiTuApp",
@@ -255,25 +254,27 @@
             "filterable": 1
         },
         {
+            "key": "csp_Bili",
+            "name": "🆎哔哩┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./json/bili.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
             "key": "荐片",
             "name": "🍭荐片┃磁力",
             "api": "csp_Jianpian",
             "type": 3,
             "playerType": "1",
             "ext": "http://api2.rinhome.com"
-        },
-        {
-            "key": "csp_FirstAid",
-            "name": "🍧急救┃教学",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            },
-            "gridview": "0-0-4.1"
         },
         {
             "key": "push_agent",
@@ -327,7 +328,7 @@
         {
             "name": "反弹",
             "type": 1,
-            "url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
+            "url": "http://110.40.85.39:81/jxxx/api.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -385,21 +386,9 @@
     ],
     "lives": [
         {
-            "name": "IPV4若卡顿切IPV6",
+            "name": "IPV6",
             "type": 0,
-            "url": "./lives/IPV4若卡顿切IPV6.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV6①",
-            "type": 0,
-            "url": "./lives/IPV6①.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV6②",
-            "type": 0,
-            "url": "./lives/IPV6②.txt",
+            "url": "./lives/IPV6.txt",
             "epg": ""
         },
         {

@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:12/15❤",
+            "name": "📢o公告❤更新:12/18❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -246,6 +246,91 @@
             "ext": "KhY021WelCEl+6MsvwnzaLK5sg6yEQRc8CLY+R2wReBS99eCRx9APeYSJ5VWzBI5XnVfjFiTSsduqSYOWQC3AqI3+tLwmZ/aT2z/PZuRbHjEUNX8RMiGfg8bkgTbOVjmN6hVB1V3ZE4DTbUbATLmIUci/wOblS2T54u1dxfP2owIfTg1nKSiYD1ndF3VotBmw5u8hM7jpJZ3Ugcaqy/mTj7oMr8="
         },
         {
+            "key": "兄弟影视",
+            "name": "💡兄弟｜影视",
+            "type": 3,
+            "api": "csp_AppGetApp",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA=="
+        },
+        {
+            "key": "西瓜视频",
+            "name": "💡西瓜｜影视",
+            "type": 3,
+            "api": "csp_AmuXiguaV2",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "厂长资源",
+            "name": "💡厂长｜资源",
+            "type": 3,
+            "api": "csp_Czzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "看客影视",
+            "name": "💡看客｜影视",
+            "type": 3,
+            "api": "csp_Kanke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "移动云盘",
+            "name": "💡移动｜影视",
+            "type": 3,
+            "api": "csp_YDjisu",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "csp_南果",
+            "name": "💡南果｜影视",
+            "type": 3,
+            "api": "csp_MITU",
+            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cDovLzExMS4xODAuMjA2LjEyNzozMzAiLAogICAgICAgICJkYXRhS2V5IjogInZhM2hmNzkzbjNDRmR2RlMiLAogICAgICAgICJkYXRhSXYiOiAidmEzaGY3OTNuM0NGZHZGUyIsCiAgICAgICAgImRldmljZUlkIjogIjIzODEzYjE1YmY3YmQzNTljYjhkMzJmOWQwMjg2MjQ0YyIKICB9"
+        },
+        {
+            "key": "cspMiTuApp",
+            "name": "💡米兔｜影视",
+            "type": 3,
+            "api": "csp_MITU",
+            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="
+        },
+        {
+            "key": "csp电影",
+            "name": "💡电影｜影视",
+            "type": 3,
+            "api": "csp_MITU",
+            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="
+        },
+        {
+            "key": "cszhufan",
+            "name": "💡追饭｜影视",
+            "searchable": 1,
+            "quickSearch": 1,
+            "type": 3,
+            "api": "csp_MITO",
+            "ext": {
+                "url": "http://103.88.35.251:8989",
+                "dataKey": "aassddwwxxllsx1x",
+                "playKey": "bbssqdbbssll25sx",
+                "version": "2.1.0"
+            }
+        },
+        {
             "key": "全网影视",
             "name": "💡全网｜影视",
             "type": 3,
@@ -418,67 +503,6 @@
             }
         },
         {
-            "key": "奈飞中文",
-            "name": "🧿奈飞┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://www.netfly.tv/vod/show/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-                "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
-            }
-        },
-        {
-            "key": "四个圈",
-            "name": "🧿四圈┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://pg.fenwe078.cf/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}.html",
-                "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
-            }
-        },
-        {
-            "key": "可可影视",
-            "name": "🧿可可┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "线路数组": "source-item\">&&</a>",
-                "分类url": "https://www.keke2.app/show/{cateId}-{class}-{area}--{year}-3-{catePg}.html",
-                "分类": "电视剧$2#电影$1#动漫$3#综艺$4#短剧$6"
-            }
-        },
-        {
-            "key": "万家影视",
-            "name": "🧿万家┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://www.lwjtv.com/ystop/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-                "分类": "电视剧$dianshiju#电影$dianying#综艺$zongyi#动漫$dongmna"
-            }
-        },
-        {
-            "key": "电影驿站",
-            "name": "🧿电影┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://www.dyyz1.app/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-                "分类": "电视剧$2#电影$1#综艺$3#动漫$4"
-            }
-        },
-        {
-            "key": "免费看影视",
-            "name": "🧿免费┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://qzy998-wap-1.ysgq.xyz/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#剧集$2#综艺$3#动漫$4#纪录片$5"
-            }
-        },
-        {
             "key": "哔哩弹幕",
             "name": "🅱哔哩｜弹幕",
             "type": 3,
@@ -537,6 +561,18 @@
             "type": 3,
             "api": "csp_Jianpian",
             "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "小苹果弹幕",
+            "name": "💘苹果┃弹幕",
+            "type": 3,
+            "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,

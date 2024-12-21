@@ -126,17 +126,6 @@
             "changeable": 1
         },
         {
-            "key": "厂长",
-            "name": "📔厂长┃不卡",
-            "type": 3,
-            "api": "csp_NewCz",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzyvideo.com/"
-        },
-        {
             "key": "原创",
             "name": "☀原创┃不卡",
             "type": 3,
@@ -146,6 +135,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "📔厂长┃不卡",
+            "type": 3,
+            "api": "csp_NewCz",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzyvideo.com/"
         },
         {
             "key": "木星",
@@ -650,9 +650,9 @@
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
     "lives": [
         {
-            "name": "牛播一(新版影视仓/ok影视)",
+            "name": "牛播一（新版影视仓/ok影视）",
             "type": 0,
-            "url": "./lives/牛播一(新版影视仓/ok影视).txt",
+            "url": "./lives/牛播一（新版影视仓/ok影视）.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
@@ -668,9 +668,9 @@
             "epg": ""
         },
         {
-            "name": "IPV6②",
+            "name": "平台直播",
             "type": 0,
-            "url": "./lives/IPV6②.txt",
+            "url": "./lives/平台直播.txt",
             "epg": ""
         }
     ]
