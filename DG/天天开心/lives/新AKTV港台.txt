@@ -135,56 +135,50 @@ http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
 #EXTINF:45 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroaec" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro AEC
 http://aktv.top/AKTV/live/aktv3/astroaec/AKTV.m3u8
 
-#EXTINF:46 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroaod" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro AOD
-http://aktv.top/AKTV/live/aktv3/astroaod/AKTV.m3u8
-
-#EXTINF:47 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroiqiyi" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro iQIYI
+#EXTINF:46 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroiqiyi" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro iQIYI
 http://aktv.top/AKTV/live/aktv3/astroiqiyi/AKTV.m3u8
 
-#EXTINF:48 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroqj" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro QJ
-http://aktv.top/AKTV/live/aktv3/astroqj/AKTV.m3u8
-
-#EXTINF:49 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroxinghe" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro Xing He 
+#EXTINF:47 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/astroxinghe" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Astro Xing He 
 http://aktv.top/AKTV/live/aktv3/astroxinghe/AKTV.m3u8
 
-#EXTINF:50 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/dw" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", DW
+#EXTINF:48 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/dw" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", DW
 http://aktv.top/AKTV/live/aktv3/dw/AKTV.m3u8
 
-#EXTINF:51 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/france24" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", France 24
+#EXTINF:49 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/france24" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", France 24
 http://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
 
-#EXTINF:52 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/kix" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", KIX
+#EXTINF:50 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/kix" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", KIX
 http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
 
-#EXTINF:53 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/lovenaturehd" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Love Nature HD
+#EXTINF:51 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/lovenaturehd" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Love Nature HD
 http://aktv.top/AKTV/live/aktv3/lovenaturehd/AKTV.m3u8
 
-#EXTINF:54 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nhkworldjapan" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", NHK World-Japan
+#EXTINF:52 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nhkworldjapan" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", NHK World-Japan
 http://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
 
-#EXTINF:55 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nhk" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", NHK東京総合
+#EXTINF:53 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nhk" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", NHK東京総合
 http://aktv.top/AKTV/live/aktv3/nhk/AKTV.m3u8
 
-#EXTINF:56 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nickjr" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Nick Jr
+#EXTINF:54 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nickjr" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Nick Jr
 http://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
 
-#EXTINF:57 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nickelodeon" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Nickelodeon
+#EXTINF:55 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/nickelodeon" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Nickelodeon
 http://aktv.top/AKTV/live/aktv3/nickelodeon/AKTV.m3u8
 
-#EXTINF:58 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/thrill" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Thrill
+#EXTINF:56 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/thrill" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", Thrill
 http://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
 
-#EXTINF:59 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/zoomoo" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", ZooMoo
+#EXTINF:57 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/zoomoo" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", ZooMoo
 http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
 
-#EXTINF:60 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-3" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 亞洲新聞台
+#EXTINF:58 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-3" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 亞洲新聞台
 http://aktv.top/AKTV/live/aktv3/null-3/AKTV.m3u8
 
-#EXTINF:61 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 東方衛視國際頻道
+#EXTINF:59 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 東方衛視國際頻道
 http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
 
-#EXTINF:62 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-2" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 無線衛星新聞台
+#EXTINF:60 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-2" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 無線衛星新聞台
 http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 
-#EXTINF:63 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/4k" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 翡翠台4K
+#EXTINF:61 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/4k" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 翡翠台4K
 http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8

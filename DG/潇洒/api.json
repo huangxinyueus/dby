@@ -197,6 +197,20 @@
             "ext": "./JS/巨人弹幕.js"
         },
         {
+            "key": "追剧弹幕",
+            "name": "追剧｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/追剧弹幕.js"
+        },
+        {
+            "key": "梦米弹幕",
+            "name": "梦米｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/梦米弹幕.js"
+        },
+        {
             "key": "小虎斑弹幕",
             "name": "小虎斑｜弹幕",
             "type": 3,
@@ -573,6 +587,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://38.55.250.149:1314/api.php/app/"
+        },
+        {
+            "key": "HG影视",
+            "name": "HG影视｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
             "key": "天天影视",
@@ -1696,9 +1720,9 @@
             }
         },
         {
-            "name": "臻享",
-            "type": "1",
-            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
+            "name": "优选",
+            "type": 1,
+            "url": "http://1.94.221.189:88/algorithm.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -1725,9 +1749,9 @@
             }
         },
         {
-            "name": "优选",
-            "type": 1,
-            "url": "http://1.94.221.189:88/algorithm.php?url=",
+            "name": "臻享",
+            "type": "1",
+            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -1783,28 +1807,12 @@
             }
         },
         {
-            "name": "至尊",
+            "name": "HGvip",
             "type": 1,
-            "url": "http://154.9.253.211:777/api/?key=tizaOMgxmM5q9aEh6Y&url=",
+            "url": "http://1.94.221.189:88/algorithm.php?url=",
             "ext": {
                 "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
+                    "hgvip"
                 ],
                 "header": {
                     "User-Agent": "okhttp/4.9.1"
@@ -1820,6 +1828,22 @@
                     "PPXLG",
                     "皮皮虾4K"
                 ]
+            }
+        },
+        {
+            "name": "无双",
+            "type": 0,
+            "url": " http://103.117.123.193:1980/players/?url=",
+            "ext": {
+                "flag": [
+                    "mgtv",
+                    "芒果",
+                    "RY",
+                    "VIP线路"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
             }
         },
         {

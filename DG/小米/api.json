@@ -7,14 +7,14 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🌈豆瓣┃如有侵权 反馈：QQ群：665981772",
+            "name": "🌈豆瓣┃接口已移交开源平台 请测试完删除处理",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "配置",
-            "name": "️⚙️网盘┃配置4K 修复弹窗 夸夸非会员3G可播",
+            "name": "️⚙️网盘┃配置",
             "type": 3,
             "changeable": 0,
             "searchable": 0,
@@ -219,30 +219,6 @@
             "ext": ""
         },
         {
-            "key": "hipy_js_腾云驾雾[官]",
-            "name": "🐧腾腾┃1080P",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/tm.js"
-        },
-        {
-            "key": "guoguo",
-            "name": "🥭果果┃4K4K",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/guoguo.js"
-        },
-        {
             "key": "csp_视觉",
             "name": "🔭视觉┃PYTHON",
             "type": 3,
@@ -385,6 +361,18 @@
         }
     ],
     "lives": [
+        {
+            "name": "央卫",
+            "type": 0,
+            "url": "./lives/央卫.txt",
+            "epg": ""
+        },
+        {
+            "name": "4GTV",
+            "type": 0,
+            "url": "./lives/4GTV.txt",
+            "epg": ""
+        },
         {
             "name": "IPV6",
             "type": 0,

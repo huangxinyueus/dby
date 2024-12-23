@@ -75,7 +75,7 @@ globalThis.vodids = function(ids) {
     rdata.vod_play_list.forEach((value) => {
         data.vod_play_from += value.player_info.show + '$$$';
         value.urls.forEach((v) => {
-            data.vod_play_url += v.name + '$' + value.player_info.parse + '|' + v.url + '|' + rdata.vod.vod_name + '|' + v.name + '#';
+            data.vod_play_url += v.name + '$' + value.player_info.parse + '~' + v.url + '~' + rdata.vod.vod_name + '~' + v.name + '#';
         });
         data.vod_play_url += '$$$';
     });
@@ -100,27 +100,32 @@ globalThis.ssvod = function(wd) {
 //解析
 globalThis.jxx = function(id, url, name, juji) {
     try {
-        if ("147258369" !== '147258369') {
-            return 'https://mp4.ziyuan.wang/view.php/3c120366111dde9c318be64962b5684f.mp4';
+        if (id.includes('xmflv')) {
+            return {
+                parse: 1,
+                url: id + url,
+                jx: 0,
+                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
+            };
         }
-        if (id.startsWith('http')) {
+        //log(id); 
+        if (url.includes('m3u8')) {
+            return {
+                parse: 0,
+                url: url,
+                jx: 1,
+                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
+            };
+        }
+        if (id.includes('http')) {
             let purl = JSON.parse(request(id + url)).url;
             return {
                 parse: 0,
                 url: purl,
                 jx: 0,
-                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
             };
         }
-        if (id == 0) {
-            return {
-                parse: 0,
-                url: id + url,
-                jx: 1,
-                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
-            };
-        }
-
         let html1 = request(h_ost + 'api.php/getappapi.index/vodParse', {
             method: 'POST',
             headers: {
@@ -143,12 +148,12 @@ globalThis.jxx = function(id, url, name, juji) {
             parse: 0,
             url: matches[1],
             jx: 0,
-            danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=147258369'
+            danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
         };
     } catch {
         return {
             parse: 0,
-            url: '',
+            url: '解析失败',
             jx: 0
         };
     }
@@ -167,7 +172,7 @@ var rule = {
     class_url: '1&2&3&4',
     play_parse: true,
     lazy: $js.toString(() => {
-        const parts = input.split('|');
+        const parts = input.split('~');
         input = jxx(parts[0], parts[1], parts[2], parts[3]);
     }),
     推荐: $js.toString(() => {
