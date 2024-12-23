@@ -128,7 +128,15 @@
             "filterable": 0
         },
         
-
+                {
+            "key": "py_幕启py",
+            "name": "幕启┃PY",
+            "type": 3,
+            "api": "./py/py_幕启.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
              {
             "key": "py_bilibili",
             "name": "哔哩┃PY",
@@ -161,7 +169,7 @@
         },
                 {
             "key": "奈飞影视",
-            "name": "奈飞┃PY",
+            "name": "拾光☪奈飞猫",
             "type": 3,
             "api": "./py/奈飞影视.py",
             "searchable": 1,
@@ -171,7 +179,7 @@
         
         {
             "key": "首映网",
-            "name": "首映网┃PY",
+            "name": "拾光☪首映网",
             "type": 3,
             "api": "./py/首映网.py",
             "searchable": 1,
@@ -181,7 +189,7 @@
         
         {
             "key": "策驰影院",
-            "name": "策驰┃PY",
+            "name": "拾光☪策驰PY",
             "type": 3,
             "api": "./py/策驰影院.py",
             "searchable": 1,
@@ -191,7 +199,7 @@
         
         {
             "key": "映播.py",
-            "name": "映播┃PY",
+            "name": "拾光☪映播PY",
             "type": 3,
             "api": "./py/映播.py",
             "searchable": 1,
