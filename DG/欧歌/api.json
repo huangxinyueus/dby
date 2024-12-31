@@ -4,7 +4,7 @@
     "wallpaper": "https://o.nxog.top/m//t/",
     "logo": "https://o.nxog.top/m//LOGO2.gif",
     "spider": "./spider.jar",
-    "warningText": "o提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖\n📢智能AI已过滤广告",
+    "warningText": "o提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
             "name": "o",
@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:12/18❤",
+            "name": "📢o公告❤更新:12/26❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -42,9 +42,8 @@
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.eu.org",
-                    "https://ogog.nxog.eu.org",
-                    "http://woog.nxog.asia",
-                    "http://1.woog.xn--dkw.xn--6qq986b3xl"
+                    "https://woog.xn--dkw0c.news",
+                    "http://woog.nxog.asia"
                 ]
             }
         },
@@ -657,7 +656,7 @@
                 "token": "./txt/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "https://woog.nxog.asia",
+                "site": "http://woog.nxog.asia",
                 "danmu": true
             }
         },
@@ -1333,7 +1332,7 @@
         },
         {
             "key": "豆瓣4",
-            "name": "📢智能AI已过滤广告",
+            "name": "📢长期维护切勿贩卖",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0

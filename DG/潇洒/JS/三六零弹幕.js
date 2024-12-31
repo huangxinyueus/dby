@@ -36,14 +36,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=" + input.split("?")[0]
+                    danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=789456123&id=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=" + input.split("?")[0]
+                    danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=789456123&id=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -51,7 +51,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=741852963&id=" + input.split("?")[0]
+                danmaku: "http://43.242.202.175:9595/nnjsdm.php?key=789456123&id=" + input.split("?")[0]
             };
         }
     }),

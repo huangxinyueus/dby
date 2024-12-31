@@ -1021,45 +1021,9 @@
     ],
     "lives": [
         {
-            "name": "王二小放牛娃推荐使用",
-            "type": 0,
-            "url": "./lives/王二小放牛娃推荐使用.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
             "name": "IPV6",
             "type": 0,
             "url": "./lives/IPV6.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合1",
-            "type": 0,
-            "url": "./lives/综合1.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合2",
-            "type": 0,
-            "url": "./lives/综合2.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合3",
-            "type": 0,
-            "url": "./lives/综合3.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合4",
-            "type": 0,
-            "url": "./lives/综合4.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPV4",
-            "type": 0,
-            "url": "./lives/IPV4.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ]

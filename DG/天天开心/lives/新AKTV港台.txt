@@ -180,5 +180,8 @@ http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
 #EXTINF:60 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-2" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 無線衛星新聞台
 http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 
-#EXTINF:61 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/4k" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 翡翠台4K
+#EXTINF:61 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/null-1" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 纬来体育台
+http://aktv.top/AKTV/live/aktv3/null-1/AKTV.m3u8
+
+#EXTINF:62 group-title="AKTV" aktv-server-group="AKTV3" tvg-id="aktv3/4k" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv", 翡翠台4K
 http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
