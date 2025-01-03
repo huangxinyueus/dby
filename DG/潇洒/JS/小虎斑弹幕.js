@@ -18,7 +18,7 @@ var rule = {
     play_parse: true,
     parse_url: '',
     lazy: $js.toString(() => {
-        let json = request("http://43.242.202.175:9595/nnjsdm.php?key=789456123&url=" + input);
+        let json = request("http://103.36.220.166:91/dmku1/tvbox/zh.php?url=" + input);
         let bata = JSON.parse(json);
         input = {
             parse: 0,

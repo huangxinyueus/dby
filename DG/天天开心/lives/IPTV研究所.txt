@@ -2,6 +2,10 @@
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml,https://epg.v1.mk/fy.xml"
 
 
+
+
+
+
 #EXTINF:-1,tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://epg.v1.mk/logo/广东体育.png" group-title="Judy「自用」",广东体育
 https://iptv.vip-tptv.xyz/cao.php?id=mediacorp6
 
@@ -141,6 +145,275 @@ http://aktv.top/AKTV/live/aktv3/astroiqiyi/AKTV.m3u8
 https://www.livednow.us.kg/astro/qianxi/qianxi.m3u8
 #EXTINF:-1,tvg-id="[ASTRO]712WARNERTV" tvg-name="[ASTRO]712WARNERTV" tvg-logo="https://epg.v1.mk/logo/[ASTRO]712WARNERTV.png" group-title="Judy「自用」",Astro天映频道
 https://www.livednow.us.kg/astro/tianying/tianying.m3u8
+
+
+
+
+#------ 咪咕体育➊线路 分类开始 ------
+
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 18:45_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_官方解说
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945767910.m3u8?migutoken=8f2d192cf3e7ee6c62544aed5d22d3e986b62f75176a5177cbad1beba26add057458f97b40395850b3179ee4a03bfb17b5af2b1a66f5dcb956c7e9649db90f6e700b6aec8c1e748cc955a425b7
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角1
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768124.m3u8?migutoken=6ebc17c6c92a05540638cf6c51781e0bf5cb74905ff4886ed07eb6e368d05c74da9efd2d5fbb202eb76f8a21dcfe70efad95bc8cd57ac4ad1b528addc6990d0900dc04dce9983b44306e9030ad
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角2
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768189.m3u8?migutoken=2304de987d296c873cfce78c1a8a5f2c26a41082ffc52ee8d06474fac42acb6e2728480556c97567ed02963216d47c84c824343ee9683cbb62f2fd6470dbfac0015037c0830e04ebf8930cfd9c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角3
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768246.m3u8?migutoken=fd63c5013ae6f727554a05d1c3c66fd930168ebd65adc92f81d86b5c444f899117e9f045ff1229f6b0d79e95d855f94a3cd0930d180fde2e72eba7e49d2b42d90af5660f38489c9c0c9a13ec0b
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角4
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768329.m3u8?migutoken=8b1c25c18f271d5f57280fbf083dd0753c3ca7d615b20e58d015d94cd9cb7cdbafa6d5f6ea7846ce3461ad4a8aea5d17f496f6a4a3c98751dc952b4bf29db652aeb3f25c76d89122ed73513ad1
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角5
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768473.m3u8?migutoken=46bee3e5f419bc4f3ac4cffa98140e6a26ae7a6b8dfb7483e130ff2eb37a39f7eb81c1c82d8b32ab0fc8871b9fbd41591b337ead066a4f72fdbfeecb0d5f5c98f2d77cb55dcef970c9b47ba86e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角6
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768584.m3u8?migutoken=b045e16598bf255ca6d5ba837a295e6dcd5c88b27c10323d20dabc2653481c567ed9bd621aa67abd203d98dde477a782d2b40c8973fb9e319973215664b59894d6ece2b90d9feb0202497d227e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角7
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768658.m3u8?migutoken=c9fddb02c6efd98d58016cfbf9daa30eb742956e89e0517b751667283071956bf3851248d372a8e7169a5a30e80a0027b73ea1331684d2c30bb27da8a41ec3f873685cef359e432c7287e92f21
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角8
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768759.m3u8?migutoken=6a7e4010394db46f8905b50b7b0971f7e9381015dcca707a0e003e428a1dcce98f1f01c6dd8f3226dd0e5c99651762096b0d109c575118c4838fca247347cc1acb5bdaef8766823f0fedac87dc
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角9
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768835.m3u8?migutoken=946d2716a4c7c4b57a1bf1a742417966a1ff5ded724ab89139e4d66f5c5e1760516c497f2b3f2fc9c5c83716c9e943f04c64f3e649c53ce70cc59413695e3cada34a53fb4c8015a284f0d96c71
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 19:00_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_第一视角10
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768930.m3u8?migutoken=ec3f33791c0ee1f128ad59d7f6cc847d877fa84c7c1e07cd8e8a69f68c7f0b9c5592e2449719e59001dff15a4eda2ff9ea3f17633b753697d1d44ef4ea4b2ffdfb8accce3eee3169d672a99e0e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 12/31 18:45_重庆狼队 vs 济南RW侠_重庆狼队 vs 济南RW侠_清流
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768035.m3u8?migutoken=859e2d13aeadb4544b4ab0e98ca9df7d1dffffa0115848413379d3576792f24dd4604939391e278836bd482ad52c2521bc5812c33fe641e7536fe13c877e2253169f3c83f3dc3f3e592b5a3bd6
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/07/13/6CT8AUV795RS.png", 12/31 19:00_王楚钦领衔山东魏桥速胜进决赛_王楚钦领衔山东魏桥速胜进决赛_山东魏桥vs上海地产集团
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592896.m3u8?migutoken=66fbd573966dec2a2b5c9cb71063559829f9d209105881f6f2604ae2c9c310ff1bb40c9ce64a8668ec0e13f8483223e330571546ac3278f5c5f7d1360a0eabb9b34b8f635733ca19f0ca07121e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/07/13/6CT8AUV795RS.png", 12/31 19:00_王楚钦领衔山东魏桥速胜进决赛_王楚钦领衔山东魏桥速胜进决赛_狂欢Yeah
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945589351.m3u8?migutoken=11b2a52c36a9e15ae8b8895adc911d84095091166ffcb539eb3d97cf2029088c7c1dd8e187596b3fcff944d97003b8b2df3ff574f866430330d53711a5f8a32a3282bd3f9e60e74a2f7d033250
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2023/10/20/100000000535106f44f7.png", 12/31 19:25_WCBA常规赛A组_山东赤水河酒 VS 新疆天山_清流播出
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945710131.m3u8?migutoken=3cbfb09735de1bd3b14f636bbf31410c3b30994bdbf8b6dbff6cbe41d624705a1a083940457529bbb11dfba2f672398f00e38dd64cf332be74c744f1ac64f990e2650473da48ccb6afe039206f
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2023/10/20/100000000535106f44f7.png", 12/31 19:25_WCBA常规赛B组_江西赣星 VS 天津冠岚_清流播出
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945710150.m3u8?migutoken=6d932f9376ab5a3c6ae343bde389a69eaff1fbd4ad45a151ccd8370c2d936897b462da0908f4845345daf7751d70a4370fb33e7867b5e298d4cc99fb9cf5a1c76d705b5f39858aac57ee17c7ef
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2023/10/20/100000000535106f44f7.png", 12/31 19:20_WCBA常规赛B组_合肥文旅 VS 黑龙江上东_解说
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945710184.m3u8?migutoken=2073de1cc7fbbbb0cd0c3a0c1fd0f70ba01ac5e199b141b0e4b7ada9213aa194f51cdc4699f36082ddc68f1ea364415c176bbd4e2716195c12c54e7b2b52b0ff6db64e78d08157a4af01fed07a
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2023/10/20/100000000535106f44f7.png", 12/31 19:25_WCBA常规赛B组_厦门环东文旅 VS 辽宁大连体产_清流播出
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945710161.m3u8?migutoken=39ab41e599a2bfb632f9fe2205cd3760ad08d2e5bc65b91d4f72827a5a529fa6f34f99ad1a5df2599b363ea8b827a40d17408bfcb90cfe64cfbf4526b64d5234df8e2dfe184099ea5c6c68fb1b
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 12/31 19:00_CBA常规赛第25轮_浙江稠州金租vs深圳马可波罗_邵化谦 闫宇峰
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487518.m3u8?migutoken=1451d104a49443c72aa59756ad6a67405f6ead72b97dbb8b259a4c0e16c81f4f75d19f3bd0f1b9b145a2fa789b07e496877e47e1dcba939365f3f6fe3b2a3de3a88ac5e28b852b3c084d3728ae
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 12/31 19:25_CBA常规赛第25轮_浙江稠州金租vs深圳马可波罗_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487145.m3u8?migutoken=9d040e557f9e1646bca8bda2ae310fef4769927d57bf2e713ea292e7fb2fa6ad45d570ded638b986bc0ac9581523088357b8d6af713a6ae918f8289845d1f092317c70a772a1e84e50290e608c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 12/31 19:00_CBA常规赛第25轮_福建晋江文旅vs江苏肯帝亚_张浩岳
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487019.m3u8?migutoken=11b3e662491f775ae5f630ba854b725e06bbe99ee50871ced582acd754144289c01b022946e491a0c0f693528700ffa644a800d575b4af09a2836e49838c2b6877f70b20ca9cc0128ea89c84f6
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 12/31 19:25_CBA常规赛第25轮_福建晋江文旅vs江苏肯帝亚_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945486728.m3u8?migutoken=17a41449fcab791ec5a15211242badeb7d19dcbf860f58366fea7038080a96a649748152aa39ef9568f51e23a3a200b71ae76ef7c2f1954e976abdd2a8fe2b28d9c6ab4ab7780a9a5223618983
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 03:55_NBA常规赛_雄鹿VS步行者_罗森
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592382.m3u8?migutoken=a625c0f5aa0cc19f49fba6ffcd40ca582c76162d8f22897bd8aa4262ba86361a4812b53c4107e33a7b22219f4a17bd512a7e0ab6bb4599ceea6da905a734bfd9d68b69f1c364d022e93c24065f
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 03:55_NBA常规赛_雄鹿VS步行者_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592340.m3u8?migutoken=383f398571c80c8a62ee858bd5b57100f7d285fd059831e32f6efdee45ef3ce33322f6d98a8e875a7ef3ad5628569962f2c138bb592d29d25a75007e99b0167d87fe9d3c757af589d0968a5c3e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 03:55_NBA常规赛_猛龙VS凯尔特人_蔡凯臣
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592259.m3u8?migutoken=3bccb1b8100f2f761ed6e988e0a547ecd1c91d5b3ec53d40c241269712ab114d06b66a787d331a12c445890901984cae566ad8bb7917bdbd864cfec29486e94cc40d60e213344cad3fb87ddbe3
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 03:55_NBA常规赛_猛龙VS凯尔特人_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592209.m3u8?migutoken=0d81cb2d4203f17348436d6a870c8e7427f92a93343dd7d4cbb0668dd131bf14c5c581d9c196f22878e9d97bcbc6256a21d103f0d5ecfadd576884528b7ee0471ad9e5b7a331171c1c55962c7c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 08:00_NBA常规赛_快船VS马刺_24/25赛季NBA常规赛全场集锦：快船86:122马刺（20250101）
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945897382.m3u8?migutoken=b1a52f073c50010df3e374561c01a8564401309b256984b2e3184b89d3b027b728f5bc3164b1959f588e84ca4434286117bdbc1f7dd8387c84cb61579ed286a3a7d512fd0e9caf7ce070826fb2
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 07:55_NBA常规赛_快船VS马刺_连睿 周赫
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592559.m3u8?migutoken=90bb4470b6116ff78b141caee6333438d26775163f73570aaea49cd2852f785763a75702f2b5c0333f96a0245e7c82a083f1e2653e1eabb904b802956cfa69d4cfbb94d6280b0c3878d81ab3a6
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 07:55_NBA常规赛_快船VS马刺_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592477.m3u8?migutoken=720903719834f02e7faca75d3d0909b1ce7a23c78f19460cd376317dbe04c908fe90a983e648267d95eb1fd0e13a60c1bb7f7bc7f86468b856f5d2022e2b667a0aaa939c7ffd8df64e81926081
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 08:55_NBA常规赛_森林狼VS雷霆_邢晨
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592721.m3u8?migutoken=c2416621b2ad5b1e3d13274db00b1b91864e44a4239755fdc95c30e5b6f58085096cbcb04b759f4303d32fd831afb818d908ef14dc2f9625473bf5a5125d5315b68cbe3ef9d74dda19cdccc081
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 08:55_NBA常规赛_森林狼VS雷霆_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592642.m3u8?migutoken=3ccc316affe4f52d42354f3bdb39fabc7afe0c8053df6b1b48499c4644a1eb753894feed22d380b0a4348d7689c3c22243540bd212df0887a05289cab7f8d6f963f27526aae70362135b63a7ee
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:55_NBA常规赛_灰熊VS太阳_李天宇 陈正昊
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592892.m3u8?migutoken=cac01ab855292cb21dff6a6127653a455d434c03d507a1fa7296080be6642698a68c38fb6f46b5fd5c5158ccd5db25ec1c240dfdcc1c59bfcdfc033093e12899feb90d6e4ad26dca24918235c6
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:55_NBA常规赛_灰熊VS太阳_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945592790.m3u8?migutoken=87b75c7feaeb0b4244966dd34343af9e5e978a8342d61a0e95fb34e663f6709bdabe539fd82fe60ba0221c92173c128355f1db9a8e610704540fe2edb450bff5f0b9b769e02be38ed5bcd30eaf
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:45_NBA常规赛_骑士VS湖人_姜帆 苏群 李根
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945593327.m3u8?migutoken=a06abc53325eae313a60d83d6a669f4b666dd828ada7a0f9f7b32dd765a679b787b4dd6e3b3401db564c85d8d43bf3f4b8b4ee64c50849575baaf478b2bcb3b15f8771b0547b24b556e36ea388
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:55_NBA常规赛_骑士VS湖人_郑泽鹏
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945593253.m3u8?migutoken=ed7091fa0dbe177fdc6ee5afb36146d158f20dd24c98c0777187596d262ca645a0116818b42fed23f1de2c2d49260e560513c9e5f67260b409e1cd9969f01a31538e8339493e4959f097642831
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:55_NBA常规赛_骑士VS湖人_莫俊祺
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945593186.m3u8?migutoken=2edb6f28f280ee7ca5b594c480ba9e195e49f4ffbc96020557aadb2e9ecd908ecb2a17407349965d92fa1d6ef0e7294bbd80bc41ac6d011bfd57f77b126ed0f8852c427fc51b172e3238f58d48
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:55_NBA常规赛_骑士VS湖人_洪荒
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945593135.m3u8?migutoken=1a64151319627f8484bfe6d96d490b96e6bc5ce4875be7465b40fab90baf7403bcf6517392c7eaaf75e8661df77bf5c467318176153c785fa52a00d5d6b37656f009f18e2469170b8721f539f7
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/02/13/6CF1HE3KHV6Q.png", 01/01 09:55_NBA常规赛_骑士VS湖人_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945593085.m3u8?migutoken=d5bd321cc290733d779417cce148c51cc9993c2bee33e06c372aab885b9997361941a2d6b158eca907f6c49e8fe93aa4b012dd2139071bc33e4a45ec93d5f2f1eb1ba76cc2f5cc476f4969e1e1
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/07/13/6CT8AUV795RS.png", 01/01 11:00_深圳大学vs山东鲁能_深圳大学vs山东鲁能_女团决赛
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945486660.m3u8?migutoken=ea03dd4b395b818ceef99f64a79406ebe3f7806f1eb7dcca7cdab0af40d14ba4d8d5461abe30e4da0abc77cf879d068fd8097bfb80c43e092aaac29e719882cda16aefb9258cd4968aae669501
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 13:35_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_官方解说
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765180.m3u8?migutoken=1d186a0d05e22f6f74c3204e37ede84a1b36743fde516f296c8783836c7d4a8d9745bcb3ce6cf1504663462dd7559b5d502e390a061047ad26bdf13a112912d32d7c042ccf223183d98f1dc68d
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角1
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765329.m3u8?migutoken=2f1a38b4483cf2653cc902b617f6e92da00739689af580dbcfc9e92739bacd61c78104740cf182cb9e1904686aefde38ff2b440c44b410a780e0130da8caf0505fc4856c054ed4408e3391a8a7
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角2
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765463.m3u8?migutoken=bfee918dd82020a9db070773f2e7cf4d97a133bf826ab99716c9965db56a7e517db9a4e586f3a1685e4ccce14f2471007ca3b6d17780e67ea8375fbeae424d8a3ce141967b3f3753b7a9d74e7d
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角3
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765605.m3u8?migutoken=f1702c6d3e73012686d20385b37fba8a7e77130eaf2b96c1f4a19f3097f43599b98b4ed197c210621573bad517085d57674dd1bc890a37c4dff826d578b8833b08f6c5caa993cb10cf9d089976
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角4
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765728.m3u8?migutoken=30090e916ad0adfb5bde2293abf1dd13c8527a2a409e3522872243c8afdf84ca206aaad9effc1c37f9f9c1d94355ed34e4e7efbfeba6e7abdc0b0883e7943460ce134f9e360a8aa182a1c54975
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角5
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765851.m3u8?migutoken=d18eb2cf0c4cf257fa7687a9d674628687cbfbc30df6cec23749cc7e96c8494fe8938f21d8e1553be155978fa901484b04e1340ec572e2a62862413b5e313f80fd81477572a74185016253a88d
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角6
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945765996.m3u8?migutoken=5857b514fc7842373710a5e29054a53a04d7f0ef3e73bf00b8bd2b44bbd23b4fff24b5dae8219da69616afd011b8caafb2ac9af57f3b321387e2b3c8746577058949616cb82f05fd445f89ac47
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角7
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945766169.m3u8?migutoken=b38b91f6aa94caf9a0560a38bbdb5f2daf8fbcbb613cbdb9d30ce409ef4fe5cbd851c4ddff5bc00c2d477ab3fb4df7ff8e400f64aebfa27cde8a90b2f7da557efd7afd473934341cc3994ebf1d
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角8
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945766330.m3u8?migutoken=626c8905d1c34b5e0ccc60c13791104b2072ac312d262b052e27ad263fb3484b07115b1740d609a9d1963f0b351808a27f0b785c776070b664fd0e27004f3efcf43d8e23d94bca9f8205d87c87
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角9
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945766462.m3u8?migutoken=651c97bdc97b67a1afd50328e14b75bc77d7d8c6430a5d49af9b56df8ac964f47a9820e6ae399becd4d2f84753db2b3d25f48592c1a3556a2d19f7715336b3579ccbeb58e4681a6c93fa065278
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 14:00_成都AG超玩会 vs 情久_成都AG超玩会 vs 情久_第一视角10
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945764712.m3u8?migutoken=9f8d71515fc6785835b6f45842c12da4f75c7a05d196f42bfe7dcd45c5da45a2b3c08845b551a54d3f138e6a8db9b3687c7b0ea34d98b1ab67c2bcc411059ae6363cc50c97c9aecda237c8e04e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 18:30_北京辽宁赛前训练_北京辽宁赛前训练_北京队
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945490860.m3u8?migutoken=eddd916246dcb91b97451866bbeff6fda3c05ff75247cbf770414c80567a1372e462efeec26cdf3c124771f84570b01333c10f3521ec29dfeead1d7d3ed111b0a8a00bdc155be97eb1773fae15
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 18:30_北京辽宁赛前训练_北京辽宁赛前训练_辽宁队
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945491390.m3u8?migutoken=14cf41e1b62861ebe66814262894de47fda019683fdb827058cc8c6a7f5f592a6b322b81a40b95067f12b619cfdf43e71184b670d0af91b5e07522303206beefaca361d645a4ef8ea85d4bdbbb
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 18:45_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_官方解说
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945766752.m3u8?migutoken=94c4a10424cbb8b98c8231ee9d68c3c799de359e112b0aedc53e67b00afeb9dd77db90dd709a92225aab044be8210244e2a4ea8275f11909104d0bcc8a4d65a5c392b1b55c097c21e5c5875b57
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角1
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945767617.m3u8?migutoken=0ce989c399e572874974dcc3ac6f9066cf9a71055b46927fdc72875e889ea9c9fcd42992fcd314c079946d5e66a837d72c2d3c14e5bda2f20e042058d87e4a51c9ef2ff4f8e1dd520439d8e3c4
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角2
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945767702.m3u8?migutoken=af7e8cb1df47c6ec19c85bd1060c592a479c4f67d6186f4cd0c9f0826b31e1a1262a6ba8041f249261e756affdf6fa98529c068bca6682a9d810ab6cfc4744e73ee2ff7292ea207576244eed50
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角3
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945767815.m3u8?migutoken=81d6e22f24ed30cf6aad154bdf3ae114cf296c409d8974267cd0d7cdb975e243f950a19597c3d99816e823b7f065f407c2ec88bdd55b62f1f1f2454993be5c95f1abd1178b7ee9f7113798b3e3
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角4
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945767894.m3u8?migutoken=b54a3ba134f624ff9cfa13b651bde4541261a968b875f331276cf61b0eaa93c4bb6e4c45ce1d3b7cf09f9250ed1f9fb0bc6bbbc3dcec4b24cb5192d30beb88d2d530ffd904ee62c6d0bdbb0fab
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角5
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768002.m3u8?migutoken=e81081666a51372f7aeac5d551dcdd1e220df7f05a5451640c42703e4f345463050d185ed4130df5b06de9531b330bdab13737117a96b2927aa1abaf73412883432d1a0cd3d0436ccdbd8ba40c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角6
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768085.m3u8?migutoken=a608c97a2c52444209e39d9d53c3c333074452acabf177d89fa877c7917d7292b7be41afe121a9f8d27c64f388a2b2e717c2c890917fd993f343d8ac1309346b72db2daaef0aafb5963919ce21
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角7
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768187.m3u8?migutoken=21dd5c4627958becd276beae89a78eb1676271316eb1fa5cc1054832cb02d8d0033915219843a151188f54f809894bc37fba80a1d76778761eb4f64fee848770d9486b4603f1a60041084a7031
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角8
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768244.m3u8?migutoken=41781739597b09da3183a9c9b3adc2d6ece5825eec4ede5bc691a90e91d2bda232e5187e39d50a46c3b14faaee596464ecdd9abd30699ce8637c3759c2558efb759de6ca004a87d491e9fcd0f0
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角9
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768328.m3u8?migutoken=a3c533dafb7e4863cafe18b1b04af27c1eaa31262e6a362470e6aec1c114d45475cc471fe3846807d661c731c2f6750824b4ec537b0affc65f335b1f7481add710dd49298619f338bee2a697d4
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2024/11/19/6M50HG0PS0PK.jpg", 01/01 19:00_青训凌云 vs 佛山DRG_青训凌云 vs 佛山DRG_第一视角10
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945768438.m3u8?migutoken=45a153404a98999a6dc6507a126cb923ce213c8cba9cd26321466ebbdcd3b22d244880d2091b9fe143b02ed5b478a9b58d511dadd0e2ab7113adca846e3c045240ae0d7ac10705ac6b4d111c6a
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="http://img.cmvideo.cn:8080/publish/noms_wc/nomsworldcup/2023/07/13/6CT8AUV795RS.png", 01/01 19:00_黄石基地·华新vs山东魏桥_黄石基地·华新vs山东魏桥_男团决赛
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945593084.m3u8?migutoken=76926554f99b1bb12e075a987bc57765d5617e938b82e9b156abf0713f145c7dea429f54865659ad3a5f471f089e10e6e7dc4818f553bf507a46c5a2f3cc2f0293ab1dbae6144c1dd9d57cf84e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2023/10/20/100000000535106f44f7.png", 01/01 19:20_WCBA常规赛A组_浙江稠州银行 VS 石家庄英励_解说
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945710272.m3u8?migutoken=2aff1805467fe2703355357045c2486ce9e06a85eafaa61650319d4f61dbcdcfcd4000e6757ef179bd95156437ddbf82092679e17580d637a6e9cf4ef94fe78d297378bd1acac546e1718ada7c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2023/10/20/100000000535106f44f7.png", 01/01 19:25_WCBA常规赛B组_陕西天泽 VS 武汉盛帆黄鹤_清流播出
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945710195.m3u8?migutoken=ccd245ec8211cce4adc85e69a8709208834aaf5693f88bb58fe1bbd72af5009f631f0c6179919f46257251f33abf80bdf2fa19806cf8010ac2eac6202bef66b45602f02a52d7ee683f31ba9cc9
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:00_CBA常规赛第25轮_浙江方兴渡vs广州朗肽海本_徐秦威
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945488133.m3u8?migutoken=0a412f5504abb363214181a192f5697d0043e677bc464e1f218b75ebf5aaf886df22750735a6b39a5bb0e31fe4b69afadeaf98008a5b6763ff392728f14ba7576ac7804379215f4d86d581e64e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_浙江方兴渡vs广州朗肽海本_郭知昊
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487983.m3u8?migutoken=b9969bf979625dcbaea4156482abae8028c24e24d0c50999fa5ccdc49641ff8c72fd6eaf443a639cd6b7b1c6437de79a992b6c50a9dd3bc9bbfaaa9480456ebc9bf13a118606d8788b51d641ec
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_浙江方兴渡vs广州朗肽海本_张泽欣
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487838.m3u8?migutoken=48ae7d4a9a1716c6b6be5fc2ddfe5746ea97e9883ef6ea227a8f43a6ff4df57c9a99ec97c6f2f5589ba13b32424d7bc63ab56715adefcffd59a947a32634bfd444c9a78f99bb65c4d64b354dbf
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_浙江方兴渡vs广州朗肽海本_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487623.m3u8?migutoken=d65ecb8dfdd8918b06121f92092fa14e8b540c30b0f03e6e990e7f1d9a2d44b41f66cd77eb59080e71912ace138d7d8c2e395bbaebdb59426fb8471ed0d40ba0329d08cbeb265965ef7ea3273e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:20_CBA常规赛第25轮_广东东阳光vs天津先行者_姜帆 霍楠
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945488677.m3u8?migutoken=0a278e470f313e8331157eba6afdd22844046a8ff32a444c9e504e9562ceaeb147f007ee398a4e6adf864297da8be25438f6db70c39a2f4b284ca44305b52ca25f386fae9d1006f9f96529d266
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_广东东阳光vs天津先行者_翻译小余
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945488517.m3u8?migutoken=a654d999aaaa630d75d2c2a302afd317339128f904456481378477debee4ea93799cc3914d41592b51b32cb614aae47c56bf58635d962495801cf5a954a121169afe811b08c3ddc2659cda41ee
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_广东东阳光vs天津先行者_荣浩达
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945488405.m3u8?migutoken=3aad57db6899ae03639d9bbd199ceb5bfe29abb9e0784892863eb447a398412ea15120e033a4623bf404d6f76136ac3049c8718bc6a2fc86e0841dbcb799240c4a643476a21ce33f5c51b0a1ab
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_广东东阳光vs天津先行者_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945488343.m3u8?migutoken=23e41125f69b5d2f034b65010d02ecae1c158a264e3954caa8dc9415e2555ee9ece84b1e3aa5fe808d8d7db017c1ad3bd899c4c01f3f54237c8d5b90b83b1be5c52b544725d3a16eeaaaa8cd2e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_广东东阳光vs天津先行者_3D全真视频
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945862848.m3u8?migutoken=9ca55537c05a9b69d3dab78f83b2fbbec2c2d052c429bd8fd013812d9cf96a5af1dffc42f8ac62ff0c0b1ac556616ac9df635db075a414c91abfdc4617ad9b5f2e45174af960f591122e8634b0
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 18:30_CBA常规赛第25轮_北京北汽vs辽宁本钢_杨健 李根 丁伟
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945489803.m3u8?migutoken=2d57783a9531305366a1bbc3f122fd2c4c7a0a73cb8910f1fde669c3b457fddfe00f17e3e3f77852e2f6928fbdfbe04ad1ed126c7943d738d338aa02545fe0805e3d16f627502b0b317697ff11
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_北京北汽vs辽宁本钢_谭成国
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945489202.m3u8?migutoken=0287413c3733d424a4b9b2e0605b02db93c825475792ed1b5e9c541a4b5120a5bde695dd0d95f5ed77366ed7f470a4539af5de545cc75dbcdc9bee450ff78b7165d98ca289e76e9335d2031631
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_北京北汽vs辽宁本钢_哈秋
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945489059.m3u8?migutoken=4dbc1ac71b22ca53593b997d077f50666728355fbbe19ce8fcb228532d5af10bee1aee0458f6ae5794a8656e334b214ae7ded311f30dd7674005bde96d267e4416e5573afc06803d06714adb54
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_北京北汽vs辽宁本钢_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945488777.m3u8?migutoken=ac30efa130bc2435e7741b5f27491d31519a94c24694339e8cc4dea94015af0f8e6be4b4665d04e815da5d75640cdbe2cd73f671c0b2455432a6544ac47542fbf753687dfe1e4f1d22372f6579
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_北京北汽vs辽宁本钢_明星机位1
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945489909.m3u8?migutoken=7612620e50b8fbd501b5b235a0a56f57511338c9257586fcccf073f58ab7284ffe6248b67fb7b9b9d4e8b875135fb2030b51c2e366ffcb4f3bb58f68058a8be2c3c3eda16a131720327dc149d7
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_北京北汽vs辽宁本钢_明星机位2
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945490160.m3u8?migutoken=3fa817c51e6ba64ac5e5fc180911e303d76f038664cb57eb9eb194852cd9f28ed1e96c553937064f4d7ba47e7cb015cfcb24beaf256576bc5aa45a8d90eaface5afba808466890948d449de98c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:00_CBA常规赛第25轮_青岛国信制药vs四川丰谷酒业_蔡凯臣
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487380.m3u8?migutoken=0f2e9f8fa6ae42fde569ec5f4c75ef6a9c07457f57de898af38e60dcc3f44300606cd0f2f423114049d847acf9825eef5d698e0806a01949718ae22224ef659b62ae0c9c11d7b518a62fb6b46e
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_青岛国信制药vs四川丰谷酒业_刘沛元
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487148.m3u8?migutoken=cd6c1d05a9b352b10f3f8a51a06f2cef1b2205a265f3491a2ff9b69a5c8f678a0b0f20570765f6f7dd898ba0bdf03053aee681bf1b06218ac2a30b6d246fab983ed2bc137d37538eb48c0c2dee
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_青岛国信制药vs四川丰谷酒业_字诚
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945487018.m3u8?migutoken=d0ee5aef7aa7685cd0aca83a8a3057a2ac106c10c952bc3c56a81655248b3cf1e2b901ec82580cd4595af0c08019ebffa405b82c0698bbfc6cf569b06acdb01f4cf8cc351344d4673110886bb3
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:25_CBA常规赛第25轮_青岛国信制药vs四川丰谷酒业_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945486726.m3u8?migutoken=0f3177513cd42bfdec5ce0dd1a1dd6dbf892120aa98656f4f7bb31707fc60c176044fe6f210d7b1abcb15a9212ed27e67fa1d6a403377aefa3e6346a5aaa0aa707aefe5e0a462b116af194f698
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:00_CBA常规赛第25轮_新疆伊力特vs山东高速_李天宇 张兆旭 魏欣怡
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945486501.m3u8?migutoken=a5668177046a5c58b549698deb79740df9e389d30b424e5b7d423dbd4c483d825b43d8084b09770dd7a7f1a558253315b860106dffb0f1155f148a2421e2e2f9b6e5a421ace2801f091622aa15
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:50_CBA常规赛第25轮_新疆伊力特vs山东高速_盛哲
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945486297.m3u8?migutoken=d6b9fb2730e2666f4f178968d4dfeb4bdb60289fad8d11a4f2965d94961a4f3f2ade1a29d2d1e7fa087960af81555e6d3b83c27f7324197a95db8b0a2c4ad8f12447e564692016874da4b6ffeb
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:50_CBA常规赛第25轮_新疆伊力特vs山东高速_王新通
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945486088.m3u8?migutoken=33e890f7a4e85ff499ab1863843ab5c344554a5ff0e97c5de500253471137a62358910029f23b032874bbf4ccf186427cbc3dc2e581e7bce1fbc2d842b684834c1f83d795173809ae281c2a662
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/5a49fc90-e34e-4dfd-9556-3e3895a3fd78.png", 01/01 19:50_CBA常规赛第25轮_新疆伊力特vs山东高速_现场原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945485515.m3u8?migutoken=aafa1d44b334b5fc0bdb84c5d9c40dbe3ca70185aaa00bb4935d31adca0f6ffee9cdc0a95a5fa6c22e686189ac5bc71bccdae09cac32083a2f80fb65fd8ef68ba6d82d5bd6ca971cf982fa0268
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2021/3/3/51067f839.png", 01/02 01:15_英超联赛_布伦特福德 vs 阿森纳_刘畅 颜强
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945453387.m3u8?migutoken=086a835361b132a593e3db2e93d21c3789029cdf79ed5988e8b5468869fb4becd87a246f77cef847d6f5a180fe2fd918e5f5a7034fb8c354603d0569dda7be6e14c4b1003261e3b9360a918f5c
+#EXTINF:-1 group-title="咪咕体育➊线路",-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2021/3/3/51067f839.png", 01/02 01:15_英超联赛_布伦特福德 vs 阿森纳_刘畅 颜强
+https://caoshiyizhongzhiwu.vip-tptv.xyz/migu/945453504.m3u8?migutoken=fb4a7d8432960a42c9a446c389672713fd756afc965d86f2094fcb8cbb6d3e3bdea63ffaa105ae6fb7ad610bd48c119fd782a6c22bae54ecc6f654096c8468d8db90850a05090ce201e4e7ab68
+
+#------ 咪咕体育➊线路 分类结束 ------
+
+#------ 腾讯体育➊线路 分类开始 ------
+
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2024-12-31 19:00:00_乒超联赛_2024赛季乒超男团半决赛：山东魏桥·向尚运动vs上海地产集团
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253079/294635/1766832300.m3u8?txtoken=21f22c122e742c421bb947d0391e50734a4fc8c9b752c3713a8e7074a63bcf5524d52df932f9af6794d85d0441837b90dd309d4160b96338a71dca3c1aed1268b5e2404c8e42e2a75662bc077f73a827e48e0ed1821117adc1847d971a9a8d47613c65c6a0cb776d9dca31e8eed2d0e81eed55c997e6fa11fc52afb97b
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100080.png", 2024-12-31 20:00:00_CHBL广西决赛(男)_河池高中 vs 北海九中
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100080:1835404/294707/1766873300.m3u8?txtoken=2ca0da442820c39b1fae1998811d734c1fa91fcd914f07cb0817a9bf59ae4ae0f749745e7cfc8f4206d99094218dfecc19422f7462d9916ac6ed872969b40513640ef54aa5f5cdcd1774b00f5e656fbc5a462b5850a95f327ab564b7c2d3d9a07e7ba45c3e371519958d7e5a21d073a22ea0da57ef74b534b363f2b1c8
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 04:00:00_NBA常规赛_凯尔特人 vs 猛龙_孔祥宇
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400449/294565/1766808100.m3u8?txtoken=278c8fca34fbef345929e3a84aa3a8dc35595f44776d80fef6b826fff36228c743ccdedadfb7603b83ff5c00adcdda17fc77264a0a3692ccd1af362bc467186fe540812eddd762e3310428ae0a29d2b70218b45aa460b11cbbf07062964889dc12645c6712713c7ee20b1f922e6e5cddf755e44a9f1d25a4640ca64072
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 04:00:00_NBA常规赛_凯尔特人 vs 猛龙_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400449/294565/1766808200.m3u8?txtoken=f0f8c76efdbfb0e463f9866abc943128f06a3ad51a55ba27f279834128124849521d8b178716347d96817b5d5e93e157bb14d63993c5d5b807f1573baad52b009e1adc20c048ac3b77fd3df658df06229805fc4261ab41ca82c9118dbedfdc5d57be1911c570b753a55d00d515c5f350c68cbd1650a43a4286e689acac
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 04:00:00_NBA常规赛_步行者 vs 雄鹿_丁楠
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400450/294571/1381993000.m3u8?txtoken=fab0350d99648b1b4a76a549efa0451bceb9313c93ad7c9d4e58567a3a95ce825518b53d7e3a5ea3cf14b0af97604e50ddf215bf1aea45f02f9f66a346228e7f35a2615108dcc7a39bf5ade742020f6ebbacfb91993ae18b2cce9e704182c2158251c1e9d7d61dbd65ee33220cc7c36a38d14cef1846f9b5e57d22185e
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 04:00:00_NBA常规赛_步行者 vs 雄鹿_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400450/294571/1766809000.m3u8?txtoken=1d7d4ea372b403920a4a69062b56e7b8ba966f81be8ed56875222ba1d5ac2b74f2b847ca5f16766e828ce7f5498a0273b56bbd7bf884c4db7ed2ab992d494ece7813cd8b02f2a2521561e0a12d715830ea76368af021ff5c9eea2f39949566de3892bc32ecf4d6e37c752505ad660b043a69ba77c614da2a415e6a7231
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 08:00:00_NBA常规赛_马刺 vs 快船_石楷文
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400451/294573/1382008400.m3u8?txtoken=25c474c7a754c9187b2011cc499a824d603e152707aaca928da4e9ee0ad7f0d95d5de7fa316c0586e461e908590cf51b74ad5491a05488d6aa71b745c6fd996e55ee4b6f88fbe0beff2ecd9a59896668dd4dcc5eb9b8154f642e47e78227a4eff0ea80195c3b7251bc9c2f71e785ea7bcd8575031acac97ec2f2373c57
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 08:00:00_NBA常规赛_马刺 vs 快船_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400451/294573/1766824900.m3u8?txtoken=1bb016830184b77139be46e8b3d5d4aec63bf1e056c42f209fd8571f034046686c05640f065e83712e9e1b721c43850f390212e0536dcc43d4278f5d6c04a6912542a66ea4bd34195071a9a24fcd5a5d784863a085d42c8d91c345727c161e2522cee27b36513213ea874b202612382be1ef4987a6eedc02d7a1c36aa2
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/match/1c1b4605c78c4abb8db610b2c0e6401c.png/0", 2025-01-01 09:00:00_WWE_WWE NXT 第831期
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20252940/294096/1766829100.m3u8?txtoken=eb99628eb8d71e17558c68698becfdcbe96b0bba99ba8dfe59f204c9ec35f2dbde622cb87c5698b4974d02df6bd558ab963b0ad4b46e6cde8b8ac9384becaf8d6d1cf7960bcba03e8a20c3e416598cc3f756f036d83bd9de2e28087e040dd44ee18b34a3394f5ceaf45c79286b740e4c55fd72262147f71cabae592718
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 09:00:00_NBA常规赛_雷霆 vs 森林狼_王子星
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400452/294574/1381995200.m3u8?txtoken=9c9570c5b8cd955b629e7b41219d34007f98d22b89129521ed9cf911312cbdc70e55c3a97005bd69a5e0e60737a2b89cee7ec5651ecb796995ea963c7adae18efaecb67f371ab0b0ab54be2eb7a7b50859773e91b54e02d8b5585455ddeedbb1b7e18470763dcdf6fe97775a749cc9bad2cd673df0141023bc90f9c6d6
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 09:00:00_NBA常规赛_雷霆 vs 森林狼_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400452/294574/1766810500.m3u8?txtoken=3df4cf9d2a0894f8e8b95c21a5bfbdf5a0b9c9e3eada4d299e584d5b0b975cbd2850ea71c18517877f57d52d6c685cd136887980c05e5712e48bf473cb3a54e1a63a2cdf8f8502947f969d71bd6f2f12801e084be44c0362a4de858d3b166aa8fc25bcaa4cc5a7cee85a7fefb1e8aaacc44810a44bfecc23ac9f49eb8c
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 09:30:00_篮球直播节目_《早安 NBA》第67期：詹姆斯：走下坡路？我还能打5-7年！_段冉 殳海 炼炼
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253028/294584/1381994600.m3u8?txtoken=de4c4330bff477a6d4d72ed6db3b87bb37013799f551d8bfd2f0e484913973928642d91b805aa78053e3c8c764a0ef4290e2650990f3dc7acf27137fc36a937638ef5a61ba72a8cff5630418ba1637e19654a587a538ee0f391d1e2b9f8befd75011558d4494de5404a962bdf5b495c43bca03b86bfd57524baf90a3ec
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_太阳 vs 灰熊_王嘉琦 曾令旭 婧雯
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400453/294575/1382008600.m3u8?txtoken=69ce0ae5142349f454d274948bbadff5bb2654ee2a42b79906fc1020b60cb58d929f146f0afe2650b63dbab8f6d4131202c0217886a76aaba4636b0c65537435c418a9e15a0068f1fa0e092da8e3b3259cef4199ab3b033926b54a42bcb620a84e78d98efa66ae5be8d78ebf593dc0129d0ddfeebf4883fbde190c7a0a
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_太阳 vs 灰熊_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400453/294575/1766825000.m3u8?txtoken=4ac965fb64525b9d322a9b5c21d4b7f02b3f42a0bacd9edea14c0ddda62bbf6a3868b2b6fd3b46f21ba6fff8cb5a5ed3a6dd46294d7ee0950ce88efdaa923ab7e4cfe33f3245d6f4207f37b548f59ceffc2295c202a7ecec6c345a2ff3f85a2dce037aea76acd0840b9742eea6549d56bb003de8162eb0f194677efe82
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_太阳 vs 灰熊_球星视角
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400453/294575/1766825100.m3u8?txtoken=1243ae7b5f7b852926f8ee12e1e29d29fb6be7ea7539b9d107c5d79da40e886c61a33f94493ec34fea7f9cc2cf520a985da099f328799ad7adf48d749ae1af08d6041fd12f78d393d97ab8a41d50b57da8aeca3d0ff6f10fbe2840b76f0f677a99664792e7f716432a23166431bf3cbcda7c547efcddc5517c47d0e878
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_太阳 vs 灰熊_二路-孙世睿
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400453/294575/1382019000.m3u8?txtoken=354b65a645d5deecf97b48b3eb6cb6e7eec37a6abe5e6f65df3b5c9b5b418b06b3f4dcc3fa8c78973bf7cc6c18ec317e02d6d45792cd4a0a43ada9a7c7d3b86774935b7406516b96a7ae57626d44ffbc24a59f4c9b1f74bf899345fa646b64d6be9961dd167360371b54e32d182e2e8f5eff2052e46eee4dd517df2dac
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_湖人 vs 骑士_段冉 殳海 炼炼
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400454/294576/1381995800.m3u8?txtoken=93c09782603b17b0a70a614803fc5c2d34aa1d3b1c4b22afa291f90acd0f49ec211d89f6382c6da3107b40cbc5897afb8fbf4f9a707e2bd45d417d6511217dcea0229bd8e87ebef29f4af6429dc000be4e878ce64ad76c8c4cc010d6824297431d4916aafae5d2c908cb39213d299605fe074cad4ec2e1ebbf6e1301c4
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_湖人 vs 骑士_英文原声
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400454/294576/1766811000.m3u8?txtoken=ad34013b80d52c873a2268c9f4d2eb70765b6cff668ada25b7154bc59b9052b99b25619d6e8d44ed6b1eb3c3da47413465086849805b612dd623e5aa8e165c490fd6506767aa878e4e6b88425c78b6a1dad583d9ca1c7ea45e8556a2ed5dc243a256eb7c1f49f075db13db4469c1908459e130b05ad3c945e189170988
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_湖人 vs 骑士_球星视角
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400454/294576/1381995900.m3u8?txtoken=1b4d351670e1e25abfd626a2f5444345bc9a6595222dd16f2a78d4b2605dfeafd154fa6f6223cc994f07dd447d4c8ccceb10a7259084de606f14d8db4313403a96d0020447c211f6a1d15b575e75d1c70cc86e2b97ca121f53cda36cee46ac4d4c34a055d52757e8fe97321296cf15a91ad3d55a14b779f7fecf2b0e6c
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/competitionLogo/100000.png", 2025-01-01 10:00:00_NBA常规赛_湖人 vs 骑士_二路-徐静雨
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100000:10022400454/294576/1766811500.m3u8?txtoken=0a2c99201bb1672383a5ca1a85edacf1e116adb5c5462ac0b0207bd0029471d80b3144429d6e4c6041f8b9e2cae01267548ee214f5a836e4dfbedebd168c83171104e7049529632970c62e03b4f07a22d2e56b35163185914b31e065f2eb3e46c3c0ba474bcb477894837ac8594ed954a67e96dad79268236d9faf420a
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 11:00:00_乒超联赛_2024赛季乒超女子团体决赛：深圳大学vs山东鲁能
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253077/294636/1766882800.m3u8?txtoken=e5457b07d9279b42b53effe856ebfdc15596cc4df41747c91f52be4a8c2b4dabf4c770048ef3d10b4278a2e12ce7172c16fba8ec17d384226bd783c1a19c3c6ea427c5ff7da2e9fe6458de7e76bc19614c792ab818ae0843cb69a8afc8426679a761e92d379c49efac649206991082c345191e54e5cdd420b0b2afc878
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 11:00:00_乒超联赛_2024赛季乒超女子团体决赛：深圳大学vs山东鲁能_清流
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253077/294636/1382065600.m3u8?txtoken=b0b5fc381d948fcc41f4c77d9a97c4110e6341e960845b2439e27baf6fbf1622af27e59d0fbcdc079f759d95d21ab32f2f0146973eafba0e8dfd74caf15036c00c334792de274f554650cc849c5700c2d5cfabd431343d66b4c23233474c372b037cfd248d502d5d9870ca45851ef2650826626467931882f1edc0f4ee
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 12:00:00_NBA经典赛_詹姆斯经典赛精彩回顾：14-15赛季詹姆斯1.5秒神仙三分绝杀公牛
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253088/294544/1766802600.m3u8?txtoken=a19153b0a8db551cf5a6be169188a632208bb489fdb3662456cc333512acd205eab96634b21fb30a3ed71aeacca2edbfd3524264a6a037f2c3b6de01e3646c6de6f13d9690b268beb2db414809488b5fed35a02dabde492674619981ec0d118c7070c0e294fe1ace39f1b414c0d5e3feef00362a37d9bdf7857eb551e9
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 12:30:00_发布会_灰熊vs太阳 赛后新闻发布会
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253037/294477/1382009200.m3u8?txtoken=8cf58b20638d2b0bc586f06a5fae7da509219df588913b11b4020277c4fa9abc474e156a5eaad0a05081ad61a448e1102399d6e8a0e98fea39535566613dcd036026b6389e30ab911c4097ab64e619917d95c4ce3b7ea22062f7439decf553eda25ee45210d28396a0f20195602298081fa44c282f996d7274185946a0
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 12:30:00_发布会_骑士vs湖人 赛后新闻发布会
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253038/294478/1766782200.m3u8?txtoken=3ecaf09f8c58381cbdbabdd64407c5e677732ab6700937678f959b57359eab53294039c06985b5c30cdb089194ed0b7b51364c6ceda74ba4276971e244cab232ddd5b20f5bccd3b332ce2c7d691580aa593d441190b430eca281d8ccb8d2c7ba9eb2c89c7a0b67d4b73431a0974c7360dcbb41ce23e966f27eb93a6dc3
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 14:00:00_NBA经典赛_24-25赛季常规赛精彩回顾 快船vs马刺
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253089/294545/1381987200.m3u8?txtoken=5f21b94e58659fb07c16d9b8ed009480f7ab8db5721e51bd8b0ee86f9497d6732ffe39232c704db78c3183906cc087e29133b9ebe55d42eea5da5920c64d802a8479451ef475138eed32a7291f50237416525dfacfb7f63d9a70c4ec648ecf7a7782e288e98b09af841de43313eccefdb4c7282920c2d4386905c936c5
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 16:00:00_NBA经典赛_詹姆斯经典赛精彩回顾：15-16赛季詹姆斯率队翻盘逆转勇士
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253090/294546/1766802700.m3u8?txtoken=0ff42acb2edfec536d9c1fbe142417191e9e2180ff8b5e64883426b56753b13f1400874c8be1c7727e9fd42bb7fe652fd6d68f24aeb58dd52ffab80e8508078775abf7e2937f9e8780a2f14673c62ed15550e8529df0ad1614787110d48011c4530213877e57ef5a7dc49e88c00f1b99aa58bb88ff22addf9e9fbef3d3
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 18:00:00_NBA经典赛_24-25赛季常规赛精彩回顾 灰熊vs太阳
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253091/294547/1381987300.m3u8?txtoken=f5911e948fe9eba39a559d5664bbe7f904decb4315161d77b64e523260a9b81e3fd07ebda43842b71913beb70668958b03c01b683d8531aed08fe91941ed67362445aa55d1e0a6628ed3380d012f56bd7b0ce6ef1e4a2a15858d3041360e172ccf314ebdbd6461499412e8ff59dab919a208ca9248cf31bd58fc8305e2
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 19:00:00_乒超联赛_2024赛季乒超男子团体决赛：黄石基地vs山东魏桥
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253080/294658/1766842400.m3u8?txtoken=aa605293fd68b7584a02a655e7c7e773480c87a83d5109ac25fc19f21185cb1afb65a008972e3e6fd91d956300b2d0c0e02e9fd5dc1e7b63a509c0f36208e94abd109c876cfc41c5ad014934f7764e7427efb9fdcd8b30c43f474722ca5f1c5355faa905f77a1fd30f9814fc76799e361681978c3897bbd188b720fcc4
+#EXTINF:-1 group-title="腾讯体育➊线路",-1 tvg-logo="https://sports3.gtimg.com/usr/15/d38c0c38814147359fc038745e171c21.png", 2025-01-01 20:00:00_NBA经典赛_24-25赛季常规赛精彩回顾 骑士vs湖人
+https://caoshiyizhongzhiwu.vip-tptv.xyz/txsport/100002:20253092/294548/1381987400.m3u8?txtoken=1b1cd872168f19c379bf0c5f9d132d34004b5afe734f04009483d48674b307980fd9bc6d3495e8dd52d8bc1e4f21d17b41505047b4d007ccffbf182c79e4c148dcbbed4af5c680c9478d6ec41020a1f9e09bc118ea2d60a2ea813450c0fa294a7ecb470012957667fd81da77705e5af65ccc0ae98144481779a1f02f34
+
+#------ 腾讯体育➊线路 分类结束 ------
+
+#------ 奇艺体育➊线路 分类开始 ------
+
+#EXTINF:-1 group-title="奇艺体育➊线路",-1 tvg-logo="https://imgtool.v1.mk/static/英超.png", 2025-01-02 01:10_英超_布伦特福德vs阿森纳_李欣 孟洪涛 程思钦 
+https://caoshiyizhongzhiwu.vip-tptv.xyz/iqiyi/4140098/7876967812562123.m3u8?iqytoken=d3e109682e6a1a348663b9e292db39a01e4eda6ee1165cfd874c734c4acfe7c73185241b9d3ad98f6444b20c536fef668f6cc0f8ba38bc4dc7350011083eecf23205a7c0191b69ada24ce1aebf948a41d2f334a4b49b73840d06be80cf5cc743adfb9d750b3647f1bc6a8ced0d7039e39e2c040511c1252ae01ad2e7ede703e5ede3fb7a89bd78cf4f768aa68ab9e0a9a43767f1c7ef0deea2ece714b635be30604ae18c1ddf1f7afc
+#EXTINF:-1 group-title="奇艺体育➊线路",-1 tvg-logo="https://imgtool.v1.mk/static/英超.png", 2025-01-02 01:10_英超_布伦特福德vs阿森纳_陈文森 
+https://caoshiyizhongzhiwu.vip-tptv.xyz/iqiyi/4140098/6736287977143123.m3u8?iqytoken=dabf32505dfce8649771ef4e6e2c69ed1ec57ba5f670900e6165edaa0d4c6cf27f0a813084b0aa750e60441eed371fbc6e91c8866b54dd6c659214dff779d74ed3518fabf066d8f5152c802b9dc587e0def74edb5b81b521b4cc88d66ac7fc1ab77ecc7e91d9c09a51be4cff93a5d824bc99692e088b67ff6ea3db9e55cf361186dcea2535ba8ad600dd69fdce787c9ddec48da8229555c4722a6df31bf39b6a8f77e3419fa89ff078
+#EXTINF:-1 group-title="奇艺体育➊线路",-1 tvg-logo="https://imgtool.v1.mk/static/英超.png", 2025-01-02 01:10_英超_布伦特福德vs阿森纳_English Commentary 
+https://caoshiyizhongzhiwu.vip-tptv.xyz/iqiyi/4140098/4061064875061223.m3u8?iqytoken=4171e784757eef14ba055a1a6785749ee5e5ebb04b12e1b18b5c75fd50d8eb73ce2f2476e56c6da753257f800ec51d8abf21c0032047f085119a7d904e763f7b1c30c40ddb5b2b414595e5ab1bdc1df9c3e905b843403b3431ef410b1b8a767b5db0db685184d613508c65492c7f84695061d18863e3b7b7dcffeb85f868eddfc927ef259590eae464e7570d738fda9b4190d1b41d5f32e2e90ddb9a1194ecceee8a4ab4fb006d217a
+
+#------ 奇艺体育➊线路 分类结束 ------
+
+
+
 
 
 
@@ -6140,6 +6413,11 @@ https://4gtv.mytvsuper.xyz/?id=4gtv-4gtv018
 
 #EXTINF:-1 tvg-id="MOMO-親子台" tvg-name="MOMO 親子台" tvg-logo="https://assets.livednow.com/logo/MOMO-親子台.png" group-title="台湾频道「🅔」", MOMO 親子台[4gtv]
 https://4gtv.mytvsuper.xyz/?id=4gtv-live107
+
+
+#EXTINF:-1,tvg-id="新唐人亚太台" tvg-name="新唐人亚太台" tvg-logo="https://epg.v1.mk/logo/新唐人亚太台.png" group-title="台湾频道「🅔」",新唐人亞太台
+https://4gtv.mytvsuper.xyz/?id=4gtv-live050
+
 
 #EXTINF:-1 tvg-id="LiveABC-互動英語台" tvg-name="LiveABC 互動英語台" tvg-logo="https://assets.livednow.com/logo/LiveABC-互動英語台.png" group-title="台湾频道「🅔」", LiveABC 互動英語台[4gtv]
 https://4gtv.mytvsuper.xyz/?id=4gtv-live030

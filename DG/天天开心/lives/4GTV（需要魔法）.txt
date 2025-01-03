@@ -376,6 +376,10 @@ https://4gtv.mytvsuper.xyz/?id=4gtv-live026
 #EXTINF:-1 tvg-id="CI-罪案偵查頻道" tvg-name="CI 罪案偵查頻道" tvg-logo="https://assets.livednow.com/logo/CI-罪案偵查頻道.png" group-title="其他", CI 罪案偵查頻道[4gtv]
 https://4gtv.mytvsuper.xyz/?id=4gtv-live027
 
+#EXTINF:-1,tvg-id="新唐人亚太台" tvg-name="新唐人亚太台" tvg-logo="https://epg.v1.mk/logo/新唐人亚太台.png" group-title="其他",新唐人亞太台
+https://4gtv.mytvsuper.xyz/?id=4gtv-live050
+
+
 #EXTINF:-1 tvg-id="Smart-知識台" tvg-name="Smart 知識台" tvg-logo="https://assets.livednow.com/logo/Smart-知識台.png" group-title="其他", Smart 知識台
 https://4gtv.mytvsuper.xyz/?id=litv-longturn19
 

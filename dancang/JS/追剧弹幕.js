@@ -101,14 +101,14 @@ globalThis.jxx = function(input) {
                 parse: 0,
                 url: bata.url,
                 jx: 0,
-                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=789456123&id=' + '&jm=' + VOD.vod_name + '&js=' + parts[1] + '&key=741852963'
+                danmaku: 'http://103.36.220.166:91/dmku1/tvbox/zh.php?url=' + '&jm=' + VOD.vod_name + '&js=' + parts[1] + '&key=741852963'
             }
         } else {
             input = {
                 parse: 0,
                 url: parts[0].includes('url=') ? parts[0].slice(parts[0].indexOf('url=') + 4) : null,
                 jx: 1,
-                danmaku: 'http://43.242.202.175:9595/nnjsdm.php?key=789456123&id=' + '&jm=' + VOD.vod_name + '&js=' + parts[1] + '&key=741852963'
+                danmaku: 'http://103.36.220.166:91/dmku1/tvbox/zh.php?url=' + '&jm=' + VOD.vod_name + '&js=' + parts[1] + '&key=741852963'
             }
         }
     } catch {

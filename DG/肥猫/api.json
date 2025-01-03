@@ -35,8 +35,7 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://feimaouc.cloud:666",
-                    "http://feimao.tech:666"
+                    "http://1.95.79.193/"
                 ],
                 "url_key": "FeiMaoUC"
             }
@@ -412,14 +411,14 @@
             "name": "🌖┃米搜┃网盘",
             "type": 3,
             "api": "csp_MiSou",
-            "ext": "./txt/kk.txt"
+            "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
         },
         {
             "key": "csp_PanSearch",
             "name": "🚃┃盘搜┃网盘",
             "type": 3,
             "api": "csp_PanSearch",
-            "ext": "./txt/token.txt"
+            "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
         },
         {
             "key": "儿童",
