@@ -1,3 +1,5 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
@@ -1030,20 +1032,6 @@
             "ext": "./XYQHiker/电影牛.json"
         },
         {
-            "key": "爱奇艺",
-            "name": "爱奇艺｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/爱奇艺.js"
-        },
-        {
-            "key": "三六零",
-            "name": "三六零｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/三六零.js"
-        },
-        {
             "key": "剧圈圈",
             "name": "剧圈圈｜影视",
             "type": 3,
@@ -1077,41 +1065,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/魔力高清.js"
-        },
-        {
-            "key": "腾讯视频",
-            "name": "腾讯｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/腾讯视频.js"
-        },
-        {
-            "key": "优酷视频",
-            "name": "优酷｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/优酷视频.js"
-        },
-        {
-            "key": "芒果视频",
-            "name": "芒果｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/芒果视频.js"
-        },
-        {
-            "key": "搜狗视频",
-            "name": "搜狗｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/搜狗视频.js"
-        },
-        {
-            "key": "哔哩视频",
-            "name": "哔哩｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/哔哩视频.js"
         },
         {
             "key": "碟调影视",
@@ -1810,6 +1763,15 @@
             "jar": "./wex.jar"
         },
         {
+            "key": "检查更新",
+            "name": "检查｜更新",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+        },
+        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
@@ -2230,6 +2192,15 @@
         }
     ],
     "lives": [
+        {
+            "name": "AI直播",
+            "type": 0,
+            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.cn/tv/{name}.png",
+            "playerType": 1,
+            "timeout": 10
+        },
         {
             "name": "直播",
             "type": 3,

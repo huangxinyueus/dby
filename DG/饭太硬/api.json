@@ -107,6 +107,16 @@
             "changeable": 1
         },
         {
+            "key": "白白",
+            "name": "🐭白白┃秒播",
+            "type": 3,
+            "api": "csp_Sbaibai",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "zxzj",
             "name": "🍊在线┃秒播",
             "type": 3,
