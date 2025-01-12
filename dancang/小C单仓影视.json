@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -298,21 +298,8 @@
             }
         },
         {
-            "key": "哔嘀弹幕",
-            "name": "哔嘀｜弹幕",
-            "type": 3,
-            "api": "csp_Bdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": "https://www.xlys01.com",
-                "danmu": true
-            }
-        },
-        {
             "key": "玩偶弹幕",
-            "name": "玩偶哥哥｜4K弹幕",
+            "name": "玩偶｜4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -323,22 +310,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
-                "danmu": true
-            }
-        },
-        {
-            "key": "玩偶备用弹幕",
-            "name": "玩偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://wogg.xxooo.cf",
                 "danmu": true
             }
         },
@@ -518,7 +489,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://smdyo.top",
+                "site": "http://失眠的夜.top",
                 "danmu": true
             }
         },
@@ -534,7 +505,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://wp.huban.xyz",
+                "site": "http://45.207.212.215:12121",
                 "danmu": true
             }
         },
@@ -684,7 +655,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://38.55.250.149:1314/api.php/app/"
+            "ext": "http://www.ppxys.vip/api.php/app/"
         },
         {
             "key": "HG影视",
@@ -697,15 +668,26 @@
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
-            "key": "南瓜",
-            "name": "南瓜｜App",
+            "key": "九龙影视",
+            "name": "九龙｜APP",
             "type": 3,
-            "api": "csp_NanGua",
+            "api": "./PY/九龙影视.py",
             "searchable": 1,
+            "changeable": 1,
             "quickSearch": 1,
-            "playerType": 2,
             "filterable": 1,
-            "ext": ""
+            "playerType": 2
+        },
+        {
+            "key": "猎手影视",
+            "name": "猎手｜APP",
+            "type": 3,
+            "api": "./PY/猎手影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
         },
         {
             "key": "木头",
@@ -714,6 +696,22 @@
             "api": "csp_Shark",
             "playerType": 1,
             "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
+        },
+        {
+            "key": "永夜",
+            "name": "永夜｜App",
+            "type": 3,
+            "api": "csp_Muou",
+            "playerType": 2,
+            "ext": "caHR0cDovL2FwcC55aXlpNTIxLnRvcHxZSVlJ5b2x6KeGfDQuMS44"
+        },
+        {
+            "key": "人人",
+            "name": "人人｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
         },
         {
             "key": "雨滴",
@@ -764,22 +762,15 @@
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
         },
         {
-            "key": "天天影视",
-            "name": "天天｜APP",
+            "key": "快看",
+            "name": "快看｜APP",
             "type": 3,
-            "api": "csp_AppTT",
+            "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "热播影视",
-            "name": "热播｜APP",
-            "type": 3,
-            "api": "csp_AppRB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "http://kkwk123.top/api.php/app/"
         },
         {
             "key": "洽洽影视",
@@ -846,30 +837,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "立播影视",
-            "name": "立播｜影视",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://www.libvio.cc"
-            }
         },
         {
             "key": "饺子影视",
@@ -1437,20 +1404,6 @@
             "ext": "./JS/樱花动漫.js"
         },
         {
-            "key": "夸克影搜弹幕",
-            "name": "影搜｜弹幕",
-            "type": 3,
-            "api": "csp_Yingso",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
             "key": "搜索弹幕",
             "name": "搜索｜弹幕",
             "type": 3,
@@ -1488,20 +1441,6 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "米搜弹幕",
-            "name": "米搜｜弹幕",
-            "type": 3,
-            "api": "csp_Qkpanso",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://www.misou.fun",
                 "danmu": true
             }
         },
@@ -1559,10 +1498,20 @@
             }
         },
         {
-            "key": "荐片",
-            "name": "荐片｜磁力",
+            "key": "修罗影视",
+            "name": "修罗｜磁力",
             "type": 3,
-            "api": "csp_Jianpian",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/修罗影视.json"
+        },
+        {
+            "key": "80S",
+            "name": "80S｜磁力",
+            "type": 3,
+            "api": "csp_BLSGod",
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -1763,13 +1712,14 @@
             "jar": "./wex.jar"
         },
         {
-            "key": "检查更新",
-            "name": "检查｜更新",
+            "key": "版本信息",
+            "name": "版本｜信息",
             "type": 3,
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+            "indexs": 0,
+            "ext": "https://9877.kstore.space/Market/market.json"
         },
         {
             "key": "push_agent",
@@ -1789,9 +1739,9 @@
     ],
     "parses": [
         {
-            "name": "推荐",
-            "type": 1,
-            "url": "https://jxjson.icu/neibu.php?url=",
+            "name": "臻享",
+            "type": "1",
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -1847,35 +1797,6 @@
             }
         },
         {
-            "name": "臻享",
-            "type": "1",
-            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
             "name": "至臻",
             "type": 1,
             "url": "http://yunhai.qijiyun.vip/home/api?type=ys&uid=177259&key=dijnouxKNOQSTUWXY5&url=",
@@ -1905,7 +1826,7 @@
             }
         },
         {
-            "name": "HGvip",
+            "name": "无双",
             "type": 1,
             "url": "http://1.94.221.189:88/algorithm.php?url=",
             "ext": {
@@ -1920,7 +1841,7 @@
         {
             "name": "皮皮虾",
             "type": "1",
-            "url": "http://45.207.215.101:5423/index.php?url=",
+            "url": "http://jiexi.52ppx.top/index.php?url=",
             "ext": {
                 "flag": [
                     "PPXLG",
@@ -1929,71 +1850,54 @@
             }
         },
         {
-            "name": "无双",
-            "type": 0,
-            "url": " http://103.117.123.193:1980/players/?url=",
-            "ext": {
-                "flag": [
-                    "mgtv",
-                    "芒果",
-                    "RY",
-                    "VIP线路"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
             "name": "线路1",
-            "type": 0,
-            "url": "https://jx.quankan.app/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路2",
-            "type": 0,
-            "url": "https://jx.yparse.com/index.php?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路3",
-            "type": 0,
-            "url": "https://jx.aidouer.net/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-                    "referer": "https://jiejie.uk/"
-                }
-            }
-        },
-        {
-            "name": "线路4",
             "type": 0,
             "url": "https://www.8090g.cn/?url="
         },
         {
-            "name": "线路5",
-            "type": 0,
-            "url": "https://jx.yangtu.top?url="
-        },
-        {
-            "name": "线路6",
+            "name": "线路2",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
-            "name": "线路7",
+            "name": "线路3",
             "type": 0,
             "url": "https://www.ckplayer.vip/jiexi/?url="
+        },
+        {
+            "name": "线路4",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url="
+        },
+        {
+            "name": "线路5",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "线路6",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url="
+        },
+        {
+            "name": "线路7",
+            "type": 0,
+            "url": "https://jx.hls.one/?url="
+        },
+        {
+            "name": "线路8",
+            "type": 0,
+            "url": "https://pl.a6club.com/player/analysis.php?v="
+        },
+        {
+            "name": "线路9",
+            "type": 0,
+            "url": "https://jx.2s0.cn/player/?url="
+        },
+        {
+            "name": "线路10",
+            "type": 0,
+            "url": "https://jx.nnxv.cn/tv.php?url="
         }
     ],
     "rules": [
@@ -2198,16 +2102,8 @@
             "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 1,
+            "playerType": 2,
             "timeout": 10
-        },
-        {
-            "name": "直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "tv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",
