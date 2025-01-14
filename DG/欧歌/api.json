@@ -13,12 +13,6 @@
             "epg": ""
         },
         {
-            "name": "直播",
-            "type": 3,
-            "url": "tv.m3u",
-            "epg": ""
-        },
-        {
             "name": "Live",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
@@ -266,24 +260,6 @@
             "name": "💡快看｜影视",
             "type": 3,
             "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "热播影视",
-            "name": "💡热播｜影视",
-            "type": 3,
-            "api": "csp_AppRB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "天天",
-            "name": "💡天天┃影视",
-            "type": 3,
-            "api": "csp_AppTT",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -633,23 +609,6 @@
             }
         },
         {
-            "key": "哔哩弹幕",
-            "name": "🅱哔哩｜弹幕",
-            "type": 3,
-            "api": "csp_Bilimd",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
-            },
-            "timeout": 10
-        },
-        {
             "key": "立播弹幕",
             "name": "❤立播┃弹幕",
             "type": 3,
@@ -658,7 +617,7 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "token": "http://127.0.0.1:9978/file/TV/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
                 "danmu": true
@@ -862,6 +821,23 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "哔哩弹幕",
+            "name": "🅱哔哩｜弹幕",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVB/.bili"
+            },
+            "timeout": 10
         },
         {
             "key": "csp_FirstAid",
@@ -1292,11 +1268,10 @@
             "key": "应用商店",
             "name": "🛒影视应用商店",
             "type": 3,
-            "jar": "./jars/豆瓣1.jar",
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "https://nxog.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8CAPP/ts/sd.php"
+            "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/sd.php"
         },
         {
             "key": "豆瓣3",

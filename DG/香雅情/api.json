@@ -5,6 +5,12 @@
     "spider": "./spider.jar",
     "lives": [
         {
+            "name": "本地live文件",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/file/XYQTVBox/live.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
             "name": "FMM_IPV6",
             "type": 0,
             "url": "./lives/FMM_IPV6.txt",
@@ -75,7 +81,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./txt/alitoken.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_Yisou",
@@ -85,7 +91,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./txt/alitoken.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_Upyunso",
@@ -95,7 +101,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./txt/alitoken.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_XYQHiker_影搜",
@@ -135,7 +141,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./txt/alitoken.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_Mp4Mov",

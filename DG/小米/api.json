@@ -31,7 +31,7 @@
         },
         {
             "key": "csp_Wogg",
-            "name": "🧸玩偶┃4K4K",
+            "name": "🧸玩偶┃4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
             "changeable": 0,
@@ -52,7 +52,7 @@
         },
         {
             "key": "csp_Netfixtv",
-            "name": "💯至臻┃4K4K",
+            "name": "💯至臻┃4K弹幕",
             "type": 3,
             "api": "csp_Duopan",
             "changeable": 0,
@@ -82,7 +82,7 @@
         },
         {
             "key": "csp_UC",
-            "name": "💌UCUC┃4K4K",
+            "name": "💌UCUC┃4K弹幕",
             "type": 3,
             "searchable": 1,
             "api": "csp_Duopan",
@@ -157,18 +157,6 @@
             "changeable": 0,
             "api": "csp_Wwys",
             "ext": "https://www.wwgz.cn/"
-        },
-        {
-            "key": "csp_XSX",
-            "name": "👀视讯┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "api": "csp_Xsx",
-            "playerType": 2,
-            "filterable": 1,
-            "ext": ""
         },
         {
             "key": "csp_Fantuan",
