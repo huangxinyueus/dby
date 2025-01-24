@@ -5,12 +5,6 @@
     "spider": "./spider.jar",
     "lives": [
         {
-            "name": "本地live文件",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/file/XYQTVBox/live.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
             "name": "FMM_IPV6",
             "type": 0,
             "url": "./lives/FMM_IPV6.txt",

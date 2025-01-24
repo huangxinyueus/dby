@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "logo": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEb9EAiMhR67DA00fZCpIXMigA8LAkAI9enDAD~tplv-dy-aweme-images-v2:3000:3000:q75.webp?biz_tag=aweme_images&from=327834062&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1727452800&x-signature=Q6AiH8FOO86OfzLFvuUZpJbsV4s%3D",
-    "wallpaper": "https://bing.img.run/uhd.php",
+    "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
     "sites": [
         {
             "key": "豆瓣",
@@ -28,6 +28,18 @@
             "api": "csp_SuBaiBai",
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
+        },
+        {
+            "key": "wencai",
+            "name": "🥭文采┃1080P",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "https://www.hkybqufgh.com"
         },
         {
             "key": "csp_Wogg",
@@ -124,29 +136,12 @@
             "ext": "./js/kanqiu.js"
         },
         {
-            "key": "csp_JPYY",
-            "name": "🚗文采┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_Jpyy",
-            "playerType": 2,
-            "filterable": 1,
-            "ext": ""
-        },
-        {
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
             "api": "csp_Xlys",
             "searchable": 1,
             "type": 3,
             "playerType": 2
-        },
-        {
-            "key": "csp_qiyou",
-            "name": "🎮骑友┃1080P",
-            "type": 3,
-            "api": "csp_Qiyou"
         },
         {
             "key": "csp_Wwys",
@@ -159,11 +154,20 @@
             "ext": "https://www.wwgz.cn/"
         },
         {
-            "key": "csp_Fantuan",
-            "name": "🍙饭团┃1080P",
+            "key": "csp_AppDrama",
+            "name": "👓视觉┃1080P",
             "type": 3,
-            "searchable": 1,
-            "api": "csp_Fantuan"
+            "quickSearch": 0,
+            "api": "csp_AppDrama",
+            "ext": "ATzdJTBzsnKvrQ2L6AKDQnBAHhw+jLmU9mdwIkKtWE5l9ZOw779POW3bGR53SGnj6Z9ZqlLYLUWxTlAwGD5P0CQxwMd3/os57BQg2fWEVlKLgIz2jj9ZfGYcdeHa6TNAohp5oS6k6U9ickpr69Y3xYxIrxwADs1UqNZBakDxid+YOx9hzCJYy3/Svo2+4HH4+rh7MMhtJMMUz1+GWl7CYBgk/Qqs280Sjjw2D31D/8U="
+        },
+        {
+            "key": "csp_AppDrama2",
+            "name": "🐯虎虎┃1080P",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "csp_AppDrama",
+            "ext": "dZyf/FE+KyNozU1BJTipIlQwV9Exzgodak8HaPQS3+zONEYCA2iEg3LraoCo2u5+6rn3VmrCG6H/XvFKSMzGrev5JV2DZOVsAQxLXRNRbxFUFKM1SEJpngJgi7Fj/n1DfJU3XaJt/aV+5tEC4C+/K7Bx/k1Kz08b1iyW0f8Ghf/NH5BnTsoFeiXrPUjRIyi1oIQh1RUF0aQHwI/DPqGAMHE+KK9efsb7FTDKW7TXastSWVcfpizheTXfXFdRtX+qjWkii8PMPPizDUAlTR3Ptg=="
         },
         {
             "key": "瓜子",
@@ -177,6 +181,20 @@
             "changeable": 0
         },
         {
+            "key": "csp_minuo",
+            "name": "🍚米诺┃1080P",
+            "searchable": 1,
+            "quickSearch": 1,
+            "type": 3,
+            "api": "csp_MiTo",
+            "ext": {
+                "url": "http://mito.minotv.cn/",
+                "dataKey": "aassddwwxxllsx1x",
+                "playKey": "bbssqdbbssll25sx",
+                "version": "2.2.0"
+            }
+        },
+        {
             "key": "csp_MiTuApp",
             "name": "🐰米兔┃1080P",
             "type": 3,
@@ -184,6 +202,24 @@
             "quickSearch": 1,
             "api": "csp_MiTuApp",
             "ext": "s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF"
+        },
+        {
+            "key": "csp_yumi",
+            "name": "🌽玉米┃1080P",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MiTuApp",
+            "ext": "0YM2rlqPCLd5eMAslwMf/pkq/uUsA1uF3B25joY8JATIek3vhcdq9bMZ2NSRsZoHPWXfN0mYboypozT7qBZNw3dp/7SJL9zC7D6+VYxoNFI9F9KOs5FOj0L8CBPgIi9Q32p+zn/Qy1wkQ4F9bd6OE3+L3q8exNFplavF97PuAt4RjLnFQxxqZvmIssPYfKq0j3OzPUQU8QbeVY9y2gyignbiva/VY6FNyMiMuKlEW2E="
+        },
+        {
+            "key": "csp_xiami",
+            "name": "🦐虾米┃1080P",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MiTuApp",
+            "ext": "0YM2rlqPCLd5eMAslwMf/pkq/uUsA1uF3B25joY8JASvvb2Q0+hMviUWwIZZabWTLl6snUNOQLDmF0UpcL5KcA/VPEbN+BftFTiohAjUPdTV2QeDl0h6Gh7JWsFxT91JomuJsF4EZyaRmCAQROh9kd/N70AbZtF+DuLWti1k1jfQjqi9SJkyVAGqbyosFa1ZuYbyxAKSAateBYOy6J1Ke1syn8R7CP1PY/PT6Ot8KwZX1ayPEJSwp3EaaTCTcl+jdWiKbr6zbK7T1W6NFSyjqQ=="
         },
         {
             "key": "csp_电影",
@@ -200,7 +236,7 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_MiTuApp",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn6HTjU76bdvB3up+9CiGGVZHR3fM8KlJPXSneStHrC+DgWIxl9G+rM70oCwdQkorhrIzUoY/hqgTn/n8VXBDfMYYJQXjRv4wnyIB9zbV+McOQuf9XquqTIYCrvZq2K/XN8gy3u6uGRNLRlVrwt2esQ5pwE+Y8C3ts7ivRub9bEpuB7nN4tthfe6L4f4RdQDHpA=="
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9Eir6RzAIaQXa7PAZzZhsYO7tEfOCUAO2ipKyX1sxqAYggPt4M4DNHWCnz414Yfuh19nNi3k0dkJGtsOqEQzKCgcf9wGo4XmYWuIzgVworYxXRSYBQb2oLBmTl1W7hxxhfer8LsRYZB6ALfwu2bInzh3EENDkFkaHYb1olDPUR1EqpMaZLpMW0oSOW9zzMF5WIDfKUOvd7q2bKD4uZ8/oc="
         },
         {
             "key": "csp_良人",
@@ -232,28 +268,6 @@
             "ext": ""
         },
         {
-            "key": "csp_视觉",
-            "name": "🔭视觉┃PYTHON",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "api": "./api/shijue.py",
-            "playerType": 2,
-            "filterable": 1
-        },
-        {
-            "key": "csp_猎手",
-            "name": "💰猎手┃PYTHON",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "api": "./api/py_%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B.py",
-            "playerType": 2,
-            "filterable": 1
-        },
-        {
             "key": "csp_LaoBaiBook",
             "name": "📚听书┃BOOK",
             "type": 3,
@@ -279,14 +293,6 @@
                 "type": "rect",
                 "ratio": 1.333
             }
-        },
-        {
-            "key": "荐片",
-            "name": "🍭荐片┃磁力",
-            "api": "csp_Jianpian",
-            "type": 3,
-            "playerType": "1",
-            "ext": "http://api2.rinhome.com"
         },
         {
             "key": "push_agent",

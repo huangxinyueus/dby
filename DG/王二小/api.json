@@ -105,6 +105,15 @@
             "timeout": 120
         },
         {
+            "key": "Wex4kfmGuard",
+            "name": "💓影库┃4K💓",
+            "type": 3,
+            "api": "csp_Wex4kfmGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 120
+        },
+        {
             "key": "Wexyingchao",
             "name": "💓鸟巢┃4K💓",
             "type": 3,
@@ -201,6 +210,22 @@
             "changeable": 1
         },
         {
+            "key": "WexshijueGuard",
+            "name": "💥视觉┃影视💥",
+            "type": 3,
+            "api": "csp_WexshijueGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexjuhuangGuard",
+            "name": "💥剧荒┃影视💥",
+            "type": 3,
+            "api": "csp_WexjuhuangGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "mingriyingshi",
             "name": "😁明日┃影视😁",
             "type": 3,
@@ -221,6 +246,14 @@
             "name": "🎇白白┃秒播🎇",
             "type": 3,
             "api": "csp_SubaibaiGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexquickvodGuard",
+            "name": "🎇美剧┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexquickvodGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -1045,21 +1078,15 @@
     ],
     "lives": [
         {
+            "name": "钵钵鸡",
+            "type": 0,
+            "url": "./lives/钵钵鸡.txt",
+            "epg": ""
+        },
+        {
             "name": "IPV61",
             "type": 0,
             "url": "./lives/IPV61.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV62",
-            "type": 0,
-            "url": "./lives/IPV62.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV63",
-            "type": 0,
-            "url": "./lives/IPV63.txt",
             "epg": ""
         },
         {
