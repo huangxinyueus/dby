@@ -39,14 +39,15 @@
             }
         },
         {
-            "key": "直播转点播",
-            "name": "📺️IPV6┃电视┃直播",
+            "key": "版本信息",
+            "name": "📺智能┃电视┃直播",
             "type": 3,
-            "api": "./api/moyulive.js",
+            "api": "csp_Market",
+            "jar": "./jars/配置中心.jar",
             "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=lives"
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=ailive"
         },
         {
             "key": "玩偶",
@@ -79,17 +80,6 @@
                 "site": "http://www.muoupan.top",
                 "danmu": true
             }
-        },
-        {
-            "key": "皮皮虾",
-            "name": "😛皮皮吃虾┃4K纯净",
-            "playerType": 1,
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.ppxys.vip/api.php/app/"
         },
         {
             "key": "人人",
@@ -1762,9 +1752,39 @@
     ],
     "lives": [
         {
-            "name": "SAO0",
+            "name": "智能直播",
+            "type": 3,
+            "url": "tv.m3u",
+            "epg": ""
+        },
+        {
+            "name": "B站直播",
+            "type": 3,
+            "url": "bililive.m3u",
+            "epg": ""
+        },
+        {
+            "name": "虎牙一起看",
+            "type": 3,
+            "url": "huyayqk.m3u",
+            "epg": ""
+        },
+        {
+            "name": "斗鱼一起看",
+            "type": 3,
+            "url": "douyuyqk.m3u",
+            "epg": ""
+        },
+        {
+            "name": "YY轮播",
+            "type": 3,
+            "url": "yylunbo.m3u",
+            "epg": ""
+        },
+        {
+            "name": "自动更新",
             "type": 0,
-            "url": "./lives/SAO0.txt",
+            "url": "./lives/自动更新.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {

@@ -86,6 +86,15 @@
             "changeable": 1
         },
         {
+            "key": "苹果",
+            "name": "🍎苹果┃不卡",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "白白",
             "name": "🐟白白┃秒播",
             "type": 3,
@@ -96,11 +105,10 @@
             "changeable": 1
         },
         {
-            "key": "AppSj",
-            "name": "👒视界┃多线",
+            "key": "糯米",
+            "name": "🍓糯米┃秒播",
             "type": 3,
-            "api": "csp_AppSj",
-            "playerType": 2,
+            "api": "csp_Nmyswv",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -124,24 +132,6 @@
             "type": 3,
             "api": "csp_Jpys",
             "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "糯米",
-            "name": "🍓糯米┃秒播",
-            "type": 3,
-            "api": "csp_Nmyswv",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "苹果",
-            "name": "🍎苹果┃不卡",
-            "type": 3,
-            "api": "csp_LiteApple",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -182,6 +172,16 @@
             "type": 3,
             "api": "csp_Ddrk",
             "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "AppSj",
+            "name": "👒视界┃多线",
+            "type": 3,
+            "api": "csp_AppSj",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -668,9 +668,9 @@
             "epg": ""
         },
         {
-            "name": "IPV6①",
+            "name": "范明明",
             "type": 0,
-            "url": "./lives/IPV6①.txt",
+            "url": "./lives/范明明.txt",
             "epg": ""
         },
         {

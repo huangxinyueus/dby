@@ -48,17 +48,6 @@
             }
         },
         {
-            "key": "好趣网",
-            "name": "《好趣🔹直播》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 87,
-            "ext": "./js/好趣网.js"
-        },
-        {
             "key": "alllive",
             "name": "《平台🔹直播》",
             "type": 3,

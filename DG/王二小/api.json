@@ -130,6 +130,14 @@
             "changeable": 1
         },
         {
+            "key": "WexshuangzixingGuard",
+            "name": "💓双星┃4K💓",
+            "type": 3,
+            "api": "csp_WexshuangzixingGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexmuougg",
             "name": "💓木偶┃4K💓",
             "type": 3,
@@ -170,6 +178,14 @@
             "changeable": 1
         },
         {
+            "key": "WexhubanGuard",
+            "name": "💓虎斑┃4K💓",
+            "type": 3,
+            "api": "csp_WexhubanGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "WextudouGuard",
             "name": "💓‍土豆┃4K💓‍",
             "type": 3,
@@ -194,10 +210,18 @@
             "changeable": 1
         },
         {
-            "key": "WexpipixiaGuard",
-            "name": "💥爬虾┃影视💥",
+            "key": "賤賤",
+            "name": "📓賤片┃p2p📓",
             "type": 3,
-            "api": "csp_WexpipixiaGuard",
+            "api": "csp_WexJianpianGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexkuihuatvGuard",
+            "name": "💥葵花┃影视💥",
+            "type": 3,
+            "api": "csp_WexkuihuatvGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -206,14 +230,6 @@
             "name": "💥人人┃影视💥",
             "type": 3,
             "api": "csp_WexrenrenGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexshijueGuard",
-            "name": "💥视觉┃影视💥",
-            "type": 3,
-            "api": "csp_WexshijueGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -608,6 +624,14 @@
             "changeable": 1
         },
         {
+            "key": "WexduanjuvipGuard",
+            "name": "🍉短剧┃神品🍉",
+            "type": 3,
+            "api": "csp_WexduanjuvipGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexduanju001",
             "name": "🍉短剧┃极品🍉",
             "type": 3,
@@ -718,6 +742,22 @@
             "api": "csp_WexIktvGuard",
             "searchable": 1,
             "changeable": 0
+        },
+        {
+            "key": "Wexciyuancheng",
+            "name": "🤡次元┃动漫🤡",
+            "type": 3,
+            "api": "csp_WexciyuanchengGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexxifan",
+            "name": "🤡稀饭┃动漫🤡",
+            "type": 3,
+            "api": "csp_WexxifanGuard",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "WexDm84",
@@ -1084,27 +1124,15 @@
             "epg": ""
         },
         {
-            "name": "IPV61",
+            "name": "甜皮鸭",
             "type": 0,
-            "url": "./lives/IPV61.txt",
-            "epg": ""
+            "url": "./lives/甜皮鸭.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
-            "name": "奇迹live1",
+            "name": "范明明",
             "type": 0,
-            "url": "./lives/奇迹live1.txt",
-            "epg": ""
-        },
-        {
-            "name": "奇迹live2",
-            "type": 0,
-            "url": "./lives/奇迹live2.txt",
-            "epg": ""
-        },
-        {
-            "name": "网络直播",
-            "type": 0,
-            "url": "./lives/网络直播.txt",
+            "url": "./lives/范明明.txt",
             "epg": ""
         }
     ]

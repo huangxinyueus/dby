@@ -1,0 +1,335 @@
+#EXTM3U
+#EXTINF:-1 group-title="央视",CCTV 1
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-1-AVS-4K264
+#EXTINF:-1 group-title="央视",CCTV 2
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-2-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 3
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-3-AVS-4K264
+#EXTINF:-1 group-title="央视",CCTV 4
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-4-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 5
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-5-AVS-4K264
+#EXTINF:-1 group-title="央视",CCTV 5+
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-5PLUS-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 6
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-6-AVS-4K264
+#EXTINF:-1 group-title="央视",CCTV 7
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-7-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 8
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-8-AVS-4K264
+#EXTINF:-1 group-title="央视",CCTV 9
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-9-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 10
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-10-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 11
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=H265-5500k-1080P-cctv11
+#EXTINF:-1 group-title="央视",CCTV 12
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-12-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 13
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-13-HD-265-8M
+#EXTINF:-1 group-title="央视",CCTV 14
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-14-CQ
+#EXTINF:-1 group-title="央视",CCTV 15
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=H265-5500k-1080P-cctv15
+#EXTINF:-1 group-title="央视",CCTV 16
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-16-CQ
+#EXTINF:-1 group-title="央视",CCTV 16 4K
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-16-4K
+#EXTINF:-1 group-title="央视",CCTV 17
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-17-CQ
+#EXTINF:-1 group-title="央视",CCTV 4K
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-4K-HD
+#EXTINF:-1 group-title="央视",CCTV 世界地理
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SHIJIEDL-CQ
+#EXTINF:-1 group-title="央视",CCTV 风云剧场
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_FENGYUNJC-CQ
+#EXTINF:-1 group-title="央视",CCTV 风云足球
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_FENGSHANGZQ-CQ
+#EXTINF:-1 group-title="央视",CCTV 风云音乐
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_FENGYUNYY-CQ
+#EXTINF:-1 group-title="央视",CCTV 兵器科技
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_BINGQIKJ-CQ
+#EXTINF:-1 group-title="央视",CCTV 央视台球
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_TAIQIU-CQ
+#EXTINF:-1 group-title="央视",CCTV 高尔夫网球
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-GOLF-CQ
+#EXTINF:-1 group-title="央视",CCTV 女性时尚
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NVXINGSS-CQ
+#EXTINF:-1 group-title="央视",CCTV 电视指南
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_DIANSHIZN-CQ
+#EXTINF:-1 group-title="央视",CCTV 第一剧场
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_DIYIJC-CQ
+#EXTINF:-1 group-title="央视",CCTV 怀旧剧场
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_HUAIJIUJC-CQ
+#EXTINF:-1 group-title="央视",CCTV 央视文化精品
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CCTV-WENHUA-CQ
+#EXTINF:-1 group-title="央视",CETV 早期教育
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CETV-ZQJY-CQ
+#EXTINF:-1 group-title="卫视",江苏卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_JIANGSU-HD-265-8M
+#EXTINF:-1 group-title="卫视",东方卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_DONGFANG-HD-265-8M
+#EXTINF:-1 group-title="卫视",北京卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_BEIJING-HD-265-8M
+#EXTINF:-1 group-title="卫视",广东卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_GUANGDONG-HD-265-8M
+#EXTINF:-1 group-title="卫视",山东卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SHANDONG-HD-265-8M
+#EXTINF:-1 group-title="卫视",深圳卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SHENZHEN-HD-265-8M
+#EXTINF:-1 group-title="卫视",湖北卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_HUBEI-HD-265-8M
+#EXTINF:-1 group-title="卫视",湖南卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_HUNAN-HD-265-8M
+#EXTINF:-1 group-title="卫视",浙江卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_ZHEJIANG-HD-265-8M
+#EXTINF:-1 group-title="卫视",黑龙江卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_HEILONGJIANG-HD-265-8M
+#EXTINF:-1 group-title="卫视",天津卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_TIANJIN-HD-265-8M
+#EXTINF:-1 group-title="卫视",安徽卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_ANHUI-HD-265-8M
+#EXTINF:-1 group-title="卫视",辽宁卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_LIAONING-HD-265-8M
+#EXTINF:-1 group-title="卫视",东南卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=H265-5500k-1080P-dongnanstv
+#EXTINF:-1 group-title="卫视",吉林卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_JILIN-CQ
+#EXTINF:-1 group-title="卫视",四川卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SICHUAN-CQ
+#EXTINF:-1 group-title="卫视",江西卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_JIANGXI-CQ
+#EXTINF:-1 group-title="卫视",河北卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_HEBEI-CQ
+#EXTINF:-1 group-title="卫视",河南卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_HENAN-CQ
+#EXTINF:-1 group-title="卫视",贵州卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_GUIZHOU-CQ
+#EXTINF:-1 group-title="卫视",重庆卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_CHONGQING-CQ
+#EXTINF:-1 group-title="卫视",云南卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_YUNNAN-HQ
+#EXTINF:-1 group-title="卫视",三沙卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SANSHA-HQ
+#EXTINF:-1 group-title="卫视",海南卫视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-8000k-1080P-lvyoustv
+#EXTINF:-1 group-title="其他",上海纪实人文
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=H265-5500k-1080P-shanghaijishi
+#EXTINF:-1 group-title="其他",北京纪实科教
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-8000k-1080P-beijingjishi
+#EXTINF:-1 group-title="卫视",凤凰卫视中文
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-10000k-1080P-fhchinese5s
+#EXTINF:-1 group-title="卫视",凤凰卫视资讯
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-10000k-1080P-fhzixun5s
+#EXTINF:-1 group-title="卫视",凤凰卫视香港
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-10000k-1080P-fhhongkong5s
+#EXTINF:-1 group-title="其他",纯享 4K
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-20M-2160P-chunxiang4k
+#EXTINF:-1 group-title="其他",高清臻享睛彩篮球
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=miguaoyun01-AVS-4K01
+#EXTINF:-1 group-title="其他",睛彩篮球
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-8000k-1080P-miguaoyun1
+#EXTINF:-1 group-title="其他",高清臻享睛彩竞技
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=miguaoyun1-AVS
+#EXTINF:-1 group-title="其他",睛彩竞技
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-8000k-1080P-miguaoyun2
+#EXTINF:-1 group-title="其他",睛彩青少
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-8000k-1080P-quanminrl
+#EXTINF:-1 group-title="其他",黑莓电影
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-8000k-1080P-Supermovie
+#EXTINF:-1 group-title="其他",NewTV 炫舞未来
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-4000k-1080P-xwwl
+#EXTINF:-1 group-title="地方",南京新闻综合频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJXW
+#EXTINF:-1 group-title="地方",南京影视频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJYS
+#EXTINF:-1 group-title="地方",南京少儿频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJSE
+#EXTINF:-1 group-title="地方",南京生活频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJSH
+#EXTINF:-1 group-title="地方",南京信息频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJXX
+#EXTINF:-1 group-title="地方",南京娱乐频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJYL
+#EXTINF:-1 group-title="地方",南京教科频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJJK
+#EXTINF:-1 group-title="地方",南京十八频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_NJSB
+#EXTINF:-1 group-title="地方",徐州新闻综合
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzxwzh
+#EXTINF:-1 group-title="地方",徐州经济生活
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzjjsh
+#EXTINF:-1 group-title="地方",徐州文艺影视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzwyys
+#EXTINF:-1 group-title="地方",徐州公共
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzgg
+#EXTINF:-1 group-title="地方",徐州新沂3套
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_XZXYTV-3
+#EXTINF:-1 group-title="地方",徐州沛县新闻综合
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzpxxwzh
+#EXTINF:-1 group-title="地方",徐州沛县综艺
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzpxzy
+#EXTINF:-1 group-title="地方",徐州沛县生活
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzpxsh
+#EXTINF:-1 group-title="地方",常州新闻
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsczxinwen
+#EXTINF:-1 group-title="地方",常州都市
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsczdushi
+#EXTINF:-1 group-title="地方",常州生活
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsczshenghuo
+#EXTINF:-1 group-title="地方",常州公共
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsczgonggong
+#EXTINF:-1 group-title="地方",睢宁综合
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzsnzh
+#EXTINF:-1 group-title="地方",睢宁资讯
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzsnzx
+#EXTINF:-1 group-title="地方",睢宁生活
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzsnshjy
+#EXTINF:-1 group-title="地方",睢宁三农
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=xzsnsn
+#EXTINF:-1 group-title="地方",南通一套
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsntyitao
+#EXTINF:-1 group-title="地方",南通二套
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsntertao
+#EXTINF:-1 group-title="地方",公共崇川
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=jsntsantao
+#EXTINF:-1 group-title="地方",镇江一套
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_ZHENJIANGTV-1
+#EXTINF:-1 group-title="地方",镇江二套
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_ZHENJIANGTV-2
+#EXTINF:-1 group-title="地方",镇江三套
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_ZHENJIANGTV-3
+#EXTINF:-1 group-title="地方",宿迁综合
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SQZH
+#EXTINF:-1 group-title="地方",宿迁公共
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=G_SQGG
+#EXTINF:-1 group-title="地方",邳州综合
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=pzzonghe
+#EXTINF:-1 group-title="地方",邳州综艺
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=pzzongyi
+#EXTINF:-1 group-title="地方",赣榆新闻综合
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-2500k-1080P-ganyutv
+#EXTINF:-1 group-title="地方",江苏仪化电视
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=HD-4000k-1080P-jsyihua
+#EXTINF:-1 group-title="特色",猎冰
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=cos-liebing
+#EXTINF:-1 group-title="特色",永安梦
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=cos-yonganmeng
+#EXTINF:-1 group-title="特色",漫长的季节
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=manchangdjj
+#EXTINF:-1 group-title="特色",梦中的那片海
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=mengzhongdnph
+#EXTINF:-1 group-title="特色",繁花
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=fanhua
+#EXTINF:-1 group-title="特色",庆余年
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=zhifouzf
+#EXTINF:-1 group-title="特色",百姓生活
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=baixingsh
+#EXTINF:-1 group-title="特色",黑土无言
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-htwy
+#EXTINF:-1 group-title="特色",问心
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-wenxin
+#EXTINF:-1 group-title="特色",父辈的荣耀
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-fbdry
+#EXTINF:-1 group-title="特色",繁城之下
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-fczx
+#EXTINF:-1 group-title="特色",小日子
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-xiaorizi
+#EXTINF:-1 group-title="特色",谢谢你温暖我
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-xxnwnw
+#EXTINF:-1 group-title="特色",当你沉睡时
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-dncss
+#EXTINF:-1 group-title="特色",梨园经典荟萃
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=COSHD-4000k-1080P-lyjdhc
+#EXTINF:-1 group-title="特色",影视剧场
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-1
+#EXTINF:-1 group-title="特色",第一院线
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-2
+#EXTINF:-1 group-title="特色",居家健身
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-4
+#EXTINF:-1 group-title="特色",电视剧
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-6
+#EXTINF:-1 group-title="特色",二更视频
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-7
+#EXTINF:-1 group-title="特色",德凯奥特曼
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-9
+#EXTINF:-1 group-title="特色",熊出没
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-10
+#EXTINF:-1 group-title="特色",超级飞侠
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-11
+#EXTINF:-1 group-title="特色",小猪佩奇
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-12
+#EXTINF:-1 group-title="特色",汪汪队立大功
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-13
+#EXTINF:-1 group-title="特色",高分电影
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-14
+#EXTINF:-1 group-title="特色",乡村爱情
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-15
+#EXTINF:-1 group-title="特色",热门综艺
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-16
+#EXTINF:-1 group-title="特色",美食美味
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-17
+#EXTINF:-1 group-title="特色",自然风景
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-18
+#EXTINF:-1 group-title="特色",动物世界
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-19
+#EXTINF:-1 group-title="特色",书籍解读
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-20
+#EXTINF:-1 group-title="特色",亲子玩具
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-21
+#EXTINF:-1 group-title="特色",广场舞
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-22
+#EXTINF:-1 group-title="特色",戏曲音乐
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-23
+#EXTINF:-1 group-title="特色",相声联欢
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-24
+#EXTINF:-1 group-title="特色",动漫星空
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-25
+#EXTINF:-1 group-title="特色",楚乔传
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-26
+#EXTINF:-1 group-title="特色",完美的她
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-27
+#EXTINF:-1 group-title="特色",哈尔滨一九四四
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-28
+#EXTINF:-1 group-title="特色",军事之旅
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-29
+#EXTINF:-1 group-title="特色",科幻世界
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-30
+#EXTINF:-1 group-title="特色",儿童天地
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-31
+#EXTINF:-1 group-title="特色",纪录片
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-32
+#EXTINF:-1 group-title="特色",音乐心情
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-33
+#EXTINF:-1 group-title="特色",掼蛋频道
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-34
+#EXTINF:-1 group-title="特色",体坛同期声
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-35
+#EXTINF:-1 group-title="特色",臻享推荐
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-36
+#EXTINF:-1 group-title="特色",怀旧MTV
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-37
+#EXTINF:-1 group-title="特色",南来北往
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-39
+#EXTINF:-1 group-title="特色",狗剩快跑
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-40
+#EXTINF:-1 group-title="特色",狂飙
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-41
+#EXTINF:-1 group-title="特色",人世间
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-42
+#EXTINF:-1 group-title="特色",大江大河
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-43
+#EXTINF:-1 group-title="特色",山海情
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-44
+#EXTINF:-1 group-title="特色",冰雪竞技场
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-45
+#EXTINF:-1 group-title="特色",邪恶与疯狂
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-46
+#EXTINF:-1 group-title="特色",来自星星的你
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-47
+#EXTINF:-1 group-title="特色",哦我的鬼神大人
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-48
+#EXTINF:-1 group-title="特色",太阳的后裔
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-49
+#EXTINF:-1 group-title="特色",请回答1988
+http://127.0.0.1:9978/proxy?do=jstv&pt=gitv&id=GITV-JS-50
