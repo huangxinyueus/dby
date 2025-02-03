@@ -41,7 +41,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:1/23❤",
+            "name": "📢o公告❤更新:2/1❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -84,6 +84,7 @@
             "ext": {
                 "site_urls": [
                     "https://wooguc.nxog.eu.org",
+                    "https://wooguc.xn--dkw0c.news",
                     "http://wooguc.nxog.asia",
                     "https://wooguc.xn--dkw.xn--6qq986b3xl"
                 ],

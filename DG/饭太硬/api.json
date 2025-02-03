@@ -5,8 +5,8 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "豆",
-            "name": "备用公众号【叨观荐影】",
+            "key": "豆豆",
+            "name": "获取新接口：神秘的哥哥们",
             "type": 3,
             "api": "csp_DouDou",
             "indexs": 1,
@@ -172,16 +172,6 @@
             "type": 3,
             "api": "csp_Ddrk",
             "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "AppSj",
-            "name": "👒视界┃多线",
-            "type": 3,
-            "api": "csp_AppSj",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -635,6 +625,15 @@
             }
         },
         {
+            "key": "wx",
+            "name": "公众号：神秘的哥哥们",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "fan",
             "name": "导航 www.饭太硬.com",
             "type": 3,
@@ -653,7 +652,7 @@
             "changeable": 0
         }
     ],
-    "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
+    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1738054786827/wushi3.gif",
     "lives": [
         {
             "name": "牛播一（仅新版影视仓/ok影视）",
@@ -662,9 +661,9 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
-            "name": "IPV4",
+            "name": "咕咕咕",
             "type": 0,
-            "url": "./lives/IPV4.txt",
+            "url": "./lives/咕咕咕.txt",
             "epg": ""
         },
         {

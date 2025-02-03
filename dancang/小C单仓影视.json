@@ -890,13 +890,17 @@
             "filterable": 1
         },
         {
+            "key": "樱花影视",
+            "name": "樱花｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/樱花影视.json"
+        },
+        {
             "key": "可可影视",
             "name": "可可｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "ext": "./XBPQ/可可影视.json"
         },
         {
@@ -904,9 +908,6 @@
             "name": "海纳｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "ext": "./XBPQ/海纳影视.json"
         },
         {
@@ -967,6 +968,27 @@
             "filterable": 1
         },
         {
+            "key": "思古影视",
+            "name": "思古｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/思古影视.js"
+        },
+        {
+            "key": "魔力高清",
+            "name": "魔力｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/魔力高清.js"
+        },
+        {
+            "key": "碟调影视",
+            "name": "碟调｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/碟调影视.js"
+        },
+        {
             "key": "电影牛",
             "name": "电影牛｜影视",
             "type": 3,
@@ -1010,37 +1032,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/茶杯狐.js"
-        },
-        {
-            "key": "思古影视",
-            "name": "思古｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/思古影视.js"
-        },
-        {
-            "key": "魔力高清",
-            "name": "魔力｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/魔力高清.js"
-        },
-        {
-            "key": "碟调影视",
-            "name": "碟调｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/碟调影视.js"
-        },
-        {
-            "key": "奇趣影视",
-            "name": "奇趣｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/奇趣影视.json"
         },
         {
             "key": "1905",
@@ -2098,20 +2089,20 @@
             "ua": "okhttp/3.15"
         },
         {
-            "name": "CIPTV直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Market/ciptv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
+            "name": "AI直播",
+            "type": 0,
+            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
         },
         {
-            "name": "B站直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "bililive.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
+            "name": "AI直播+",
+            "type": 0,
+            "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
         },
         {
             "name": "虎牙一起看",
@@ -2136,15 +2127,6 @@
             "url": "yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
-        },
-        {
-            "name": "AI直播",
-            "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 2,
-            "timeout": 10
         },
         {
             "name": "电视Live",

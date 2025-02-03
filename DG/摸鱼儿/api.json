@@ -8,7 +8,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌕️豆瓣┃首页┃推荐",
+            "name": "🧧福佑蛇年┃巳巳如意",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -40,7 +40,7 @@
         },
         {
             "key": "版本信息",
-            "name": "📺智能┃电视┃直播",
+            "name": "🐏本地┃肥羊┃直播",
             "type": 3,
             "api": "csp_Market",
             "jar": "./jars/配置中心.jar",
@@ -80,6 +80,14 @@
                 "site": "http://www.muoupan.top",
                 "danmu": true
             }
+        },
+        {
+            "key": "樱花影视",
+            "name": "🌸樱花如雪┃4K纯净",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jars/配置中心.jar",
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=樱花"
         },
         {
             "key": "人人",
@@ -1752,7 +1760,13 @@
     ],
     "lives": [
         {
-            "name": "智能直播",
+            "name": "摸鱼AI直播",
+            "type": 0,
+            "url": "./lives/摸鱼AI直播.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "本地肥羊直播",
             "type": 3,
             "url": "tv.m3u",
             "epg": ""
@@ -1782,15 +1796,9 @@
             "epg": ""
         },
         {
-            "name": "自动更新",
+            "name": "范明明IPV6",
             "type": 0,
-            "url": "./lives/自动更新.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPV6",
-            "type": 0,
-            "url": "./lives/IPV6.txt",
+            "url": "./lives/范明明IPV6.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
