@@ -85,9 +85,11 @@
             "key": "樱花影视",
             "name": "🌸樱花如雪┃4K纯净",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_Lggys",
             "jar": "./jars/配置中心.jar",
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=樱花"
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "人人",

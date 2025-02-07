@@ -154,14 +154,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexlabi",
-            "name": "💓蜡笔┃4K💓",
-            "type": 3,
-            "api": "csp_WexlabiGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "WexxiaomiziyuanGuard",
             "name": "💓小米┃4K💓",
             "type": 3,
@@ -174,22 +166,6 @@
             "name": "💓肥猫┃4K💓",
             "type": 3,
             "api": "csp_WexfeimaoziyuanGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexhubanGuard",
-            "name": "💓虎斑┃4K💓",
-            "type": 3,
-            "api": "csp_WexhubanGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WextudouGuard",
-            "name": "💓‍土豆┃4K💓‍",
-            "type": 3,
-            "api": "csp_WextudouGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -1122,12 +1098,6 @@
             "type": 0,
             "url": "./lives/钵钵鸡.txt",
             "epg": ""
-        },
-        {
-            "name": "甜皮鸭",
-            "type": 0,
-            "url": "./lives/甜皮鸭.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
             "name": "范明明",

@@ -30,40 +30,16 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "新AKTV港台",
+            "name": "Gather.电视直播",
             "type": 0,
-            "url": "./lives/新AKTV港台.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "catvod TV",
-            "type": 0,
-            "url": "./lives/catvod TV.txt",
+            "url": "./lives/Gather.电视直播.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
-            "name": "IPTV研究所",
+            "name": "Gather.网络直播",
             "type": 0,
-            "url": "./lives/IPTV研究所.txt",
+            "url": "./lives/Gather.网络直播.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "iill",
-            "type": 0,
-            "url": "./lives/iill.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "4GTV（需要魔法）",
-            "type": 0,
-            "url": "./lives/4GTV（需要魔法）.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPTV每天两更(Guovin)",
-            "type": 0,
-            "url": "./lives/IPTV每天两更(Guovin).txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
             "name": "抖音、斗鱼、B站、YY、Afreeca、Youtube",
@@ -414,7 +390,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
-            "ext": "./js/采集之王[合].js?type=url&params=./json/采集静态.json$1"
+            "ext": "./js/采集之王[合].js?type=url&params=../json/采集静态.json$1"
         },
         {
             "key": "csp_XYQHiker_爱你短剧",

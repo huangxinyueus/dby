@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "获取新接口：神秘的哥哥们",
+            "name": "备用公众号【叨观荐影】",
             "type": 3,
             "api": "csp_DouDou",
             "indexs": 1,
@@ -659,12 +659,6 @@
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "咕咕咕",
-            "type": 0,
-            "url": "./lives/咕咕咕.txt",
-            "epg": ""
         },
         {
             "name": "范明明",
