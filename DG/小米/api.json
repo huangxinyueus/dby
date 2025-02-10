@@ -95,7 +95,7 @@
         },
         {
             "key": "csp_UC",
-            "name": "💌UCUC┃4K弹幕",
+            "name": "💌MIUC┃4K弹幕",
             "type": 3,
             "searchable": 1,
             "changeable": 0,
@@ -103,12 +103,10 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://www.mucpan.cc",
-                    "http://milvdou.fun",
-                    "http://ucmi.fun",
-                    "http://mucpan.cc"
+                    "http://54271.fun/",
+                    "http://milvdou.fun"
                 ],
-                "url_key": "UC",
+                "url_key": "uc",
                 "token": "",
                 "ucCookie": "",
                 "quarkCookie": "",
@@ -149,6 +147,13 @@
             "order_num": 0,
             "changeable": 0,
             "ext": "./js/wencai.js"
+        },
+        {
+            "key": "csp_LiteApple",
+            "name": "🍎苹果┃1080P",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "playerType": 2
         },
         {
             "key": "csp_Xlys",
@@ -221,15 +226,6 @@
             "ext": "s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF"
         },
         {
-            "key": "csp_yumi",
-            "name": "🌽玉米┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_MiTuApp",
-            "ext": "s1/kf8dfHZAgs5H4ledT0i6LXx6xdZC0ph9uRVITTKNp23AhIWvyzmvWXVSGAFNw4cyEOCScilMV9nTxuQd8NgE7JgcEh/KZ0BJMCTQ3NWsr7zaQPpHDJf1GLtn+xIRmSB9So8Y08nH6E8sY9yun1dTf0xqR2kGXxnoBoGZMWam+DW343WG42WKm94hzvQb7yDEUDLU2jR9lBy3hMWV7yjLPpu0QFLKd8NNgBWw1p4Q="
-        },
-        {
             "key": "csp_电影",
             "name": "🎬电影┃1080P",
             "type": 3,
@@ -261,8 +257,8 @@
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_MiTuApp",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I="
+            "api": "csp_YuDi",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XBU5Prcv6yXYl+buEHnrog7tDJv0Oruu3XbWiSeYcmXyu0bWlgyI7I+ExxK+yX2Fm4="
         },
         {
             "key": "csp_LaoBaiBook",

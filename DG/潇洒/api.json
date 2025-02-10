@@ -346,7 +346,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://ucmi.fun",
+                "site": "http://www.mucpan.cc",
                 "danmu": true
             }
         },
@@ -443,7 +443,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://45.207.212.215:12121",
+                "site": "http://103.45.162.207:20720",
                 "danmu": true
             }
         },
@@ -582,17 +582,6 @@
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
-            "key": "九龙影视",
-            "name": "九龙｜APP",
-            "type": 3,
-            "api": "./PY/九龙影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "猎手影视",
             "name": "猎手｜APP",
             "type": 3,
@@ -605,11 +594,11 @@
         },
         {
             "key": "世纪",
-            "name": "世纪｜APP",
+            "name": "世纪｜App",
             "type": 3,
             "api": "csp_Drama",
             "playerType": 2,
-            "ext": "saHR0cDovLzExMC40Mi40OS42ODo4OTAwfENEQjZXTU5BTVhCRFNGRFVVS1hJRU1PMVVHMU1VTEoxfDJDMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVafDIw"
+            "ext": "saHR0cDovLzExMC40Mi40OS4xODg6OTkwMnxBTEhNWkpWVk9GVk5RMkhUT0VQRlpaRlhZV0gxRDJSTnwyQzFBMDZFMTk3RUYxMENGM0Y2MDU4Q0E3QTgwM0I1RXwyMA=="
         },
         {
             "key": "图图",
@@ -681,7 +670,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cDovLzIxMS4xMDEuMjM3LjIyMDo3Nzg4L3lteXMudHh0fDF2ZmZzZGFzZGFzZGFzZDJ8MXZmZnNkYXNkYXNkYXNkMnwxMDU="
+            "ext": "jaHR0cHM6Ly95bS1ycmNkbi1hb21lbmNsb3VkLnlteXMxLnh5enwxdmZmc2Rhc2Rhc2Rhc2QyfDF2ZmZzZGFzZGFzZGFzZDJ8MTA1"
         },
         {
             "key": "优质",
@@ -708,6 +697,15 @@
             "ext": "saHR0cDovL3R4dC55eXlzLm5ld3MvdjQudHh0fGlsYnZ6d3o1MGthZ3U5eHR8aWxidnp3ejUwa2FndTl4dHw1NDQ="
         },
         {
+            "key": "闹闹",
+            "name": "闹闹｜App",
+            "type": 3,
+            "api": "csp_Xdai",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "caHR0cDovLzExMC40Mi4zLjE5NTo4OTg5fEQ2cTdoamI4N0ZKMDlGNzd8RDZxN2hqYjg3RkowOUY3Nw"
+        },
+        {
             "key": "蝴蝶",
             "name": "蝴蝶｜App",
             "type": 3,
@@ -725,16 +723,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "http://kkwk123.top/api.php/app/"
-        },
-        {
-            "key": "人人影视",
-            "name": "人人｜APP",
-            "type": 3,
-            "api": "csp_AppGetApp",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDgsOhw6PDrcORwqLCosKUV8KzwpPCocOiw6jCnMKkwoZhwqrCrMKhwqXCmlrCpMKZwqDCoMKtwprCoMOV5Ya46YSY5o+V5ZCTwqXlh5/kvpHlkbDCtOW+pOintui1tOa7gOetksOQwqHCpcKaWnHClcKjw4TDmMOzwqDCtFNXdmXCqsK5wq/CvcKvZXRiY8K8wrXDgMKrwrFaXFBXwrrDmMOtw4LDsFpqUFfCv8KowqvCv8Kvd2VidMKrwqbCvcK7w4BlZ1dcwpnCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoGrCqMKiwq/CssKoZGVjXsKqwqnCrsKnwqtlZGpmwq/CqMKvwqjDrcKbwpHCksKZwqfDo8Oiw6nCoV9QV8KUw57DlsOsw7LDqsKne8KVwqnCoMKtwprCoMOzwpTCn8KnwpHDp8OawqrCqsKsaVfCrQ=="
         },
         {
             "key": "站长影视",
@@ -757,24 +745,34 @@
             "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCocKbwqTCpMKgwrPCosKpwqvCq2ReaWnCp8KswrLCp8KuamppacKywqzCqcOaw6rCnF7CpMKow63CmsKmwpnCocKGwpnCpMKVw47DpcOmwqDCtFNXV1zCmcKaw4PDp8OjwqfCh8KfwqLDncKawrTCmcKhwpzCnsKZwqTDj8KkwqvCssKhX1BXwqTDosOjwqHCs8KaWsKL5Ya16YSY5pCe5ZGWwqblh6XkvpHlkKpq5b6h6Ke26La95ryD562Tw5bCoV9QV3HDnsOmw4XDnsOzWmpQV8OewqfCsMKqw51qwpNgwpXDn8Kjw5zCr8OdwpdhV1zCmcKawrvDnsOtfMKmV2rCmcKaw5/CrcKwZMKTZ8KTwqnDmMOgwqnDnGnCk8KUYcKgwp/CmsKgw57CmMKTwqLCqcOpw6fDhcOew7NaalBXw7LDlMOpw7DDm8KhwpdgYcKrwqnCocO2"
         },
         {
-            "key": "猫猫影视",
-            "name": "猫猫｜APP",
+            "key": "悠悠影视",
+            "name": "悠悠｜APP",
             "type": 3,
             "api": "csp_AppGetApp",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoGrCqMKiwqzCqsKrYWFgYcKnwqXCrcKwwqhlYmBqwrDCqsKywrHCqcKswp3CqcKjwqfDp8Oyw63CnF9SecKew6LDp8ORw6jDrMKXUmpSwpvCn8Kcw63Do8KjUmpSw5Tlh7jphaLmkJ7lkZ1f5Yac5L2H5ZCnwrPlv6ToqYDotr3mvIrnrIzCjVJcwpvCtMOfw6zDhcKYwqlSasKbwqTDsMOfw6DCpsKUwpHCo8Odw5TDrcOdw5vCpsKUYlLCpcKVwrvDnsOtfMKmUmrCm8Kkw7DDn8OgwqbClMKRwqPDncOUw63DncObwqbClGJSwqXClcONw6LDrsKYwoXCosKcwpvCrcKcwpvDtw=="
+            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDgsOhw6PDrcORwqLCosKUV8KzwpPCocOiw6jCnMKkwoZhwqrCrMKhwqXCmlrCpMKZwqDCoMKtwprCoMOV5Ya46YSY5o+V5ZCTwqXlh5/kvpHlkbDCtOW+pOintui1tOa7gOetksOQwqHCpcKaWnHClcKjw4TDmMOzwqDCtFNXdMKow7DCvMOtw63DrMKXwofCksKJw6nDlcOmw7DDqFpcUFfCusOYw63DgsOwWmpQV8K9w6vDscOCw63Cp8KiwpTCh8Obw4zDqsObw6bCqsKeV1zCmcKaw43DosOuwpjChcKiwpzCoMKtwprCoMOiwqfCpMKgasKowqLCq8KuwrBhYmJlwqfCpsKqwqfCsGhqZWXCr8KpwqnDmsOqwpxewqDCmMOpwprCpsKZwqHCl8KVwpPCosOyw6PDrsOEw5/CrFdqUMKgw6zDm8Oow7HClMKewpdgwqrCpcKwwqDDtw=="
         },
         {
-            "key": "兄弟影视",
-            "name": "兄弟｜APP",
+            "key": "良人影视",
+            "name": "良人｜APP",
             "type": 3,
             "api": "csp_AppGetApp",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KRwqDDqcKhw5zDq8OpwqnCn8KUXsOcw6LDp8Kow5vCo8KZXsKgw6HDo8KcwqXCnHzCnsKZwqTDkMOiw6zDncKcbVLCmcKew6LDp8OQwqrCq2xSXFLDrcOcw6rCm8K0VcKL5Ya16YSY5pCe5ZGWwqblh6XkvpHlkKpq5b6h6Ke26La95ryD562Tw5bCnF9SccKVw6zCvsOfw7LCnG1SwqPCqsOdw53DscOdw5vCo8KgwqfCk8Onw6DDnsOhw5xVXFJxw57DpsODw6/CnG1SwqPCqsOdw53DscOdw5vCo8KgwqfCk8Onw6DDnsOhw5xVwq0="
+            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCocKbwqTCpMKgw6zCrcKpwqjDpsKcwpHCnsKXw6vDmMOowqbCq2ZhZ2fCqsKqwrDCscKsYcKTwp/Co8Knw5TDqsKmw6HCqMKRwp7Cl8Ozw5vDqcOuwqjCoMKpwqHCk8Olw6LDr8OdwqjClsKfwp1fw6XDnMObw6fDocKlwpXCnl7DrcOrw67CoMKmU1fCg8KZw63DmMOPw6vDplpqUFfCoMKfwprCoMOuwpzCoFdqwpnCmsOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3CoMKfwprCoMK7wpjCo3vClcOywprCtMKZwqF3ZsKhZ8Ohw53DnMKxwrF5emBpwr/CqsKxwqDCplNXccKVw6zCvMOwwqDCtFNXdGbDqsKqw6LDo8Oca2d2esKpwqzDgMKwwrFaXFBXw53DmMOdw6vDs8KjwqR7wpXDssKawrTCmcKhwqzCkcKfwqfDmsOhw6HCqcKrZWZXwq0="
+        },
+        {
+            "key": "云播影视",
+            "name": "云播｜APP",
+            "type": 3,
+            "api": "csp_AppGetApp",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDjMOcw67DnsOPwqXCnFdqwpnCmsOiw63DrsKjal9fw6DDmMOuw5rDqsKjXsKkwqbDssOVw5vDqcOqYcKTwp/CncKow5TDqsOiwqjCo8KYwqBXwqXCk8Khw4LDqMKcwqTCh8Kfw6vDl8KhwrPCmlrCmcKewpnDrcOJwqvCqsKzWlxQV8Otw5zDqsKgwrRTV8KL5Ya16YWh5pCY5ZGdwqXlh6bkvYrlkKdq5b6h6Ki/6La35ryK562Sw5daXFBXwrrDmMOtw4TDn8KsV2pQwqDDoMOjw5zDpWVkZWjDpsOcw53DpMKsZ2VoV8KlwpPCocK6w5/CpnnCplfCs8KTwqHDpsOjwpbCm2Jkwq7Cq8Onw6LDncKeYmRlwrHCmsKmwpnCocKbwpXCkcKUw57DpcOtwqDCtFPCq1fCpcOsw5jDrMKmw5vCmsKVwp7CpMKgwq3CmsKgw4fCosKqwpnCnMOlw5TCqcKuwqhjUFjCh8Oiw6HDnsOow7HCplB+woTCmcKkwqrCp8KqblDCh8KZw6fCqcKuwrTCmsKrZmRZwpnCtMOqw6nDpsKYwofClcKSw4TDnMOuwqjCr2ZnXmPCr8KTwqLDhMOCwod9fFzCmcOfw6PDpMOfU3fClcKTw6TDosKjwpnCvcKbwqLCn8Kdw57CosKrwqrCrGFgXmDCp8KjwprDjMObwpnCkcKiwpnCqMKowq3CsMKoZmZXXMKZwprDm8Olw6bCosKnc8Kiw6jDpsOtw4nDrMKiwqTCn8KTw6jDn8OMw57DnsKcwqLClcKTw63DpsKhwrPCmsKHwqLCpcKVw7bCn8KawqDDnsKYwpPCosKpw6nDp8OFw57Ds1pqUFfDssOUw6nDsMObwqHCl2BhwqvCqcKhw7Y="
         },
         {
             "key": "洽洽影视",
@@ -795,6 +793,68 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "KhY021WelCEl+6MsvwnzaLK5sgGhHBhBszPP7EvqSfdVqJTIDGrV0xPZiB/0I8O9mrMKS+cdzxqKP83dFJJyyyb8D0J0ZVtM/ds4xb/4dA=="
+        },
+        {
+            "key": "小米尘落",
+            "name": "尘落｜APP",
+            "type": 3,
+            "api": "csp_Wetv"
+        },
+        {
+            "key": "小米虎虎",
+            "name": "虎虎｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppHuhu"
+        },
+        {
+            "key": "小米眼镜",
+            "name": "眼镜｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppYanjing"
+        },
+        {
+            "key": "小米米兔",
+            "name": "米兔｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MiTuApp"
+        },
+        {
+            "key": "小米玉米",
+            "name": "玉米｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_YuMiApp"
+        },
+        {
+            "key": "小米电影",
+            "name": "电影｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MovieApp"
+        },
+        {
+            "key": "小米多多",
+            "name": "多多｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_DuoDuoApp"
+        },
+        {
+            "key": "小米良人",
+            "name": "良人｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_LiangRenApp"
         },
         {
             "key": "西瓜视频",
@@ -818,6 +878,24 @@
             "ext": "./JS/采集之王.js?type=url&params=../JSON/采集静态.json$1$1"
         },
         {
+            "key": "爱看机器人",
+            "name": "爱看｜影视",
+            "type": 3,
+            "api": "csp_IkanBot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "南瓜影视",
+            "name": "南瓜｜影视",
+            "type": 3,
+            "api": "csp_NanGua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "低端影视",
             "name": "低端｜影视",
             "type": 3,
@@ -836,10 +914,46 @@
             "filterable": 1
         },
         {
+            "key": "饭团影视",
+            "name": "饭团｜影视",
+            "type": 3,
+            "api": "csp_Fantuan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "来看影视",
+            "name": "来看｜影视",
+            "type": 3,
+            "api": "csp_Lkdy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "樱花影视",
+            "name": "樱花｜影视",
+            "type": 3,
+            "api": "csp_Lggys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "饺子影视",
             "name": "饺子｜影视",
             "type": 3,
             "api": "csp_Jiaozi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "看客影视",
+            "name": "看客｜影视",
+            "type": 3,
+            "api": "csp_Kanke",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -853,22 +967,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.91qkw.com"
-        },
-        {
-            "key": "看客影视",
-            "name": "看客｜影视",
-            "type": 3,
-            "api": "csp_Kanke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "瓜子影视",
-            "name": "瓜子｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/瓜子影视.js"
         },
         {
             "key": "奇优影视",
@@ -890,11 +988,13 @@
             "filterable": 1
         },
         {
-            "key": "樱花影视",
-            "name": "樱花｜影视",
+            "key": "瓜子影视",
+            "name": "瓜子｜影视",
             "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/樱花影视.json"
+            "api": "csp_Gz360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "可可影视",
@@ -2033,6 +2133,15 @@
             "regex": [
                 "video/tos/cn"
             ]
+        },
+        {
+            "name": "饭团点击",
+            "hosts": [
+                "fantuan"
+            ],
+            "script": [
+                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
         }
     ],
     "doh": [
@@ -2084,9 +2193,13 @@
             "name": "肥羊直播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "tv.m3u",
+            "url": "https://9877.kstore.space/Live/live.m3u",
             "timeout": 10,
-            "ua": "okhttp/3.15"
+            "ua": "okhttp/3.15",
+            "catchup": {
+                "type": "append",
+                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
         },
         {
             "name": "AI直播",
@@ -2108,7 +2221,7 @@
             "name": "虎牙一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "huyayqk.m3u",
+            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -2116,7 +2229,7 @@
             "name": "斗鱼一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "douyuyqk.m3u",
+            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -2124,7 +2237,7 @@
             "name": "YY轮播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "yylunbo.m3u",
+            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },

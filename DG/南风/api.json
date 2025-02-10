@@ -327,8 +327,21 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://www.wogg.net",
+                "siteUrl": "http://wogg.xxooo.cf/",
                 "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "片库",
+            "name": "🅿片库",
+            "type": 3,
+            "api": "csp_Qiwei",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "siteUrl": "https://www.qwnull.com",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
         {
@@ -366,7 +379,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://tv.yydsys.top",
+                "siteUrl": "https://woog.nxog.eu.org",
                 "filter": "./json/wogg.json"
             }
         },
@@ -379,7 +392,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://woog.nxog.eu.org",
+                "siteUrl": "https://tv.yydsys.top",
                 "filter": "./json/wogg.json"
             }
         },
@@ -444,6 +457,18 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
+                "siteUrl": "https://www.4.star2.cn/",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
+        },
+        {
+            "key": "csp_PanSearch",
+            "name": "📀盘搜索",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
@@ -457,17 +482,6 @@
             "switchable": 0,
             "ext": {
                 "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf",
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
-            }
-        },
-        {
-            "key": "csp_PanSearch",
-            "name": "📀盘搜索",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
@@ -559,26 +573,6 @@
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
-        },
-        {
-            "key": "虎牙直播",
-            "name": "🐯虎牙直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/虎牙直播.js"
-        },
-        {
-            "key": "斗鱼直播",
-            "name": "🐟斗鱼直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/斗鱼直播.js"
         },
         {
             "key": "有声小说吧",

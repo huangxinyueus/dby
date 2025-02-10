@@ -15,7 +15,7 @@
         {
             "name": "胖羊直播",
             "type": 3,
-            "url": "tv.m3u",
+            "url": "./lives/胖羊直播.txt",
             "epg": ""
         },
         {
@@ -61,9 +61,7 @@
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.eu.org",
-                    "https://woog.xn--dkw0c.news",
-                    "http://woog.nxog.asia",
-                    "https://1.woog.xn--dkw.xn--6qq986b3xl"
+                    "https://woog.xn--dkw.xn--6qq986b3xl"
                 ],
                 "url_key": "woog",
                 "threadinfo": {
@@ -74,7 +72,7 @@
         },
         {
             "key": "csp_UC",
-            "name": "🐲欧歌┃u夕弹幕",
+            "name": "🐲欧歌┃uc弹幕",
             "type": 3,
             "searchable": 1,
             "changeable": 0,
@@ -84,9 +82,7 @@
             "ext": {
                 "site_urls": [
                     "https://wooguc.nxog.eu.org",
-                    "https://wooguc.xn--dkw0c.news",
-                    "http://wooguc.nxog.asia",
-                    "https://wooguc.xn--dkw.xn--6qq986b3xl"
+                    "https://oguc.xn--dkw.xn--6qq986b3xl"
                 ],
                 "url_key": "UC",
                 "token": "",
@@ -110,9 +106,7 @@
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.eu.org",
-                    "https://woog.xn--dkw0c.news",
-                    "http://woog.nxog.asia",
-                    "https://1.woog.xn--dkw.xn--6qq986b3xl"
+                    "https://woog.xn--dkw.xn--6qq986b3xl"
                 ]
             }
         },
@@ -149,7 +143,7 @@
             "filterable": 1
         },
         {
-            "key": "农民影视",
+            "key": "农民",
             "name": "💡农民｜影视",
             "type": 3,
             "api": "csp_Nmys",
@@ -167,7 +161,7 @@
             "filterable": 1
         },
         {
-            "key": "移动云盘",
+            "key": "移动",
             "name": "💡移动｜影视",
             "type": 3,
             "api": "csp_YDjisu",
@@ -175,7 +169,7 @@
             "changeable": 1
         },
         {
-            "key": "瓜子影视1",
+            "key": "瓜子",
             "name": "💡瓜子｜影视",
             "type": 3,
             "api": "csp_Gz360",
@@ -184,7 +178,7 @@
             "filterable": 1
         },
         {
-            "key": "骚火影视1",
+            "key": "骚火",
             "name": "💡骚火｜影视",
             "type": 3,
             "api": "csp_SaoHuo",
@@ -200,39 +194,12 @@
             "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="
         },
         {
-            "key": "新视觉影视",
-            "name": "💡视觉｜影视",
-            "type": 3,
-            "api": "./api/sj.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "木头",
-            "name": "💡木头｜影视",
-            "type": 3,
-            "api": "csp_Shark",
-            "playerType": 1,
-            "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
-        },
-        {
             "key": "雨滴",
             "name": "💡雨滴｜影视",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
             "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
-        },
-        {
-            "key": "现代",
-            "name": "💡现代｜影视",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
         },
         {
             "key": "优质",
@@ -251,17 +218,7 @@
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
         },
         {
-            "key": "站长影视",
-            "name": "💡站长｜影视",
-            "type": 3,
-            "api": "csp_AppGetApp",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KdacOcw57CrMKxw6DCqmbCnmPDpsKow6XCsMKywpRhYMKUwqfDl8Ozw7LDtGVewpPCn8Omwq3Cr8KvwrJsX8KRwqDDosKhw6rDocOqVVxSecOnw5zDrsOQw6nCpcKUUmrCm8KVwqbCm8OuwpzCoFJqwpvDjuWHv+mFoeaQn+WQllzlhpzkvYflkbDCreW/q+iov+i2vua7g+esicKNUsKlwpXCu8Oew61+wpXCqVLCs8KVw57DssOzwq3CpMKmwpHDqcOcw5vDqcOqwqzCqcKUwqPCm8KfwpzCusOfwqZ5wqZSwrPClcOew7LDs8KtwqTCpsKRw6nDnMObw6nDqsKswqnClMKjwpvDsA=="
-        },
-        {
-            "key": "耐看影视",
+            "key": "耐看",
             "name": "💡耐看｜影视",
             "type": 3,
             "api": "csp_WebNK",
@@ -271,7 +228,7 @@
             "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
         },
         {
-            "key": "真心影视",
+            "key": "真心",
             "name": "💡真心｜影视",
             "type": 3,
             "api": "csp_WebGZ",
@@ -289,7 +246,7 @@
             "filterable": 0
         },
         {
-            "key": "全网影视",
+            "key": "全网",
             "name": "💡全网｜影视",
             "type": 3,
             "api": "csp_Quanwk",
@@ -299,17 +256,7 @@
             "ext": "https://www.91qkw.com"
         },
         {
-            "key": "素白白",
-            "name": "💡白白｜影视",
-            "type": 3,
-            "api": "csp_Subaibai",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://subaibai.com"
-        },
-        {
-            "key": "低端影视",
+            "key": "低端",
             "name": "💡低端｜影视",
             "type": 3,
             "api": "csp_Ddys",
@@ -318,7 +265,7 @@
             "filterable": 1
         },
         {
-            "key": "机器人",
+            "key": "机器",
             "name": "💡机器｜影视",
             "type": 3,
             "api": "csp_Ikanbot",
@@ -327,7 +274,7 @@
             "filterable": 1
         },
         {
-            "key": "西瓜视频",
+            "key": "西瓜",
             "name": "💡西瓜｜影视",
             "type": 3,
             "api": "csp_AmuXiguaV2",
@@ -341,7 +288,7 @@
             }
         },
         {
-            "key": "快看影视",
+            "key": "快看",
             "name": "💡快看｜影视",
             "type": 3,
             "api": "csp_Kuaikan",
@@ -350,16 +297,7 @@
             "filterable": 1
         },
         {
-            "key": "饺子影视",
-            "name": "💡饺子｜影视",
-            "type": 3,
-            "api": "csp_Jiaozi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "厂长资源",
+            "key": "厂长",
             "name": "💡厂长｜资源",
             "type": 3,
             "api": "csp_Czzy",
@@ -368,7 +306,7 @@
             "filterable": 1
         },
         {
-            "key": "看客影视",
+            "key": "看客",
             "name": "💡看客｜影视",
             "type": 3,
             "api": "csp_Kanke",
@@ -377,7 +315,7 @@
             "filterable": 1
         },
         {
-            "key": "奇优影视",
+            "key": "奇优",
             "name": "💡奇优｜影视",
             "type": 3,
             "api": "csp_Qiyou",
@@ -385,6 +323,38 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://www.dyxz2.com/"
+        },
+        {
+            "key": "虎虎",
+            "name": "💡虎虎｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppHuhu"
+        },
+        {
+            "key": "电1影",
+            "name": "💡电影｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MovieApp"
+        },
+        {
+            "key": "多多",
+            "name": "💡多多｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_DuoDuoApp"
+        },
+        {
+            "key": "良人",
+            "name": "💡良人｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_LiangRenApp"
         },
         {
             "key": "csp_XYQHiker_农民影视",
@@ -680,8 +650,8 @@
             "changeable": 1,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
                 "danmu": true
             }
         },
@@ -695,10 +665,10 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "http://woog.nxog.asia",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
+                "site": "https://woog.nxog.eu.org",
                 "danmu": true
             }
         },
@@ -712,9 +682,9 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
                 "site": "http://www.muoupan.top",
                 "danmu": true
             }
@@ -728,9 +698,9 @@
             "changeable": 1,
             "filterable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
                 "site": "https://tv.yydsys.top",
                 "danmu": true
             }
@@ -744,9 +714,9 @@
             "changeable": 1,
             "filterable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
                 "site": "http://labipan.com",
                 "danmu": true
             }
@@ -760,9 +730,9 @@
             "changeable": 1,
             "filterable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
                 "site": "https://mihdr.top",
                 "danmu": true
             }
@@ -776,7 +746,7 @@
             "filterable": 0,
             "changeable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "danmu": true
             }
         },
@@ -789,7 +759,7 @@
             "filterable": 0,
             "changeable": 1,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "danmu": true,
                 "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
             }
@@ -803,7 +773,7 @@
             "filterable": 1,
             "changeable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
                 "danmu": true
             }
         },
@@ -817,7 +787,7 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
                 "danmu": true
             }
         },
@@ -830,7 +800,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt"
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt"
             },
             "style": {
                 "type": "list"
@@ -845,7 +815,7 @@
             "changeable": 0,
             "filterable": 0,
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TV/token.txt",
+                "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "share": "./json/alishare.json"
             },
             "style": {
@@ -862,7 +832,7 @@
             "filterable": 0,
             "indexs": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark"
+                "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt"
             },
             "style": {
                 "type": "list"
@@ -878,7 +848,7 @@
             "filterable": 0,
             "indexs": 0,
             "ext": {
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc"
+                "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt"
             },
             "style": {
                 "type": "list"
@@ -1223,6 +1193,16 @@
             "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoMKjwrPCosKpw7HDoMKUwqDCoF3CqsKmwqrCrsKtbGBgZsKuwqHDncOow61hwpHCoF3DoMOow5vDp8Ohwq3CmMKfwqXCp8Ogw7PDqsOdwp/Cn8KlwpTCp8OWw6nDpsKpwprClcKkwpHDqcOjwqjDrcOywqdSXFLDgsOhw6PDrcORwqLCosKUUsKzwpXCnMKlwpzCp8KZwqBSwrPClcOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3Cm8KfwpzCusOfwqZ7wpXCqcKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8K7wpjCo3nCpsKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8ONwpzCpMKVwoXDq8OfwpzCs8KcVcKt"
         },
         {
+            "key": "站长影视",
+            "name": "🤣站长｜动漫",
+            "type": 3,
+            "api": "csp_AppGetApp",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KdacOcw57CrMKxw6DCqmbCnmPDpsKow6XCsMKywpRhYMKUwqfDl8Ozw7LDtGVewpPCn8Omwq3Cr8KvwrJsX8KRwqDDosKhw6rDocOqVVxSecOnw5zDrsOQw6nCpcKUUmrCm8KVwqbCm8OuwpzCoFJqwpvDjuWHv+mFoeaQn+WQllzlhpzkvYflkbDCreW/q+iov+i2vua7g+esicKNUsKlwpXCu8Oew61+wpXCqVLCs8KVw57DssOzwq3CpMKmwpHDqcOcw5vDqcOqwqzCqcKUwqPCm8KfwpzCusOfwqZ5wqZSwrPClcOew7LDs8KtwqTCpsKRw6nDnMObw6nDqsKswqnClMKjwpvDsA=="
+        },
+        {
             "key": "Dm84",
             "name": "🤣巴士┃动漫",
             "type": 3,
@@ -1300,6 +1280,12 @@
             }
         },
         {
+            "key": "本地",
+            "name": "🌸本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
             "key": "星芽短剧",
             "name": "🐞星芽｜短剧",
             "type": 3,
@@ -1309,10 +1295,14 @@
             "filterable": 0
         },
         {
-            "key": "本地",
-            "name": "🌸本地｜视频",
+            "key": "河马短剧",
+            "name": "🐞河马｜短剧",
             "type": 3,
-            "api": "csp_LocalFile"
+            "api": "csp_AppHMDJ",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "KhY021WelCEl+6MsvwnzaPussky/EAoc9z7C4keyHaEQ+sKbXhMKd83VjTL7Ls6+m7XDIcGdziOxPv79y/h4QCvmOEJmZ1VD6dopzAVxkFzEFw=="
         },
         {
             "key": "push_agent",
