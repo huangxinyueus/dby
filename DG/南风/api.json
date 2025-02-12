@@ -53,16 +53,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_LiteApple",
-            "name": "🍎小苹果",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Czsapp",
             "name": "🏭厂长",
             "type": 3,
@@ -457,7 +447,7 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "siteUrl": "https://www.4.star2.cn/",
+                "siteUrl": "https://f.star2.cn/",
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },

@@ -43,7 +43,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "playerType": 1,
             "ext": "./json/演唱会.json"
         },
         {
