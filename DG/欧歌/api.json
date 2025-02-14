@@ -41,7 +41,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:2/10❤",
+            "name": "📢o公告❤更新:2/12❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -60,38 +60,23 @@
             "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
-                    "https://woog.nxog.eu.org",
                     "https://woog.xn--dkw.xn--6qq986b3xl"
-                ],
-                "url_key": "woog",
-                "threadinfo": {
-                    "chunksize": 450,
-                    "threads": 12
-                }
+                ]
             }
         },
         {
-            "key": "csp_UC",
+            "key": "csp_oguc",
             "name": "🐲欧歌┃uc弹幕",
             "type": 3,
-            "searchable": 1,
-            "changeable": 0,
             "api": "csp_woog",
+            "changeable": 0,
+            "searchable": 1,
             "filterable": 1,
             "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
-                    "https://wooguc.nxog.eu.org",
-                    "https://oguc.xn--dkw.xn--6qq986b3xl"
-                ],
-                "url_key": "UC",
-                "token": "",
-                "ucCookie": "",
-                "quarkCookie": "",
-                "threadinfo": {
-                    "chunksize": 450,
-                    "threads": 12
-                }
+                    "https://wooguc.nxog.eu.org"
+                ]
             }
         },
         {
@@ -688,7 +673,7 @@
                 "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
-                "site": "http://www.muoupan.top",
+                "site": "http://muouso.fun",
                 "danmu": true
             }
         },
