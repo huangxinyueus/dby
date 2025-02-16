@@ -289,7 +289,7 @@
             "changeable": 1
         },
         {
-            "key": "926看球",
+            "key": "926",
             "name": "⚽926┃看球",
             "type": 3,
             "api": "csp_kanqiu926",
@@ -300,10 +300,21 @@
             }
         },
         {
-            "key": "88看球",
+            "key": "88",
             "name": "⚽88┃看球",
             "type": 3,
             "api": "csp_Sir88",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "看球",
+            "name": "⚽看球┃直播",
+            "type": 3,
+            "api": "csp_Kanqiu",
             "searchable": 0,
             "changeable": 0,
             "style": {

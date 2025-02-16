@@ -41,7 +41,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:2/12❤",
+            "name": "📢o公告❤更新:2/13❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -75,7 +75,7 @@
             "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
-                    "https://wooguc.nxog.eu.org"
+                    "https://oguc.xn--dkw.xn--6qq986b3xl"
                 ]
             }
         },
@@ -90,8 +90,8 @@
             "jar": "./jars/csp_woog2.jar",
             "ext": {
                 "site_urls": [
-                    "https://woog.nxog.eu.org",
-                    "https://woog.xn--dkw.xn--6qq986b3xl"
+                    "https://ogkk.nxog.eu.org",
+                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
                 ]
             }
         },
@@ -689,7 +689,7 @@
                 "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
-                "site": "https://tv.yydsys.top",
+                "site": "https://wooguc.nxog.eu.org",
                 "danmu": true
             }
         },
@@ -705,7 +705,7 @@
                 "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
-                "site": "http://labipan.com",
+                "site": "https://mihdr.top",
                 "danmu": true
             }
         },
@@ -721,7 +721,7 @@
                 "token": "http://127.0.0.1:9978/file/TVbox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVbox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVbox/uc.txt",
-                "site": "https://mihdr.top",
+                "site": "https://www.milvdou.fun",
                 "danmu": true
             }
         },

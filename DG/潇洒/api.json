@@ -346,7 +346,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://www.mucpan.cc",
+                "site": "http://milvdou.fun",
                 "danmu": true
             }
         },
@@ -410,7 +410,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://www.mogg.top",
+                "site": "http://www.91muou.icu",
                 "danmu": true
             }
         },
@@ -593,20 +593,12 @@
             "playerType": 2
         },
         {
-            "key": "世纪",
-            "name": "世纪｜App",
+            "key": "巧技",
+            "name": "巧技｜App",
             "type": 3,
-            "api": "csp_Drama",
+            "api": "csp_qiao2",
             "playerType": 2,
-            "ext": "saHR0cDovLzExMC40Mi40OS4xODg6OTkwMnxBTEhNWkpWVk9GVk5RMkhUT0VQRlpaRlhZV0gxRDJSTnwyQzFBMDZFMTk3RUYxMENGM0Y2MDU4Q0E3QTgwM0I1RXwyMA=="
-        },
-        {
-            "key": "图图",
-            "name": "图图｜App",
-            "type": 3,
-            "api": "csp_APPTT",
-            "playerType": 1,
-            "ext": "cTTFtUDdPa0x3SzNyanpQKnxFNW9WTzFlek40cGgxVTV3MXFORjVaa0NzMEFZanpQKnxodHRwOi8vNDMuMjQ4LjExNy4yNTM6NTU4OC98RERIR2xKNmVVSHoyNmxnZHxxT3FaOU9QNEsxTkxCZjRIaDVKQnc5VUxsSzg5R2V1VA=="
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739517660808/cksp.txt"
         },
         {
             "key": "木头",
@@ -623,22 +615,6 @@
             "api": "csp_Muou",
             "playerType": 2,
             "ext": "caHR0cHM6Ly9odC5tb3liay5jbnzphZLlrqLlvbHop4Z8NC4xLjg="
-        },
-        {
-            "key": "荣荣",
-            "name": "荣荣｜App",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS8xLnR4dHxGNTFGNUQ1MkQyM0NCRjI3fEY1MUY1RDUyRDIzQ0JGMjd8MTky"
-        },
-        {
-            "key": "永夜",
-            "name": "永夜｜App",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "ext": "caHR0cDovL2FwcC55aXlpNTIxLnRvcHxZSVlJ5b2x6KeGfDQuMS44"
         },
         {
             "key": "时常",
@@ -662,7 +638,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
+            "ext": "caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="
         },
         {
             "key": "玉米",
@@ -670,7 +646,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cHM6Ly95bS1ycmNkbi1hb21lbmNsb3VkLnlteXMxLnh5enwxdmZmc2Rhc2Rhc2Rhc2QyfDF2ZmZzZGFzZGFzZGFzZDJ8MTA1"
+            "ext": "jaHR0cDovL3NkeXMudXMvc2QudHh0fDdmOWI0OWRhZjkyOGNjZTd8N2Y5YjQ5ZGFmOTI4Y2NlN3w0NDI="
         },
         {
             "key": "优质",
@@ -678,15 +654,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cHM6Ly9jajJkOGFvdzI2Ym85OTgyb3AxMi5ieXRlaW1nLnN0b3JlOjU2ODl8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRzfDEwMA=="
-        },
-        {
-            "key": "客星",
-            "name": "客星｜App",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "caHR0cDovLzIxMS45OS45OC40Nzo5OTk5L2FwaS50eHR8ZTQ2MWM3YzBlZjBiNmNkMXxlNDYxYzdjMGVmMGI2Y2QxfDEwNg=="
+            "ext": "jaHR0cDovL2R5eXp0dmFwcGFwaWdvb2RneC42OC5neS9jaXdrMjh2dTM4aW84L2FwaXVybC50eHR8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRzfDEwMA=="
         },
         {
             "key": "木叶",
@@ -694,16 +662,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 2,
-            "ext": "saHR0cDovL3R4dC55eXlzLm5ld3MvdjQudHh0fGlsYnZ6d3o1MGthZ3U5eHR8aWxidnp3ejUwa2FndTl4dHw1NDQ="
-        },
-        {
-            "key": "闹闹",
-            "name": "闹闹｜App",
-            "type": 3,
-            "api": "csp_Xdai",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "caHR0cDovLzExMC40Mi4zLjE5NTo4OTg5fEQ2cTdoamI4N0ZKMDlGNzd8RDZxN2hqYjg3RkowOUY3Nw"
+            "ext": "saHR0cDovL3d3dy56amMuYXBwfGFiNGU5YTQyMTY3NWYxNGJ8YWI0ZTlhNDIxNjc1ZjE0Ynw0NDI="
         },
         {
             "key": "蝴蝶",
@@ -712,6 +671,17 @@
             "api": "csp_Hudie",
             "playerType": 2,
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+        },
+        {
+            "key": "蚂蚁",
+            "name": "蚂蚁｜App",
+            "type": 3,
+            "api": "csp_Mayiys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playerType": 1,
+            "ext": "jaHR0cDovL3BhbmRvd24ucHJvL3R2Ym94L21heWkudHh0"
         },
         {
             "key": "快看",
@@ -798,15 +768,9 @@
             "key": "小米尘落",
             "name": "尘落｜APP",
             "type": 3,
-            "api": "csp_Wetv"
-        },
-        {
-            "key": "小米虎虎",
-            "name": "虎虎｜APP",
-            "type": 3,
+            "api": "csp_Wetv",
             "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppHuhu"
+            "quickSearch": 1
         },
         {
             "key": "小米眼镜",
@@ -825,12 +789,12 @@
             "api": "csp_MiTuApp"
         },
         {
-            "key": "小米玉米",
-            "name": "玉米｜APP",
+            "key": "小米麻花",
+            "name": "麻花｜APP",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_YuMiApp"
+            "api": "csp_MaHuaApp"
         },
         {
             "key": "小米电影",
@@ -841,20 +805,20 @@
             "api": "csp_MovieApp"
         },
         {
-            "key": "小米多多",
-            "name": "多多｜APP",
+            "key": "小米兄弟",
+            "name": "兄弟｜APP",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_DuoDuoApp"
+            "api": "csp_XiongDiApp"
         },
         {
-            "key": "小米良人",
-            "name": "良人｜APP",
+            "key": "小米小猫",
+            "name": "小猫｜APP",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_LiangRenApp"
+            "api": "csp_XiaoMaoApp"
         },
         {
             "key": "西瓜视频",
@@ -1780,6 +1744,19 @@
             }
         },
         {
+            "key": "AList",
+            "name": "AList｜合集",
+            "type": 3,
+            "api": "csp_AList",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "ext": "./json/alist.json"
+        },
+        {
             "key": "阿里合集",
             "name": "阿里｜合集",
             "type": 3,
@@ -1805,6 +1782,13 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "网络直播",
+            "name": "网络｜直播",
+            "type": 3,
+            "api": "csp_Living",
+            "searchable": 1
         },
         {
             "key": "版本信息",
@@ -2190,6 +2174,15 @@
     ],
     "lives": [
         {
+            "name": "ITV",
+            "type": 0,
+            "url": "./ITV.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": "3",
+            "playerType": 2
+        },
+        {
             "name": "肥羊直播",
             "type": 3,
             "api": "csp_Feiyang",
@@ -2262,6 +2255,13 @@
             "playerType": 2,
             "timeout": 10
         }
+    ],
+    "hosts": [
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
     ],
     "flags": [
         "youku",
