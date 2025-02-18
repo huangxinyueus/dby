@@ -202,22 +202,6 @@
             "changeable": 1
         },
         {
-            "key": "WexrenrenGuard",
-            "name": "💥人人┃影视💥",
-            "type": 3,
-            "api": "csp_WexrenrenGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexjuhuangGuard",
-            "name": "💥剧荒┃影视💥",
-            "type": 3,
-            "api": "csp_WexjuhuangGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "mingriyingshi",
             "name": "😁明日┃影视😁",
             "type": 3,
@@ -725,14 +709,6 @@
             "name": "🎠易搜┃综合🎠",
             "type": 3,
             "api": "csp_YiSoGuard",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "盤搜",
-            "name": "🎠盤搜┃综合🎠",
-            "type": 3,
-            "api": "csp_PanSearchGuard",
             "searchable": 1,
             "changeable": 0
         },

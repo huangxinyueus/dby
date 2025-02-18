@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "备用公众号【叨观荐影】",
+            "name": "公众号【神秘的哥哥们】",
             "type": 3,
             "api": "csp_DouDou",
             "indexs": 1,
@@ -127,10 +127,10 @@
             }
         },
         {
-            "key": "文采",
-            "name": "💮文采┃秒播",
+            "key": "流光",
+            "name": "💡流光┃秒播",
             "type": 3,
-            "api": "csp_Jpys",
+            "api": "csp_Lgyy",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -218,6 +218,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
+        },
+        {
+            "key": "文采",
+            "name": "💮文采┃秒播",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "可可",
@@ -672,9 +682,9 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
-            "name": "范明明",
+            "name": "V4聚合",
             "type": 0,
-            "url": "./lives/范明明.txt",
+            "url": "./lives/V4聚合.txt",
             "epg": ""
         },
         {

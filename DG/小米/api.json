@@ -23,6 +23,7 @@
             "name": "🧸玩偶┃4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
+            "changeable": "0",
             "filterable": 1,
             "ext": {
                 "site_urls": [
@@ -43,6 +44,7 @@
             "key": "csp_Netfixtv",
             "name": "💌至臻┃4K弹幕",
             "type": 3,
+            "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
             "ext": {
@@ -67,6 +69,7 @@
             "key": "csp_UC",
             "name": "🍚小米┃UC4K4K",
             "type": 3,
+            "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
             "ext": {
@@ -116,6 +119,18 @@
             "ext": "./js/kanqiu.js"
         },
         {
+            "key": "吃饱",
+            "name": "🪴吃饱┃1080P",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/wencai.js"
+        },
+        {
             "key": "csp_麻花",
             "name": "🍡麻花┃1080P",
             "type": 3,
@@ -129,8 +144,8 @@
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_MiTu",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpeXXeevwPopQutGBNaxYkdBgBL6rCgov0BCUWOXriRXNn0Whw+jpp24kW5u+x7quxXdQzFJek0l4ALR6YAKsw5NVExSVI0Q8wY3mmxjpEiMUL"
+            "api": "csp_MiTuApp",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpecvphwmIcDJBAufEtnAznmjxxk6qVoA6w/eypA9oHqhDmy914I15LE2N8YnLptcACiTzTT1iakLVXE0Tyc1UhQT4AJ3fQ31m2DKm0pdhPTyT"
         },
         {
             "key": "csp_兄弟",
@@ -138,7 +153,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_MiTuApp",
-            "ext": "N/01JeZBCBEQ0wOXNuAI/jeUk7bpi30NvBNgvAW4dT/HHOQROzrjiDRCRItK641e3/kKZGcOce7l7TMU/c5wNJE7mwb3+X/Rn5DH1v2dUQ+x/cBZ6DqUekN861vp2GPOOT2P8AHXVVtTkHRXwCKgbvIwhmfeuvRW/jfyKIO/sbxp6wiZa2ZSeBA235TRBm615UZcnHPpOAGL4rXjqRDbfH06Q+7JJ+hjUBleGGS22uI="
+            "ext": "sHR2rlsfjI4L3t4RXQMkn/5M8HcHgek+Ooq1I/D7QwiKWuFuH+GgIBIVVLdQZft6Mk9Fka1EbHxTztWHQiNgHXHiVvk+ejCBjD0BSR7r/OQwRXL/hnWvB8cCuPH3bAlRsZq1yhTb0zSRe2x+RTMdYfwvn+DcgXmgQUv3onmUYi/m3QjlolWtutbTn4SlOrjxkhOqN1iBdPJ37o3/6zKuYuEx9lEF8Vwgc6SSDnjuQ4O3nhZ4IkkS5Le3RdRoVDwe"
         },
         {
             "key": "电影",
@@ -152,9 +167,9 @@
             "key": "小猫",
             "name": "🐱小猫┃1080P",
             "type": 3,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "api": "csp_MiTuApp",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn1xFjIix0m8Cj9X8OUrGrK4fl4xu1EDS3cPpLFW/FctyWeOV755l/zvJzsf4Rq5dH82tGLii5o2Wvz3PcDGX7hgkjVxwZEyPqNUMRYFbQpmgyLVzYt4LYN1N1hC91NEscnCu4djQ0sa9TGuk4FO9yXzddgCJ2lWF9cJPVFd9ro6QI83NqCw0yBUcmhyF6YeEF4vM0+Q34Ku2OHQ2EQM2Kuo="
+            "ext": "sHR2rlsfjI4L3t4RXQMkn35bf/1LEoRwqTXcrC7IQ0LqkJ9uquhjeheQXMJ/1jcyl7dTdYTs2tmJx3JQfbM+sLOHa3gv0n6rwfqf5gycuzU7dkNLItKvRFx3Cc438fy/s56XVJJZXZczLxopwnsmcYwYi1Ry6merfTK6wL78+y09P00Emc+qYY6cbo9/0p3aoyI75hXhhWfgk2fsdhl/CJ63tm0h5nu8u2sR6MVAG9bXBLHLiasPCrBhIBKlseXE"
         },
         {
             "key": "︎酷云",
@@ -232,6 +247,7 @@
             "key": "csp_XiaoYi",
             "name": "🔍易搜┃夸克",
             "type": 3,
+            "changeable": "0",
             "api": "csp_XiaoYi",
             "ext": ""
         },
@@ -239,6 +255,7 @@
             "key": "csp_MiSou",
             "name": "🔍米搜┃夸克",
             "type": 3,
+            "changeable": "0",
             "api": "csp_MiSou",
             "ext": ""
         },
