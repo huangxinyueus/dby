@@ -1,14 +1,14 @@
 //关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
-    "wallpaper": "https://picsum.photos/1280/720/?blur=2",
+    "wallpaper": "https://wp.upx8.com/api.php",
     "spider": "./spider.jar",
     "lives": [
         {
-            "name": "FMM_IPV6",
+            "name": "XHCH",
             "type": 0,
-            "url": "./lives/FMM_IPV6.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "./lives/XHCH.txt",
+            "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
         }
     ],
     "sites": [
@@ -162,7 +162,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.xlys01.com"
+            "ext": "https://v.xlys.ltd.ua"
         },
         {
             "key": "csp_XYQHiker_修罗影视",
@@ -315,14 +315,24 @@
             "ext": "./js/哔哩直播.js"
         },
         {
-            "key": "csp_Bili短剧",
-            "name": "🐞哔哩短剧",
+            "key": "csp_XYQHiker_戏曲多多",
+            "name": "戏曲多多",
             "type": 3,
-            "api": "csp_Bili",
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/戏曲多多.json"
+        },
+        {
+            "key": "csp_XYQHiker_酷奇MV",
+            "name": "酷奇MV(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/Bili短剧.json"
+            "ext": "./json/酷奇MV.json"
         },
         {
             "key": "csp_XYQHiker_短剧屋",
@@ -365,6 +375,16 @@
             "ext": "./json/骚火电影VIP.json"
         },
         {
+            "key": "csp_XYQHiker_星辰影院",
+            "name": "⭐️星辰影院(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/星辰影院.json"
+        },
+        {
             "key": "csp_XYQHiker_可可影视",
             "name": "可可影视(XYQH)",
             "type": 3,
@@ -373,6 +393,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/可可影视.json"
+        },
+        {
+            "key": "csp_XYQHiker_爱看影视ys",
+            "name": "爱看影视ys(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/爱看影视ys.json"
         },
         {
             "key": "柚子资源",
@@ -439,6 +469,16 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./json/虎牙直播.json"
+        },
+        {
+            "key": "csp_XYQHiker_斗鱼直播",
+            "name": "🐠斗鱼直播(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/斗鱼直播.json"
         }
     ],
     "parses": [
@@ -458,9 +498,60 @@
             }
         },
         {
+            "name": "-极速-",
+            "type": 0,
+            "url": "https://jx.2s0.cn/player/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ],
+                "ext": {
+                    "header": {
+                        "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                    }
+                }
+            }
+        },
+        {
             "name": "-云解析-",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-77解析-",
+            "type": 0,
+            "url": "https://jx.77flv.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-hls-",
+            "type": 0,
+            "url": "https://jx.hls.one/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"

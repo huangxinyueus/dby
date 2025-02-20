@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://sgmao.serv00.net/image/",
+    "wallpaper": "https://深色壁纸.xxooo.cf/",
     "logo": "https://qixing.myhkw.com/tw.jpg",
     "warningText": "资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "lives": [
@@ -11,6 +11,12 @@
             "type": 0,
             "url": "./lives/天微livev1.txt",
             "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "V4聚合",
+            "type": 0,
+            "url": "./lives/V4聚合.txt",
+            "epg": ""
         },
         {
             "name": "天微影视线",
@@ -40,7 +46,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "公众号：<天微科技>提示:仅自用测试，禁止传播贩卖",
+            "name": "公众号：<天微科技>提示:自用测试禁传播贩卖",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -82,14 +88,35 @@
             "ext": "./js/央视大全.js"
         },
         {
-            "key": "金牌影视",
-            "name": "《天微🔹影视》",
+            "key": "csp_JPYY",
+            "name": "《金牌🔹秒播》",
             "type": 3,
-            "api": "csp_WebJP",
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_Jpyy",
+            "jar": "./jars/csp_JPYY.jar",
+            "playerType": 1,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "csp_AppRR",
+            "name": "《免扫🔹人4K》",
+            "type": 3,
+            "api": "csp_AppRR",
+            "jar": "./jars/csp_AppRR.jar",
+            "ext": "WsTbUN+IzcfBYxQ6QFfhNbGQHAJ3uDtQrJqsZDQMRZ33dQlQckxRblQPSfNOwdvHZw7dBuy1ysMc7T5CFk8zgHL8O4D6nXhv18hYKphskvH9Ehle3V/b05I+7Vh/8XzIr5sgF9jH2enSkvNdCX+fm56ExGC0i9VATPdNFt0O9HJetzaOareaj4+Bq8VY8S50nW01FRDiGrD8UFqUN3sAIQ=="
+        },
+        {
+            "key": "🌞腾腾4K解析_js",
+            "name": "《免扫🔹腾4K》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="
+            "order_num": 0,
+            "ext": "./js/腾腾4K.js"
         },
         {
             "key": "csp_Wwys",
@@ -98,7 +125,7 @@
             "playerType": 2,
             "changeable": 0,
             "api": "csp_Wwys",
-            "jar": "./jars/csp_Wwys.jar",
+            "jar": "./jars/csp_JPYY.jar",
             "ext": "https://www.wwgz.cn/"
         },
         {
@@ -128,6 +155,17 @@
             ]
         },
         {
+            "key": "果果4K解析_js",
+            "name": "《免扫🔹果4K》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/果果4K.js"
+        },
+        {
             "key": "腾讯",
             "name": "《腾翼🔹翔天》",
             "type": 3,
@@ -142,6 +180,13 @@
             "ext": "./js/芒果.js"
         },
         {
+            "key": "金牌影视",
+            "name": "《天微🔹影院》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/金牌影视.js"
+        },
+        {
             "key": "优酷",
             "name": "《流光🔹酷影》",
             "type": 3,
@@ -152,7 +197,7 @@
             "key": "csp_Xlys",
             "name": "《滴滴🔹影时》",
             "api": "csp_Xlys",
-            "jar": "./jars/csp_Wwys.jar",
+            "jar": "./jars/csp_JPYY.jar",
             "type": 3,
             "playerType": 2
         },
@@ -182,16 +227,9 @@
             }
         },
         {
-            "key": "csp_Lkdy",
-            "name": "《看看🔹秒播》",
-            "jar": "./jars/csp_Lkdy.jar",
-            "type": 3,
-            "api": "csp_Lkdy"
-        },
-        {
             "key": "csp_AppNG",
             "name": "《南瓜🔹秒播》",
-            "jar": "./jars/csp_Lkdy.jar",
+            "jar": "./jars/csp_AppRR.jar",
             "type": 3,
             "api": "csp_AppNG"
         },
@@ -231,6 +269,36 @@
             "ext": {
                 "danmu": true,
                 "site": "aHR0cDovL3YucmJvdHYuY24="
+            }
+        },
+        {
+            "key": "嫖嫖嫖",
+            "name": "《嫖嫖🔹秒播》",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.gs4x7nq4.com/",
+                "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
+                "简介": "⚠️天微科技特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
+                "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+                "影片类型": "tags\">&&director\">",
+                "影片状态": "bottom\">&&</div>",
+                "二次截取": "videoList\":\\[&&\\]",
+                "数组": "{&&}[不包含:伦理剧]",
+                "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+                "标题": "vodName\":\"&&\"",
+                "副标题": "vodRemarks\":\"&&\"",
+                "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
+                "导演": "导演:</div>&&主演",
+                "主演": "主演:</div>&&别名",
+                "线路标题": "天微科技",
+                "播放数组": "listitem\">&&info\">",
+                "播放列表": "<a&&</a>",
+                "倒序": "否",
+                "搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
+                "搜索副标题": "class=\"boottom\"*<div>&&</div",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
             }
         },
         {
@@ -307,15 +375,6 @@
             "timeout": 10
         },
         {
-            "key": "瓜子影视",
-            "name": "《瓜子🔹秒播》",
-            "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "UC",
             "name": "《uc盘💿搜4K》",
             "type": 3,
@@ -350,7 +409,7 @@
             "name": "《小米💿UC4K》",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "./jars/csp_Lkdy.jar",
+            "jar": "./jars/csp_AppRR.jar",
             "filterable": 1,
             "ext": {
                 "site_urls": [
@@ -473,7 +532,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "api": "csp_Xsx",
-            "jar": "./jars/csp_Wwys.jar",
+            "jar": "./jars/csp_JPYY.jar",
             "playerType": 2,
             "filterable": 1,
             "ext": ""
@@ -488,6 +547,17 @@
             "filterable": 1,
             "order_num": 0,
             "ext": "./js/宝片视频.js"
+        },
+        {
+            "key": "瓜子",
+            "name": "《瓜子🔹秒播》",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/瓜子.js"
         },
         {
             "key": "闪雷影视",
@@ -515,7 +585,7 @@
             "name": "《米兔🔹资源》",
             "type": 3,
             "api": "csp_MiTuApp",
-            "jar": "./jars/csp_Wwys.jar",
+            "jar": "./jars/csp_JPYY.jar",
             "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="
         },
         {

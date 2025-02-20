@@ -219,13 +219,14 @@
             "ext": "./json/jianpian.json"
         },
         {
-            "key": "csp_Xlys",
+            "key": "修罗",
             "name": "🧲修罗",
             "type": 3,
-            "api": "csp_Xlys",
+            "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "./json/修罗影视.json"
         },
         {
             "key": "csp_Mp4Mov",
@@ -259,15 +260,6 @@
             "name": "🧲美剧天堂",
             "type": 3,
             "api": "csp_MeijuTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Xunlei8",
-            "name": "🧲迅雷吧",
-            "type": 3,
-            "api": "csp_Xunlei8",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -438,7 +430,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "http://tv.muouso.fun/",
+                "siteUrl": "https://mogg1.banye.tech:7777",
                 "filter": "./json/wogg.json"
             }
         },
@@ -598,7 +590,7 @@
         },
         {
             "key": "push_agent",
-            "name": "🍭推送",
+            "name": "🐧裙：926953902",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,

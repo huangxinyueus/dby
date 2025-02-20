@@ -119,16 +119,20 @@
             "ext": "./js/kanqiu.js"
         },
         {
-            "key": "吃饱",
-            "name": "🪴吃饱┃1080P",
+            "key": "csp_热播",
+            "name": "🔥热播┃1080P",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/wencai.js"
+            "api": "csp_AppRJ",
+            "ext": "http://v.rbotv.cn/"
+        },
+        {
+            "key": "csp_天天",
+            "name": "🫒天天┃1080P",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppTian",
+            "ext": ""
         },
         {
             "key": "csp_麻花",
@@ -198,24 +202,10 @@
             "api": "csp_Gz360"
         },
         {
-            "key": "csp_AppNG",
-            "name": "🎃南瓜┃1080P",
-            "type": 3,
-            "api": "csp_AppNG"
-        },
-        {
             "key": "csp_Jpys",
             "name": "🥇金牌┃1080P",
             "type": 3,
             "api": "csp_Jpys"
-        },
-        {
-            "key": "csp_SuBaiBai",
-            "name": "☁️白白┃1080P",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "playerType": 2,
-            "ext": "https://www.subaibaiys.com"
         },
         {
             "key": "csp_Wwys",
