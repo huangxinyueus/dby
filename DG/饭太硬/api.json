@@ -5,8 +5,8 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "豆豆",
-            "name": "公众号【神秘的哥哥们】",
+            "key": "豆",
+            "name": "优汐注册新账号重新扫码可恢复",
             "type": 3,
             "api": "csp_DouDou",
             "indexs": 1,
@@ -116,6 +116,26 @@
             "changeable": 1
         },
         {
+            "key": "白白",
+            "name": "🐟白白┃秒播",
+            "type": 3,
+            "api": "csp_Sbaibai",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "神车",
+            "name": "🚎神车┃秒播",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjPcVZY48PN/RIZ5QqOrsp1OZsTS9wQSSpQpK6jnh0fUMKIu22IxR6Z7/exDifuKH+Agjg9"
+        },
+        {
             "key": "Lib",
             "name": "🌟立播┃秒播",
             "type": 3,
@@ -140,20 +160,10 @@
             "ext": "https://www.zxzjhd.com/"
         },
         {
-            "key": "csp_Bttoo",
+            "key": "比特",
             "name": "🍄比特┃秒播",
             "type": 3,
             "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "白白",
-            "name": "🐟白白┃秒播",
-            "type": 3,
-            "api": "csp_Sbaibai",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -184,20 +194,9 @@
             "type": 3,
             "api": "csp_AppSK",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
             "ext": "FbjPcVZY48PN/RIZ5UWFrphwLIZMAYVUEz5FpK6jnh0fUMKIpzPWz0jI/rymDTutcXiX2Dhu1XsjGntrH8QzPldJXdqa2h7TLjJF3DFX"
-        },
-        {
-            "key": "南瓜",
-            "name": "🎃南瓜┃多线",
-            "type": 3,
-            "api": "csp_NanGua",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "木星",
@@ -208,6 +207,16 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "FbjPcVZY48PN/RIZ5QqOrsplZNERApoHSmxZ77D7wAtcAsqZuXTQzUHW+quzHG+7cXaG3SBwzihuA2NlCJpscUJASIGSmRiXKW5NhipHle83SfO6IA=="
+        },
+        {
+            "key": "兄弟",
+            "name": "🍊兄弟┃多线",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbdBHCJkQSzBQt+vmhxkUAtbepC6RjQjA6r70U2OrZ3mJyX4hh2AsXS8mTp9pKB8="
         },
         {
             "key": "热播",
@@ -251,17 +260,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "Auete",
-            "name": "🏝奥特┃无广",
-            "type": 3,
-            "api": "csp_Auete",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://auete.com/"
         },
         {
             "key": "贱贱",
@@ -694,9 +692,9 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
-            "name": "V4聚合",
+            "name": "V4聚合（卡顿请按左/右键换线）",
             "type": 0,
-            "url": "./lives/V4聚合.txt",
+            "url": "./lives/V4聚合（卡顿请按左/右键换线）.txt",
             "epg": ""
         },
         {

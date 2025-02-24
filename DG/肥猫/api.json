@@ -48,9 +48,10 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "https://duopan.fun",
-                    "http://labipan.com",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun",
                     "http://feimaoai.site",
+                    "http://www.labi88.sbs",
                     "https://mihdr.top"
                 ],
                 "url_key": "Duopan2"
@@ -106,7 +107,9 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://milvdou.fun"
+                    "http://www.mucpan.cc",
+                    "https://milvdou.fun",
+                    "https://54271.fun"
                 ],
                 "url_key": "XMUC"
             }
@@ -121,7 +124,8 @@
                 "site_urls": [
                     "http://www.xhww.net",
                     "http://xhww.net",
-                    "https://xiaomiai.site"
+                    "https://xiaomiai.site",
+                    "http://www.miqk.cc"
                 ],
                 "url_key": "Netfixtv2",
                 "token": "",
@@ -142,7 +146,7 @@
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": "https://www.wogg.net"
+            "ext": "https://www.wogg.one/"
         },
         {
             "key": "csp_Lkdy",

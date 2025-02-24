@@ -65,23 +65,6 @@
             }
         },
         {
-            "key": "夸克木偶弹幕",
-            "name": "🍁木偶资源┃4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "jar": "./jars/配置中心.jar",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://muou.6qu.top",
-                "danmu": true
-            }
-        },
-        {
             "key": "闪电弹幕",
             "name": "⚡️闪电优汐┃4K弹幕",
             "type": 3,
