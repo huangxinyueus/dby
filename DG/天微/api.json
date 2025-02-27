@@ -1,3 +1,5 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
 {
     "spider": "./spider.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
@@ -51,17 +53,14 @@
             "changeable": 1
         },
         {
-            "key": "配置中心",
+            "key": "csp_欧歌G",
             "name": "网盘配置┃中心",
             "type": 3,
-            "api": "csp_Config",
+            "api": "csp_ConfigCenter",
             "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            }
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "./jars/csp_欧歌G.jar"
         },
         {
             "key": "网络直播",
@@ -652,21 +651,22 @@
             "key": "UC",
             "name": "《uc盘💿搜4K》",
             "type": 3,
-            "api": "csp_UuSs",
+            "api": "csp_UuSsGuard",
             "jar": "./jars/UC.jar",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "from": "4k|auto",
+                "pturl": "http://tv.91muou.icu/|http://54271.fun/"
             }
         },
         {
             "key": "玩偶",
             "name": "《玩偶💿哥4K》",
             "type": 3,
-            "api": "csp_WoGG",
+            "api": "csp_WoGGGuard",
             "jar": "./jars/UC.jar",
             "searchable": 1,
             "quickSearch": 1,
@@ -676,6 +676,20 @@
                 "from": "4k|auto",
                 "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
+            }
+        },
+        {
+            "key": "玩偶|欧歌uc",
+            "name": "《欧哥💿UC4K》",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "jar": "./jars/csp_欧歌G.jar",
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "https://oguc.xn--dkw.xn--6qq986b3xl",
+                "filter": "./json/wogg.json"
             }
         },
         {

@@ -128,6 +128,15 @@
             "ext": "https://www.meijutt.net"
         },
         {
+            "key": "csp_BLSGod",
+            "name": "🧲80S影视",
+            "type": 3,
+            "api": "csp_BLSGod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_Xunlei8",
             "name": "🧲迅雷吧",
             "type": 3,

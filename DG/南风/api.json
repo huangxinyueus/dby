@@ -41,8 +41,7 @@
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
+            "filterable": 1
         },
         {
             "key": "csp_TianTian",
@@ -421,7 +420,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "http://muou.6qu.top",
+                "siteUrl": "https://mo.666291.xyz/",
                 "filter": "./json/wogg.json"
             }
         },
