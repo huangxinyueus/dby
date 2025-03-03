@@ -41,7 +41,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:2/25❤",
+            "name": "📢o公告❤更新:3/3❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -51,7 +51,7 @@
         },
         {
             "key": "csp_woog",
-            "name": "🐲欧歌┃4K弹幕",
+            "name": "🐲玩欧┃4K弹幕",
             "type": 3,
             "api": "csp_woog",
             "filterable": 1,
@@ -65,21 +65,21 @@
         },
         {
             "key": "玩偶|欧歌uc",
-            "name": "🐲欧歌┃u汐4K",
+            "name": "🐲玩欧┃u汐4K",
             "type": 3,
             "api": "csp_kongbai",
             "searchable": 1,
             "changeable": 0,
             "jar": "./jars/玩偶|欧歌uc.jar",
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://oguc.xn--dkw.xn--6qq986b3xl",
                 "filter": "./json/wogg.json"
             }
         },
         {
             "key": "csp_woog2",
-            "name": "🐲欧歌┃夸快4K",
+            "name": "🐲玩欧┃夸快4K",
             "type": 3,
             "api": "csp_woog",
             "changeable": 0,
@@ -142,13 +142,12 @@
             "filterable": 1
         },
         {
-            "key": "樱花影视",
-            "name": "💡樱花｜影视",
+            "key": "巧技",
+            "name": "💡巧巧｜影视",
             "type": 3,
-            "api": "csp_Lggys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "ext": "https://alicliimg.clewm.net/342/790/68790342/17405848473943ab1aa06a0bb25eb570d8adda73bd3d11740584845.jpg"
         },
         {
             "key": "移动",
@@ -355,6 +354,29 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "金牌影视",
+            "name": "💡金牌｜影视",
+            "type": 3,
+            "api": "csp_WebJP",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="
+        },
+        {
+            "key": "快手直播",
+            "name": "🖐️快手┃直播",
+            "type": 3,
+            "api": "csp_KsLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "csp_XYQHiker_农民影视",
@@ -607,7 +629,7 @@
             "changeable": 0,
             "jar": "./jars/玩偶|欧歌uc.jar",
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://woog.nxog.eu.org",
                 "filter": "./json/wogg.json"
             }
@@ -621,7 +643,7 @@
             "changeable": 0,
             "jar": "./jars/玩偶|欧歌uc.jar",
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://wooguc.nxog.eu.org",
                 "filter": "./json/wogg.json"
             }
@@ -635,7 +657,7 @@
             "changeable": 0,
             "jar": "./jars/玩偶|欧歌uc.jar",
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://tv.yydsys.top",
                 "filter": "./json/wogg.json"
             }
@@ -649,7 +671,7 @@
             "changeable": 0,
             "jar": "./jars/玩偶|欧歌uc.jar",
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://ogkk.nxog.eu.org",
                 "filter": "./json/wogg.json"
             }
@@ -663,7 +685,7 @@
             "changeable": 0,
             "jar": "./jars/玩偶|欧歌uc.jar",
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://duopan.fun",
                 "filter": "./json/wogg.json"
             }
@@ -1269,22 +1291,22 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=1&url="
+            "url": "https://2.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=1&url="
         },
         {
             "name": "-欧歌-",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=2&url="
+            "url": "https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=3&url="
+            "url": "https://2.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=3&url="
         },
         {
             "name": "欧歌APP",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=8&url="
+            "url": "https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=4&url="
         },
         {
             "name": "线路1",

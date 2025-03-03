@@ -444,8 +444,28 @@
             "ext": "./json/爱看影视.json"
         },
         {
+            "key": "csp_XYQHiker_看一看影视",
+            "name": "🔍看一看影视(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/看一看影视.json"
+        },
+        {
+            "key": "csp_XYQHiker_九八局",
+            "name": "🍷九八剧(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/九八剧.json"
+        },
+        {
             "key": "csp_XYQHiker_八号影视",
-            "name": "八号影视(XYQH)",
+            "name": "8️⃣八号影视(XYQH)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -455,7 +475,7 @@
         },
         {
             "key": "csp_XYQHiker_来看点播",
-            "name": "来看点播(XYQH)",
+            "name": "⛅️来看点播(XYQH)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
