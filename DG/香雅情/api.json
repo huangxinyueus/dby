@@ -5,9 +5,21 @@
     "spider": "./spider.jar",
     "lives": [
         {
-            "name": "Guovin",
+            "name": "本地live文件",
             "type": 0,
-            "url": "./lives/Guovin.txt",
+            "url": "./lives/本地live文件.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+        },
+        {
+            "name": "BMCH",
+            "type": 0,
+            "url": "./lives/BMCH.txt",
+            "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
+        },
+        {
+            "name": "Tianmu",
+            "type": 0,
+            "url": "./lives/Tianmu.txt",
             "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
         }
     ],
