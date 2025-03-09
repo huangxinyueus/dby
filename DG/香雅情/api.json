@@ -5,12 +5,6 @@
     "spider": "./spider.jar",
     "lives": [
         {
-            "name": "本地live文件",
-            "type": 0,
-            "url": "./lives/本地live文件.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-        },
-        {
             "name": "BMCH",
             "type": 0,
             "url": "./lives/BMCH.txt",
@@ -426,6 +420,16 @@
             "ext": "./json/骚火电影VIP.json"
         },
         {
+            "key": "csp_XYQHiker_电影盒子",
+            "name": "📦电影盒子",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/电影盒子.json"
+        },
+        {
             "key": "csp_XYQHiker_星辰影院",
             "name": "⭐️星辰影院(XYQH)",
             "type": 3,
@@ -724,8 +728,9 @@
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "17.19"
+                "#EXTINF.*?\\s+.*?08646.*?\\.ts",
+                "17.19",
+                "19.63"
             ]
         },
         {

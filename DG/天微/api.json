@@ -7,24 +7,6 @@
     "warningText": "资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "lives": [
         {
-            "name": "天微live",
-            "type": 0,
-            "url": "./lives/天微live.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "天微livev2",
-            "type": 0,
-            "url": "./lives/天微livev2.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "天微livev3",
-            "type": 0,
-            "url": "./lives/天微livev3.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
             "name": "天微MTV",
             "type": 0,
             "url": "./lives/天微MTV.txt",
@@ -55,12 +37,17 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
-            "key": "config",
-            "name": "配置┃中心",
+            "key": "配置中心",
+            "name": "配置｜中心",
             "type": 3,
             "api": "csp_Config",
-            "jar": "./jars/config.jar",
-            "playerType": 2
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "网络直播",
@@ -149,22 +136,6 @@
             "api": "csp_JpysGuard"
         },
         {
-            "key": "潮流",
-            "name": "《潮流🔹秒播》",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "jar": "./jars/config.jar",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
-        },
-        {
-            "key": "梦回",
-            "name": "《梦幻🔹秒播》",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "jar": "./jars/config.jar",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
-        },
-        {
             "key": "量子",
             "name": "《量子🔹秒播》",
             "type": 1,
@@ -210,8 +181,8 @@
             "playerType": 2
         },
         {
-            "key": "小苹果弹幕版",
-            "name": "《苹果🔹秒播》",
+            "key": "小苹果弹幕",
+            "name": "《苹果🔹弹幕》",
             "type": 3,
             "api": "csp_Xpg",
             "searchable": 1,
@@ -219,8 +190,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "timeout": 10
+            }
         },
         {
             "key": "csp_Wwys",
@@ -231,17 +201,12 @@
             "ext": "https://www.wwgz.cn"
         },
         {
-            "key": "天天弹幕",
-            "name": "《天天🔹弹幕》",
+            "key": "天天",
+            "name": "《天天🔹秒播》",
             "type": 3,
-            "api": "csp_TianTian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true,
-                "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
-            }
+            "api": "csp_AppRJGuard",
+            "jar": "./jars/csp_Jpys.jar",
+            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
         },
         {
             "key": "文才弹幕",
@@ -256,8 +221,40 @@
             }
         },
         {
+            "key": "追剧弹幕",
+            "name": "《追剧🔹弹幕》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/追剧弹幕.js"
+        },
+        {
+            "key": "csp_麻花",
+            "name": "《麻花🔹秒播》",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGetGuard",
+            "jar": "./jars/csp_Jpys.jar",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn8jwpFWwOFJQRZ9Fr6yGwRRCqiD1bGrSeoW6IrGUO30grfyJhbSLZgg2ZZgyF0VZ9+alOjmQh9fPtb/2RApEF90vSYLydgyDWtY6Dpcq4YPqd6L7gKNwcuZFUIdIug9TIgNtvkN0ZERsbizNEqCxbu2CFG37JY1JxRPFAFvr0U1azv1dn1ptVbioRuKFd+MCZgrKWR9SBcwgEuA+liBq4gsrxi0GIW3EJiTYKcqbj0vX"
+        },
+        {
+            "key": "瓜子影视",
+            "name": "《瓜子🔹秒播》",
+            "type": 3,
+            "api": "csp_Gz360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "剧圈圈",
+            "name": "《剧圈🔹影院》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/剧圈圈.js"
+        },
+        {
             "key": "UC",
-            "name": "《uc盘💿搜4K》",
+            "name": "《优汐💿盘搜4K》",
             "type": 3,
             "api": "csp_UuSsGuard",
             "jar": "./jars/UC.jar",
@@ -272,7 +269,7 @@
         },
         {
             "key": "玩偶",
-            "name": "《玩偶💿哥4K》",
+            "name": "《玩偶💿哥哥4K》",
             "type": 3,
             "api": "csp_WoGGGuard",
             "jar": "./jars/UC.jar",
@@ -288,10 +285,10 @@
         },
         {
             "key": "csp_FeiMaoUC",
-            "name": "《闪电💿UC4K》",
+            "name": "《闪电💿优汐4K》",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/csp_FeiMaoUC.jar",
             "filterable": 1,
             "ext": {
                 "site_urls": [
@@ -301,41 +298,8 @@
             }
         },
         {
-            "key": "csp_XMUC",
-            "name": "《小米💿UC4K》",
-            "type": 3,
-            "api": "csp_Duopan",
-            "jar": "./jars/config.jar",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "http://www.mucpan.cc",
-                    "https://milvdou.fun",
-                    "https://54271.fun"
-                ],
-                "url_key": "XMUC"
-            }
-        },
-        {
-            "key": "csp_Duopan",
-            "name": "《蜡笔💿盘4K》",
-            "type": 3,
-            "api": "csp_Duopan",
-            "jar": "./jars/config.jar",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "https://feimao666.fun",
-                    "http://feimao888.fun",
-                    "http://feimaoai.site",
-                    "http://www.labi88.sbs"
-                ],
-                "url_key": "Duopan2"
-            }
-        },
-        {
             "key": "雷鲸",
-            "name": "《天翼💿盘4K》",
+            "name": "《天翼💿网盘4K》",
             "type": 3,
             "api": "csp_Wexleijing",
             "searchable": 1,
@@ -344,7 +308,7 @@
         },
         {
             "key": "夸克多多弹幕",
-            "name": "《多多💿DM4K》",
+            "name": "《多多💿网盘4K》",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -357,34 +321,6 @@
                 "site": "https://tv.yydsys.top",
                 "danmu": true
             }
-        },
-        {
-            "key": "腾翼弹幕",
-            "name": "《腾翼🔹天翔》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/腾翼弹幕.js"
-        },
-        {
-            "key": "悠悠弹幕",
-            "name": "《悠悠🔹岁月》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/悠悠弹幕.js"
-        },
-        {
-            "key": "茫茫弹幕",
-            "name": "《茫茫🔹人海》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/茫茫弹幕.js"
-        },
-        {
-            "key": "爱在弹幕",
-            "name": "《爱在🔹心意》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/爱在弹幕.js"
         },
         {
             "key": "小米尘落",
@@ -536,15 +472,6 @@
                 "danmu": true
             },
             "timeout": 10
-        },
-        {
-            "key": "瓜子影视",
-            "name": "《瓜子🔹秒播》",
-            "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "小米米兔",

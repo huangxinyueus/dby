@@ -64,10 +64,38 @@
             "ext": "http://www.czzyvideo.com"
         },
         {
-            "key": "csp_Nongm",
+            "key": "csp_LiteApple",
+            "name": "🍎苹果",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Siren",
+            "name": "🎉️私人",
+            "type": 3,
+            "api": "csp_Siren",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Kanke",
+            "name": "🛳️看客",
+            "type": 3,
+            "api": "csp_Kanke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://www.guaziys.com"
+        },
+        {
+            "key": "csp_Wwys",
             "name": "👩‍🌾农民",
             "type": 3,
-            "api": "csp_Nongm",
+            "api": "csp_Wwys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -132,16 +160,6 @@
             "filterable": 1
         },
         {
-            "key": "可可",
-            "name": "☕️可可",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/可可影视.json"
-        },
-        {
             "key": "csp_Fantuan",
             "name": "🍙饭团",
             "type": 3,
@@ -151,6 +169,25 @@
             "filterable": 1,
             "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
             "ext": "https://www.fantuan.vip"
+        },
+        {
+            "key": "csp_Lgyy",
+            "name": "✨️️流光",
+            "type": 3,
+            "api": "csp_Lgyy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "可可",
+            "name": "☕️可可",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/可可影视.json"
         },
         {
             "key": "csp_Ddys",
@@ -274,14 +311,14 @@
             "filterable": 1
         },
         {
-            "key": "动漫巴士",
+            "key": "csp_Dm84",
             "name": "🚌动漫巴士",
             "type": 3,
-            "api": "csp_XYQHiker",
+            "playerType": "2",
+            "api": "csp_Dm84",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/动漫巴士.json"
+            "filterable": 1
         },
         {
             "key": "樱花",
@@ -302,6 +339,25 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/短剧屋.json"
+        },
+        {
+            "key": "豆瓣",
+            "name": "🚀豆瓣预告",
+            "type": 3,
+            "api": "csp_YGP",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_AppXY",
+            "name": "🎀️星牙短剧",
+            "type": 3,
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_Kanqiu",
@@ -342,6 +398,18 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_FirstAid",
+            "name": "🚑急救教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
             }
         },
         {
@@ -846,9 +914,9 @@
             }
         },
         {
-            "name": "云2",
+            "name": "HLS",
             "type": 0,
-            "url": "https://jx.yparse.com/index.php?url=",
+            "url": "https://jx.hls.one/?url=",
             "ext": {
                 "flag": [
                     "qq",

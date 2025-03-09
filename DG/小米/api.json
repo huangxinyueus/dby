@@ -108,7 +108,7 @@
             "key": "游戏直播",
             "name": "🎮游戏┃直播",
             "type": 3,
-            "api": "./api/nmlive.py",
+            "api": "csp_LivingGuard",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
@@ -133,7 +133,7 @@
             "api": "csp_Muou",
             "playerType": 2,
             "quickSearch": 1,
-            "ext": "caHR0cDovL21vdS5qcDU1LmNufOi/veW/huW9seinhnw0LjEuOQ==",
+            "ext": "caHR0cHM6Ly9tdW91Lmxpbmd1dHYuY2586L+95Ymn5b2x6ZmifDQuMS44",
             "jar": "./jars/悠悠.jar"
         },
         {
@@ -170,7 +170,7 @@
             "key": "光速",
             "name": "🌟光速┃1080P",
             "type": 3,
-            "api": "csp_AppGetV2Guard",
+            "api": "csp_AppGetGuard",
             "ext": "sHR2rlsfjI4L3t4RXQMkn97hxHYaEbu5lFfPUXOxEzpAZL11z+ayZEbLSb3vs/v8ZS0i6U3Oh/aCVpUdIeZzRgc5TQyB2k7aC0UwqxoW281lBnRyLoSPb+ejqJ92E4RYuH9BABywIr8NA9Bn0Ndnl5c+AJCGNVdUwDUcd6fmGzQoQ+VuzRpX5xfgCbnpjcTp56dL50nhDb7IIe7CtKv7pA=="
         },
         {
@@ -178,8 +178,8 @@
             "name": "🍡麻花┃1080P",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGetV2Guard",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XCOFyL1bvM3tTLekJMN0bE6C8wUUmg83iijAB1Xb6BFY0SFjRkJUBqkeUVtwAx1KA1QQjwUVBpGjtQEZ08jK7hLlREWx4foeg01L1aMK+viow=="
+            "api": "csp_AppGetGuard",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn8jwpFWwOFJQRZ9Fr6yGwRRCqiD1bGrSeoW6IrGUO30grfyJhbSLZgg2ZZgyF0VZ9+alOjmQh9fPtb/2RApEF90vSYLydgyDWtY6Dpcq4YPqd6L7gKNwcuZFUIdIug9TIgNtvkN0ZERsbizNEqCxbu2CFG37JY1JxRPFAFvr0U1azv1dn1ptVbioRuKFd+MCZgrKWR9SBcwgEuA+liBq4gsrxi0GIW3EJiTYKcqbj0vX"
         },
         {
             "key": "csp_良人",
@@ -187,7 +187,7 @@
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_AppGetV2Guard",
+            "api": "csp_AppGetGuard",
             "ext": "sHR2rlsfjI4L3t4RXQMkn0xaBCNcSQUCvczzn7zWpJd7PJ5uE10QNLrWWS17wAYgh1d6T+lyAGWYDDt/yJr/VNQuyK2VSIuevNakK2GvE1EQejlklHv7etmkohoSdYeXfClYcFjVBjQD/3ueLIRu5mRtC17xwZEKgga5OKghvkNOKFHeBC8zljBC+o7LY640uwI3xUCS6H6I1Xn+MXnhLIdXvzJq3jAPBvKIxWrDUVfkCH94kY9cJ8WJisUFWHbs"
         },
         {
@@ -195,7 +195,7 @@
             "name": "🎬电影┃1080P",
             "type": 3,
             "quickSearch": 0,
-            "api": "csp_AppGetV2Guard",
+            "api": "csp_AppGetGuard",
             "ext": "sHR2rlsfjI4L3t4RXQMkn9pXqDDJVVS6pwdk2S4nTvU6TUFngKGexyvHMXSXO57AN6M4LsBHwZ1tcHnPZ2gPH1m7qu7r1zc7CkawgqunMPxZznGnqtbiv5NVOliQUr2NK4Pee7PFE2+BCvbGUPd3IR9Hiub1wBkbrfqjptJFLEpVXeR1pgeGp6pPUjADtyQPuXHj4azaFzDrobUCcdcn7KM6ZC4rjkupd5HlbdqhOJTRBv917h5RUlXs1sgRU1+EWkMXuNopX+18VjWwSrFYPw=="
         },
         {
@@ -203,7 +203,7 @@
             "name": "🐰米兔┃1080P",
             "type": 3,
             "quickSearch": 0,
-            "api": "csp_AppGetV2Guard",
+            "api": "csp_AppGetGuard",
             "ext": "sHR2rlsfjI4L3t4RXQMknwIID6HUaZ7fMpUHnejxryN5hsS4yit06Lnf2r+dC+sQvVkljL9jiPtd8pMWr4fNfWKjGEfNt1bpDmN5e2aBCPjIZR4UXJCYTrfMnVcmHKgKoreMTaxuE5/5bSRuOI00lrntzq3KElTThhfQG1pBRYlruaU55rzaVwdDETvkWDgAa/b2wNbZqTrjcVemPpod4zhBsMUGnTLFIVIA01378wI="
         },
         {
@@ -241,7 +241,7 @@
             "key": "csp_Lgyy",
             "name": "⏳️️流光┃1080P",
             "type": 3,
-            "api": "csp_LgyyGuard"
+            "api": "csp_FreeOkGuard"
         },
         {
             "key": "csp_Lkdy",
