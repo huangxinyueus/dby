@@ -1,0 +1,27 @@
+{
+		"主页url": "https://www.245bt.com",
+		"请求头": "User-Agent$Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9",
+		"二次截取":"list mb&&</ul",		
+		"数组": "<li&&</li",
+		"标题": "alt=\"&&\"",
+		"图片": "src=\"&&\"",
+		"链接": "href=\"&&\"",
+	"跳转解析":"默认$空#芒果$https://t2.qlplayer.cyou/player/analysis.php?v=",
+	"搜索url": "/search.php?page={catePg}&searchtype=&order=&tid=&area=&year=&letter=&yuyan=&state=&money=&ver=&jq=&searchword={wd}",
+		"搜索数组": "<li&&</li",
+		"搜索标题": "title=\"&&\"",
+		"搜索图片": "src=\"&&\"",
+		"搜索链接": "href=\"&&\"",
+		"简介": "class=\"description\"&&</div",
+		"线路数组": "box p15&&<div",
+		"线路标题": "<h5>&&</",
+		"播放数组": "class=\"playlist\"&&</ul",
+		"播放列表": "<li&&</li",
+		"播放标题": ">&&</a",
+       	"播放链接": "href=\"&&\"",		
+		"跳转播放链接": "urlDecode(var now*\"&&\")",
+	
+		"分类url": "/frim/{cateId}-{catePg}.html;;k",
+		"分类": "电影$27#电视剧$2#综艺$4#动漫$3",
+		"类型":"动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#战争片$10#剧情片$11#纪录片$12#动画片$13#网络电影$14||国产剧$16#网络剧$17#港剧$18#台剧$19#日剧$20#韩剧$21#美剧$22#英剧$23#泰剧$24#海外剧$25||空||空"		
+	}

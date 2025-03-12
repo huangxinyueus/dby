@@ -1,0 +1,23 @@
+﻿{
+	"主页url": "https://www.xmxone.cn",
+    "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 5.1; Tesla) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/61.2.3076.56749",
+	"二次截取": "<div class=\"module-adslist  ads_w&&</div></div></div>",
+	"数组": "<a&&</a>",
+	"图片": "data-original=\"&&\"",
+	"副标题": "module-item-note\"&&</div",
+	"标题": "class=\"module-poster-item-title\">&&</div",
+	"链接": "href=\"&&\"",
+	"简介": "module-info-introduction-content show-desc*>&&</p>",
+	"线路二次截取": "id=\"y-playList\"&&</div></div><script",
+	"线路数组": "module-tab-item tab-item&&</div>",
+	"线路标题": "💢简影👉+span>&&</span+[共+small>&&</small+集][不包含:外链数据]",
+	"播放数组": "class=\"module-play-list-content  module-play-list&&</div",
+	"播放列表": "<a&&</a",
+	"播放标题": "<span>&&</span>",
+	"播放链接": "href=\"&&\"",
+	"地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+	"分类url": "/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+	"分类": "电影$movie#连续剧$tv#综艺$variety#动漫$animation",
+	"剧情":"[替换:伦理>>空]",
+	"类型": "动作片$action#喜剧片$xijupian#爱情片$romancee#科幻片$science#恐怖片$horror#剧情片$drama#战争片$warfilms#惊悚片$thriller#犯罪片$crimefilms#冒险片$adventure#动画片$cartoon#悬疑片$suspense#武侠片$martial#奇幻片$fantasy#纪录片$documentary||国产剧$chinesetv#美剧$americantv#日剧$japanesetv#韩剧$koreantv#港剧$chinahongkongtv#台剧$chinataiwantv#泰剧$thailandtv#新马剧$xinmatv||空||空"
+}
