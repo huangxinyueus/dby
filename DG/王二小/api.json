@@ -76,6 +76,14 @@
             "changeable": 1
         },
         {
+            "key": "Wexmuougg",
+            "name": "💓木偶┃4K💓",
+            "type": 3,
+            "api": "csp_WexmuouggGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexnullname",
             "name": "💓无名┃4K💓",
             "type": 3,
@@ -202,14 +210,6 @@
             "name": "😁腐剧┃影视😁",
             "type": 3,
             "api": "csp_WexFujutvGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "SubaibaiGuard",
-            "name": "🎇白白┃秒播🎇",
-            "type": 3,
-            "api": "csp_SubaibaiGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -359,6 +359,14 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "Wexduanjuvip",
+            "name": "🍉短剧┃免费🍉",
+            "type": 3,
+            "api": "csp_WexduanjuvipGuard",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "Wexduanjuvop",

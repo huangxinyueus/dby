@@ -37,17 +37,12 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
-            "key": "配置中心",
-            "name": "配置｜中心",
+            "key": "config",
+            "name": "《配置┃中心》",
             "type": 3,
             "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
+            "jar": "./jars/config.jar",
+            "playerType": 2
         },
         {
             "key": "网络直播",
@@ -134,6 +129,18 @@
             "type": 3,
             "jar": "./jars/csp_Jpys.jar",
             "api": "csp_JpysGuard"
+        },
+        {
+            "key": "机器人弹幕",
+            "name": "《人机🔹弹幕》",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
         },
         {
             "key": "量子",
@@ -246,11 +253,47 @@
             "filterable": 1
         },
         {
+            "key": "小米电影",
+            "name": "《小米🔹蓝光》",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MovieApp"
+        },
+        {
             "key": "剧圈圈",
             "name": "《剧圈🔹影院》",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/剧圈圈.js"
+        },
+        {
+            "key": "腾讯弹幕",
+            "name": "《腾翼🔹天翔》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/腾翼弹幕.js"
+        },
+        {
+            "key": "优酷弹幕",
+            "name": "《悠悠🔹岁月》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/悠悠弹幕.js"
+        },
+        {
+            "key": "芒果弹幕",
+            "name": "《茫茫🔹人海》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/茫茫弹幕.js"
+        },
+        {
+            "key": "爱奇艺弹幕",
+            "name": "《爱在🔹心意》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/爱在弹幕.js"
         },
         {
             "key": "UC",
@@ -285,16 +328,73 @@
         },
         {
             "key": "csp_FeiMaoUC",
-            "name": "《闪电💿优汐4K》",
+            "name": "《闪电💿UC盘4K》",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "./jars/csp_FeiMaoUC.jar",
+            "jar": "./jars/config.jar",
             "filterable": 1,
             "ext": {
                 "site_urls": [
                     "http://1.95.79.193/"
                 ],
                 "url_key": "FeiMaoUC"
+            }
+        },
+        {
+            "key": "csp_XMUC",
+            "name": "《小米💿UC盘4K》",
+            "type": 3,
+            "api": "csp_Duopan",
+            "jar": "./jars/config.jar",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://www.mucpan.cc",
+                    "https://milvdou.fun",
+                    "https://54271.fun"
+                ],
+                "url_key": "XMUC"
+            }
+        },
+        {
+            "key": "csp_Duopan",
+            "name": "《蜡笔💿网盘4K》",
+            "type": 3,
+            "api": "csp_Duopan",
+            "jar": "./jars/config.jar",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "https://feimao666.fun",
+                    "http://feimao888.fun",
+                    "http://feimaoai.site",
+                    "http://www.labi88.sbs"
+                ],
+                "url_key": "Duopan2"
+            }
+        },
+        {
+            "key": "csp_Netfixtv",
+            "name": "《至臻💿网盘4K》",
+            "type": 3,
+            "api": "csp_Duopan",
+            "jar": "./jars/config.jar",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://xiaomi666.fun",
+                    "https://xiaomiai.site",
+                    "http://www.miqk.cc",
+                    "https://mihdr.top"
+                ],
+                "url_key": "Netfixtv2",
+                "token": "",
+                "ucCookie": "",
+                "quarkCookie": "",
+                "threadinfo": {
+                    "chunksize": 450,
+                    "threads": 10
+                }
             }
         },
         {
@@ -307,20 +407,13 @@
             "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
-            "key": "夸克多多弹幕",
-            "name": "《多多💿网盘4K》",
+            "key": "盘他",
+            "name": "《移动💿网盘4K》",
             "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
             "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://tv.yydsys.top",
-                "danmu": true
-            }
+            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
             "key": "小米尘落",
@@ -1137,33 +1230,8 @@
         },
         {
             "name": "解析1",
-            "type": "1",
-            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "芒果TV",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
+            "type": 0,
+            "url": "https://www.8090g.cn/?url="
         },
         {
             "name": "解析2",
@@ -1197,65 +1265,6 @@
                 ],
                 "header": {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "解析4",
-            "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "芒果TV",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
-            "name": "解析0",
-            "type": 1,
-            "url": "http://1.94.221.189:88/algorithm.php?url=",
-            "ext": {
-                "flag": [
-                    "公众号:天微科技",
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
                 }
             }
         },
