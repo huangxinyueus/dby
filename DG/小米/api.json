@@ -19,15 +19,6 @@
             "searchable": 0
         },
         {
-            "key": "csp_Wogg",
-            "name": "🧸玩偶┃4K弹幕",
-            "type": 3,
-            "api": "csp_WoggGuard",
-            "changeable": "0",
-            "filterable": 1,
-            "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg9L+drzR5a6bo7DML9hTEHvIuMN0JxvcbUflFgvOz4etYDN7y7HMBVx1lySKZMORlcuy1+QT6/78n70h0VE/aynmB7qR812bPh9IctEX1Ps5UNq6pz9lHJJ1Xswkl1pdKUNhW2GeDuw/9oMUymKtN9kmIud7WEkjTn+4UP1eQ+h81m46INuB1oOPvQeSETQWcmVhbczAnXcEmK7u4bVxZ5oKKZWjoc6mDscqXOk5nbOUX52zFPanQSC/17o2QbbQLaJxb1pZElZk98+QyUvepv9LCexfurB9htmgG0UGHMk6d3o8iOPb0WWKJ40YYZVPVpXfosqsA/sBZbsfJssj3T6FFu6ZdXWbQWpP1Z8oaOAApeC/OKWsDirH7A5bOpjz4o="
-        },
-        {
             "key": "csp_Netfixtv",
             "name": "💌至臻┃4K弹幕",
             "type": 3,
@@ -51,6 +42,15 @@
                     "threads": 12
                 }
             }
+        },
+        {
+            "key": "csp_Wogg",
+            "name": "🧸玩偶┃4K弹幕",
+            "type": 3,
+            "api": "csp_WoggGuard",
+            "changeable": "0",
+            "filterable": 1,
+            "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg9L+drzR5a6bo7DML9hTEHvIuMN0JxvcbUflFgvOz4etZ9cUsZ0b7NskUhkBZr0Id9PbDIgsZ9ekl9fNeS9q4Xipo9oU6Q5Q6atElwpmoHUGKG7Vsl4t5dOKwL7zEwqKeKC+hOwoqQ0Ccjk/w0d7AxNitxqpuXuwUKEFEp0Y2iAV9kOnPhy0tVHA/iAWPBbW+3qpX+mjT4olDqSTCNwM4jlKSEh7T+9Kzd/c6ODYsOOElZCPkbPU2wMODtMy2eLwzObRLWezUVwTsB+yqoAwknHj2ZHwVNpoDaMDXzelDwflfqX4z8lGYdMdy2cpdl4mf5PVsDuHct1NjAG09cwhzYaB+5iavBavMH1msIipo7esn9YDgsgvxPsIO4LoZpHHW4="
         },
         {
             "key": "csp_UC",
@@ -123,17 +123,7 @@
             "api": "csp_Muou",
             "playerType": 2,
             "quickSearch": 1,
-            "ext": "caHR0cDovL3UzYS50dHhnenMuY2585LyY5LyY5YWUfDQuMS44",
-            "jar": "./jars/悠悠.jar"
-        },
-        {
-            "key": "追忆",
-            "name": "🦔追忆┃1080P",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "quickSearch": 1,
-            "ext": "caHR0cHM6Ly9tdW91Lmxpbmd1dHYuY2586L+95Ymn5b2x6ZmifDQuMS44",
+            "ext": "caHR0cDovL2FwcC53dWlxLmNufOS8mOS8mOWFlHw0LjEuOA==",
             "jar": "./jars/悠悠.jar"
         },
         {
@@ -167,20 +157,18 @@
             "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
         },
         {
+            "key": "莉莉",
+            "name": "🌰莉莉┃1080P",
+            "type": 3,
+            "api": "csp_AppGetGuard",
+            "ext": "sHR2rlsfjI4L3t4RXQMknxJtF/Rs4D/70oW+gRg0xr7N1Upd/rmFB/tNPdwo9VnqtAIgc1bl0R9DD+8OUlBjzccXhVUEcX/QykwwCHTT6hl7uWNpVj5iyLdLaA/HmFqJ4g/jRau3vEd9oPkIdRFl3cXzbdxCjuhvAneD9Z+FEmhkhZJCaxIF0ljdvMaJk+azmYylRspoKik3x5xQtNXvCfiqPjYONdZGw1tP+t693VKZHplfqYsZtg6H8exNiPr1"
+        },
+        {
             "key": "光速",
             "name": "🌟光速┃1080P",
             "type": 3,
             "api": "csp_AppGetGuard",
             "ext": "sHR2rlsfjI4L3t4RXQMkn97hxHYaEbu5lFfPUXOxEzpAZL11z+ayZEbLSb3vs/v8ZS0i6U3Oh/aCVpUdIeZzRgc5TQyB2k7aC0UwqxoW281lBnRyLoSPb+ejqJ92E4RYuH9BABywIr8NA9Bn0Ndnl5c+AJCGNVdUwDUcd6fmGzQoQ+VuzRpX5xfgCbnpjcTp56dL50nhDb7IIe7CtKv7pA=="
-        },
-        {
-            "key": "csp_良人",
-            "name": "⚽️良人┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppGetGuard",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn0xaBCNcSQUCvczzn7zWpJd7PJ5uE10QNLrWWS17wAYgh1d6T+lyAGWYDDt/yJr/VNQuyK2VSIuevNakK2GvE1EQejlklHv7etmkohoSdYeXfClYcFjVBjQD/3ueLIRu5mRtC17xwZEKgga5OKghvkNOKFHeBC8zljBC+o7LY640uwI3xUCS6H6I1Xn+MXnhLIdXvzJq3jAPBvKIxWrDUVfkCH94kY9cJ8WJisUFWHbs"
         },
         {
             "key": "电影",
@@ -242,21 +230,6 @@
             "api": "csp_LkdyGuard"
         },
         {
-            "key": "csp_Xlys",
-            "name": "🍤哔嘀┃1080P",
-            "api": "csp_XlysGuard",
-            "type": 3,
-            "playerType": 2
-        },
-        {
-            "key": "csp_XiaoYi",
-            "name": "🔍小怡┃夸克",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_XiaoYiGuard",
-            "ext": ""
-        },
-        {
             "key": "csp_MiSou",
             "name": "🔍米搜┃夸克",
             "type": 3,
@@ -273,17 +246,6 @@
             "style": {
                 "type": "rect",
                 "ratio": 3.8
-            }
-        },
-        {
-            "key": "csp_LaoBaiBook",
-            "name": "📚老白┃听书",
-            "type": 3,
-            "api": "csp_LaoBaiBookGuard",
-            "searchable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
             }
         },
         {
@@ -336,9 +298,9 @@
             "epg": ""
         },
         {
-            "name": "4GTV",
+            "name": "V4聚合（卡顿请按左┃右键换线）",
             "type": 0,
-            "url": "./lives/4GTV.txt",
+            "url": "./lives/V4聚合（卡顿请按左┃右键换线）.txt",
             "epg": ""
         },
         {
