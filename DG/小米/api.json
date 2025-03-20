@@ -161,7 +161,14 @@
             "name": "🌰莉莉┃1080P",
             "type": 3,
             "api": "csp_AppGetGuard",
-            "ext": "sHR2rlsfjI4L3t4RXQMknxJtF/Rs4D/70oW+gRg0xr7N1Upd/rmFB/tNPdwo9VnqtAIgc1bl0R9DD+8OUlBjzccXhVUEcX/QykwwCHTT6hl7uWNpVj5iyLdLaA/HmFqJ4g/jRau3vEd9oPkIdRFl3cXzbdxCjuhvAneD9Z+FEmhkhZJCaxIF0ljdvMaJk+azmYylRspoKik3x5xQtNXvCfiqPjYONdZGw1tP+t693VKZHplfqYsZtg6H8exNiPr1"
+            "ext": "sHR2rlsfjI4L3t4RXQMkn0xaBCNcSQUCvczzn7zWpJd7PJ5uE10QNLrWWS17wAYglPoC8UNLIX0B4DnEefWcAydxKYH8rxXY/n5Z1HeXH9exVQ6o+uIi6FAmTcCFBKVEhbMLsvvqM3GIa16E8qYderB0nB+AiqMMXAUC0sfjCrt7OHidpXhNZqkTjmVqiwvC3NjlI8h65kp6Qu58FpriLCfdQOs2uyQq6VaJAApvA2cYX2V5fMu4UtLCjorwdlJc"
+        },
+        {
+            "key": "优秀",
+            "name": "🎮优秀┃1080P",
+            "type": 3,
+            "api": "csp_AppGetGuard",
+            "ext": "rpb8IjZTuzYSqZNn/sGvG+nmDP6c5rlJM5DTXdn6d/OdwIl8hAgvoCnQmL7YkzCXHe+hpViArom3TFB7ORHGx8Gsyk/NiHE7VuNzVMP/C+/r78ogd9EF54Pi+n6PkOaxl7jEppsqJjozMoCPS929dwPWfx4NGsZnpVFvANeZUOzlo4RKfmAaN35kAo+7amKcqawPF/jPPsCEXambLeH+PqICmlcdkCN+3k+Dft4Z8iA="
         },
         {
             "key": "光速",
@@ -184,13 +191,26 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_AppGetGuard",
-            "ext": "sHR2rlsfjI4L3t4RXQMknwIID6HUaZ7fMpUHnejxryN5hsS4yit06Lnf2r+dC+sQvVkljL9jiPtd8pMWr4fNfWKjGEfNt1bpDmN5e2aBCPjIZR4UXJCYTrfMnVcmHKgKoreMTaxuE5/5bSRuOI00lrntzq3KElTThhfQG1pBRYlruaU55rzaVwdDETvkWDgAa/b2wNbZqTrjcVemPpod4zhBsMUGnTLFIVIA01378wI="
+            "ext": "sHR2rlsfjI4L3t4RXQMkn4/zRHG7KueeJHsenaeUMOWp1EzObBSdbU9et5QXxSbLZNx3dMChdqtSieuV5wZj006LehfFeCmj8B095j2lIKIF0YoQe+MZcPjGy7gtOViYZ6wvyGkzWk6oD1mJmauAyZhYFgIf28dxzY5kbxJVtI2PjlO6xlD2NRNjVM5uVtSkhN2Pf9gmJ5qaWk40c4YC+w=="
         },
         {
             "key": "csp_AppXY",
             "name": "🐸上头┃短剧",
             "type": 3,
             "api": "csp_AppXYGuard"
+        },
+        {
+            "key": "csp_SAOHUO",
+            "name": "🔥火火┃1080P",
+            "type": 3,
+            "api": "csp_SaoHuoGuard"
+        },
+        {
+            "key": "csp_baibai",
+            "name": "🦵白白┃1080P",
+            "type": 3,
+            "api": "csp_SuBaiBaiGuard",
+            "ext": "https://www.subaibai.com/"
         },
         {
             "key": "csp_LiteApple",
@@ -236,6 +256,14 @@
             "changeable": "0",
             "api": "csp_MiSouGuard",
             "ext": ""
+        },
+        {
+            "key": "听书",
+            "name": "📚听书┃BOOK",
+            "type": 3,
+            "api": "csp_TingBookGuard",
+            "searchable": 1,
+            "ext": "http://www.6yueting.com"
         },
         {
             "key": "Aid",
