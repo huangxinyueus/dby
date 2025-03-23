@@ -1666,40 +1666,10 @@
     ],
     "lives": [
         {
-            "name": "摸鱼AI直播",
+            "name": "全是气氛组",
             "type": 0,
-            "url": "./lives/摸鱼AI直播.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "肥羊直播",
-            "type": 3,
-            "url": "./lives/肥羊直播.txt",
+            "url": "",
             "epg": ""
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 3,
-            "url": "./lives/虎牙一起看.txt",
-            "epg": ""
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 3,
-            "url": "./lives/斗鱼一起看.txt",
-            "epg": ""
-        },
-        {
-            "name": "YY轮播",
-            "type": 3,
-            "url": "./lives/YY轮播.txt",
-            "epg": ""
-        },
-        {
-            "name": "范明明IPV6",
-            "type": 0,
-            "url": "./lives/范明明IPV6.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
     "flags": [

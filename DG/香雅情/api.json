@@ -25,7 +25,7 @@
             "api": "csp_LocalFile",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 0,
+            "filterable": 1,
             "type_flag": 0
         },
         {
@@ -80,7 +80,7 @@
             "api": "csp_XYQHikerAL",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
+            "filterable": 0,
             "ext": "./json/云盘资源.json"
         },
         {
@@ -400,14 +400,15 @@
             "ext": "./json/农民影视.json"
         },
         {
-            "key": "csp_XYQHiker_七新影视",
-            "name": "🌟七新影视(XYQH)",
+            "key": "csp_XYQHiker_剧圈圈",
+            "name": "🌟剧圈圈(XYQH)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/七新影视.json"
+            "ext": "./json/剧圈圈.json",
+            "click": "document.getElementById('playleft').children[0].contentWindow.document.getElementById('start')"
         },
         {
             "key": "csp_XYQHiker_骚火电影VIP",
@@ -468,16 +469,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/看一看影视.json"
-        },
-        {
-            "key": "csp_XYQHiker_九八局",
-            "name": "🍷九八剧(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/九八剧.json"
         },
         {
             "key": "csp_XYQHiker_八号影视",
@@ -553,7 +544,7 @@
             "ext": "./js/虎牙直播.js",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 0
+            "filterable": 1
         },
         {
             "key": "csp_XYQHiker_虎牙直播",
@@ -562,7 +553,7 @@
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 0,
-            "filterable": 0,
+            "filterable": 1,
             "ext": "./json/虎牙直播.json"
         },
         {
@@ -572,7 +563,7 @@
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 0,
-            "filterable": 0,
+            "filterable": 1,
             "ext": "./json/斗鱼直播.json"
         }
     ],

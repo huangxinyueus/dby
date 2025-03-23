@@ -301,4 +301,107 @@ function getMubans() {
 }
 var mubanDict = getMubans();
 var muban = getMubans();
-export default {muban,getMubans};
+export default {muban,getMubans};��: {
+            title: '',
+            host: '', // homeUrl:'/',
+            url: '/channel/fyclass-fypage.html',
+            searchUrl: '/search.html?wd=**',
+            searchable: 2, //是否启用全局搜索,
+            quickSearch: 0, //是否启用快速搜索,
+            filterable: 0, //是否启用分类筛选,
+            headers: { //网站的请求头,完整支持所有的,常带ua和cookies
+                'User-Agent': 'MOBILE_UA', // "Cookie": "searchneed=ok"
+            },
+            class_parse: '.menu_bottom ul li;a&&Text;a&&href;.*/(.*?).html',
+            cate_exclude: '解析|动态',
+            play_parse: true,
+            lazy: common_lazy,
+            limit: 6,
+            double: true, // 推荐内容是否双层定位
+            推荐: '.indexShowBox;ul&&li;a&&title;img&&data-src;.s1&&Text;a&&href',
+            一级: '.pic-list&&li;a&&title;img&&data-src;.s1&&Text;a&&href',
+            二级: {
+                title: 'h1&&Text;.content-rt&&p:eq(0)&&Text',
+                img: '.img&&img&&data-src',
+                desc: '.content-rt&&p:eq(1)&&Text;.content-rt&&p:eq(2)&&Text;.content-rt&&p:eq(3)&&Text;.content-rt&&p:eq(4)&&Text;.content-rt&&p:eq(5)&&Text',
+                content: '.zkjj_a&&Text',
+                tabs: '.py-tabs&&option',
+                lists: '.player:eq(#id) li',
+            },
+            搜索: '.sr_lists&&ul&&li;h3&&Text;img&&data-src;.int&&p:eq(0)&&Text;a&&href',
+        },
+        短视2: {
+            title: '',
+            host: '',
+            class_name: '电影&电视剧&综艺&动漫',
+            class_url: '1&2&3&4',
+            searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+            searchable: 2,
+            quickSearch: 0,
+            headers: {
+                'User-Agent': 'MOBILE_UA'
+            },
+            url: '/index.php/api/vod#type=fyclass&page=fypage',
+            filterable: 0, //是否启用分类筛选,
+            filter_url: '',
+            filter: {},
+            filter_def: {},
+            detailUrl: '/index.php/vod/detail/id/fyid.html',
+            play_parse: true,
+            lazy: common_lazy,
+            limit: 6,
+            推荐: '.list-vod.flex .public-list-box;a&&title;.lazy&&data-original;.public-list-prb&&Text;a&&href',
+            一级: 'js:let body=input.split("#")[1];let t=Math.round(new Date/1e3).toString();let key=md5("DS"+t+"DCC147D11943AF75");let url=input.split("#")[0];body=body+"&time="+t+"&key="+key;print(body);fetch_params.body=body;let html=post(url,fetch_params);let data=JSON.parse(html);VODS=data.list.map(function(it){it.vod_pic=urljoin2(input.split("/i")[0],it.vod_pic);return it});',
+            二级: {
+                title: '.slide-info-title&&Text;.slide-info:eq(2)--strong&&Text',
+                img: '.detail-pic&&data-original',
+                desc: '.slide-info-remarks&&Text;.slide-info-remarks:eq(1)&&Text;.slide-info-remarks:eq(2)&&Text;.slide-info:eq(1)--strong&&Text;.info-parameter&&ul&&li:eq(3)&&Text',
+                content: '#height_limit&&Text',
+                tabs: '.anthology.wow.fadeInUp.animated&&.swiper-wrapper&&a',
+                tab_text: 'a--span&&Text',
+                lists: '.anthology-list-box:eq(#id) li',
+            },
+            搜索: 'json:list;name;pic;;id',
+        },
+        采集1: {
+            title: '',
+            host: '',
+            homeTid: '13',
+            homeUrl: '/api.php/provide/vod/?ac=detail&t={{rule.homeTid}}',
+            detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid',
+            searchUrl: '/api.php/provide/vod/?wd=**&pg=fypage',
+            url: '/api.php/provide/vod/?ac=detail&pg=fypage&t=fyclass',
+            headers: {
+                'User-Agent': 'MOBILE_UA'
+            },
+            timeout: 5000, // class_name: '电影&电视剧&综艺&动漫',
+            // class_url: '1&2&3&4',
+            // class_parse:'js:let html=request(input);input=JSON.parse(html).class;',
+            class_parse: 'json:class;',
+            limit: 20,
+            multi: 1,
+            searchable: 2, //是否启用全局搜索,
+            quickSearch: 1, //是否启用快速搜索,
+            filterable: 0, //是否启用分类筛选,
+            play_parse: true,
+            parse_url: '',
+            lazy: cj_lazy,
+            推荐: '*',
+            一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id;vod_play_from',
+            二级: `js:
+            let html=request(input);
+            html=JSON.parse(html);
+            let data=html.list;
+            VOD=data[0];`,
+            搜索: '*',
+        },
+    };
+    return JSON.parse(JSON.stringify(mubanDict));
+}
+
+var mubanDict = getMubans();
+var muban = getMubans();
+export default {
+    muban,
+    getMubans
+};

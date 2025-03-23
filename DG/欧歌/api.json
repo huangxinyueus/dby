@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m//t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "【网络收集，免费分享】如有收费,直接找退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "【网络收集，免费分享】请勿演示贩卖,接口即将关闭提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "【网络收集，免费分享】如有收费,直接找退款",
+            "name": "【网络收集，免费分享】请勿演示贩卖,接口即将关闭",
             "type": 0,
-            "url": "./lives/【网络收集，免费分享】如有收费,直接找退款.txt",
+            "url": "./lives/【网络收集，免费分享】请勿演示贩卖,接口即将关闭.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -34,20 +34,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢【网络收集，免费分享】如有收费,直接找退款",
+            "name": "📢【网络收集，免费分享】请勿演示贩卖,接口即将关闭",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【网络收集，免费分享】如有收费,直接找退款公告❤更新:3/11❤",
+            "name": "📢【网络收集，免费分享】请勿演示贩卖,接口即将关闭公告❤更新:3/11❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://nxog.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8CAPP/ts/?b=【网络收集，免费分享】如有收费,直接找退款"
+            "ext": "https://nxog.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8CAPP/ts/?b=【网络收集，免费分享】请勿演示贩卖,接口即将关闭"
         },
         {
             "key": "欧歌弹幕",
