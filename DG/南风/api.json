@@ -247,6 +247,24 @@
             "filterable": 1
         },
         {
+            "key": "csp_DyGod",
+            "name": "🧲电影天堂",
+            "type": 3,
+            "api": "csp_DyGod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_QnMp4",
+            "name": "🧲七妹",
+            "type": 3,
+            "api": "csp_QnMp4",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_SeedHub",
             "name": "🧲SeedHub",
             "type": 3,
