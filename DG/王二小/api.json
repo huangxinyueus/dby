@@ -52,10 +52,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexpan123ziyuanGuard",
-            "name": "💓‍123┃4K💓‍",
+            "key": "WexxzysGuard",
+            "name": "💓校长┃4K💓",
             "type": 3,
-            "api": "csp_Wexpan123ziyuanGuard",
+            "api": "csp_WexxzysGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -141,18 +141,18 @@
             "changeable": 1
         },
         {
-            "key": "WexxzysGuard",
-            "name": "💓校长┃4K💓",
-            "type": 3,
-            "api": "csp_WexxzysGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "盘他",
             "name": "💓‍盘他┃4K💓‍",
             "type": 3,
             "api": "csp_WexYDpantaGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexpan123ziyuanGuard",
+            "name": "💓‍123┃4K💓‍",
+            "type": 3,
+            "api": "csp_Wexpan123ziyuanGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -793,6 +793,30 @@
             "name": "💓我的┃异动💓‍",
             "type": 3,
             "api": "csp_WexWoydpanGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 50,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "xunlei",
+            "name": "💓我的┃讯蕾💓‍",
+            "type": 3,
+            "api": "csp_WexWoXunLeiPanGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 50,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "baidu",
+            "name": "💓我的┃百度💓‍",
+            "type": 3,
+            "api": "csp_WexWoBaiduPanGuard",
             "searchable": 1,
             "changeable": 1,
             "timeout": 50,

@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m//t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "【网络收集，免费分享】请勿演示贩卖,接口即将关闭提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "【公众号欧歌APP网络收集】接口即将关闭,请勿演示提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "【网络收集，免费分享】请勿演示贩卖,接口即将关闭",
+            "name": "【公众号欧歌APP网络收集】接口即将关闭,请勿演示",
             "type": 0,
-            "url": "./lives/【网络收集，免费分享】请勿演示贩卖,接口即将关闭.txt",
+            "url": "./lives/【公众号欧歌APP网络收集】接口即将关闭,请勿演示.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -34,20 +34,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢【网络收集，免费分享】请勿演示贩卖,接口即将关闭",
+            "name": "📢【公众号欧歌APP网络收集】接口即将关闭,请勿演示",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【网络收集，免费分享】请勿演示贩卖,接口即将关闭公告❤更新:3/11❤",
+            "name": "📢【公众号欧歌APP网络收集】接口即将关闭,请勿演示公告❤更新:3/26❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://nxog.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8CAPP/ts/?b=【网络收集，免费分享】请勿演示贩卖,接口即将关闭"
+            "ext": "https://欧歌.yy.nxog.top/公告.php?b=【公众号欧歌APP网络收集】接口即将关闭,请勿演示"
         },
         {
             "key": "欧歌弹幕",
@@ -162,16 +162,6 @@
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
         },
         {
-            "key": "全网",
-            "name": "💡全网｜影视",
-            "type": 3,
-            "api": "csp_Quanwk",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.91qkw.com"
-        },
-        {
             "key": "低端",
             "name": "💡低端｜影视",
             "type": 3,
@@ -188,23 +178,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "厂长",
-            "name": "💡厂长｜资源",
-            "type": 3,
-            "api": "csp_Czzy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "米兔",
-            "name": "💡米兔｜影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_MiTuApp"
         },
         {
             "key": "洽洽影视",
@@ -225,14 +198,6 @@
             "api": "csp_MovieApp"
         },
         {
-            "key": "小米兄弟",
-            "name": "💡兄弟｜影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_XiongDiApp"
-        },
-        {
             "key": "金牌影视",
             "name": "💡金牌｜影视",
             "type": 3,
@@ -251,20 +216,52 @@
             "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
         },
         {
-            "key": "时常",
-            "name": "💡时常｜影视",
+            "key": "起点",
+            "name": "💡起点｜影视",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMnwxMzQ="
+            "ext": "jaHR0cDovL2NhaWppLm8wYS5jbnw3MGZkNjFkOTkxZjQzMjU3fDcwZmQ2MWQ5OTFmNDMyNTd8MTAw"
         },
         {
-            "key": "现代",
-            "name": "💡现代｜影视",
+            "key": "光速",
+            "name": "💡光速｜影视",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="
+            "ext": "jaHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
+        },
+        {
+            "key": "优秀",
+            "name": "💡优秀｜影视",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovL2FpLnhpYW95dW4uaW5rfEtMckZxU2ptYzRPSWo3NkJ8S0xyRnFTam1jNE9Jajc2QnwzMDA="
+        },
+        {
+            "key": "莉莉",
+            "name": "💡莉莉｜影视",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
+        },
+        {
+            "key": "雨滴",
+            "name": "💡雨滴｜影视",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
+        },
+        {
+            "key": "优质",
+            "name": "💡优质｜影视",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly9keXl6dHZhcHBhcGlnb29kZ3guNjguZ3k6MTI2ODkvY2l3azI4dnUzOGlvOC9hcGl1cmwudHh0fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
         },
         {
             "key": "来看影视",
@@ -281,6 +278,50 @@
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
+        },
+        {
+            "key": "猎手影视",
+            "name": "💡猎手｜影视",
+            "type": 3,
+            "api": "./api/猎手影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "火车影视",
+            "name": "💡火车｜影视",
+            "type": 3,
+            "api": "./api/火车影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "美帕影视",
+            "name": "💡美帕｜影视",
+            "type": 3,
+            "api": "./api/美帕影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "嗨皮影视",
+            "name": "💡嗨皮｜影视",
+            "type": 3,
+            "api": "./api/嗨皮影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
         },
         {
             "key": "厂长弹幕",
