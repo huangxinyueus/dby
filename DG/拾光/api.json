@@ -17,7 +17,7 @@
             "api": "csp_YGP",
             "searchable": 0
         },
-{
+        {
             "key": "急救教学",
             "name": "家庭｜教学",
             "type": 3,
@@ -115,18 +115,6 @@
             "ext": {
                 "danmu": true,
                 "site": "aHR0cDovL3YubGt1eXMuY24="
-            }
-        },
-        {
-            "key": "文才弹幕",
-            "name": "文才｜弹幕",
-            "type": 3,
-            "api": "csp_Jpys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
             }
         },
         {
@@ -580,6 +568,50 @@
             "filterable": 1,
             "ext": "./XYQHiker/短剧屋.json"
         },
+{
+            "key": "红果短剧",
+            "name": "红果｜短剧",
+            "type": 3,
+            "api": "./PY/红果短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "剧多短剧",
+            "name": "剧多｜短剧",
+            "type": 3,
+            "api": "./PY/剧多短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+{
+            "key": "蓝莓短剧",
+            "name": "蓝莓｜短剧",
+            "type": 3,
+            "api": "./PY/蓝莓短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "甜圈短剧",
+            "name": "甜圈｜短剧",
+            "type": 3,
+            "api": "./PY/甜圈短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
         {
             "key": "韩小圈",
             "name": "韩小圈｜APP",
@@ -633,10 +665,43 @@
             "playerType": 2
         },
         {
-            "key": "嗨皮影视",
-            "name": "嗨皮｜APP",
+            "key": "爱瓜影视",
+            "name": "爱瓜｜APP",
             "type": 3,
-            "api": "./PY/嗨皮影视.py",
+            "api": "./PY/爱瓜影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "绝对影视",
+            "name": "绝对｜APP",
+            "type": 3,
+            "api": "./PY/绝对影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "小苹果影视",
+            "name": "水果｜APP",
+            "type": 3,
+            "api": "./PY/小苹果影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "云端影视",
+            "name": "云端｜APP",
+            "type": 3,
+            "api": "./PY/云端影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -958,6 +1023,20 @@
             "filterable": 1
         },
         {
+            "key": "小枫影视",
+            "name": "小枫｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/小枫影视.json"
+        },
+        {
+            "key": "奇迹影视",
+            "name": "奇迹｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/奇迹影视.json"
+        },
+        {
             "key": "可可影视",
             "name": "可可｜影视",
             "type": 3,
@@ -1235,20 +1314,40 @@
                 "欧美动漫"
             ]
         },
-    {
-      "key": "快车资源网",
-      "name": "快车｜采集",
-      "type": 1,
-      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "国产剧"
-      ]
-    },
+        {
+            "key": "快车资源",
+            "name": "快车｜采集",
+            "type": 1,
+            "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "changeable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "战争片",
+                "剧情片",
+                "动画片",
+                "纪录片",
+                "国产剧",
+                "香港剧",
+                "台湾剧",
+                "欧美剧",
+                "韩国剧",
+                "日本剧",
+                "泰国剧",
+                "海外剧",
+                "国产动漫",
+                "日本动漫",
+                "欧美动漫",
+                "大陆综艺",
+                "日韩综艺",
+                "港台综艺",
+                "欧美综艺"
+            ]
+        },
         {
             "key": "索尼资源",
             "name": "索尼｜采集",
@@ -1355,6 +1454,20 @@
                 "欧美综艺"
             ]
         },
+{
+      "key": "快车资源网",
+      "name": "快车｜采集",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧"
+      ]
+    },
         {
             "key": "卧龙采集资源",
             "name": "卧龙｜采集",
@@ -2000,17 +2113,17 @@
 			"ext": "./JS/爱上你听书网[听].js"
 		},
 {
-			"key": "hipy_js_中华听书网[听]",
-			"name": "听书｜小说",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./JS/中华听书网[听].js"
+	"key": "hipy_js_中华听书网[听]",
+	"name": "听书｜小说",
+	"type": 3,
+	"api": "./drpy_libs/drpy2.min.js",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"order_num": 0,
+	"ext": "./JS/中华听书网[听].js"
 		},
-		{
+{
       "key": "有声小说",
       "name": "有声｜小说",
       "type": 3,
@@ -2364,7 +2477,7 @@
         },
         {
             "key": "push_agent",
-            "name": "认真｜思考",
+            "name": "学习｜思考",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -2383,6 +2496,35 @@
             "name": "夏夜",
             "type": "1",
             "url": "http://8.155.50.80/xiaye.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "羊羊",
+            "type": 1,
+            "url": "http://117.50.184.199:94/api.php/?key=1&url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -2682,7 +2824,7 @@
         }
     ],
     "lives": [
-        {
+{
       "name": "拾光频道",
       "type": 0,
       "url": "https://4708.kstore.space/FM.json",
@@ -2704,7 +2846,16 @@
             "playerType": 2,
             "timeout": 10
         },
-        
+        {
+            "name": "APTV",
+            "type": 0,
+            "url": "https://github.moeyy.xyz/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
+        }, 
        
  {
       "name": "宇宙频道",
@@ -2724,7 +2875,6 @@
       "url": "https://gitlab.com/hewittchoi/tvlist/-/raw/main/updated.txt",
       "playerType": 1
     },
-        
         {
             "name": "ITV",
             "type": 0,
@@ -2732,16 +2882,6 @@
             "epg": "http://epg.51zmt.top:8000/e.xml",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
             "timeout": 5,
-            "playerType": 2
-        },
-        {
-            "name": "APTV",
-            "type": 0,
-            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
             "playerType": 2
         }
     ],
