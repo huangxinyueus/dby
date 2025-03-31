@@ -41,7 +41,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP网络收集】接口即将关闭,请勿演示公告❤更新:3/26❤",
+            "name": "📢【公众号欧歌APP网络收集】接口即将关闭,请勿演示公告❤更新:3/28❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -50,34 +50,48 @@
             "ext": "https://欧歌.yy.nxog.top/公告.php?b=【公众号欧歌APP网络收集】接口即将关闭,请勿演示"
         },
         {
-            "key": "欧歌弹幕",
+            "key": "csp_Netfixtv",
             "name": "🐲玩欧｜4K弹幕",
             "type": 3,
-            "api": "csp_og",
-            "quickSearch": 1,
-            "changeable": 1,
+            "changeable": "0",
+            "api": "csp_DuopanGuard",
             "filterable": 1,
+            "jar": "./jars/csp_Netfixtv.jar",
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "danmu": true
+                "site_urls": [
+                    "https://woog.nxog.eu.org",
+                    "https://woog.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "Netfixtv",
+                "threadinfo": {
+                    "chunksize": 400,
+                    "threads": 12
+                }
             }
         },
         {
-            "key": "欧歌uc",
-            "name": "🐲玩欧｜u汐弹幕",
+            "key": "csp_UC",
+            "name": "🐲玩欧｜UC弹幕",
             "type": 3,
-            "api": "csp_oguc",
-            "quickSearch": 1,
-            "changeable": 1,
+            "changeable": "0",
+            "api": "csp_DuopanGuard",
             "filterable": 1,
+            "jar": "./jars/csp_Netfixtv.jar",
             "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "danmu": true
+                "site_urls": [
+                    "https://wooguc.nxog.eu.org",
+                    "https://oguc.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "UC"
             }
+        },
+        {
+            "key": "config",
+            "name": "🐲玩欧┃配置中心 ",
+            "type": 3,
+            "jar": "./jars/config.jar",
+            "api": "csp_Config",
+            "searchable": 0
         },
         {
             "key": "csp_woog2",
@@ -271,13 +285,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "预告",
-            "name": "💡新片｜预告",
-            "type": 3,
-            "api": "csp_YGP",
-            "searchable": 0
         },
         {
             "key": "猎手影视",
@@ -1179,7 +1186,7 @@
         },
         {
             "key": "夸克多多弹幕",
-            "name": "❤多多｜4K弹幕",
+            "name": "❤UC｜4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -1189,13 +1196,13 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://duoduo.banye.tech:7086",
+                "site": "https://wooguc.nxog.eu.org",
                 "danmu": true
             }
         },
         {
             "key": "夸克蜡笔弹幕",
-            "name": "❤蜡笔｜4K弹幕",
+            "name": "❤欧歌｜4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -1205,7 +1212,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://labi.banye.tech:7086",
+                "site": "https://woog.nxog.eu.org",
                 "danmu": true
             }
         },

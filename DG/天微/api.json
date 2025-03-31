@@ -7,16 +7,16 @@
     "warningText": "资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "lives": [
         {
-            "name": "天微MTV",
+            "name": "线路①",
             "type": 0,
-            "url": "./lives/天微MTV.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/线路①.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "②线路",
+            "name": "MTV",
             "type": 0,
-            "url": "./lives/②线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+            "url": "./lives/MTV.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         }
     ],
     "sites": [
@@ -110,11 +110,39 @@
             "api": "csp_LocalFile"
         },
         {
-            "key": "网络直播",
-            "name": "《平台🔹直播》",
+            "key": "快手直播",
+            "name": "《快手｜直播》",
             "type": 3,
-            "api": "csp_Living",
-            "searchable": 1
+            "api": "csp_KsLive",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "虎牙直播",
+            "name": "《虎牙｜直播》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/虎牙直播.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "斗鱼直播",
+            "name": "《斗鱼｜直播》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/斗鱼直播.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "央视大全",
@@ -194,22 +222,6 @@
             "type": 3,
             "jar": "./jars/csp_Jpys.jar",
             "api": "csp_JpysGuard"
-        },
-        {
-            "key": "起点",
-            "name": "《起点🔹秒播》",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovL2NhaWppLm8wYS5jbnw3MGZkNjFkOTkxZjQzMjU3fDcwZmQ2MWQ5OTFmNDMyNTd8MTAw"
-        },
-        {
-            "key": "莉莉",
-            "name": "《栗子🔹秒播》",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
         },
         {
             "key": "机器人弹幕",
@@ -297,6 +309,34 @@
             "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
         },
         {
+            "key": "腾讯弹幕",
+            "name": "《腾翼🔹天翔》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/腾翼弹幕.js"
+        },
+        {
+            "key": "优酷弹幕",
+            "name": "《悠悠🔹岁月》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/悠悠弹幕.js"
+        },
+        {
+            "key": "芒果弹幕",
+            "name": "《茫茫🔹人海》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/茫茫弹幕.js"
+        },
+        {
+            "key": "爱奇艺弹幕",
+            "name": "《爱在🔹心意》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/爱在弹幕.js"
+        },
+        {
             "key": "文才弹幕",
             "name": "《文才🔹弹幕》",
             "type": 3,
@@ -349,62 +389,81 @@
             "ext": "./js/剧圈圈.js"
         },
         {
-            "key": "腾讯弹幕",
-            "name": "《腾翼🔹天翔》",
+            "key": "玩偶",
+            "name": "《玩偶💿弹幕4K》",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/腾翼弹幕.js"
+            "api": "csp_WoGGGuard",
+            "jar": "./jars/玩偶.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.com/",
+                "danMu": "弹"
+            }
         },
         {
-            "key": "优酷弹幕",
-            "name": "《悠悠🔹岁月》",
+            "key": "csp_UC",
+            "name": "《小米💿UC盘4K》",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/悠悠弹幕.js"
+            "changeable": "0",
+            "api": "csp_DuopanGuard",
+            "jar": "./jars/csp_Jpys.jar",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "https://www.54271.fun/",
+                    "https://54271.fun/",
+                    "https://www.mucpan.cc/",
+                    "https://mucpan.cc/"
+                ],
+                "url_key": "UC",
+                "token": "",
+                "ucCookie": "",
+                "quarkCookie": "",
+                "threadinfo": {
+                    "chunksize": 400,
+                    "threads": 12
+                }
+            }
         },
         {
-            "key": "芒果弹幕",
-            "name": "《茫茫🔹人海》",
+            "key": "csp_Netfixtv",
+            "name": "《至臻💿弹幕4K》",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/茫茫弹幕.js"
-        },
-        {
-            "key": "爱奇艺弹幕",
-            "name": "《爱在🔹心意》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/爱在弹幕.js"
+            "changeable": "0",
+            "api": "csp_DuopanGuard",
+            "jar": "./jars/csp_Jpys.jar",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "https://mihdr.top",
+                    "http://www.miqk.cc",
+                    "https://xiaomiai.site"
+                ],
+                "url_key": "Netfixtv",
+                "token": "",
+                "ucCookie": "",
+                "quarkCookie": "",
+                "threadinfo": {
+                    "chunksize": 400,
+                    "threads": 12
+                }
+            }
         },
         {
             "key": "UC",
             "name": "《优汐💿盘搜4K》",
             "type": 3,
             "api": "csp_UuSsGuard",
-            "jar": "./jars/UC.jar",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto",
-                "pturl": "http://tv.91muou.icu/|http://54271.fun/"
-            }
-        },
-        {
-            "key": "玩偶",
-            "name": "《玩偶💿哥哥4K》",
-            "type": 3,
-            "api": "csp_WoGGGuard",
-            "jar": "./jars/UC.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto",
-                "siteUrl": "https://www.wogg.net/",
-                "danMu": "弹"
+                "from": "4k|auto"
             }
         },
         {
@@ -1232,6 +1291,35 @@
             "name": "量子",
             "type": 0,
             "url": "https://lzplayer.tv/?url="
+        },
+        {
+            "name": "七星",
+            "type": "1",
+            "url": "http://8.155.50.80/xiaye.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
         },
         {
             "name": "播放失败换解析",

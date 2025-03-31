@@ -13,7 +13,7 @@
         },
         {
             "key": "config",
-            "name": "⚙云盘┃配置中心 0324 新增123盘",
+            "name": "⚙云盘┃配置中心 0326 修复U C无需要配置UT 直接上车",
             "type": 3,
             "api": "csp_ConfigGuard",
             "searchable": 0
@@ -59,12 +59,10 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://www.54271.fun/",
-                    "https://www.milvdou.fun",
-                    "http://www.54271.fun/",
+                    "https://www.54271.fun/",
+                    "https://54271.fun/",
                     "https://www.mucpan.cc/",
-                    "https://mucpan.cc/",
-                    "http://milvdou.fun"
+                    "https://mucpan.cc/"
                 ],
                 "url_key": "UC",
                 "token": "",
