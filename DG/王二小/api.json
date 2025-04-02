@@ -206,6 +206,14 @@
             "changeable": 1
         },
         {
+            "key": "Wexrenrenyingshi",
+            "name": "💥人人┃弹幕💥",
+            "type": 3,
+            "api": "csp_WexrenrenyingshiGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "賤賤",
             "name": "💥賤片┃p2p💥",
             "type": 3,
@@ -222,14 +230,6 @@
             "changeable": 1
         },
         {
-            "key": "Fujutv",
-            "name": "😁腐剧┃影视😁",
-            "type": 3,
-            "api": "csp_WexFujutvGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "WexquickvodGuard",
             "name": "🎇美剧┃秒播🎇",
             "type": 3,
@@ -242,14 +242,6 @@
             "name": "🎇急速┃秒播🎇",
             "type": 3,
             "api": "csp_Wex4KavGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexbaipiao",
-            "name": "🎇星星┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexbaipiaoGuard",
             "searchable": 1,
             "changeable": 1
         },

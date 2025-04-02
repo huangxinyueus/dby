@@ -34,16 +34,6 @@
             "filterable": 1
         },
         {
-            "key": "金牌",
-            "name": "🥇金牌",
-            "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_ReBo",
             "name": "☀️热播",
             "type": 3,
@@ -80,16 +70,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Kanke",
-            "name": "🛳️看客",
-            "type": 3,
-            "api": "csp_Kanke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.guaziys.com"
         },
         {
             "key": "csp_Wwys",
