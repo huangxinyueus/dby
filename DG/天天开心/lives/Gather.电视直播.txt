@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://epg.iill.top/epg" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",免费订阅：请勿贩卖...
 https://epg.iill.top/v/302.mp4
-#EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护时间：2025-2-8#佛系维护...
+#EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护时间：2025-4-1#佛系维护...
 https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护内容：维护内容：维护 Gather「删除 •IPV6 源 / •國際「匯集」」
+#EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护内容：维护内容：维护 Gather「删除 •咪咕源 / 当作节目表吧」
 https://epg.iill.top/v/302.mp4
-#EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",公告说明：推流源·暂不限制·若流量太大将改限时
+#EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",公告说明：推流源·暂不提供
 https://epg.iill.top/v/301.mp4
 #EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",限制条件：请到 Github 了解详情「限制IP·UA」
 https://epg.iill.top/v/302.mp4
@@ -17,242 +17,63 @@ https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/FashionTV.png" group-title="•4K「IPV4」",Fashion 4K「时尚」
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•咪咕「TV」",CCTV 1 综合
-https://tv.iill.top/migu/cctv1
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•咪咕「TV」",CCTV 2 财经
-https://tv.iill.top/migu/cctv2
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.iill.top/logo/CCTV3.png" group-title="•咪咕「TV」",CCTV 3 综艺
-https://tv.iill.top/migu/cctv3
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.iill.top/logo/CCTV4.png" group-title="•咪咕「TV」",CCTV 4 中文国际
-https://tv.iill.top/migu/cctv4
-#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://epg.iill.top/logo/CCTV4美洲.png" group-title="•咪咕「TV」",CCTV 4 中文国际·美洲
-https://tv.iill.top/migu/cctv4m
-#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://epg.iill.top/logo/CCTV4欧洲.png" group-title="•咪咕「TV」",CCTV 4 中文国际·欧洲
-https://tv.iill.top/migu/cctv4o
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.iill.top/logo/CCTV5.png" group-title="•咪咕「TV」",CCTV 5 体育
-https://tv.iill.top/migu/cctv5
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.iill.top/logo/CCTV5+.png" group-title="•咪咕「TV」",CCTV 5+ 体育赛事
-https://tv.iill.top/migu/cctv5p
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.iill.top/logo/CCTV6.png" group-title="•咪咕「TV」",CCTV 6 电影
-https://tv.iill.top/migu/cctv6
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.iill.top/logo/CCTV7.png" group-title="•咪咕「TV」",CCTV 7 国防军事
-https://tv.iill.top/migu/cctv7
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.iill.top/logo/CCTV8.png" group-title="•咪咕「TV」",CCTV 8 电视剧
-https://tv.iill.top/migu/cctv8
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.iill.top/logo/CCTV9.png" group-title="•咪咕「TV」",CCTV 9 纪录
-https://tv.iill.top/migu/cctv9
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.iill.top/logo/CCTV10.png" group-title="•咪咕「TV」",CCTV 10 科教
-https://tv.iill.top/migu/cctv10
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.iill.top/logo/CCTV11.png" group-title="•咪咕「TV」",CCTV 11 戏曲
-https://tv.iill.top/migu/cctv11
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.iill.top/logo/CCTV12.png" group-title="•咪咕「TV」",CCTV 12 社会与法
-https://tv.iill.top/migu/cctv12
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.iill.top/logo/CCTV13.png" group-title="•咪咕「TV」",CCTV 13 新闻
-https://tv.iill.top/migu/cctv13
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.iill.top/logo/CCTV14.png" group-title="•咪咕「TV」",CCTV 14 少儿
-https://tv.iill.top/migu/cctv14
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.iill.top/logo/CCTV15.png" group-title="•咪咕「TV」",CCTV 15 音乐
-https://tv.iill.top/migu/cctv15
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.iill.top/logo/CCTV17.png" group-title="•咪咕「TV」",CCTV 17 农村农业
-https://tv.iill.top/migu/cctv17
-#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" tvg-logo="https://epg.iill.top/logo/CETV1.png" group-title="•咪咕「TV」",CETV 1 中国教育
-https://tv.iill.top/migu/cetv1
-#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" tvg-logo="https://epg.iill.top/logo/CETV2.png" group-title="•咪咕「TV」",CETV 2 中国教育
-https://tv.iill.top/migu/cetv2
-#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" tvg-logo="https://epg.iill.top/logo/CETV4.png" group-title="•咪咕「TV」",CETV 4 中国教育
-https://tv.iill.top/migu/cetv4
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.iill.top/logo/浙江卫视.png" group-title="•咪咕「TV」",浙江卫视
-http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.iill.top/logo/广东卫视.png" group-title="•咪咕「TV」",广东卫视
-https://tv.iill.top/migu/gdws
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.iill.top/logo/江苏卫视.png" group-title="•咪咕「TV」",江苏卫视
-https://tv.iill.top/migu/jsws
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.iill.top/logo/东方卫视.png" group-title="•咪咕「TV」",东方卫视
-https://tv.iill.top/migu/dfws
-#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://epg.iill.top/logo/陕西卫视.png" group-title="•咪咕「TV」",陕西卫视
-https://tv.iill.top/migu/sxws
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.iill.top/logo/江西卫视.png" group-title="•咪咕「TV」",江西卫视
-https://tv.iill.top/migu/jxws
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.iill.top/logo/湖北卫视.png" group-title="•咪咕「TV」",湖北卫视
-https://tv.iill.top/migu/hubws
-#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://epg.iill.top/logo/上海新闻.png" group-title="•咪咕「TV」",上海新闻综合
-https://tv.iill.top/migu/shxw
-#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" tvg-logo="https://epg.iill.top/logo/东方影视.png" group-title="•咪咕「TV」",上海东方影视
-https://tv.iill.top/migu/shys
-#EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://epg.iill.top/logo/纪实人文.png" group-title="•咪咕「TV」",上海纪实人文
-https://tv.iill.top/migu/shjs
-#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://epg.iill.top/logo/劲爆体育.png" group-title="•咪咕「TV」",SiTV 劲爆体育
-https://tv.iill.top/migu/jbty
-#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://epg.iill.top/logo/魅力足球.png" group-title="•咪咕「TV」",SiTV 魅力足球
-https://tv.iill.top/migu/mlzq
-#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" tvg-logo="https://epg.iill.top/logo/七彩戏剧.png" group-title="•咪咕「TV」",SiTV 七彩戏剧
-https://tv.iill.top/migu/qcxj
-#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://epg.iill.top/logo/游戏风云.png" group-title="•咪咕「TV」",SiTV 游戏风云
-https://tv.iill.top/migu/yxfy
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://epg.iill.top/logo/法治天地.png" group-title="•咪咕「TV」",SiTV 法治天地
-https://tv.iill.top/migu/qcxj
-#EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.iill.top/logo/乐游.png" group-title="•咪咕「TV」",SiTV 乐游
-https://tv.iill.top/migu/qcxj
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://epg.iill.top/logo/家庭影院.png" group-title="•咪咕「TV」",CHC 家庭影院
-https://tv.iill.top/migu/jtyy
-#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://epg.iill.top/logo/欢笑剧场.png" group-title="•咪咕「TV」",欢笑剧场
-https://tv.iill.top/migu/hxjc
-#EXTINF:-1 tvg-id="经典香港电影" tvg-name="经典香港电影" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",经典香港电影
-https://tv.iill.top/migu/xgdy
-#EXTINF:-1 tvg-id="军事迷必看大片" tvg-name="军事迷必看大片" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",军事迷必看大片
-https://tv.iill.top/migu/jsm
-#EXTINF:-1 tvg-id="新片放映厅" tvg-name="新片放映厅" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",新片放映厅
-https://tv.iill.top/migu/xpdy
-#EXTINF:-1 tvg-id="红色轮播台" tvg-name="红色轮播台" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",红色轮播台
-https://tv.iill.top/migu/hslb
-#EXTINF:-1 tvg-id="金色剧场" tvg-name="金色剧场" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",金色剧场
-https://tv.iill.top/migu/jsjc
-#EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://epg.iill.top/logo/四海钓鱼.png" group-title="•咪咕「TV」",四海钓鱼
-https://tv.iill.top/migu/shdy
-#EXTINF:-1 tvg-id="NBA经典" tvg-name="NBA经典" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",NBA 经典
-https://tv.iill.top/migu/nba
-#EXTINF:-1 tvg-id="五大联赛经典" tvg-name="五大联赛经典" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",五大联赛经典
-https://tv.iill.top/migu/lsjd
-#EXTINF:-1 tvg-id="足球风云" tvg-name="足球风云" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",中国足球风云
-https://tv.iill.top/migu/zqfy
-#EXTINF:-1 tvg-id="掼蛋精英赛" tvg-name="掼蛋精英赛" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",掼蛋精英赛
-https://tv.iill.top/migu/dds
-#EXTINF:-1 tvg-id="咪咕24小时体育" tvg-name="咪咕24小时体育" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「TV」",咪咕24小时体育台
-https://tv.iill.top/migu/mgty
-
 #INSERT_HERE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「西甲」00:20 联赛 瓦伦西亚 vs 马略卡 周楚雄
-https://tv.iill.top/FB/7hmZON
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「西甲」00:20 联赛 毕尔巴鄂竞技 vs 奥萨苏纳 洪宇青
-https://tv.iill.top/FB/vFGNob
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「法甲」02:35 联赛 里尔 vs 朗斯 盛斌
-https://tv.iill.top/FB/Z4rxQD
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意甲」02:30 联赛 那不勒斯 vs AC米兰 石庆圣 李彦
-https://tv.iill.top/FB/BSC9oB
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意甲」02:30 联赛 那不勒斯 vs AC米兰 石庆圣 李彦
-https://tv.iill.top/FB/fXNft4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「西甲」02:45 联赛 皇家贝蒂斯 vs 塞维利亚 刘畅 贺宇
-https://tv.iill.top/FB/oLhxQZ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」03:25 常规赛 快船VS骑士 姜帆
-https://tv.iill.top/NBA/5MvYlN
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」05:55 常规赛 开拓者VS尼克斯 殷文玉
-https://tv.iill.top/NBA/NM7qZF
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:45 常规赛 勇士VS马刺 张浩岳 张兆旭 王羽希
-https://tv.iill.top/NBA/Kt6ibS
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:45 常规赛 勇士VS马刺 拜月宁
-https://tv.iill.top/NBA/9ZwnLH
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:45 常规赛 勇士VS马刺 王晓晨
-https://tv.iill.top/NBA/MtJysN
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 活塞VS森林狼 邢晨
-https://tv.iill.top/NBA/Tf3GNi
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 黄蜂VS鹈鹕 张泽欣
-https://tv.iill.top/NBA/iDnlYA
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 老鹰VS雄鹿 王冠证
-https://tv.iill.top/NBA/00dS8F
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 猛龙VS76人 罗森
-https://tv.iill.top/NBA/5QbnEv
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:45 常规赛 火箭VS太阳 连睿 周鹏 裴优
-https://tv.iill.top/NBA/Hef7tG
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「国际女篮邀请赛」15:25 国际女篮邀请赛 江苏南钢vs诺维萨德 清流播出
-https://tv.iill.top/Migu/o6VMYR
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」16:40 LGD vs WE LGD vs WE 官方解说
-https://tv.iill.top/Migu/awgmkq
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」18:30 辽宁vs山东赛前训练 辽宁vs山东赛前训练 哈秋
-https://tv.iill.top/Migu/Z9g8Ks
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」18:30 辽宁vs山东赛前训练 辽宁vs山东赛前训练 罗森
-https://tv.iill.top/Migu/9ybUgz
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」19:00 待定 vs UP 待定 vs UP 官方解说
-https://tv.iill.top/Migu/sFkUEq
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「国际女篮邀请赛」19:25 国际女篮邀请赛 上海浦发银行vs伏伊伏丁那021 清流播出
-https://tv.iill.top/Migu/uApqTG
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 天津先行者vs北京北汽 邵化谦 季孟年
-https://tv.iill.top/Migu/om3DGM
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 天津先行者vs北京北汽 新疆vs北控
-https://tv.iill.top/Migu/p3WumJ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:10 常规赛第46轮 天津先行者vs北京北汽 四川vs广东
-https://tv.iill.top/Migu/1zcsqO
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 天津先行者vs北京北汽 荣浩达
-https://tv.iill.top/Migu/7SFQB9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 天津先行者vs北京北汽 刘芳宇
-https://tv.iill.top/Migu/CWDYHL
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 天津先行者vs北京北汽 现场原声
-https://tv.iill.top/Migu/FbJLlG
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 四川丰谷酒业vs广东东阳光 字诚
-https://tv.iill.top/Migu/KpFfBw
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 四川丰谷酒业vs广东东阳光 翻译小余
-https://tv.iill.top/Migu/nKzqTg
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 四川丰谷酒业vs广东东阳光 现场原声
-https://tv.iill.top/Migu/mtE7un
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 山西汾酒vs南京头排苏酒 孔德昕
-https://tv.iill.top/Migu/WIWGMJ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 山西汾酒vs南京头排苏酒 石楷文
-https://tv.iill.top/Migu/AACGMm
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 山西汾酒vs南京头排苏酒 王港
-https://tv.iill.top/Migu/HefO9n
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 山西汾酒vs南京头排苏酒 现场原声
-https://tv.iill.top/Migu/EY2Rr1
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:10 常规赛第46轮 上海久事vs深圳马可波罗 李天宇 徐咏
-https://tv.iill.top/Migu/D0fLnH
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 上海久事vs深圳马可波罗 张俊卿
-https://tv.iill.top/Migu/565vPu
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 上海久事vs深圳马可波罗 李嘉伟
-https://tv.iill.top/Migu/ELULMz
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 上海久事vs深圳马可波罗 现场原声
-https://tv.iill.top/Migu/uAjT1s
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」18:45 常规赛第46轮 辽宁本钢vs山东高速 杨健 霍楠 曾令旭
-https://tv.iill.top/Migu/KY3BzA
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 辽宁本钢vs山东高速 哈秋
-https://tv.iill.top/Migu/NhYXWr
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 辽宁本钢vs山东高速 罗森
-https://tv.iill.top/Migu/5ihfn0
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 辽宁本钢vs山东高速 明星机位1
-https://tv.iill.top/Migu/9QR8V5
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 辽宁本钢vs山东高速 明星机位2
-https://tv.iill.top/Migu/EDaCfL
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 辽宁本钢vs山东高速 现场原声
-https://tv.iill.top/Migu/bhs5E9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 江苏肯帝亚vs浙江方兴渡 蔡凯臣
-https://tv.iill.top/Migu/X8aoaF
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 江苏肯帝亚vs浙江方兴渡 洪超
-https://tv.iill.top/Migu/BTfFQT
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 江苏肯帝亚vs浙江方兴渡 张浩岳
-https://tv.iill.top/Migu/5c2gvH
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 江苏肯帝亚vs浙江方兴渡 现场原声
-https://tv.iill.top/Migu/XLVDe4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 广州朗肽海本vs九台农商银行 姜帆
-https://tv.iill.top/Migu/nnwcmN
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 广州朗肽海本vs九台农商银行 张泽欣
-https://tv.iill.top/Migu/tr82T4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 广州朗肽海本vs九台农商银行 陈涛
-https://tv.iill.top/Migu/qEZ8m8
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 广州朗肽海本vs九台农商银行 现场原声
-https://tv.iill.top/Migu/t193hM
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 福建晋江文旅vs青岛国信制药 连睿
-https://tv.iill.top/Migu/Jpk4OA
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 福建晋江文旅vs青岛国信制药 洪荒
-https://tv.iill.top/Migu/rgqRwQ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 福建晋江文旅vs青岛国信制药 刘沛元
-https://tv.iill.top/Migu/jyHMNr
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 福建晋江文旅vs青岛国信制药 现场原声
-https://tv.iill.top/Migu/viEcGj
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第46轮 浙江稠州金租vs宁波町渥 吴博文
-https://tv.iill.top/Migu/THRWCc
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 浙江稠州金租vs宁波町渥 金哲豪
-https://tv.iill.top/Migu/toOfMu
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 浙江稠州金租vs宁波町渥 林国雄
-https://tv.iill.top/Migu/UjPJDI
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 浙江稠州金租vs宁波町渥 现场原声
-https://tv.iill.top/Migu/LbjwQy
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 新疆伊力特vs北京控股 盛哲
-https://tv.iill.top/Migu/e8Esv0
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 新疆伊力特vs北京控股 周赫
-https://tv.iill.top/Migu/kziLim
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第46轮 新疆伊力特vs北京控股 现场原声
-https://tv.iill.top/Migu/fZXluD
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」20:00 肖国栋PK吴宜泽 丁俊晖迎战老马 肖国栋PK吴宜泽 丁俊晖迎战老马 1号桌
-https://tv.iill.top/Migu/6jVQYh
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」20:00 肖国栋PK吴宜泽 丁俊晖迎战老马 肖国栋PK吴宜泽 丁俊晖迎战老马 2号桌
-https://tv.iill.top/Migu/GWRh1B
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:35 联赛 伯恩茅斯 vs 伊普斯维奇 涂远
+https://tv.iill.top/FB/itUM5G
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:35 联赛 纽卡斯尔联 vs 布伦特福德 刘焕
+https://tv.iill.top/FB/EgiWGu
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:35 联赛 南安普敦 vs 水晶宫 黄航
+https://tv.iill.top/FB/Pt91yd
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:35 联赛 布莱顿 vs 阿斯顿维拉 苗锟
+https://tv.iill.top/FB/vUHioo
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:30 联赛 曼城 vs 莱斯特城 刘畅 颜强
+https://tv.iill.top/FB/lPxgMx
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:45 联赛 利物浦 vs 埃弗顿 詹俊 张路 林梦鸽
+https://tv.iill.top/FB/DT5vas
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:50 联赛 利物浦 vs 埃弗顿 江忠德
+https://tv.iill.top/FB/rn67RG
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:50 联赛 利物浦 vs 埃弗顿 洪荒
+https://tv.iill.top/FB/65Pfv7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:50 联赛 利物浦 vs 埃弗顿 陈渤胄
+https://tv.iill.top/FB/bPPp16
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」02:45 联赛 利物浦 vs 埃弗顿 詹俊 张路 林梦鸽
+https://tv.iill.top/FB/xkss21
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意大利杯」02:45 半决赛 AC米兰vs国际米兰 石庆圣 李彦
+https://tv.iill.top/FB/MLzhBt
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意大利杯」02:50 半决赛 AC米兰vs国际米兰 刘腾
+https://tv.iill.top/FB/FtmtoJ
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意大利杯」02:45 半决赛 AC米兰vs国际米兰 石庆圣 李彦
+https://tv.iill.top/FB/O2nfu9
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 尼克斯VS骑士 李天宇 张兆旭
+https://tv.iill.top/NBA/ZdELgN
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 黄蜂VS步行者 王琰博
+https://tv.iill.top/NBA/VwL4NS
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 国王VS奇才 王凯
+https://tv.iill.top/NBA/yb8WgY
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 热火VS凯尔特人 蔡凯臣 刘铁
+https://tv.iill.top/NBA/LXFZzY
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 爵士VS火箭 陈鑫隆
+https://tv.iill.top/NBA/KCVThR
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:25 常规赛 老鹰VS独行侠 刘芳宇
+https://tv.iill.top/NBA/vNQket
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 马刺VS掘金 孔德昕
+https://tv.iill.top/NBA/8mAIAP
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:25 常规赛 活塞VS雷霆 罗森
+https://tv.iill.top/NBA/bGhDnu
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:15 常规赛 鹈鹕VS快船 庄宁宇 陈正昊 魏欣怡
+https://tv.iill.top/NBA/Jc16WY
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 向鹏冲八强 张本智和、伊藤美诚出战 向鹏冲八强 张本智和、伊藤美诚出战 马特
+https://tv.iill.top/Migu/XLYuxu
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:00 向鹏冲八强 张本智和、伊藤美诚出战 向鹏冲八强 张本智和、伊藤美诚出战 清流
+https://tv.iill.top/Migu/SHsp5P
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:00 向鹏冲八强 张本智和、伊藤美诚出战 向鹏冲八强 张本智和、伊藤美诚出战 英文解说
+https://tv.iill.top/Migu/TS4nf6
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」20:00 丁俊晖迎战囧哥 肖国栋PK希金斯 丁俊晖迎战囧哥 肖国栋PK希金斯 1号桌
+https://tv.iill.top/Migu/L342S7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」20:00 丁俊晖迎战囧哥 肖国栋PK希金斯 丁俊晖迎战囧哥 肖国栋PK希金斯 2号桌
+https://tv.iill.top/Migu/slk2Me
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」23:00 阿尼西莫娃、佩古拉出战 郑钦文PK梅尔滕斯 阿尼西莫娃、佩古拉出战 郑钦文PK梅尔滕斯 赛场原声
+https://tv.iill.top/Migu/M23igz
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw

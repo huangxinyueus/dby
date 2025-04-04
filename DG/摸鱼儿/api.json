@@ -65,8 +65,19 @@
             "ext": "./json/wogg.json?moyuer"
         },
         {
+            "key": "yt",
+            "name": "🌀风中知秋┃4K纯净",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2Guard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": " http://110.42.45.218:8818/api.php/app/"
+        },
+        {
             "key": "移动",
-            "name": "🍥移动急速┃4K纯净",
+            "name": "🌀移动急速┃4K纯净",
             "type": 3,
             "api": "csp_YD",
             "searchable": 1,
