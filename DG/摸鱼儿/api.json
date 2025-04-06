@@ -223,15 +223,11 @@
             "changeable": 0
         },
         {
-            "key": "JP",
+            "key": "金牌影视",
             "name": "🏅金牌┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_WebJP",
             "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKbwqPDp8Ohw6LDm8OkYcKTwp/CncKgwp/CmsKgw67CnMKgV2rCmcKaw5Xlh77phaLmj5jlkJNc5Yac5L6Q5ZGqwrTlv6roqYDotbfmu4DnrInCjcKgwp/CmsKgw57CmMKTwqLCqcOpw6fDhcOew7NaalBXw7DDqMOzw6LCsGlmV8Kt"
+            "type": 3,
+            "api": "csp_Jpys"
         },
         {
             "key": "AppGG",
@@ -602,6 +598,24 @@
             "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=55"
         },
         {
+            "key": "雨滴",
+            "name": "🌿雨滴┃蓝光┃无广",
+            "type": 3,
+            "api": "csp_Xdai",
+            "jar": "./jars/config.jar",
+            "playerType": 1,
+            "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
+        },
+        {
+            "key": "蝴蝶",
+            "name": "🦋蝴蝶┃蓝光┃纯净",
+            "type": 3,
+            "api": "csp_Hudie",
+            "jar": "./jars/config.jar",
+            "playerType": 2,
+            "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+        },
+        {
             "key": "二三",
             "name": "🍧二三┃蓝光┃纯净",
             "jar": "./jars/config.jar",
@@ -627,6 +641,13 @@
             "api": "csp_XBPQ",
             "jar": "./jars/config.jar",
             "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=面包"
+        },
+        {
+            "key": "三六零弹幕",
+            "name": "🫐三六┃蓝光┃纯净",
+            "type": 3,
+            "api": "csp_Sp360",
+            "jar": "./jars/config.jar"
         },
         {
             "key": "央视经典",

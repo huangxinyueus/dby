@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+    "wallpaper": "https://wp.upx8.com/api.php",
     "warningText": "资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "sites": [
         {
@@ -121,10 +121,26 @@
             "ext": "./js/央视大全.js"
         },
         {
-            "key": "金牌影视",
-            "name": "《金牌🔹天微》",
+            "key": "央视新闻",
+            "name": "《央视🔹新闻》",
             "type": 3,
-            "api": "csp_Jpys"
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/央视新闻.js"
+        },
+        {
+            "key": "央视综合",
+            "name": "《央视🔹综合》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/央视综合.js"
         },
         {
             "key": "热播影视",
@@ -144,6 +160,22 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "http://tt.ysdqjs.cn"
+        },
+        {
+            "key": "金牌影视",
+            "name": "《天微🔹金牌》",
+            "type": 3,
+            "api": "csp_Jpys"
+        },
+        {
+            "key": "csp_XYQHiker_农民影视",
+            "name": "《天微🔹农民》",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/农民影视.json"
         },
         {
             "key": "荐片",
@@ -325,6 +357,14 @@
             "api": "csp_Xdai",
             "playerType": 1,
             "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
+        },
+        {
+            "key": "荐片弹幕版",
+            "name": "《荐片🔹弹幕》",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "playerType": 1,
+            "ext": "http://api2.rinhome.com"
         },
         {
             "key": "玩偶哥哥",
@@ -594,20 +634,6 @@
                 "大陆综艺",
                 "港台综艺"
             ]
-        },
-        {
-            "key": "荐片弹幕版",
-            "name": "《荐片🔹弹幕》",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "changeable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            },
-            "timeout": 10
         },
         {
             "key": "米兔",
@@ -1042,13 +1068,11 @@
             "key": "88看球",
             "name": "《八八⚽球吧》",
             "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 1,
-            "changeable": 0,
+            "api": "./api/drpy2.min.js",
             "style": {
                 "type": "list"
             },
-            "timeout": 10
+            "ext": "./js/88看球.js"
         },
         {
             "key": "jrsjs",
@@ -1089,22 +1113,22 @@
             }
         },
         {
-            "key": "bili",
+            "key": "哔哩合集",
             "name": "《哔哩🅱合集》",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
-                "json": "./txt/哔哩合集.txt"
-            },
-            "timeout": 20
+                "json": "./json/哔哩合集.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            }
         },
         {
             "key": "DJ呦呦音乐网",
