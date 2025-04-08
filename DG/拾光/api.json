@@ -1978,6 +1978,7 @@
             "name": "一起｜看球",
             "type": 3,
             "api": "csp_Kanqiu",
+            "jar": "https://4708.kstore.space/jar/spider.jar",
             "searchable": 0,
             "style": {
                 "type": "list"
