@@ -141,6 +141,17 @@
             "changeable": 1
         },
         {
+            "key": "趣盘",
+            "name": "💓‍趣盘┃4K💓‍",
+            "type": 3,
+            "api": "csp_WexbdqupanGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "盘他",
             "name": "💓‍盘他┃4K💓‍",
             "type": 3,
@@ -729,6 +740,14 @@
             "name": "🎠给力┃天逸🎠",
             "type": 3,
             "api": "csp_WextysoGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "WexbaidusoGuard",
+            "name": "🎠给力┃百度🎠",
+            "type": 3,
+            "api": "csp_WexbaidusoGuard",
             "searchable": 1,
             "changeable": 0
         },

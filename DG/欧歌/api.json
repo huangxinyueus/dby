@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m//t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "【公众号欧歌APP网络收集】测试完请删除,请勿贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "【公众号欧歌APP网络收集】请勿演示贩卖,即将关闭提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "【公众号欧歌APP网络收集】测试完请删除,请勿贩卖",
+            "name": "【公众号欧歌APP网络收集】请勿演示贩卖,即将关闭",
             "type": 0,
-            "url": "./lives/【公众号欧歌APP网络收集】测试完请删除,请勿贩卖.txt",
+            "url": "./lives/【公众号欧歌APP网络收集】请勿演示贩卖,即将关闭.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -34,20 +34,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢【公众号欧歌APP网络收集】测试完请删除,请勿贩卖",
+            "name": "📢【公众号欧歌APP网络收集】请勿演示贩卖,即将关闭",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP网络收集】测试完请删除,请勿贩卖公告❤更新:4/5❤",
+            "name": "📢【公众号欧歌APP网络收集】请勿演示贩卖,即将关闭公告❤更新:4/6❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://欧歌.yy.nxog.top/公告.php?b=【公众号欧歌APP网络收集】测试完请删除,请勿贩卖"
+            "ext": "https://欧歌.yy.nxog.top/公告.php?b=【公众号欧歌APP网络收集】请勿演示贩卖,即将关闭"
         },
         {
             "key": "csp_Netfixtv",
@@ -62,11 +62,7 @@
                     "https://woog.nxog.eu.org",
                     "https://woog.xn--dkw.xn--6qq986b3xl"
                 ],
-                "url_key": "Netfixtv",
-                "threadinfo": {
-                    "chunksize": 400,
-                    "threads": 12
-                }
+                "url_key": "Netfixtv"
             }
         },
         {
@@ -86,38 +82,23 @@
             }
         },
         {
+            "key": "欧KK",
+            "name": "🐲夸快｜非会员4k",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/ogkk.json?"
+        },
+        {
             "key": "config",
-            "name": "🐲玩欧┃配置 ",
+            "name": "🐲玩欧┃配置中心",
             "type": 3,
             "jar": "./jars/config.jar",
             "api": "csp_Config",
             "searchable": 0
-        },
-        {
-            "key": "csp_woog2",
-            "name": "🐲夸快┃4K非会员",
-            "type": 3,
-            "api": "csp_woog",
-            "changeable": 0,
-            "searchable": 1,
-            "filterable": 1,
-            "jar": "./jars/csp_woog2.jar",
-            "ext": {
-                "site_urls": [
-                    "https://ogkk.nxog.eu.org",
-                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
-                ]
-            }
-        },
-        {
-            "key": "csp_欧歌123",
-            "name": "🐲夸快┃配置",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jars/csp_欧歌123.jar"
         },
         {
             "key": "配置中心",
@@ -324,43 +305,6 @@
             "ext": "http://www.czzyvideo.com"
         },
         {
-            "key": "糯米影视",
-            "name": "💡糯米┃影视",
-            "type": 3,
-            "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn"
-        },
-        {
-            "key": "热播影视",
-            "name": "💡热播｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
-        },
-        {
-            "key": "天天影视",
-            "name": "💡天天｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
-        },
-        {
-            "key": "浪酷影视",
-            "name": "💡浪酷｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
-        },
-        {
             "key": "耐看影视",
             "name": "💡耐看｜影视",
             "type": 3,
@@ -460,6 +404,50 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "糯米影视",
+            "name": "💡糯米┃影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
+            "key": "热播影视",
+            "name": "💘热播｜弹幕",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
+        },
+        {
+            "key": "天天影视",
+            "name": "💘天天｜弹幕",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
+        },
+        {
+            "key": "浪酷影视",
+            "name": "💘浪酷｜弹幕",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
+        },
+        {
+            "key": "菲儿影视",
+            "name": "💘菲菲｜弹幕",
+            "type": 3,
+            "api": "csp_AppFerr",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
         },
         {
             "key": "csp_XYQHiker_农民影视",

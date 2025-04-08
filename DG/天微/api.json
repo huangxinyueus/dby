@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "仅限个人试用测试，严谨传播贩卖，请于24小时后删除(4月3更)",
+            "name": "天微科技：仅限个人试用测试，严谨传播贩卖，请于24小时后删除",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -149,17 +149,18 @@
             "api": "csp_AppRJ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
+            "filterable": 0,
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
         },
         {
             "key": "天天影视",
-            "name": "《天天🔹弹幕》",
+            "name": "《天天🔹影视》",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://tt.ysdqjs.cn"
+            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
         },
         {
             "key": "金牌影视",
@@ -195,6 +196,13 @@
             "filterable": 1
         },
         {
+            "key": "菲儿影视",
+            "name": "《小飞🔹弹幕》",
+            "type": 3,
+            "api": "csp_AppFerr",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
+        },
+        {
             "key": "来看影视",
             "name": "《来看🔹秒播》",
             "type": 3,
@@ -220,7 +228,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://v.lkuys.cn"
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
         },
         {
             "key": "蝴蝶",
@@ -1075,21 +1083,17 @@
             "ext": "./js/88看球.js"
         },
         {
-            "key": "jrsjs",
+            "key": "Jrsjs",
             "name": "《Jrs⚽球吧》",
             "type": 3,
-            "api": "./api/drpy2.min.txt",
-            "ext": "./txt/jrs.txt",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/jrk.js",
             "style": {
                 "type": "list"
             },
             "searchable": 0,
             "quickSearch": 0,
-            "changeable": 0,
-            "timeout": 10,
-            "header": {
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-            }
+            "changeable": 0
         },
         {
             "key": "360吧",
@@ -1195,29 +1199,9 @@
     ],
     "parses": [
         {
-            "name": "解析聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
-            "name": "json并发",
-            "type": 2,
-            "url": "Parallel"
-        },
-        {
-            "name": "json轮询",
-            "type": 2,
-            "url": "Sequence"
-        },
-        {
-            "name": "量子",
-            "type": 0,
-            "url": "https://lzplayer.tv/?url="
-        },
-        {
-            "name": "播放失败换解析",
-            "type": "1",
-            "url": "http://8.155.50.80/xiaye.php?url=",
+            "name": "解析失败自己换",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/neibu.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -1245,32 +1229,8 @@
         },
         {
             "name": "解析1",
-            "type": 1,
-            "url": "http://117.50.184.199:94/api.php/?key=1&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
             "name": "解析2",
@@ -1279,16 +1239,6 @@
         },
         {
             "name": "解析3",
-            "type": 0,
-            "url": "https://www.8090g.cn/?url="
-        },
-        {
-            "name": "解析4",
-            "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url="
-        },
-        {
-            "name": "解析5",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",
             "ext": {
@@ -1318,12 +1268,12 @@
             }
         },
         {
-            "name": "解析6",
+            "name": "解析4",
             "type": 0,
             "url": "https://www.ckplayer.vip/jiexi/?url="
         },
         {
-            "name": "解析7",
+            "name": "解析5",
             "type": "1",
             "url": "http://43.248.100.147:6068/KEY/XGJ/root/key/70.php?url=",
             "ext": {
@@ -1356,7 +1306,7 @@
             }
         },
         {
-            "name": "解析8",
+            "name": "解析6",
             "type": 0,
             "url": "https://jx.quankan.app/?url=",
             "ext": {
@@ -1366,7 +1316,7 @@
             }
         },
         {
-            "name": "解析9",
+            "name": "解析7",
             "type": 0,
             "url": "https://jx.aidouer.net/?url=",
             "ext": {
