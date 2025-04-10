@@ -196,6 +196,18 @@
             "filterable": 1
         },
         {
+            "key": "浪酷影视",
+            "name": "《浪酷🔹弹幕》",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.lkuys.cn"
+            }
+        },
+        {
             "key": "菲儿影视",
             "name": "《小飞🔹弹幕》",
             "type": 3,
@@ -221,16 +233,6 @@
             "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKewpvDncOpw57Cp8OnwphXXFDCoMOnw6PDqcKhbVBXwovlh77phZvmkJ/lkZzCpuWGn+S9h+WQp2rlv6roqLnotr7mvInnrZPCkFdcUMKgw5fDn8Ocw6zCrMKgwqR7w57DrMKhwrPCmlrCp8KlwqnDosKpwrDCr8KhwrA="
         },
         {
-            "key": "浪酷影视",
-            "name": "《浪酷🔹秒播》",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
-        },
-        {
             "key": "蝴蝶",
             "name": "《蝴蝶🔹秒播》",
             "type": 3,
@@ -239,12 +241,20 @@
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
         },
         {
-            "key": "主角",
-            "name": "《主角🔹秒播》",
+            "key": "雨滴",
+            "name": "《雨滴🔹秒播》",
             "type": 3,
             "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "caHR0cHM6Ly9kdHltLnpqeXkuY2MvZ2ctZ2V0YXBwL2dldC1nZy50eHR8UE1LYVprQXY0UXA1M0VXbnxQTUthWmtBdjRRcDUzRVdufDQyNQ=="
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
+        },
+        {
+            "key": "人人",
+            "name": "《人人🔹秒播》",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly9zdmlwMS5mdW58bGFvZGllc2Rhd3Nzd2FzZHxsYW9kaWVzZGF3c3N3YXNkfDI5OGU1ZmUyOWM3NGIzNWFhYmI5ODM2ZWUyZjZmNDQ5ZnwxMDU="
         },
         {
             "key": "量子",
@@ -290,6 +300,13 @@
             "ext": "https://www.wwgz.cn"
         },
         {
+            "key": "步步",
+            "name": "《步步🔹影院》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/ceshi.js"
+        },
+        {
             "key": "腾讯弹幕",
             "name": "《腾翼🔹天翔》",
             "type": 3,
@@ -318,6 +335,12 @@
             "ext": "./js/爱奇艺弹幕.js"
         },
         {
+            "key": "三六零",
+            "name": "《三六🔹秒播》",
+            "type": 3,
+            "api": "csp_SP360"
+        },
+        {
             "key": "追剧弹幕",
             "name": "《追剧🔹弹幕》",
             "type": 3,
@@ -331,13 +354,6 @@
             "api": "csp_SaoHuo",
             "playerType": 2,
             "ext": "https://shdy5.us"
-        },
-        {
-            "key": "剧圈圈",
-            "name": "《剧圈🔹影院》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/剧圈圈.js"
         },
         {
             "key": "电影",
@@ -461,21 +477,6 @@
             "ext": "./json/bj.json?"
         },
         {
-            "key": "概念",
-            "name": "《天翼💿弹幕4K》",
-            "type": 3,
-            "api": "csp_PanWebShareCloudHM",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "./json/hm.json?"
-        },
-        {
             "key": "Pan1",
             "name": "《123💿网盘4K》",
             "type": 3,
@@ -491,24 +492,6 @@
             "ext": "./json/pan1.json?"
         },
         {
-            "key": "雷鲸",
-            "name": "《天翼💿网盘4K》",
-            "type": 3,
-            "api": "csp_Wexleijing",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
-        },
-        {
-            "key": "盘他",
-            "name": "《移动💿网盘4K》",
-            "type": 3,
-            "api": "csp_WexYDpanta",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
-        },
-        {
             "key": "趣盘",
             "name": "《佰度💿网盘4K》",
             "type": 3,
@@ -520,7 +503,33 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKhwqXDqcOUw6jDrMOiwphewpPCn8OmwprCpsKZwqHCp8KZwqBXwrPCk8Khw5Tlh7/phJvmj5XlkJNc5Yel5L6K5ZGxwrPlv6vop7notbTmu4DnrInDlsKawqbCmcKhwpfClcKTwqLDssOjw67DhMOfwqxXalDCoMOqw6/DssOjaWZmV8O2"
+            "ext": {
+                "url": "https://www.qupanshe.com"
+            }
+        },
+        {
+            "key": "雷鲸",
+            "name": "《天翼💿网盘4K》",
+            "type": 3,
+            "api": "csp_PanWebShareCloudLJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/lj.json?"
+        },
+        {
+            "key": "盘他",
+            "name": "《移动💿网盘4K》",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "http://127.0.0.1:9978/file/TVBoxOSC/本地仓/wex.jar"
         },
         {
             "key": "快看",
@@ -576,6 +585,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
+        },
+        {
+            "key": "剧圈圈",
+            "name": "《剧圈🔹影院》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/剧圈圈.js"
         },
         {
             "key": "嫖嫖嫖",

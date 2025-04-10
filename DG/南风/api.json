@@ -51,7 +51,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://www.czzyvideo.com"
+            "ext": "https://www.czzymovie.com/"
         },
         {
             "key": "csp_LiteApple",
@@ -346,7 +346,7 @@
             "api": "csp_Living",
             "searchable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9966/api/proxy/https://lemonlive.pages.dev"
+            "ext": "http://127.0.0.1:9966/api/proxy/https://lemonlive25.pages.dev"
         },
         {
             "key": "csp_AppXY",
@@ -635,6 +635,7 @@
                 "ratio": 1.433
             },
             "ext": {
+                "commonConfig": "./json/peizhi.json",
                 "json": "./json/youtube.json",
                 "cookie": "./json/youtubecookie.json"
             }

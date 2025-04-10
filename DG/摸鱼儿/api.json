@@ -34,9 +34,8 @@
             "quickSearch": 0,
             "style": {
                 "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "./json/moyuer.json?moyuer"
+                "ratio": 1.610
+            }
         },
         {
             "key": "玩偶",
@@ -62,18 +61,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/wogg.json?moyuer"
-        },
-        {
-            "key": "yt",
-            "name": "🌀风中知秋┃4K纯净",
-            "playerType": 1,
-            "type": 3,
-            "api": "csp_AppYsV2Guard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": " http://110.42.45.218:8818/api.php/app/"
+            "ext": "./json/wogg.json?"
         },
         {
             "key": "移动",
@@ -92,7 +80,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/mogg.json?moyuer"
+            "ext": "./json/mogg.json?"
         },
         {
             "key": "UcXmV2",
@@ -104,7 +92,7 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/xm.json?moyuer"
+            "ext": "./json/xm.json?"
         },
         {
             "key": "QuarkLaBiV2",
@@ -116,7 +104,7 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/lb.json?moyuer"
+            "ext": "./json/lb.json?"
         },
         {
             "key": "QuarkzzV2",
@@ -128,7 +116,7 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/zz.json?moyuer"
+            "ext": "./json/zz.json?"
         },
         {
             "key": "YYDSYS",
@@ -140,7 +128,7 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/yyds.json?moyuer"
+            "ext": "./json/yyds.json?"
         },
         {
             "key": "QuarkTZ",
@@ -165,7 +153,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "./json/lj.json?moyuer"
+            "ext": "./json/lj.json?"
         },
         {
             "key": "cloudHM",
@@ -180,7 +168,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "./json/hm.json?moyuer"
+            "ext": "./json/hm.json?"
         },
         {
             "key": "pan1",
@@ -195,22 +183,24 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "./json/pan1.json?moyuer"
+            "ext": "./json/pan1.json?"
         },
         {
-            "key": "baidu_qu",
+            "key": "趣盘",
             "name": "🥳百度趣盘┃4K纯净",
             "type": 3,
             "api": "csp_PanWebQu",
             "jar": "./jars/config.jar",
             "searchable": 1,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "style": {
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKhwqXDqcOUw6jDrMOiwphewpPCn8OmwprCpsKZwqHCp8KZwqBXwrPCk8Khw5Tlh7/phJvmj5XlkJNc5Yel5L6K5ZGxwrPlv6vop7notbTmu4DnrInDlsKawqbCmcKhwpfClcKTwqLDssOjw67DhMOfwqxXalDCoMOqw6/DssOjaWZmV8O2"
+            "ext": {
+                "url": "https://www.qupanshe.com"
+            }
         },
         {
             "key": "alllive",
@@ -364,7 +354,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuSzrWqbloq80ygmO9WjCB9RMwhf/nZ7r/EzcL5d1Nw67mKKK4Je"
+            "ext": "rfOX1voDIQhH8epBwtCFsq+8syyZ18T30GkibomjS1xHcE9fpWU7oKJ1cO9K0M5hrnOHZ9dKjiJz5HEyTr57RZHCqunfFT7jH/mEy+uqVyo="
         },
         {
             "key": "兄弟",
@@ -374,17 +364,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprG9un3+SPP18283TImLpLgExtYZQQN4zdk5+Noc/Eej5B9p2CFZsBC2H4u6nl5FPAqUtc="
-        },
-        {
-            "key": "火星",
-            "name": "🌞火星┃多线┃纯净",
-            "type": 3,
-            "api": "csp_AppSxGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuSlujLK3srq3iIoaYP8Hh5fZE0d4nF48/dsb7YNi44z/yjNcsFajjBz6XJtDuw2FdqR/a6UV3ywWevO"
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+SLP183q3ik3cJDiAwlFdF8L6SIvrvc9LrpTyIg76T7QJZdEkWNj43wiSaA0TJyQpu2IF2jsSLWFx7WkAmG40hFxJ1tI+Jf+EVG8DtoDRcNi+TtVGULnWrSz3EWnVcxR3EJhXnrwYWe1kJtNW5txuHAO"
         },
         {
             "key": "白白",
@@ -447,7 +427,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+            "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA=="
         },
         {
             "key": "欢视",
@@ -458,7 +438,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+            "ext": "uqGL1bNENExT9fFAy5mE5qU="
         },
         {
             "key": "热播",
@@ -469,17 +449,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-        },
-        {
-            "key": "可可",
-            "name": "👻可可┃多线┃纯净",
-            "type": 3,
-            "api": "csp_Kekys",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
+            "ext": "uqGL1bNENExT7/hGxpSE5qU="
         },
         {
             "key": "zxzj",
@@ -526,16 +496,6 @@
             "ext": "https://www.czzyvideo.com/"
         },
         {
-            "key": "木星",
-            "name": "🌞木星┃多线┃纯净",
-            "type": 3,
-            "api": "csp_AppSxGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
-        },
-        {
             "key": "原创",
             "name": "☀原创┃不卡┃纯净",
             "type": 3,
@@ -564,7 +524,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://auete.pro/"
+            "ext": "https://auete.com/"
         },
         {
             "key": "新6V",
@@ -575,6 +535,45 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "https://www.xb6v.com/"
+        },
+        {
+            "key": "热播影视",
+            "name": "📺热播┃多线┃弹幕",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "jar": "./jars/config.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.rbotv.cn"
+            }
+        },
+        {
+            "key": "天天影视",
+            "name": "⛅️天天┃蓝光┃弹幕",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "jar": "./jars/config.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://tt.ysdqjs.cn"
+            }
+        },
+        {
+            "key": "浪酷影视",
+            "name": "😎浪酷┃蓝光┃弹幕",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "jar": "./jars/config.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.lkuys.cn"
+            }
         },
         {
             "key": "酷影视",
@@ -794,7 +793,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "./json/bili.json?moyuer"
+            "ext": "./json/bili.json?"
         },
         {
             "key": "huya",
@@ -981,7 +980,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/aliyunpansearch.json?moyuer"
+            "ext": "./json/aliyunpansearch.json?"
         },
         {
             "key": "UCsousou",

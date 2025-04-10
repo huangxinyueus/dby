@@ -194,6 +194,15 @@
             "filterable": 1
         },
         {
+            "key": "csp_LiteApple",
+            "name": "🐞小苹果影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1
+        },
+        {
             "key": "csp_Bdys",
             "name": "🐞哔嘀影视",
             "type": 3,
@@ -374,6 +383,16 @@
             "ext": "./json/播视童趣.json"
         },
         {
+            "key": "csp_XYQHiker_风车动漫",
+            "name": "🌪风车动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/风车动漫.json"
+        },
+        {
             "key": "csp_XYQHiker_樱花动漫",
             "name": "🌸樱花动漫(XYQH)",
             "type": 3,
@@ -493,6 +512,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/看一看影视.json"
+        },
+        {
+            "key": "csp_XYQHiker_瓜子影院",
+            "name": "瓜子影院(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/瓜子影视.json"
         },
         {
             "key": "csp_XYQHiker_八号影视",
