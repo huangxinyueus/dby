@@ -1,0 +1,14 @@
+ {
+		"站名":"火鸟影视",
+		"主页url": "https://www.isantai.com",
+		"请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+		"分类url":"/stshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;k",
+		"数组": "col-lg-* col-md-* col-sm-* col-xs&&</li>",
+		"链接": "href=\"&&\"",
+		"标题": "title=\"&&\"",
+		"图片": "data-original=\"&&\"",
+		"副标题": "pic-text text-right\">&&</span>",
+		"分类": "电影&电视剧&综艺&动漫",
+		"分类值": "dianying&lianxuju&zongyi&dongman",
+		"类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#纪录片$jilupian#其它片$qitapian||国产剧$guocanju#港台剧$gangtaiju#欧美剧$oumeiju#韩国剧$taiguoju#日本剧$ribenju#泰国剧$taiguoju#其它剧$haiwaiju||大陆综艺$daluzhongyi#日韩综艺$rihangzongyi#港台综艺$gangtaizongyi#欧美综艺$oumeizongyi||国产动漫$guochendongman#日韩动漫$rihandongman#欧美动漫$oumeidongman"
+	}

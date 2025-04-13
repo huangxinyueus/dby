@@ -1,0 +1,19 @@
+{
+	"主页url": "https://cddys1.me",
+	"请求头": "User-Agent$Mozilla/5.0 (Android 9; Mobile; rv:127.0) Gecko/127.0 Firefox/127.0",
+	"数组": "<a&&module-poster-item-title",
+	"副标题": "module-item-note\"&&</div>",
+	"图片": "data-original=\"&&\"",
+	"标题": "title=\"&&\"",
+	"链接": "href=\"&&\"",
+	"线路数组": "class=\"module-tab-item tab-item&&/div>",
+	"线路标题": "💢简影👉+<span>&&</span>+[共+<small>&&</small>+集]",
+	"播放数组": "module-play-list-content&&</div></div>",
+	"播放列表": "<a&&/a>",
+	"播放标题": "<span>&&</span>",
+	"播放链接": "href=\"&&\"",
+	"跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+	"分类url": "/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+	"分类": "电影&电视剧&动漫&综艺",
+	"分类值": "1&2&4&3"
+}

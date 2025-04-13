@@ -1,0 +1,25 @@
+{
+	"主页url": "https://www.ths864.com",
+	"请求头": "User-Agent$Mozilla/5.0 (Linux; Android 8.1.0; Pixel C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/62.3.3146.57763",
+	"数组": "class=\"module-item\"&&class=\"module-item\"",
+	"标题": "alt=\"&&\"",
+	"图片": "data-src=\"&&\"",
+	"副标题": "module-item-text\"&&</div>",
+	"链接": "href=\"&&\"",
+	"搜索url": "/wbso.html?wd={wd}",
+	"搜索数组": "<div class=\"module-search-item\"&&video-info-footer",
+	"搜索标题": "title=\"&&\"",
+	"搜索图片": "data-src=\"&&\"",
+	"搜索副标题": "video-info-header\"&&</a",
+	"搜索链接": "href=\"&&\"",
+	"简介": "video-info-item video-info-content*\"&&。关于本剧更多信息请通过",
+	"线路数组": "class=\"module-tab-item tab-item&&/div>",
+	"线路标题": "💢简影👉+<span>&&</span>+[共+<small>&&</small>+集]",
+	"播放数组": "class=\"scroll-content\"&&</div></div>",
+	"播放列表": "<a&&</a>",
+	"播放标题": ">&&</a>",
+	"播放链接": "href=\"&&\"",
+	"分类url": "/wbt/{cateId}.html",///wbs/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html
+	"分类": "电影$WbMovie#电视剧$WbTv#综艺$WbVariety#动漫$WbCartoon#纪录片$Wbdocumentary",
+	"剧情": "[替换:伦理>>空]"
+}

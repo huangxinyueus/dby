@@ -1,0 +1,13 @@
+﻿{
+				"主页url": "https://www.188mv.com",
+				"请求头": "user-agent$Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9",
+				"标题": "itle=\"&&\"",
+				"副标题": "class=\"module-item-text\">&&</",
+				"图片": "data-original=\"&&\"",
+				"简介": "video-info-item video-info-content vod_content\"&&<",
+				"搜索url": "/vodsearch/-------------.html?wd={wd}",
+				"分类url": "/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$39",				
+				"剧情": "[替换:伦理>>空]",
+				"类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12||国产剧$13#香港剧$14#韩国剧$15#欧美剧$16#日本剧$21#台湾剧$20#泰国剧$23#海外剧$22||大陆综艺$24#港台综艺$25#日韩综艺$26#欧美综艺$27||国产动漫$28#日韩动漫$29#欧美动漫$30#港台动漫$31#海外动漫$32||空"
+			}
