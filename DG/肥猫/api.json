@@ -1,3 +1,5 @@
+//资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
+
 {
     "spider": "./spider.jar",
     "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
@@ -145,10 +147,10 @@
             "ext": "https://www.wwgz.cn"
         },
         {
-            "key": "csp_Apphip",
-            "name": "🌼┃️嗨皮┃影视",
+            "key": "csp_KmeiJu",
+            "name": "🍐┃鸭梨┃影视",
             "type": 3,
-            "api": "csp_Apphip"
+            "api": "csp_KmeiJu"
         },
         {
             "key": "csp_Siren",
@@ -174,6 +176,12 @@
             "type": 3,
             "api": "csp_Qiyou",
             "ext": "http://www.dyxz2.com/"
+        },
+        {
+            "key": "csp_Apphip",
+            "name": "🌼┃️嗨皮┃影视",
+            "type": 3,
+            "api": "csp_Apphip"
         },
         {
             "key": "荐片",

@@ -1,3 +1,5 @@
+//资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
+
 {
     "spider": "./spider.jar",
     "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
@@ -24,7 +26,7 @@
         },
         {
             "key": "config",
-            "name": "🚀辅助┃配置┃网盘",
+            "name": "🚀辅助┃配置┃中心",
             "type": 3,
             "api": "csp_Config",
             "jar": "./jars/config.jar",
@@ -218,38 +220,6 @@
             "api": "csp_Jpys"
         },
         {
-            "key": "AppGG",
-            "name": "🌙柳月┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_AppGetApp",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDjMOcw67DnsOPwqXCnFdqwpnCmsOiw63DrsKjal9fwqrCpMKrwqfCq2tgXmHCssKrwqjCrcKqbWFhYcKpwqLDm8Opw6NhwqDCmMKgwqDCn8KawqDDg8KhwpnCpMKHw6jDpcOewqDCtFNXwpnCnsOiw6fDkMKqwqtsV1xQwqDDp8Ojw6nCoW1QV8KL5Ye+6YWb5pCf5ZGcwqblhp/kvYflkKdq5b+q6Ki56La+5ryJ562TwpBXXFDCoMK0w5/DrMOFwpjCqVdqwpnCmsObw6zDocKWwqjCmMKaw6TDp8OtwqrCrGdlZ2PCoMKfwprCoMK7wpjCo3nCpsKgwq3CmsKgw5vCpsKXwpPCqMOhw53DpcOtw61kYmRlwrDCpsKhwqXCmlrCmMKVwpHDncOYw6zDrMKhbVDCq1fDrsOmw5/Dq8KnwpTCl8KVwp7DrcKawrTCmcKhwoDCn8KqwpnDpcOfw5vCqMKvYWBQWMOQw5zDqMOdw6nCqsKjUH7DjcKTwqvCqcKoY2tQwofDosOhwrDCrcK1U8KoZmTCosKTwrvDqcOqwp/ClcKHwpXDm8K+w6PDrcKpaGNnXsKswqnCmsKhw4V7woR9fMKlwpPDpsOiw6XCmFB3wpXDnMOew6nCosKadsKYwqLCn8Omw5jCqcKqwqtlXmBewqnCocKqwpnDjcKUwpbCkcKiw6LCosKvwqzCsWFjZlfCpcKTwqHDmsOmwp/Cn8Knc8Orw6LDrcOsw4rCpcKfwqTCn8Ocw6LDpsOLw5/Cl8KZwqLClcOcw6fDrcKgwrRTwoTCosKlw57DsMKmwpnCoXXCkcKewpvDh8OUw7DCoMK0U1fnnKTmk53CoMKfwprCoMOewpjCk8KiwqnDqcOnw4XDnsOzWmpQV8Oww6jDs8OiwrBpZlfCrQ=="
-        },
-        {
-            "key": "nm",
-            "name": "🌼农民┃蓝光┃纯净",
-            "type": 3,
-            "api": "csp_WebNM",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKawqpewpPDp8KawqbCmcKhwqfCmcKgV8KzwpPCocOU5Ye/6YSb5o+V5ZCTXOWHpeS+iuWRscKz5b+r6Ke56LW05ruA56yJw5bCmsKmwpnCocKXwpXCk8Kiw7LDo8Ouw4TDn8KsV2pQwqDDqsOvw7LDo2lmZlfDtg=="
-        },
-        {
-            "key": "rbj",
-            "name": "🔥热剧┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
             "key": "nk",
             "name": "🫣耐看┃蓝光┃无广",
             "type": 3,
@@ -260,27 +230,6 @@
             "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKewpvDncOpw57Cp8OnwphXXFDCoMOnw6PDqcKhbVBXwovlh77phZvmkJ/lkZzCpuWGn+S9h+WQp2rlv6roqLnotr7mvInnrZPCkFdcUMKgw5fDn8Ocw6zCrMKgwqR7w57DrMKhwrPCmlrCp8KlwqnDosKpwrDCr8KhwrA="
         },
         {
-            "key": "lk",
-            "name": "🫣来看┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_WebLK",
-            "jar": "./jars/config.jar",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw6XDpcKpwp/ClF7DpsOYwqHCpcKaWsKkwpnCoMKgwq3CmsKgw5XlhrjphJjmj5XlkJPCpeWHn+S+keWRsMK05b6k6Ke26LW05ruA562Sw5DCocKlwppawpTClcKTw6vDrMOqw63DhcKYwqlXasKZwprDscOuw7PCnGZmZsKgw7A="
-        },
-        {
-            "key": "AppHD",
-            "name": "🤞一起┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_AppFree4K",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw5rDqsKjwpPCncKjwqfDmcOsw57Dn8KbwpRewqbDosOjwqHCpcKaWnvClcKpwqDCrcKawqDDnMKYZWNkwrHDl8Ogw5vCqsKWY8KTYsKxwqbCocKlwppaecKmV8KzwpPCocKuw6BoZGRpw53Dl8Krwq3CrWRjYmHCsMKawqbCmcKhdcKRwp7Cm8OHw5TDsMKgwrRTV+ecpOaTncKgwp/CmsKgw4rClMKiwqPClcOOw6XDpsKgwrRTV8KYwqTDrcOjw63Cs8KpYsKRwqDCoMOvwqTCqMOfw6zCmMKVwpjClMKnw6nDo8OpwqnCncKjwp/CnsKnw6PDosOpwrnCqMKiwpxtwqDCn8KawqDCvsKUwp59wqXDjsOlw6bCoMK0U1fCmMKkw63Do8OtwrPCqWLClMKdXsOvw5zDnsOzwqjClMKjwpnCkcKow5fDp8Okw69ib8KRwpPCtsOXw6fCn8OuwqLCm8KVwp7CtsOEw4PDhcK8dnh6dsOMwr/DkcOPw4B4e8KCVsOuw6XDpsK2wqFfUFfClMOew5bDrMOyw6rCp3vClcKpwqDCrcKawqDDscKowqnCmWbCr8KpwqHDtg=="
-        },
-        {
             "key": "guazi",
             "name": "🍉瓜子┃网页┃无广",
             "type": 3,
@@ -289,40 +238,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        },
-        {
-            "key": "Appyouyou",
-            "name": "☁️悠悠┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_AppGetApp",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDgsOhw6PDrcORwqLCosKUV8KzwpPCocOiw6jCnMKkwoZhwqrCrMKhwqXCmlrCpMKZwqDCoMKtwprCoMOV5Ya46YSY5o+V5ZCTwqXlh5/kvpHlkbDCtOW+pOintui1tOa7gOetksOQwqHCpcKaWnHClcKjw4TDmMOzwqDCtFNXdMKow7DCvMOtw63DrMKXwofCksKJw6nDlcOmw7DDqFpcUFfCusOYw63DgsOwWmpQV8K9w6vDscOCw63Cp8KiwpTCh8Obw4zDqsObw6bCqsKeV1zCmcKaw43DosOuwpjChcKiwpzCoMKtwprCoMOiwqfCpMKgasKowqLCq8KuwrBhYmJlwqfCpsKqwqfCsGhqZWXCr8KpwqnDmsOqwpxewqDCmMOpwprCpsKZwqF1wpHCnsKbw4fDlMOwwqDCtFNX55yk5pOdwqDCn8KawqDDnsKYwpPCosKpw6nDp8OFw57Ds1pqUFfDsMOow7PDosKwaWZXwq0="
-        },
-        {
-            "key": "AppYunD",
-            "name": "📻️云播┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_AppGetApp",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCocKbwqTCpMKgw6zCrcKpwqjDs8KXwqnCo8KUw7LDocObw6bDo8KWwpTCn8Kdw5rDnMOow6fDm8KgwpVeZsKxwqHDocOywrRkYGZnwrHCosOdwrLDp2XCmsKjYsKywqvDssKxwqzCm2ZfwpzCssOgwrLDm8OyZWPCmmLDqMKlw6rCssOrYsKUwqnCnsOaw6DDo8Ocw57CosKdwpHCmcOnw6HDm8Omw59hwqTCqMKkwqDCn8KawqDDjcKcwqTClcKFw6vDn8KhwrPCmlpXXFDCoMK8w6jDosOuworCn8KiwpTCoMKtwprCoMOjwqHCmcKkwobCqsKkwrPCoMKmU1fCpMKZw6nCmsK0wpnCocKO5Ya16YSY5o+V5ZGcwp/lh6bkvpDlkbFt5b6h6Ke26LW05ryJ562Mw5fCoMKmU1dxwpXDrMK+w5/DssKhbVBXwpvCssOiwq3DqcKswpZowpJnw6bCpsO0wqnDqWtXXFDCoMK0w5/DrMODwqlXalDCoMOewrPDqMKtwqNiwpNow5vCqsOnwqzDtGPCn2hXwqXCk8Khw53Dn8KWwqLCqcKgw63CvsOfw7LCoW1QV8Knw67DrMOjwq/CsGlXwq0="
-        },
-        {
-            "key": "cz",
-            "name": "🏭️厂长┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_WebCzApp",
-            "jar": "./jars/config.jar",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 30,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDscKqwqdewpPDs8KjwqvCp8OwwpzCoFdcwpnCmsONw57Dm8KlwpPCmMKFw6vDn8KhwrPCmlrCmMKkwqTDqcOmwrTCqMKpwpbCqsKqwqnCp8Onw6nDqcKpwpfCkcKfwqnDqMOhw6HDo8OjwpjCm8KfwqPDocOcw5zDrsOtwpvCmcKpwp/DrsOVw6PDp8OhWlxQV8OMw5zDrsOew4/CpcKccsKRw6TCmsK0wpnCocKbwqTCpMKgw6zCrcKpwqjDscKqwqdewpPDs8Otw7PDr8OjwpfClcKfXsOcw6LDp8KgwqZTV8KkwpnDqcKawrTCmcKhwo7lhrXphJjmj5XlkZzCn+WHpuS+kOWRsW3lvqHop7botbTmvInnrYzDl8KgwqZTV8KUwpXDnMOlw7PDqcOufsKVwqlXwrPCk8Khw7DDr8KswplmZsKvwprDtw=="
         },
         {
             "key": "贱贱",

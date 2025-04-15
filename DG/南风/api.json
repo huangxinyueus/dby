@@ -1,3 +1,5 @@
+//资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
+
 {
     "spider": "./spider.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
@@ -338,15 +340,6 @@
             "filterable": 1
         },
         {
-            "key": "游戏直播",
-            "name": "🙀游戏直播",
-            "type": 3,
-            "api": "csp_Living",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9966/api/proxy/https://lemonlive25.pages.dev"
-        },
-        {
             "key": "csp_AppXY",
             "name": "🎀️星牙短剧",
             "type": 3,
@@ -487,6 +480,32 @@
             }
         },
         {
+            "key": "清影",
+            "name": "🥛清影",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "https://revohd.com/",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "大玩偶",
+            "name": "🐼大玩偶",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "http://149.88.87.18:6688/",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
             "key": "多多",
             "name": "🌟多多",
             "type": 3,
@@ -500,6 +519,30 @@
             }
         },
         {
+            "key": "星剧社",
+            "name": "⭐️星剧社",
+            "type": 3,
+            "api": "csp_Star2",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "siteUrl": "https://star.banye.tech:7086/",
+                "commonConfig": "./json/peizhi.json"
+            }
+        },
+        {
+            "key": "csp_PanSearch",
+            "name": "📀盘搜索",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json"
+            }
+        },
+        {
             "key": "木偶",
             "name": "🧸木偶",
             "type": 3,
@@ -508,7 +551,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "https://mo.666291.xyz/",
+                "siteUrl": "http://123.666291.xyz//",
                 "filter": "./json/wogg.json"
             }
         },
@@ -548,30 +591,6 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://www.91panta.cn/",
-                "commonConfig": "./json/peizhi.json"
-            }
-        },
-        {
-            "key": "星剧社",
-            "name": "⭐️星剧社",
-            "type": 3,
-            "api": "csp_Star",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "siteUrl": "https://star.banye.tech:7086/",
-                "commonConfig": "./json/peizhi.json"
-            }
-        },
-        {
-            "key": "csp_PanSearch",
-            "name": "📀盘搜索",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
                 "commonConfig": "./json/peizhi.json"
             }
         },
@@ -648,7 +667,7 @@
             "ext": {
                 "siteUrl": "http://127.0.0.1:9999",
                 "count": 4,
-                "channelUsername": "xx123pan,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
+                "channelUsername": "xx123pan,Q66Share,bdwpzhpd,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
                 "commonConfig": "./json/peizhi.json",
                 "filter": "./json/douban.json"
             }
@@ -663,7 +682,7 @@
             "switchable": 0,
             "ext": {
                 "count": 4,
-                "channelUsername": "xx123pan,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
+                "channelUsername": "xx123pan,Q66Share,bdwpzhpd,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
                 "commonConfig": "./json/peizhi.json"
             }
         },
@@ -677,6 +696,15 @@
             "ext": {
                 "commonConfig": "./json/peizhi.json"
             }
+        },
+        {
+            "key": "游戏直播",
+            "name": "🙀游戏直播",
+            "type": 3,
+            "api": "csp_Living",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "https://lemonlive25.pages.dev"
         },
         {
             "key": "虎牙",
@@ -709,6 +737,16 @@
             "changeable": 0
         },
         {
+            "key": "JRKAN直播",
+            "name": "🏀JRKAN直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./js/JRKAN直播.js"
+        },
+        {
             "key": "有声小说吧",
             "name": "📚有声小说吧",
             "type": 3,
@@ -718,16 +756,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./js/有声小说吧.js"
-        },
-        {
-            "key": "JRKAN直播",
-            "name": "🏀JRKAN直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/JRKAN直播.js"
         },
         {
             "key": "酷奇MV",
