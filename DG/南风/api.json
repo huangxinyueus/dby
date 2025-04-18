@@ -215,7 +215,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.momp4.cc"
+            "ext": "https://www.xlmp4.com"
         },
         {
             "key": "csp_New6v",
@@ -552,19 +552,6 @@
             "ext": {
                 "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://123.666291.xyz//",
-                "filter": "./json/wogg.json"
-            }
-        },
-        {
-            "key": "MIUC",
-            "name": "💌MIUC",
-            "type": 3,
-            "api": "csp_kongbai",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "./json/peizhi.json",
-                "siteUrl": "https://mucpan.cc/",
                 "filter": "./json/wogg.json"
             }
         },

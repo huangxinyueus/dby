@@ -1,8 +1,8 @@
 //资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
 
-{
+
     "spider": "./spider.jar",
-    "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+    "wallpaper": "https://t.alcy.cc/fj",
     "sites": [
         {
             "key": "豆豆",
@@ -249,7 +249,7 @@
             "type": 3,
             "quickSearch": 1,
             "changeable": "0",
-            "api": "csp_MiSouGuard",
+            "api": "csp_XiaoYiGuard",
             "ext": ""
         },
         {
@@ -292,9 +292,24 @@
             "url": "影视"
         },
         {
-            "name": "自用",
+            "name": "巧技三",
             "type": 1,
-            "url": ""
+            "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+            "ext": {
+                "flag": [
+                    "QD4K",
+                    "iyf",
+                    "duanju",
+                    "gzcj",
+                    "GTV",
+                    "GZYS",
+                    "weggz",
+                    "Ace"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
         },
         {
             "name": "8090g",
