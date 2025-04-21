@@ -34,7 +34,7 @@
             "quickSearch": 0,
             "style": {
                 "type": "rect",
-                "ratio": 1.610
+                "ratio": 1.61
             }
         },
         {
@@ -84,7 +84,7 @@
         },
         {
             "key": "UcXmV2",
-            "name": "🍚小米资源┃4K弹幕",
+            "name": "🐂小二资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
             "jar": "./jars/config.jar",
@@ -92,7 +92,7 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/xm.json?"
+            "ext": "./json/ex.json?"
         },
         {
             "key": "QuarkLaBiV2",
@@ -174,7 +174,7 @@
             "key": "pan1",
             "name": "🧊Pan1网盘┃4K弹幕",
             "type": 3,
-            "api": "csp_PanWebShareCloudHM",
+            "api": "csp_PanWebShareCloud123",
             "jar": "./jars/config.jar",
             "searchable": 1,
             "filterable": 0,
@@ -215,9 +215,30 @@
         {
             "key": "金牌影视",
             "name": "🏅金牌┃蓝光┃无广",
+            "type": 3,
+            "api": "./api/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
+            "key": "菲儿影视",
+            "name": "🥪菲菲┃蓝光┃无广",
             "jar": "./jars/config.jar",
             "type": 3,
-            "api": "csp_Jpys"
+            "api": "csp_AppFerr",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
+        },
+        {
+            "key": "4Kdy",
+            "name": "🕊️凝安┃蓝光┃无广",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://我不是.摸鱼儿.xyz/api/moyu.php?file=4kdy"
         },
         {
             "key": "nk",
@@ -401,12 +422,11 @@
             "name": "📔厂长┃不卡┃纯净",
             "type": 3,
             "api": "csp_NewCzGuard",
-            "timeout": 15,
+            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzyvideo.com/"
+            "changeable": 1
         },
         {
             "key": "原创",
@@ -641,15 +661,26 @@
             "filterable": 0
         },
         {
-            "key": "hmdj",
+            "key": "河马短剧",
             "name": "🦛河马┃短剧┃热推",
             "type": 3,
-            "api": "csp_AppHMDJ",
-            "jar": "./jars/config.jar",
+            "api": "./api/河马短剧.py",
             "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw53Dr8KUwp7CmsKlw63Dp8Kow63DsFpcUFfDrcOcw6rCoMK0U1fCi+WGtemFoeaQmOWRncKl5Yem5L2K5ZCnauW+oeiov+i2t+a8iuetksOXWlxQV8Odw5jDncOrw7PCo8Kke8KVw7LCmsK0wpnCocKqwqXCqcKZwq/CqcKwwqDDtw=="
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "偷乐短剧",
+            "name": "🤣偷乐┃短剧┃热推",
+            "type": 3,
+            "api": "./api/偷乐短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
         },
         {
             "key": "去看吧",
@@ -693,67 +724,51 @@
             "ext": "w7TCmsK/w7HDrsKIwqLCnFfCs8KTwqHDocOuwqfCoGpfwqjCp8KxwqfCs2ZeYmHCrsKhwqvCrsKrYsKjwqPCpsOiw6PCqcOjw63CosKeX8Kow6LDmsOvw5rDkGVewprCo8Oow6HCocKlwppawqTCmcKgwqDCrcKawqDDleWGuOmEmOaPleWQk8Kl5Yef5L6R5ZGwwrTlvqTop7botbTmu4DnrZLDkMKhwqXCmlrClMKVwpPDq8Osw6rDrcOFwpjCqVdqwpnCmsOxw67Ds8KcZmZmwqDDsA=="
         },
         {
-            "key": "bili",
-            "name": "🩷哔哩┃娱乐┃蓝光",
-            "type": 3,
-            "api": "csp_AmuBiliV2",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "./json/bili.json?"
-        },
-        {
-            "key": "huya",
+            "key": "虎牙直播js",
             "name": "🐯虎牙┃娱乐┃蓝光",
             "type": 3,
-            "api": "csp_AmuHuYa",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
+            "api": "./api/drpy2.js",
+            "ext": "./js/huya2.js",
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1.755
             },
-            "ext": "w7TCmsOfw7HDrlpqUFfDocOnw67DqcK0Yl9kZ8KnwqzCrcKnwqxkZV5hwq7CpMKpw6zDrcKpwpnCoF/Do8Omw6nDp8KpwpvCpcKpwpHCp8Odw63DqMOoWlxQV8K9w6LDp8Oaw6PCocKjV2rCmcOOwqHDocOuwqfCoMKjasKowqLDpsOew6fCosKewpzCmcOvw5jCqMOdw5/CocKfXsKUw57DqcKhwqXCmlrCmMKkwqTDqcOmwrTCqMKpwp/ClcKdwp/Dp8Ofw6PDr8OfaWZewpTDnsOhw6nCp8OewpjCpldcwpnCmsOiw63DrsKjwqNqX8Kow5/Dn8Omw6nCocKcwpnCpsOewqHDqsOaw6HCmMKjXsKUw57DqcKhw5bCplNXwpTClcOcw6XDs8Opw65+wpXCqVfCs8KTwqHDsMOvwqzCmWZmwq/CmsO3"
+            "timeout": 10,
+            "playerType": "2",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
-            "key": "douyu",
+            "key": "斗鱼js",
             "name": "🐟斗鱼┃娱乐┃蓝光",
             "type": 3,
-            "api": "csp_AmuDouYu",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/斗鱼直播.js",
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1.755
             },
-            "ext": "w7TCmsOfw7HDrlpqUFfDocOnw67DqcK0Yl9kZ8KnwqzCrcKnwqxkZV5hwq7CpMKpw6zDrcKpwpnCoF/Do8Omw6nDp8KpwpfCn8KlwqnDrsKhw6TDrMOpwqFXXFDCoMK3w6nDpsObwpzCnsKjV8KzwpPDlcKgw6LCp8KkwqDCo8KzwqLCqcOlw5/CoMKfwp7CnMOiw6nDn8Knw57CmMKewp9ew53DmMOwwqDCplNXwpjCpMOtw6PDrcKzwqliwpzClcKdw6jDocOmw6LDsMKYZmZew53DmMOow6jCqMKXwpXCplfCpcKTwqHDocOuwqfCoMKjasKowqLDpsOew6fCosKewpzCmcOvw5jCqMOpw5vCmsKVwqNew53DmMOwwqDDl19QV8KUw57DlsOsw7LDqsKne8KVwqnCoMKtwprCoMOxwqjCqcKZZsKvwqnCocO2"
+            "timeout": 10,
+            "playerType": "2",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
-            "key": "ly",
+            "key": "有声小说js",
             "name": "📻️戏曲┃娱乐┃蓝光",
             "type": 3,
-            "api": "csp_AppLY",
-            "jar": "./jars/config.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/有声小说吧.js",
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1
             },
-            "ext": "w7TCmsOuw6LDqlpqUFfDlOWHuOmFouaQnuWRnV/lhpzkvYflkKfCs+W/pOipgOi2vea8iuesjMKNV1zCmcKaw57DnsOdwqXCqcKgwqTDhMOYw7PCoMK0U1fCp8Klw7LDnMKwwq/CsFrCrQ=="
+            "timeout": 10,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "Bili",

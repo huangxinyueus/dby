@@ -53,22 +53,11 @@
                     "http://feimaoai.site",
                     "http://www.labi88.sbs"
                 ],
+                "threadinfo": {
+                    "chunksize": 512,
+                    "threads": 16
+                },
                 "url_key": "Duopan2"
-            }
-        },
-        {
-            "key": "csp_XMUC",
-            "name": "🍚┃小米┃UC",
-            "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "http://www.mucpan.cc",
-                    "https://milvdou.fun",
-                    "https://54271.fun"
-                ],
-                "url_key": "XMUC"
             }
         },
         {
@@ -81,16 +70,15 @@
                 "site_urls": [
                     "http://xiaomi666.fun",
                     "https://xiaomiai.site",
+                    "https://mihdr.top",
+                    "https://www.mihdr.top",
                     "http://www.miqk.cc",
-                    "https://mihdr.top"
+                    "https://www.zhizhenpan.fun"
                 ],
                 "url_key": "Netfixtv2",
-                "token": "",
-                "ucCookie": "",
-                "quarkCookie": "",
                 "threadinfo": {
-                    "chunksize": 450,
-                    "threads": 10
+                    "chunksize": 512,
+                    "threads": 16
                 }
             }
         },
