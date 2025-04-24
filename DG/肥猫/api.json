@@ -141,6 +141,13 @@
             "api": "csp_KmeiJu"
         },
         {
+            "key": "csp_FourK",
+            "name": "🐿️┃绝对┃影视",
+            "type": 3,
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
+        },
+        {
             "key": "csp_Siren",
             "name": "🎉️┃私人┃影城",
             "type": 3,
@@ -166,12 +173,6 @@
             "ext": "http://www.dyxz2.com/"
         },
         {
-            "key": "csp_Apphip",
-            "name": "🌼┃️嗨皮┃影视",
-            "type": 3,
-            "api": "csp_Apphip"
-        },
-        {
             "key": "荐片",
             "name": "🎬┃荐片┃影视",
             "api": "csp_Jianpian",
@@ -185,6 +186,13 @@
             "type": 3,
             "api": "csp_Quanwk",
             "ext": "https://www.91qkw.com"
+        },
+        {
+            "key": "csp_Lggys",
+            "name": "🤣┃攻阁┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Lggys"
         },
         {
             "key": "csp_J",

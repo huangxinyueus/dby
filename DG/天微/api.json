@@ -112,6 +112,16 @@
             }
         },
         {
+            "key": "QD4K",
+            "name": "☀强大🔹秒播",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://172.83.156.150:1010/api.php/app/"
+        },
+        {
             "key": "金牌影视",
             "name": "☀天微🔹金牌",
             "type": 3,

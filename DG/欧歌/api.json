@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m//t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "【公众号杰歌软件APP】如有收费,直接找退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "【公众号欧歌APP】测试完请删除,请勿贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "【公众号杰歌软件APP】如有收费,直接找退款",
+            "name": "【公众号欧歌APP】测试完请删除,请勿贩卖",
             "type": 0,
-            "url": "./lives/【公众号杰歌软件APP】如有收费,直接找退款.txt",
+            "url": "./lives/【公众号欧歌APP】测试完请删除,请勿贩卖.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -34,20 +34,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢【公众号杰歌软件APP】如有收费,直接找退款",
+            "name": "📢【公众号欧歌APP】测试完请删除,请勿贩卖",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号杰歌软件APP】如有收费,直接找退款公告❤更新:4/20❤",
+            "name": "📢【公众号欧歌APP】测试完请删除,请勿贩卖公告❤更新:4/20❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号杰歌软件APP】如有收费,直接找退款"
+            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】测试完请删除,请勿贩卖"
         },
         {
             "key": "csp_woog",
@@ -64,7 +64,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 223,
+                    "chunksize": 296,
                     "threads": 10
                 }
             }
@@ -92,7 +92,7 @@
                 ],
                 "url_key": "woogkk",
                 "threadinfo": {
-                    "chunksize": 217,
+                    "chunksize": 292,
                     "threads": 60
                 }
             }
@@ -116,7 +116,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": " ./json/og.json?"
+            "ext": "./json/og.json?"
         },
         {
             "key": "配置中心",
@@ -411,7 +411,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " ./json/nmys.json"
+            "ext": "./json/nmys.json"
         },
         {
             "key": "八号影视",
@@ -421,7 +421,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " ./json/八号影视.json"
+            "ext": "./json/八号影视.json"
         },
         {
             "key": "骚火影视",
@@ -431,42 +431,42 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " ./json/骚火影视.json"
+            "ext": "./json/骚火影视.json"
         },
         {
             "key": "秀儿影视",
             "name": "🧿秀儿｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": " ./json/秀儿影视.json"
+            "ext": "./json/秀儿影视.json"
         },
         {
             "key": "海纳影视",
             "name": "🧿海纳｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": " ./json/海纳影视.json"
+            "ext": "./json/海纳影视.json"
         },
         {
             "key": "雪糕影视",
             "name": "🧿雪糕｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": " ./json/雪糕影视.json"
+            "ext": "./json/雪糕影视.json"
         },
         {
             "key": "永乐影视",
             "name": "🧿永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": " ./json/永乐影视.json"
+            "ext": "./json/永乐影视.json"
         },
         {
             "key": "面包影视",
             "name": "🧿面包｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": " ./json/面包影视.json"
+            "ext": "./json/面包影视.json"
         },
         {
             "key": "猎手影视",
@@ -582,7 +582,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/学堂教育.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/学堂教育.json"
         },
         {
             "key": "少儿",
@@ -593,7 +593,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/少儿合集.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/少儿合集.json"
         },
         {
             "key": "小学课堂",
@@ -604,7 +604,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/小学课堂.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/小学课堂.json"
         },
         {
             "key": "初中课堂",
@@ -615,7 +615,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/初中课堂.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/初中课堂.json"
         },
         {
             "key": "高中课堂",
@@ -626,7 +626,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/高中课堂.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/高中课堂.json"
         },
         {
             "key": "儿童口才",
@@ -637,7 +637,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童口才.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童口才.json"
         },
         {
             "key": "儿童拼音",
@@ -648,7 +648,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童拼音.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童拼音.json"
         },
         {
             "key": "儿童识字",
@@ -659,7 +659,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童识字.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童识字.json"
         },
         {
             "key": "儿童思维",
@@ -670,7 +670,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童思维.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童思维.json"
         },
         {
             "key": "儿童英语",
@@ -681,7 +681,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童英语.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童英语.json"
         },
         {
             "key": "儿童硬笔",
@@ -692,7 +692,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童硬笔.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童硬笔.json"
         },
         {
             "key": "儿童编程",
@@ -703,7 +703,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童编程.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童编程.json"
         },
         {
             "key": "儿童武术",
@@ -714,7 +714,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/儿童武术.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童武术.json"
         },
         {
             "key": "csp_BBB",
@@ -725,7 +725,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/哔哩套餐1.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/哔哩套餐1.json"
         },
         {
             "key": "Bili",
@@ -736,7 +736,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/哔哩套餐2.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/哔哩套餐2.json"
         },
         {
             "key": "软件",
@@ -747,7 +747,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/软件教程.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/软件教程.json"
         },
         {
             "key": "演唱会",
@@ -758,7 +758,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/演唱会.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/演唱会.json"
         },
         {
             "key": "戏曲",
@@ -769,7 +769,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/戏曲合集.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/戏曲合集.json"
         },
         {
             "key": "MV",
@@ -780,7 +780,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/歌曲MV.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/歌曲MV.json"
         },
         {
             "key": "美食",
@@ -791,7 +791,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/美食.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/美食.json"
         },
         {
             "key": "球类",
@@ -802,7 +802,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/球类合集.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/球类合集.json"
         },
         {
             "key": "球星",
@@ -813,7 +813,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/球星合集.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/球星合集.json"
         },
         {
             "key": "本地",
@@ -844,7 +844,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": " ./js/我的哔哩.js?type=url&params= ./json/合集.json"
+            "ext": "./js/我的哔哩.js?type=url&params=./json/合集.json"
         },
         {
             "key": "88看球",
@@ -854,7 +854,7 @@
             "style": {
                 "type": "list"
             },
-            "ext": " ./js/88看球.js"
+            "ext": "./js/88看球.js"
         },
         {
             "key": "曼波动漫",
@@ -920,7 +920,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " ./json/mogg.json?"
+            "ext": "./json/mogg.json?"
         },
         {
             "key": "蜡笔",
@@ -931,7 +931,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": " ./json/lb.json?"
+            "ext": "./json/lb.json?"
         },
         {
             "key": "小米",
@@ -942,7 +942,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": " ./json/xm.json?"
+            "ext": "./json/xm.json?"
         },
         {
             "key": "至臻",
@@ -953,7 +953,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": " ./json/zz.json?"
+            "ext": "./json/zz.json?"
         },
         {
             "key": "多多",
@@ -964,7 +964,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": " ./json/yyds.json?"
+            "ext": "./json/yyds.json?"
         },
         {
             "key": "玩偶",
@@ -975,7 +975,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": " ./json/wogg.json?"
+            "ext": "./json/wogg.json?"
         },
         {
             "key": "雷鲸",
@@ -990,7 +990,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/lj.json"
+            "ext": "./json/lj.json"
         },
         {
             "key": "海绵",
@@ -1005,7 +1005,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/hm.json"
+            "ext": "./json/hm.json"
         },
         {
             "key": "Pan1",
@@ -1020,7 +1020,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/pan1.json"
+            "ext": "./json/pan1.json"
         },
         {
             "key": "趣盘",
@@ -1050,7 +1050,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/aliyunpansearch.json"
+            "ext": "./json/aliyunpansearch.json"
         },
         {
             "key": "盘库",
@@ -1076,7 +1076,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/aliShare.json"
+            "ext": "./json/aliShare.json"
         },
         {
             "key": "夸克云盘",
@@ -1090,7 +1090,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/quarkShare.json"
+            "ext": "./json/quarkShare.json"
         },
         {
             "key": "UC",
@@ -1104,7 +1104,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": " ./json/ucShare.json"
+            "ext": "./json/ucShare.json"
         },
         {
             "key": "百度云盘",

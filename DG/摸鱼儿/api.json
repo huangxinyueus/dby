@@ -234,11 +234,34 @@
             "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
         },
         {
+            "key": "格格",
+            "name": "🍲格格┃蓝光┃无广",
+            "type": 3,
+            "api": "csp_Xdai",
+            "jar": "./jars/config.jar",
+            "playerType": 2,
+            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTAvYXBpLnBocHxhc2djeGhqa3RzMTI0NTczfGFzZ2N4aGprdHMxMjQ1NzN8MTE5"
+        },
+        {
+            "key": "随客",
+            "name": "🥯随客┃蓝光┃无广",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=随客"
+        },
+        {
+            "key": "664K",
+            "name": "🌀沐风┃蓝光┃无广",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=664k"
+        },
+        {
             "key": "4Kdy",
             "name": "🕊️凝安┃蓝光┃无广",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://我不是.摸鱼儿.xyz/api/moyu.php?file=4kdy"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=4kdy"
         },
         {
             "key": "nk",
@@ -579,7 +602,7 @@
             "name": "🫐三六┃蓝光┃纯净",
             "type": 3,
             "api": "csp_Sp360",
-            "jar": "./jars/config.jar"
+            "jar": "./jars/三六零弹幕.jar"
         },
         {
             "key": "央视经典",

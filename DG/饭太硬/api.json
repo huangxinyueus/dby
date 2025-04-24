@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "【神秘的哥哥们】",
+            "name": "修复无效链接【神秘的哥哥们】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -672,6 +672,12 @@
     "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
     "lives": [
         {
+            "name": "V6范明明",
+            "type": 0,
+            "url": "./lives/V6范明明.txt",
+            "epg": ""
+        },
+        {
             "name": "牛播一（仅新版影视仓┃ok影视）",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
@@ -682,12 +688,6 @@
             "type": 0,
             "url": "./lives/V4聚合（卡顿请按左┃右键换线）.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "V6范明明",
-            "type": 0,
-            "url": "./lives/V6范明明.txt",
-            "epg": ""
         },
         {
             "name": "平台直播",
