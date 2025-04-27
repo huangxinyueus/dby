@@ -5,10 +5,10 @@
     "sites": [
         {
             "key": "本地包更新",
-            "name": "💞本地包｜0424",
+            "name": "💞本地包｜0426",
             "type": 3,
             "api": "csp_Market",
-            "jar": "http://127.0.0.1:9978/file/tvboxqq/潇洒/spider.jar",
+            "jar": "./jars/gx.jar",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,

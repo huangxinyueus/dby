@@ -4,19 +4,13 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m//t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "【公众号欧歌APP】测试完请删除,请勿贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "【公众号光歌软件分享】永久免费,请勿演示贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "【公众号欧歌APP】测试完请删除,请勿贩卖",
+            "name": "【公众号光歌软件分享】永久免费,请勿演示贩卖",
             "type": 0,
-            "url": "./lives/【公众号欧歌APP】测试完请删除,请勿贩卖.txt",
+            "url": "./lives/【公众号光歌软件分享】永久免费,请勿演示贩卖.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-        },
-        {
-            "name": "胖羊直播",
-            "type": 3,
-            "url": "./lives/胖羊直播.txt",
-            "epg": ""
         },
         {
             "name": "AI直播",
@@ -25,29 +19,59 @@
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
-            "name": "Live直播",
+            "name": "Guovin",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "url": "./lives/Guovin.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+        },
+        {
+            "name": "咪咕直播",
+            "type": 0,
+            "url": "./lives/咪咕直播.txt",
+            "epg": ""
+        },
+        {
+            "name": "虎牙一起看",
+            "type": 3,
+            "url": "./lives/虎牙一起看.txt",
+            "epg": ""
+        },
+        {
+            "name": "斗鱼一起看",
+            "type": 3,
+            "url": "./lives/斗鱼一起看.txt",
+            "epg": ""
+        },
+        {
+            "name": "YY轮播",
+            "type": 3,
+            "url": "./lives/YY轮播.txt",
+            "epg": ""
+        },
+        {
+            "name": "B站直播",
+            "type": 3,
+            "url": "./lives/B站直播.txt",
             "epg": ""
         }
     ],
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢【公众号欧歌APP】测试完请删除,请勿贩卖",
+            "name": "📢【公众号光歌软件分享】永久免费,请勿演示贩卖",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP】测试完请删除,请勿贩卖公告❤更新:4/20❤",
+            "name": "📢【公众号光歌软件分享】永久免费,请勿演示贩卖公告❤更新:4/24❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】测试完请删除,请勿贩卖"
+            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号光歌软件分享】永久免费,请勿演示贩卖"
         },
         {
             "key": "csp_woog",
@@ -64,7 +88,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 296,
+                    "chunksize": 242,
                     "threads": 10
                 }
             }
@@ -92,7 +116,7 @@
                 ],
                 "url_key": "woogkk",
                 "threadinfo": {
-                    "chunksize": 292,
+                    "chunksize": 295,
                     "threads": 60
                 }
             }
@@ -155,12 +179,12 @@
             "changeable": 1
         },
         {
-            "key": "蝴蝶",
-            "name": "💡蝴蝶｜影视",
+            "key": "晴天",
+            "name": "💡晴天｜影视",
             "type": 3,
-            "api": "csp_Hudie",
+            "api": "csp_Xdai",
             "playerType": 2,
-            "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+            "ext": "jaHR0cHM6Ly9hcHBjbXMuc3VuNGsudG9wfGIwMjVkY2Q5YzI4OWNiYjN8YjAyNWRjZDljMjg5Y2JiMw=="
         },
         {
             "key": "低端",
@@ -189,7 +213,7 @@
         },
         {
             "key": "米兔",
-            "name": "💡米兔｜APP",
+            "name": "💡米兔｜影视",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -222,7 +246,7 @@
             "filterable": 1
         },
         {
-            "key": "来看影视123",
+            "key": "来看影视",
             "name": "💡来看｜影视",
             "type": 3,
             "api": "csp_Lkdy",
@@ -231,7 +255,7 @@
             "filterable": 1
         },
         {
-            "key": "耐看影视123",
+            "key": "耐看影视",
             "name": "💡耐看｜影视",
             "type": 3,
             "api": "csp_WebNK",
@@ -239,15 +263,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
-        },
-        {
-            "key": "耐看影视",
-            "name": "💡耐看｜影视",
-            "type": 3,
-            "api": "csp_WebNK",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKewpvDncOpw57Cp8OnwphXXFDCoMOnw6PDqcKhbVBXwovlh77phZvmkJ/lkZzCpuWGn+S9h+WQp2rlv6roqLnotr7mvInnrZPCkFdcUMKgw5fDn8Ocw6zCrMKgwqR7w57DrMKhwrPCmlrCp8KlwqnDosKpwrDCr8KhwrA="
         },
         {
             "key": "私人影视",
@@ -359,6 +374,32 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "奇优影视",
+            "name": "💡奇优｜影视",
+            "type": 3,
+            "api": "csp_Qiyou"
+        },
+        {
+            "key": "HG影视",
+            "name": "💡影影｜影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
+        },
+        {
+            "key": "QD4K",
+            "name": "💡蝴蝴｜影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://172.83.156.150:1010/api.php/app/"
         },
         {
             "key": "热播影视",

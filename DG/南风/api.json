@@ -63,15 +63,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Siren",
-            "name": "🎉️私人",
-            "type": 3,
-            "api": "csp_Siren",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Wwys",
             "name": "👩‍🌾农民",
             "type": 3,
