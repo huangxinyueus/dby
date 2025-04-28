@@ -44,6 +44,31 @@
             }
         },
         {
+            "key": "csp_Netfixtv2",
+            "name": "🐂二小┃4K弹幕",
+            "type": 3,
+            "changeable": "0",
+            "quickSearch": 1,
+            "api": "csp_DuopanGuard",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "https://www.erixaopan.fun",
+                    "http://erixaopan.fun/",
+                    "https://erxiaofn.click/",
+                    "https://www.xhww.net/"
+                ],
+                "url_key": "Netfixtv",
+                "token": "",
+                "ucCookie": "",
+                "quarkCookie": "",
+                "threadinfo": {
+                    "chunksize": 512,
+                    "threads": 16
+                }
+            }
+        },
+        {
             "key": "csp_Wogg",
             "name": "🧸玩偶┃4K弹幕",
             "type": 3,
@@ -83,7 +108,8 @@
             "key": "csp_LivingGuard",
             "name": "⛹️‍♀️平台┃娱乐",
             "type": 3,
-            "api": "csp_LivingGuard"
+            "api": "csp_LivingGuard",
+            "ext": "https://lemonlive25.pages.dev/"
         },
         {
             "key": "天天",
@@ -117,6 +143,20 @@
             "ext": "sHR2rlsfjI4L3t4RXQMkn/SuTAP3sPRQGBWuLvcmqKyisRVD3dX3O6Gp6eI50QK/b1ljvOYBDl+JqRwVQfcUQSM8vrh+mlBcTrvwF+gVaAWsvNW8jQQZf0K3/I/qJXQPUWmGE4fM0JKlDhFBVtEDYzfWMzOu40lTr/+guo8bJ6smivOCC7uQ2MArjDOj/vOScvoWqmIM2eesFSyClC/Qp9bCMZd4OOyCoe9MTI3RaBZE/IObZ0dMZZ6JgS5S5yal"
         },
         {
+            "key": "彼岸",
+            "name": "🏖比岸┃1080P",
+            "type": 3,
+            "api": "csp_AppGetGuard",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn0ZmfVTKTXBPRcz0emJNw7ofdKrXcYSsYxd+Wx33O1guTCJnhWT9y6xEgCyBMIw94CLlNGtq6BJEkOVCq9ttOaO9qtIDqVoKWaP64OiREdtupLxA0J7QhaW/aVzqLTYtiBkkFECFOVZMtS4js16Zy5VuzNx7tiA9XJkfVM7fTrZdcY2aXPM6zXmgejmIvi3mUw=="
+        },
+        {
+            "key": "再看",
+            "name": "🔭再看┃1080P",
+            "type": 3,
+            "api": "csp_AppGetGuard",
+            "ext": "sHR2rlsfjI4L3t4RXQMknz+i4ffRorIRZjjcJiBr38z7bvJQDA/gj8tVTCLdlHvgssqNDyUkkSbMM+DLFI84xCpUE24hJxHHQxh/6e5bg7jQ0uWTdELk4IH4xxKtfyyKWbccPYruj7hX+lPSpaWNjk1ibLuC4+KKQSKp68VHdSOka6yGYqgO2DLVooXxfsgtQ79Hg5Uc8KtD5/Oa6cAfcQ=="
+        },
+        {
             "key": "csp_Lgyy",
             "name": "⏳️️流光┃1080P",
             "type": 3,
@@ -127,8 +167,8 @@
             "key": "牛牛",
             "name": "🐂牛牛┃1080P",
             "type": 3,
-            "api": "./api/mito.py",
-            "ext": "http://172.83.156.150:1010"
+            "api": "./api/mioaying.py",
+            "ext": ""
         },
         {
             "key": "光速",
@@ -160,14 +200,6 @@
             "quickSearch": 1,
             "api": "csp_AppGetGuard",
             "ext": "sHR2rlsfjI4L3t4RXQMkn0xaBCNcSQUCvczzn7zWpJd7PJ5uE10QNLrWWS17wAYgUMrJ+kztENaDom6MWpmmvbZdw38U+pT14qEwywuRW7eny/HInm+UXxpCyI8e5D7Y4kc2n0QBkeQ2Tk5Y0atLMuupC2ZGF68+oMVeX0Px9e9ODSiSspzQH/Rg1Sz5CHp0GKozVTjPIZHhO159i7A1HwZ+kk77Eh0E7AnBTt6qVBX5G+murD+CKjMLYo6MMmsE"
-        },
-        {
-            "key": "奇妙",
-            "name": "♟奇妙┃1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGetGuard",
-            "ext": "sHR2rlsfjI4L3t4RXQMknxpI3MBzuaDrH2PsBQxC38op5hYp0OZbDn4iJ615slmjVd+iI7Tl5Ue0Vm2GojmSTYMGSFh2aRBmEOKQ0locA9dvNXmz6vCgBlpFeFm/CQ3n1ep2SM+/awX6EoPD8V5c70mEnJDaI5kqnSlhF/wZJ/r0iCysTPux83KtOhToHnBg/VshjW3X7hDXcrKCadFsFw=="
         },
         {
             "key": "享趣",
@@ -242,16 +274,6 @@
             "ext": "or8dey6pioFw+XxkF2wS/RAzk3DzRGdI670hdzQc+Mikgjqjk9TLUbAA9F0iudN1/EXY443m7GHk8GjSrx5HqSIJwhkFw/xSNAD7EWUrLDF6HohBg/KuqjTeaDuMIXz7cBXwt1KPJLptozlzoIMYeWIXu6G0zPvUHi/rxqkaq6IWp1t9tTKX7JnqKU/XhyNt"
         },
         {
-            "key": "巧技",
-            "name": "🚗搜索┃1080P",
-            "type": 3,
-            "api": "csp_qiao2",
-            "quickSearch": 1,
-            "playerType": 2,
-            "jar": "./jars/巧技.jar",
-            "ext": "./txt/cksp.txt"
-        },
-        {
             "key": "csp_MiSou",
             "name": "🔍米搜┃盘聚",
             "type": 3,
@@ -299,7 +321,7 @@
             "url": "影视"
         },
         {
-            "name": "巧技三",
+            "name": "牛牛2",
             "type": 1,
             "url": "https://zy.qiaoji8.com/xiafan.php?url=",
             "ext": {
