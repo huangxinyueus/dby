@@ -120,34 +120,6 @@
             }
         },
         {
-            "key": "鲶鱼",
-            "name": "鲶鱼｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://47.122.22.78",
-                "dataKey": "1234567890123456",
-                "dataIv": "1234567890123456",
-                "deviceId": "",
-                "version": "119"
-            }
-        },
-        {
-            "key": "驿站",
-            "name": "驿站｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://121.204.251.70:12000",
-                "dataKey": "F51F5D52D23C5181",
-                "dataIv": "F51F5D52D23C5181",
-                "deviceId": "",
-                "version": "119"
-            }
-        },
-        {
             "key": "雨滴",
             "name": "雨滴｜APP",
             "type": 3,
@@ -1007,6 +979,17 @@
             "playerType": 2
         },
         {
+            "key": "柯南影视",
+            "name": "柯南｜APP",
+            "type": 3,
+            "api": "./py/柯南影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "央视影视",
             "name": "央视｜APP",
             "type": 3,
@@ -1017,6 +1000,17 @@
             "filterable": 1,
             "playerType": 2
         },
+        {
+			"key": "布雷影视",
+			"name": "布雷｜影视",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./js/布雷.js"
+		},
         {
             "key": "移动",
             "name": "移动｜影视",
