@@ -3,13 +3,13 @@
 {
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m//t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
-    "spider": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index&ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp;md5;<br />\n<b>Warning</b>:  include(https://欧歌.v.nxog.top/123/jar4455/cache/index.jpg_md5.txt): failed to open stream: No such file or directory in <b>/www/wwwroot/tv.nxog.top/m/111.php</b> on line <b>33</b><br />\n<br />\n<b>Warning</b>:  include(): Failed opening 'https://欧歌.v.nxog.top/123/jar4455/cache/index.jpg_md5.txt' for inclusion (include_path='.:/www/server/php/72/lib/php') in <b>/www/wwwroot/tv.nxog.top/m/111.php</b> on line <b>33</b><br />\n",
-    "warningText": "【公众号欧歌APP】测试完请删除,请勿贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "spider": "./spider.jar",
+    "warningText": "【公众号杰歌软件APP】如有收费,直接找退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "【公众号欧歌APP】测试完请删除,请勿贩卖",
+            "name": "【公众号杰歌软件APP】如有收费,直接找退款",
             "type": 0,
-            "url": "./lives/【公众号欧歌APP】测试完请删除,请勿贩卖.txt",
+            "url": "./lives/【公众号杰歌软件APP】如有收费,直接找退款.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -58,20 +58,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢【公众号欧歌APP】测试完请删除,请勿贩卖",
+            "name": "📢【公众号杰歌软件APP】如有收费,直接找退款",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP】测试完请删除,请勿贩卖公告❤更新:4/28❤",
+            "name": "📢【公众号杰歌软件APP】如有收费,直接找退款公告❤更新:4/28❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】测试完请删除,请勿贩卖"
+            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号杰歌软件APP】如有收费,直接找退款"
         },
         {
             "key": "csp_woog",
@@ -88,7 +88,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 214,
+                    "chunksize": 276,
                     "threads": 10
                 }
             }
@@ -116,7 +116,7 @@
                 ],
                 "url_key": "woogkk",
                 "threadinfo": {
-                    "chunksize": 284,
+                    "chunksize": 200,
                     "threads": 60
                 }
             }

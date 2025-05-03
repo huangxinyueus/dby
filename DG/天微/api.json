@@ -4,6 +4,7 @@
     "spider": "./spider.jar",
     "wallpaper": "https://wp.upx8.com/api.php",
     "warningText": "资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+    "logo": "https://7337.kstore.space/tubiao/%E5%A4%A9%E5%BE%AE.gif",
     "sites": [
         {
             "key": "豆瓣",
@@ -122,6 +123,20 @@
             "ext": "http://172.83.156.150:1010/api.php/app/"
         },
         {
+            "key": "晴天",
+            "name": "☀晴天🔹弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://appcms.sun4k.top",
+                "dataKey": "b025dcd9c289cbb3",
+                "dataIv": "b025dcd9c289cbb3",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "金牌影视",
             "name": "☀天微🔹金牌",
             "type": 3,
@@ -144,6 +159,34 @@
             "type": 3,
             "playerType": "2",
             "ext": "http://api2.rinhome.com"
+        },
+        {
+            "key": "雨滴",
+            "name": "☀雨滴🔹弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
+                "dataKey": "k9o3p2c8b7m3z0o8",
+                "dataIv": "k9o3p2c8b7m3z0o8",
+                "deviceId": "",
+                "version": "100"
+            }
+        },
+        {
+            "key": "格格",
+            "name": "☀格格🔹弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://111.180.198.40:1110",
+                "dataKey": "asgcxhjkts124573",
+                "dataIv": "asgcxhjkts124573",
+                "deviceId": "",
+                "version": "119"
+            }
         },
         {
             "key": "苹果影视",
@@ -187,21 +230,46 @@
             }
         },
         {
-            "key": "影探影视",
-            "name": "☀影探🔹4k线",
+            "key": "优质",
+            "name": "☀优质🔹弹幕",
             "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://csjt.lyyytv.cn/api.php/app/"
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://apiapplbys.lbys.cc:5678",
+                "dataKey": "apiapplbyskey168",
+                "dataIv": "apiapplbyskey168",
+                "deviceId": "",
+                "version": "107"
+            }
         },
         {
-            "key": "菲儿影视",
-            "name": "☀小飞🔹弹幕",
+            "key": "玉米",
+            "name": "☀玉米🔹弹幕",
             "type": 3,
-            "api": "csp_AppFerr",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.zjc.app",
+                "dataKey": "ab4e9a421675f14b",
+                "dataIv": "ab4e9a421675f14b",
+                "deviceId": "",
+                "version": "442"
+            }
+        },
+        {
+            "key": "光速",
+            "name": "☀光速🔹弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://59.153.167.137:8899",
+                "dataKey": "4d83b87c4c5ea111",
+                "dataIv": "4d83b87c4c5ea111",
+                "deviceId": "",
+                "version": "462"
+            }
         },
         {
             "key": "来看影视",
@@ -228,14 +296,6 @@
             "api": "csp_Hudie",
             "playerType": 2,
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-        },
-        {
-            "key": "雨滴",
-            "name": "☀雨滴🔹秒播",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
         },
         {
             "key": "人人",
@@ -294,6 +354,17 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/ceshi.js"
+        },
+        {
+            "key": "菲儿影视",
+            "name": "☀小飞🔹弹幕",
+            "type": 3,
+            "api": "csp_AppFerr",
+            "ext": {
+                "url": "https://appcms.freehd.vip",
+                "dataKey": "be5348dfb0c3c283",
+                "dataIv": "5f5449dd14313217"
+            }
         },
         {
             "key": "腾讯弹幕",
@@ -356,14 +427,6 @@
             "playerType": 2
         },
         {
-            "key": "玉米",
-            "name": "☀玉米🔹秒播",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
-        },
-        {
             "key": "荐片弹幕版",
             "name": "☀荐片🔹弹幕",
             "api": "csp_Jianpian",
@@ -392,6 +455,17 @@
             "ext": "./json/mogg.json?"
         },
         {
+            "key": "蜡笔",
+            "name": "💿蜡笔🔹盘4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/lb.json"
+        },
+        {
             "key": "闪电",
             "name": "💿闪电🔹盘4K",
             "type": 3,
@@ -401,17 +475,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./json/sd.json?"
-        },
-        {
-            "key": "小米",
-            "name": "💿小米🔹盘4K",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/xm.json?"
         },
         {
             "key": "至臻",
@@ -461,7 +524,7 @@
             "key": "Pan1",
             "name": "💿123🔹盘4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudHM",
+            "api": "csp_PanWebShareCloud123",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -470,7 +533,18 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/pan1.json?"
+            "ext": "./json/pan1.json"
+        },
+        {
+            "key": "多多",
+            "name": "💿多多🔹盘4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/yyds.json"
         },
         {
             "key": "趣盘",
@@ -502,6 +576,21 @@
                 "ratio": 1.433
             },
             "ext": "./json/lj.json?"
+        },
+        {
+            "key": "海绵",
+            "name": "💿海绵🔹盘4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudHM",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/hm.json"
         },
         {
             "key": "盘他",
@@ -584,14 +673,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "光速",
-            "name": "☀光速🔹秒播",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
         },
         {
             "key": "嗨皮影视",

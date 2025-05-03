@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://牛逼.王二小放牛娃.xyz/",
+    "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
     "sites": [
         {
@@ -784,6 +784,14 @@
             "changeable": 0
         },
         {
+            "key": "WexAiPanGuard",
+            "name": "🎠给力┃综合🎠",
+            "type": 3,
+            "api": "csp_WexAiPanGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
             "key": "115",
             "name": "💓我的┃115💓‍",
             "type": 3,
@@ -1058,15 +1066,9 @@
     ],
     "lives": [
         {
-            "name": "BJTV",
+            "name": "范明明",
             "type": 0,
-            "url": "./lives/BJTV.txt",
-            "epg": ""
-        },
-        {
-            "name": "钵钵鸡(四网通用)",
-            "type": 0,
-            "url": "./lives/钵钵鸡(四网通用).txt",
+            "url": "./lives/范明明.txt",
             "epg": ""
         }
     ]
