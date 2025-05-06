@@ -89,6 +89,17 @@
             "ext": "./js/央视综合.js"
         },
         {
+            "key": "央视少儿",
+            "name": "☀央视🔹少儿",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/央视少儿.js"
+        },
+        {
             "key": "热播影视",
             "name": "☀热播🔹影视",
             "type": 3,
@@ -140,7 +151,28 @@
             "key": "金牌影视",
             "name": "☀天微🔹金牌",
             "type": 3,
-            "api": "csp_Jpys"
+            "api": "./api/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
+            "key": "人人",
+            "name": "☀人人🔹弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://svip1.fun",
+                "dataKey": "laodiesdawsswasd",
+                "dataIv": "laodiesdawsswasd",
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "105"
+            }
         },
         {
             "key": "csp_XYQHiker_农民影视",
@@ -296,14 +328,6 @@
             "api": "csp_Hudie",
             "playerType": 2,
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-        },
-        {
-            "key": "人人",
-            "name": "☀人人🔹秒播",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9zdmlwMS5mdW58bGFvZGllc2Rhd3Nzd2FzZHxsYW9kaWVzZGF3c3N3YXNkfDI5OGU1ZmUyOWM3NGIzNWFhYmI5ODM2ZWUyZjZmNDQ5ZnwxMDU="
         },
         {
             "key": "量子",
@@ -1513,6 +1537,12 @@
         "哔 哩 哔 哩"
     ],
     "lives": [
+        {
+            "name": "线路⑩",
+            "type": 0,
+            "url": "./lives/线路⑩.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
         {
             "name": "线路①",
             "type": 0,

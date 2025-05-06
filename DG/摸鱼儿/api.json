@@ -641,6 +641,13 @@
             "ext": "https://www.mutefun.tv"
         },
         {
+            "key": "樱花",
+            "name": "🌸樱花┃动漫┃樱花",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=樱花"
+        },
+        {
             "key": "mb",
             "name": "🍼曼波┃动漫┃蓝光",
             "type": 3,
