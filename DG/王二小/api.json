@@ -134,6 +134,14 @@
             "changeable": 1
         },
         {
+            "key": "WexhubanGuard",
+            "name": "💓虎斑┃4K💓",
+            "type": 3,
+            "api": "csp_WexhubanGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "WextexiafanGuard",
             "name": "💓下饭┃4K💓",
             "type": 3,

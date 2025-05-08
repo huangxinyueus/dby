@@ -45,7 +45,7 @@
         },
         {
             "key": "csp_Netfixtv2",
-            "name": "🐂二小┃4K弹幕",
+            "name": "✈️二小┃4K弹幕",
             "type": 3,
             "changeable": "0",
             "quickSearch": 1,
@@ -58,7 +58,7 @@
                     "https://erxiaofn.click/",
                     "https://www.xhww.net/"
                 ],
-                "url_key": "Miuc",
+                "url_key": "UC",
                 "token": "",
                 "ucCookie": "",
                 "quarkCookie": "",
@@ -172,7 +172,7 @@
         },
         {
             "key": "光速",
-            "name": "🌟云端┃1080P",
+            "name": "☁️云端┃1080P",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGetGuard",
@@ -288,6 +288,15 @@
             "api": "csp_TingBookGuard",
             "searchable": 1,
             "ext": "http://www.6yueting.com"
+        },
+        {
+            "key": "巧技",
+            "name": "🚗聚搜┃1080P",
+            "type": 3,
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "jar": "./jars/巧技.jar",
+            "ext": "./txt/cksp.txt"
         },
         {
             "key": "Aid",
