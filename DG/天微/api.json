@@ -1538,16 +1538,16 @@
     ],
     "lives": [
         {
-            "name": "线路⑩",
-            "type": 0,
-            "url": "./lives/线路⑩.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
             "name": "线路①",
             "type": 0,
             "url": "./lives/线路①.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "AI线路",
+            "type": 0,
+            "url": "./lives/AI线路.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
             "name": "IPV6②",
@@ -1559,7 +1559,7 @@
             "name": "电影③",
             "type": 0,
             "url": "./lives/电影③.txt",
-            "epg": ""
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
             "name": "MTV④",

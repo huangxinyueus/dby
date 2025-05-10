@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "drpy_js_豆瓣",
-            "name": "导航|小虎斑的口粮 v4.2",
+            "name": "导航|小虎斑的口粮 v4.6",
             "type": 3,
             "api": "csp_Douban",
             "ext": "./json/douban.json"
@@ -176,6 +176,41 @@
             "name": "0°|弹幕",
             "type": 3,
             "api": "csp_HBlingDu"
+        },
+        {
+            "key": "米兔",
+            "name": "米兔|弹幕",
+            "type": 3,
+            "api": "csp_HBgetapp",
+            "ext": "eyJob3N0IjoiaHR0cDovL3YudGtib3QuZnVuLyIsImtleSI6IlpEQXpNbU14TWpnM05tSmpOamcwT0E9PSIsIml2IjoiWkRBek1tTXhNamczTm1Kak5qZzBPQT09In0="
+        },
+        {
+            "key": "至白",
+            "name": "至白|弹幕",
+            "type": 3,
+            "api": "csp_ApplvDV2",
+            "ext": "0###DyoqWQIrBwMuUyBLCw8xHAMnBEAHOTwDIg82HC1dLgIDMltGDyo5Hzg3KgIuGCNbJ1AQWQUnKUMuGFdZDSo6XAM8XQYHOQIECiohHDhdXAM7OSxBIlAUHDsoPkEyUixZDQw2BQJfBB4yNStcNzo6HgA4OUwvNS9GIyY5BAUCBB44NldnDQ8PUA"
+        },
+        {
+            "key": "驿站",
+            "name": "驿站|弹幕",
+            "type": 3,
+            "api": "csp_HBmoou",
+            "ext": "DyoqWQInJUMuGFdJDTUUEQA3BAUHNlcAD1EuHTtcOkc7OSxBNzo6HjsnBEAHDzwDDww2HwMCA0EACyRHIyoXEQVcJQwACwpYIAwhEwQrDwAsCwlENFETXy87MUYtJQVHJxs1AwAnOkUBJQFHIhg9ESwsXEUvCFpJIyYbHCwFLUctCzsDIAgbWi0WJR8rSgNBGEkdGww8JR8rGz9EIwtMHigWJR84JQ1LIBgfWC87DB4vNj8ENxgTEC8sJR8rUzRYICYtXC8oMUcvCyRcIxgqBDs4LUg="
+        },
+        {
+            "key": "火猫",
+            "name": "火猫|弹幕",
+            "type": 3,
+            "api": "csp_HBmoou",
+            "ext": "DyoqWQIrBwMuUyhGDSFMWi4rBB44IltbDAtAAygWJhoGKTxGIQtAHyw7PUUuCytIIggTHi0FPUAtCysBIDYfHi0WJR8rSgtzH0kdJBAWJR8rGz9EIwtMHigWJR8sDCcCN1AhESxdIhgsJQpYNzYyBS8GJR8rGzRYIFA2BCw7Jhw4Cz8CNw89EDs7MUg="
+        },
+        {
+            "key": "顾我",
+            "name": "顾我|弹幕",
+            "type": 3,
+            "api": "csp_HBmoou",
+            "ext": "DyoqWQIrBwMuUwoCIg9JAwQ4LgAuDCBEIhs1AyhdAEUGKS8HIhtAESwFLQAsCydEIwg9HCw7OUMsNSdGIhs1AyhEBR0UFA94BQcRRhcKPz8SGCNbJxgpHCw8XEArGCNbIAgxXCxdJUA4JSNLIwgTWi8rAB07CCNbJ1A9HjsFIUcvUz8ANxgxECwCPUcsNQ0M"
         },
         {
             "key": "HBqwKan",
@@ -444,6 +479,15 @@
             "type": 3,
             "api": "csp_HBcms10",
             "ext": "https://zy.xiaomaomi.cc/api.php/provide/vod/"
+        },
+        {
+            "key": "push_agent",
+            "name": "手机｜推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0
         },
         {
             "key": "专用",

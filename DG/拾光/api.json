@@ -37,8 +37,8 @@
             "ext": "./json/alist.json"
         },
         {
-            "key": "球赛看球",
-            "name": "球赛｜看球",
+            "key": "比赛看球",
+            "name": "比赛｜看球",
             "type": 3,
             "api": "csp_Kanqiu",
             "gridview": 3,
@@ -74,6 +74,20 @@
             }
         },
         {
+            "key": "星河",
+            "name": "星河｜电视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://121.62.22.204:9876",
+                "dataKey": "f5e2tx53ykp6s2c9",
+                "dataIv": "f5e2tx53ykp6s2c9",
+                "deviceId": "",
+                "version": "361"
+            }
+        },
+        {
             "key": "热播影视",
             "name": "热播｜APP",
             "type": 3,
@@ -96,6 +110,25 @@
             "ext": {
                 "url": "http://tt.ysdqjs.cn"
             }
+        },
+         {
+             "key": "文才",
+             "name": "文才｜APP",
+             "type": 3,
+             "api": "./py/文才影视.py",
+             "searchable": 1,
+             "quickSearch": 1,
+             "filterable": 1,
+             "ext": {"site":"https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"}},
+             {
+            "key": "毒舌影视",
+            "name": "毒舌｜APP",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/毒舌影视.json"
         },
         {
             "key": "浪酷影视",
@@ -121,6 +154,20 @@
             }
         },
         {
+            "key": "尼玛",
+            "name": "尼玛｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://nm.xxxc137.top",
+                "dataKey": "a006661b01bdebbd",
+                "dataIv": "a006661b01bdebbd",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "鲶鱼",
             "name": "鲶鱼｜APP",
             "type": 3,
@@ -134,15 +181,34 @@
                 "version": "119"
             }
         },
-         {
-             "key": "文才",
-             "name": "文才｜APP",
-             "type": 3,
-             "api": "./py/文才影视.py",
-             "searchable": 1,
-             "quickSearch": 1,
-             "filterable": 1,
-             "ext": {"site":"https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"}},
+        {
+            "key": "橘子",
+            "name": "橘子｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://api1.bffree.cn",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015",
+                "deviceId": "",
+                "version": "300"
+            }
+        },
+        {
+            "key": "彼岸",
+            "name": "彼岸｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://172.247.44.217:30012",
+                "dataKey": "JLa1oRdL6+eK7@M)",
+                "dataIv": "JLa1oRdL6+eK7@M)",
+                "deviceId": "",
+                "version": ""
+            }
+        },
         {
             "key": "雨滴",
             "name": "雨滴｜APP",
@@ -158,45 +224,17 @@
             }
         },
         {
-            "key": "优质",
-            "name": "优质｜APP",
+            "key": "人人",
+            "name": "人人｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://apiapplbys.lbys.cc:5678",
-                "dataKey": "apiapplbyskey168",
-                "dataIv": "apiapplbyskey168",
-                "deviceId": "",
-                "version": "107"
-            }
-        },
-        {
-            "key": "光速",
-            "name": "光速｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://c8k2n5l0i9s8b2m1jj8k2x2l9ff68.ydysapi.cfd:27899",
-                "dataKey": "k9o3p2c8b7m3z0o8",
-                "dataIv": "k9o3p2c8b7m3z0o8",
-                "deviceId": "2f085931bcbd83a2bbc8ba1fc66243cd2",
-                "version": "112"
-            }
-        },
-        {
-            "key": "橘子",
-            "name": "橘子｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://api1.bffree.cn",
-                "dataKey": "2015692015692015",
-                "dataIv": "2015692015692015",
-                "deviceId": "",
-                "version": "300"
+                "url": "https://svip1.fun",
+                "dataKey": "laodiesdawsswasd",
+                "dataIv": "laodiesdawsswasd",
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "105"
             }
         },
         {
@@ -242,20 +280,6 @@
             }
         },
         {
-            "key": "星河",
-            "name": "星河｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://121.62.22.204:9876",
-                "dataKey": "f5e2tx53ykp6s2c9",
-                "dataIv": "f5e2tx53ykp6s2c9",
-                "deviceId": "",
-                "version": "361"
-            }
-        },
-        {
             "key": "若惜",
             "name": "若惜｜APP",
             "type": 3,
@@ -270,17 +294,56 @@
             }
         },
         {
-            "key": "外剧",
-            "name": "外剧｜APP",
+            "key": "鲨鱼",
+            "name": "鲨鱼｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://guowaiju.com",
-                "dataKey": "7xv16h7qgkrs9b1p",
-                "dataIv": "7xv16h7qgkrs9b1p",
+                "url": "https://cms.wlbbq.xyz",
+                "dataKey": "sdev15rwsa96fsde",
+                "dataIv": "sdev15rwsa96fsde",
                 "deviceId": "",
-                "version": ""
+                "version": "102"
+            }
+        },
+        {
+            "key": "驿站",
+            "name": "驿站｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://110.42.107.216:56677",
+                "dataKey": "d7378557d1d9c924",
+                "dataIv": "fb4594f622f34fea",
+                "jxurl": "https://qqiqiyiyoukumgtvapiappdyyztvjsoni8n2o0z1ws2n7b6v3x8.68.gy:56789"
+            }
+        },
+        {
+            "key": "永夜",
+            "name": "永夜｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://cms.neyym.cn",
+                "dataKey": "66247d82fcfaeda9",
+                "dataIv": "70691065ee3c4c54",
+                "jxurl": "http://app.neyym.cn"
+            }
+        },
+        {
+            "key": "二三",
+            "name": "二三｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://cs4.123ysw.com",
+                "dataKey": "d3238930e3ae0724",
+                "dataIv": "d3238930e3ae0724",
+                "jxurl": "https://123ysw.com"
             }
         },
         {
@@ -541,16 +604,6 @@
             }
         },
         {
-            "key": "双星",
-            "name": "双星｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/双星.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "SVIP短剧",
             "name": "SVIP｜短剧",
             "type": 3,
@@ -657,17 +710,6 @@
             "name": "甜圈｜短剧",
             "type": 3,
             "api": "./py/甜圈短剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "河马短剧",
-            "name": "河马｜短剧",
-            "type": 3,
-            "api": "./py/河马短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -990,17 +1032,6 @@
 	    "ext": "./js/布雷.js"
          },
         {
-            "key": "快看",
-            "name": "快看｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "http://kkwk123.top/api.php/app/"
-        },
-        {
             "key": "移动",
             "name": "移动｜影视",
             "type": 3,
@@ -1078,6 +1109,12 @@
             "ext": "https://v.wetv.wang"
         },
         {
+            "key": "鸭梨影视",
+            "name": "鸭梨｜影视",
+            "type": 3,
+            "api": "csp_KmeiJu"
+        },
+        {
             "key": "绝对影视",
             "name": "绝对｜影视",
             "type": 3,
@@ -1092,8 +1129,8 @@
             "ext": "https://www.subaibai.com"
         },
         {
-            "key": "流光影视",
-            "name": "流光｜影视",
+            "key": "琉光影视",
+            "name": "琉光｜影视",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_FreeOk"
@@ -1157,6 +1194,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "七七影视",
+            "name": "七七｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/七七影视.json"
         },
         {
             "key": "可可影视",
@@ -1271,6 +1315,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/骚火影视.json"
+        },
+        {
+            "key": "电影牛",
+            "name": "电影牛｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/电影牛.json"
         },
         {
             "key": "剧圈圈",
@@ -2295,18 +2349,6 @@
 			"ext": "./js/博看听书.js"
 		},
         {
-	"key": "爱上听书网",
-	"name": "听书｜小说",
-	"type": 3,
-	"api": "./drpy_libs/drpy2.min.js",
-	"searchable": 1,
-	"quickSearch": 1,
-	"filterable": 1,
-	"order_num": 0,
-	"ext": "./js/爱上你听书网[听].js"
-		},
-
-        {
             "key": "兔小贝",
             "name": "兔小贝｜幼教",
             "type": 3,
@@ -2859,6 +2901,15 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "push_agent",
+            "name": "Push｜云盘",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0
         },
        {
        "key": "幸福｜拾光",
