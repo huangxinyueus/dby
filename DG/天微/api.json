@@ -45,6 +45,20 @@
             }
         },
         {
+            "key": "急救教学",
+            "name": "☀家庭🔹急救",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
+            "gridview": "0-0-4.1"
+        },
+        {
             "key": "斗鱼直播",
             "name": "☀斗鱼🔹直播",
             "type": 3,
@@ -53,6 +67,16 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
+            }
+        },
+        {
+            "key": "比赛看球",
+            "name": "☀比赛🔹看球",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "gridview": 3,
+            "style": {
+                "type": "list"
             }
         },
         {
@@ -193,6 +217,20 @@
             "ext": "http://api2.rinhome.com"
         },
         {
+            "key": "星河",
+            "name": "☀星河🔹速播",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://121.62.22.204:9876",
+                "dataKey": "f5e2tx53ykp6s2c9",
+                "dataIv": "f5e2tx53ykp6s2c9",
+                "deviceId": "",
+                "version": "361"
+            }
+        },
+        {
             "key": "雨滴",
             "name": "☀雨滴🔹弹幕",
             "type": 3,
@@ -248,6 +286,20 @@
             "api": "csp_Xdai",
             "playerType": 1,
             "ext": "jaHR0cHM6Ly9jOHcyb3Y3dTV3ZzJ6MW84cDIxYy5hbGl5dW5jcy5jbGljazoyNzg5OXxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
+        },
+        {
+            "key": "橘子",
+            "name": "☀橘子🔹弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://api1.bffree.cn",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015",
+                "deviceId": "",
+                "version": "300"
+            }
         },
         {
             "key": "文才py",
@@ -1406,7 +1458,7 @@
     ],
     "parses": [
         {
-            "name": "解析失败自己换",
+            "name": "解析失败自己切换",
             "type": 1,
             "url": "https://zy.qiaoji8.com/neibu.php?url=",
             "ext": {
@@ -1442,7 +1494,7 @@
         {
             "name": "解析2",
             "type": 0,
-            "url": "https://bd.jx.cn/?url="
+            "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
         },
         {
             "name": "解析3",
@@ -1538,16 +1590,16 @@
     ],
     "lives": [
         {
-            "name": "线路①",
-            "type": 0,
-            "url": "./lives/线路①.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
             "name": "AI线路",
             "type": 0,
             "url": "./lives/AI线路.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+        },
+        {
+            "name": "线路①",
+            "type": 0,
+            "url": "./lives/线路①.txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
             "name": "IPV6②",

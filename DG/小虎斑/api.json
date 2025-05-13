@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "drpy_js_豆瓣",
-            "name": "导航|小虎斑的口粮 v4.6",
+            "name": "导航|小虎斑的口粮 v4.8",
             "type": 3,
             "api": "csp_Douban",
             "ext": "./json/douban.json"
@@ -137,6 +137,13 @@
             "api": "csp_HBqkDj"
         },
         {
+            "key": "小猫",
+            "name": "小猫|自定",
+            "type": 3,
+            "api": "csp_HBcms10",
+            "ext": "https://zy.xiaomaomi.cc/api.php/provide/vod/"
+        },
+        {
             "key": "tenteng",
             "name": "落日|自定",
             "type": 3,
@@ -178,18 +185,18 @@
             "api": "csp_HBlingDu"
         },
         {
-            "key": "米兔",
-            "name": "米兔|弹幕",
-            "type": 3,
-            "api": "csp_HBgetapp",
-            "ext": "eyJob3N0IjoiaHR0cDovL3YudGtib3QuZnVuLyIsImtleSI6IlpEQXpNbU14TWpnM05tSmpOamcwT0E9PSIsIml2IjoiWkRBek1tTXhNamczTm1Kak5qZzBPQT09In0="
-        },
-        {
             "key": "至白",
             "name": "至白|弹幕",
             "type": 3,
             "api": "csp_ApplvDV2",
             "ext": "0###DyoqWQIrBwMuUyBLCw8xHAMnBEAHOTwDIg82HC1dLgIDMltGDyo5Hzg3KgIuGCNbJ1AQWQUnKUMuGFdZDSo6XAM8XQYHOQIECiohHDhdXAM7OSxBIlAUHDsoPkEyUixZDQw2BQJfBB4yNStcNzo6HgA4OUwvNS9GIyY5BAUCBB44NldnDQ8PUA"
+        },
+        {
+            "key": "米兔",
+            "name": "米兔|弹幕",
+            "type": 3,
+            "api": "csp_HBgetapp",
+            "ext": "eyJob3N0IjoiaHR0cDovL3YudGtib3QuZnVuLyIsImtleSI6IlpEQXpNbU14TWpnM05tSmpOamcwT0E9PSIsIml2IjoiWkRBek1tTXhNamczTm1Kak5qZzBPQT09In0="
         },
         {
             "key": "驿站",
@@ -474,13 +481,6 @@
             "ext": "https://json02.heimuer.xyz/api.php/provide/vod/"
         },
         {
-            "key": "小猫",
-            "name": "小猫|弹幕",
-            "type": 3,
-            "api": "csp_HBcms10",
-            "ext": "https://zy.xiaomaomi.cc/api.php/provide/vod/"
-        },
-        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
@@ -511,11 +511,6 @@
             "name": "虾米",
             "type": 0,
             "url": "https://jx.xmflv.com/?url="
-        },
-        {
-            "name": "超级接口",
-            "type": 1,
-            "url": "http://60.211.124.23:10101/hbanbox/json/json.php/?key=369258173222&url="
         }
     ],
     "flags": [
