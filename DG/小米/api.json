@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://t.alcy.cc/fj",
+    "wallpaper": "https://api.btstu.cn/sjbz/api.php",
     "sites": [
         {
             "key": "豆豆",
@@ -76,7 +76,7 @@
             "changeable": "0",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg9L+drzR5a6bo7DML9hTEHvIuMN0JxvcbUflFgvOz4etZ9cUsZ0b7NskUhkBZr0Id9PbDIgsZ9ekl9fNeS9q4Xipo9oU6Q5Q6atElwpmoHUGKPqBr5XvHEJiNqliypf3Ch+p8IfjaEUxnG3XYlNxjw3ciN36BLBmKbludBzyfsiGmglc5Hdmw/3KJo9M6OCUspScOAuOhnQIPCiP6a6PFuOOxS+7z5Z/FV0k3Ee9fQIVuwE7nNgRUFWRinsDSuhPjKBd/SrLfu0rxSNOfsukdYXkcvGadhMos8qXcpGJVZVLXOfgqfJkyrlbFa8XJWQ9m9bDjfSOZbHqtC5kNkxfArWP9v2MC2jUcC4cEXk8ANYyYBMcAfo/zIpXdTsEBNC3nyXfAz+PVcPD00bRb2eSgBaNi7EShnmcFJ07jecOaWoCcXiVUOJ6GEJa9G11HhGW4g="
+            "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg+2RfEareoNuL/Pl5M72Qa7kLxIiSX9vw43FPihBY2n/maEHOEs7WGA2T/7NojmydALUIhhnc3jYOnh2KHHfokMo6IosAN/HGNN8Je7i0Q/rCJt+qvuglBYeJM+3KOvqRoAjFEtGWMIO4HmbteO16itktROL+xInERNUR0+M+8v3YhuLM3LsniomLauA0b+XyNqqjoTS9lBZFYqI3Pi8Gvi/QeEKbT8gJfKPIrDFcmkRYA3Otk80eCyEibHw3hYvexl7bB9NLbGbhaNkBprzdTykwjP/eLv1ewrxm8G9Z/CR10iCP2H0jNgk66cr9pJcmBlI8E111c+8rO5tj/CneVAB47YuwlWLYTe7hGNJq9ImoLPakTrArhHE3tO1kGvUNSSuBpsHgyWKM9yLo6mMxSdRCql805ssvng9k6Ts+uxXTYGsF5ChBMoPo9piGtr5n1uWfLx7NH6OmBdJKKxHEq1TugmFEnVBAGHHEL2SqRt+g=="
         },
         {
             "key": "csp_Bili",
@@ -137,18 +137,11 @@
             "ext": "https://www.wwgz.cn"
         },
         {
-            "key": "晴天",
-            "name": "☀️晴天┃1080P",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMknxZ67tu9z+phb0aSTvZQgyA6q0xr5CADU+Ci4NlKxGdylKHER46Cs4iIIIx6DdbWw0Sng/Z0F+jfaucg9epO4FUb/E7RG8NezsS+R4Dvsb4o50UjQG9bvlSBY9p/s5XD9KtJNMrH5tj1EbC6eEwZ4KOT7oCjM7uBxZRVhTmijQCvcoza/h46Fz6BrnGO68PxIg=="
-        },
-        {
-            "key": "悠悠",
+            "key": "大梦",
             "name": "🏆悠悠┃1080P",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn/SuTAP3sPRQGBWuLvcmqKyisRVD3dX3O6Gp6eI50QK/b1ljvOYBDl+JqRwVQfcUQSM8vrh+mlBcTrvwF+gVaAWsvNW8jQQZf0K3/I/qJXQPUWmGE4fM0JKlDhFBVtEDYzfWMzOu40lTr/+guo8bJ6smivOCC7uQ2MArjDOj/vOScvoWqmIM2eesFSyClC/Qp9bCMZd4OOyCoe9MTI3RaBZE/IObZ0dMZZ6JgS5S5yal"
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9QhUgBx3GxtTiVGKW2EUdoznFA44qgk+2UMgFRBsVPTy5Vuu99xqFetKxAP1cesStoS652zBvk45bfssFJss98/ortS2qhr2lA1mE/gUFVzB1F/NCkbvR04HM6/elu1JXMu1pzEwvZMFtqUQNyun+OtDwbiiVo1zTHngiWb/vgE"
         },
         {
             "key": "彼岸",
@@ -161,8 +154,9 @@
             "key": "再看",
             "name": "🔭再看┃1080P",
             "type": 3,
+            "quickSearch": 1,
             "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMknz+i4ffRorIRZjjcJiBr38z7bvJQDA/gj8tVTCLdlHvgssqNDyUkkSbMM+DLFI84xCpUE24hJxHHQxh/6e5bg7jQ0uWTdELk4IH4xxKtfyyKWbccPYruj7hX+lPSpaWNjk1ibLuC4+KKQSKp68VHdSOka6yGYqgO2DLVooXxfsgtQ79Hg5Uc8KtD5/Oa6cAfcQ=="
+            "ext": "sHR2rlsfjI4L3t4RXQMknz+i4ffRorIRZjjcJiBr38wb5nwBciO6ms6RNqBIVi1QB7PRspm4f6MrvIOTd++7FMqkk2yG1eGTUUzyqIbYT58chQYyOMy+COm7unddRux9fFr5h0OEYTptHw9PnRiTV+JAXmIsIgUDKAamVsoOxAyhlMsA0WCzqY0OMMVhCnjjZNeioODGEF/HaKVwMC7i7GkxX/1SkEhN54oZYjGADVp/JQD55mycg7C8p5BmUHb0"
         },
         {
             "key": "csp_Lgyy",
@@ -267,19 +261,12 @@
             "api": "csp_Jpys"
         },
         {
-            "key": "csp_Lkdy",
-            "name": "💐来看┃1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_Lkdy"
-        },
-        {
-            "key": "追忆",
-            "name": "✴星光┃1080P",
+            "key": "海马",
+            "name": "🐎海马┃1080P",
             "type": 3,
             "quickSearch": 0,
-            "api": "csp_AppMiTo",
-            "ext": "or8dey6pioFw+XxkF2wS/RAzk3DzRGdI670hdzQc+Mikgjqjk9TLUbAA9F0iudN1/EXY443m7GHk8GjSrx5HqSIJwhkFw/xSNAD7EWUrLDF6HohBg/KuqjTeaDuMIXz7cBXwt1KPJLptozlzoIMYeWIXu6G0zPvUHi/rxqkaq6IWp1t9tTKX7JnqKU/XhyNt"
+            "api": "./api/haima.py",
+            "ext": ""
         },
         {
             "key": "csp_MiSou",

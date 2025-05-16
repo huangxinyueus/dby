@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "drpy_js_豆瓣",
-            "name": "导航|小虎斑的口粮 v4.8",
+            "name": "导航|小虎斑的口粮 v5.4",
             "type": 3,
             "api": "csp_Douban",
             "ext": "./json/douban.json"
@@ -179,6 +179,20 @@
             "ext": "DyoqWQIrBwMuGydIIwtMES4rMQAsNQ1EIwgpXy8VMQIvIldACyFNHgAnKVoGOSRCPjE1AyhdAEUGKS8HIhtAESw7OQAsCzdEIDYtHCwFD0MsNTsEIlA+HgA8UQUADDxdCyZBHjg3Ig84OSB7NCZIECwsMh0BKSxBNCZIESwrKQIvIjQDDzUqBQNePgwAJV5bJxs2BgUnOgItCFZHIzY9WS0FMUcuCzsAIggxXS4FPUQtMldZDSUTHwA4XR44OQkeDSU+EAJdPg8xNj8IIwg1BDg3KgIDNj8IIzY5HiwrKRgGDAJaNDVBPwICH0w="
         },
         {
+            "key": "风神",
+            "name": "风神|弹幕",
+            "type": 3,
+            "api": "csp_HBv1Class",
+            "ext": "DyoqWQInJUMuGFdINDU2AQMoEEAuDFdLDRtJAwMGWR8DJjhENFAqWC0CLgYDOQIADA82Ey0CJgMAMldLCzFBAQIoAwAGKQYB"
+        },
+        {
+            "key": "追忆",
+            "name": "追忆|弹幕",
+            "type": 3,
+            "api": "csp_HBv1Class",
+            "ext": "DyoqWQInJUMuGFcDDzo5HCw7IQ8BJihEIg82HC0VLUEsJQkBIDY9ESwrKQMHDBlHCwwTHAUnAEU="
+        },
+        {
             "key": "0°",
             "name": "0°|弹幕",
             "type": 3,
@@ -192,11 +206,18 @@
             "ext": "0###DyoqWQIrBwMuUyBLCw8xHAMnBEAHOTwDIg82HC1dLgIDMltGDyo5Hzg3KgIuGCNbJ1AQWQUnKUMuGFdZDSo6XAM8XQYHOQIECiohHDhdXAM7OSxBIlAUHDsoPkEyUixZDQw2BQJfBB4yNStcNzo6HgA4OUwvNS9GIyY5BAUCBB44NldnDQ8PUA"
         },
         {
-            "key": "米兔",
-            "name": "米兔|弹幕",
+            "key": "演员",
+            "name": "演员|弹幕",
             "type": 3,
-            "api": "csp_HBgetapp",
-            "ext": "eyJob3N0IjoiaHR0cDovL3YudGtib3QuZnVuLyIsImtleSI6IlpEQXpNbU14TWpnM05tSmpOamcwT0E9PSIsIml2IjoiWkRBek1tTXhNamczTm1Kak5qZzBPQT09In0="
+            "api": "csp_HBmoou",
+            "ext": "DyoqWQInJUMuGFcDDFApHDsCPgUGUyhENBtNAzgWUEg="
+        },
+        {
+            "key": "橘子",
+            "name": "橘子|弹幕",
+            "type": 3,
+            "api": "csp_HBmoou",
+            "ext": "DyoqWQInJUMuGFdZDwwuXwA8XUUAUi9HJxs1AwAnOkUBKSMHIhtBXQABPkMDMlsBDFE5HygWJR9XEANoWwNKOCgWJR8sIlpIIgg5AygWJUc7NT8FIw89WiwoIUEvJjhdNA81XCgWJR87GwUEIDYfEC8CLQ84NQkDNA8uAjsuVUg="
         },
         {
             "key": "驿站",
@@ -310,6 +331,13 @@
             "type": 3,
             "api": "csp_Wcai",
             "ext": "https://www.gs4x7nq4.com"
+        },
+        {
+            "key": "米兔",
+            "name": "米兔|弹幕",
+            "type": 3,
+            "api": "csp_HBgetapp",
+            "ext": "eyJob3N0IjoiaHR0cDovL3YudGtib3QuZnVuLyIsImtleSI6IlpEQXpNbU14TWpnM05tSmpOamcwT0E9PSIsIml2IjoiWkRBek1tTXhNamczTm1Kak5qZzBPQT09In0="
         },
         {
             "key": "影坛",
