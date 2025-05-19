@@ -31,15 +31,6 @@
             }
         },
         {
-            "key": "瓜子",
-            "name": "🍉瓜子",
-            "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_ReBo",
             "name": "☀️热播",
             "type": 3,
@@ -112,15 +103,6 @@
             "name": "🦌奇优",
             "type": 3,
             "api": "csp_Qiyou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Wetv",
-            "name": "🚗尘落",
-            "type": 3,
-            "api": "csp_Wetv",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -214,6 +196,29 @@
             }
         },
         {
+            "key": "西瓜",
+            "name": "🍉西瓜",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://sszzyy.com/",
+                "分类url": "https://sszzyy.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+                "分类": "电影$20#剧集$37",
+                "标题": "title=\"*\">&&</div>",
+                "图片": "data-original=\"&&\"",
+                "链接": "href=\"&&\"",
+                "播放数组": "content_playlist&&</ul>",
+                "播放列表": "<a&&</a>",
+                "播放标题": ">&&</a>",
+                "跳转播放链接": "src=\"&&\"",
+                "线路数组": "class=\"titleName cr3 swiper-slide&&</a>",
+                "线路标题": ">&&</a>"
+            }
+        },
+        {
             "key": "csp_Ddys",
             "name": "📺低端",
             "type": 3,
@@ -268,7 +273,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.xlmp4.com"
+            "ext": "https://mp4.z6.net.cn/"
         },
         {
             "key": "csp_New6v",
@@ -322,7 +327,8 @@
             "api": "csp_MeijuMi",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.meijumi.net/"
         },
         {
             "key": "csp_BLSGod",
@@ -523,19 +529,6 @@
             }
         },
         {
-            "key": "清影",
-            "name": "🥛清影",
-            "type": 3,
-            "api": "csp_kongbai",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "./json/peizhi.json",
-                "siteUrl": "https://revohd.com/",
-                "filter": "./json/wogg.json"
-            }
-        },
-        {
             "key": "大玩偶",
             "name": "🐼大玩偶",
             "type": 3,
@@ -594,7 +587,33 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://123.666291.xyz//",
+                "siteUrl": "http://123.666291.xyz/",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "百家",
+            "name": "💯百家",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "http://cj.jiexi.news",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "清影",
+            "name": "🥛清影",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "https://revohd.com/",
                 "filter": "./json/wogg.json"
             }
         },
