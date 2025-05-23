@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "drpy_js_豆瓣",
-            "name": "导航|小虎斑的口粮 v5.5",
+            "name": "导航|小虎斑的口粮 v5.7",
             "type": 3,
             "api": "csp_Douban",
             "ext": "./json/douban.json"
