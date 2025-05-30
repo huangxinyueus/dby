@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号【杰歌软件APP】如有收费,直接找退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖",
+            "name": "公众号【杰歌软件APP】如有收费,直接找退款",
             "type": 0,
-            "url": "./lives/公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖.txt",
+            "url": "./lives/公众号【杰歌软件APP】如有收费,直接找退款.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -22,20 +22,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖",
+            "name": "📢公众号【杰歌软件APP】如有收费,直接找退款",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖公告❤更新:5/16❤",
+            "name": "📢公众号【杰歌软件APP】如有收费,直接找退款公告❤更新:5/23❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖"
+            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【杰歌软件APP】如有收费,直接找退款"
         },
         {
             "key": "csp_woog",
@@ -52,7 +52,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 285,
+                    "chunksize": 297,
                     "threads": 15
                 }
             }
@@ -80,7 +80,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 271,
+                    "chunksize": 222,
                     "threads": 60
                 }
             }
@@ -294,19 +294,6 @@
             }
         },
         {
-            "key": "驿站",
-            "name": "💡驿站｜影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://110.42.107.216:56677",
-                "dataKey": "d7378557d1d9c924",
-                "dataIv": "fb4594f622f34fea",
-                "jxurl": "https://qqiqiyiyoukumgtvapiappdyyztvjsoni8n2o0z1ws2n7b6v3x8.68.gy:56789"
-            }
-        },
-        {
             "key": "永夜",
             "name": "💡永夜｜影视",
             "type": 3,
@@ -391,7 +378,7 @@
         },
         {
             "key": "集多",
-            "name": "💡集多｜APP",
+            "name": "💡集多｜影视",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -404,22 +391,8 @@
             }
         },
         {
-            "key": "牛马",
-            "name": "💡牛马｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://nm.xxxc137.top",
-                "dataKey": "a006661b01bdebbd",
-                "dataIv": "a006661b01bdebbd",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "橘子",
-            "name": "💡橘子｜APP",
+            "name": "💡橘子｜影视",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -454,6 +427,22 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Wwys",
+            "name": "💡农民｜影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
+            "key": "csp_baibai",
+            "name": "💡白白｜影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_SuBaiBai",
+            "ext": "https://www.subaibai.com"
         },
         {
             "key": "csp_XYQHiker_农民影视",

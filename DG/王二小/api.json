@@ -85,6 +85,24 @@
             "timeout": 120
         },
         {
+            "key": "WexZHyunchao",
+            "name": "💓云巢┃4K💓",
+            "type": 3,
+            "api": "csp_WexZHyunchaoGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 120
+        },
+        {
+            "key": "WexPanku8",
+            "name": "💓盘库┃4K💓",
+            "type": 3,
+            "api": "csp_WexPanku8Guard",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 120
+        },
+        {
             "key": "WexTuanZhangGuard",
             "name": "💓团长┃4K💓",
             "type": 3,
@@ -106,14 +124,6 @@
             "name": "💓鸟巢┃4K💓",
             "type": 3,
             "api": "csp_WexyingchaoGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexwanni",
-            "name": "💓玩你┃4K💓",
-            "type": 3,
-            "api": "csp_WexwanniGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -142,22 +152,6 @@
             "changeable": 1
         },
         {
-            "key": "WextexiafanGuard",
-            "name": "💓下饭┃4K💓",
-            "type": 3,
-            "api": "csp_WextexiafanGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexbaijiaGuard",
-            "name": "💓百家┃4K💓",
-            "type": 3,
-            "api": "csp_WexbaijiaGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "趣盘",
             "name": "💓‍趣盘┃4K💓‍",
             "type": 3,
@@ -173,14 +167,6 @@
             "name": "💓‍盘他┃4K💓‍",
             "type": 3,
             "api": "csp_WexYDpantaGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexpan123ziyuanGuard",
-            "name": "💓‍123┃4K💓‍",
-            "type": 3,
-            "api": "csp_Wexpan123ziyuanGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -215,23 +201,6 @@
             "api": "csp_WexydbixinGuard",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "Wex123qingying",
-            "name": "💓清影┃123💓",
-            "type": 3,
-            "api": "csp_Wex123qingyingGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wex4kfmGuard",
-            "name": "💓影库┃4K💓",
-            "type": 3,
-            "api": "csp_Wex4kfmGuard",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 120
         },
         {
             "key": "Wexalllive",
