@@ -53,8 +53,9 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "https://www.erixaopan.fun",
-                    "http://erixaopan.fun/",
+                    "https://erixaopan.fun/",
+                    "https://2xiaopan.fun/",
+                    "https://www.2xiaopan.fun/",
                     "https://erxiaofn.click/",
                     "https://www.xhww.net/"
                 ],
@@ -77,6 +78,28 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg+2RfEareoNuL/Pl5M72Qa7kLxIiSX9vw43FPihBY2n/maEHOEs7WGA2T/7NojmydALUIhhnc3jYOnh2KHHfokMo6IosAN/HGNN8Je7i0Q/rCJt+qvuglBYeJM+3KOvqRoAjFEtGWMIO4HmbteO16itktROL+xInERNUR0+M+8v3YhuLM3LsniomLauA0b+XyNqqjoTS9lBZFYqI3Pi8Gvi/QeEKbT8gJfKPIrDFcmkRYA3Otk80eCyEibHw3hYvexl7bB9NLbGbhaNkBprzdTykwjP/eLv1ewrxm8G9Z/CR10iCP2H0jNgk66cr9pJcmBlI8E111c+8rO5tj/CneVAB47YuwlWLYTe7hGNJq9ImoLPakTrArhHE3tO1kGvUNSSuBpsHgyWKM9yLo6mMxSdRCql805ssvng9k6Ts+uxXTYGsF5ChBMoPo9piGtr5n1uWfLx7NH6OmBdJKKxHEq1TugmFEnVBAGHHEL2SqRt+g=="
+        },
+        {
+            "key": "csp_Duopan",
+            "name": "🖍蜡笔┃4K弹幕",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "https://feimao666.fun",
+                    "http://feimao888.fun",
+                    "http://feimaoai.site",
+                    "http://www.labi88.sbs",
+                    "http://fmao.site",
+                    "https://fmao.shop"
+                ],
+                "threadinfo": {
+                    "chunksize": 512,
+                    "threads": 16
+                },
+                "url_key": "Duopan4"
+            }
         },
         {
             "key": "csp_Bili",
@@ -116,6 +139,16 @@
             "changeable": 0
         },
         {
+            "key": "csp_臻彩",
+            "name": "🥽臻彩┃4K4K",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://cms.lygdyy.cn/api.php/app/"
+        },
+        {
             "key": "天天",
             "name": "🦢天天┃1080P",
             "type": 3,
@@ -132,7 +165,7 @@
         },
         {
             "key": "QD4K",
-            "name": "🐷猪猪┃QD4K",
+            "name": "🐷猪猪┃单线4K",
             "type": 3,
             "api": "csp_AppYsV2",
             "playerType": 2,
@@ -151,7 +184,7 @@
             "name": "🏆悠悠┃1080P",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn/SuTAP3sPRQGBWuLvcmqKzB0VDXHCXpl1Ugjr+FDbThLkOlJw+enu5rX6Gi5Eay7fQsWqXd6BDxJiUQhlgoJK8e5xxCJ9nwrwj6kMUp/6p1VRAifgbuhWRNt3QvwDcQuVprQOm1sPpNIA5/4ETbh6NqiJMytm2GvLOT5q1V4JL0o8yS7Wi/DzRESarcZqtQFezwR4OOFRPb87F1DN64FdniYrg/3iFRnSnv+xlFM0WM"
+            "ext": "sHR2rlsfjI4L3t4RXQMkn79xB3JdCtvHn5YENUym6LyErzV6pLGVtifqGcc9Sy43MR8tVRppqG7EldVGDzg4DYFriUwhmAtX9IMMJV6enkR2BPZKdfRENYUR+2ul82lNN/JYLk4c2LicrYG8kYvBuWxKWOs6tilF1YG86e0wjH1KhRVseD1JKpM96FaPPw6I74qMxH6Ifd+L4pQ84rLzs9WKT1q8lGsTzIZ5+R7XYsbN2Jz+bJOJTAVWPbV3dDD1"
         },
         {
             "key": "彼岸",
@@ -162,7 +195,7 @@
         },
         {
             "key": "巧技",
-            "name": "🚗聚搜┃1080P",
+            "name": "🚗聚搜┃单线4K",
             "type": 3,
             "api": "csp_qiao2",
             "playerType": 2,
@@ -174,27 +207,20 @@
             "name": "🐀仓鼠┃1080P",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn97DqO5wP33F1y10iaPo6JFu7Gir00j3R0d6YiQaenvx6EGiBJ/LlFQxikHgxre5aUQs2IWp/rVBIYH9Z5N2lw6Wr6XNDhBuprneT4IeVDEibuFC81JN91ioyOFhZ0Eay51Y9BbamMP6wCWeW6UKiIOLLKTzVCa8r7ptIZGmX6oDimujZatCIppyCf81QNmW2g=="
+            "api": "csp_AppGet2",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn85YdqME5ZFXdHXyEUNrexXmXuKOZHlPhQJvT6ZKEMODJQuGTLg+gpKS+XoOxUH8DdjcutGqV/lfrY9l/Ww/J/LYA0AH34KTXsOeg1p5p+KSYaG5at+IT/dqPugeQjLLpkECHqWJpIs4B2evdM7dDIOBuPmMrT5lbU1yNZHMNkr8tConVxhS1qlq57WIByuNTQ=="
         },
         {
-            "key": "再看",
-            "name": "🔭再看┃1080P",
+            "key": "水滴",
+            "name": "💧水滴┃1080P",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMknz+i4ffRorIRZjjcJiBr38wb5nwBciO6ms6RNqBIVi1QB7PRspm4f6MrvIOTd++7FMqkk2yG1eGTUUzyqIbYT58chQYyOMy+COm7unddRux9fFr5h0OEYTptHw9PnRiTV+JAXmIsIgUDKAamVsoOxAyhlMsA0WCzqY0OMMVhCnjjZNeioODGEF/HaKVwMC7i7GkxX/1SkEhN54oZYjGADVp/JQD55mycg7C8p5BmUHb0"
-        },
-        {
-            "key": "csp_Lgyy",
-            "name": "⏳️️流光┃1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_FreeOk"
+            "api": "csp_AppGet2",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9964m8oyAP5Q1pq67Vyh7V8ESTgG/jVLrcHt3eKCMbyNGbDyZFu9n7Zd6zMxZJXTkhGtT9DNgJA5YOi9roHwbrmlgGw3de3X42kvYAYCcSnIqa9zR24cDQyq4GwTX7H3QnCkd4xZNrHiLxgPc6nD8L96MLxkLnsYlMQbDTPCOQW"
         },
         {
             "key": "牛牛",
-            "name": "🐂牛牛┃1080P",
+            "name": "🐂牛牛┃单线4K",
             "type": 3,
             "api": "./api/mioaying.py"
         },
@@ -227,7 +253,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9964m8oyAP5Q1pq67Vyh7V8ESTgG/jVLrcHt3eKCMbyNGbDyZFu9n7Zd6zMxZJXTkhGtT9DNgJA5YOi9roHwbrmlgGw3de3X42kvYAYCcSnIqa9zR24cDQyq4GwTX7H3QnCkd4xZNrHiLxgPc6nD8L96MLxkLnsYlMQbDTPCOQW"
+            "ext": "sHR2rlsfjI4L3t4RXQMknwVOqdD9gPzfYgo/IDVldfFlUVRxMhFa2sMsM3jbFDHf0JeBOxGU/o2kx5CXvQT/L2bX6V7O1a4e1OUxpnYI11YpBWQjTFE4gjUC579JwV+7XsWgMJ35bTzURfWg+DYOBr8Qaiyjp0ceuD6TwFyfcNku38N3wEf629K9W7TYaAEe"
         },
         {
             "key": "享趣",
@@ -292,6 +318,14 @@
             "type": 3,
             "quickSearch": 0,
             "api": "./api/haima.py",
+            "ext": ""
+        },
+        {
+            "key": "测试",
+            "name": "🐓剧霸┃1080P",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "./api/jubaba.py",
             "ext": ""
         },
         {

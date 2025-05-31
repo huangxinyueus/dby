@@ -176,6 +176,27 @@
             "ext": "DyoqWQIrBwMuGydIIwtMES4rMQAsNQ1EIwgpXy8VMQIvIldACyFNHgAnKVoGOSRCPjE1AyhdAEUGKS8HIhtAESw7OQAsCzdEIDYtHCwFD0MsNTsEIlA+HgA8UQUADDxdCyZBHjg3Ig84OSB7NCZIECwsMh0BKSxBNCZIESwrKQIvIjQDDzUqBQNePgwAJV5bJxs2BgUnOgItCFZHIzY9WS0FMUcuCzsAIggxXS4FPUQtMldZDSUTHwA4XR44OQkeDSU+EAJdPg8xNj8IIwg1BDg3KgIDNj8IIzY5HiwrKRgGDAJaNDVBPwICH0w="
         },
         {
+            "key": "坛影",
+            "name": "坛影|弹幕",
+            "type": 3,
+            "api": "csp_ApplvDV2",
+            "ext": "0###DyoqWQIrBwMuUyBFDRtNGgQ4DB4HOQVEN1BMHzg3KgUuDyxeDSFBAQInKQM="
+        },
+        {
+            "key": "叶子",
+            "name": "叶子|弹幕",
+            "type": 3,
+            "api": "csp_HBgetapp",
+            "ext": "eyJob3N0IjoiaHR0cHM6Ly9sa3Zsb2cuY24vIiwia2V5IjoiWlRZMU1UUTBNemc1WlRrek5qRmlOUT09IiwiaXYiOiJaVFkxTVRRME16ZzVaVGt6TmpGaU5RPT0ifQ=="
+        },
+        {
+            "key": "miaoying",
+            "name": "秒映|弹幕",
+            "type": 3,
+            "api": "csp_HBgetappapi",
+            "ext": "eyJob3N0IjoiaHR0cDovLzEyMS4yMDQuMjUxLjcwOjEyMDAwLyIsImtleSI6IlJqVXhSalZFTlRKRU1qTkROVEU0TVE9PSIsIml2IjoiUmpVeFJqVkVOVEpFTWpORE5URTRNUT09IiwidG9rZW4iOiIwOTgxYzBmNTUwYjg3MzdkYTkyZDUwNWNiYjZlOTM4MzM0ZTBiNDZjMDc0NGQ1Mzk5OWU4NDQ2ZDg3ZjdjNzQ5In0="
+        },
+        {
             "key": "风神",
             "name": "风神|弹幕",
             "type": 3,
@@ -276,13 +297,6 @@
             "type": 3,
             "api": "csp_HBgetapp",
             "ext": "eyJob3N0IjoiaHR0cHM6Ly9hcHBjbXMuc3VuNGsudG9wLyIsImtleSI6IllqQXlOV1JqWkRsak1qZzVZMkppTXc9PSIsIml2IjoiWWpBeU5XUmpaRGxqTWpnNVkySmlNdz09In0="
-        },
-        {
-            "key": "miaoying",
-            "name": "秒映|弹幕",
-            "type": 3,
-            "api": "csp_HBgetappapi",
-            "ext": "eyJob3N0IjoiaHR0cDovLzEyMS4yMDQuMjUxLjcwOjEyMDAwLyIsImtleSI6IlJqVXhSalZFTlRKRU1qTkROVEU0TVE9PSIsIml2IjoiUmpVeFJqVkVOVEpFTWpORE5URTRNUT09In0="
         },
         {
             "key": "磁力",
@@ -559,7 +573,7 @@
             "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
         },
         {
-            "name": "虎斑智能",
+            "name": "虎斑XM",
             "type": 1,
             "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getXmflvjx&url=",
             "ext": {
@@ -568,6 +582,21 @@
                     "Origin": "https://jx.xmflv.com"
                 }
             }
+        },
+        {
+            "name": "虎斑WS",
+            "type": 1,
+            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getWsjx&url="
+        },
+        {
+            "name": "虎斑AB",
+            "type": 1,
+            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getAbjx&url="
+        },
+        {
+            "name": "虎斑V6",
+            "type": 1,
+            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getV6jx&url="
         }
     ],
     "flags": [
