@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "修复阿狸 926【神秘的哥哥们】",
+            "name": "修复更新所有【神秘的哥哥们】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -694,13 +694,19 @@
     "logo": "https://cdn.wmpvp.com/steamWeb/B96F868DE45B45D690B5F9F490D0BC60-1745866248445.gif",
     "lives": [
         {
+            "name": "V4肥羊",
+            "type": 0,
+            "url": "./lives/V4肥羊.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
             "name": "V6范明明（需开启V6网络）",
             "type": 0,
             "url": "./lives/V6范明明（需开启V6网络）.txt",
             "epg": ""
         },
         {
-            "name": "牛播一（仅新版影视仓┃ok影视）",
+            "name": "牛播一",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"

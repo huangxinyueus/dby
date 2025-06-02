@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号【欧歌APP】测试完请删除,接口即将关停.提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖",
+            "name": "公众号【欧歌APP】测试完请删除,接口即将关停.",
             "type": 0,
-            "url": "./lives/公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖.txt",
+            "url": "./lives/公众号【欧歌APP】测试完请删除,接口即将关停..txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -22,20 +22,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖",
+            "name": "📢公众号【欧歌APP】测试完请删除,接口即将关停.",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖公告❤更新:5/28❤",
+            "name": "📢公众号【欧歌APP】测试完请删除,接口即将关停.公告❤更新:6/2❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【欧歌APP】接口即将关停，网络收集勿演示贩卖"
+            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【欧歌APP】测试完请删除,接口即将关停."
         },
         {
             "key": "csp_woog",
@@ -52,7 +52,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 296,
+                    "chunksize": 286,
                     "threads": 15
                 }
             }
@@ -80,7 +80,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 283,
+                    "chunksize": 240,
                     "threads": 60
                 }
             }

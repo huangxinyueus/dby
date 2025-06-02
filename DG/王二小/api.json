@@ -390,14 +390,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexvipduanju",
-            "name": "🍉短剧┃综合🍉",
-            "type": 3,
-            "api": "csp_WexvipduanjuGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexduanjuvop",
             "name": "🍉短剧┃秒播🍉",
             "type": 3,
@@ -418,14 +410,6 @@
             "name": "🍉短剧┃帝品🍉",
             "type": 3,
             "api": "csp_WexduanjuvmpGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexduanju001",
-            "name": "🍉短剧┃极品🍉",
-            "type": 3,
-            "api": "csp_Wexduanju001Guard",
             "searchable": 1,
             "changeable": 1
         },

@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "Tg|豆瓣",
-            "name": "🥟祝大家端午节快乐",
+            "name": "🅿Tg豆瓣┃本接口免费-🈲贩卖",
             "type": 3,
             "api": "csp_TgYunDouBanPan",
             "searchable": 1,
@@ -194,16 +194,6 @@
                 "跳转播放链接": "src=\"&&\"",
                 "线路数组": "class=\"titleName cr3 swiper-slide&&</a>",
                 "线路标题": ">&&</a>"
-            }
-        },
-        {
-            "key": "影视大全",
-            "name": "🎞影视大全",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://www.iysdq.cc/vodshow/{cateId}-{area}-------{catePg}---.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
             }
         },
         {
@@ -757,16 +747,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0
-        },
-        {
-            "key": "JRKAN直播",
-            "name": "🏀JRKAN直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/JRKAN直播.js"
         },
         {
             "key": "有声小说吧",
