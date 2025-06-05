@@ -368,21 +368,6 @@
             "changeable": 0
         },
         {
-            "key": "酷奇",
-            "name": "🎤酷奇┃MV",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "MTV",
             "name": "🎧明星┃MV",
             "type": 3,
@@ -693,12 +678,6 @@
     ],
     "logo": "https://cdn.wmpvp.com/steamWeb/B96F868DE45B45D690B5F9F490D0BC60-1745866248445.gif",
     "lives": [
-        {
-            "name": "V4肥羊",
-            "type": 0,
-            "url": "./lives/V4肥羊.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
         {
             "name": "V6范明明（需开启V6网络）",
             "type": 0,
