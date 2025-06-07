@@ -18,7 +18,7 @@ class Spider(Spider):
     def destroy(self):
         pass
 
-    host='http://item.xpgcom.com'
+    host='http://c.xpgtv.net'
 
     headers = {
       "User-Agent": "okhttp/3.12.11"

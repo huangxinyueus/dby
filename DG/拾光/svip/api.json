@@ -322,20 +322,6 @@
             }
         },
         {
-            "key": "乐看",
-            "name": "乐看｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://app.weis.vip",
-                "dataKey": "e65144389e9361b5",
-                "dataIv": "e65144389e9361b5",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "梦缘",
             "name": "梦缘｜APP",
             "type": 3,
@@ -406,6 +392,82 @@
                 "version": ""
             }
         },
+        {
+            "key": "溜溜",
+            "name": "溜溜｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://appcms.ll4k.xyz",
+                "dataKey": "NiDGaKiVnkO3QX1Q",
+                "dataIv": "NiDGaKiVnkO3QX1Q",
+                "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
+                "version": "200"
+            }
+        },
+               {
+            "key": "剧咖",
+            "name": "剧咖｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://ys.xiaoqi0.cn",
+                "dataKey": "jukayingshi88888",
+                "dataIv": "jukayingshi88888",
+                "deviceId": "20d9b2c01d130342a99fdc8d693bfc0cd",
+                "version": "112"
+            }
+        },
+              {
+            "key": "开心",
+            "name": "开心｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://tv.31hl.cn",
+                "dataKey": "2268331221bobobo",
+                "dataIv": "2268331221bobobo",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+              {
+            "key": "淘气",
+            "name": "淘气｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://api.heiykj.cn",
+                "dataKey": "4990488248904884",
+                "dataIv": "4990488248904884",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+         {
+      "key": "csp_appys_臻彩",
+      "name": "臻彩｜APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
+    },
+    {
+      "key": "臻彩天堂",
+      "name": "天堂｜APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmstt.lfytv.cn/api.php/app/"
+    },
         {
       "key": "剧下饭",
       "name": "下饭｜APP",
