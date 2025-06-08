@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "修复更新所有【神秘的哥哥们】",
+            "name": "修复蛋木【神秘的哥哥们】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -352,20 +352,6 @@
             "style": {
                 "type": "list"
             }
-        },
-        {
-            "key": "Jrsjs",
-            "name": "⚽ Jrs┃球迷",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
-            "style": {
-                "type": "list"
-            },
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "MTV",

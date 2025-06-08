@@ -172,8 +172,7 @@
             "key": "馆源",
             "name": "馆源|自定",
             "type": 3,
-            "api": "csp_HB360",
-            "ext": "DyoqWQIrBwMuGydIIwtMES4rMQAsNQ1EIwgpXy8VMQIvIldACyFNHgAnKVoGOSRCPjE1AyhdAEUGKS8HIhtAESw7OQAsCzdEIDYtHCwFD0MsNTsEIlA+HgA8UQUADDxdCyZBHjg3Ig84OSB7NCZIECwsMh0BKSxBNCZIESwrKQIvIjQDDzUqBQNePgwAJV5bJxs2BgUnOgItCFZHIzY9WS0FMUcuCzsAIggxXS4FPUQtMldZDSUTHwA4XR44OQkeDSU+EAJdPg8xNj8IIwg1BDg3KgIDNj8IIzY5HiwrKRgGDAJaNDVBPwICH0w="
+            "api": "csp_HB360"
         },
         {
             "key": "坛影",
@@ -181,6 +180,32 @@
             "type": 3,
             "api": "csp_ApplvDV2",
             "ext": "0###DyoqWQIrBwMuUyBFDRtNGgQ4DB4HOQVEN1BMHzg3KgUuDyxeDSFBAQInKQM="
+        },
+        {
+            "key": "XBPQH1B",
+            "name": "可可|弹幕",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": "./json/KKYS.json"
+        },
+        {
+            "key": "234XBPQ",
+            "name": "234|弹幕",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": {
+                "首页": "0",
+                "数组": "class=\"stui-vodlist__thumb&&</h4>",
+                "图片": "original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "text-right\">&&</span>",
+                "链接": "href=\"&&\"",
+                "免嗅": "1",
+                "播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+                "播放列表": "<li&&</li>",
+                "分类url": "https://ikan234.com/list/{cateId}-{catePg}.html",
+                "分类": "电视剧$2#电影$1#动漫$4#短剧$5#综艺$3"
+            }
         },
         {
             "key": "叶子",

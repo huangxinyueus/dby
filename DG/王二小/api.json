@@ -94,15 +94,6 @@
             "timeout": 120
         },
         {
-            "key": "WexPanku8",
-            "name": "💓盘库┃4K💓",
-            "type": 3,
-            "api": "csp_WexPanku8Guard",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 120
-        },
-        {
             "key": "WexTuanZhangGuard",
             "name": "💓团长┃4K💓",
             "type": 3,
