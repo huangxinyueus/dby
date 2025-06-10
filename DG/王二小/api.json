@@ -718,6 +718,17 @@
             }
         },
         {
+            "key": "瓜子看球",
+            "name": "🌐瓜子┃体育🌐",
+            "type": 3,
+            "api": "csp_WexGZsportGuard",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "WexTJso",
             "name": "🎠TJ┃综合🎠",
             "type": 3,
