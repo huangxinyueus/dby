@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【欧歌APP】测试完请删除,接口即将关停.提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号【光歌软件分享】请勿演示贩卖，接口即将关停提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【欧歌APP】测试完请删除,接口即将关停.",
+            "name": "公众号【光歌软件分享】请勿演示贩卖，接口即将关停",
             "type": 0,
-            "url": "./lives/公众号【欧歌APP】测试完请删除,接口即将关停..txt",
+            "url": "./lives/公众号【光歌软件分享】请勿演示贩卖，接口即将关停.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -22,20 +22,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【欧歌APP】测试完请删除,接口即将关停.",
+            "name": "📢公众号【光歌软件分享】请勿演示贩卖，接口即将关停",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公众号【欧歌APP】测试完请删除,接口即将关停.公告❤更新:6/8❤",
+            "name": "📢公众号【光歌软件分享】请勿演示贩卖，接口即将关停公告❤更新:6/14❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【欧歌APP】测试完请删除,接口即将关停."
+            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【光歌软件分享】请勿演示贩卖，接口即将关停"
         },
         {
             "key": "csp_woog",
@@ -44,7 +44,6 @@
             "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
-            "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.eu.org",
@@ -52,7 +51,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 264,
+                    "chunksize": 304,
                     "threads": 16
                 }
             }
@@ -80,7 +79,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 239,
+                    "chunksize": 291,
                     "threads": 60
                 }
             }
@@ -215,12 +214,6 @@
             "filterable": 1
         },
         {
-            "key": "私人影视",
-            "name": "💡私人｜影视",
-            "type": 3,
-            "api": "csp_Siren"
-        },
-        {
             "key": "苹果影视",
             "name": "💡苹果｜影视",
             "type": 3,
@@ -228,14 +221,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "火火影视",
-            "name": "💡火火｜影视",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "playerType": 2,
-            "ext": "https://shdy5.us"
         },
         {
             "key": "爱看机器人",
@@ -454,25 +439,11 @@
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": {
-                "url": "http://160.202.243.62:2566",
+                "url": "http://160.202.244.9:6659",
                 "dataKey": "qwertyuiopqwerty",
                 "dataIv": "qwertyuiopqwerty",
                 "deviceId": "",
                 "version": "120"
-            }
-        },
-        {
-            "key": "麒麟",
-            "name": "👑麒麟｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.70yy.fun",
-                "dataKey": "sfsdgsgcccss55xa",
-                "dataIv": "sfsdgsgcccss55xa",
-                "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
-                "version": "100"
             }
         },
         {
@@ -586,20 +557,6 @@
             }
         },
         {
-            "key": "剧咖",
-            "name": "👑剧咖｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://ys.xiaoqi0.cn",
-                "dataKey": "jukayingshi88888",
-                "dataIv": "jukayingshi88888",
-                "deviceId": "20d9b2c01d130342a99fdc8d693bfc0cd",
-                "version": "112"
-            }
-        },
-        {
             "key": "瓜萌",
             "name": "👑瓜萌｜弹幕",
             "type": 3,
@@ -628,59 +585,31 @@
             }
         },
         {
-            "key": "乐乐",
-            "name": "👑乐乐｜弹幕",
+            "key": "麻花",
+            "name": "👑麻花｜弹幕",
             "type": 3,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://get.le163.top",
-                "dataKey": "4f870065c9c193fc",
-                "dataIv": "4f870065c9c193fc",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "开心",
-            "name": "👑开心｜弹幕",
-            "type": 3,
-            "quickSearch": 0,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://tv.31hl.cn",
-                "dataKey": "2268331221bobobo",
-                "dataIv": "2268331221bobobo",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "追剧",
-            "name": "👑追剧｜弹幕",
-            "type": 3,
-            "quickSearch": 0,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://sjapp.wuyanzu.top/",
-                "dataKey": "weyuhgiohgsytwhj",
-                "dataIv": "weyuhgiohgsytwhj",
+                "url": "http://49.235.114.19:130",
+                "dataKey": "q7gj4f9br3fls6nh",
+                "dataIv": "q7gj4f9br3fls6nh",
                 "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "119"
+                "version": "700"
             }
         },
         {
-            "key": "恋鱼",
-            "name": "👑恋鱼｜弹幕",
+            "key": "海豚",
+            "name": "👑海豚｜弹幕",
             "type": 3,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://14.103.245.78",
-                "dataKey": "2234567890123456",
-                "dataIv": "2234567890123456",
+                "url": "https://appcms.htsp4k.top",
+                "dataKey": "7CYQQzwchRQpHCOj",
+                "dataIv": "7CYQQzwchRQpHCOj",
                 "deviceId": "",
-                "version": "119"
+                "version": ""
             }
         },
         {
@@ -1367,14 +1296,7 @@
             "api": "csp_Push",
             "searchable": 0,
             "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "115_cookie": "http://127.0.0.1:9978/file/TVBox/115.txt",
-                "danmu": true
-            }
+            "changeable": 0
         },
         {
             "key": "应用商店",

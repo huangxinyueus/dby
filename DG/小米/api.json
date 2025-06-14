@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌈豆瓣┃请测试完删除处理",
+            "name": "🌈豆瓣┃请测试完删除处理 做了个防走丢链接：https://link3.cc/lovemm",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -259,7 +259,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "ext": "sHR2rlsfjI4L3t4RXQMknwVOqdD9gPzfYgo/IDVldfFlUVRxMhFa2sMsM3jbFDHf0JeBOxGU/o2kx5CXvQT/L2bX6V7O1a4e1OUxpnYI11YpBWQjTFE4gjUC579JwV+7XsWgMJ35bTzURfWg+DYOBr8Qaiyjp0ceuD6TwFyfcNku38N3wEf629K9W7TYaAEe"
+            "ext": "0YM2rlqPCLd5eMAslwMf/mBbJX8M/CJVJCQyX2zM7tGdJikFHnx0KfXl4Mi9ORXxU3BxW+JS6MfS0whs911q3EwpaHe1R3A52b2fgxNOgvG5WXvTuLPxtCV9bQCcdRk/XVIoWdYLfkopEVDcAB5LPdzjO7/5FuJbIsGxUWtLsNdGr0PMMzIxq80pHqFeiqAk1uiMRyrtr+YjnEpwFqNZxDCdrdw7WXIAnI0cXjOQOV5WmFUb/3kvXMnEetzMn9tC"
         },
         {
             "key": "csp_AppXY",
@@ -404,24 +404,6 @@
     ],
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739415605613/015dae5bcd1ff5a801213dea55f8c4.jpg",
     "lives": [
-        {
-            "name": "央卫",
-            "type": 0,
-            "url": "./lives/央卫.txt",
-            "epg": ""
-        },
-        {
-            "name": "V4聚合（卡顿请按左┃右键换线）",
-            "type": 0,
-            "url": "./lives/V4聚合（卡顿请按左┃右键换线）.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV6",
-            "type": 0,
-            "url": "./lives/IPV6.txt",
-            "epg": ""
-        },
         {
             "name": "平台直播",
             "type": 0,

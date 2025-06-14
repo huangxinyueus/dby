@@ -58,14 +58,20 @@
             "filterable": 1
         },
         {
-            "key": "csp_Wwys",
+            "key": "农民",
             "name": "👩‍🌾农民",
             "type": 3,
-            "api": "csp_Wwys",
+            "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://wwgz.cn"
+            "ext": {
+                "请求头": "手机",
+                "编码": "UTF-8",
+                "简介": "简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：&&</p>",
+                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-time-class-0-year-{year}-letter--area-{area}-lang-.html",
+                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
+            }
         },
         {
             "key": "csp_Lkdy",
