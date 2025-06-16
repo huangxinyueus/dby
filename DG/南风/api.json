@@ -49,15 +49,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Siren",
-            "name": "🎉️私人",
-            "type": 3,
-            "api": "csp_Siren",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "农民",
             "name": "👩‍🌾农民",
             "type": 3,
@@ -83,17 +74,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_SaoHuo",
-            "name": "🔥骚火",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://shdy5.us"
-        },
-        {
             "key": "csp_Qiyou",
             "name": "🦌奇优",
             "type": 3,
@@ -110,6 +90,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "骚火",
+            "name": "🔥骚火",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "简介": "p_txt show_part\">&&</p>",
+                "副标题": "v_note\">&&</div>",
+                "分类url": "https://saohuody.com/list/{cateId}-{catePg}.html;;d1",
+                "分类": "国产剧$12#港剧$13#台剧$14#日剧$15#韩剧$16#美剧$17#海外$18#泰剧$19#动作$5#喜剧$6#爱情$7#科幻$8#恐怖$9#剧情$10#战争$11#动画$33"
+            }
         },
         {
             "key": "可可",
@@ -555,19 +547,6 @@
             "ext": {
                 "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://woog.nxog.eu.org",
-                "filter": "./json/wogg.json"
-            }
-        },
-        {
-            "key": "大玩偶",
-            "name": "🐼大玩偶",
-            "type": 3,
-            "api": "csp_kongbai",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://149.88.87.18:6688/",
                 "filter": "./json/wogg.json"
             }
         },

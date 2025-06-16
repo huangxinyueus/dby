@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【光歌软件分享】请勿演示贩卖，接口即将关停提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号【杰歌软件APP】如有收费,直接找退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【光歌软件分享】请勿演示贩卖，接口即将关停",
+            "name": "公众号【杰歌软件APP】如有收费,直接找退款",
             "type": 0,
-            "url": "./lives/公众号【光歌软件分享】请勿演示贩卖，接口即将关停.txt",
+            "url": "./lives/公众号【杰歌软件APP】如有收费,直接找退款.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -22,20 +22,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【光歌软件分享】请勿演示贩卖，接口即将关停",
+            "name": "📢公众号【杰歌软件APP】如有收费,直接找退款",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公众号【光歌软件分享】请勿演示贩卖，接口即将关停公告❤更新:6/14❤",
+            "name": "📢公众号【杰歌软件APP】如有收费,直接找退款公告❤更新:6/15❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【光歌软件分享】请勿演示贩卖，接口即将关停"
+            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【杰歌软件APP】如有收费,直接找退款"
         },
         {
             "key": "csp_woog",
@@ -51,7 +51,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 304,
+                    "chunksize": 309,
                     "threads": 16
                 }
             }
@@ -79,7 +79,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 291,
+                    "chunksize": 205,
                     "threads": 60
                 }
             }
@@ -279,6 +279,15 @@
             "ext": "https://www.wwgz.cn"
         },
         {
+            "key": "巧技",
+            "name": "🐢聚搜┃搜索",
+            "type": 3,
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "jar": "./jars/巧技.jar",
+            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+        },
+        {
             "key": "雨滴",
             "name": "👑雨滴｜弹幕",
             "type": 3,
@@ -419,48 +428,6 @@
             }
         },
         {
-            "key": "水滴",
-            "name": "👑水滴｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "http://1.94.105.93",
-                "dataKey": "gKdQKLbwhhLp4Ytv",
-                "dataIv": "gKdQKLbwhhLp4Ytv",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "咖啡",
-            "name": "👑咖啡｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "http://160.202.244.9:6659",
-                "dataKey": "qwertyuiopqwerty",
-                "dataIv": "qwertyuiopqwerty",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "淘气",
-            "name": "👑淘气｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://api.heiykj.cn",
-                "dataKey": "4990488248904884",
-                "dataIv": "4990488248904884",
-                "deviceId": "",
-                "version": "119"
-            }
-        },
-        {
             "key": "米兔",
             "name": "👑米兔｜弹幕",
             "type": 3,
@@ -498,34 +465,6 @@
                 "dataKey": "6a482a70b80eefc9",
                 "dataIv": "c995826a3e86fedd",
                 "jxurl": "https://www.ququkan.cc"
-            }
-        },
-        {
-            "key": "忍者",
-            "name": "👑忍者｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://mfxs123.sbs",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "沐沐",
-            "name": "👑沐沐｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://xk.ys088.cn",
-                "dataKey": "1846397456616237",
-                "dataIv": "1846397456616237",
-                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "119"
             }
         },
         {
@@ -568,34 +507,6 @@
                 "dataIv": "f2A7D4B9E8C16531",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "光速",
-            "name": "👑光速｜弹幕",
-            "type": 3,
-            "quickSearch": 0,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://c8k2n5l0i9s8b2m1jj8k2x2l9ff68.ydysapi.cfd:27899",
-                "dataKey": "k9o3p2c8b7m3z0o8",
-                "dataIv": "k9o3p2c8b7m3z0o8",
-                "deviceId": "2f085931bcbd83a2bbc8ba1fc66243cd2",
-                "version": "112"
-            }
-        },
-        {
-            "key": "麻花",
-            "name": "👑麻花｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://49.235.114.19:130",
-                "dataKey": "q7gj4f9br3fls6nh",
-                "dataIv": "q7gj4f9br3fls6nh",
-                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "700"
             }
         },
         {
