@@ -49,22 +49,6 @@
             "filterable": 1
         },
         {
-            "key": "农民",
-            "name": "👩‍🌾农民",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "手机",
-                "编码": "UTF-8",
-                "简介": "简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：&&</p>",
-                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-time-class-0-year-{year}-letter--area-{area}-lang-.html",
-                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
-            }
-        },
-        {
             "key": "csp_Lkdy",
             "name": "🏔️来看",
             "type": 3,
@@ -90,6 +74,27 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Czsapp",
+            "name": "🏭厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.czzymovie.com/"
+        },
+        {
+            "key": "农民",
+            "name": "👩‍🌾农民",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/农民影视.json"
         },
         {
             "key": "骚火",
@@ -219,17 +224,6 @@
             }
         },
         {
-            "key": "csp_Czsapp",
-            "name": "🏭厂长",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.czzymovie.com/"
-        },
-        {
             "key": "csp_Fantuan",
             "name": "🍙饭团",
             "type": 3,
@@ -288,16 +282,6 @@
             "ext": "https://v.xlys.ltd.ua"
         },
         {
-            "key": "csp_Mp4Mov",
-            "name": "🧲Mp4电影",
-            "type": 3,
-            "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://mp4.z6.net.cn/"
-        },
-        {
             "key": "csp_New6v",
             "name": "🧲新6V",
             "type": 3,
@@ -320,15 +304,6 @@
             "name": "🧲七妹",
             "type": 3,
             "api": "csp_QnMp4",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_SeedHub",
-            "name": "🧲SeedHub",
-            "type": 3,
-            "api": "csp_SeedHub",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -722,7 +697,7 @@
                 "type": "rect",
                 "ratio": 1.755
             },
-            "timeout": 10,
+            "timeout": 15,
             "playerType": "2",
             "searchable": 0,
             "quickSearch": 0,
