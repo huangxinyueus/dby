@@ -356,16 +356,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Dm84",
-            "name": "🚌动漫巴士",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Dm84",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "樱花",
             "name": "💮樱花",
             "type": 3,
@@ -1005,40 +995,46 @@
             "name": "Yoursmile",
             "type": 0,
             "url": "./lives/Yoursmile.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okhttp/3.15"
         },
         {
             "name": "feiyang.allinone",
             "type": 0,
-            "url": "http://127.0.0.1:35457/tv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/feiyang.allinone.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okhttp/3.15"
         },
         {
             "name": "feiyang.bililive",
             "type": 0,
-            "url": "http://127.0.0.1:35457/bililive.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/feiyang.bililive.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okhttp/3.15"
         },
         {
             "name": "feiyang.huyayqk",
             "type": 0,
-            "url": "http://127.0.0.1:35457/huyayqk.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/feiyang.huyayqk.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okhttp/3.15"
         },
         {
             "name": "feiyang.douyuyqk",
             "type": 0,
-            "url": "http://127.0.0.1:35457/douyuyqk.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/feiyang.douyuyqk.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okhttp/3.15"
         },
         {
             "name": "feiyang.yylunbo",
             "type": 0,
-            "url": "http://127.0.0.1:35457/yylunbo.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/feiyang.yylunbo.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okhttp/3.15"
         }
     ],
-    "logo": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/NanFeng.gif",
+    "logo": "https://cdn.gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/NanFeng.gif",
     "rules": [
         {
             "name": "量非",

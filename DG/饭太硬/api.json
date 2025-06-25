@@ -667,8 +667,7 @@
         {
             "name": "V6范明明（需开启V6网络）",
             "type": 0,
-            "url": "./lives/V6范明明（需开启V6网络）.txt",
-            "epg": ""
+            "url": "./lives/V6范明明（需开启V6网络）.txt"
         },
         {
             "name": "牛播一",
@@ -686,7 +685,7 @@
             "name": "平台直播",
             "type": 0,
             "url": "./lives/平台直播.txt",
-            "epg": ""
+            "ua": "okhttp/3.15"
         }
     ]
 }

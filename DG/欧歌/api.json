@@ -4,12 +4,12 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【光歌软件分享】请勿演示贩卖，接口即将关停提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号【欧歌APP】测试完请删除,接口即将关停.提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【光歌软件分享】请勿演示贩卖，接口即将关停",
+            "name": "公众号【欧歌APP】测试完请删除,接口即将关停.",
             "type": 0,
-            "url": "./lives/公众号【光歌软件分享】请勿演示贩卖，接口即将关停.txt",
+            "url": "./lives/公众号【欧歌APP】测试完请删除,接口即将关停..txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         },
         {
@@ -22,20 +22,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【光歌软件分享】请勿演示贩卖，接口即将关停",
+            "name": "📢公众号【欧歌APP】测试完请删除,接口即将关停.",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公众号【光歌软件分享】请勿演示贩卖，接口即将关停公告❤更新:6/18❤",
+            "name": "📢公众号【欧歌APP】测试完请删除,接口即将关停.公告❤更新:6/22❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【光歌软件分享】请勿演示贩卖，接口即将关停"
+            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【欧歌APP】测试完请删除,接口即将关停."
         },
         {
             "key": "csp_woog",
@@ -44,24 +44,24 @@
             "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
+            "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.eu.org",
-                    null,
                     "https://woog.nxog.fun",
                     "https://woog.xn--dkw.xn--6qq986b3xl",
                     "https://ogwo.xn--dkw.xn--6qq986b3xl"
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 289,
+                    "chunksize": 214,
                     "threads": 16
                 }
             }
         },
         {
             "key": "config",
-            "name": "🐲玩欧┃配置",
+            "name": "🐲配置｜中心",
             "type": 3,
             "jar": "./jars/config.jar",
             "api": "csp_Config",
@@ -78,11 +78,12 @@
             "ext": {
                 "site_urls": [
                     "hhttps://ogkk.nxog.eu.org",
+                    "https://ogkk.nxog.fun",
                     "https://ogkk.xn--dkw.xn--6qq986b3xl"
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 266,
+                    "chunksize": 225,
                     "threads": 60
                 }
             }
@@ -98,15 +99,25 @@
             "jar": "./jars/csp_欧歌123.jar"
         },
         {
-            "key": "欧哥",
+            "key": "csp_woog2",
             "name": "❤欧歌｜4K弹幕",
             "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
+            "changeable": "0",
+            "api": "csp_Duopan",
             "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/og.json?"
+            "jar": "./jars/csp_woog2.jar",
+            "ext": {
+                "site_urls": [
+                    "https://ogkk.nxog.eu.org",
+                    "https://ogkk.nxog.fun",
+                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "woog2",
+                "threadinfo": {
+                    "chunksize": 264,
+                    "threads": 16
+                }
+            }
         },
         {
             "key": "配置中心",
@@ -449,20 +460,6 @@
             }
         },
         {
-            "key": "溜溜",
-            "name": "👑溜溜｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://appcms.ll4k.xyz",
-                "dataKey": "NiDGaKiVnkO3QX1Q",
-                "dataIv": "NiDGaKiVnkO3QX1Q",
-                "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
-                "version": "200"
-            }
-        },
-        {
             "key": "超前",
             "name": "👑超前｜弹幕",
             "type": 3,
@@ -505,17 +502,31 @@
             }
         },
         {
-            "key": "橘猫",
-            "name": "👑橘猫｜弹幕",
+            "key": "世颜",
+            "name": "👑世颜｜弹幕",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet2",
+            "api": "csp_AppGet",
             "ext": {
-                "url": "https://qjappcms.jm4k.top",
-                "dataKey": "pBVmysmGX8TsgrQN",
-                "dataIv": "pBVmysmGX8TsgrQN",
-                "deviceId": "",
-                "version": "120"
+                "url": "https://sykjw.xyz",
+                "dataKey": "sicnagduxbSfisnz",
+                "dataIv": "sicnagduxbSfisnz",
+                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+                "version": "556"
+            }
+        },
+        {
+            "key": "可达",
+            "name": "👑可达｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://ledayy.com",
+                "dataKey": "hjjp68c2okw12345",
+                "dataIv": "hjjp68c2okw12345",
+                "deviceId": "24bba8caeff7b3a63a486806bd7130fca",
+                "version": "102"
             }
         },
         {
@@ -1070,7 +1081,7 @@
             "ext": "./json/yyds.json?"
         },
         {
-            "key": "玩偶",
+            "key": "欧哥备",
             "name": "❤玩偶｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
@@ -1078,7 +1089,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/wogg.json?"
+            "ext": "./json/og.json?"
         },
         {
             "key": "雷鲸",
