@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
+    "wallpaper": "http://我不是.摸鱼儿.top/wallpaper/",
     "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
     "warningText": "摸鱼儿：资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "sites": [
@@ -471,14 +471,14 @@
             "name": "🌀沐风┃蓝光┃无广",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=664k"
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=664k"
         },
         {
             "key": "4Kdy",
             "name": "🕊️凝安┃蓝光┃无广",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=4kdy"
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=4kdy"
         },
         {
             "key": "nk",
@@ -768,7 +768,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=55"
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=55"
         },
         {
             "key": "雨滴",
@@ -813,7 +813,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jars/config.jar",
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=面包"
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=面包"
         },
         {
             "key": "三六零弹幕",
@@ -830,7 +830,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=央视经典"
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=央视经典"
         },
         {
             "key": "cctv",
@@ -874,7 +874,7 @@
             "name": "🌸樱花┃动漫┃樱花",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=樱花"
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=樱花"
         },
         {
             "key": "mb",
@@ -1031,7 +1031,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://我不是.摸鱼儿.com/api/moyu.php?file=哔哩合集"
+                "json": "http://我不是.摸鱼儿.top/api/moyu.php?file=哔哩合集"
             }
         },
         {
@@ -1047,7 +1047,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://我不是.摸鱼儿.com/api/moyu.php?file=mtv"
+                "json": "http://我不是.摸鱼儿.top/api/moyu.php?file=mtv"
             }
         },
         {
@@ -1077,7 +1077,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://我不是.摸鱼儿.com/api/moyu.php?file=少儿教育"
+                "json": "http://我不是.摸鱼儿.top/api/moyu.php?file=少儿教育"
             }
         },
         {
@@ -1093,7 +1093,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://我不是.摸鱼儿.com/api/moyu.php?file=小学教育"
+                "json": "http://我不是.摸鱼儿.top/api/moyu.php?file=小学教育"
             }
         },
         {
@@ -1109,7 +1109,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://我不是.摸鱼儿.com/api/moyu.php?file=初中课堂"
+                "json": "http://我不是.摸鱼儿.top/api/moyu.php?file=初中课堂"
             }
         },
         {
@@ -1125,7 +1125,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "http://我不是.摸鱼儿.com/api/moyu.php?file=高中课堂"
+                "json": "http://我不是.摸鱼儿.top/api/moyu.php?file=高中课堂"
             }
         },
         {
