@@ -65,6 +65,12 @@
             "ext": "./js/养生.js"
         },
         {
+            "key": "馆源",
+            "name": "馆源|自定",
+            "type": 3,
+            "api": "csp_HB360"
+        },
+        {
             "key": "网盘虎斑",
             "name": "推弹|虎斑",
             "type": 3,
@@ -179,12 +185,6 @@
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/茫茫.js"
-        },
-        {
-            "key": "馆源",
-            "name": "馆源|自定",
-            "type": 3,
-            "api": "csp_HB360"
         },
         {
             "key": "miaoying",

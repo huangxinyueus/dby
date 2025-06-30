@@ -49,11 +49,20 @@
             "filterable": 1
         },
         {
+            "key": "巧技二",
+            "name": "💢聚搜┃仅搜索",
+            "type": 3,
+            "api": "csp_qiao2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+        },
+        {
             "key": "天天",
             "name": "💢天天",
             "type": 3,
             "api": "csp_TTian",
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -64,7 +73,6 @@
             "name": "💢热播",
             "type": 3,
             "api": "csp_TTian",
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -75,7 +83,6 @@
             "name": "💢追剧",
             "type": 3,
             "api": "csp_TTian",
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -86,7 +93,6 @@
             "name": "💢狂风",
             "type": 3,
             "api": "csp_Qiji",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -97,7 +103,6 @@
             "name": "💢火猫",
             "type": 3,
             "api": "csp_Muou",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -108,7 +113,6 @@
             "name": "💢驿站",
             "type": 3,
             "api": "csp_Muou",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -119,18 +123,26 @@
             "name": "💢主角",
             "type": 3,
             "api": "csp_Muou",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
         },
         {
+            "key": "柚子",
+            "name": "💢柚子",
+            "type": 3,
+            "api": "csp_Muou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i399qiaoji20187h78327624i6j3i9lj8g09l9ig1ii3"
+        },
+        {
             "key": "永夜",
             "name": "💢永夜",
             "type": 3,
             "api": "csp_Qiji",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -141,7 +153,6 @@
             "name": "💢趣看",
             "type": 3,
             "api": "csp_Muou",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -152,7 +163,6 @@
             "name": "💢公共",
             "type": 3,
             "api": "csp_Muou",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -163,31 +173,10 @@
             "name": "💢雨滴",
             "type": 3,
             "api": "csp_Shark",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i794247239g9jk10kjl82l3g6845ki2i66j7906194lg6g8460h5k548i51l8824hjj902309g182l7kl0hk3l4776346lihki7kl3kj425kl3jk31j0kggkhj0g7l5632376984k395496k449626gh0k66l26k7j6h49j9331h9701k106i"
-        },
-        {
-            "key": "巧技二",
-            "name": "💢聚搜┃仅搜索",
-            "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
-        },
-        {
-            "key": "csp_Lkdy",
-            "name": "🏔️来看",
-            "type": 3,
-            "api": "csp_Lkdy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_Qiyou",
@@ -356,6 +345,15 @@
             }
         },
         {
+            "key": "csp_Lkdy",
+            "name": "🏔️来看",
+            "type": 3,
+            "api": "csp_Lkdy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_Fantuan",
             "name": "🍙饭团",
             "type": 3,
@@ -498,6 +496,16 @@
             "ext": "./json/樱花动漫.json"
         },
         {
+            "key": "动漫巴士",
+            "name": "🚌动漫巴士",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/动漫巴士.json"
+        },
+        {
             "key": "豆瓣",
             "name": "🚀豆瓣预告",
             "type": 3,
@@ -630,7 +638,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://feimaoai.site",
+                "siteUrl": "https://feimao666.fun",
                 "filter": "./json/wogg.json"
             }
         },
