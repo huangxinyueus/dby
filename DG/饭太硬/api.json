@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "修复阿狸第三方权益包【神秘的哥哥们】",
+            "name": "修复荐片厂长【神秘的哥哥们】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -80,6 +80,17 @@
             "name": "🐟白白┃秒播",
             "type": 3,
             "api": "csp_SbaibaiGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "📔厂长┃不卡",
+            "type": 3,
+            "api": "csp_NewCzGuard",
             "timeout": 15,
             "playerType": 2,
             "searchable": 1,
@@ -163,17 +174,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.zxzjhd.com/"
-        },
-        {
-            "key": "厂长",
-            "name": "📔厂长┃不卡",
-            "type": 3,
-            "api": "csp_NewCzGuard",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "比特",
@@ -266,7 +266,7 @@
             "ext": "https://auete.com/"
         },
         {
-            "key": "贱贱",
+            "key": "荐片",
             "name": "🐭荐片┃P2P",
             "type": 3,
             "api": "csp_JPJGuard",
@@ -670,15 +670,15 @@
             "url": "./lives/V6范明明（需开启V6网络）.txt"
         },
         {
-            "name": "牛播一",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
             "name": "V4聚合（卡顿请按左┃右键换线）",
             "type": 0,
             "url": "./lives/V4聚合（卡顿请按左┃右键换线）.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "牛播一",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {

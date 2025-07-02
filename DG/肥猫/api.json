@@ -6,7 +6,7 @@
     "logo": "http://panda/0262.png",
     "sites": [
         {
-            "key": "drpy_js_豆瓣",
+            "key": "豆瓣",
             "name": "🐼┃备用公众号┃我不是肥猫",
             "type": 3,
             "api": "csp_Douban",
@@ -163,7 +163,7 @@
             "name": "🐱┃猫抓┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "iUYplHbim/qVptUBrzCuqmzk48cRdrCU+TvWjkRayUR3VnXktGT5Xk3xOdnrzb1IN9MUDdYRVCdA3H9+5eszqQ=="
+            "ext": "uOx4WoHPKe5LbDsNX+u7yPZ/33148sHvWON6kZmflkJm9N9mwXRjT6S/UJau4nVckbCH+h6lvztfl/Ag6BM8Ng=="
         },
         {
             "key": "仓鼠",
@@ -185,6 +185,13 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": "cLeOXZXsq65z+2s8qkWsD+GYhlTxoLn2cNnZiAXyiQPBfOCR3nVfgmZWdkvjSaqJFD9Bmb+U0RVCI9wv8BMVIg=="
+        },
+        {
+            "key": "囧次元",
+            "name": "🤡┃次元┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": "DUFPNFXbc0nhQ9S/akUS1016tumg5c0CXsmywMwiuf27+XAPWObdQRDR22Lgih/6189f+1INKiaNm4cQ+AY7CA=="
         },
         {
             "key": "csp_Jpys",
@@ -247,13 +254,6 @@
             "ext": "https://www.91qkw.com"
         },
         {
-            "key": "csp_Lggys",
-            "name": "🤣┃攻阁┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Lggys"
-        },
-        {
             "key": "csp_J",
             "name": "🌎┃饺子┃外剧",
             "type": 3,
@@ -293,7 +293,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://www.czzyvideo.com"
+            "ext": "https://www.czzy77.com"
         },
         {
             "key": "csp_AppXY",
@@ -327,7 +327,8 @@
             "name": "🤣┃动漫┃巴士",
             "type": 3,
             "playerType": "2",
-            "api": "csp_Dm84"
+            "api": "csp_Dm84",
+            "ext": "https://dm84.net"
         },
         {
             "key": "csp_FirstAid",

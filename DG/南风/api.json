@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "Tg|豆瓣",
-            "name": "🅿Tg豆瓣┃本接口免费-🈲贩卖",
+            "name": "🔍Tg豆瓣┃本接口免费-🈲贩卖",
             "type": 3,
             "api": "csp_TgYunDouBanPan",
             "searchable": 1,
@@ -14,10 +14,17 @@
             "ext": {
                 "siteUrl": "http://127.0.0.1:9999",
                 "count": 4,
-                "channelUsername": "xx123pan,Q66Share,bdwpzhpd,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
+                "channelUsername": "xiangxiunb,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
                 "commonConfig": "./json/peizhi.json",
                 "filter": "./json/douban.json"
             }
+        },
+        {
+            "key": "弹幕",
+            "name": "🅿弹幕|搜索",
+            "type": 3,
+            "api": "csp_Huban",
+            "jar": "./jars/弹幕.jar"
         },
         {
             "key": "ConfigCenter",
@@ -89,6 +96,16 @@
             "ext": "7lj763gg0939791h1l2681i6g94li291li"
         },
         {
+            "key": "lanyingys",
+            "name": "💢橘子",
+            "type": 3,
+            "api": "csp_Qiji",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg0939795i0678i481k40hi2i3ghlg840i9lj166700g1449g3k5244k2017h35698h4739ih31117kigil3k02hl2jk6i5155ih9kkgl311gl37g240g85111ggg2"
+        },
+        {
             "key": "kafeiys",
             "name": "💢狂风",
             "type": 3,
@@ -117,26 +134,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh"
-        },
-        {
-            "key": "主角",
-            "name": "💢主角",
-            "type": 3,
-            "api": "csp_Muou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
-        },
-        {
-            "key": "柚子",
-            "name": "💢柚子",
-            "type": 3,
-            "api": "csp_Muou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i399qiaoji20187h78327624i6j3i9lj8g09l9ig1ii3"
         },
         {
             "key": "永夜",
@@ -169,14 +166,34 @@
             "ext": "7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
         },
         {
-            "key": "雨滴",
-            "name": "💢雨滴",
+            "key": "主角",
+            "name": "💢主角",
+            "type": 3,
+            "api": "csp_Muou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
+        },
+        {
+            "key": "柚子",
+            "name": "💢柚子",
+            "type": 3,
+            "api": "csp_Muou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i399qiaoji20187h78327624i6j3i9lj8g09l9ig1ii3"
+        },
+        {
+            "key": "专业",
+            "name": "💢专业",
             "type": 3,
             "api": "csp_Shark",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "7lj763gg402i794247239g9jk10kjl82l3g6845ki2i66j7906194lg6g8460h5k548i51l8824hjj902309g182l7kl0hk3l4776346lihki7kl3kj425kl3jk31j0kggkhj0g7l5632376984k395496k449626gh0k66l26k7j6h49j9331h9701k106i"
+            "ext": "7lj763gg0939795i007ii481k008i2i3g5l8840l9kjk6670031743g2h6164h07558245g3845392972819h994k1k400khli736i0lligk9gh273ih6jkl7jg84k54lhl9i5gkl376266h9k4624548kl649676gg9k2763llkj6gj818l"
         },
         {
             "key": "csp_Qiyou",
@@ -293,21 +310,6 @@
             }
         },
         {
-            "key": "海纳TV",
-            "name": "🌀海纳TV",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "简介": "简介：</em>&&",
-                "数组": "row\">&&</div></div>",
-                "分类url": "https://www.hainatv.net/index.php/vod/show/area/{area}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$59"
-            }
-        },
-        {
             "key": "西瓜",
             "name": "🍉西瓜",
             "type": 3,
@@ -390,16 +392,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Jianpian",
-            "name": "🧲荐片",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/jianpian.json"
         },
         {
             "key": "csp_xlys",
@@ -732,19 +724,6 @@
             }
         },
         {
-            "key": "易搜",
-            "name": "🆎易搜",
-            "type": 3,
-            "api": "csp_YiSo",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "cookie": "satoken=f20ef191-ff19-4708-943d-90afda0e942c",
-                "commonConfig": "./json/peizhi.json"
-            }
-        },
-        {
             "key": "AList",
             "name": "🅰AList",
             "type": 3,
@@ -780,7 +759,7 @@
             "ext": {
                 "commonConfig": "./json/peizhi.json",
                 "json": "./json/youtube.json",
-                "cookie": "./json/youtubecookie.json"
+                "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
             }
         },
         {
@@ -793,7 +772,7 @@
             "switchable": 0,
             "ext": {
                 "count": 4,
-                "channelUsername": "xx123pan,Q66Share,bdwpzhpd,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
+                "channelUsername": "xiangxiunb,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
                 "commonConfig": "./json/peizhi.json"
             }
         },
