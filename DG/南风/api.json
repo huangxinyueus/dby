@@ -14,7 +14,7 @@
             "ext": {
                 "siteUrl": "http://127.0.0.1:9999",
                 "count": 4,
-                "channelUsername": "xiangxiunb,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
+                "channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
                 "commonConfig": "./json/peizhi.json",
                 "filter": "./json/douban.json"
             }
@@ -389,6 +389,15 @@
             "name": "👾Ikanbot",
             "type": 3,
             "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Jianpian",
+            "name": "🧲荐片",
+            "type": 3,
+            "api": "csp_Jianpian",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -772,7 +781,7 @@
             "switchable": 0,
             "ext": {
                 "count": 4,
-                "channelUsername": "xiangxiunb,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
+                "channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
                 "commonConfig": "./json/peizhi.json"
             }
         },
@@ -1153,7 +1162,7 @@
             "ua": "okhttp/3.15"
         }
     ],
-    "logo": "https://cdn.gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/NanFeng.gif",
+    "logo": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/NanFeng.gif",
     "rules": [
         {
             "name": "量非",
