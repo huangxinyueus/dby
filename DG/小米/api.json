@@ -121,6 +121,19 @@
             }
         },
         {
+            "key": "荐片",
+            "name": "➖荐片┃磁力",
+            "quickSearch": 0,
+            "searchable": 1,
+            "type": 3,
+            "api": "csp_Jianpian",
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            },
+            "ext": ""
+        },
+        {
             "key": "娱乐",
             "name": "🎮游戏┃娱乐",
             "quickSearch": 0,
@@ -267,8 +280,8 @@
             "type": 3,
             "quickSearch": 1,
             "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": "XRksEN3W20hd3bSb1cdiKnk0ZQBQsvUPxPGBV2iwSAEQHwYVvVpglyV3dIXr7XclzuYphImygQa2rUxjoobDHDcfqQI10On5UzS0ouHA4b5IHJTGcTdw5Z1jMoMWs4095UzbXrjKHwridQugjlB5gw=="
+            "api": "./api/%E5%92%96%E5%95%A1.py",
+            "ext": ""
         },
         {
             "key": "牛牛",

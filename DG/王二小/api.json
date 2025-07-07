@@ -665,22 +665,6 @@
             "changeable": 0
         },
         {
-            "key": "Wexxsmp3",
-            "name": "🎤随身┃相声🎤",
-            "type": 3,
-            "api": "csp_Wexxsmp3Guard",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "Wexpsmp3",
-            "name": "🎤随身┃评书🎤",
-            "type": 3,
-            "api": "csp_Wexpsmp3Guard",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "Wexwwe",
             "name": "🌐格斗┃WWE🌐",
             "type": 3,
