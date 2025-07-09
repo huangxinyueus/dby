@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 # by @嗷呜
-import re
-import sys
-from urllib.parse import quote, urlparse
-from Crypto.Hash import SHA256
-sys.path.append("..")
 import json
+import sys
 import time
+import requests
+from base64 import b64decode, b64encode
+from Crypto.Hash import MD5
 from pyquery import PyQuery as pq
+sys.path.append('..')
 from base.spider import Spider
 
 class Spider(Spider):
@@ -24,48 +24,55 @@ class Spider(Spider):
     def manualVideoCheck(self):
         pass
 
-    def action(self, action):
-        pass
-
     def destroy(self):
         pass
 
-    host='https://www.knvod.com'
+    host='http://v.lkuys.cn'
 
     headers = {
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'Sec-Fetch-Dest': 'document',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
-        'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="134", "Google Chrome";v="134"',
-        'sec-ch-ua-platform': '"macOS"',
-        'Origin': host,
-        'Referer': f"{host}/",
-        'Cookie':'X-Robots-Tag=CDN-VERIFY'
+        'User-Agent': 'okhttp-okgo/jeasonlzy',
+        'Accept-Language': 'zh-CN,zh;q=0.8'
     }
 
     def homeContent(self, filter):
-        data=self.getpq(self.fetch(self.host,headers=self.headers).text)
+        data=requests.post(f'{self.host}/v3/type/top_type',headers=self.headers,files=self.getfiles({'': (None, '')})).json()
         result = {}
         classes = []
-        for k in data('.head-more.box a').items():
-            i=k.attr('href')
-            if i and '/show' in i:
-                classes.append({
-                    'type_name': k.text(),
-                    'type_id': re.findall(r'\d+', i)[0]
-                })
+        filters = {}
+        for k in data['data']['list']:
+            classes.append({
+                'type_name': k['type_name'],
+                'type_id': k['type_id']
+            })
+            fts = []
+            for i,x in k.items():
+                if isinstance(x, list) and len(x)>2:
+                    fts.append({
+                        'name': i,
+                        'key': i,
+                        'value': [{'n': j, 'v': j} for j in x if j and j!= '全部']
+                    })
+            if len(fts):filters[k['type_id']] = fts
         result['class'] = classes
-        result['list']=self.getlist(data('.border-box.public-r .public-list-div'))
+        result['filters'] = filters
         return result
 
     def homeVideoContent(self):
-        pass
+        data=requests.post(f'{self.host}/v3/type/tj_vod',headers=self.headers,files=self.getfiles({'': (None, '')})).json()
+        return {'list':self.getv(data['data']['cai']+data['data']['loop'])}
 
     def categoryContent(self, tid, pg, filter, extend):
-        data=self.getpq(self.fetch(f"{self.host}/show/{tid}--------{pg}---/",headers=self.headers).text)
+        files = {
+            'type_id': (None, tid),
+            'limit': (None, '12'),
+            'page': (None, pg)
+        }
+        for k,v in extend.items():
+            if k=='extend':k='class'
+            files[k] = (None, v)
+        data=requests.post(f'{self.host}/v3/home/type_search',headers=self.headers,files=self.getfiles(files)).json()
         result = {}
-        result['list'] = self.getlist(data('.border-box.public-r .public-list-div'))
+        result['list'] = self.getv(data['data']['list'])
         result['page'] = pg
         result['pagecount'] = 9999
         result['limit'] = 90
@@ -73,125 +80,105 @@ class Spider(Spider):
         return result
 
     def detailContent(self, ids):
-        data = self.getpq(self.fetch(f"{self.host}/list/{ids[0]}/", headers=self.headers).text)
-        v=data('.detail-info.lightSpeedIn .slide-info')
+        data=requests.post(f'{self.host}/v3/home/vod_details',headers=self.headers,files=self.getfiles({'vod_id': (None, ids[0])})).json()
+        v=data['data']
         vod = {
-            'vod_year': v.eq(-1).text().split(':',1)[-1],
-            'vod_remarks': v.eq(0),
-            'vod_actor': v.eq(3).text().split(':',1)[-1],
-            'vod_director': v.eq(2).text().split(':',1)[-1],
-            'vod_content': data('.switch-box #height_limit').text()
+            'vod_name': v.get('vod_name'),
+            'type_name': v.get('type_name'),
+            'vod_year': v.get('vod_year'),
+            'vod_area': v.get('vod_area'),
+            'vod_remarks': v.get('vod_remarks'),
+            'vod_actor': v.get('vod_actor'),
+            'vod_director': v.get('vod_director'),
+            'vod_content': pq(pq(v.get('vod_content','无') or '无').text()).text()
         }
-        np=data('.anthology.wow.fadeInUp')
-        ndata=np('.anthology-tab .swiper-wrapper .swiper-slide')
-        pdata=np('.anthology-list .anthology-list-box ul')
-        play,names=[],[]
-        for i in range(len(ndata)):
-            n=ndata.eq(i)('a')
-            n('span').remove()
-            names.append(n.text())
-            vs=[]
-            for v in pdata.eq(i)('li').items():
-                vs.append(f"{v.text()}${v('a').attr('href')}")
-            play.append('#'.join(vs))
-        vod["vod_play_from"] = "$$$".join(names)
-        vod["vod_play_url"] = "$$$".join(play)
-        result = {"list": [vod]}
-        return result
+        n,p=[],[]
+        for o,i in enumerate(v['vod_play_list']):
+            n.append(f"线路{o+1}({i.get('flag')})")
+            c=[]
+            for j in i.get('urls'):
+                d={'url':j.get('url'),'p':i.get('parse_urls'),'r':i.get('referer'),'u':i.get('ua')}
+                c.append(f"{j.get('name')}${self.e64(json.dumps(d))}")
+            p.append('#'.join(c))
+        vod.update({'vod_play_from':'$$$'.join(n),'vod_play_url':'$$$'.join(p)})
+        return {'list':[vod]}
 
     def searchContent(self, key, quick, pg="1"):
-        data = self.fetch(f"{self.host}/index.php/ajax/suggest?mid=1&wd={key}&limit=9999&timestamp={int(time.time()*1000)}", headers=self.headers).json()
-        videos=[]
-        for i in data['list']:
-            videos.append({
-                'vod_id': i['id'],
-                'vod_name': i['name'],
-                'vod_pic': i['pic']
-            })
-        return {'list':videos,'page':pg}
+        files = {
+            'limit': (None, '12'),
+            'page': (None, pg),
+            'keyword': (None, key),
+        }
+        data=requests.post(f'{self.host}/v3/home/search',headers=self.headers,files=self.getfiles(files)).json()
+        return {'list':self.getv(data['data']['list']),'page':pg}
 
     def playerContent(self, flag, id, vipFlags):
-        h={
-            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.8 Mobile/15E148 Safari/604.1',
-            'Origin': self.host
-        }
-        data = self.getpq(self.fetch(f"{self.host}{id}", headers=self.headers).text)
-        try:
-            jstr = data('.player-box .player-left script').eq(1).text()
-            jsdata = json.loads(jstr.split('=',1)[-1])
-            url = jsdata.get('url')
-            if not re.search(r'\.m3u8|\.mp4',jsdata['url']):
-                jxd=self.fetch(f"{self.host}/static/player/{jsdata['from']}.js", headers=self.headers).text
-                jx=re.search(r'http.*?url=', jxd)
-                if not jx:raise Exception('未找到jx')
-                parsed_url = urlparse(jx.group())
-                jxhost = parsed_url.scheme + "://" + parsed_url.netloc
-                title=data('head title').eq(0).text().split('-')[0]
-                next=f"{self.host.split('//')[-1]}{jsdata['link_next']}" if jsdata.get('link_next') else ''
-                cd=self.fetch(f"{jx.group()}{jsdata['url']}&next=//{next}&title={quote(title)}", headers=self.headers).text
-                match = re.search(r'var\s+config\s*=\s*(\{[\s\S]*?\})', cd)
-                if not match:raise Exception('未找到config')
-                cm=re.sub(r',\s*}(?=\s*$)', '}', match.group(1))
-                config=json.loads(cm)
-                config.update({'key':self.sha256(f"{self.gettime()}knvod")})
-                config.pop('next',None)
-                headers = {
-                    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.8 Mobile/15E148 Safari/604.1',
-                    'Accept': 'application/json, text/javascript, */*; q=0.01',
-                    'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-                    'Cache-Control': 'no-cache',
-                    'DNT': '1',
-                    'Origin': jxhost,
-                    'Pragma': 'no-cache',
-                    'Sec-Fetch-Dest': 'empty',
-                    'Sec-Fetch-Mode': 'cors',
-                    'Sec-Fetch-Site': 'same-origin',
-                    'Sec-Fetch-Storage-Access': 'active',
-                    'X-Requested-With': 'XMLHttpRequest',
-                }
-                h['Origin']=jxhost
-                jd=self.post(f"{jxhost}/post.php", headers=headers, data=json.dumps(config))
-                data=json.loads(jd.content.decode('utf-8-sig'))
-                url=data.get('knvod')
-            p = 0
-            if not url:raise Exception('未找到播放地址')
-        except Exception as e:
-            print('错误信息：',e)
-            p,url=1,f"{self.host}{id}"
-        return {"parse": p, "url": url, "header": h}
+        ids=json.loads(self.d64(id))
+        url=ids['url']
+        if isinstance(ids['p'],list) and len(ids['p']):
+            url=[]
+            for i,x in enumerate(ids['p']):
+                up={'url':ids['url'],'p':x,'r':ids['r'],'u':ids['u']}
+                url.extend([f"解析{i+1}",f"{self.getProxyUrl()}&data={self.e64(json.dumps(up))}"])
+        h={}
+        if ids.get('r'):
+            h['Referer'] = ids['r']
+        if ids.get('u'):
+            h['User-Agent'] = ids['u']
+        return  {'parse': 0, 'url': url, 'header': h}
 
     def localProxy(self, param):
+        data=json.loads(self.d64(param['data']))
+        h = {}
+        if data.get('r'):
+            h['Referer'] = data['r']
+        if data.get('u'):
+            h['User-Agent'] = data['u']
+        res=self.fetch(f"{data['p']}{data['url']}",headers=h).json()
+        url=res.get('url') or res['data'].get('url')
+        return [302,'video/MP2T',None,{'Location':url}]
+
+    def liveContent(self, url):
         pass
 
-    def getlist(self,data):
-        videos=[]
-        for i in data.items():
-            id = i('a').attr('href')
-            if id:
-                id = re.search(r'\d+', id).group(0)
-                img = i('img').attr('data-src')
-                if img and 'url=' in img and 'http' not in img: img = f'{self.host}{img}'
+    def getfiles(self, p=None):
+        if p is None:p = {}
+        t=str(int(time.time()))
+        h = MD5.new()
+        h.update(f"7gp0bnd2sr85ydii2j32pcypscoc4w6c7g5spl{t}".encode('utf-8'))
+        s = h.hexdigest()
+        files = {
+            'sign': (None, s),
+            'timestamp': (None, t)
+        }
+        p.update(files)
+        return p
+
+    def getv(self,data):
+        videos = []
+        for i in data:
+            if i.get('vod_id') and str(i['vod_id']) != '0':
                 videos.append({
-                    'vod_id': id,
-                    'vod_name': i('a').attr('title'),
-                    'vod_pic': img,
-                    'vod_remarks': i('.public-prt').text() or i('.public-list-prb').text()
+                    'vod_id': i['vod_id'],
+                    'vod_name': i.get('vod_name'),
+                    'vod_pic': i.get('vod_pic') or i.get('vod_pic_thumb'),
+                    'vod_year': i.get('tag'),
+                    'vod_remarks': i.get('vod_remarks')
                 })
         return videos
 
-    def getpq(self, data):
+    def e64(self, text):
         try:
-            return pq(data)
+            text_bytes = text.encode('utf-8')
+            encoded_bytes = b64encode(text_bytes)
+            return encoded_bytes.decode('utf-8')
         except Exception as e:
-            print(f"{str(e)}")
-            return pq(data.encode('utf-8'))
+            return ""
 
-    def gettime(self):
-        current_time = int(time.time())
-        hourly_timestamp = current_time - (current_time % 3600)
-        return hourly_timestamp
-
-    def sha256(self, text):
-        sha = SHA256.new()
-        sha.update(text.encode())
-        return sha.hexdigest()
+    def d64(self,encoded_text):
+        try:
+            encoded_bytes = encoded_text.encode('utf-8')
+            decoded_bytes = b64decode(encoded_bytes)
+            return decoded_bytes.decode('utf-8')
+        except Exception as e:
+            return ""
