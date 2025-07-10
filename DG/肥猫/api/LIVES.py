@@ -4,19 +4,18 @@ import json
 import re
 import sys
 import time
-import random
 from base64 import b64decode, b64encode
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs
 import requests
 from pyquery import PyQuery as pq
 sys.path.append('..')
 from base.spider import Spider
 from concurrent.futures import ThreadPoolExecutor
 
+
 class Spider(Spider):
 
     def init(self, extend=""):
-        """初始化方法，设置抖音直播的请求头"""
         tid = 'douyin'
         headers = self.gethr(0, tid)
         response = requests.head(self.hosts[tid], headers=headers)
@@ -42,9 +41,7 @@ class Spider(Spider):
 
     headers = [
         {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-            "Referer": "https://live.bilibili.com/",
-            "Origin": "https://live.bilibili.com"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
         },
         {
             "User-Agent": "Dart/3.4 (dart:io)"
@@ -77,8 +74,8 @@ class Spider(Spider):
         "bili": {
             'Accept': '*/*',
             'Icy-MetaData': '1',
-            'referer': 'https://live.bilibili.com/',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+            'referer': referers['bili'],
+            'user-agent': headers[0]['User-Agent']
         },
         'douyin': {
             'User-Agent': 'libmpv',
@@ -95,76 +92,20 @@ class Spider(Spider):
         }
     }
 
-    # B站cookie
-    bili_cookies = {
-        "buvid3": "88888888-8888-8888-8888-888888888888",
-        "buvid4": "88888888-8888-8888-8888-888888888888",
-        "b_nut": str(int(time.time())),
-        "SESSDATA": "",  # 如果需要可以添加自己的SESSDATA
-    }
-
-    def gethr(self, index, rf='', zr=''):
-        """获取请求头 - 特别处理B站"""
-        headers = self.headers[index].copy()
-        
-        if rf == 'bili':
-            # B站专用请求头
-            headers.update({
-                'Origin': 'https://live.bilibili.com',
-                'Referer': 'https://live.bilibili.com/',
-                'Cookie': "; ".join([f"{k}={v}" for k, v in self.bili_cookies.items()])
-            })
-        elif zr:
-            headers['Referer'] = zr
-        elif rf:
-            headers['Referer'] = f"{self.referers[rf]}/"
-            
-        return headers
-
     def process_bili(self):
-        """处理B站分类数据 - 增强版"""
         try:
-            # 使用新的API接口获取B站分类数据
-            url = f'{self.hosts["bili"][0]}/xlive/web-interface/v1/index/getWebAreaList?source_id=2'
-            
-            # 添加随机延迟避免请求过快
-            time.sleep(random.uniform(0.5, 1.2))
-            
-            response = self.fetch(url, headers=self.gethr(0, 'bili'))
-            
-            # 检查响应状态
-            if response.status_code != 200:
-                print(f"B站分类请求失败: {response.status_code}")
-                return 'bili', None
-                
-            data = response.json()
-            
-            # 检查API响应是否成功
-            if data.get('code') != 0:
-                print(f"B站API错误: {data.get('message')}")
-                return 'bili', None
-            
-            # 提取分类数据
-            categories = []
-            for area in data['data']['area_list']:
-                # 主分类
-                categories.append({
-                    'n': area['name'],
-                    'v': str(area['id'])
-                })
-            
-            # 保存分类数据用于后续
-            self.bili_categories = categories
-            
-            # 返回分类筛选条件
+            self.blfdata = self.fetch(
+                f'{self.hosts["bili"][0]}/room/v1/Area/getList?need_entrance=1&parent_id=0',
+                headers=self.gethr(0, 'bili')
+            ).json()
             return ('bili', [{'key': 'cate', 'name': '分类',
-                              'value': categories}])
+                              'value': [{'n': i['name'], 'v': str(i['id'])}
+                                        for i in self.blfdata['data']]}])
         except Exception as e:
             print(f"bili处理错误: {e}")
             return 'bili', None
 
     def process_douyin(self):
-        """处理抖音分类数据"""
         try:
             data = self.getpq(self.hosts['douyin'], headers=self.dyheaders)('script')
             for i in data.items():
@@ -189,7 +130,6 @@ class Spider(Spider):
             return 'douyin', None
 
     def process_douyu(self):
-        """处理斗鱼分类数据"""
         try:
             self.dyufdata = self.fetch(
                 f'{self.referers["douyu"]}/api/cate/list',
@@ -284,81 +224,39 @@ class Spider(Spider):
         return vdata, 9999
 
     def biliContent(self, tid, pg, filter, extend, vdata):
-        """获取B站直播列表 - 增强版"""
-        try:
-            # 分类筛选模式
-            if extend.get('cate') and pg == '1' and 'click' not in tid:
-                # 使用保存的分类数据
-                for cat in self.bili_categories:
-                    if cat['v'] == extend['cate']:
-                        # 构建分类项
+        if extend.get('cate') and pg == '1' and 'click' not in tid:
+            for i in self.blfdata['data']:
+                if str(i['id']) == extend['cate']:
+                    for j in i['list']:
                         v = self.buildvod(
-                            vod_id=f"click_{tid}@@{cat['v']}",
-                            vod_name=cat['n'],
-                            vod_pic='https://s1.hdslb.com/bfs/static/laputa-home/client/assets/icon-category.png',
+                            vod_id=f"click_{tid}@@{i['id']}@@{j['id']}",
+                            vod_name=j.get('name'),
+                            vod_pic=j.get('pic'),
                             vod_tag=1,
                             style={"type": "oval", "ratio": 1}
                         )
                         vdata.append(v)
-                return vdata, 1
-            
-            # 直播列表模式
-            # 确定分类ID
-            parent_area_id = extend.get('cate', '1')  # 默认热门分类
-            area_id = 0
-            
-            # 构建API URL
-            url = f'{self.hosts["bili"][0]}/xlive/web-interface/v1/second/getList'
-            params = {
-                'platform': 'web',
-                'parent_area_id': parent_area_id,
-                'area_id': area_id,
-                'sort_type': 'online',
-                'page': pg,
-                'page_size': 30,
-                'ts': int(time.time() * 1000)  # 添加时间戳
-            }
-            
-            # 添加随机延迟
-            time.sleep(random.uniform(0.3, 0.8))
-            
-            # 获取直播数据
-            response = self.fetch(url, headers=self.gethr(0, 'bili'), params=params)
-            
-            # 检查响应状态
-            if response.status_code != 200:
-                print(f"B站直播列表请求失败: {response.status_code}")
-                return vdata, 0
-                
-            data = response.json()
-            
-            # 检查API响应码
-            if data.get('code') != 0:
-                print(f"B站API错误: {data.get('message')}")
-                return vdata, 0
-            
-            # 处理每条直播数据
-            for item in data['data']['list']:
-                if not item.get('roomid'):
-                    continue
-                
-                # 构建直播信息
-                vod_data = self.buildvod(
-                    vod_id=f"{tid}@@{item['roomid']}",
-                    vod_name=item.get('title', 'B站直播间'),
-                    vod_pic=item.get('cover', ''),
-                    vod_remarks=item.get('watched_show', {}).get('text_large', ''),
-                    vod_director=item.get('uname', '未知主播'),
-                    style={"type": "rect", "ratio": 1.33}
-                )
-                vdata.append(vod_data)
-            
-            # 计算总页数
-            total_page = data['data']['page'].get('count', 9999)
-            return vdata, total_page
-        except Exception as e:
-            print(f"B站直播列表错误: {str(e)}")
-            return vdata, 0
+            return vdata, 1
+        else:
+            path = f'/xlive/web-interface/v1/second/getListByArea?platform=web&sort=online&page_size=30&page={pg}'
+            if 'click' in tid:
+                ids = tid.split('_')[1].split('@@')
+                tid = ids[0]
+                path = f'/xlive/web-interface/v1/second/getList?platform=web&parent_area_id={ids[1]}&area_id={ids[-1]}&sort_type=&page={pg}'
+            data = self.fetch(f'{self.hosts[tid][0]}{path}', headers=self.gethr(0, tid)).json()
+            for i in data['data']['list']:
+                if i.get('roomid'):
+                    data = self.buildvod(
+                        f"{tid}@@{i['roomid']}",
+                        i.get('title'),
+                        i.get('cover'),
+                        i.get('watched_show', {}).get('text_large'),
+                        0,
+                        i.get('uname'),
+                        style={"type": "rect", "ratio": 1.33}
+                    )
+                vdata.append(data)
+            return vdata, 9999
 
     def huyaContent(self, tid, pg, filter, extend, vdata):
         if extend.get('cate') and pg == '1' and 'click' not in tid:
@@ -528,57 +426,37 @@ class Spider(Spider):
             return self.handle_exception(e)
 
     def biliDetail(self, ids):
-        """获取B站直播详情 - 增强版"""
         try:
-            room_id = ids[1]
-            # 第一步：获取房间基本信息
-            room_info_url = f'{self.hosts["bili"][0]}/xlive/web-room/v1/index/getInfoByRoom?room_id={room_id}'
-            room_info = self.fetch(room_info_url, headers=self.gethr(0, 'bili')).json()
-            
-            if room_info.get('code') != 0:
-                print(f"B站房间信息错误: {room_info.get('message')}")
-                return self.handle_exception(Exception("无法获取房间信息"))
-            
-            room_data = room_info['data']['room_info']
-            anchor_info = room_info['data']['anchor_info']
-            
-            # 第二步：获取播放信息
-            play_info_url = f'{self.hosts["bili"][0]}/xlive/web-room/v2/index/getRoomPlayInfo'
-            play_params = {
-                'room_id': room_id,
-                'protocol': '0,1',
-                'format': '0,1,2',
-                'codec': '0,1',
-                'qn': 10000,  # 默认最高画质
-                'platform': 'web',
-                'ptype': 8,
-                'dolby': 5,
-                'panorama': 1
-            }
-            play_info = self.fetch(play_info_url, headers=self.gethr(0, 'bili'), params=play_params).json()
-            
-            if play_info.get('code') != 0:
-                print(f"B站播放信息错误: {play_info.get('message')}")
-                return self.handle_exception(Exception("无法获取播放信息"))
-            
-            # 构建视频信息
+            vdata = self.fetch(
+                f'{self.hosts[ids[0]][0]}/xlive/web-room/v1/index/getInfoByRoom?room_id={ids[1]}&wts={int(time.time())}',
+                headers=self.gethr(0, ids[0])).json()
+            v = vdata['data']['room_info']
             vod = self.buildvod(
-                vod_name=room_data.get('title', 'B站直播间'),
-                vod_remarks=f"{room_data.get('parent_area_name', '')}/{room_data.get('area_name', '')}",
-                vod_content=room_data.get('description', ''),
-                vod_director=anchor_info.get('base_info', {}).get('uname', '未知主播')
+                vod_name=v.get('title'),
+                type_name=v.get('parent_area_name') + '/' + v.get('area_name'),
+                vod_remarks=v.get('tags'),
+                vod_play_from=v.get('title'),
             )
-            
-            # 处理播放质量选项
-            quality_options = []
-            qn_desc = play_info['data']['playurl_info']['playurl']['g_qn_desc']
-            for qn_item in qn_desc:
-                quality_options.append(f"{qn_item['desc']}${ids[0]}@@{room_id}@@{qn_item['qn']}")
-            
-            vod['vod_play_url'] = "#".join(quality_options)
+            data = self.fetch(
+                f'{self.hosts[ids[0]][0]}/xlive/web-room/v2/index/getRoomPlayInfo?room_id={ids[1]}&protocol=0%2C1&format=0%2C1%2C2&codec=0%2C1&platform=web',
+                headers=self.gethr(0, ids[0])).json()
+            vdnams = data['data']['playurl_info']['playurl']['g_qn_desc']
+            all_accept_qns = []
+            streams = data['data']['playurl_info']['playurl']['stream']
+            for stream in streams:
+                for format_item in stream['format']:
+                    for codec in format_item['codec']:
+                        if 'accept_qn' in codec:
+                            all_accept_qns.append(codec['accept_qn'])
+            max_accept_qn = max(all_accept_qns, key=len) if all_accept_qns else []
+            quality_map = {
+                item['qn']: item['desc']
+                for item in vdnams
+            }
+            quality_names = [f"{quality_map.get(qn)}${ids[0]}@@{ids[1]}@@{qn}" for qn in max_accept_qn]
+            vod['vod_play_url'] = "#".join(quality_names)
             return vod
         except Exception as e:
-            print(f"B站详情错误: {str(e)}")
             return self.handle_exception(e)
 
     def huyaDetail(self, ids):
@@ -749,89 +627,21 @@ class Spider(Spider):
             return {'parse': 1, 'url': self.excepturl, 'header': self.headers[0]}
 
     def biliplay(self, ids):
-        """B站播放地址解析 - 增强版"""
         try:
-            room_id = ids[1]
-            quality = ids[2]
-            
-            # 获取播放信息
-            url = f'{self.hosts["bili"][0]}/xlive/web-room/v2/index/getRoomPlayInfo'
-            params = {
-                'room_id': room_id,
-                'protocol': '0,1',
-                'format': '0,1,2',
-                'codec': '0,1',
-                'qn': quality,
-                'platform': 'web',
-                'ptype': 8,
-                'dolby': 5,
-                'panorama': 1
-            }
-            
-            response = self.fetch(url, headers=self.gethr(0, 'bili'), params=params)
-            
-            # 检查响应状态
-            if response.status_code != 200:
-                print(f"B站播放信息请求失败: {response.status_code}")
-                return 1, self.excepturl
-                
-            data = response.json()
-            
-            # 检查API响应
-            if data.get('code') != 0:
-                print(f"B站播放信息错误: {data.get('message')}")
-                return 1, self.excepturl
-                
+            data = self.fetch(
+                f'{self.hosts[ids[0]][0]}/xlive/web-room/v2/index/getRoomPlayInfo?room_id={ids[1]}&protocol=0,1&format=0,2&codec=0&platform=web&qn={ids[2]}',
+                headers=self.gethr(0, ids[0])).json()
             urls = []
             line_index = 1
-            
-            # 解析播放地址
             for stream in data['data']['playurl_info']['playurl']['stream']:
                 for format_item in stream['format']:
                     for codec in format_item['codec']:
                         for url_info in codec['url_info']:
-                            full_url = f"{url_info['host']}{codec['base_url']}{url_info['extra']}"
+                            full_url = f"{url_info['host']}/{codec['base_url'].lstrip('/')}{url_info['extra']}"
                             urls.extend([f"线路{line_index}", full_url])
                             line_index += 1
-            
-            # 如果没找到播放地址，尝试备用方法
-            if not urls:
-                print("使用备用方法获取B站播放地址")
-                return self.biliplay_backup(room_id, quality)
-            
             return 0, urls
         except Exception as e:
-            print(f"B站播放解析错误: {str(e)}")
-            return 1, self.excepturl
-
-    def biliplay_backup(self, room_id, quality):
-        """B站播放地址解析 - 备用方法"""
-        try:
-            # 使用备用API
-            url = f'{self.hosts["bili"][0]}/room/v1/Room/playUrl'
-            params = {
-                'cid': room_id,
-                'qn': quality,
-                'platform': 'web'
-            }
-            
-            response = self.fetch(url, headers=self.gethr(0, 'bili'), params=params)
-            
-            if response.status_code != 200:
-                return 1, self.excepturl
-                
-            data = response.json()
-            
-            if data.get('code') != 0:
-                return 1, self.excepturl
-                
-            urls = []
-            for i, durl in enumerate(data['data']['durl']):
-                urls.extend([f"线路{i+1}", durl['url']])
-            
-            return 0, urls
-        except Exception as e:
-            print(f"B站备用播放解析错误: {str(e)}")
             return 1, self.excepturl
 
     def douyuplay(self, ids):
@@ -944,6 +754,15 @@ class Spider(Spider):
             print(f"解析页面错误: {str(e)}")
             return pq(data.encode('utf-8'))
 
+    def gethr(self, index, rf='', zr=''):
+        headers = self.headers[index]
+        if zr:
+            headers['referer'] = zr
+        else:
+            headers['referer'] = f"{self.referers[rf]}/"
+        return headers
+
     def handle_exception(self, e):
         print(f"报错: {str(e)}")
         return {'vod_play_from': '哎呀翻车啦', 'vod_play_url': f'翻车啦${self.excepturl}'}
+

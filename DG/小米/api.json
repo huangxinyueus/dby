@@ -192,7 +192,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "ext": "XRksEN3W20hd3bSb1cdiKl6rrJZOM0otP1Ett1yknmjVA9fGeMUewl1QKCASY0WqO7ZP5egWNcwYI9Lu7YKJGxgbj0vsL/E+PlbKB7+mf8PyyFncR0WQp7wN0qj394aa"
+            "ext": "XRksEN3W20hd3bSb1cdiKgyQTbBO6aM0THhjKXE4Nl7W0aOx624xuIFTAGd0lwLd+GTB05zPlJYlZO1OgsJ6tfUd3LU926poUPnJ/jPh+h8GMdpo75H2pTl+Wb4waE5COjhN/OQGW7RRuI3cdPEtNw=="
         },
         {
             "key": "QD4K",
@@ -211,7 +211,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "ext": "ncGO9IfuyMjbysvCamdzFokZEAwmwSptuElWkrNclaJraoEHFYkTWsdzkxcUKm4GSAvVz62pqT/WGUt01SzxLX7PwKwKIRwYjjymMhE7o7UpFgclIJOQN+MLXQ9aO5XuqCUYgwrMvYiLtWBb4LFmoQ=="
+            "ext": "XRksEN3W20hd3bSb1cdiKs8RUIegfh9/V/YlhVyjCL0eqxZYfImI5sC9kLAqQXjv66FYClFaEI40zh/NzOUPsBYCLt4NsSH1V+UpZf/dKjEDsI0tm9aILcvqHG2qxVoV8AVi+Ij/7n9IRf3pTN1BxQ=="
         },
         {
             "key": "巧技",
@@ -280,8 +280,13 @@
             "type": 3,
             "quickSearch": 1,
             "searchable": 1,
-            "api": "./api/%E5%92%96%E5%95%A1.py",
-            "ext": ""
+            "api": "./api/get3.py",
+            "ext": {
+                "host": "./txt/2.txt",
+                "api": "/api.php/qijiappapi",
+                "datakey": "qwertyuiopqwertt",
+                "dataiv": "qwertyuiopqwertt"
+            }
         },
         {
             "key": "牛牛",
@@ -435,7 +440,7 @@
             "url": ""
         }
     ],
-    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739415605613/015dae5bcd1ff5a801213dea55f8c4.jpg",
+    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1752137757797/ab67656300005f1f66fff1b2f972193c3d6433eb.jpg",
     "lives": [
         {
             "name": "平台直播",
