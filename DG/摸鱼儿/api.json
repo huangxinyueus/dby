@@ -73,19 +73,6 @@
             }
         },
         {
-            "key": "斗量",
-            "name": "🌀斗量┃超清┃弹幕",
-            "type": 3,
-            "api": "csp_AppSy",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://app.ystva.com",
-                "key1": "hsZwQK5yrnefW7OJ",
-                "key2": "hsZwQK5yrnefW7OJ",
-                "key3": "hsZwQK5yrnefW7OJ"
-            }
-        },
-        {
             "key": "追忆",
             "name": "🌀追忆┃超清┃弹幕",
             "type": 3,
@@ -115,18 +102,19 @@
             }
         },
         {
-            "key": "橘猫",
-            "name": "🌀橘猫┃超清┃弹幕",
+            "key": "灵虎",
+            "name": "🌀灵虎┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet2",
+            "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "https://qjappcms.jm4k.top",
-                "dataKey": "pBVmysmGX8TsgrQN",
-                "dataIv": "pBVmysmGX8TsgrQN",
+                "url": "",
+                "site": "./txt/89.txt",
+                "dataKey": "#getapp@TMD@2025",
+                "dataIv": "#getapp@TMD@2025",
                 "deviceId": "",
-                "version": "120"
+                "version": ""
             }
         },
         {
@@ -190,18 +178,31 @@
             }
         },
         {
-            "key": "光盘",
-            "name": "🌀光盘┃超清┃弹幕",
+            "key": "码头",
+            "name": "🌀码头┃超清┃弹幕",
             "type": 3,
-            "quickSearch": 1,
             "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "http://119.13.88.18",
-                "dataKey": "xnybssspqtwotuwj",
-                "dataIv": "xnybssspqtwotuwj",
+                "url": "https://www.lgmt.cc",
+                "dataKey": "asfjaskasgggassf",
+                "dataIv": "asfjaskasgggassf",
                 "deviceId": "",
-                "version": "101"
+                "version": ""
+            }
+        },
+        {
+            "key": "米诺",
+            "name": "🌀米诺┃超清┃弹幕",
+            "type": 3,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "http://www.milkidc.cn",
+                "dataKey": "20c79c979da8db0f",
+                "dataIv": "20c79c979da8db0f",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
@@ -251,33 +252,33 @@
             }
         },
         {
-            "key": "魔方",
-            "name": "🌀魔方┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "海豚",
             "name": "🌀海豚┃超清┃弹幕",
-            "jar": "./jars/config.jar",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
             "ext": {
                 "url": "https://appcms.htsp4k.top",
                 "dataKey": "7CYQQzwchRQpHCOj",
                 "dataIv": "7CYQQzwchRQpHCOj",
                 "deviceId": "",
                 "version": ""
+            }
+        },
+        {
+            "key": "溜溜",
+            "name": "🌀溜溜┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://appcms.ll4k.xyz",
+                "dataKey": "NiDGaKiVnkO3QX1Q",
+                "dataIv": "NiDGaKiVnkO3QX1Q",
+                "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
+                "version": "200"
             }
         },
         {
@@ -341,21 +342,6 @@
             }
         },
         {
-            "key": "彼岸",
-            "name": "🌀彼岸┃超清┃弹幕",
-            "jar": "./jars/config.jar",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "315"
-            }
-        },
-        {
             "key": "雨滴",
             "name": "🌀雨滴┃超清┃弹幕",
             "type": 3,
@@ -368,6 +354,51 @@
                 "dataIv": "k9o3p2c8b7m3z0o8",
                 "deviceId": "",
                 "version": "100"
+            }
+        },
+        {
+            "key": "萝卜",
+            "name": "🌀萝卜┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://apiapplbys.lbys.app:5678",
+                "dataKey": "apiapplbyskey168",
+                "dataIv": "apiapplbyskey168",
+                "deviceId": "",
+                "version": "107"
+            }
+        },
+        {
+            "key": "小红",
+            "name": "🌀小红┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://www.xiaohys.com",
+                "dataKey": "ENonBHeVBoYZhVUV",
+                "dataIv": "ENonBHeVBoYZhVUV",
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "166"
+            }
+        },
+        {
+            "key": "在看",
+            "name": "🌀小红┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "http://149.88.64.161:9525",
+                "dataKey": "123456789ABCDEFG",
+                "dataIv": "123456789ABCDEFG",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
