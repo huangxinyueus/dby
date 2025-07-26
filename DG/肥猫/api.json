@@ -53,7 +53,7 @@
                     "http://feimaoai.site",
                     "http://www.labi88.sbs",
                     "http://fmao.site",
-                    "https://fmao.shop",
+                    "http://fmao.shop",
                     "http://xiaocge.fun"
                 ],
                 "threadinfo": {
@@ -136,28 +136,28 @@
             "name": "📀┃光盘┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "5ztMiKPUcHLR7TRusm5rHsPgFhlXstdsZuadxKTvmldCWgloYKsAMQA+2Sr7eCUj"
+            "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeUKFHSUUbLyGMREENFjE1N9FXjZ6Z7tiLWs6P15Ol/g5GJXlo8gIlG7ul8a9uA76+A="
         },
         {
             "key": "行动",
             "name": "😌┃行动┃APP",
             "type": 3,
-            "api": "csp_AppSy",
-            "ext": "iUYplHbim/qVptUBrzCuqk72erYn+xHvZVGawkGUOqtLGtiWlDcWpUagYzdfPYeECbG+IjVf7Mhz2ZqZ70k6X72tkUhQDNEpIN/XScTGlUE="
+            "api": "csp_AppGet",
+            "ext": "Koog6uPyOjHNZh8eY8CgUL+XGp1zR8d/K2NE9Ls6xomS8zNeZA6OEFwcZ27Zy0ZH9i0JczXR1zmcv9qIihz837BdnQrvJfE8QEyUmS3qKxs="
         },
         {
             "key": "再来",
             "name": "✌️┃再来┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "gKqtScS9maa2YW8G9NNOtUsSxDvraRvNMDiazqRUzDYklDH0MMxfu9ZPgRdHKBcI"
+            "ext": "QxNFQL63IQgXoB/O+Q12SpWJNcSeybsKVx0uAk9+pBwLEYRybmr89ubfoMpO9ZMnmJwYP5eKIrLK/w5t9S+6+F2ZlfWUyUoDUP2rV9QVabZh8nM+rBV7F/sxe+7GgsdL"
         },
         {
             "key": "一碗",
             "name": "🥣┃一碗┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "cOS1UvSbYM3xW1jXF4QBcYkSAhpFDDoh7c53wGBZEyxDhNunH+Feq+RreiUkQsV1"
+            "ext": "ALuKLnutJ05qjASk0Chn7a1ibR0W0XHqemfuZwhL7IuMdagHkHIMn3C5V/5JLCsoeZGsBV/Lw0xVXwTkIlgq0Q=="
         },
         {
             "key": "猫抓",
@@ -178,7 +178,7 @@
             "name": "🫛┃蔬菜┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "II6EBjEX9APRjw9zkvfuusSMPTiiXvPm9pK9Zv0wFaq4AWWODp1x+otEA1t0ZFTSq+p0AmaiQvE9cq5Hdl/Vlg=="
+            "ext": "/eCbNvmrG2960Ybun3e0F4Nv6y2xkgJD5jOna5SVI+QW4PXMkizOh5qQPL132WcH"
         },
         {
             "key": "黑猫",
@@ -214,17 +214,11 @@
             "api": "csp_KmeiJu"
         },
         {
-            "key": "csp_FourK",
-            "name": "🐿️┃绝对┃影视",
-            "type": 3,
-            "api": "csp_FourK",
-            "ext": "https://www.4kvm.tv"
-        },
-        {
             "key": "csp_Lkdy",
             "name": "🏔️┃来看┃影视",
             "type": 3,
-            "api": "csp_Lkdy"
+            "api": "csp_Lkdy",
+            "ext": "https://lkvod.com"
         },
         {
             "key": "csp_Tvyb",
@@ -236,8 +230,7 @@
             "key": "csp_Qiyou",
             "name": "🥝┃奇优┃影视",
             "type": 3,
-            "api": "csp_Qiyou",
-            "ext": "http://www.dyxz2.com/"
+            "api": "csp_Qiyou"
         },
         {
             "key": "荐片",
@@ -293,13 +286,52 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzy77.com"
+            "ext": "https://www.czzymovie.com"
+        },
+        {
+            "key": "猎手影视",
+            "name": "🐆┃猎手┃影视",
+            "type": 3,
+            "api": "./api/LSYS.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "零度",
+            "name": "🥶┃零度┃影视",
+            "type": 3,
+            "api": "./api/lingdu.py"
         },
         {
             "key": "csp_AppXY",
             "name": "🎀️┃星牙┃短剧",
             "type": 3,
             "api": "csp_AppXY"
+        },
+        {
+            "key": "河马短剧",
+            "name": "🦛┃河马┃短剧",
+            "type": 3,
+            "api": "./api/HMDJ.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "偷乐短剧",
+            "name": "☺️┃偷乐┃短剧",
+            "type": 3,
+            "api": "./api/TLDJ.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
         },
         {
             "key": "csp_SP360",
@@ -329,6 +361,35 @@
             "playerType": "2",
             "api": "csp_Dm84",
             "ext": "https://dm84.net"
+        },
+        {
+            "key": "56动漫",
+            "name": "5️⃣┃56┃动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/56DM.js"
+        },
+        {
+            "key": "NT动漫",
+            "name": "🧬┃NT┃动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/NTDM.js"
+        },
+        {
+            "key": "Anime1",
+            "name": "🌏┃️Anime┃动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/Anime1.js"
+        },
+        {
+            "key": "csp_FourK",
+            "name": "🌋┃绝对┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
         },
         {
             "key": "csp_FirstAid",

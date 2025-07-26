@@ -136,6 +136,14 @@
             "changeable": 1
         },
         {
+            "key": "WexXuexi",
+            "name": "💓综合┃4K💓",
+            "type": 3,
+            "api": "csp_WexXuexiGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "WexfeimaoziyuanGuard",
             "name": "💓肥猫┃4K💓",
             "type": 3,
@@ -199,14 +207,6 @@
             "name": "💓比心┃YD💓",
             "type": 3,
             "api": "csp_WexydbixinGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexXuexi",
-            "name": "💓原盘┃4K💓",
-            "type": 3,
-            "api": "csp_WexXuexiGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -734,6 +734,22 @@
             "name": "🎠给力┃综合🎠",
             "type": 3,
             "api": "csp_WexAiPanGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "WexHaiYinsoGuard",
+            "name": "🎠海音┃综合🎠",
+            "type": 3,
+            "api": "csp_WexHaiYinsoGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "WexZhaoPansoGuard",
+            "name": "🎠找盘┃综合🎠",
+            "type": 3,
+            "api": "csp_WexZhaoPansoGuard",
             "searchable": 1,
             "changeable": 0
         },
