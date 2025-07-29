@@ -23,7 +23,7 @@
             "name": "💌至臻┃4K网盘",
             "type": 3,
             "changeable": "0",
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Duopan",
             "filterable": 1,
             "ext": {
@@ -50,7 +50,7 @@
             "name": "🎥二小┃4K网盘",
             "type": 3,
             "changeable": "0",
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Duopan",
             "filterable": 1,
             "ext": {
@@ -79,7 +79,7 @@
             "type": 3,
             "api": "csp_Wogg",
             "changeable": "0",
-            "quickSearch": 1,
+            "quickSearch": 0,
             "filterable": 1,
             "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg8rYFx7ctv7/EwYIQ8UriiQKDIJuqIvlQQje6dXLxWHRiSlxkxqMyYKI0d1JGw46AuOAoB1VAvOCaqYqiTezjHHt8wMymbT/vDdiFXkMbc44kNGdjpzSyL2/kBZIAQaYMPgSkEYlv4faMeCi3MaCLYaT3C7qaUzLc56RYGLF2rmtIoYgMFOG9eSpyjO66jU/3v2f1yXnqTEEKd1/+/m8DBi8KudUm92Pa/NN8zRcY5nClAo1Eqn9bGzuO/+M4V5KG/RhdFdHyzxIpxfgoBRhn4j7GEzWBxrg4JiW2kP8Vo0iQm0S8aJUTOf1ROVp2sKW36D2Q/IgMvEqazefGXZSyNSTsjbNbVc2cHMxKrbUQIPqhD5y93kdVqr5glHjuqjrDC8Pa54/l2nFeWMZIRN7ZxMpY9O1WSazlqA1GI2A6UtmKIx6r2dX7seMOOENI+Tjl2ojAYQscbGgYpzVNL9VNf/w7xQaHqjtWLUcAOmJYweA0mZb6cGoAd8Gjcwz7iper0s53AViof2QbBffDKJxF820BsiCZAMp+Nq1Y7wrFqnnEN7HiE+YHPDxNfvBXnEgubPXu6DeZGa6edzqVbRwO52"
         },
@@ -163,7 +163,7 @@
             "key": "天天",
             "name": "💯天天┃影视",
             "type": 3,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppRJ",
             "ext": "vxw35/hHSj07Q+maxQzOVMq1rjRCOTXpUCx8iKu5jIg="
@@ -174,16 +174,26 @@
             "type": 3,
             "api": "csp_Wwys",
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "filterable": 1,
             "ext": "https://www.wwgz.cn"
+        },
+        {
+            "key": "斗量",
+            "name": "🎃南瓜┃APP",
+            "type": 3,
+            "jar": "./jars/斗量.jar",
+            "api": "csp_NanGua",
+            "quickSearch": 0,
+            "playerType": 2,
+            "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
         },
         {
             "key": "热热",
             "name": "🔥热热┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_AppRJ",
             "ext": "jsSMEuhTZIAHjnUoLBzKdlRu5exzno6M4efF8LzwjWM="
         },
@@ -192,7 +202,7 @@
             "name": "☁️云速┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_AppGet",
             "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzfiJ2fHkCRZg4+8NFWs+b1X"
         },
@@ -201,6 +211,7 @@
             "name": "🌉幕启┃影视",
             "type": 3,
             "api": "csp_AppSy",
+            "quickSearch": 0,
             "ext": "iUYplHbim/qVptUBrzCuqk72erYn+xHvZVGawkGUOqtLGtiWlDcWpUagYzdfPYeECbG+IjVf7Mhz2ZqZ70k6X72tkUhQDNEpIN/XScTGlUE="
         },
         {
@@ -208,13 +219,14 @@
             "name": "🍯追忆┃影视",
             "type": 3,
             "api": "csp_AppSy",
+            "quickSearch": 0,
             "ext": "9rfWRaAx60J+W5F+j6agt6AHU3NkRl7m8WqfWIBU/MebSZgzY2wnsXwmAIMEYVqMzsnqr46bOn1q4JV/UJAKUVF6NUo2Xg8qcHgXrA63RWM="
         },
         {
             "key": "麻花",
             "name": "🌸麻花┃影视",
             "type": 3,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
             "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzesNDM87sUul1Ii8NbP2XB5"
@@ -223,57 +235,43 @@
             "key": "QD4K",
             "name": "🐷猪猪┃影视",
             "type": 3,
-            "searchable": 1,
+            "searchable": 0,
             "quickSearch": 1,
-            "api": "csp_AppYsV2",
+            "api": "./api/AppV2.py",
             "playerType": 2,
-            "ext": "./txt/cs.txt"
+            "ext": {
+                "api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
+                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
+            }
         },
         {
             "key": "咖啡",
             "name": "☕咖啡┃影视",
             "type": 3,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
-            "ext": "kzWGWFofGVJ3C/RF+lgwJ225/vdiYNl/bMUZBlrk0nrC8OB1JmokCpa08vXuGowW"
-        },
-        {
-            "key": "顾我",
-            "name": "🎫顾我┃影视",
-            "type": 3,
-            "quickSearch": 1,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": "anMxhJnIDc1c2tyG/e37xUzar6eMUg8rOlemrnxifa3xApTYq401x7vVwbCRPlgADD7zoKQvVffdAwprrKeNlQ=="
+            "ext": "qoNcYCY4SGJFWERC5ewNdoRMWRiiOH3dKBG5+Zte38B0REfz5STn0coM8gQ4pJtU"
         },
         {
             "key": "大豆",
             "name": "✅大豆┃影视",
             "type": 3,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
             "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeUKFHSUUbLyGMREENFjE1N9FXjZ6Z7tiLWs6P15Ol/g5Po80zDNWJPEEoj/nv3Yelo="
-        },
-        {
-            "key": "海豚",
-            "name": "🍁海豚┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": "QxNFQL63IQgXoB/O+Q12SpWJNcSeybsKVx0uAk9+pBwLEYRybmr89ubfoMpO9ZMnmJwYP5eKIrLK/w5t9S+6+F2ZlfWUyUoDUP2rV9QVabZh8nM+rBV7F/sxe+7GgsdL"
         },
         {
             "key": "巧技",
             "name": "🚗聚搜┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_qiao2",
             "playerType": 2,
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/斗量.jar",
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
@@ -281,9 +279,9 @@
             "name": "🎬️火猫┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Muou",
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/斗量.jar",
             "playerType": 2,
             "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
         },
@@ -292,9 +290,9 @@
             "name": "🎬️爆炸┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Muou",
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/斗量.jar",
             "playerType": 2,
             "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
         },
@@ -303,9 +301,9 @@
             "name": "🎬️公共┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Muou",
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/斗量.jar",
             "playerType": 2,
             "ext": "7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
         },
@@ -313,7 +311,7 @@
             "key": "DAY",
             "name": "🧵UPUP┃影视",
             "type": 3,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "searchable": 1,
             "api": "./api/tt.py"
         },
@@ -322,7 +320,7 @@
             "name": "👟步步┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "./api/drpy2.min.js",
             "ext": "./js/测试.js"
         },
@@ -330,7 +328,7 @@
             "key": "牛牛",
             "name": "🍁牛牛┃影视",
             "type": 3,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "searchable": 1,
             "api": "./api/mioaying.py"
         },
@@ -339,7 +337,7 @@
             "name": "🐸短剧┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_AppXY",
             "ext": "https://xvapp.xingya.com.cn"
         },
@@ -348,7 +346,7 @@
             "name": "💯白白┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_SuBaiBai",
             "ext": "https://www.subaibai.com"
         },
@@ -357,7 +355,7 @@
             "name": "🍎苹果┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_LiteApple"
         },
         {
@@ -365,7 +363,7 @@
             "name": "🍉瓜子┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Gz360"
         },
         {
@@ -373,15 +371,15 @@
             "name": "🥇金牌┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_Jpys"
         },
         {
-            "key": "测试",
+            "key": "聚吧",
             "name": "🐓剧霸┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "./api/jubaba.py",
             "ext": ""
         },
@@ -390,25 +388,24 @@
             "name": "🔍米搜┃盘搜",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 1,
+            "quickSearch": 0,
             "api": "csp_MiSou"
         },
         {
-            "key": "听书",
-            "name": "📚听书┃听书",
+            "key": "csp_BookTing",
+            "name": "📕有声┃听书",
+            "api": "csp_BookTing",
             "type": 3,
-            "api": "csp_TingBook",
-            "searchable": 1,
-            "quickSearch": 1,
-            "ext": "http://www.6yueting.com"
+            "quickSearch": 0,
+            "ext": "https://m.i275.com"
         },
         {
             "key": "Aid",
             "name": "🚑急救┃知识",
             "type": 3,
             "api": "csp_FirstAid",
-            "searchable": 1,
-            "quickSearch": 1,
+            "searchable": 0,
+            "quickSearch": 0,
             "style": {
                 "type": "rect",
                 "ratio": 3.8

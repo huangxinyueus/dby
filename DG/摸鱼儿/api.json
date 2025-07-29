@@ -60,19 +60,6 @@
             }
         },
         {
-            "key": "行动",
-            "name": "🌀行动┃超清┃弹幕",
-            "type": 3,
-            "api": "csp_AppSy",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "http://160.202.246.9:2356",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "aassddwwxxllsx1x",
-                "key3": "aassddwwxxllsx1x"
-            }
-        },
-        {
             "key": "追忆",
             "name": "🌀追忆┃超清┃弹幕",
             "type": 3,
@@ -94,25 +81,72 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./txt/2.txt",
-                "dataKey": "qwertyuiopqwertt",
-                "dataIv": "qwertyuiopqwertt",
+                "site": "./txt/1.txt",
+                "dataKey": "skdhalkshqklwkj1",
+                "dataIv": "skdhalkshqklwkj1",
                 "deviceId": "",
+                "ua": "okhttp/3.10.0",
                 "version": "109"
             }
         },
         {
-            "key": "灵虎",
-            "name": "🌀灵虎┃超清┃弹幕",
+            "key": "魔方",
+            "name": "🌀魔方┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./txt/89.txt",
-                "dataKey": "#getapp@TMD@2025",
-                "dataIv": "#getapp@TMD@2025",
+                "site": "./txt/mfys.txt",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "稀饭",
+            "name": "🌀稀饭┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "蓝光",
+            "name": "🌀诡异┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "http://122.228.193.2:9654",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "豆丁",
+            "name": "🌀豆丁┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "",
+                "site": "./txt/xfdd.txt",
+                "dataKey": "xasdasdqwertyuio",
+                "dataIv": "xasdasdqwertyuio",
                 "deviceId": "",
                 "version": ""
             }
@@ -178,29 +212,17 @@
             }
         },
         {
-            "key": "码头",
-            "name": "🌀码头┃超清┃弹幕",
+            "key": "鲸鱼",
+            "name": "🌀鲸鱼┃超清┃弹幕",
             "type": 3,
-            "api": "csp_AppGet",
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "https://www.lgmt.cc",
-                "dataKey": "asfjaskasgggassf",
-                "dataIv": "asfjaskasgggassf",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "米诺",
-            "name": "🌀米诺┃超清┃弹幕",
-            "type": 3,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "http://www.milkidc.cn",
-                "dataKey": "20c79c979da8db0f",
-                "dataIv": "20c79c979da8db0f",
+                "url": "",
+                "site": "./json/1.json",
+                "dataKey": "AAdgrdghjfgswerA",
+                "dataIv": "AAdgrdghjfgswerA",
                 "deviceId": "",
                 "version": ""
             }
@@ -237,18 +259,18 @@
             }
         },
         {
-            "key": "桃子",
-            "name": "🌀桃子┃超清┃弹幕",
-            "jar": "./jars/config.jar",
+            "key": "瓜萌",
+            "name": "🌀瓜萌┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
             "ext": {
-                "url": "https://appcms.tzys.xyz",
-                "dataKey": "KL6vlZkw6WL5x90U",
-                "dataIv": "KL6vlZkw6WL5x90U",
-                "deviceId": "4b4c36766c5a6b7736574c3578393055",
-                "version": "119"
+                "url": "./txt/1.txt",
+                "dataKey": "f2A7D4B9E8C16531",
+                "dataIv": "f2A7D4B9E8C16531",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
@@ -282,21 +304,6 @@
             }
         },
         {
-            "key": "瓜萌",
-            "name": "🌀瓜萌┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://www.guahd.com",
-                "dataKey": "f2A7D4B9E8C16531",
-                "dataIv": "f2A7D4B9E8C16531",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "晴天",
             "name": "🌀晴天┃超清┃弹幕",
             "type": 3,
@@ -312,21 +319,6 @@
             }
         },
         {
-            "key": "再看",
-            "name": "🌀在看┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "http://149.88.64.161:8627",
-                "dataKey": "123456789ABCDEFG",
-                "dataIv": "123456789ABCDEFG",
-                "deviceId": "2bb4c10f3e043307dbfc579bd0db23f4e",
-                "version": "110"
-            }
-        },
-        {
             "key": "橘子",
             "name": "🌀橘子┃超清┃弹幕",
             "type": 3,
@@ -334,26 +326,11 @@
             "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "https://api1.bffree.cn",
+                "url": "./txt/1.txt",
                 "dataKey": "2015692015692015",
                 "dataIv": "2015692015692015",
                 "deviceId": "",
                 "version": "300"
-            }
-        },
-        {
-            "key": "雨滴",
-            "name": "🌀雨滴┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
-                "dataKey": "k9o3p2c8b7m3z0o8",
-                "dataIv": "k9o3p2c8b7m3z0o8",
-                "deviceId": "",
-                "version": "100"
             }
         },
         {
@@ -387,18 +364,19 @@
             }
         },
         {
-            "key": "在看",
-            "name": "🌀小红┃超清┃弹幕",
+            "key": "白蛇",
+            "name": "🌀白蛇┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "http://149.88.64.161:9525",
-                "dataKey": "123456789ABCDEFG",
-                "dataIv": "123456789ABCDEFG",
+                "url": "",
+                "site": "./txt/tengxunyun.txt",
+                "dataKey": "f5e2tx53ykp6s2c9",
+                "dataIv": "f5e2tx53ykp6s2c9",
                 "deviceId": "",
-                "version": ""
+                "version": "361"
             }
         },
         {
@@ -553,6 +531,38 @@
                 "ratio": 1.433
             },
             "ext": "./json/lj.json"
+        },
+        {
+            "key": "海绵",
+            "name": "🧽海绵资源┃4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShareCloudHM",
+            "jar": "./jars/config.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/hm.json"
+        },
+        {
+            "key": "123",
+            "name": "📅数字资源┃4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShareCloud123",
+            "jar": "./jars/config.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/123.json"
         },
         {
             "key": "趣盘",

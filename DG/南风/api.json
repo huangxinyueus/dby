@@ -67,7 +67,7 @@
         },
         {
             "key": "天天",
-            "name": "💢天天",
+            "name": "⛅天天",
             "type": 3,
             "api": "csp_TTian",
             "searchable": 1,
@@ -77,7 +77,7 @@
         },
         {
             "key": "热播",
-            "name": "💢热播",
+            "name": "♨热播",
             "type": 3,
             "api": "csp_TTian",
             "searchable": 1,
@@ -87,7 +87,7 @@
         },
         {
             "key": "追剧",
-            "name": "💢追剧",
+            "name": "✈追剧",
             "type": 3,
             "api": "csp_TTian",
             "searchable": 1,
@@ -96,8 +96,18 @@
             "ext": "7lj763gg0939791h1l2681i6g94li291li"
         },
         {
+            "key": "巧技二",
+            "name": "💢聚搜┃仅搜索",
+            "type": 3,
+            "api": "csp_qiao2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+        },
+        {
             "key": "lanyingys",
-            "name": "💢橘子",
+            "name": "🍊橘子",
             "type": 3,
             "api": "csp_Qiji",
             "searchable": 1,
@@ -106,18 +116,8 @@
             "ext": "7lj763gg0939795i0678i481k40hi2i3ghlg840i9lj166700g1449g3k5244k2017h35698h4739ih31117kigil3k02hl2jk6i5155ih9kkgl311gl37g240g85111ggg2"
         },
         {
-            "key": "huomaoys",
-            "name": "💢火猫",
-            "type": 3,
-            "api": "csp_Muou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
-        },
-        {
             "key": "yizys",
-            "name": "💢驿站",
+            "name": "🚗驿站",
             "type": 3,
             "api": "csp_Muou",
             "searchable": 1,
@@ -126,8 +126,18 @@
             "ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh"
         },
         {
+            "key": "huomaoys",
+            "name": "😺火猫",
+            "type": 3,
+            "api": "csp_Muou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
+        },
+        {
             "key": "趣看",
-            "name": "💢趣看",
+            "name": "🥽趣看",
             "type": 3,
             "api": "csp_Muou",
             "searchable": 1,
@@ -137,7 +147,7 @@
         },
         {
             "key": "公共",
-            "name": "💢公共",
+            "name": "🌈公共",
             "type": 3,
             "api": "csp_Muou",
             "searchable": 1,
@@ -147,13 +157,23 @@
         },
         {
             "key": "主角",
-            "name": "💢主角",
+            "name": "🍃主角",
             "type": 3,
             "api": "csp_Muou",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
+        },
+        {
+            "key": "云云",
+            "name": "☁云云",
+            "type": 3,
+            "api": "csp_Qiji",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9475g8"
         },
         {
             "key": "csp_Wwys",
@@ -225,6 +245,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_baibai",
+            "name": "💯白白",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_SuBaiBai",
+            "ext": "https://www.subaibai.com"
         },
         {
             "key": "csp_Quanwk",
@@ -323,20 +352,6 @@
             }
         },
         {
-            "key": "百思派",
-            "name": "💯百思派",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-            "ext": {
-                "分类url": "https://www.bestpipe.cn/vodshow/{cateId}-{area}-------{catePg}---.html",
-                "分类": "电影$20#剧集$21#短剧$24#综艺$23#动漫$22"
-            }
-        },
-        {
             "key": "ZXZJ",
             "name": "🏠在线",
             "api": "csp_Zxzj",
@@ -365,15 +380,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Kuaikan",
-            "name": "👀快看",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Ikanbot",
             "name": "👾Ikanbot",
             "type": 3,
@@ -389,7 +395,8 @@
             "api": "csp_Lkdy",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://lkvod.com"
         },
         {
             "key": "csp_Jianpian",
@@ -409,7 +416,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://v.xlys.ltd.ua"
+            "ext": "https://xl01.com.de/"
         },
         {
             "key": "csp_New6v",
