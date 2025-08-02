@@ -8,6 +8,9 @@
             "key": "豆豆",
             "name": "🌈热播┃推荐",
             "type": 3,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
             "api": "csp_Douban",
             "searchable": 0
         },
@@ -212,7 +215,7 @@
             "type": 3,
             "api": "csp_AppSy",
             "quickSearch": 0,
-            "ext": "iUYplHbim/qVptUBrzCuqk72erYn+xHvZVGawkGUOqtLGtiWlDcWpUagYzdfPYeECbG+IjVf7Mhz2ZqZ70k6X72tkUhQDNEpIN/XScTGlUE="
+            "ext": "J7WBJTWvt49Rro0WaKnCpcwiAwtiA57atMnVBDAP3YRNynoyyCyLIvc6/nXpdo/2nerMlKFDJbIGRKuy0qJdB6Qkf23z5CWmuH7UTrHERqI="
         },
         {
             "key": "追忆",
@@ -235,8 +238,8 @@
             "key": "QD4K",
             "name": "🐷猪猪┃影视",
             "type": 3,
-            "searchable": 0,
-            "quickSearch": 1,
+            "searchable": 1,
+            "quickSearch": 0,
             "api": "./api/AppV2.py",
             "playerType": 2,
             "ext": {
@@ -415,6 +418,8 @@
             "key": "push_agent",
             "name": "🛴推送┃播放接口免费，请测试完删除处理",
             "type": 3,
+            "filterable": 0,
+            "changeable": 0,
             "api": "csp_Push",
             "searchable": 1,
             "quickSearch": 1,

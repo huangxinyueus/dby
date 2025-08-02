@@ -4,38 +4,32 @@
     "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【欧歌APP】仅供测试安装24小时后删除！提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号【杰歌软件APP】如有收费,直接找退款！提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【欧歌APP】仅供测试安装24小时后删除！",
+            "name": "公众号【杰歌软件APP】如有收费,直接找退款！",
             "type": 0,
-            "url": "./lives/公众号【欧歌APP】仅供测试安装24小时后删除！.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-        },
-        {
-            "name": "AI直播",
-            "type": 0,
-            "url": "./lives/AI直播.txt",
+            "url": "./lives/公众号【杰歌软件APP】如有收费,直接找退款！.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         }
     ],
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【欧歌APP】仅供测试安装24小时后删除！",
+            "name": "📢公众号【杰歌软件APP】如有收费,直接找退款！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:7/27❤",
+            "name": "📢公告❤更新:7/31❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【欧歌APP】仅供测试安装24小时后删除！"
+            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【杰歌软件APP】如有收费,直接找退款！"
         },
         {
             "key": "csp_woog",
@@ -54,7 +48,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 294,
+                    "chunksize": 281,
                     "threads": 16
                 }
             }
@@ -83,7 +77,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 268,
+                    "chunksize": 200,
                     "threads": 60
                 }
             }
@@ -114,7 +108,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 280,
+                    "chunksize": 277,
                     "threads": 16
                 }
             }
@@ -218,24 +212,6 @@
             "filterable": 1
         },
         {
-            "key": "快看影视",
-            "name": "💡快看｜影视",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "来看影视",
-            "name": "💡来看｜影视",
-            "type": 3,
-            "api": "csp_Lkdy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "苹果影视",
             "name": "💡苹果｜影视",
             "type": 3,
@@ -252,13 +228,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "全网影视",
-            "name": "💡全看｜影视",
-            "type": 3,
-            "api": "csp_Quanwk",
-            "ext": "https://www.91qkw.com"
         },
         {
             "key": "三六零",
@@ -308,11 +277,21 @@
             "api": "csp_KmeiJu"
         },
         {
+            "key": "斗量",
+            "name": "💡南瓜｜影视",
+            "type": 3,
+            "jar": "./jars/斗量.jar",
+            "api": "csp_NanGua",
+            "quickSearch": 0,
+            "playerType": 2,
+            "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+        },
+        {
             "key": "huomaoys",
             "name": "💡火猫｜影视",
             "type": 3,
             "api": "csp_Muou",
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/斗量.jar",
             "playerType": 2,
             "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
         },
@@ -321,7 +300,7 @@
             "name": "💡爆炸｜影视",
             "type": 3,
             "api": "csp_Muou",
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/斗量.jar",
             "playerType": 2,
             "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
         },
@@ -412,60 +391,6 @@
             }
         },
         {
-            "key": "趣看",
-            "name": "👑趣看｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "https://xjuzi.top",
-                "dataKey": "6a482a70b80eefc9",
-                "dataIv": "c995826a3e86fedd",
-                "jxurl": "https://www.ququkan.cc"
-            }
-        },
-        {
-            "key": "樱桃",
-            "name": "👑樱桃｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://sp.dxgsp.cc",
-                "dataKey": "25f9e794323b4538",
-                "dataIv": "25f9e794323b4538",
-                "jxurl": "https://ap.dxgsp.cc"
-            }
-        },
-        {
-            "key": "蓝鹰",
-            "name": "👑蓝鹰｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "http://172.247.192.138:18520",
-                "dataKey": "SuNlEkOLAoWJj1Oe",
-                "dataIv": "SuNlEkOLAoWJj1Oe",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "星河",
-            "name": "👑星河｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://121.62.22.204:9876",
-                "dataKey": "f5e2tx53ykp6s2c9",
-                "dataIv": "f5e2tx53ykp6s2c9",
-                "deviceId": "",
-                "version": "361"
-            }
-        },
-        {
             "key": "萝卜",
             "name": "👑萝卜｜弹幕",
             "type": 3,
@@ -509,20 +434,6 @@
             }
         },
         {
-            "key": "海豚",
-            "name": "👑海豚｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://getapp.hiapp.com.cn",
-                "dataKey": "2268331221bobobo",
-                "dataIv": "2268331221bobobo",
-                "deviceId": "",
-                "version": "107"
-            }
-        },
-        {
             "key": "晴天",
             "name": "👑晴天｜弹幕",
             "type": 3,
@@ -537,17 +448,117 @@
             }
         },
         {
-            "key": "雨滴",
-            "name": "👑雨滴｜弹幕",
+            "key": "小野",
+            "name": "👑小野｜弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
-                "dataKey": "k9o3p2c8b7m3z0o8",
-                "dataIv": "k9o3p2c8b7m3z0o8",
+                "url": "https://appcms.xy4k.com",
+                "site": "",
+                "dataKey": "7SDWjknU34zqFbVr",
+                "dataIv": "7SDWjknU34zqFbVr",
                 "deviceId": "",
-                "version": "100"
+                "version": ""
+            }
+        },
+        {
+            "key": "爱看",
+            "name": "👑爱看｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://154.37.220.65",
+                "dataKey": "uI1TkPJC8B46AyN3",
+                "dataIv": "uI1TkPJC8B46AyN3",
+                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+                "version": "120"
+            }
+        },
+        {
+            "key": "稀饭",
+            "name": "👑稀饭｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "蓝光",
+            "name": "👑蓝光｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://122.228.193.2:9654",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "仓鼠",
+            "name": "👑仓鼠｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://newappcms.cs4k.top",
+                "dataKey": "Z98KXaLtO2wC1Pte",
+                "dataIv": "Z98KXaLtO2wC1Pte",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "小红",
+            "name": "👑小红｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.xiaohys.com",
+                "dataKey": "ENonBHeVBoYZhVUV",
+                "dataIv": "ENonBHeVBoYZhVUV",
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "166"
+            }
+        },
+        {
+            "key": "白蛇",
+            "name": "👑白蛇｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "./txt/tengxunyun.txt",
+                "dataKey": "n3l2tx5jdkp9s2c8",
+                "dataIv": "n3l2tx5jdkp9s2c8",
+                "deviceId": "",
+                "version": "361"
+            }
+        },
+        {
+            "key": "外剧",
+            "name": "👑外剧｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://guowaiju.com",
+                "dataKey": "7xv16h7qgkrs9b1p",
+                "dataIv": "7xv16h7qgkrs9b1p",
+                "deviceId": "",
+                "version": ""
             }
         },
         {

@@ -321,16 +321,6 @@
             "ext": "./json/戏曲多多.json"
         },
         {
-            "key": "csp_XYQHiker_酷奇MV",
-            "name": "🎤酷奇MV(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/酷奇MV.json"
-        },
-        {
             "key": "csp_XYQHiker_短剧屋",
             "name": "🎬短剧屋",
             "type": 3,

@@ -96,6 +96,36 @@
             "ext": "7lj763gg0939791h1l2681i6g94li291li"
         },
         {
+            "key": "南瓜",
+            "name": "🎃南瓜",
+            "type": 3,
+            "api": "csp_NanGua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+        },
+        {
+            "key": "金牌",
+            "name": "🥇金牌",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
+        },
+        {
+            "key": "蝴蝶",
+            "name": "🦋蝴蝶",
+            "type": 3,
+            "api": "csp_Hudie",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"
+        },
+        {
             "key": "巧技二",
             "name": "💢聚搜┃仅搜索",
             "type": 3,
@@ -106,26 +136,6 @@
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
-            "key": "lanyingys",
-            "name": "🍊橘子",
-            "type": 3,
-            "api": "csp_Qiji",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939795i0678i481k40hi2i3ghlg840i9lj166700g1449g3k5244k2017h35698h4739ih31117kigil3k02hl2jk6i5155ih9kkgl311gl37g240g85111ggg2"
-        },
-        {
-            "key": "yizys",
-            "name": "🚗驿站",
-            "type": 3,
-            "api": "csp_Muou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh"
-        },
-        {
             "key": "huomaoys",
             "name": "😺火猫",
             "type": 3,
@@ -134,16 +144,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
-        },
-        {
-            "key": "趣看",
-            "name": "🥽趣看",
-            "type": 3,
-            "api": "csp_Muou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i7942463j9j9jg1499j87l9g9i413il8gqiaoji20g7g4919j3g019296lk9351hh3k5gg38lj0754il3jg"
         },
         {
             "key": "公共",
