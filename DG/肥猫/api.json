@@ -135,8 +135,8 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "url": "./txt/coffee.txt",
-                "dataKey": "qwertyuiopqwertm",
+                "url": "http://110.42.53.99:1080",
+                "dataKey": "staraugust123456",
                 "siteApi": "qiji",
                 "version": "301"
             }
@@ -147,10 +147,10 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://app.xifanys.com",
-                "dataKey": "HM6Ly9yeS4ya3dvL",
-                "siteApi": "get",
-                "version": "119"
+                "url": "https://appcms.rx4k.top",
+                "dataKey": "ZX10ysTYZWtIJCTU",
+                "siteApi": "qiji",
+                "version": "120"
             }
         },
         {
@@ -162,7 +162,7 @@
                 "url": "./txt/xfdd.txt",
                 "dataKey": "xasdasdqwertyuio",
                 "siteApi": "get",
-                "version": "304"
+                "version": ""
             }
         },
         {
@@ -171,10 +171,10 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "url": "./txt/kan.txt",
-                "dataKey": "2268331221bobobo",
-                "siteApi": "get",
-                "version": "107"
+                "url": "http://111.180.190.158:1122",
+                "dataKey": "AAdgrdghjfgswerA",
+                "siteApi": "qiji",
+                "version": ""
             }
         },
         {
@@ -183,10 +183,10 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "url": "./txt/89.txt",
-                "dataKey": "#getapp@TMD@2025",
+                "url": "http://122.228.193.2:9654",
+                "dataKey": "ca94b06ca3c7d80e",
                 "siteApi": "get",
-                "version": "102"
+                "version": "119"
             }
         },
         {
@@ -238,15 +238,15 @@
             }
         },
         {
-            "key": "小丑",
-            "name": "🤡┃小丑┃APP",
+            "key": "优优",
+            "name": "💯┃优优┃APP",
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://172.247.192.138:18520",
-                "dataKey": "SuNlEkOLAoWJj1Oe",
-                "siteApi": "qiji",
-                "version": ""
+                "url": "https://apiapplbys.lbys.app:5678",
+                "dataKey": "apiapplbyskey168",
+                "siteApi": "get",
+                "version": "107"
             }
         },
         {

@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌈热播┃推荐",
+            "name": "🌈热播┃推荐（长按图片也可以聚合搜索）",
             "type": 3,
             "quickSearch": 0,
             "filterable": 0,
@@ -218,14 +218,6 @@
             "ext": "J7WBJTWvt49Rro0WaKnCpcwiAwtiA57atMnVBDAP3YRNynoyyCyLIvc6/nXpdo/2nerMlKFDJbIGRKuy0qJdB6Qkf23z5CWmuH7UTrHERqI="
         },
         {
-            "key": "追忆",
-            "name": "🍯追忆┃影视",
-            "type": 3,
-            "api": "csp_AppSy",
-            "quickSearch": 0,
-            "ext": "9rfWRaAx60J+W5F+j6agt6AHU3NkRl7m8WqfWIBU/MebSZgzY2wnsXwmAIMEYVqMzsnqr46bOn1q4JV/UJAKUVF6NUo2Xg8qcHgXrA63RWM="
-        },
-        {
             "key": "麻花",
             "name": "🌸麻花┃影视",
             "type": 3,
@@ -255,7 +247,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
-            "ext": "qoNcYCY4SGJFWERC5ewNdoRMWRiiOH3dKBG5+Zte38B0REfz5STn0coM8gQ4pJtU"
+            "ext": "/gX5OFmAD2ilw4e9hdCDHWY43M85ApN9TVuFibQAIiwfF6Z4kN93prb5cBiQMwYjG42EbId2Fq/AxX8MV52mkA=="
         },
         {
             "key": "大豆",

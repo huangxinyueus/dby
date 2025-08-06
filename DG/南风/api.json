@@ -256,16 +256,6 @@
             "ext": "https://www.subaibai.com"
         },
         {
-            "key": "csp_Quanwk",
-            "name": "👀全看",
-            "type": 3,
-            "api": "csp_Quanwk",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.91qkw.com"
-        },
-        {
             "key": "可可",
             "name": "☕️可可",
             "type": 3,
@@ -686,7 +676,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://123.666291.xyz/",
+                "siteUrl": "https://123.91muou.icu/",
                 "filter": "./json/wogg.json"
             }
         },
@@ -778,19 +768,6 @@
             "quickSearch": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json"
-            }
-        },
-        {
-            "key": "软件下载",
-            "name": "🅿软件下载",
-            "type": 3,
-            "api": "csp_网盘集合",
-            "searchable": 0,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "commonConfig": "./json/peizhi.json",
-                "share": "./json/apk.json"
             }
         },
         {
