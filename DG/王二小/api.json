@@ -120,14 +120,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexyingchao",
-            "name": "💓鸟巢┃4K💓",
-            "type": 3,
-            "api": "csp_WexyingchaoGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "WexshuangzixingGuard",
             "name": "💓双星┃4K💓",
             "type": 3,
@@ -565,7 +557,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./txt/bili001.txt"
+                "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557872081/bili001.txt"
             }
         },
         {
@@ -581,7 +573,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./txt/bilisong.txt"
+                "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557798499/bilisong.txt"
             }
         },
         {

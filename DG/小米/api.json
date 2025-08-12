@@ -117,7 +117,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "ext": {
-                "json": "./json/1744612665263_bili.json",
+                "json": "https://ai-search-static.dangbei.net/db-ai-search/2025/04/14/1911670191528480768/1744612665263_bili.json",
                 "cookie": ""
             },
             "style": {
@@ -185,11 +185,18 @@
             "key": "斗量",
             "name": "🎃南瓜┃APP",
             "type": 3,
-            "jar": "./jars/斗量.jar",
             "api": "csp_NanGua",
             "quickSearch": 0,
             "playerType": 2,
-            "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+            "ext": ""
+        },
+        {
+            "key": "追忆",
+            "name": "🐖追忆┃APP",
+            "type": 3,
+            "api": "csp_AppSy",
+            "quickSearch": 0,
+            "ext": "AUQ6gwosItxIVIl5lW4mhEtvhUCPptryd1HJ1YWlyhMUjanBk/MQ/w1C7FSy6t+ixWAXOVu69YmFiPrBGvM6iAGDIL6ietolI05Xt9wOc/k="
         },
         {
             "key": "热热",
@@ -208,14 +215,6 @@
             "quickSearch": 0,
             "api": "csp_AppGet",
             "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzfiJ2fHkCRZg4+8NFWs+b1X"
-        },
-        {
-            "key": "幕启",
-            "name": "🌉幕启┃影视",
-            "type": 3,
-            "api": "csp_AppSy",
-            "quickSearch": 0,
-            "ext": "J7WBJTWvt49Rro0WaKnCpcwiAwtiA57atMnVBDAP3YRNynoyyCyLIvc6/nXpdo/2nerMlKFDJbIGRKuy0qJdB6Qkf23z5CWmuH7UTrHERqI="
         },
         {
             "key": "麻花",
@@ -247,7 +246,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
-            "ext": "/gX5OFmAD2ilw4e9hdCDHWY43M85ApN9TVuFibQAIiwfF6Z4kN93prb5cBiQMwYjG42EbId2Fq/AxX8MV52mkA=="
+            "ext": "iCAfNu0lnzDbPNyRZNPADkQjEsRXYXbhzP+dNzKN1SEfbPPIOKvEKGUJbNHH/Enk8UofJl+f8LL+N/h69EZDaFMMPeCDLq9N1TV0aTDfIY89NkrX+nhIaX9d//xiiVns"
         },
         {
             "key": "大豆",
@@ -266,7 +265,7 @@
             "quickSearch": 0,
             "api": "csp_qiao2",
             "playerType": 2,
-            "jar": "./jars/斗量.jar",
+            "jar": "./jars/巧技.jar",
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
@@ -276,9 +275,20 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_Muou",
-            "jar": "./jars/斗量.jar",
+            "jar": "./jars/巧技.jar",
             "playerType": 2,
             "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
+        },
+        {
+            "key": "酒客",
+            "name": "🍺️酒猫┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "csp_Muou",
+            "jar": "./jars/巧技.jar",
+            "playerType": 2,
+            "ext": "7lj763gg402i7942593ki4jkhl458k99highi4qiaoji41456iikg49i839k2k289l9ik807i213k6j60h"
         },
         {
             "key": "金牌app",
@@ -287,7 +297,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_Muou",
-            "jar": "./jars/斗量.jar",
+            "jar": "./jars/巧技.jar",
             "playerType": 2,
             "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
         },
@@ -298,26 +308,9 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_Muou",
-            "jar": "./jars/斗量.jar",
+            "jar": "./jars/巧技.jar",
             "playerType": 2,
             "ext": "7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
-        },
-        {
-            "key": "DAY",
-            "name": "🧵UPUP┃影视",
-            "type": 3,
-            "quickSearch": 0,
-            "searchable": 1,
-            "api": "./api/tt.py"
-        },
-        {
-            "key": "步步",
-            "name": "👟步步┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/测试.js"
         },
         {
             "key": "牛牛",
@@ -370,11 +363,19 @@
             "api": "csp_Jpys"
         },
         {
-            "key": "聚吧",
+            "key": "厂长",
+            "name": "🏭厂长┃影视",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "csp_Czsapp",
+            "ext": "https://www.czzymovie.com"
+        },
+        {
+            "key": "测试",
             "name": "🐓剧霸┃影视",
             "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
+            "searchable": 0,
+            "quickSearch": 1,
             "api": "./api/jubaba.py",
             "ext": ""
         },

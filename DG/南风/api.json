@@ -15,8 +15,8 @@
                 "siteUrl": "http://127.0.0.1:9999",
                 "count": 4,
                 "channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
-                "commonConfig": "./json/peizhi.json",
-                "filter": "./json/douban.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/douban.json"
             }
         },
         {
@@ -34,7 +34,7 @@
             "searchable": 0,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -96,16 +96,6 @@
             "ext": "7lj763gg0939791h1l2681i6g94li291li"
         },
         {
-            "key": "南瓜",
-            "name": "🎃南瓜",
-            "type": 3,
-            "api": "csp_NanGua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
-        },
-        {
             "key": "金牌",
             "name": "🥇金牌",
             "type": 3,
@@ -124,16 +114,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"
-        },
-        {
-            "key": "巧技二",
-            "name": "💢聚搜┃仅搜索",
-            "type": 3,
-            "api": "csp_qiao2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
             "key": "huomaoys",
@@ -205,7 +185,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.4kvm.tv"
+            "ext": "https://www.4kvm.me/"
         },
         {
             "key": "csp_Qiyou",
@@ -560,9 +540,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://wogg.xxooo.cf",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -575,7 +555,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://www.qwnull.com",
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -586,9 +566,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://erxiaofn.click/",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -599,9 +579,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://www.mihdr.top",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -612,9 +592,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://feimao666.fun",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -625,9 +605,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://woog.nxog.eu.org",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -638,9 +618,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://tv.yydsys.top",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -653,7 +633,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://1.star2.cn",
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -664,7 +644,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -675,9 +655,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "https://123.91muou.icu/",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -688,9 +668,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "siteUrl": "http://1.95.79.193",
-                "filter": "./json/wogg.json"
+                "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
         {
@@ -703,7 +683,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://www.91panta.cn/",
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -724,8 +704,8 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json",
-                "share": "./json/网盘集合.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
+                "share": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/网盘集合.json"
             }
         },
         {
@@ -740,8 +720,8 @@
                 "ratio": 1.433
             },
             "ext": {
-                "commonConfig": "./json/peizhi.json",
-                "json": "./json/youtube.json",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/youtube.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
             }
         },
@@ -756,7 +736,7 @@
             "ext": {
                 "count": 4,
                 "channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -767,7 +747,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "commonConfig": "./json/peizhi.json"
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },
         {
@@ -834,7 +814,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/Bili.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/Bili.json",
                 "cookie": ""
             }
         },
@@ -851,7 +831,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/Blixs.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/Blixs.json",
                 "cookie": ""
             }
         },
@@ -868,7 +848,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/Blixq.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/Blixq.json",
                 "cookie": ""
             }
         },
@@ -885,7 +865,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/少儿教育.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/少儿教育.json",
                 "cookie": ""
             }
         },
@@ -902,7 +882,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/小学课堂.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/小学课堂.json",
                 "cookie": ""
             }
         },
@@ -919,7 +899,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/初中课堂.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/初中课堂.json",
                 "cookie": ""
             }
         },
@@ -936,7 +916,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/高中课堂.json",
+                "json": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/高中课堂.json",
                 "cookie": ""
             }
         }

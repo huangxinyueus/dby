@@ -81,7 +81,7 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./txt/1.txt",
+                "site": "https://omofun.lol/1.txt",
                 "dataKey": "skdhalkshqklwkj1",
                 "dataIv": "skdhalkshqklwkj1",
                 "deviceId": "",
@@ -98,7 +98,7 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./txt/mfys.txt",
+                "site": "https://www.snysw.xyz/mfys.txt",
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321",
                 "deviceId": "",
@@ -144,7 +144,7 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./txt/xfdd.txt",
+                "site": "https://vip.123pan.cn/1848451100/zl/xfdd.txt",
                 "dataKey": "xasdasdqwertyuio",
                 "dataIv": "xasdasdqwertyuio",
                 "deviceId": "",
@@ -220,7 +220,7 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./json/1.json",
+                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
                 "dataKey": "AAdgrdghjfgswerA",
                 "dataIv": "AAdgrdghjfgswerA",
                 "deviceId": "",
@@ -251,7 +251,7 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./json/1.json",
+                "site": "http://59.153.167.137:7788/1.json",
                 "dataKey": "4d83b87c4c5ea111",
                 "dataIv": "4d83b87c4c5ea111",
                 "deviceId": "",
@@ -266,7 +266,7 @@
             "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "./txt/1.txt",
+                "url": "https://www.guahd.com/1.txt",
                 "dataKey": "f2A7D4B9E8C16531",
                 "dataIv": "f2A7D4B9E8C16531",
                 "deviceId": "",
@@ -326,7 +326,7 @@
             "api": "csp_AppGet",
             "jar": "./jars/config.jar",
             "ext": {
-                "url": "./txt/1.txt",
+                "url": "http://t.bffree.cn/1.txt",
                 "dataKey": "2015692015692015",
                 "dataIv": "2015692015692015",
                 "deviceId": "",
@@ -372,7 +372,7 @@
             "jar": "./jars/config.jar",
             "ext": {
                 "url": "",
-                "site": "./txt/tengxunyun.txt",
+                "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
                 "dataKey": "f5e2tx53ykp6s2c9",
                 "dataIv": "f5e2tx53ykp6s2c9",
                 "deviceId": "",
