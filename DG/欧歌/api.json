@@ -1,35 +1,35 @@
 //资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
 
 {
-    "wallpaper": "https://xn--dkw0c.v.nxog.top/m/t/",
+    "wallpaper": "https://tv.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号【光歌软件分享】严谨用于任何商业用途！提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "tv提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号【光歌软件分享】严谨用于任何商业用途！",
+            "name": "tv",
             "type": 0,
-            "url": "./lives/公众号【光歌软件分享】严谨用于任何商业用途！.txt",
+            "url": "./lives/tv.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         }
     ],
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号【光歌软件分享】严谨用于任何商业用途！",
+            "name": "📢tv",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:8/12❤",
+            "name": "📢公告❤更新:8/13❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【光歌软件分享】严谨用于任何商业用途！"
+            "ext": "https://tv.nxog.top/m/公告.php?b=tv"
         },
         {
             "key": "csp_woog",
@@ -48,7 +48,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 289,
+                    "chunksize": 203,
                     "threads": 16
                 }
             }
@@ -77,7 +77,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 279,
+                    "chunksize": 205,
                     "threads": 60
                 }
             }
@@ -108,7 +108,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 280,
+                    "chunksize": 272,
                     "threads": 16
                 }
             }
@@ -259,21 +259,11 @@
             "ext": "https://wwgz.cn/"
         },
         {
-            "key": "斗量",
-            "name": "💡南瓜｜影视",
-            "type": 3,
-            "jar": "./jars/斗量.jar",
-            "api": "csp_NanGua",
-            "quickSearch": 0,
-            "playerType": 2,
-            "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
-        },
-        {
             "key": "huomaoys",
             "name": "💡火猫｜影视",
             "type": 3,
             "api": "csp_Muou",
-            "jar": "./jars/斗量.jar",
+            "jar": "./jars/huomaoys.jar",
             "playerType": 2,
             "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
         },
@@ -282,9 +272,21 @@
             "name": "💡爆炸｜影视",
             "type": 3,
             "api": "csp_Muou",
-            "jar": "./jars/斗量.jar",
+            "jar": "./jars/huomaoys.jar",
             "playerType": 2,
             "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
+        },
+        {
+            "key": "AI2",
+            "name": "💡AI┃仅搜索",
+            "type": 3,
+            "api": "csp_AI",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playerType": 2,
+            "jar": "./jars/huomaoys.jar",
+            "ext": "7lj763gg0939795i037ki481k20ki2i3g3lk840883843k6k5l4354k0k10k48411g8654l9885g83ih2h0lh295lll81jg8k66l7011l8hji0l432912jhi3hk3140kghkhj3ghl7782871"
         },
         {
             "key": "豆丁",
@@ -531,19 +533,6 @@
             }
         },
         {
-            "key": "面包",
-            "name": "🧿面包｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jars/养生堂.jar",
-            "ext": {
-                "副标题": "欧歌专属",
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "https://v.aiwule.com/"
-            }
-        },
-        {
             "key": "明星",
             "name": "🧿明星｜影视",
             "type": 3,
@@ -554,19 +543,6 @@
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
                 "分类url": "https://mxvod.com/"
-            }
-        },
-        {
-            "key": "云播",
-            "name": "🧿云播｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jars/养生堂.jar",
-            "ext": {
-                "副标题": "欧歌专属",
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "http://www.tvyb03.com/"
             }
         },
         {
