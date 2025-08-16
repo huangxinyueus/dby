@@ -15,12 +15,10 @@ from Crypto.Cipher import ARC4
 from urllib.parse import quote
 from base.spider import Spider
 from Crypto.Cipher import AES
-from datetime import datetime
 from bs4 import BeautifulSoup
 from base64 import b64decode
 import urllib.request
 import urllib.parse
-import datetime
 import binascii
 import requests
 import base64
@@ -32,22 +30,56 @@ import os
 
 sys.path.append('..')
 
-xurl = "https://new.tianjinzhitongdaohe.com"
+xurl = "https://app.whjzjx.cn"
 
 headers = {
-    "Cache-Control": "no-cache",
-    "Content-Type": "application/json;charset=UTF-8",
-    "User-Agent": "okhttp/4.12.0"
+    'User-Agent': 'Linux; Android 12; Pixel 3 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36'
           }
 
+headerf = {
+    "platform": "1",
+    "user_agent": "Mozilla/5.0 (Linux; Android 9; V1938T Build/PQ3A.190705.08211809; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Safari/537.36",
+    "content-type": "application/json; charset=utf-8"
+          }
+
+times = int(time.time() * 1000)
+
+data = {
+    "device": "2a50580e69d38388c94c93605241fb306",
+    "package_name": "com.jz.xydj",
+    "android_id": "ec1280db12795506",
+    "install_first_open": True,
+    "first_install_time": 1752505243345,
+    "last_update_time": 1752505243345,
+    "report_link_url": "",
+    "authorization": "",
+    "timestamp": times
+        }
+
+plain_text = json.dumps(data, separators=(',', ':'), ensure_ascii=False)
+
+key = "B@ecf920Od8A4df7"
+key_bytes = key.encode('utf-8')
+plain_bytes = plain_text.encode('utf-8')
+cipher = AES.new(key_bytes, AES.MODE_ECB)
+padded_data = pad(plain_bytes, AES.block_size)
+ciphertext = cipher.encrypt(padded_data)
+encrypted = base64.b64encode(ciphertext).decode('utf-8')
+
+response = requests.post("https://u.shytkjgs.com/user/v3/account/login", headers=headerf, data=encrypted)
+response_data = response.json()
+Authorization = response_data['data']['token']
+
 headerx = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36'
+    'authorization': Authorization,
+    'platform': '1',
+    'version_name': '3.8.3.1'
           }
 
 class Spider(Spider):
     global xurl
-    global headers
     global headerx
+    global headers
 
     def getName(self):
         return "首页"
@@ -123,61 +155,65 @@ class Spider(Spider):
                 return jg
 
     def homeContent(self, filter):
-        result = {"class": []}
-
-        payload = {}
-        url = f"{xurl}/api/v1/app/screen/screenType"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
-
-            setup = data['data'][0]['children'][0]['children']
-
-            for vod in setup:
-
-                name = vod['name']
-
-                result["class"].append({"type_id": name, "type_name": "🌠" + name})
+        result = {}
+        result = {"class": [{"type_id": "1", "type_name": "剧场"},
+                            {"type_id": "3", "type_name": "新剧"},
+                            {"type_id": "2", "type_name": "热播"},
+                            {"type_id": "7", "type_name": "星选"},
+                            {"type_id": "5", "type_name": "阳光"}],
+                  }
 
         return result
 
     def homeVideoContent(self):
-        pass
+        videos = []
+
+        url= f'{xurl}/v1/theater/home_page?theater_class_id=1&class2_id=4&page_num=1&page_size=24'
+        detail = requests.get(url=url, headers=headerx)
+        detail.encoding = "utf-8"
+        if detail.status_code == 200:
+            data = detail.json()
+
+            for vod in data['data']['list']:
+
+                name = vod['theater']['title']
+
+                id = vod['theater']['id']
+
+                pic = vod['theater']['cover_url']
+
+                remark = vod['theater']['play_amount_str']
+
+                video = {
+                    "vod_id": id,
+                    "vod_name": name,
+                    "vod_pic": pic,
+                    "vod_remarks": '▶️' + remark
+                        }
+                videos.append(video)
+
+        result = {'list': videos}
+        return result
 
     def categoryContent(self, cid, pg, filter, ext):
         result = {}
         videos = []
 
-        if pg:
-            page = int(pg)
-        else:
-            page = 1
+        url = f'{xurl}/v1/theater/home_page?theater_class_id={cid}&page_num={pg}&page_size=24'
+        detail = requests.get(url=url,headers=headerx)
+        detail.encoding = "utf-8"
+        if detail.status_code == 200:
+            data = detail.json()
 
-        payload = {
-            "condition": {
-                "classify": cid,
-                "typeId": "S1"
-                         },
-            "pageNum": str(page),
-            "pageSize": 40
-                  }
+            for vod in data['data']['list']:
 
-        url = f"{xurl}/api/v1/app/screen/screenMovie"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
+                name = vod['theater']['title']
 
-            setup = data['data']['records']
+                id = vod['theater']['id']
 
-            for vod in setup:
+                pic = vod['theater']['cover_url']
 
-                name = vod['name']
-
-                id = vod['id']
-
-                pic = vod['cover']
-
-                remark = vod['classify']
+                remark = vod['theater']['theme']
 
                 video = {
                     "vod_id": id,
@@ -201,58 +237,46 @@ class Spider(Spider):
         xianlu = ''
         bofang = ''
 
-        payload = {
-            "id": did,
-            "typeId": "S1"
-                  }
+        url = f'{xurl}/v2/theater_parent/detail?theater_parent_id={did}'
+        detail = requests.get(url=url, headers=headerx)
+        detail.encoding = "utf-8"
+        if detail.status_code == 200:
+            data = detail.json()
 
-        url = f"{xurl}/api/v1/app/play/movieDesc"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
-
-        url = 'http://rihou.cc:88/je.json'
+        url = 'https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732707176882/jiduo.txt'
         response = requests.get(url)
         response.encoding = 'utf-8'
         code = response.text
         name = self.extract_middle_text(code, "s1='", "'", 0)
         Jumps = self.extract_middle_text(code, "s2='", "'", 0)
 
-        content = '集多为您介绍剧情📢' + data.get('data', {}).get('introduce', '') if data.get('data', {}).get('introduce') is not None else '未知'
+        content = '集多🎉为您介绍剧情📢' + data['data']['introduction']
+
+        area = data['data']['desc_tags'][0]
+
+        remarks = data['data']['filing']
 
         if name not in content:
             bofang = Jumps
             xianlu = '1'
         else:
-            payload = {
-                "id": did,
-                "source": 0,
-                "typeId": "S1",
-                "userId": "223664"
-                      }
+            for sou in data['data']['theaters']:
 
-            url = f"{xurl}/api/v1/app/play/movieDetails"
-            response = requests.post(url=url, headers=headers, json=payload)
-            if response.status_code == 200:
-                data = response.json()
+                id = sou['son_video_url']
 
-                soup = data['data']['episodeList']
+                name = sou['num']
 
-                for sou in soup:
+                bofang = bofang + str(name) + '$' + id + '#'
 
-                    id = str(did) + "@" + str(sou['id'])
+            bofang = bofang[:-1]
 
-                    name = sou['episode']
-
-                    bofang = bofang + name + '$' + str(id) + '#'
-
-                bofang = bofang[:-1]
-
-                xianlu = '集多专线'
+            xianlu = '专线'
 
         videos.append({
             "vod_id": did,
             "vod_content": content,
+            "vod_remarks": remarks,
+            "vod_area": area,
             "vod_play_from": xianlu,
             "vod_play_url": bofang
                      })
@@ -262,62 +286,36 @@ class Spider(Spider):
 
     def playerContent(self, flag, id, vipFlags):
 
-        fenge = id.split("@")
-
-        payload = {
-            "episodeId": fenge[1],
-            "id": fenge[0],
-            "source": 0,
-            "typeId": "S1",
-            "userId": "223664"
-                  }
-
-        url = f"{xurl}/api/v1/app/play/movieDetails"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
-            url = data['data']['url']
-
         result = {}
         result["parse"] = 0
         result["playUrl"] = ''
-        result["url"] = url
-        result["header"] = headerx
+        result["url"] = id
+        result["header"] = headers
         return result
 
-    def searchContentPage(self, key, quick, pg):
+    def searchContentPage(self, key, quick, page):
         result = {}
         videos = []
 
-        if pg:
-            page = int(pg)
-        else:
-            page = 1
-
         payload = {
-            "condition": {
-                "typeId": "S1",
-                "value": key
-                         },
-            "pageNum": str(page),
-            "pageSize": 40
+            "text": key
                   }
 
-        url = f"{xurl}/api/v1/app/search/searchMovie"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
+        url = f"{xurl}/v3/search"
+        detail = requests.post(url=url, headers=headerx, json=payload)
+        if detail.status_code == 200:
+            detail.encoding = "utf-8"
+            data = detail.json()
 
-            setup = data['data']['records']
+            for vod in data['data']['theater']['search_data']:
 
-            for vod in setup:
-                name = vod['name']
+                name = vod['title']
 
                 id = vod['id']
 
-                pic = vod['cover']
+                pic = vod['cover_url']
 
-                remark = vod['year']
+                remark = vod['score_str']
 
                 video = {
                     "vod_id": id,
@@ -328,7 +326,7 @@ class Spider(Spider):
                 videos.append(video)
 
         result['list'] = videos
-        result['page'] = pg
+        result['page'] = page
         result['pagecount'] = 9999
         result['limit'] = 90
         result['total'] = 999999
@@ -345,11 +343,6 @@ class Spider(Spider):
         elif params['type'] == "ts":
             return self.proxyTs(params)
         return None
-
-
-
-
-
 
 
 

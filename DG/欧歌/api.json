@@ -48,7 +48,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 203,
+                    "chunksize": 258,
                     "threads": 16
                 }
             }
@@ -77,7 +77,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 205,
+                    "chunksize": 287,
                     "threads": 60
                 }
             }
@@ -108,7 +108,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 272,
+                    "chunksize": 273,
                     "threads": 16
                 }
             }

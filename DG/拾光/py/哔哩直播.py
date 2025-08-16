@@ -1,9 +1,9 @@
-# coding = utf-8
+# coding=utf-8
 # !/usr/bin/python
 
 """
 
-作者 丢丢喵推荐 🚓 内容均从互联网收集而来 仅供交流学习使用 版权归原创者所有 如侵犯了您的权益 请通知作者 将及时删除侵权内容
+作者 丢丢喵 🚓 内容均从互联网收集而来 仅供交流学习使用 版权归原创者所有 如侵犯了您的权益 请通知作者 将及时删除侵权内容
                     ====================Diudiumiao====================
 
 """
@@ -32,21 +32,17 @@ import os
 
 sys.path.append('..')
 
-xurl = "https://new.tianjinzhitongdaohe.com"
+xurl = "https://search.bilibili.com"
 
-headers = {
-    "Cache-Control": "no-cache",
-    "Content-Type": "application/json;charset=UTF-8",
-    "User-Agent": "okhttp/4.12.0"
-          }
+xurl1 = "https://api.live.bilibili.com"
 
 headerx = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0'
           }
 
 class Spider(Spider):
     global xurl
-    global headers
+    global xurl1
     global headerx
 
     def getName(self):
@@ -123,21 +119,20 @@ class Spider(Spider):
                 return jg
 
     def homeContent(self, filter):
-        result = {"class": []}
-
-        payload = {}
-        url = f"{xurl}/api/v1/app/screen/screenType"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
-
-            setup = data['data'][0]['children'][0]['children']
-
-            for vod in setup:
-
-                name = vod['name']
-
-                result["class"].append({"type_id": name, "type_name": "🌠" + name})
+        result = {}
+        result = {"class": [{"type_id": "舞", "type_name": "舞蹈"},
+                            {"type_id": "音乐", "type_name": "音乐"},
+                            {"type_id": "手游", "type_name": "手游"},
+                            {"type_id": "网游", "type_name": "网游"},
+                            {"type_id": "单机游戏", "type_name": "单机游戏"},
+                            {"type_id": "虚拟主播", "type_name": "虚拟主播"},
+                            {"type_id": "电台", "type_name": "电台"},
+                            {"type_id": "体育", "type_name": "体育"},
+                            {"type_id": "聊天", "type_name": "聊天"},
+                            {"type_id": "娱乐", "type_name": "娱乐"},
+                            {"type_id": "电影", "type_name": "影视"},
+                            {"type_id": "新闻", "type_name": "新闻"}]
+                 }
 
         return result
 
@@ -153,39 +148,36 @@ class Spider(Spider):
         else:
             page = 1
 
-        payload = {
-            "condition": {
-                "classify": cid,
-                "typeId": "S1"
-                         },
-            "pageNum": str(page),
-            "pageSize": 40
-                  }
+        url = f'{xurl}/live?keyword={cid}&page={str(page)}'
+        detail = requests.get(url=url, headers=headerx)
+        detail.encoding = "utf-8"
+        res = detail.text
+        doc = BeautifulSoup(res, "lxml")
 
-        url = f"{xurl}/api/v1/app/screen/screenMovie"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
+        soups = doc.find_all('div', class_="video-list-item")
 
-            setup = data['data']['records']
+        for vod in soups:
 
-            for vod in setup:
+            names = vod.find('h3', class_="bili-live-card__info--tit")
+            name = names.text.strip().replace('直播中', '')
 
-                name = vod['name']
+            id = names.find('a')['href']
+            id = self.extract_middle_text(id, 'bilibili.com/', '?', 0)
 
-                id = vod['id']
+            pic = vod.find('img')['src']
+            if 'http' not in pic:
+                pic = "https:" + pic
 
-                pic = vod['cover']
+            remarks = vod.find('a', class_="bili-live-card__info--uname")
+            remark = remarks.text.strip()
 
-                remark = vod['classify']
-
-                video = {
-                    "vod_id": id,
-                    "vod_name": name,
-                    "vod_pic": pic,
-                    "vod_remarks": '▶️' + remark
-                        }
-                videos.append(video)
+            video = {
+                "vod_id": id,
+                "vod_name": name,
+                "vod_pic": pic,
+                "vod_remarks": remark
+                    }
+            videos.append(video)
 
         result = {'list': videos}
         result['page'] = pg
@@ -201,54 +193,39 @@ class Spider(Spider):
         xianlu = ''
         bofang = ''
 
-        payload = {
-            "id": did,
-            "typeId": "S1"
-                  }
+        url = f'{xurl1}/xlive/web-room/v2/index/getRoomPlayInfo?room_id={did}&platform=web&protocol=0,1&format=0,1,2&codec=0,1'
+        detail = requests.get(url=url, headers=headerx)
+        detail.encoding = "utf-8"
+        data = detail.json()
 
-        url = f"{xurl}/api/v1/app/play/movieDesc"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
+        content = '欢迎观看哔哩直播'
 
-        url = 'http://rihou.cc:88/je.json'
-        response = requests.get(url)
-        response.encoding = 'utf-8'
-        code = response.text
-        name = self.extract_middle_text(code, "s1='", "'", 0)
-        Jumps = self.extract_middle_text(code, "s2='", "'", 0)
+        setup = data['data']['playurl_info']['playurl']['stream']
 
-        content = '集多为您介绍剧情📢' + data.get('data', {}).get('introduce', '') if data.get('data', {}).get('introduce') is not None else '未知'
+        nam = 0
 
-        if name not in content:
-            bofang = Jumps
-            xianlu = '1'
-        else:
-            payload = {
-                "id": did,
-                "source": 0,
-                "typeId": "S1",
-                "userId": "223664"
-                      }
+        for vod in setup:
 
-            url = f"{xurl}/api/v1/app/play/movieDetails"
-            response = requests.post(url=url, headers=headers, json=payload)
-            if response.status_code == 200:
-                data = response.json()
+            try:
+                host = vod['format'][nam]['codec'][0]['url_info'][1]['host']
+            except (KeyError, IndexError):
+                continue
 
-                soup = data['data']['episodeList']
+            base = vod['format'][nam]['codec'][0]['base_url']
 
-                for sou in soup:
+            extra = vod['format'][nam]['codec'][0]['url_info'][1]['extra']
 
-                    id = str(did) + "@" + str(sou['id'])
+            id = host + base + extra
 
-                    name = sou['episode']
+            nam = nam + 1
 
-                    bofang = bofang + name + '$' + str(id) + '#'
+            namc = f"{nam}号线路"
 
-                bofang = bofang[:-1]
+            bofang = bofang + namc + '$' + id + '#'
 
-                xianlu = '集多专线'
+        bofang = bofang[:-1]
+
+        xianlu = '哔哩专线'
 
         videos.append({
             "vod_id": did,
@@ -262,26 +239,10 @@ class Spider(Spider):
 
     def playerContent(self, flag, id, vipFlags):
 
-        fenge = id.split("@")
-
-        payload = {
-            "episodeId": fenge[1],
-            "id": fenge[0],
-            "source": 0,
-            "typeId": "S1",
-            "userId": "223664"
-                  }
-
-        url = f"{xurl}/api/v1/app/play/movieDetails"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
-            url = data['data']['url']
-
         result = {}
         result["parse"] = 0
         result["playUrl"] = ''
-        result["url"] = url
+        result["url"] = id
         result["header"] = headerx
         return result
 
@@ -294,38 +255,36 @@ class Spider(Spider):
         else:
             page = 1
 
-        payload = {
-            "condition": {
-                "typeId": "S1",
-                "value": key
-                         },
-            "pageNum": str(page),
-            "pageSize": 40
-                  }
+        url = f'{xurl}/live?keyword={key}&page={str(page)}'
+        detail = requests.get(url=url, headers=headerx)
+        detail.encoding = "utf-8"
+        res = detail.text
+        doc = BeautifulSoup(res, "lxml")
 
-        url = f"{xurl}/api/v1/app/search/searchMovie"
-        response = requests.post(url=url, headers=headers, json=payload)
-        if response.status_code == 200:
-            data = response.json()
+        soups = doc.find_all('div', class_="video-list-item")
 
-            setup = data['data']['records']
+        for vod in soups:
 
-            for vod in setup:
-                name = vod['name']
+            names = vod.find('h3', class_="bili-live-card__info--tit")
+            name = names.text.strip().replace('直播中', '')
 
-                id = vod['id']
+            id = names.find('a')['href']
+            id = self.extract_middle_text(id, 'bilibili.com/', '?', 0)
 
-                pic = vod['cover']
+            pic = vod.find('img')['src']
+            if 'http' not in pic:
+                pic = "https:" + pic
 
-                remark = vod['year']
+            remarks = vod.find('a', class_="bili-live-card__info--uname")
+            remark = remarks.text.strip()
 
-                video = {
-                    "vod_id": id,
-                    "vod_name": name,
-                    "vod_pic": pic,
-                    "vod_remarks": '集多▶️' + remark
-                        }
-                videos.append(video)
+            video = {
+                "vod_id": id,
+                "vod_name": name,
+                "vod_pic": pic,
+                "vod_remarks": remark
+                    }
+            videos.append(video)
 
         result['list'] = videos
         result['page'] = pg

@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# by @嗷呜
+
 import json
 import random
 import sys
@@ -29,7 +28,7 @@ class Spider(Spider):
     def destroy(self):
         pass
 
-    host='http://zero.mitotv.com'
+    host='http://tjuzi.top'
 
     headers = {
         'User-Agent': 'okhttp/4.12.0',
