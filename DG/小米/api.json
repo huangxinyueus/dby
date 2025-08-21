@@ -139,12 +139,38 @@
             "ext": ""
         },
         {
+            "key": "鲸鱼",
+            "name": "🐋鲸鱼┃测试",
+            "quickSearch": 0,
+            "searchable": 1,
+            "type": 3,
+            "api": "./api/getapp3.4.2.py",
+            "ext": {
+                "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+                "datakey": "AAdgrdghjfgswerA",
+                "api": 2
+            }
+        },
+        {
+            "key": "爱影视",
+            "name": "🎴爱盈┃测试",
+            "quickSearch": 0,
+            "searchable": 1,
+            "type": 3,
+            "api": "./api/getapp3.4.2.py",
+            "ext": {
+                "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+                "datakey": "dksvndkaAjekakcE",
+                "api": 2
+            }
+        },
+        {
             "key": "娱乐",
             "name": "🎮游戏┃娱乐",
             "quickSearch": 0,
             "searchable": 1,
             "type": 3,
-            "api": "./api/LIVES.py",
+            "api": "./api/zb.py",
             "style": {
                 "type": "rect",
                 "ratio": 1.333
@@ -189,15 +215,6 @@
             "api": "csp_FreeOk"
         },
         {
-            "key": "斗量",
-            "name": "🎃南瓜┃APP",
-            "type": 3,
-            "api": "csp_NanGua",
-            "quickSearch": 0,
-            "playerType": 2,
-            "ext": ""
-        },
-        {
             "key": "追忆",
             "name": "🐖追忆┃APP",
             "type": 3,
@@ -230,7 +247,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
-            "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzesNDM87sUul1Ii8NbP2XB5"
+            "ext": "8DBhgTHlwsdde1V+XNnHWDUo96bisLPlXXWowe/BjAkFTByXVW8rl6nRNIr6DTC0"
         },
         {
             "key": "QD4K",
@@ -245,15 +262,6 @@
                 "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
                 "apisignkey": "lvdoutv-1.0.0"
             }
-        },
-        {
-            "key": "菲菲",
-            "name": "🐱加菲┃影视",
-            "type": 3,
-            "quickSearch": 0,
-            "searchable": 1,
-            "api": "csp_AppQi",
-            "ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPiq/bSU1IhcLmPsn25NijfG6B3fLoAmVGEL0/tWb+o0nZYn1u5i3pWNxWaYYmNV1x0c="
         },
         {
             "key": "比迪",
@@ -278,9 +286,9 @@
             "key": "鲸鱼影视",
             "name": "🐟鲸鱼┃APP",
             "type": 3,
-            "api": "csp_AppQi",
+            "api": "csp_AppGet",
             "quickSearch": 0,
-            "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQd58LGascWuvwraVoz2iK+s="
+            "ext": "4+puQ2fxsNJWd5UauYRtFWna9fnlt5dkKL3x9lhE4fvCfvUo8e8W9xdW1SgtEluDq2x7Lwe3quIjIBtAOG2UJw=="
         },
         {
             "key": "大豆",
@@ -289,7 +297,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppGet",
-            "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeUKFHSUUbLyGMREENFjE1N9FXjZ6Z7tiLWs6P15Ol/g5Po80zDNWJPEEoj/nv3Yelo="
+            "ext": "7PKaTzLgpGLqYV7cUF+dCEw/YtRQnWFqGURdQoZnM3s5khy5fqX3yGD7gACetGMWTQJv81SoDNcZI5UkNNLGqA=="
         },
         {
             "key": "巧技",

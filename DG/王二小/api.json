@@ -17,6 +17,16 @@
         },
         {
             "key": "Doubana",
+            "name": "🐮【更新日期:20250820】🐮",
+            "type": 3,
+            "api": "csp_DoubanGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/douban.json"
+        },
+        {
+            "key": "Doubana",
             "name": "⬇️【网盘类先扫码】⬇️",
             "type": 3,
             "api": "csp_DoubanGuard",
@@ -107,6 +117,15 @@
             "name": "💓团长┃4K💓",
             "type": 3,
             "api": "csp_WexTuanZhangGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 120
+        },
+        {
+            "key": "WexduoduoziyuanGuard",
+            "name": "💓多多┃4K💓",
+            "type": 3,
+            "api": "csp_WexduoduoziyuanGuard",
             "searchable": 1,
             "changeable": 1,
             "timeout": 120
