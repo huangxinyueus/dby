@@ -1,0 +1,139 @@
+{
+  "cookie": "SESSDATA=b96e4077%2C1722085562%2Cd3719%2A11CjCXo79eDRzsj23IWHJf2XGJEyWMIi-TjojXZsJlpGOAuaJJeXhZAdjEHv3ieAzHnc8SVk1GWXRaTF9zcUpvdGM1LXVxYWpFZjdVNUtPWGhXdkJXS3d4MzlwNU02cGdjbHA1V1BGM3VYdEVNaVZheFJwWmF3TDEtbHcxS0xMYlplUjU1RllPUnRRIIEC;bili_jct=45505a840a9cd88636fe0502eed23d1f;DedeUserID=237280207;DedeUserID__ckMd5=0d672b7ad402b451;sid=nmzhy6mt",
+  "classes": [
+    {
+      "type_name": "漫画解说",
+      "type_id": "漫画解说"
+    },
+    {
+      "type_name": "一口气看完",
+      "type_id": "一口气看"
+    },
+    {
+      "type_name": "多人有声剧",
+      "type_id": "多人有声剧"
+    },
+    {
+      "type_name": "演唱会",
+      "type_id": "演唱会"
+    },
+    {
+      "type_name": "纪录片",
+      "type_id": "纪录片"
+    },
+    {
+      "type_name": "短剧",
+      "type_id": "完整版全集"
+    }
+  ],
+  "filter": {
+    "漫画解说": [
+      {
+        "key": "tid",
+        "name": "分类",
+        "value": [
+          {
+            "n": "全部",
+            "v": "0"
+          },
+          {
+            "n": "韩漫",
+            "v": "漫画解说韩漫"
+          },
+          {
+            "n": "日漫",
+            "v": "漫画解说日漫"
+          },
+          {
+            "n": "重生",
+            "v": "漫画解说重生"
+          },
+          {
+            "n": "系统",
+            "v": "漫画解说系统"
+          }
+        ]
+      },
+      {
+        "key": "duration",
+        "name": "时长",
+        "value": [
+          {
+            "n": "全部",
+            "v": "0"
+          },
+          {
+            "n": "60分钟以上",
+            "v": "4"
+          },
+          {
+            "n": "30~60分钟",
+            "v": "3"
+          },
+          {
+            "n": "10~30分钟",
+            "v": "2"
+          },
+          {
+            "n": "10分钟以下",
+            "v": "1"
+          }
+        ]
+      }
+    ],
+    "一口气看": [
+      {
+        "key": "tid",
+        "name": "分类",
+        "value": [
+          {
+            "n": "全部",
+            "v": "0"
+          },
+          {
+            "n": "小说",
+            "v": "一口气看完小说"
+          },
+          {
+            "n": "动漫",
+            "v": "一口气看完动漫"
+          },
+          {
+            "n": "美剧",
+            "v": "一口气看完美剧"
+          },
+          {
+            "n": "电视剧",
+            "v": "一口气看完电视剧"
+          }
+        ]
+      },
+      {
+        "key": "duration",
+        "name": "时长",
+        "value": [
+          {
+            "n": "全部",
+            "v": "0"
+          },
+          {
+            "n": "60分钟以上",
+            "v": "4"
+          },
+          {
+            "n": "30~60分钟",
+            "v": "3"
+          },
+          {
+            "n": "10~30分钟",
+            "v": "2"
+          },
+          {
+            "n": "10分钟以下",
+            "v": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

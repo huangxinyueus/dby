@@ -1,0 +1,21 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "主页url": "http://5oke.lanhudie28.com",
+    "编码": "UTF-8",
+    "数组": "<li>&&</li>",
+    "标题": "alt=\"&&\"",
+    "图片": "src=\"&&\"",
+    "副标题": "<span class=\"tip\">&&</span>",
+    "简介": "<p&&</dd>",
+    "线路二次截取": "nofollow\" target&&juqing",
+    "线路数组": "name\"&&</div>",
+    "线路标题": "<dd&&</dd>",
+    "播放数组": "play\"&&</div>",
+    "播放列表": "<a&&a>[不包含:1080P]",
+    "播放链接": "href=\"&&\"",
+    "播放标题": ">&&<",
+    "搜索模式": "1",
+    "搜索url": "http://5oke.lanhudie28.com/68dy/{wd}/page/{pg}.html",
+    "分类url": "http://5oke.lanhudie28.com/68dy/{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html",
+    "分类": "电影$1#电视剧$2#动漫$3#综艺$4#短剧$5"
+}

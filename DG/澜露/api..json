@@ -1,0 +1,511 @@
+{
+    "logo": "./lib/370ba27b1f86b019376690be290cb6a2.jpg",
+    "lives": [
+        {
+            "name": "澜露TV",
+            "type": 0,
+            "url": "./lib/澜露TV.txt"
+        }
+    ],
+    "sites": [
+        {
+      "key": "豆瓣",
+      "name": "豆瓣｜资源",
+      "type": 3,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "仓鼠",
+      "name": "仓鼠｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "https://newappcms.cs4k.top",
+        "dataKey": "Z98KXaLtO2wC1Pte",
+        "dataIv": "Z98KXaLtO2wC1Pte",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "小野",
+      "name": "小野APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://appcms.xy4k.com",
+        "site": "",
+        "dataKey": "7SDWjknU34zqFbVr",
+        "dataIv": "7SDWjknU34zqFbVr",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "雄鹰",
+      "name": "雄鹰｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "彼岸",
+      "name": "彼岸｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://172.247.44.217:30012",
+        "dataKey": "JLa1oRdL6+eK7@M)",
+        "dataIv": "JLa1oRdL6+eK7@M)",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "狐狸君",
+      "name": "狐狸｜4K",
+      "type": 3,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_XBPQ",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/6v.json"
+    },
+    {
+      "key": "HD",
+      "name": "秒播影视",
+      "type": 3,
+      "api": "csp_Hudie",
+      "jar": "https://lz.qaiu.top/d/le/4H5tqKjJPoG45xkge",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+    },
+    {
+      "key": "浪酷影视",
+      "name": "浪酷｜影视",
+      "type": 3,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.lkuys.cn"
+      }
+    },
+    {
+      "key": "热播影视",
+      "name": "热播｜影视",
+      "type": 3,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "天天",
+      "name": "天天｜影视",
+      "type": 3,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://tt.ysdqjs.cn"
+      }
+    },
+    {
+      "key": "农民影视",
+      "name": "农民｜影视",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_Wwys",
+      "ext": "https://www.wwgz.cn"
+    },
+    {
+      "key": "光速",
+      "name": "光速｜影视",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://c8k2n5l0i9s8b2m1jj8k2x2l9ff68.ydysapi.cfd:27899",
+        "dataKey": "k9o3p2c8b7m3z0o8",
+        "dataIv": "k9o3p2c8b7m3z0o8",
+        "deviceId": "2f085931bcbd83a2bbc8ba1fc66243cd2",
+        "version": "112"
+      }
+    },
+    {
+      "key": "苹果影视",
+      "name": "苹果｜影视",
+      "type": 3,
+      "jar": "./lib/f203a21a1cb6ffe94070289ce5d7f31f.jar",
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "低端影视",
+      "name": "低端｜影视",
+      "type": 3,
+      "api": "csp_Ddys",
+      "jar": "https://lz.qaiu.top/d/lz/i5MYu2p7cxoj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "蝴蝶",
+      "name": "蝴蝶｜影视",
+      "type": 3,
+      "api": "csp_Hudie",
+      "jar": "https://lz.qaiu.top/d/lz/i5MYu2p7cxoj",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "哔哩｜分类",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 2,
+      "filterable": 1,
+      "ext": "./lib/58cbbf5395d4468cb4180b57c2834102.jpg"
+    },
+    {
+      "key": "相声小品",
+      "name": "相声｜小品",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/5e6fa3015aad4fa1956ed181cfaf172b.jpg"
+    },
+    {
+      "key": "健身",
+      "name": "休闲｜健身",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/31c6620e61954b1395d81ca96fcaaf95.jpg"
+    },
+    {
+      "key": "国学",
+      "name": "国学｜经典",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/1203091da6cb4dc58fb39e7af03ffbf3.jpg"
+    },
+    {
+      "key": "百科",
+      "name": "百科｜全书",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/830e33a6b9f140eab57b298f85b85cb1.jpg"
+    },
+    {
+      "key": "地理",
+      "name": "全球｜地理",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/e5509817319e446ba2b13f3c3d6b0d2e.jpg"
+    },
+    {
+      "key": "科学",
+      "name": "科学｜发明",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/15c23182b6fb415ea8314a6dc663b2d0.jpg"
+    },
+    {
+      "key": "戏曲",
+      "name": "戏曲｜大全",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/9a72ac3a9fa24d3f84cebcf008e4ed0d.jpg"
+    },
+    {
+      "key": "外语",
+      "name": "外语｜教学",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/11ac56458b5049bbaddf42c9cea883da.jpg"
+    },
+    {
+      "key": "幼儿",
+      "name": "幼儿｜教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/f6ca5e8d2f054df69a52d01b58bb9c5e.jpg"
+    },
+    {
+      "key": "小学",
+      "name": "小学｜教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/3bbf4afa303f403eb89b6489b1958f93.jpg"
+    },
+    {
+      "key": "初中",
+      "name": "初中｜教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/75760f1471bc4180a49ce13b7105d834.jpg"
+    },
+    {
+      "key": "高中",
+      "name": "高中｜教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/53c803b0532c462fb2d2c3c641ba357b.jpg"
+    },
+        {
+      "key": "澜露QQ群: 316032063",
+      "name": "5秒播澜露QQ群: 316032063",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
+      ]
+    },
+        {
+            "key": "澜露_牛牛影视",
+            "name": "澜露_牛牛影视",
+            "type": 3,
+            "api": "./lib/apiv925mioaying.py",
+            "ext": ""
+        },
+        {
+      "key": "csp_BBB",
+      "name": "澜露_舞蹈💃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./lib/xuexi.jar",
+      "ext": "./lib/bili2.json"
+    },
+    {
+      "key": "csp_Bili_Nvtuan",
+      "name": "澜露_女团💃热舞",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./lib/xuexi.jar",
+      "ext": "./lib/nvtuan.json"
+    },
+            {
+            "key": "澜露_悟空影视",
+            "name": "澜露_悟空影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.chinasumadang.com/sumadangVS/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$44",
+                "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
+                "线路标题": "🍁澜露🍁祝您观影愉快🍁",
+                "简介": "🍁澜露🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+        {
+      "key": "drpyS_KTV歌厅[听]",
+      "name": "MV｜音乐",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/KTV歌厅[听]",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": ""
+    },
+    {
+            "key": "网飞猫",
+            "name": "网飞猫",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.ncat22.com/;;!",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+    {
+            "key": "蛋播星球",
+            "name": "蛋播星球",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://opengl.top/;;!",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+    {
+            "key": "影视大全",
+            "name": "影视大全",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.yingshiworld.com/;;!",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+    {
+            "key": "天翼",
+            "name": "4K_天翼免扫码",
+            "type": 1,
+            "api": "http://7.qqqtv.top/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "推荐",
+                "电影",
+                "电视剧",
+                "综艺",
+                "动漫"
+            ]
+        },
+    {
+            "key": "好好看App",
+            "name": "好好看App",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.lyjzedu.com/;;!",
+                "简介": "🍁澜露🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+    {
+            "key": "789",
+            "name": "789影视",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://789ys.com;;!"
+            }
+        },
+            {
+            "key": "免费🚫",
+            "name": "💛3K免费🔹",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.hangtong168.com/category/33.html;;!"
+            }
+        },
+        {
+            "key": "88影视网",
+            "name": "88影视网",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://m.88hd.org/vod-type-id-{cateId}-pg-{catePg}.html;;!",
+                "简介": "🍁澜露🍁水印广告勿信，谨防诈骗🍁"
+            }
+        }
+    ]
+    }
