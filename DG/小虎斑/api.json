@@ -283,7 +283,8 @@
             "key": "jianpian",
             "name": "荐片|弹幕",
             "type": 3,
-            "api": "csp_Jianpian"
+            "api": "csp_Jianpian",
+            "ext": "http://4icnx7.qyjzlh.com"
         },
         {
             "key": "风神",

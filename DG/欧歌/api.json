@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:8/17❤",
+            "name": "📢公告❤更新:8/26❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -48,7 +48,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 217,
+                    "chunksize": 246,
                     "threads": 16
                 }
             }
@@ -77,7 +77,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 213,
+                    "chunksize": 287,
                     "threads": 60
                 }
             }
@@ -108,7 +108,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 291,
+                    "chunksize": 253,
                     "threads": 16
                 }
             }
@@ -145,7 +145,8 @@
             "key": "荐片",
             "name": "💡荐片｜影视",
             "api": "csp_Jianpian",
-            "type": 3
+            "type": 3,
+            "ext": "https://ij1men.slsw6.com"
         },
         {
             "key": "移动",
@@ -345,20 +346,6 @@
             }
         },
         {
-            "key": "爱看",
-            "name": "👑爱看｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://154.37.220.65",
-                "dataKey": "uI1TkPJC8B46AyN3",
-                "dataIv": "uI1TkPJC8B46AyN3",
-                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "120"
-            }
-        },
-        {
             "key": "蓝光",
             "name": "👑蓝光｜弹幕",
             "type": 3,
@@ -426,32 +413,6 @@
                 "key1": "aassddwwxxllsx1x",
                 "key2": "73f330328cc0fe67",
                 "key3": "73f330328cc0fe67"
-            }
-        },
-        {
-            "key": "星河",
-            "name": "👑星河｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppSy",
-            "ext": {
-                "url": "http://192.140.161.171:2563",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "aassddwwxxllsx1x",
-                "key3": "aassddwwxxllsx1x"
-            }
-        },
-        {
-            "key": "爱影",
-            "name": "👑爱影｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppSy",
-            "ext": {
-                "url": "http://110.42.7.59:11822",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "1e765e9b09b4dbba",
-                "key3": "1e765e9b09b4dbba"
             }
         },
         {
@@ -560,21 +521,6 @@
                 "dataIv": "Z98KXaLtO2wC1Pte",
                 "deviceId": "",
                 "version": "120"
-            }
-        },
-        {
-            "key": "鲸鱼",
-            "name": "👑鲸鱼｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "dataKey": "AAdgrdghjfgswerA",
-                "dataIv": "AAdgrdghjfgswerA",
-                "deviceId": "",
-                "version": ""
             }
         },
         {
@@ -1100,20 +1046,6 @@
             }
         },
         {
-            "key": "次元动漫",
-            "name": "🤣次元｜动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://jjjj.nilinili.org",
-                "dataKey": "672263e98f232a05",
-                "dataIv": "672263e98f232a05",
-                "deviceId": "",
-                "version": "170"
-            }
-        },
-        {
             "key": "派对动漫",
             "name": "🤣派对｜动漫",
             "type": 3,
@@ -1128,17 +1060,32 @@
             }
         },
         {
-            "key": "黑猫动漫",
-            "name": "🤣黑猫｜动漫",
+            "key": "咕咕动漫",
+            "name": "🤣咕咕｜动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://dm.xxdm123.top:9991",
-                "dataKey": "0fe3b5781782c621",
-                "dataIv": "0fe3b5781782c621",
+                "url": "https://www.gugu3.com",
+                "dataKey": "nKfZ8KX6JTNWRzTD",
+                "dataIv": "nKfZ8KX6JTNWRzTD",
                 "deviceId": "",
-                "version": "203"
+                "version": ""
+            }
+        },
+        {
+            "key": "多多动漫",
+            "name": "🤣多多｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://app.cf4k.xyz/1.txt",
+                "dataKey": "qqqqqqqqqqqqqqqq",
+                "dataIv": "qqqqqqqqqqqqqqqq",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
