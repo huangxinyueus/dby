@@ -60,6 +60,15 @@
             }
         },
         {
+            "key": "hlxb",
+            "name": "♨️昨夜星辰┃4K纯净",
+            "type": 4,
+            "api": "http://我不是.摸鱼儿.com/api/hlxb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "seed",
             "name": "♨️霜雪笼花┃三盘聚合",
             "type": 3,
