@@ -117,7 +117,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "ext": {
-                "json": "https://ai-search-static.dangbei.net/db-ai-search/2025/04/14/1911670191528480768/1744612665263_bili.json",
+                "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c378a4506247b3a7/balibali.json",
                 "cookie": ""
             },
             "style": {
@@ -158,6 +158,15 @@
             "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzffqLi7UXvCKdy6PzbDhzFq"
         },
         {
+            "key": "仓鼠2",
+            "name": "🐨仓鼠┃小米",
+            "quickSearch": 0,
+            "searchable": 1,
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZsEMYaTrPKBtx3YUMTA+XHh7FPLmLfqp6gWseDzGVsgesALIba2gHVzuE75Sx1II8A"
+        },
+        {
             "key": "猪猪",
             "name": "🐷小猪┃影视",
             "quickSearch": 0,
@@ -165,6 +174,15 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": "I7L3u12iTGax7pIKDBrd0Czr1qZntIntytqeFyDzetDIICoeNSd3afmMXMhm296uAkb3qZ7kxihetfT8V6h4kw=="
+        },
+        {
+            "key": "布蕾",
+            "name": "💯布蕾┃影视",
+            "quickSearch": 0,
+            "searchable": 1,
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": "KgJbeb5sUfDKrPR2kL+eSnS2/p1vUzgiO9/kBzkhPIPRpqLXPCDc4tA9MXMdokFN"
         },
         {
             "key": "娱乐",

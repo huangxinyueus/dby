@@ -66,16 +66,6 @@
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
-            "key": "天天",
-            "name": "⛅天天",
-            "type": 3,
-            "api": "csp_TTian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg09397919456493i0h44j8681highi4"
-        },
-        {
             "key": "热播",
             "name": "♨热播",
             "type": 3,
@@ -643,7 +633,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
-                "siteUrl": "https://123.91muou.icu",
+                "siteUrl": "http://123.666291.xyz",
                 "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/wogg.json"
             }
         },
