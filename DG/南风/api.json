@@ -23,7 +23,7 @@
             "key": "弹幕",
             "name": "🅿弹幕|搜索",
             "type": 3,
-            "api": "csp_Huban",
+            "api": "csp_ConfigCenter",
             "jar": "./jars/弹幕.jar"
         },
         {
@@ -84,16 +84,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg0939791h1l2681i6g94li291li"
-        },
-        {
-            "key": "金牌",
-            "name": "🥇金牌",
-            "type": 3,
-            "api": "csp_Jpys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
         },
         {
             "key": "狂风",
@@ -726,15 +716,6 @@
             "ext": {
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
-        },
-        {
-            "key": "游戏直播",
-            "name": "🙀游戏直播",
-            "type": 3,
-            "api": "csp_Living",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": "https://lemonlive25.pages.dev"
         },
         {
             "key": "虎牙",

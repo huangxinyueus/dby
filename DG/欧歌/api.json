@@ -11,6 +11,12 @@
             "type": 0,
             "url": "./lives/tv.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+        },
+        {
+            "name": "tv备",
+            "type": 0,
+            "url": "./lives/tv备.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         }
     ],
     "sites": [
@@ -23,7 +29,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:9/9❤",
+            "name": "📢公告❤更新:9/12❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -41,13 +47,12 @@
             "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
-                    "https://woog.nxog.eu.org",
                     "https://woog.nxog.fun",
-                    "https://woog.xn--dkw.xn--6qq986b3xl"
+                    "https://woog.nxog.eu.org"
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 221,
+                    "chunksize": 281,
                     "threads": 16
                 }
             }
@@ -70,13 +75,12 @@
             "jar": "./jars/csp_woogkk.jar",
             "ext": {
                 "site_urls": [
-                    "hhttps://ogkk.nxog.eu.org",
                     "https://ogkk.nxog.fun",
-                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
+                    "https://ogkk.nxog.eu.org"
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 292,
+                    "chunksize": 261,
                     "threads": 60
                 }
             }
@@ -101,13 +105,12 @@
             "jar": "./jars/csp_woog2.jar",
             "ext": {
                 "site_urls": [
-                    "https://ogkk.nxog.eu.org",
                     "https://ogkk.nxog.fun",
-                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
+                    "https://ogkk.nxog.eu.org"
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 272,
+                    "chunksize": 258,
                     "threads": 16
                 }
             }
@@ -149,18 +152,6 @@
             "filterable": 0,
             "ext": {
                 "url": "http://v.rbotv.cn"
-            }
-        },
-        {
-            "key": "天天影视",
-            "name": "💡天天｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://tt.ysdqjs.cn"
             }
         },
         {
@@ -246,12 +237,6 @@
             "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
-            "key": "奇优影视",
-            "name": "💡奇优｜影视",
-            "type": 3,
-            "api": "csp_Qiyou"
-        },
-        {
             "key": "1905",
             "name": "💡1905｜影视",
             "type": 3,
@@ -319,20 +304,6 @@
             }
         },
         {
-            "key": "光影",
-            "name": "👑光影｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.guangyingmi.com",
-                "dataKey": "230fnsodfsdhfon2",
-                "dataIv": "230fnsodfsdhfon2",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "丫丫",
             "name": "👑丫丫｜弹幕",
             "type": 3,
@@ -376,22 +347,6 @@
                 "deviceId": "",
                 "version": "101",
                 "ua": ""
-            }
-        },
-        {
-            "key": "哔滴",
-            "name": "👑哔滴｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-                "dataKey": "5ae8ee4bb95ea0ce",
-                "dataIv": "5ae8ee4bb95ea0ce",
-                "deviceId": "",
-                "version": "120",
-                "ua": "okhttp/3.10.0BDYS/109.0.0.8"
             }
         },
         {
@@ -480,22 +435,6 @@
                 "dataIv": "AAdgrdghjfgswerA",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "豆丁",
-            "name": "👑豆丁｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://45.66.157.77:9427/dd.txt",
-                "dataKey": "Xasdasd!123123dd",
-                "dataIv": "Xasdasd!123123dd",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
             }
         },
         {
@@ -593,16 +532,32 @@
             }
         },
         {
-            "key": "零三",
-            "name": "👑零三丨弹幕",
+            "key": "五八",
+            "name": "👑五八丨弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://03macapp.01yy.top",
+                "url": "https://dy.58ys.vip",
                 "site": "",
-                "dataKey": "sdfjiweunikfjofj",
-                "dataIv": "sdfjiweunikfjofj",
+                "dataKey": "JEWibY1AgWF0V1xx",
+                "dataIv": "JEWibY1AgWF0V1xx",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "万能",
+            "name": "👑万能丨弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://wnvod.cc",
+                "site": "",
+                "dataKey": "5uBvur6znNUmE3zb",
+                "dataIv": "5uBvur6znNUmE3zb",
                 "deviceId": "",
                 "version": "",
                 "ua": ""

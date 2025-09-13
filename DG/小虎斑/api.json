@@ -210,6 +210,27 @@
             "api": "http://zling.online:12331/api.php?type=tianyi"
         },
         {
+            "key": "至尊",
+            "name": "魔尊|4K弹幕",
+            "type": 3,
+            "api": "csp_AppZzun",
+            "ext": "./txt/app.txt"
+        },
+        {
+            "key": "魔尊",
+            "name": "重楼|4K弹幕",
+            "type": 3,
+            "api": "csp_HBcms10",
+            "ext": "./txt/cms.txt"
+        },
+        {
+            "key": "紫萱",
+            "name": "紫萱|4K弹幕",
+            "type": 3,
+            "api": "csp_AppZzun",
+            "ext": "./txt/app2.txt"
+        },
+        {
             "key": "竹生",
             "name": "竹生|4K弹幕",
             "type": 3,
