@@ -74,6 +74,31 @@
             }
         },
         {
+            "key": "qingfeng",
+            "name": "♨️醉挽清风┃4K纯净",
+            "type": 4,
+            "api": "http://我不是.摸鱼儿.com/api/yuyutx.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
+            "key": "鲸鱼",
+            "name": "💯鲸鱼资源┃4K弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "",
+                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+                "dataKey": "AAdgrdghjfgswerA",
+                "dataIv": "AAdgrdghjfgswerA",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "玩偶哥哥",
             "name": "♨️玩偶备用┃4K弹幕",
             "type": 3,
