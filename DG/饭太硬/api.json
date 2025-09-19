@@ -319,7 +319,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-861684-ccfca7b2c24d4857a9dcf1e51798109e.json"
+                "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
             }
         },
         {
@@ -506,7 +506,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-438811-ee1bf539a68c4aa696de6280903c8a9a.json"
+                "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
             }
         },
         {
@@ -522,7 +522,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-343950-58e67f4fabd947228c2fc158489008c9.json"
+                "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
             }
         },
         {
@@ -552,7 +552,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-675236-05edd84dd04d48f0b394a11d0a6098f6.json"
+                "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
             }
         },
         {
@@ -568,7 +568,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-417036-ab02e4b2c6494f69a83e84dbe371ff82.json"
+                "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
             }
         },
         {
@@ -584,7 +584,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-368432-c7a7bcfa51154bf9bdb98888d3f26000.json"
+                "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
             }
         },
         {
@@ -600,7 +600,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250818-691234-03d78c46fc2f458d81b895121c27d088.json"
+                "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
             }
         },
         {
@@ -625,9 +625,9 @@
     "logo": "https://cdn.wmpvp.com/steamWeb/B96F868DE45B45D690B5F9F490D0BC60-1745866248445.gif",
     "lives": [
         {
-            "name": "V4-IPTV（卡顿请左右换源）",
+            "name": "V4-develop202",
             "type": 0,
-            "url": "./lives/V4-IPTV（卡顿请左右换源）.txt",
+            "url": "./lives/V4-develop202.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
@@ -636,16 +636,28 @@
             "url": "./lives/V6-范明明（需开启V6网络）.txt"
         },
         {
-            "name": "牛播一",
+            "name": "虎牙一起看",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "url": "./lives/虎牙一起看.txt",
+            "ua": "okHttp/Mod-1.4.0.0"
         },
         {
-            "name": "平台直播",
+            "name": "斗鱼一起看",
             "type": 0,
-            "url": "./lives/平台直播.txt",
-            "ua": "okhttp/3.15"
+            "url": "./lives/斗鱼一起看.txt",
+            "ua": "okHttp/Mod-1.4.0.0"
+        },
+        {
+            "name": "B站直播",
+            "type": 0,
+            "url": "./lives/B站直播.txt",
+            "ua": "okHttp/Mod-1.4.0.0"
+        },
+        {
+            "name": "YY轮播",
+            "type": 0,
+            "url": "./lives/YY轮播.txt",
+            "ua": "okHttp/Mod-1.4.0.0"
         }
     ]
 }

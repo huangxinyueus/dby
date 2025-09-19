@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20250914】🐮",
+            "name": "🐮【更新日期:20250917】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
@@ -58,14 +58,6 @@
             "name": "💓‍二小┃4K💓‍",
             "type": 3,
             "api": "csp_WexerxiaoziyuanGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexxzysGuard",
-            "name": "💓校长┃4K💓",
-            "type": 3,
-            "api": "csp_WexxzysGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -113,15 +105,6 @@
             "timeout": 120
         },
         {
-            "key": "WexTuanZhangGuard",
-            "name": "💓团长┃4K💓",
-            "type": 3,
-            "api": "csp_WexTuanZhangGuard",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 120
-        },
-        {
             "key": "WexduoduoziyuanGuard",
             "name": "💓多多┃4K💓",
             "type": 3,
@@ -129,6 +112,14 @@
             "searchable": 1,
             "changeable": 1,
             "timeout": 120
+        },
+        {
+            "key": "Wexsayangziyuan",
+            "name": "💓撒仰┃4K💓",
+            "type": 3,
+            "api": "csp_Wexsayangziyuan",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "Wexmuougg",

@@ -1,7 +1,7 @@
 //资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
 
 {
-    "wallpaper": "https://xn--tpo-mf3g9f.u.xn--dkw.xn--6qq986b3xl/m/t/",
+    "wallpaper": "https://tv.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
     "warningText": "tv提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
@@ -23,13 +23,13 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:9/15❤",
+            "name": "📢公告❤更新:9/18❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--tpo-mf3g9f.u.xn--dkw.xn--6qq986b3xl/m/公告.php?b=tv"
+            "ext": "https://tv.nxog.top/m/公告.php?b=tv"
         },
         {
             "key": "csp_woog",
@@ -46,7 +46,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 231,
+                    "chunksize": 244,
                     "threads": 16
                 }
             }
@@ -74,7 +74,7 @@
                 ],
                 "url_key": "UC",
                 "threadinfo": {
-                    "chunksize": 282,
+                    "chunksize": 211,
                     "threads": 60
                 }
             }
@@ -104,7 +104,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 257,
+                    "chunksize": 262,
                     "threads": 16
                 }
             }
@@ -268,7 +268,7 @@
         },
         {
             "key": "爱看",
-            "name": "👑爱看｜弹幕",
+            "name": "👑看看｜弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -475,21 +475,6 @@
             }
         },
         {
-            "key": "爱看",
-            "name": "👑爱看｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://114.134.185.234",
-                "site": "",
-                "dataKey": "uI1TkPJC8B46AyN3",
-                "dataIv": "uI1TkPJC8B46AyN3",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "云端",
             "name": "👑云端｜弹幕",
             "type": 3,
@@ -502,22 +487,6 @@
                 "dataIv": "k9o3p2c8b7m3z0o8",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "小猪",
-            "name": "👑小猪丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://xz4k.top/url.txt",
-                "dataKey": "1785acb6c963184b",
-                "dataIv": "1785acb6c963184b",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
             }
         },
         {
@@ -537,17 +506,99 @@
             }
         },
         {
-            "key": "光影",
-            "name": "👑光影丨弹幕",
+            "key": "热剧",
+            "name": "👑热剧丨弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "https://www.rebovod.com",
+                "site": "",
+                "dataKey": "8191A7F47B37882F",
+                "dataIv": "8191A7F47B37882F",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "星星",
+            "name": "👑星星丨弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://www.guangyingmi.com",
-                "dataKey": "230fnsodfsdhfon2",
-                "dataIv": "230fnsodfsdhfon2",
+                "url": "http://starani.qcanime.xyz",
+                "site": "",
+                "dataKey": "123456789StarAni",
+                "dataIv": "123456789StarAni",
                 "deviceId": "",
-                "version": ""
+                "version": "",
+                "ua": "okhttp/3.10.0BDYS/109.0.0.8"
+            }
+        },
+        {
+            "key": "斗量",
+            "name": "👑斗量丨弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://app-cms-v10-1314306855.cos.ap-guangzhou.myqcloud.com/appcms.php",
+                "dataKey": "A1akVPQmnnE4Fz9Z",
+                "dataIv": "A1akVPQmnnE4Fz9Z",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "魔方",
+            "name": "👑魔方丨弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.pjb523.sbs",
+                "site": "",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "稀饭",
+            "name": "👑稀饭丨弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "site": "",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "布雷",
+            "name": "👑布雷丨弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://cms.bl4k.cc",
+                "site": "",
+                "dataKey": "B7uaxcwdpX2dww82",
+                "dataIv": "B7uaxcwdpX2dww82",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
             }
         },
         {
@@ -742,13 +793,58 @@
             "filterable": 1
         },
         {
-            "key": "盘搜",
-            "name": "❤盘搜｜搜索",
+            "key": "糖果",
+            "name": "❤糖果｜搜索",
+            "type": 3,
+            "api": "csp_TGSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "音海",
+            "name": "❤音海｜搜索",
+            "type": 3,
+            "api": "csp_YinHai",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "夸克盘搜",
+            "name": "❤夸克｜搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "quark"
+            }
+        },
+        {
+            "key": "UC盘搜",
+            "name": "❤UC｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "uc"
+            }
+        },
+        {
+            "key": "百度盘搜",
+            "name": "❤百度｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "baidu"
+            }
         },
         {
             "key": "阿里云盘",
@@ -1483,13 +1579,13 @@
             "changeable": 0
         },
         {
-            "key": "应用商店",
+            "key": "本地包更新",
             "name": "🛒本地包更新",
             "type": 3,
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php"
+            "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php?b=tv"
         },
         {
             "key": "豆瓣3",

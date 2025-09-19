@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/",
-    "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
+    "logo": "https://web.wya6.com/d/lanlan/baobao/moyuer.gif",
     "warningText": "摸鱼儿：资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "sites": [
         {
@@ -39,10 +39,10 @@
         },
         {
             "key": "huban",
-            "name": "🚀虎斑┃弹幕┃小窗",
+            "name": "🐏羊村┃弹幕┃小窗",
             "type": 3,
             "jar": "./jars/huban.jar",
-            "api": "csp_Huban"
+            "api": "csp_ConfigCenter"
         },
         {
             "key": "玩偶",
@@ -96,6 +96,23 @@
                 "dataIv": "AAdgrdghjfgswerA",
                 "deviceId": "",
                 "version": ""
+            }
+        },
+        {
+            "key": "布雷",
+            "name": "💯布蕾资源┃4K弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://cms.bl4k.cc",
+                "site": "",
+                "dataKey": "B7uaxcwdpX2dww82",
+                "dataIv": "B7uaxcwdpX2dww82",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
             }
         },
         {
@@ -381,8 +398,8 @@
             "ext": {
                 "url": "",
                 "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-                "dataKey": "Z98KXaLtO2wC1Pte",
-                "dataIv": "Z98KXaLtO2wC1Pte",
+                "dataKey": "da61247f5b662597",
+                "dataIv": "da61247f5b662597",
                 "deviceId": "",
                 "version": "120"
             }
