@@ -8,12 +8,27 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "♨️网盘升级┃全速启动",
+            "name": "🐟公众号┃我不是摸鱼儿",
             "type": 3,
-            "api": "csp_DouDouGuard",
+            "api": "csp_GoConfig",
+            "jar": "./jars/豆豆.jar",
+            "indexs": 1,
             "searchable": 0,
+            "filterable": 0,
             "quickSearch": 0,
-            "filterable": 0
+            "changeable": 0,
+            "ext": "https://web.wya6.com/d/moyubu/go/"
+        },
+        {
+            "key": "懒羊羊弹幕",
+            "name": "🐏羊村┃弹幕┃设置",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "jar": "./jars/懒羊羊弹幕.jar",
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "update",
@@ -38,13 +53,6 @@
             }
         },
         {
-            "key": "huban",
-            "name": "🐏羊村┃弹幕┃小窗",
-            "type": 3,
-            "jar": "./jars/huban.jar",
-            "api": "csp_ConfigCenter"
-        },
-        {
             "key": "玩偶",
             "name": "♨️玩偶智能┃4K弹幕",
             "type": 3,
@@ -60,21 +68,7 @@
             }
         },
         {
-            "key": "seed",
-            "name": "♨️霜雪笼花┃三盘聚合",
-            "type": 3,
-            "api": "csp_SeedhubGuard",
-            "changeable": 0,
-            "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-            "searchable": 1,
-            "quickSearch": 1,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "qingfeng",
+            "key": "醉挽清风",
             "name": "♨️醉挽清风┃4K纯净",
             "type": 4,
             "api": "http://我不是.摸鱼儿.com/api/yuyutx.php",
@@ -83,8 +77,25 @@
             "changeable": 0
         },
         {
+            "key": "布雷",
+            "name": "♨️布蕾资源┃4K弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://cms.bl4k.cc",
+                "site": "",
+                "dataKey": "B7uaxcwdpX2dww82",
+                "dataIv": "B7uaxcwdpX2dww82",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
             "key": "鲸鱼",
-            "name": "💯鲸鱼资源┃4K弹幕",
+            "name": "♨️鲸鱼资源┃4K弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -99,20 +110,17 @@
             }
         },
         {
-            "key": "布雷",
-            "name": "💯布蕾资源┃4K弹幕",
+            "key": "seed",
+            "name": "♨️霜雪笼花┃4K聚合",
             "type": 3,
+            "api": "csp_SeedhubGuard",
+            "changeable": 0,
+            "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
+            "searchable": 1,
             "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://cms.bl4k.cc",
-                "site": "",
-                "dataKey": "B7uaxcwdpX2dww82",
-                "dataIv": "B7uaxcwdpX2dww82",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+            "indexs": 0,
+            "style": {
+                "type": "list"
             }
         },
         {
@@ -275,7 +283,7 @@
         },
         {
             "key": "夸父",
-            "name": "🏃‍➡️夸父资源┃4K弹幕",
+            "name": "🏃夸父资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudKF",
             "jar": "./jars/config.jar",
@@ -397,7 +405,7 @@
             "api": "csp_AppQi",
             "ext": {
                 "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
                 "dataKey": "da61247f5b662597",
                 "dataIv": "da61247f5b662597",
                 "deviceId": "",

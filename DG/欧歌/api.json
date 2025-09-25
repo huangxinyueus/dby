@@ -23,13 +23,33 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:9/18❤",
+            "name": "📢公告❤更新:9/24",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
             "ext": "https://tv.nxog.top/m/公告.php?b=tv"
+        },
+        {
+            "key": "config",
+            "name": "🐲配置｜中心",
+            "type": 3,
+            "jar": "./jars/config.jar",
+            "api": "csp_Config",
+            "searchable": 0
+        },
+        {
+            "key": "配置中心",
+            "name": "❤配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "csp_woog",
@@ -46,57 +66,19 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 244,
+                    "chunksize": 272,
                     "threads": 16
                 }
             }
         },
         {
-            "key": "config",
-            "name": "🐲配置｜中心",
-            "type": 3,
-            "jar": "./jars/config.jar",
-            "api": "csp_Config",
-            "searchable": 0
-        },
-        {
-            "key": "csp_woogkk",
-            "name": "🐲夸快┃非会员4K",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_woog",
-            "filterable": 1,
-            "jar": "./jars/csp_woogkk.jar",
-            "ext": {
-                "site_urls": [
-                    "https://ogkk.nxog.fun",
-                    "https://ogkk.nxog.eu.org"
-                ],
-                "url_key": "UC",
-                "threadinfo": {
-                    "chunksize": 211,
-                    "threads": 60
-                }
-            }
-        },
-        {
-            "key": "csp_欧歌123",
-            "name": "🐲夸快┃配置",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jars/csp_欧歌123.jar"
-        },
-        {
             "key": "欧哥",
-            "name": "❤欧歌｜4K弹幕",
+            "name": "🐲欧歌｜4K弹幕",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
-            "jar": "./jars/欧哥.jar",
+            "jar": "./jars/config.jar",
             "ext": {
                 "site_urls": [
                     "https://ogkk.nxog.fun",
@@ -104,22 +86,21 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 262,
+                    "chunksize": 276,
                     "threads": 16
                 }
             }
         },
         {
-            "key": "配置中心",
-            "name": "❤配置｜中心",
+            "key": "夸快",
+            "name": "❤夸快｜4K弹幕",
             "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/og.json"
         },
         {
             "key": "荐片",
@@ -267,21 +248,6 @@
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
-            "key": "爱看",
-            "name": "👑看看｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://114.134.185.234",
-                "site": "",
-                "dataKey": "uI1TkPJC8B46AyN3",
-                "dataIv": "uI1TkPJC8B46AyN3",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "雄鹰",
             "name": "👑雄鹰｜弹幕",
             "type": 3,
@@ -336,22 +302,6 @@
                 "dataIv": "qkxnwkfjwpcnwycl",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "加菲",
-            "name": "👑加菲｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
-                "dataKey": "dksvndkaAjekakcE",
-                "dataIv": "dksvndkaAjekakcE",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
             }
         },
         {
@@ -564,22 +514,6 @@
                 "site": "",
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "稀饭",
-            "name": "👑稀饭丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://app.xifanys.com",
-                "site": "",
-                "dataKey": "HM6Ly9yeS4ya3dvL",
-                "dataIv": "HM6Ly9yeS4ya3dvL",
                 "deviceId": "",
                 "version": "",
                 "ua": ""

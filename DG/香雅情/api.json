@@ -69,26 +69,6 @@
             "ext": "./js/百忙无果.js"
         },
         {
-            "key": "csp_Yisou",
-            "name": "📀易搜(搜索)",
-            "type": 3,
-            "api": "csp_Yisou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        },
-        {
-            "key": "csp_XYQHikerAL_云盘资源",
-            "name": "📀云盘资源(搜索)",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./json/云盘资源.json"
-        },
-        {
             "key": "push_agent",
             "name": "📽推送",
             "type": 3,
@@ -450,16 +430,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/电影盒子.json"
-        },
-        {
-            "key": "csp_XYQHiker_星辰影院",
-            "name": "⭐️星辰影院(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/星辰影院.json"
         },
         {
             "key": "csp_XYQHiker_可可影视",

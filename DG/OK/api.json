@@ -113,10 +113,10 @@
             "timeout": 25
         },
         {
-            "key": "百家",
-            "name": "💒百家┃4K",
+            "key": "小飒",
+            "name": "💒小飒┃4K",
             "type": 3,
-            "api": "csp_BaijiaGuard",
+            "api": "csp_XsayangGuard",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -174,16 +174,6 @@
                 "type": "list"
             },
             "timeout": 25
-        },
-        {
-            "key": "校长",
-            "name": "💮小章┃4K",
-            "type": 3,
-            "api": "csp_XiaoZhangGuard",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 30
         },
         {
             "key": "光影",
