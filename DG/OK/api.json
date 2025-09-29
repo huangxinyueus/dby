@@ -133,16 +133,6 @@
             "timeout": 25
         },
         {
-            "key": "闪电",
-            "name": "🌈闪电┃4K",
-            "type": 3,
-            "api": "csp_ShanDianGuard",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 25
-        },
-        {
             "key": "虎斑",
             "name": "🐯虎斑┃4K",
             "type": 3,
@@ -182,7 +172,7 @@
             "api": "csp_GuanyingGuard",
             "searchable": 1,
             "filterable": 1,
-            "changeable": 1,
+            "changeable": 0,
             "timeout": 30
         },
         {
@@ -306,16 +296,6 @@
             "name": "🍎苹果┃直连",
             "type": 3,
             "api": "csp_XpgGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 10
-        },
-        {
-            "key": "加菲",
-            "name": "🐱加菲┃App",
-            "type": 3,
-            "api": "csp_JiaFeiGuard",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -585,6 +565,16 @@
             "searchable": 1,
             "changeable": 0,
             "timeout": 20
+        },
+        {
+            "key": "聚合直播",
+            "name": "📽️聚合┃直播",
+            "type": 3,
+            "api": "csp_LivingGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "timeout": 10
         },
         {
             "key": "快手直播",
