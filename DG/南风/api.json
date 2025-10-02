@@ -14,7 +14,7 @@
             "ext": {
                 "siteUrl": "http://127.0.0.1:9999",
                 "count": 4,
-                "channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
+                "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json",
                 "filter": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/douban.json"
             }
@@ -669,7 +669,7 @@
         },
         {
             "key": "Youtube",
-            "name": "⚡Youtube（墙外）",
+            "name": "⚡Youtube",
             "type": 3,
             "api": "csp_Youtube",
             "searchable": 1,
@@ -685,8 +685,25 @@
             }
         },
         {
+            "key": "肥牛",
+            "name": "Emby肥牛",
+            "type": 3,
+            "api": "csp_Emby",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "server": "http://127.0.0.1:9966/api/proxy/https://emby.feiniu.lol:443",
+                "username": "123",
+                "password": "2232",
+                "ua": "",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
+            },
+            "changeable": 1
+        },
+        {
             "key": "TgYunPan|本地",
-            "name": "🅿TgYunPan|本地（墙外）",
+            "name": "🅿TgYunPan|本地",
             "type": 3,
             "api": "csp_TgYunPanLocal",
             "searchable": 1,
@@ -694,7 +711,7 @@
             "switchable": 0,
             "ext": {
                 "count": 4,
-                "channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
+                "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/json/peizhi.json"
             }
         },

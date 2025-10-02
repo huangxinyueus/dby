@@ -1,39 +1,39 @@
 //资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
 
 {
-    "wallpaper": "https://tv.nxog.top/m/t/",
+    "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "公众号欧歌app提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "严禁贩卖或用于演示场景。若遇收费可直接申请退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "公众号欧歌app",
+            "name": "严禁贩卖或用于演示场景。若遇收费可直接申请退款",
             "type": 0,
-            "url": "./lives/公众号欧歌app.txt",
+            "url": "./lives/严禁贩卖或用于演示场景。若遇收费可直接申请退款.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         }
     ],
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢公众号欧歌app",
+            "name": "📢严禁贩卖或用于演示场景。若遇收费可直接申请退款",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:9/25",
+            "name": "📢公告❤更新:9/28",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://tv.nxog.top/m/公告.php?b=公众号欧歌app"
+            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告.php?b=严禁贩卖或用于演示场景。若遇收费可直接申请退款"
         },
         {
             "key": "config",
-            "name": "🐲欧配置｜中心",
+            "name": "🐲歌配置｜中心",
             "type": 3,
             "jar": "./jars/config.jar",
             "api": "csp_Config",
@@ -53,7 +53,7 @@
         },
         {
             "key": "csp_woog",
-            "name": "🐲玩欧｜4K弹幕",
+            "name": "🐲玩歌｜4K弹幕",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
@@ -66,14 +66,14 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 288,
+                    "chunksize": 271,
                     "threads": 16
                 }
             }
         },
         {
             "key": "欧哥",
-            "name": "🐲欧歌｜4K弹幕",
+            "name": "🐲装歌｜4K弹幕",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
@@ -86,7 +86,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 294,
+                    "chunksize": 281,
                     "threads": 16
                 }
             }
@@ -125,6 +125,59 @@
             "api": "csp_YDjisu",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "农民影视",
+            "name": "💡农民┃影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
+            "key": "1905",
+            "name": "💡1905｜影视",
+            "type": 3,
+            "api": "csp_Web1905",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "金牌影视",
+            "name": "💡金牌｜影视",
+            "type": 3,
+            "api": "csp_Jpys",
+            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+        },
+        {
+            "key": "热播影视",
+            "name": "💡热播｜影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.rbotv.cn"
+            }
+        },
+        {
+            "key": "浪酷影视",
+            "name": "💡浪酷｜影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.lkuys.cn"
+            }
+        },
+        {
+            "key": "本地",
+            "name": "🌸本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
         },
         {
             "key": "木偶",
@@ -218,7 +271,7 @@
         },
         {
             "key": "夸克盘搜",
-            "name": "❤夸克｜搜索",
+            "name": "❤夸父｜搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -230,7 +283,7 @@
         },
         {
             "key": "UC盘搜",
-            "name": "❤UC｜搜索",
+            "name": "❤优夕｜搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -242,7 +295,7 @@
         },
         {
             "key": "百度盘搜",
-            "name": "❤百度｜搜索",
+            "name": "❤肚盘｜搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -254,7 +307,7 @@
         },
         {
             "key": "阿里云盘",
-            "name": "❤我的｜阿里",
+            "name": "❤我的｜阿离",
             "type": 3,
             "api": "csp_PanAli",
             "searchable": 0,
@@ -268,7 +321,7 @@
         },
         {
             "key": "夸克云盘",
-            "name": "❤我的｜夸克",
+            "name": "❤我的｜夸父",
             "type": 3,
             "api": "csp_PanQuark",
             "searchable": 0,
@@ -282,7 +335,7 @@
         },
         {
             "key": "UC",
-            "name": "❤我的｜UC",
+            "name": "❤我的｜优夕",
             "type": 3,
             "api": "csp_PanUc",
             "searchable": 0,
@@ -296,7 +349,7 @@
         },
         {
             "key": "百度云盘",
-            "name": "❤我的｜百度",
+            "name": "❤我的｜肚盘",
             "type": 3,
             "api": "csp_PanBaiDu",
             "searchable": 0,
@@ -305,6 +358,37 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
+            }
+        },
+        {
+            "key": "急救教学",
+            "name": "🚑急救｜教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
+            "gridview": "0-0-4.1"
+        },
+        {
+            "key": "影视影视",
+            "name": "🅰视频┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/合集.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
             }
         },
         {

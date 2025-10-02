@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20250927】🐮",
+            "name": "🐮【更新日期:20251001】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
@@ -96,15 +96,6 @@
             "timeout": 120
         },
         {
-            "key": "WexFox4KGuard",
-            "name": "💓极狐┃4K💓",
-            "type": 3,
-            "api": "csp_WexFox4KGuard",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 120
-        },
-        {
             "key": "WexduoduoziyuanGuard",
             "name": "💓多多┃4K💓",
             "type": 3,
@@ -146,14 +137,6 @@
             "changeable": 1
         },
         {
-            "key": "WexfeimaoziyuanGuard",
-            "name": "💓肥猫┃4K💓",
-            "type": 3,
-            "api": "csp_WexfeimaoziyuanGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "WexhubanGuard",
             "name": "💓虎斑┃4K💓",
             "type": 3,
@@ -189,10 +172,10 @@
             "changeable": 1
         },
         {
-            "key": "夸父",
-            "name": "💓‍夸父┃4K💓‍",
+            "key": "Wexpan123ziyuanGuard",
+            "name": "💓123┃4K💓",
             "type": 3,
-            "api": "csp_WexQKkuafuGuard",
+            "api": "csp_Wexpan123ziyuanGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -269,14 +252,6 @@
             "changeable": 1
         },
         {
-            "key": "Wex4Kav",
-            "name": "🎇急速┃秒播🎇",
-            "type": 3,
-            "api": "csp_Wex4KavGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexbaozitv",
             "name": "🎇包子┃秒播🎇",
             "type": 3,
@@ -305,14 +280,6 @@
             "name": "🎇滴滴┃秒播🎇",
             "type": 3,
             "api": "csp_WexBDysGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexF4kvmGuard",
-            "name": "🎇纯享┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexF4kvmGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -547,6 +514,39 @@
             "changeable": 0
         },
         {
+            "key": "bilibiliys",
+            "name": " 🅱‍哔哩NEW影视🅱‍",
+            "type": 3,
+            "api": "csp_WexNewBiLiYSGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "./txt/bilisong.txt"
+        },
+        {
+            "key": "bilibili",
+            "name": " 🅱‍哔哩NEW合集🅱‍",
+            "type": 3,
+            "api": "csp_WexNewBiLiGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "./txt/bili001.txt"
+        },
+        {
+            "key": "biliych",
+            "name": " 🅱‍哔哩NEW歌曲🅱‍",
+            "type": 3,
+            "api": "csp_WexNewBiLiGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "./txt/bilisong.txt"
+        },
+        {
             "key": "Wexbiliys",
             "name": "🅱‍哔哔┃影视🅱‍",
             "type": 3,
@@ -667,29 +667,10 @@
             "changeable": 0
         },
         {
-            "key": "Wexwwe",
-            "name": "🌐格斗┃WWE🌐",
-            "type": 3,
-            "api": "csp_WexwweGuard",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "看球",
             "name": "🌐88┃体育🌐",
             "type": 3,
             "api": "csp_KanqiuGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "926看球",
-            "name": "🌐926┃体育🌐",
-            "type": 3,
-            "api": "csp_Wex926kanqiuGuard",
             "searchable": 1,
             "changeable": 0,
             "style": {

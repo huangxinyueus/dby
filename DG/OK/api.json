@@ -498,6 +498,16 @@
             "timeout": 10
         },
         {
+            "key": "电影天堂",
+            "name": "🎞️天堂┃采集",
+            "type": 1,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
             "key": "星芽短剧",
             "name": "💖星芽┃短剧",
             "type": 3,
@@ -1006,9 +1016,10 @@
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         },
         {
-            "name": "范明明",
+            "name": "MIGU",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Ffy.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dmianfeidehaimaiqian%26json%3Dtrue",
+            "ua": "bingcha/1.1"
         },
         {
             "name": "电视Live",

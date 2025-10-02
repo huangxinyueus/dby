@@ -50,7 +50,7 @@
                 "site_urls": [
                     "https://feimao666.fun",
                     "http://feimao888.fun",
-                    "http://feimaoai.site",
+                    "https://feimo.fun",
                     "http://www.labi88.sbs",
                     "http://fmao.site",
                     "http://fmao.shop",
@@ -274,6 +274,13 @@
             }
         },
         {
+            "key": "冷心",
+            "name": "🧊┃冷心┃APP",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "ext": "http://app.789dd.cn|火猫影视"
+        },
+        {
             "key": "csp_Jpys",
             "name": "🥇️┃金牌┃影视",
             "type": 3,
@@ -317,7 +324,7 @@
             "api": "csp_Jianpian",
             "type": 3,
             "playerType": "2",
-            "ext": "https://ka1dfj.slsw6.com"
+            "ext": "https://ev2089.zxbwv.com"
         },
         {
             "key": "csp_Quanwk",
