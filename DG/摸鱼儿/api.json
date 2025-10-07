@@ -8,15 +8,19 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🐟公众号┃我不是摸鱼儿",
+            "name": "♨️网盘升级┃全速启动",
             "type": 3,
-            "api": "csp_GoConfig",
-            "jar": "./jars/豆豆.jar",
-            "indexs": 1,
+            "api": "csp_DouDouGuard",
             "searchable": 0,
-            "filterable": 0,
             "quickSearch": 0,
-            "changeable": 0
+            "filterable": 0
+        },
+        {
+            "key": "huban",
+            "name": "🤖虎斑┃弹幕┃设置",
+            "type": 3,
+            "jar": "./jars/huban.jar",
+            "api": "csp_Huban"
         },
         {
             "key": "懒羊羊弹幕",

@@ -4,32 +4,32 @@
     "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "严禁贩卖或用于演示场景。若遇收费可直接申请退款提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "公众号装歌app提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "严禁贩卖或用于演示场景。若遇收费可直接申请退款",
+            "name": "公众号装歌app",
             "type": 0,
-            "url": "./lives/严禁贩卖或用于演示场景。若遇收费可直接申请退款.txt",
+            "url": "./lives/公众号装歌app.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         }
     ],
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢严禁贩卖或用于演示场景。若遇收费可直接申请退款",
+            "name": "📢公众号装歌app",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新:9/28",
+            "name": "📢公告❤10-4❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告.php?b=严禁贩卖或用于演示场景。若遇收费可直接申请退款"
+            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告.php?b=公众号装歌app"
         },
         {
             "key": "config",
@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 271,
+                    "chunksize": 269,
                     "threads": 16
                 }
             }
@@ -86,7 +86,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 281,
+                    "chunksize": 233,
                     "threads": 16
                 }
             }

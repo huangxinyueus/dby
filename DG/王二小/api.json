@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20251001】🐮",
+            "name": "🐮【更新日期:20251004】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
@@ -188,14 +188,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexalllive",
-            "name": "💓‍聚合┃直播💓‍",
-            "type": 3,
-            "api": "csp_WexallliveGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexhanxiaoquan",
             "name": "💥韩剧┃秒播💥",
             "type": 3,
@@ -312,6 +304,30 @@
             "name": "🀄️emby┃4K🀄️",
             "type": 3,
             "api": "csp_WexembyGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexNewHuYa",
+            "name": "🐯‍虎牙┃直播🐯‍",
+            "type": 3,
+            "api": "csp_WexNewHuYaGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexNewDouYu",
+            "name": "🐳斗鱼┃直播🐳",
+            "type": 3,
+            "api": "csp_WexNewDouYuGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexNewBiLiLive",
+            "name": "🅱️哔哩┃直播🅱️",
+            "type": 3,
+            "api": "csp_WexNewBiLiLiveGuard",
             "searchable": 1,
             "changeable": 1
         },

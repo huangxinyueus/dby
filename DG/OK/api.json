@@ -508,6 +508,16 @@
             "timeout": 10
         },
         {
+            "key": "锦鲤短剧",
+            "name": "🐟锦鲤┃短剧",
+            "type": 3,
+            "api": "csp_JinliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
             "key": "星芽短剧",
             "name": "💖星芽┃短剧",
             "type": 3,
