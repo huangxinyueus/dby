@@ -573,6 +573,15 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./json/斗鱼直播.json"
+        },
+        {
+            "key": "csp_Djuu",
+            "name": "🎧DJ悠悠",
+            "type": 3,
+            "api": "csp_Djuu",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1
         }
     ],
     "parses": [

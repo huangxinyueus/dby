@@ -23,13 +23,13 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤10-4❤",
+            "name": "📢公告❤更新10.4❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告.php?b=公众号装歌app"
+            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告?b=公众号装歌app"
         },
         {
             "key": "config",
@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 269,
+                    "chunksize": 222,
                     "threads": 16
                 }
             }
@@ -86,7 +86,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 233,
+                    "chunksize": 293,
                     "threads": 16
                 }
             }
@@ -433,7 +433,7 @@
         {
             "name": "欧歌解析",
             "type": "1",
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=",
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
