@@ -129,55 +129,35 @@
             "name": "🍚┃干饭┃APP",
             "type": 3,
             "api": "csp_AppQi",
-            "ext": "http://110.42.53.99:1080|staraugust123456|301"
+            "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|120"
         },
         {
             "key": "光盘",
             "name": "📀┃光盘┃APP",
             "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://appcms.rx4k.top",
-                "dataKey": "ZX10ysTYZWtIJCTU",
-                "siteApi": "qiji",
-                "version": "120"
-            }
+            "api": "csp_AppQi",
+            "ext": "https://appcms.rx4k.top|ZX10ysTYZWtIJCTU|120"
         },
         {
             "key": "行动",
             "name": "😌┃行动┃APP",
             "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
-                "dataKey": "dksvndkaAjekakcE",
-                "siteApi": "qiji",
-                "version": ""
-            }
+            "api": "csp_AppQi",
+            "ext": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt|da61247f5b662597|120"
         },
         {
             "key": "再来",
             "name": "✌️┃再来┃APP",
             "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-                "dataKey": "37kj83zs1q16jk6t",
-                "siteApi": "qiji",
-                "version": ""
-            }
+            "api": "csp_AppQi",
+            "ext": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt|37kj83zs1q16jk6t|101"
         },
         {
             "key": "一碗",
             "name": "🥣┃一碗┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": {
-                "url": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-                "dataKey": "Z98KXaLtO2wC1Pte",
-                "siteApi": "qiji",
-                "version": "119"
-            }
+            "ext": "http://www.zjcvod.com|ab4e9a421675f14b"
         },
         {
             "key": "猫抓",
@@ -190,13 +170,8 @@
             "key": "仓鼠",
             "name": "🐹┃耗子┃APP",
             "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "siteApi": "qiji",
-                "version": ""
-            }
+            "api": "csp_AppQi",
+            "ext": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt|ca94b06ca359d80e|120"
         },
         {
             "key": "蔬菜",
@@ -340,7 +315,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzymovie.com"
+            "ext": "https://www.czzymovie.com/"
         },
         {
             "key": "猎手影视",
