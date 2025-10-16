@@ -32,8 +32,6 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://zzzy.shop",
-                    "https://www.zzzy.shop",
                     "https://mihdr.top",
                     "https://www.mihdr.top",
                     "https://www.miqk.cc",
@@ -153,6 +151,16 @@
             "ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPiqzXAOG2XsUSh62armSJmz6+8BN455Lbt5tpPqGfXnKgoQ1N+ZOhu3N/KDZ+r/7HZc="
         },
         {
+            "key": "AppQi3",
+            "name": "💣爆炸┃小米",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "0",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "XSJiCWoJEGFoOdKZQ3W3pG4QYj6kuTSnLRDxFYNZWjIPLTHHAeib23CrNf2Ymrxa8iTANsHrwj35FQ3ORCXCuw=="
+        },
+        {
             "key": "鲸鱼",
             "name": "🐋鲸鱼┃小米",
             "quickSearch": 0,
@@ -180,19 +188,6 @@
             "ext": "KgJbeb5sUfDKrPR2kL+eSnS2/p1vUzgiO9/kBzkhPIPRpqLXPCDc4tA9MXMdokFN"
         },
         {
-            "key": "娱乐",
-            "name": "🎮游戏┃娱乐",
-            "quickSearch": 0,
-            "searchable": 1,
-            "type": 3,
-            "api": "./api/zb.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "ext": ""
-        },
-        {
             "key": "88看球",
             "name": "🏀看球┃直播",
             "type": 3,
@@ -218,6 +213,14 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_FreeOk"
+        },
+        {
+            "key": "csp_WwYS",
+            "name": "👨农民┃影视",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "csp_Wwys",
+            "ext": "https://vip.wwgz.cn:5200/"
         },
         {
             "key": "追忆",
@@ -255,6 +258,15 @@
             "ext": "L5CUOokkdA53FISUojI6hPrPTI97cTkdA/ji0bBBqAxKRl2ZBcdyMIPZYXkkVxwyvG4rB4PEPXKIt7+cirUe3BI+KdfWiEtEO4bT/XoF0PYU0GWsBFU3ARUcHsGqNpNy"
         },
         {
+            "key": "开心2",
+            "name": "☺开心┃影视",
+            "type": 3,
+            "quickSearch": 0,
+            "searchable": 1,
+            "api": "csp_AppQi",
+            "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4+BBCXxVVHkmAtv6gi+JRQlKwhK1WjuT8blTygReol77ICMmtZZPsmzfgjOtOXiEJ"
+        },
+        {
             "key": "QD4K",
             "name": "🐷猪猪┃影视",
             "type": 3,
@@ -290,6 +302,15 @@
             "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4+BBCXxVVHkmAtv6gi+JRQlKwhK1WjuT8blTygReol77ICMmtZZPsmzfgjOtOXiEJ"
         },
         {
+            "key": "lanyingys",
+            "name": "橘子4K┃APP",
+            "type": 3,
+            "api": "csp_Muou",
+            "jar": "./jars/lanyingys.jar",
+            "playerType": 2,
+            "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i3997320425124lgl71154400h9k4jghg17hgggjhki06i0h311g04h3hk323g0k"
+        },
+        {
             "key": "巧技",
             "name": "🚗聚搜┃影视",
             "type": 3,
@@ -297,16 +318,8 @@
             "quickSearch": 0,
             "api": "csp_qiao2",
             "playerType": 2,
-            "jar": "./jars/巧技.jar",
+            "jar": "./jars/lanyingys.jar",
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
-        },
-        {
-            "key": "金牌APP",
-            "name": "💣爆炸┃影视",
-            "quickSearch": 0,
-            "type": 3,
-            "api": "csp_AppMuou",
-            "ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="
         },
         {
             "key": "csp_AppXY",
@@ -347,7 +360,7 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_Czsapp",
-            "ext": "https://www.czzymovie.com"
+            "ext": "https://www.cz233.com"
         },
         {
             "key": "csp_MiSou",

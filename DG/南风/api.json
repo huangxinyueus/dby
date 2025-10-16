@@ -163,7 +163,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.wwgz.cn"
+            "ext": "https://vip.wwgz.cn:5200/"
         },
         {
             "key": "csp_SaoHuo",
@@ -336,6 +336,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/jianpian.json"
+        },
+        {
+            "key": "csp_Dygang",
+            "name": "🧲电影港",
+            "type": 3,
+            "api": "csp_Dygang",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_xlys",

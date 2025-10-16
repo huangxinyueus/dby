@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20251008】🐮",
+            "name": "🐮【更新日期:20251016】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
@@ -82,15 +82,6 @@
             "name": "💓无名┃4K💓",
             "type": 3,
             "api": "csp_WexnullnameGuard",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 120
-        },
-        {
-            "key": "Wexseedhub",
-            "name": "💓种子┃4K💓",
-            "type": 3,
-            "api": "csp_WexseedhubGuard",
             "searchable": 1,
             "changeable": 1,
             "timeout": 120

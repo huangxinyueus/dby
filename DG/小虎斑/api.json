@@ -337,8 +337,8 @@
             "key": "天天",
             "name": "天天|弹幕",
             "type": 3,
-            "api": "csp_HBtiantian",
-            "ext": "http://tt.ysdqjs.cn/"
+            "api": "csp_HBtiantianv3",
+            "ext": "http://v.rbotv.cn"
         },
         {
             "key": "jianpian",
