@@ -698,6 +698,16 @@
             "timeout": 10
         },
         {
+            "key": "世界听书",
+            "name": "🎸世界┃听书",
+            "type": 3,
+            "api": "csp_BookTingGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "timeout": 10
+        },
+        {
             "key": "bilimd",
             "name": "🅱哔哩┃影视",
             "type": 3,

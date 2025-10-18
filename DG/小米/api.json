@@ -112,6 +112,15 @@
             }
         },
         {
+            "key": "csp_LIVING",
+            "name": "🎮游戏┃直播",
+            "type": 3,
+            "api": "csp_Living",
+            "quickSearch": 0,
+            "searchable": 1,
+            "ext": "https://api.muxia.fun"
+        },
+        {
             "key": "csp_Bili",
             "name": "🏵️哔哩┃哔哩",
             "type": 3,
@@ -249,6 +258,15 @@
             "ext": "9ee0oa0Y30GapSvZ2C2RVE2HwH08KKvP0VhAZCVWpnluXpZNLRZrNCMeKyCWw1JOnmBt4WntUB96Gzw7GkroAUK4RePU806mDtHSmD09164W8EWpaWaU/Gg8nPkgUt5F"
         },
         {
+            "key": "花猪",
+            "name": "🐖花猪┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "csp_AppQi",
+            "ext": "llmvPPU1h/vqmWtANHI55wjkhfSXUVRucMnPpIfDe+l3hpqpWlt3meXji00/Qg7Yb84SQ3EzXzZZ0jeFYWPcvEHOBaptd0aJSFS2ac8gZBJ6TodggbUva1hHidOGZOWx"
+        },
+        {
             "key": "麻花",
             "name": "🌸麻花┃影视",
             "type": 3,
@@ -302,15 +320,6 @@
             "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4+BBCXxVVHkmAtv6gi+JRQlKwhK1WjuT8blTygReol77ICMmtZZPsmzfgjOtOXiEJ"
         },
         {
-            "key": "lanyingys",
-            "name": "橘子4K┃APP",
-            "type": 3,
-            "api": "csp_Muou",
-            "jar": "./jars/lanyingys.jar",
-            "playerType": 2,
-            "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i3997320425124lgl71154400h9k4jghg17hgggjhki06i0h311g04h3hk323g0k"
-        },
-        {
             "key": "巧技",
             "name": "🚗聚搜┃影视",
             "type": 3,
@@ -318,7 +327,7 @@
             "quickSearch": 0,
             "api": "csp_qiao2",
             "playerType": 2,
-            "jar": "./jars/lanyingys.jar",
+            "jar": "./jars/巧技.jar",
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {

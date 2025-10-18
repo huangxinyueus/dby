@@ -4,32 +4,32 @@
     "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
-    "warningText": "祝：家国同兴旺，岁岁福绵长！祝您追剧愉快！提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "warningText": "an装🅱na提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "祝：家国同兴旺，岁岁福绵长！祝您追剧愉快！",
+            "name": "an装🅱na",
             "type": 0,
-            "url": "./lives/祝：家国同兴旺，岁岁福绵长！祝您追剧愉快！.txt",
+            "url": "./lives/an装🅱na.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
         }
     ],
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢祝：家国同兴旺，岁岁福绵长！祝您追剧愉快！",
+            "name": "📢仅限测试和学习使用，请勿演示贩卖，谨防上当受骗！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新10.11❤",
+            "name": "📢公告❤更新10.16❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告?b=祝：家国同兴旺，岁岁福绵长！祝您追剧愉快！"
+            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告?b=an装🅱na"
         },
         {
             "key": "config",
@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 284,
+                    "chunksize": 207,
                     "threads": 16
                 }
             }
@@ -86,7 +86,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 277,
+                    "chunksize": 218,
                     "threads": 16
                 }
             }
@@ -297,21 +297,6 @@
             }
         },
         {
-            "key": "云云",
-            "name": "👑云云｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
-                "dataKey": "staraugust123456",
-                "dataIv": "staraugust123456",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
             "key": "蓝鹰",
             "name": "👑蓝鹰｜弹幕",
             "type": 3,
@@ -337,21 +322,6 @@
                 "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
                 "dataKey": "ce032244d093b3e2",
                 "dataIv": "ce032244d093b3e2",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "鲸鱼",
-            "name": "👑鲸鱼｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1json",
-                "dataKey": "AAdgrdghjfgswerA",
-                "dataIv": "AAdgrdghjfgswerA",
                 "deviceId": "",
                 "version": ""
             }
@@ -389,22 +359,6 @@
             }
         },
         {
-            "key": "热剧",
-            "name": "👑热剧丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://www.rebovod.com",
-                "site": "",
-                "dataKey": "8191A7F47B37882F",
-                "dataIv": "8191A7F47B37882F",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "星星",
             "name": "👑星星丨弹幕",
             "type": 3,
@@ -418,22 +372,6 @@
                 "deviceId": "",
                 "version": "",
                 "ua": "okhttp/3.10.0BDYS/109.0.0.8"
-            }
-        },
-        {
-            "key": "加菲",
-            "name": "👑加菲丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
-                "dataKey": "dksvndkaAjekakcE",
-                "dataIv": "dksvndkaAjekakcE",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
             }
         },
         {
@@ -1449,7 +1387,7 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd?b=祝：家国同兴旺，岁岁福绵长！祝您追剧愉快！"
+            "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd?b=an装🅱na"
         },
         {
             "key": "豆瓣3",

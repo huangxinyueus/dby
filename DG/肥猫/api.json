@@ -352,17 +352,6 @@
             "playerType": 2
         },
         {
-            "key": "偷乐短剧",
-            "name": "☺️┃偷乐┃短剧",
-            "type": 3,
-            "api": "./api/TLDJ.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "csp_SP360",
             "name": "📺┃360┃官源",
             "type": 3,
@@ -390,27 +379,6 @@
             "playerType": "2",
             "api": "csp_Dm84",
             "ext": "https://dm84.net"
-        },
-        {
-            "key": "56动漫",
-            "name": "5️⃣┃56┃动漫",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/56DM.js"
-        },
-        {
-            "key": "NT动漫",
-            "name": "🧬┃NT┃动漫",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/NTDM.js"
-        },
-        {
-            "key": "Anime1",
-            "name": "🌏┃️Anime┃动漫",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/Anime1.js"
         },
         {
             "key": "csp_FourK",
@@ -464,10 +432,10 @@
             }
         },
         {
-            "key": "娱乐",
-            "name": "🎮┃游戏┃娱乐",
+            "key": "喜马拉雅",
+            "name": "🎮┃喜马┃听书",
             "type": 3,
-            "api": "./api/LIVES.py",
+            "api": "./api/喜马拉雅.py",
             "style": {
                 "type": "rect",
                 "ratio": 1.333

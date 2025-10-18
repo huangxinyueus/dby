@@ -757,11 +757,23 @@
             }
         },
         {
+            "key": "游戏直播",
+            "name": "🙀游戏直播",
+            "type": 3,
+            "api": "csp_Living",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "https://api.muxia.fun",
+                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
+            }
+        },
+        {
             "key": "虎牙",
             "name": "🐯虎牙直播",
             "type": 3,
             "api": "./api/drpy2.js",
-            "ext": "./js/huya2.js",
+            "ext": "./js/drpy2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
