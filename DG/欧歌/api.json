@@ -1,7 +1,7 @@
 //资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
 
 {
-    "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
+    "wallpaper": "http://jar.yy.xn--dkw.xn--6qq986b3xl/m/t/",
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
     "warningText": "an装🅱na提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
@@ -16,20 +16,20 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢仅限测试和学习使用，请勿演示贩卖，谨防上当受骗！",
+            "name": "📢免费仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新10.16❤",
+            "name": "📢公告❤更新10.19❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
             "changeable": 0,
             "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告?b=an装🅱na"
+            "ext": "http://jar.yy.xn--dkw.xn--6qq986b3xl/m/公告?b=an装🅱na"
         },
         {
             "key": "config",
@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 207,
+                    "chunksize": 300,
                     "threads": 16
                 }
             }
@@ -86,7 +86,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 218,
+                    "chunksize": 247,
                     "threads": 16
                 }
             }
@@ -1423,20 +1423,20 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://2.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=1&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=1&url="
         },
         {
-            "name": "-欧歌-",
+            "name": "-装歌-",
             "type": 1,
-            "url": "https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=2&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://2.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=3&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=3&url="
         },
         {
-            "name": "欧歌APP",
+            "name": "装歌APP",
             "type": 1,
             "url": "https://mfjx.iwsyy.xyz/?url="
         },

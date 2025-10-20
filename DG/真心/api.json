@@ -333,8 +333,7 @@
       },
       "ext": {
         "commonConfig": "./json/peizhi.json",
-        "json": "./json/youtube.json",
-        "cookie": ""
+        "json": "./json/youtube.json"
       }
     },
     {
