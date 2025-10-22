@@ -92,13 +92,13 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://app.yb4k.top",
+                "url": "https://dec.yb4k.top",
                 "site": "",
-                "dataKey": "pk5CemuwgQ4gh8dl",
-                "dataIv": "pk5CemuwgQ4gh8dl",
+                "dataKey": "KsmJgfp3MVQFKWRa",
+                "dataIv": "KsmJgfp3MVQFKWRa",
                 "deviceId": "",
                 "version": "",
-                "token": "71ef95295e56f3dfce2d008b1b07dc83f20f2bd8c5444202b6957587c9a5e57e",
+                "token": "d51f0cf047e7d4c5f76e2720cfdcaa927055e77c5e8cc0a1a7e49ca198067161",
                 "ua": ""
             }
         },
@@ -116,22 +116,6 @@
                 "deviceId": "",
                 "version": "101",
                 "ua": ""
-            }
-        },
-        {
-            "key": "哔滴",
-            "name": "哔滴丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-                "dataKey": "5ae8ee4bb95ea0ce",
-                "dataIv": "5ae8ee4bb95ea0ce",
-                "deviceId": "",
-                "version": "120",
-                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
             }
         },
         {
@@ -259,6 +243,21 @@
             }
         },
         {
+            "key": "星空",
+            "name": "星空｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://xkcms.xkgzs.xyz",
+                "site": "",
+                "dataKey": "AJcdjkAjkdJDkvcd",
+                "dataIv": "AJcdjkAjkdJDkvcd",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "于浅",
             "name": "于浅｜APP",
             "type": 3,
@@ -269,6 +268,21 @@
                 "site": "",
                 "dataKey": "leroulerop.lerom",
                 "dataIv": "leroulerop.lerom",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "数字",
+            "name": "数字｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://app1-0-0.87333.cc",
+                "site": "",
+                "dataKey": "VwsHxkCViDXEExWa",
+                "dataIv": "VwsHxkCViDXEExWa",
                 "deviceId": "",
                 "version": ""
             }
@@ -429,22 +443,6 @@
                 "deviceId": "",
                 "version": "",
                 "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-            }
-        },
-        {
-            "key": "豆丁",
-            "name": "豆丁丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://45.66.157.77:9427",
-                "site": "",
-                "dataKey": "Xasdasd!123123dd",
-                "dataIv": "Xasdasd!123123dd",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
             }
         },
         {
@@ -901,16 +899,6 @@
             "filterable": 1
         },
         {
-            "key": "剧屋短剧",
-            "name": "剧屋｜短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/DJwu.json"
-        },
-        {
             "key": "天翼影视",
             "name": "天翼｜影视",
             "type": 1,
@@ -925,16 +913,6 @@
                 "综艺",
                 "动漫"
             ]
-        },
-        {
-            "key": "猎手影视",
-            "name": "猎手｜影视",
-            "type": 3,
-            "api": "./api/LSYS.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "厂长影视",
@@ -952,7 +930,7 @@
             "name": "金牌｜影视",
             "type": 3,
             "api": "csp_Jpys",
-            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
             "key": "云播影视",

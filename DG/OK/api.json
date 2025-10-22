@@ -505,24 +505,6 @@
             "timeout": 30
         },
         {
-            "key": "阿里合集",
-            "name": "🦋阿里┃合集",
-            "type": 3,
-            "api": "csp_AliShareGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "share": "file://TV/阿里集合.json"
-            },
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30
-        },
-        {
             "key": "️爱看Bot",
             "name": "⛅️爱看┃直连",
             "type": 3,

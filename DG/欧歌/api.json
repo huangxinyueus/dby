@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 300,
+                    "chunksize": 200,
                     "threads": 16
                 }
             }
@@ -86,7 +86,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 247,
+                    "chunksize": 274,
                     "threads": 16
                 }
             }
@@ -1390,11 +1390,11 @@
             "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd?b=an装🅱na"
         },
         {
-            "key": "豆瓣3",
+            "key": "免费",
             "name": "📢接口软件永远免费",
             "type": 3,
             "api": "csp_Douban",
-            "searchable": 0
+            "jar": "./jars/免费.jar"
         },
         {
             "key": "豆瓣4",
@@ -1413,7 +1413,7 @@
         {
             "name": "欧歌解析",
             "type": "1",
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=0&url=",
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=3fe&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1423,17 +1423,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=1&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=3fe&mz=1&url="
         },
         {
-            "name": "-装歌-",
+            "name": "-装歌API-",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=2&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=3fe&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号装歌APP&mz=3&url="
+            "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=3fe&mz=3&url="
         },
         {
             "name": "装歌APP",
