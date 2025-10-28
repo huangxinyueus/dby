@@ -53,7 +53,7 @@
             "key": "csp_Netfixtv2",
             "name": "🎥二小┃4K网盘",
             "type": 3,
-            "changeable": "0",
+            "changeable": "1",
             "quickSearch": 0,
             "api": "csp_Duopan",
             "filterable": 1,
@@ -121,6 +121,15 @@
             "ext": "https://api.muxia.fun"
         },
         {
+            "key": "csp_Music",
+            "name": "🎵音乐┃直播",
+            "type": 3,
+            "api": "csp_Music",
+            "quickSearch": 0,
+            "searchable": 0,
+            "ext": "http://www.qeecc.com"
+        },
+        {
             "key": "csp_Bili",
             "name": "🏵️哔哩┃哔哩",
             "type": 3,
@@ -154,7 +163,7 @@
             "name": "🎴爱盈┃小米",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "0",
+            "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
             "ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPiqzXAOG2XsUSh62armSJmz6+8BN455Lbt5tpPqGfXnKgoQ1N+ZOhu3N/KDZ+r/7HZc="
@@ -164,7 +173,7 @@
             "name": "💣爆炸┃小米",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "0",
+            "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
             "ext": "XSJiCWoJEGFoOdKZQ3W3pG4QYj6kuTSnLRDxFYNZWjIPLTHHAeib23CrNf2Ymrxa8iTANsHrwj35FQ3ORCXCuw=="
@@ -190,7 +199,7 @@
         {
             "key": "布蕾",
             "name": "💯布蕾┃影视",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "searchable": 1,
             "type": 3,
             "api": "csp_AppGet",
@@ -227,7 +236,7 @@
             "key": "csp_WwYS",
             "name": "👨农民┃影视",
             "type": 3,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "api": "csp_Wwys",
             "ext": "https://vip.wwgz.cn:5200/"
         },

@@ -74,7 +74,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
                 "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
                 "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-                "site": "http://103.45.162.207:20720/"
+                "site": "http://103.45.162.207:20720"
             }
         },
         {
@@ -183,31 +183,31 @@
             "key": "123",
             "name": "123|推送",
             "type": 4,
-            "api": "http://zling.online:12331/api.php?type=123"
+            "api": "https://so.yinpai.xyz/api.php?type=123"
         },
         {
             "key": "夸克推送",
             "name": "夸克|推送",
             "type": 4,
-            "api": "http://zling.online:12331/api.php?type=quark"
+            "api": "https://so.yinpai.xyz/api.php?type=quark"
         },
         {
             "key": "优惜",
             "name": "优惜|推送",
             "type": 4,
-            "api": "http://zling.online:12331/api.php?type=uc"
+            "api": "https://so.yinpai.xyz/api.php?type=uc"
         },
         {
             "key": "百度",
             "name": "百度|推送",
             "type": 4,
-            "api": "http://zling.online:12331/api.php?type=baidu"
+            "api": "https://so.yinpai.xyz/api.php?type=baidu"
         },
         {
             "key": "天翼",
             "name": "天翼|推送",
             "type": 4,
-            "api": "http://zling.online:12331/api.php?type=tianyi"
+            "api": "https://so.yinpai.xyz/api.php?type=tianyi"
         },
         {
             "key": "至尊",
@@ -345,7 +345,7 @@
             "name": "荐片|弹幕",
             "type": 3,
             "api": "csp_Jianpian",
-            "ext": "http://4icnx7.qyjzlh.com"
+            "ext": "http://pizazzGY.zxbwv.com"
         },
         {
             "key": "风神",
@@ -452,7 +452,7 @@
             "name": "文才|弹幕",
             "type": 3,
             "api": "csp_Wcai",
-            "ext": "https://www.gs4x7nq4.com"
+            "ext": "https://www.jxshdzs.com/"
         },
         {
             "key": "星河",
@@ -682,6 +682,11 @@
             "name": "自定：请先设置",
             "type": 1,
             "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+        },
+        {
+            "name": "晴天4K Q1026038872",
+            "type": 1,
+            "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi&url="
         },
         {
             "name": "虎斑XM",
