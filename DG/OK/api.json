@@ -261,20 +261,6 @@
             "timeout": 10
         },
         {
-            "key": "热播",
-            "name": "📺热播┃App",
-            "type": 3,
-            "api": "csp_TianTianGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "site": 0
-            },
-            "timeout": 10
-        },
-        {
             "key": "文才",
             "name": "🌺文才┃在线",
             "type": 3,
@@ -294,6 +280,20 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "热播",
+            "name": "📺热播┃App",
+            "type": 3,
+            "api": "csp_TianTianGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "site": 0
+            },
             "timeout": 10
         },
         {
@@ -351,6 +351,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "一起",
+            "name": "📺一起┃秒播",
+            "type": 3,
+            "api": "csp_YqsGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
             "filterable": 1,
             "timeout": 10
         },
@@ -1074,8 +1085,8 @@
         {
             "name": "MIGU",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Ffy.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dmianfeidehaimaiqian%26json%3Dtrue",
-            "ua": "bingcha/1.1"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Ffy.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dbingchawusifengxian%26json%3Dtrue",
+            "ua": "bingcha/1.1 (mianfeifenxiang)"
         },
         {
             "name": "电视Live",

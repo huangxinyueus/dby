@@ -75,8 +75,7 @@
             "api": "csp_PushAgent",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+            "filterable": 0
         },
         {
             "key": "csp_New6v",
@@ -843,7 +842,9 @@
                 "38.68",
                 "38.12",
                 "38.80",
+                "44.00",
                 "36.80",
+                "29.08",
                 "29.28",
                 "24.88"
             ]

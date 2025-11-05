@@ -155,6 +155,16 @@
             "changeable": 1
         },
         {
+            "key": "下饭",
+            "name": "🍙下饭┃多线",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCP2Jl7r3FGDx3lYjd0UDop6mF1H7BIBQDdY7r2sGVAP3S/L0ixe/EshP2U8oWDL+PmnkkcZKQZ475TAVSug/QPVeNQ=="
+        },
+        {
             "key": "鲸鱼",
             "name": "👀鲸鱼┃多线",
             "type": 3,
@@ -198,16 +208,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZ0NTh0TYsL4PsF1wEM1kc4mV87b9fc/FN//x7jUuaRvFX81tz8A=="
-        },
-        {
-            "key": "下饭",
-            "name": "🍙下饭┃多线",
-            "type": 3,
-            "api": "csp_AppSxGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
         },
         {
             "key": "糯米",
