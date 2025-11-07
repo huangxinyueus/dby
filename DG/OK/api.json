@@ -75,7 +75,7 @@
         },
         {
             "key": "立播版",
-            "name": "🐰立播┃4K",
+            "name": "🌟立播┃4K",
             "type": 3,
             "api": "csp_LibvioGuard",
             "searchable": 1,
@@ -390,7 +390,7 @@
         },
         {
             "key": "厂长",
-            "name": "🌸厂长┃直连",
+            "name": "📔厂长┃直连",
             "type": 3,
             "api": "csp_CzzyGuard",
             "searchable": 1,
@@ -1306,7 +1306,8 @@
         "uhibo.com",
         ".*boku.*",
         ".*nivod.*",
-        ".*ulivetv.*"
+        ".*ulivetv.*",
+        "iill.top"
     ],
     "rules": [
         {

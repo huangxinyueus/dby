@@ -3,11 +3,11 @@
 {
     "spider": "./spider.jar",
     "warningText": "拒绝内置接口内置接口会崩溃纯开源纯自用",
-    "wallpaper": "https://xn--4kq62z5rby2qupqba63sb41h.999888987.xyz/",
+    "wallpaper": "https://api.fw1028.top/scenery.php?return=img",
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌈热播┃推荐（非开源软件内置会崩溃基本适配主流软件）",
+            "name": "🌈热播┃推荐项目链接：https://link3.cc/lovemm",
             "type": 3,
             "quickSearch": 0,
             "filterable": 0,
@@ -17,7 +17,7 @@
         },
         {
             "key": "config",
-            "name": "⚙网盘┃配置项目链接：https://link3.cc/lovemm",
+            "name": "⚙4K网盘┃配置中心",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0
@@ -213,8 +213,8 @@
             "quickSearch": 1,
             "searchable": 1,
             "type": 3,
-            "api": "csp_AppGet",
-            "ext": "KgJbeb5sUfDKrPR2kL+eSnS2/p1vUzgiO9/kBzkhPIPRpqLXPCDc4tA9MXMdokFN"
+            "api": "csp_AppQi",
+            "ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZs2oYEHsmeJ7qO916dp7EwGSHrLa99AaS96nuzx3wbRg9O4Syz4DgXRB/Lb2vvIW/H"
         },
         {
             "key": "天天",
@@ -231,14 +231,6 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_FreeOk"
-        },
-        {
-            "key": "追忆",
-            "name": "🐖追忆┃APP",
-            "type": 3,
-            "api": "csp_AppSy",
-            "quickSearch": 0,
-            "ext": "oJGDh+VBrPcwnx19VbSGqy9EkivA/Gc+cSt3uSBzyPzDTmKYyoi6Wr4VgqU2u0Sh7AAuGc4/a7UWVU6BEmFetA=="
         },
         {
             "key": "热热",
@@ -274,21 +266,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppQi",
-            "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4+BBCXxVVHkmAtv6gi+JRQlKwhK1WjuT8blTygReol77ICMmtZZPsmzfgjOtOXiEJ"
-        },
-        {
-            "key": "QD4K",
-            "name": "🐷猪猪┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "./api/AppV2.py",
-            "playerType": 2,
-            "ext": {
-                "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
+            "ext": "9ee0oa0Y30GapSvZ2C2RVE2HwH08KKvP0VhAZCVWpnluXpZNLRZrNCMeKyCWw1JOnmBt4WntUB96Gzw7GkroAUK4RePU806mDtHSmD09164W8EWpaWaU/Gg8nPkgUt5F"
         },
         {
             "key": "csp_SaoHuo",
@@ -455,7 +433,6 @@
         {
             "name": "平台直播",
             "type": 0,
-            "url": "./lives/平台直播.txt",
             "ua": "okhttp/3.15"
         }
     ],

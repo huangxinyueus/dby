@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "Tg|豆瓣",
-            "name": "🔍Tg豆瓣┃需要刷新一下源才能出来",
+            "name": "🔍Tg豆瓣┃刷新一下源才能出来",
             "type": 3,
             "api": "csp_TgYunDouBanPan",
             "searchable": 1,
@@ -21,9 +21,9 @@
         },
         {
             "key": "弹幕",
-            "name": "🅿弹幕|搜索",
+            "name": "🅿嗷嗚弹幕┃刷新一下启动",
             "type": 3,
-            "api": "csp_ConfigCenter",
+            "api": "csp_GoConfigAmnsr",
             "jar": "./jars/弹幕.jar"
         },
         {
