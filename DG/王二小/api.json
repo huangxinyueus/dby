@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20251024】🐮",
+            "name": "🐮【更新日期:20251107】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
@@ -346,6 +346,14 @@
             "name": "🍉短剧┃秒播🍉",
             "type": 3,
             "api": "csp_WexduanjuvopGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexduanjusuipian",
+            "name": "🍉短剧┃速播🍉",
+            "type": 3,
+            "api": "csp_WexduanjusuipianGuard",
             "searchable": 1,
             "changeable": 1
         },

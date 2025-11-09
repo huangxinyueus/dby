@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新10.26❤",
+            "name": "📢公告❤更新11.7❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -65,7 +65,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 270,
+                    "chunksize": 255,
                     "threads": 16
                 }
             }
@@ -85,7 +85,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 247,
+                    "chunksize": 262,
                     "threads": 16
                 }
             }
@@ -145,15 +145,6 @@
             "name": "💡瓜子｜影视",
             "type": 3,
             "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "低端",
-            "name": "💡低端｜影视",
-            "type": 3,
-            "api": "csp_Ddys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -260,33 +251,6 @@
             }
         },
         {
-            "key": "余白",
-            "name": "👑余白丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://dec.yb4k.top",
-                "dataKey": "KsmJgfp3MVQFKWRa",
-                "dataIv": "KsmJgfp3MVQFKWRa",
-                "token": "d51f0cf047e7d4c5f76e2720cfdcaa927055e77c5e8cc0a1a7e49ca198067161"
-            }
-        },
-        {
-            "key": "秒看",
-            "name": "👑秒看丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://mk1080.top/get.txt",
-                "dataKey": "c60d88b2eep53za8",
-                "dataIv": "c60d88b2eep53za8",
-                "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "仓鼠",
             "name": "👑仓鼠丨弹幕",
             "type": 3,
@@ -346,30 +310,6 @@
                 "url": "http://app1-0-0.87333.cc",
                 "dataKey": "VwsHxkCViDXEExWa",
                 "dataIv": "VwsHxkCViDXEExWa"
-            }
-        },
-        {
-            "key": "火锅",
-            "name": "👑火锅丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://ios.hgyx.vip",
-                "dataKey": "062dec75d039980e",
-                "dataIv": "062dec75d039980e"
-            }
-        },
-        {
-            "key": "火花",
-            "name": "👑火花丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://v.itcxo.cn/txt/1.txt",
-                "dataKey": "PoiUytRedFghjklm",
-                "dataIv": "PoiUytRedFghjklm"
             }
         },
         {
@@ -556,6 +496,14 @@
                 "version": "",
                 "ua": ""
             }
+        },
+        {
+            "key": "私人",
+            "name": "👑私人｜弹幕",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppYsV2",
+            "ext": "https://v.catcs.cc//api.php/v1.vod"
         },
         {
             "key": "New6v",
@@ -1448,7 +1396,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=452&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1458,17 +1406,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=452&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=452&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=452&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=3&url="
         },
         {
             "name": "装歌APP",

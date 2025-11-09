@@ -144,17 +144,6 @@
             "changeable": 1
         },
         {
-            "key": "低端",
-            "name": "⏮️低端┃外剧",
-            "type": 3,
-            "api": "csp_DdrkGuard",
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "下饭",
             "name": "🍙下饭┃多线",
             "type": 3,
@@ -625,7 +614,7 @@
             "changeable": 0
         }
     ],
-    "logo": "https://cdn.wmpvp.com/steamWeb/B96F868DE45B45D690B5F9F490D0BC60-1745866248445.gif",
+    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a3cb3f8553ca2d67/1.5873679404696913E9.gif",
     "lives": [
         {
             "name": "V4-develop202",

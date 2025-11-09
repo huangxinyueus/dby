@@ -581,17 +581,6 @@
             "timeout": 10
         },
         {
-            "key": "csp_Ddys",
-            "name": "🍄低端┃在线",
-            "type": 3,
-            "api": "csp_DdysGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 30
-        },
-        {
             "key": "yhdm",
             "name": "🌸樱花┃动漫",
             "type": 3,

@@ -66,9 +66,9 @@
             "key": "私人",
             "name": "私人｜APP",
             "type": 3,
-            "changeable": 0,
+            "changeable": 1,
             "api": "csp_AppYsV2",
-            "ext": "https://v.catcs.cc//api.php/v1.vod"
+            "ext": "https://v.catcs.cc/api.php/v1.vod"
         },
         {
             "key": "冷心",
@@ -90,18 +90,6 @@
             "ext": {
                 "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
                 "name": "金牌影院（请断网再安装）"
-            }
-        },
-        {
-            "key": "优势",
-            "name": "优势丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://zxy-ys.810211.dpdns.org",
-                "dataKey": "1234567890123456",
-                "dataIv": "1234567890123456"
             }
         },
         {
@@ -241,6 +229,18 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "优势",
+            "name": "优势丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://zxy-ys.810211.dpdns.org",
+                "dataKey": "1234567890123456",
+                "dataIv": "1234567890123456"
             }
         },
         {
@@ -892,6 +892,13 @@
             "filterable": 1
         },
         {
+            "key": "莫小影视",
+            "name": "莫小｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/MoXiaoYS.json"
+        },
+        {
             "key": "明星影视",
             "name": "明星｜影视",
             "type": 3,
@@ -1325,17 +1332,8 @@
             }
         },
         {
-            "key": "糖果",
-            "name": "糖果｜搜索",
-            "type": 3,
-            "api": "csp_TGSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "阿里盘搜",
-            "name": "阿里｜搜索",
+            "name": "阿里｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1347,7 +1345,7 @@
         },
         {
             "key": "夸克盘搜",
-            "name": "夸克｜搜索",
+            "name": "夸克｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1359,7 +1357,7 @@
         },
         {
             "key": "UC盘搜",
-            "name": "UC｜搜索",
+            "name": "UC｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1371,7 +1369,7 @@
         },
         {
             "key": "天翼盘搜",
-            "name": "天翼｜搜索",
+            "name": "天翼｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1383,7 +1381,7 @@
         },
         {
             "key": "123盘搜",
-            "name": "123｜搜索",
+            "name": "123｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1395,7 +1393,7 @@
         },
         {
             "key": "百度盘搜",
-            "name": "百度｜搜索",
+            "name": "百度｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1404,6 +1402,15 @@
             "ext": {
                 "cloudDrives": "baidu"
             }
+        },
+        {
+            "key": "糖果",
+            "name": "糖果｜搜索",
+            "type": 3,
+            "api": "csp_TGSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "百酷",
