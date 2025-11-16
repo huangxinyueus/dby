@@ -161,19 +161,6 @@
             "timeout": 25
         },
         {
-            "key": "百度趣盘",
-            "name": "🤪度趣┃4K",
-            "type": 3,
-            "api": "csp_BaiduQuPanGuard",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 25
-        },
-        {
             "key": "光影",
             "name": "🎥光影┃4K",
             "type": 3,
@@ -377,18 +364,6 @@
             "timeout": 10
         },
         {
-            "key": "韩圈",
-            "name": "🦄韩圈┃App",
-            "type": 3,
-            "api": "csp_HanXiaoQuanGuard",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 10
-        },
-        {
             "key": "厂长",
             "name": "📔厂长┃直连",
             "type": 3,
@@ -400,10 +375,32 @@
             "timeout": 10
         },
         {
+            "key": "csp_Btt",
+            "name": "🌞比特┃在线",
+            "type": 3,
+            "api": "csp_BttGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 10
+        },
+        {
             "key": "荐片",
             "name": "⚔️荐片┃手机",
             "type": 3,
             "api": "csp_JianpianGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "韩圈",
+            "name": "🦄韩圈┃App",
+            "type": 3,
+            "api": "csp_HanXiaoQuanGuard",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -568,16 +565,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "timeout": 10
-        },
-        {
-            "key": "csp_Btt",
-            "name": "🌞比特┃在线",
-            "type": 3,
-            "api": "csp_BttGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
             "timeout": 10
         },
         {
