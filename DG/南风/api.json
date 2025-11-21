@@ -116,17 +116,6 @@
             "ext": "7lj763gg402i7942552h8ljjlj0jjki7g4lg99099jjh6l6l514k08hjl807161j139753h090539gig3604gi80lgl30jk3hk637h53gh9ljkij2lig30k277g50354k2k3jkl1g17i2820ii582l0483g61k6i79k7kk7274h1i5g6jjj833h2390k42396hik71kigl18k613"
         },
         {
-            "key": "橘子",
-            "name": "🍊橘子",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939790i413giqiaoji484k8058896highi4414h68l7g6hk8g9k2k289l9ik807i213k5j602"
-        },
-        {
             "key": "狂风",
             "name": "🌪狂风",
             "type": 3,
@@ -160,17 +149,6 @@
             "ext": "7lj763gg402i7942552h8ljjlj0jjki7g4lg99099jjh6l6l514k08hjl807161j139753h090539gig3604gi80lgl30jk3hk637h53gh9ljkij2lig30k277g50354k2k3jkl1g17i2820ii582l0483g61k6i79k7kk7274h1i5g6jjj833h2390k42396hik71kigl18k613"
         },
         {
-            "key": "优质",
-            "name": "🌈优质",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i794252728181hk0980i2lhl1j905ikjh3170584h43l8gh0l090242905hk1i01i8g80220khi93llh21hk1l43g2609hikh92k02jji32g07lll4k18l8g0ill1ki272j208349655gi1k71g652gh3gj6374li9kg3jj977gl13g"
-        },
-        {
             "key": "Hudie",
             "name": "🦋蝴蝶",
             "type": 3,
@@ -190,16 +168,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i7942552h8ljjlj0jjki7g4lg99099jjh6l6l514k08hjl807161j139753h090539gig3604gi80lgl30jk3hk637h53gh9ljkij2lig30k277g50354k2k3jkl1g17i2820ii582l0483g61k6i79k7kk7274h1i5g6jjj833h2390k42396hik71kigl18k613"
-        },
-        {
-            "key": "huomaoys",
-            "name": "😺火猫",
-            "type": 3,
-            "api": "csp_Muou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
         },
         {
             "key": "主角",
@@ -808,12 +776,12 @@
             "name": "🐯虎牙直播",
             "type": 3,
             "api": "./api/drpy2.js",
-            "ext": "./js/drpy2.js",
+            "ext": "./js/huya2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
             },
-            "timeout": 15,
+            "timeout": 10,
             "playerType": "2",
             "searchable": 0,
             "quickSearch": 0,

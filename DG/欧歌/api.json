@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢免费仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
+            "name": "📢免费仅限测试用，如有收费,直接找退款！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新11.7❤",
+            "name": "📢公告❤更新11.20❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -61,11 +61,12 @@
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.fun",
-                    "https://woog.nxog.eu.org"
+                    "https://woog.nxog.eu.org",
+                    "https://woog.xn--dkw.xn--6qq986b3xl"
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 255,
+                    "chunksize": 224,
                     "threads": 16
                 }
             }
@@ -81,17 +82,18 @@
             "ext": {
                 "site_urls": [
                     "https://ogkk.nxog.fun",
-                    "https://ogkk.nxog.eu.org"
+                    "https://ogkk.nxog.eu.org",
+                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 262,
+                    "chunksize": 293,
                     "threads": 16
                 }
             }
         },
         {
-            "key": "夸快",
+            "key": "夸快夸快",
             "name": "❤夸快｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
@@ -99,7 +101,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/og.json"
+            "ext": {
+                "site": [
+                    "https://ogkk.nxog.eu.org",
+                    "https://ogkk.nxog.fun",
+                    null
+                ]
+            }
         },
         {
             "key": "荐片",
@@ -229,25 +237,32 @@
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
-            "key": "冷心",
-            "name": "👑冷冷｜弹幕",
+            "key": "思念",
+            "name": "👑思念丨弹幕",
             "type": 3,
-            "api": "csp_AppMuou",
+            "api": "csp_AppFox",
             "ext": {
-                "url": "http://app.789dd.cn",
-                "name": "火猫影视"
+                "host": "https://snys2.xyz",
+                "timeout": 15,
+                "ver": 2
             }
         },
         {
-            "key": "金牌",
-            "name": "👑金金｜弹幕",
+            "key": "极兔",
+            "name": "👑极兔丨弹幕",
             "type": 3,
-            "api": "csp_AppMuou",
-            "searchable": 1,
-            "changeable": 1,
+            "api": "csp_AppFox",
             "ext": {
-                "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
-                "name": "金牌影院（请断网再安装）"
+                "host": "http://www.mzd.asia"
+            }
+        },
+        {
+            "key": "二三",
+            "name": "👑二三丨弹幕",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://a.cfys.xn--fiqs8s"
             }
         },
         {
@@ -286,18 +301,6 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
-            }
-        },
-        {
-            "key": "星空",
-            "name": "👑星空丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://xkcms.xkgzs.xyz",
-                "dataKey": "AJcdjkAjkdJDkvcd",
-                "dataIv": "AJcdjkAjkdJDkvcd"
             }
         },
         {
@@ -412,38 +415,6 @@
                 "site": "",
                 "dataKey": "JEWibY1AgWF0V1xx",
                 "dataIv": "JEWibY1AgWF0V1xx",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "星星",
-            "name": "👑星星丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://starani.qcanime.xyz",
-                "site": "",
-                "dataKey": "123456789StarAni",
-                "dataIv": "123456789StarAni",
-                "deviceId": "",
-                "version": "",
-                "ua": "okhttp/3.10.0BDYS/109.0.0.8"
-            }
-        },
-        {
-            "key": "影视",
-            "name": "👑影视丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
-                "dataKey": "sada21321sdq231d",
-                "dataIv": "sada21321sdq231d",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -625,14 +596,21 @@
             }
         },
         {
-            "key": "木偶",
-            "name": "❤木偶｜4K弹幕",
+            "key": "玩偶",
+            "name": "❤玩偶｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/mogg.json"
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://woog.nxog.eu.org",
+                    "https://woog.nxog.fun",
+                    null
+                ]
+            }
         },
         {
             "key": "蜡笔",
@@ -643,18 +621,33 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/lb.json"
+            "ext": {
+                "site": [
+                    "https://www.labi88.sbs",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun"
+                ]
+            }
         },
         {
-            "key": "小米",
-            "name": "❤小米｜4K弹幕",
+            "key": "至臻",
+            "name": "❤至臻｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/xm.json"
+            "ext": {
+                "site": [
+                    "https://mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://xiaomiai.site",
+                    "https://xiaomi666.fun",
+                    "https://www.mihdr.top",
+                    "https://www.zhizhenpan.fun"
+                ]
+            }
         },
         {
             "key": "多多",
@@ -665,33 +658,52 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/yyds.json"
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            }
         },
         {
-            "key": "玩偶",
-            "name": "❤玩偶｜4K弹幕",
+            "key": "木偶",
+            "name": "❤木偶｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/wogg.json"
+            "ext": {
+                "site": [
+                    "https://123.666291.xyz",
+                    "https://666.666291.xyz",
+                    "https://www.muou.site",
+                    "https://www.muou.asia"
+                ]
+            }
+        },
+        {
+            "key": "虎斑",
+            "name": "❤虎斑｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "http://103.45.162.207:20720"
+                ]
+            }
         },
         {
             "key": "糖果",
             "name": "❤糖果｜搜索",
             "type": 3,
             "api": "csp_TGSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "音海",
-            "name": "❤音海｜搜索",
-            "type": 3,
-            "api": "csp_YinHai",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1396,7 +1408,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1406,17 +1418,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=455&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=3&url="
         },
         {
             "name": "装歌APP",

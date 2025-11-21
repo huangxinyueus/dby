@@ -67,10 +67,10 @@
             "name": "💡聚剧剧┃三盘",
             "type": 3,
             "api": "csp_SeedhubGuard",
-            "changeable": 0,
             "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
             "searchable": 1,
             "quickSearch": 1,
+            "changeable": 0,
             "indexs": 0,
             "style": {
                 "type": "list"
@@ -81,7 +81,7 @@
             "name": "🌟立播┃秒播",
             "type": 3,
             "api": "csp_LibvioGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -95,7 +95,7 @@
             "name": "📔厂长┃秒播",
             "type": 3,
             "api": "csp_NewCzGuard",
-            "timeout": 15,
+            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -106,7 +106,7 @@
             "name": "🍎苹果┃秒播",
             "type": 3,
             "api": "csp_LiteAppleGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -116,7 +116,7 @@
             "name": "💮文采┃秒播",
             "type": 3,
             "api": "csp_JpysGuard",
-            "timeout": 15,
+            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -127,7 +127,7 @@
             "name": "☀原创┃秒播",
             "type": 3,
             "api": "csp_YCyzGuard",
-            "timeout": 30,
+            "timeout": 15,
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -138,7 +138,17 @@
             "name": "🍄比特┃秒播",
             "type": 3,
             "api": "csp_BttwooGuard",
-            "timeout": 15,
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "剧圈",
+            "name": "🐻剧圈┃多线",
+            "type": 3,
+            "api": "csp_JqqGuard",
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -150,7 +160,7 @@
             "api": "csp_AppSxGuard",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
+            "changeable": 1,
             "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
         },
         {
@@ -160,7 +170,7 @@
             "api": "csp_AppSxGuard",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
+            "changeable": 1,
             "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="
         },
         {
@@ -168,7 +178,7 @@
             "name": "👓欢视┃多线",
             "type": 3,
             "api": "csp_AppTTGuard",
-            "timeout": 15,
+            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -180,7 +190,7 @@
             "name": "📺热播┃多线",
             "type": 3,
             "api": "csp_AppTTGuard",
-            "timeout": 15,
+            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -192,7 +202,7 @@
             "name": "🍊红豆┃多线",
             "type": 3,
             "api": "csp_AppSxGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -203,7 +213,7 @@
             "name": "🍓糯米┃多线",
             "type": 3,
             "api": "csp_NmyswvGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -213,7 +223,7 @@
             "name": "🏝奥特┃多线",
             "type": 3,
             "api": "csp_AueteGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -223,7 +233,7 @@
             "name": "🐭荐片┃P2P",
             "type": 3,
             "api": "csp_JPJGuard",
-            "timeout": 15,
+            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -234,7 +244,7 @@
             "name": "🧲新6V┃磁力",
             "type": 3,
             "api": "csp_SixVGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -245,17 +255,7 @@
             "name": "🚌巴士┃动漫",
             "type": 3,
             "api": "csp_Dm84Guard",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Ysj",
-            "name": "🎀异界┃动漫",
-            "type": 3,
-            "api": "csp_YsjGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -265,7 +265,7 @@
             "name": "🐾日本┃动漫",
             "type": 3,
             "api": "csp_Anime1Guard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -288,7 +288,7 @@
             "name": "⚽88┃看球",
             "type": 3,
             "api": "csp_Sir88Guard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 0,
             "changeable": 0,
             "style": {
@@ -300,7 +300,7 @@
             "name": "⚽手机┃看球",
             "type": 3,
             "api": "csp_KanqiuGuard",
-            "timeout": 15,
+            "timeout": 10,
             "searchable": 0,
             "changeable": 0,
             "style": {
@@ -372,7 +372,7 @@
                 "type": "rect",
                 "ratio": 1.755
             },
-            "timeout": 15,
+            "timeout": 10,
             "playerType": "2",
             "searchable": 0,
             "quickSearch": 0,
@@ -388,7 +388,7 @@
                 "type": "rect",
                 "ratio": 1.755
             },
-            "timeout": 15,
+            "timeout": 10,
             "playerType": "2",
             "searchable": 0,
             "quickSearch": 0,
@@ -617,15 +617,21 @@
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a3cb3f8553ca2d67/1.5873679404696913E9.gif",
     "lives": [
         {
-            "name": "V4-develop202",
+            "name": "冰茶",
             "type": 0,
-            "url": "./lives/V4-develop202.txt",
+            "url": "./lives/冰茶.txt",
+            "ua": "bingcha/1.1(mianfeifenxiang)"
+        },
+        {
+            "name": "develop202",
+            "type": 0,
+            "url": "./lives/develop202.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
-            "name": "V6-范明明（需开启V6网络）",
+            "name": "范明明（需开启V6网络）",
             "type": 0,
-            "url": "./lives/V6-范明明（需开启V6网络）.txt"
+            "url": "./lives/范明明（需开启V6网络）.txt"
         },
         {
             "name": "虎牙一起看",

@@ -32,6 +32,7 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
+                    "https://zhizhen1.top",
                     "https://mihdr.top",
                     "https://www.mihdr.top",
                     "https://www.miqk.cc",
@@ -64,7 +65,6 @@
                     "https://www.2xiaopan.fun/",
                     "https://2xiaopan.fun/",
                     "https://www.2xiaoyun.fun/",
-                    "https://www.2xiaoyun.fun/",
                     "https://www.xhww.net/"
                 ],
                 "url_key": "UC",
@@ -92,6 +92,7 @@
             "name": "🖍蜡笔┃4K网盘",
             "type": 3,
             "quickSearch": 0,
+            "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
             "ext": {
@@ -157,17 +158,13 @@
             }
         },
         {
-            "key": "荐片",
-            "name": "➖荐片┃磁力",
-            "quickSearch": 0,
-            "searchable": 1,
+            "key": "热热",
+            "name": "🔥热热┃影视",
             "type": 3,
-            "api": "csp_Jianpian",
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "ext": "https://ev2089.zxbwv.com"
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "csp_AppRJ",
+            "ext": "Z2MNziRBwjQxqaBuUxNkDRyvTntIkN1cOXhjyWgjCTc="
         },
         {
             "key": "AppQi1",
@@ -177,7 +174,7 @@
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPiqzXAOG2XsUSh62armSJmz6+8BN455Lbt5tpPqGfXnKgoQ1N+ZOhu3N/KDZ+r/7HZc="
+            "ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPirf6Vdve9+he2trz5wUFyGCAvVzxSDvmI757t+V5ttwollSfRzsReOERBBsIGN+x9g="
         },
         {
             "key": "AppQi3",
@@ -201,7 +198,7 @@
         {
             "key": "仓鼠2",
             "name": "🐨仓鼠┃小米",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "searchable": 1,
             "type": 3,
             "api": "csp_AppQi",
@@ -217,10 +214,24 @@
             "ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZs2oYEHsmeJ7qO916dp7EwGSHrLa99AaS96nuzx3wbRg9O4Syz4DgXRB/Lb2vvIW/H"
         },
         {
+            "key": "荐片",
+            "name": "➖荐片┃磁力",
+            "quickSearch": 0,
+            "changeable": "0",
+            "searchable": 1,
+            "type": 3,
+            "api": "csp_Jianpian",
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            },
+            "ext": "https://ev2089.zxbwv.com"
+        },
+        {
             "key": "天天",
             "name": "💯天天┃影视",
             "type": 3,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "searchable": 1,
             "api": "csp_AppRJ",
             "ext": "vxw35/hHSj07Q+maxQzOVMq1rjRCOTXpUCx8iKu5jIg="
@@ -231,15 +242,6 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_FreeOk"
-        },
-        {
-            "key": "热热",
-            "name": "🔥热热┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_AppRJ",
-            "ext": "Z2MNziRBwjQxqaBuUxNkDRyvTntIkN1cOXhjyWgjCTc="
         },
         {
             "key": "云速",
@@ -294,19 +296,11 @@
             "name": "🚗聚搜┃影视",
             "type": 3,
             "searchable": 1,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "api": "csp_qiao2",
             "playerType": 2,
             "jar": "./jars/巧技.jar",
             "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
-        },
-        {
-            "key": "csp_WwYS",
-            "name": "👨农民┃影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_Wwys",
-            "ext": "https://vip.wwgz.cn:5200/"
         },
         {
             "key": "csp_AppXY",
