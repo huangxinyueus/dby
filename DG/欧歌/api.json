@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 224,
+                    "chunksize": 282,
                     "threads": 16
                 }
             }
@@ -87,7 +87,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 293,
+                    "chunksize": 211,
                     "threads": 16
                 }
             }
@@ -830,31 +830,6 @@
             "ext": "./json/农民影视.json"
         },
         {
-            "key": "明星",
-            "name": "🧿明星｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jars/养生堂.jar",
-            "ext": {
-                "副标题": "欧歌专属",
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "https://mxvod.com/;;!H"
-            }
-        },
-        {
-            "key": "小镇",
-            "name": "🧿小镇｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jars/养生堂.jar",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "http://dyxz.tv/;;!H"
-            }
-        },
-        {
             "key": "永乐",
             "name": "🧿永乐｜影视",
             "type": 3,
@@ -1408,7 +1383,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1418,17 +1393,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=460&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=3&url="
         },
         {
             "name": "装歌APP",

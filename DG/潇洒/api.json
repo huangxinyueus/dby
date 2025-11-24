@@ -577,17 +577,6 @@
             }
         },
         {
-            "key": "移动",
-            "name": "移动｜APP",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
@@ -794,6 +783,21 @@
             }
         },
         {
+            "key": "清影",
+            "name": "清影｜4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudQY",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "http://www.revohd.com"
+                ]
+            }
+        },
+        {
             "key": "雷鲸",
             "name": "雷鲸｜4K",
             "type": 3,
@@ -836,7 +840,20 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/kf.json"
+            "ext": "./json/夸父.json"
+        },
+        {
+            "key": "盘它",
+            "name": "盘它｜4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudPT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "123",
@@ -1522,6 +1539,18 @@
             "filterable": 1,
             "ext": {
                 "cloudDrives": "baidu"
+            }
+        },
+        {
+            "key": "移动盘搜",
+            "name": "移动｜盘搜",
+            "type": 3,
+            "api": "csp_PanSou139",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "mobile"
             }
         },
         {
