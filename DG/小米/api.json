@@ -51,6 +51,15 @@
             }
         },
         {
+            "key": "csp_LIVING",
+            "name": "🎮游戏┃直播",
+            "type": 3,
+            "api": "csp_Living",
+            "quickSearch": 0,
+            "searchable": 1,
+            "ext": "https://f1.qilin8.com"
+        },
+        {
             "key": "csp_Netfixtv2",
             "name": "🎥二小┃4K网盘",
             "type": 3,
@@ -113,15 +122,6 @@
             }
         },
         {
-            "key": "csp_LIVING",
-            "name": "🎮游戏┃直播",
-            "type": 3,
-            "api": "csp_Living",
-            "quickSearch": 0,
-            "searchable": 1,
-            "ext": "https://api.muxia.fun"
-        },
-        {
             "key": "csp_Music",
             "name": "🎵音乐┃直播",
             "type": 3,
@@ -158,6 +158,13 @@
             }
         },
         {
+            "key": "爱看fox",
+            "name": "👀爱看┃影视",
+            "type": 3,
+            "api": "csp_Appfox",
+            "ext": "https://snys2.xyz"
+        },
+        {
             "key": "热热",
             "name": "🔥热热┃影视",
             "type": 3,
@@ -174,7 +181,17 @@
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPirf6Vdve9+he2trz5wUFyGCAvVzxSDvmI757t+V5ttwollSfRzsReOERBBsIGN+x9g="
+            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt|sda1231sasddad21|qiji| "
+        },
+        {
+            "key": "顾我",
+            "name": "🎴顾我┃小米",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt|ca94b06ca3c7d80e|qiji| "
         },
         {
             "key": "AppQi3",
@@ -184,7 +201,7 @@
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "XSJiCWoJEGFoOdKZQ3W3pG4QYj6kuTSnLRDxFYNZWjIPLTHHAeib23CrNf2Ymrxa8iTANsHrwj35FQ3ORCXCuw=="
+            "ext": "https://dtqj1.gg1080.com/dtjp.txt|kecbio48dsq131ed|qiji| "
         },
         {
             "key": "鲸鱼",
@@ -193,7 +210,7 @@
             "searchable": 1,
             "type": 3,
             "api": "csp_AppQi",
-            "ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzffqLi7UXvCKdy6PzbDhzFq"
+            "ext": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json|AAdgrdghjfgswerA|qiji| "
         },
         {
             "key": "仓鼠2",
@@ -202,7 +219,26 @@
             "searchable": 1,
             "type": 3,
             "api": "csp_AppQi",
-            "ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZsEMYaTrPKBtx3YUMTA+XHh7FPLmLfqp6gWseDzGVsgesALIba2gHVzuE75Sx1II8A"
+            "ext": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt|da61247f5b662597|qiji| "
+        },
+        {
+            "key": "聚搜",
+            "name": "🚗聚搜┃影视",
+            "type": 3,
+            "api": "./api/AppToV5.py",
+            "ext": "http://101.35.85.16:5555"
+        },
+        {
+            "key": "剧下饭",
+            "name": "🍚下饭┃小米",
+            "type": 3,
+            "changeable": 0,
+            "api": "./api/AppV2.py",
+            "ext": {
+                "api": "http://yjer.jumianfei.com/api.php/v1.vod",
+                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
+            }
         },
         {
             "key": "布蕾",
@@ -211,7 +247,7 @@
             "searchable": 1,
             "type": 3,
             "api": "csp_AppQi",
-            "ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZs2oYEHsmeJ7qO916dp7EwGSHrLa99AaS96nuzx3wbRg9O4Syz4DgXRB/Lb2vvIW/H"
+            "ext": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/blurl.txt|5f2b7ed203a3a581|qiji| "
         },
         {
             "key": "荐片",
@@ -250,7 +286,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_AppQi",
-            "ext": "9ee0oa0Y30GapSvZ2C2RVE2HwH08KKvP0VhAZCVWpnluXpZNLRZrNCMeKyCWw1JOnmBt4WntUB96Gzw7GkroAUK4RePU806mDtHSmD09164W8EWpaWaU/Gg8nPkgUt5F"
+            "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|qiji| "
         },
         {
             "key": "花猪",
@@ -259,7 +295,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_AppQi",
-            "ext": "llmvPPU1h/vqmWtANHI55wjkhfSXUVRucMnPpIfDe+l3hpqpWlt3meXji00/Qg7Yb84SQ3EzXzZZ0jeFYWPcvEHOBaptd0aJSFS2ac8gZBJ6TodggbUva1hHidOGZOWx"
+            "ext": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt|seb5tq9mykp2w9ry|qiji| "
         },
         {
             "key": "开心2",
@@ -268,7 +304,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "api": "csp_AppQi",
-            "ext": "9ee0oa0Y30GapSvZ2C2RVE2HwH08KKvP0VhAZCVWpnluXpZNLRZrNCMeKyCWw1JOnmBt4WntUB96Gzw7GkroAUK4RePU806mDtHSmD09164W8EWpaWaU/Gg8nPkgUt5F"
+            "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|qiji| "
         },
         {
             "key": "csp_SaoHuo",
@@ -281,26 +317,6 @@
             "name": "🥝奇优┃影视",
             "type": 3,
             "api": "csp_Qiyou"
-        },
-        {
-            "key": "大豆",
-            "name": "✅大豆┃影视",
-            "type": 3,
-            "quickSearch": 0,
-            "searchable": 1,
-            "api": "csp_AppQi",
-            "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4+BBCXxVVHkmAtv6gi+JRQlKwhK1WjuT8blTygReol77ICMmtZZPsmzfgjOtOXiEJ"
-        },
-        {
-            "key": "巧技",
-            "name": "🚗聚搜┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "jar": "./jars/巧技.jar",
-            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
         },
         {
             "key": "csp_AppXY",

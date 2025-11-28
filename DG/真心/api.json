@@ -111,6 +111,21 @@
       }
     },
     {
+      "key": "pansou | fish",
+      "name": "pansou | fish",
+      "type": 3,
+      "api": "csp_PanSouFish",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://pansou-latest-hv4k.onrender.com",
+        "filter": {
+          "include": ["HDR","高码"],
+          "exclude": ["预告", "花絮"]
+        }
+      }
+    },
+    {
       "key": "Emby",
       "name": "Emby",
       "type": 3,
@@ -126,7 +141,8 @@
         "password": "23",
         "ua": "Yamby/1.0.2(Android)",
         "client": "Yamby",
-        "deviceName": "",
+        "clientVersion": "0.2.3",
+        "deviceName": "oppo find x9 pro",
         "commonConfig": "./json/peizhi.json"
       },
       "changeable": 1
@@ -160,7 +176,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "siteUrl": "https://api.muxia.fun",
+        "siteUrl": "https://f1.qilin8.com/api",
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -316,7 +332,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "https://star.banye.tech:7183/",
+        "siteUrl": "https://1.star2.cn/",
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -382,6 +398,7 @@
       },
       "ext": {
         "json": "./json/bilibili.json",
+        "commonConfig": "./json/peizhi.json",
         "cookie": ""
       }
     },

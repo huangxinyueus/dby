@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢免费仅限测试用，如有收费,直接找退款！",
+            "name": "📢天作孽，犹可违，自作孽，不可活。——《尚书》",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新11.20❤",
+            "name": "📢公告❤更新11.27❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -66,7 +66,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 282,
+                    "chunksize": 276,
                     "threads": 16
                 }
             }
@@ -87,7 +87,7 @@
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 211,
+                    "chunksize": 293,
                     "threads": 16
                 }
             }
@@ -228,13 +228,11 @@
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
         },
         {
-            "key": "搜索",
-            "name": "🐢聚搜｜影视",
+            "key": "聚搜",
+            "name": "🐢聚搜┃影视",
             "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "jar": "./jars/柠檬.jar",
-            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+            "api": "./api/AppToV5.py",
+            "ext": "http://101.35.85.16:5555"
         },
         {
             "key": "思念",
@@ -254,15 +252,6 @@
             "api": "csp_AppFox",
             "ext": {
                 "host": "http://www.mzd.asia"
-            }
-        },
-        {
-            "key": "二三",
-            "name": "👑二三丨弹幕",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://a.cfys.xn--fiqs8s"
             }
         },
         {
@@ -469,14 +458,6 @@
             }
         },
         {
-            "key": "私人",
-            "name": "👑私人｜弹幕",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_AppYsV2",
-            "ext": "https://v.catcs.cc//api.php/v1.vod"
-        },
-        {
             "key": "New6v",
             "name": "🎃New6V┃磁力",
             "type": 3,
@@ -553,20 +534,6 @@
             }
         },
         {
-            "key": "派对动漫",
-            "name": "🤣派对｜动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://qjappcms.acg.party",
-                "dataKey": "AmtMYFCJDPoTlK7z",
-                "dataIv": "AmtMYFCJDPoTlK7z",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "咕咕动漫",
             "name": "🤣咕咕｜动漫",
             "type": 3,
@@ -581,18 +548,51 @@
             }
         },
         {
-            "key": "多多动漫",
-            "name": "🤣多多｜动漫",
+            "key": "漫国动漫",
+            "name": "🤣漫国丨动漫",
+            "type": 3,
+            "api": "csp_AppSy",
+            "ext": {
+                "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
+                "siteKey": "rectangleadsadxa",
+                "listKey": "aassddwwxxllsx1x",
+                "parsesKey": "aassddwwxxllsx1x"
+            }
+        },
+        {
+            "key": "元咲动漫",
+            "name": "🤣元咲丨动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "",
-                "site": "https://app.cf4k.xyz/1.txt",
-                "dataKey": "qqqqqqqqqqqqqqqq",
-                "dataIv": "qqqqqqqqqqqqqqqq",
-                "deviceId": "",
-                "version": ""
+                "url": "http://cic.aicg.fun",
+                "dataKey": "2c4h36abd96se10u",
+                "dataIv": "2c4h36abd96se10u"
+            }
+        },
+        {
+            "key": "番薯动漫",
+            "name": "🤣番薯丨动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://new.app.bytegooty.com",
+                "dataKey": "N4yj7l7xKxHF4*gz",
+                "dataIv": "N4yj7l7xKxHF4*gz"
+            }
+        },
+        {
+            "key": "米饭",
+            "name": "🤣米饭｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://get.mymifun.com",
+                "dataKey": "GETMIFUNGEIMIFUN",
+                "dataIv": "GETMIFUNGEIMIFUN"
             }
         },
         {
@@ -1329,6 +1329,25 @@
             }
         },
         {
+            "key": "88看球",
+            "name": "🌸88｜看球",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "gridview": 3,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "戏曲多多",
+            "name": "🌸戏曲｜多多",
+            "type": 3,
+            "api": "csp_AppLY",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "本地",
             "name": "🌸本地｜视频",
             "type": 3,
@@ -1383,7 +1402,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=468&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1393,17 +1412,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=468&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=468&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=464&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=468&mz=3&url="
         },
         {
             "name": "装歌APP",

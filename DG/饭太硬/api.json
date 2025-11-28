@@ -159,12 +159,11 @@
             "key": "剧圈",
             "name": "🐻剧圈┃多线",
             "type": 3,
-            "api": "csp_AppSxGuard",
+            "api": "csp_JqqGuard",
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprGv+T3siLQwtXglSghatTiFVdOcF8X8jEp+aRrf/FNw9F962OYcJdY2CMy/nlgFeo4R9+I8K2FSnLnGP2FxOijR2T52RQ6NwQWv5XyDxPxRcMHTslu7SYeFlb8EuDsyEz4Dg=="
+            "changeable": 1
         },
         {
             "key": "下饭",
@@ -175,7 +174,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
+            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZ0NTh0TYsL4PsF1wEM1kc4mV87b9fc/FN//x7jUuaRvFX81tz8A=="
         },
         {
             "key": "鲸鱼",
@@ -189,8 +188,8 @@
             "ext": "rfOX1voDIQhH8epBwtCFsra0umqGnpe+lWNtKs6yVR1PMxpf9CY77fshTPNP+c5lnl6CWfxm7XYO7C1p"
         },
         {
-            "key": "红豆",
-            "name": "🍊红豆┃多线",
+            "key": "橘子",
+            "name": "🍊橘子┃多线",
             "type": 3,
             "api": "csp_AppSxGuard",
             "timeout": 10,
@@ -215,12 +214,11 @@
             "key": "糯米",
             "name": "🍓糯米┃多线",
             "type": 3,
-            "api": "csp_AppSxGuard",
-            "timeout": 10,
+            "api": "csp_NmyswvGuard",
+            "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwtCFsuPz+Gqemoi6lWBjO9WjCB9RMwhf0wct5v5AZOR3ieFbjE+ndoJe"
+            "changeable": 1
         },
         {
             "key": "奥特",
