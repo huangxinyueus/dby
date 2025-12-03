@@ -4,8 +4,55 @@
       "key": "jsm3u8",
       "name": "极速m3u8",
       "type": 1,
-      "api": "https://www.jisuzy.com/index.php/help/index.html#:~:text=https%3A//jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
       "playUrl": "https://jsjiexi.com/play/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jsyun",
+      "name": "极速云",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "gsm3u8",
+      "name": "光速",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+      "playUrl": "https://www.gszyv.com/m3u8/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "gsyun",
+      "name": "光速云",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hnm3u8",
+      "name": "红牛",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/josn/",
+      "playUrl": "https://www.hnjiexi.com/m3u8/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "hnyun",
+      "name": "红牛云",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
