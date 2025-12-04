@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20251130】🐮",
+            "name": "🐮【更新日期:20251125】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
@@ -219,10 +219,34 @@
             "changeable": 1
         },
         {
+            "key": "Wexshandian",
+            "name": "🌺闪电┃秒播🌺",
+            "type": 3,
+            "api": "csp_WexshandianGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexbaozitv",
+            "name": "🎇包子┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexbaozitvGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_Nmys",
             "name": "🎇伯伯┃秒播🎇",
             "type": 3,
             "api": "csp_WexNmysGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexBDys",
+            "name": "🎇滴滴┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexBDysGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -605,6 +629,14 @@
             "ext": {
                 "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
             }
+        },
+        {
+            "key": "Wexqingfengdj",
+            "name": "🎼舞曲┃摇头🎼",
+            "type": 3,
+            "api": "csp_WexqingfengdjGuard",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "WexLunhuiDJ",

@@ -1054,15 +1054,15 @@
     ],
     "lives": [
         {
+            "name": "AI直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+        },
+        {
             "name": "MIGU",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Fbc.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dmianfeibuhuaqian%26json%3Dtrue",
             "ua": "bingcha/1.1 (mianfeifenxiang)"
-        },
-        {
-            "name": "AI直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         },
         {
             "name": "电视Live",
@@ -1283,8 +1283,6 @@
         ".*boku.*",
         ".*nivod.*",
         ".*ulivetv.*",
-        "188766.xyz",
-        "4gtv.tv",
         "iill.top"
     ],
     "rules": [
