@@ -106,7 +106,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/wogg.json"
+            "ext": {
+                "site": [
+                    "https://www.wogg.one",
+                    "https://wogg.333232.xyz",
+                    "https://woggpan.888484.xyz"
+                ]
+            }
         },
         {
             "key": "MoggV2",
@@ -117,7 +123,14 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/mogg.json"
+            "ext": {
+                "site": [
+                    "https://123.666291.xyz",
+                    "https://666.666291.xyz",
+                    "https://www.muou.site",
+                    "https://www.muou.asia"
+                ]
+            }
         },
         {
             "key": "UcXmV2",
@@ -129,7 +142,14 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/ex.json"
+            "ext": {
+                "site": [
+                    "https://xhww.net",
+                    "https://erxiaofn.site",
+                    "https://erxiaofn.click",
+                    "https://www.xhww.net"
+                ]
+            }
         },
         {
             "key": "QuarkLaBiV2",
@@ -141,7 +161,13 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/lb.json"
+            "ext": {
+                "site": [
+                    "https://www.labi88.sbs",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun"
+                ]
+            }
         },
         {
             "key": "QuarkzzV2",
@@ -153,7 +179,16 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/zz.json"
+            "ext": {
+                "site": [
+                    "https://mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://xiaomiai.site",
+                    "https://xiaomi666.fun",
+                    "https://www.mihdr.top",
+                    "https://www.zhizhenpan.fun"
+                ]
+            }
         },
         {
             "key": "YYDSYS",
@@ -165,7 +200,13 @@
             "filterable": 0,
             "changeable": 0,
             "timeout": 60,
-            "ext": "./json/yyds.json"
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            }
         },
         {
             "key": "QuarkTZ",
@@ -225,23 +266,6 @@
             "ext": "./json/123.json"
         },
         {
-            "key": "趣盘",
-            "name": "🥳百度趣盘┃4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebQu",
-            "jar": "./jars/玩偶哥哥.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "url": "https://www.qupanshe.com"
-            }
-        },
-        {
             "key": "盘库",
             "name": "🐼盘库资源┃4K弹幕",
             "type": 3,
@@ -269,7 +293,7 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/kf.json"
+            "ext": "./json/夸父.json"
         },
         {
             "key": "金牌",

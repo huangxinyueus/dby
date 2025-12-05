@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "原公众号已寄，新号【太太太硬了】",
+            "name": "完善过滤广告，新公众号【太太太硬了】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -15,7 +15,7 @@
             "changeable": 0
         },
         {
-            "key": "MyDrive",
+            "key": "Drive",
             "name": "🗂我的云盘┃我配置",
             "type": 3,
             "api": "csp_MyDriveGuard",
@@ -433,7 +433,7 @@
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto",
-                "yisouCookie": "150e5bb8-401e-4f1f-b74e-7fd5f8bd6dea"
+                "yiSoCookie": "satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"
             }
         },
         {
