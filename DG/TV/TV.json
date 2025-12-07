@@ -1,0 +1,85 @@
+{
+  "cache_time": 7200,
+  "api_site": {
+    "hnzy": {
+      "api": "https://hnzyapi.com/api.php/provide/vod",
+      "name": "火鸟资源",
+      "is_adult": false
+    },
+    "lzzy": {
+      "api": "https://api.liangzizy.com/inc/apijson_vod.php",
+      "name": "量子资源",
+      "is_adult": false
+    },
+    "ffzy": {
+      "api": "https://ffzyapi.com/api.php/provide/vod",
+      "name": "非凡资源",
+      "is_adult": false
+    },
+    "ykzy": {
+      "api": "https://api.yongjiuzy.cc/provide/vod",
+      "name": "永久资源",
+      "is_adult": false
+    },
+    "bdzy": {
+      "api": "https://api.1080zyku.com/inc/apijson_vod.php",
+      "name": "百度资源",
+      "is_adult": false
+    },
+    "jsm3u8": {
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+      "name": "极速m3u8",
+	  "detail": "https://jsjiexi.com/play/?url=",
+      "is_adult": false
+    },
+    "jsyun": {
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/json",
+      "name": "极速云",
+      "is_adult": false
+    },
+    "gsm3u8": {
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+      "name": "光速",
+	  "detail":"https://www.gszyv.com/m3u8/?url=",
+      "is_adult": false
+    },
+    "gsyun": {
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",
+      "name": "光速云",
+      "is_adult": false
+    },
+    "hnm3u8": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/josn/",
+      "name": "红牛",
+	  "detail":"https://www.hnjiexi.com/m3u8/?url=",
+      "is_adult": false
+    },
+    "hnyun": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
+      "name": "红牛云",
+      "is_adult": false
+    },
+    "xlmu38": {
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/",
+      "name": "新浪",
+	  "detail": "https://www.xinlangjiexi.com/m3u8/?url=",
+      "is_adult": false
+    },
+    "xlyun": {
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
+      "name": "新浪云",
+      "is_adult": false
+    },
+    "sbm3u8": {
+      "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/json",
+      "name": "速播m3u8",
+	  "detail": "https://subojiexi.com/play/?url=",
+      "is_adult": false
+    },
+    "sbyun": {
+      "api": "https://subocj.com/api.php/provide/vod/from/subyun/at/json",
+      "name": "速播云",
+      "is_adult": false
+    }
+  }
+}
