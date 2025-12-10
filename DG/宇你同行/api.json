@@ -10,6 +10,16 @@
       "api": "csp_Douban",
       "searchable": 0
     },
+	{
+      "key": "yjm3u8",
+      "name": "影剧",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/",
+      "playUrl": "https://mtjiexi.cc:966/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "jsm3u8",
       "name": "极速",
