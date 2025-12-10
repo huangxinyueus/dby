@@ -15,7 +15,16 @@
       "name": "影剧",
       "type": 1,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/",
-      "playUrl": "https://mtjiexi.cc:966/?url=",
+      "playUrl": "https://www.mtjiexi.cc:966/?url=,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+	{
+      "key": "yjm3u8",
+      "name": "影剧",
+      "type": 0,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtyun/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
