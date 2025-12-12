@@ -51,19 +51,6 @@
             "timeout": 25
         },
         {
-            "key": "双星",
-            "name": "🤩双星┃4K",
-            "type": 3,
-            "api": "csp_Star2Guard",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 25
-        },
-        {
             "key": "玩偶",
             "name": "👽玩偶┃4K",
             "type": 3,
@@ -1094,7 +1081,7 @@
         {
             "name": "江苏移动",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1744201662209/jjssyydd.txt"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/529EAA1_773_jsyd_20251205182514164newMediaFile.bmp"
         },
         {
             "name": "一起看",

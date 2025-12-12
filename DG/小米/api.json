@@ -122,15 +122,6 @@
             "ext": ""
         },
         {
-            "key": "csp_LIVING",
-            "name": "🎮游戏┃直播",
-            "type": 3,
-            "api": "csp_Living",
-            "quickSearch": 0,
-            "searchable": 1,
-            "ext": "https://f1.qilin8.com"
-        },
-        {
             "key": "88看球",
             "name": "🏀看球┃直播",
             "type": 3,
@@ -162,7 +153,7 @@
             "name": "🐂达人┃影视",
             "type": 3,
             "api": "csp_Appfox",
-            "ext": "https://fox.ystva.com"
+            "ext": "http://fox.tvmao.top"
         },
         {
             "key": "爱看fox",
@@ -324,15 +315,26 @@
             "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|okhttp/3.10.0"
         },
         {
-            "key": "巧技",
+            "key": "巧技1",
             "name": "🔍搜搜┃影视",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_qiao2",
             "playerType": 2,
-            "jar": "./jars/巧技.jar",
-            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+            "jar": "./jars/巧技1.jar",
+            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
+        },
+        {
+            "key": "巧技2",
+            "name": "🔍搜艘┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "jar": "./jars/巧技1.jar",
+            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
         },
         {
             "key": "csp_SaoHuo",

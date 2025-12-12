@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢免费仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
+            "name": "📢人谁无过？过而能改，善莫大焉。——《论语》",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新12.3❤",
+            "name": "📢公告❤更新12.7❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -62,11 +62,13 @@
                 "site_urls": [
                     "https://woog.nxog.fun",
                     "https://woog.nxog.eu.org",
-                    "https://woog.xn--dkw.xn--6qq986b3xl"
+                    "https://woog.nxog.de5.net",
+                    "https://woog.装歌.de5.net",
+                    "https://woog.歌.de5.net"
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 249,
+                    "chunksize": 276,
                     "threads": 16
                 }
             }
@@ -83,11 +85,13 @@
                 "site_urls": [
                     "https://ogkk.nxog.fun",
                     "https://ogkk.nxog.eu.org",
-                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
+                    "https://ogkk.nxog.de5.net",
+                    "https://ogkk.装歌.de5.net",
+                    "https://ogkk.歌.de5.net"
                 ],
                 "url_key": "欧哥",
                 "threadinfo": {
-                    "chunksize": 286,
+                    "chunksize": 240,
                     "threads": 16
                 }
             }
@@ -104,8 +108,7 @@
             "ext": {
                 "site": [
                     "https://ogkk.nxog.eu.org",
-                    "https://ogkk.nxog.fun",
-                    null
+                    "https://ogkk.nxog.fun"
                 ]
             }
         },
@@ -943,6 +946,32 @@
             }
         },
         {
+            "key": "小镇",
+            "name": "🧿小镇｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jars/养生堂.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "http://dyxz.tv/;;!H",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
+            }
+        },
+        {
+            "key": "片吧",
+            "name": "🧿片吧｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jars/养生堂.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.ipianba.com/;;!H",
+                "分类": "电影$1#剧集$2#动漫$3#综艺$4"
+            }
+        },
+        {
             "key": "哔️软件",
             "name": "🅰️软件┃哔哩",
             "type": 3,
@@ -1455,7 +1484,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4b5&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1465,17 +1494,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4b5&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4b5&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4b5&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=3&url="
         },
         {
             "name": "装歌APP",
