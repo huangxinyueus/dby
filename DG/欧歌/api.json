@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢人谁无过？过而能改，善莫大焉。——《论语》",
+            "name": "📢天行健，君子以自强不息。——《周易·乾·象》",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新12.7❤",
+            "name": "📢公告❤更新12.15❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -68,13 +68,13 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 276,
+                    "chunksize": 242,
                     "threads": 16
                 }
             }
         },
         {
-            "key": "欧哥",
+            "key": "csp_woog2",
             "name": "🐲装歌｜4K弹幕",
             "type": 3,
             "changeable": "0",
@@ -89,9 +89,9 @@
                     "https://ogkk.装歌.de5.net",
                     "https://ogkk.歌.de5.net"
                 ],
-                "url_key": "欧哥",
+                "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 240,
+                    "chunksize": 273,
                     "threads": 16
                 }
             }
@@ -231,15 +231,15 @@
             "ext": "http://101.35.85.16:5555"
         },
         {
-            "key": "聚搜备用",
-            "name": "🔍聚搜┃影视",
+            "key": "巧技2",
+            "name": "🔍搜艘┃影视",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_qiao2",
             "playerType": 2,
-            "jar": "./jars/聚搜备用.jar",
-            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+            "jar": "./jars/巧技2.jar",
+            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
         },
         {
             "key": "爱盈",
@@ -281,15 +281,6 @@
             }
         },
         {
-            "key": "星空",
-            "name": "👑星空｜弹幕",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://fox.qwqfun.com"
-            }
-        },
-        {
             "key": "剧下饭",
             "name": "👑下饭┃弹幕",
             "type": 3,
@@ -302,18 +293,36 @@
             }
         },
         {
-            "key": "追番达人",
-            "name": "👑达人┃弹幕",
+            "key": "恋鱼",
+            "name": "👑恋鱼｜弹幕",
             "type": 3,
             "api": "csp_AppFox",
-            "ext": "https://fox.ystva.com"
+            "ext": {
+                "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
+                "ver": 2
+            }
         },
         {
-            "key": "爱看fox",
-            "name": "👑爱看┃弹幕",
+            "key": "木瓜",
+            "name": "👑木瓜｜弹幕",
             "type": 3,
             "api": "csp_AppFox",
-            "ext": "./json/aikan.json"
+            "ext": {
+                "host": "http://www.yezitv.top"
+            }
+        },
+        {
+            "key": "爱看",
+            "name": "👑爱看｜弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://wiffxm.cn",
+                "dataKey": "AvwBFPUtGTEYPbY4",
+                "dataIv": "AvwBFPUtGTEYPbY4"
+            }
         },
         {
             "key": "仓鼠",
@@ -376,52 +385,6 @@
                 "url": "http://tv.yy-fun.cc",
                 "dataKey": "qkxnwkfjwpcnwycl",
                 "dataIv": "qkxnwkfjwpcnwycl",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "咖啡",
-            "name": "👑咖啡｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-                "dataKey": "37kj83zs1q16jk6t",
-                "dataIv": "37kj83zs1q16jk6t",
-                "deviceId": "",
-                "version": "101",
-                "ua": ""
-            }
-        },
-        {
-            "key": "蓝鹰",
-            "name": "👑蓝鹰｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "莱米",
-            "name": "👑莱米｜弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
-                "dataKey": "ce032244d093b3e2",
-                "dataIv": "ce032244d093b3e2",
                 "deviceId": "",
                 "version": ""
             }
@@ -491,19 +454,22 @@
             }
         },
         {
-            "key": "紫金",
-            "name": "👑紫金丨弹幕",
+            "key": "恋鱼",
+            "name": "👑恋鱼｜弹幕",
             "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
+            "api": "csp_AppFox",
             "ext": {
-                "url": "http://www.zjcvod.com",
-                "site": "",
-                "dataKey": "ab4e9a421675f14b",
-                "dataIv": "ab4e9a421675f14b",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
+                "ver": 2
+            }
+        },
+        {
+            "key": "木瓜",
+            "name": "👑木瓜｜弹幕",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://www.yezitv.top"
             }
         },
         {
@@ -1484,7 +1450,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1494,17 +1460,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4bb&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=3&url="
         },
         {
             "name": "装歌APP",

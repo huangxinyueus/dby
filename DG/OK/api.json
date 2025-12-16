@@ -51,6 +51,19 @@
             "timeout": 25
         },
         {
+            "key": "双星",
+            "name": "🤩双星┃4K",
+            "type": 3,
+            "api": "csp_Star2Guard",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 25
+        },
+        {
             "key": "玩偶",
             "name": "👽玩偶┃4K",
             "type": 3,
@@ -669,6 +682,16 @@
             "name": "🎸世界┃听书",
             "type": 3,
             "api": "csp_BookTingGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "timeout": 10
+        },
+        {
+            "key": "六月听书",
+            "name": "🎤六月┃听书",
+            "type": 3,
+            "api": "csp_WeiTingGuard",
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
