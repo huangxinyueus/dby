@@ -41,11 +41,14 @@
         {
             "key": "全网",
             "name": "全网|短剧",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
+        },
+        {
+            "key": "duanju",
+            "name": "破碎|短剧",
             "type": 3,
-            "api": "csp_HBqkDj3",
-            "ext": {
-                "site": "http://xsayang.fun:14710"
-            }
+            "api": "csp_HBsuipian"
         },
         {
             "key": "聚合",
@@ -74,7 +77,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
                 "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
                 "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-                "site": "http://103.45.162.207:20720"
+                "site": "http://103.45.162.207:20720/"
             }
         },
         {

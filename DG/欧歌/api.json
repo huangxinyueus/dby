@@ -16,7 +16,7 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢天行健，君子以自强不息。——《周易·乾·象》",
+            "name": "📢言之无文，行而不远。——《左传》",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -68,7 +68,7 @@
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 242,
+                    "chunksize": 255,
                     "threads": 16
                 }
             }
@@ -91,7 +91,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 273,
+                    "chunksize": 265,
                     "threads": 16
                 }
             }
@@ -1450,7 +1450,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1460,17 +1460,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c0&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=3&url="
         },
         {
             "name": "装歌APP",

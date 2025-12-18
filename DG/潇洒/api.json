@@ -555,7 +555,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLSP.json",
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLSP.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
@@ -849,6 +849,16 @@
             }
         },
         {
+            "key": "锦鲤短剧",
+            "name": "锦鲤｜短剧",
+            "type": 3,
+            "api": "csp_JinliDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "笒鬼短剧",
             "name": "笒鬼｜短剧",
             "type": 3,
@@ -859,20 +869,30 @@
             "filterable": 1
         },
         {
-            "key": "星芽短剧",
-            "name": "星芽｜短剧",
+            "key": "百度短剧",
+            "name": "百度｜短剧",
             "type": 3,
-            "api": "./api/XYDJ.py",
+            "api": "csp_BaiduDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
         {
-            "key": "甜圈短剧",
-            "name": "甜圈｜短剧",
+            "key": "星阁短剧",
+            "name": "星阁｜短剧",
             "type": 3,
-            "api": "./api/TQDJ.py",
+            "api": "csp_XinggeDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "星芽短剧",
+            "name": "星芽｜短剧",
+            "type": 3,
+            "api": "./api/XYDJ.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -1020,7 +1040,7 @@
             "name": "采集｜合集",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/CJZW.js?type=url&params=https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/CJJT.json$1$1"
+            "ext": "./js/CJZW.js?type=url&params=https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/CJJT.json$1$1"
         },
         {
             "key": "1905",
@@ -1611,7 +1631,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLHJ.json",
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLHJ.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
@@ -1625,7 +1645,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLYCH.json"
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLYCH.json"
             },
             "style": {
                 "type": "rect",
@@ -1642,7 +1662,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLTS.json"
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLTS.json"
             },
             "style": {
                 "type": "rect",
@@ -1659,7 +1679,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXS.json"
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXS.json"
             },
             "style": {
                 "type": "rect",
@@ -1676,7 +1696,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXP.json"
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXP.json"
             },
             "style": {
                 "type": "rect",
@@ -1693,7 +1713,7 @@
             "filterable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://wget.la/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXQ.json"
+                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXQ.json"
             },
             "style": {
                 "type": "rect",
@@ -1736,6 +1756,11 @@
         }
     ],
     "parses": [
+        {
+            "name": "聚合",
+            "type": 3,
+            "url": "Web"
+        },
         {
             "name": "虾米",
             "type": 0,
