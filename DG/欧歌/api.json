@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢言之无文，行而不远。——《左传》",
+            "name": "📢人而无仪，不死何为。——《诗经·鄘风》",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新12.15❤",
+            "name": "📢公告❤更新12.20❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -62,13 +62,11 @@
                 "site_urls": [
                     "https://woog.nxog.fun",
                     "https://woog.nxog.eu.org",
-                    "https://woog.nxog.de5.net",
-                    "https://woog.装歌.de5.net",
-                    "https://woog.歌.de5.net"
+                    "https://woog.430520.xyz/"
                 ],
                 "url_key": "woog",
                 "threadinfo": {
-                    "chunksize": 255,
+                    "chunksize": 296,
                     "threads": 16
                 }
             }
@@ -85,13 +83,11 @@
                 "site_urls": [
                     "https://ogkk.nxog.fun",
                     "https://ogkk.nxog.eu.org",
-                    "https://ogkk.nxog.de5.net",
-                    "https://ogkk.装歌.de5.net",
-                    "https://ogkk.歌.de5.net"
+                    "https://ogkk.430520.xyz"
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 265,
+                    "chunksize": 237,
                     "threads": 16
                 }
             }
@@ -113,11 +109,28 @@
             }
         },
         {
+            "key": "本地",
+            "name": "🚤本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
             "key": "荐片",
             "name": "💡荐片｜影视",
             "api": "csp_Jianpian",
             "type": 3,
             "ext": "https://api.ztcgi.com"
+        },
+        {
+            "key": "cat_荐片app",
+            "name": "💡荐片｜备用",
+            "type": 3,
+            "api": "./api/cat_荐片app.js",
+            "ext": {
+                "host": "https://api.ztcgi.com",
+                "catesSet": "电影&电视剧&综艺&动漫&纪录片",
+                "tabsSet": "极速蓝光"
+            }
         },
         {
             "key": "移动",
@@ -242,18 +255,15 @@
             "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
         },
         {
-            "key": "爱盈",
-            "name": "👑爱盈｜弹幕",
+            "key": "剧下饭",
+            "name": "👑下饭┃弹幕",
             "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 0,
-            "filterable": 1,
+            "changeable": 0,
+            "api": "./api/AppV2.py",
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
-                "dataKey": "sda1231sasddad21",
-                "dataIv": "sda1231sasddad21",
-                "ua": "okhttp/3.10.0"
+                "api": "http://yjer.jumianfei.com/api.php/v1.vod",
+                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
             }
         },
         {
@@ -272,27 +282,6 @@
             }
         },
         {
-            "key": "吉米",
-            "name": "👑吉米┃弹幕",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://fox.tvmao.top"
-            }
-        },
-        {
-            "key": "剧下饭",
-            "name": "👑下饭┃弹幕",
-            "type": 3,
-            "changeable": 0,
-            "api": "./api/AppV2.py",
-            "ext": {
-                "api": "http://yjer.jumianfei.com/api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
-        },
-        {
             "key": "恋鱼",
             "name": "👑恋鱼｜弹幕",
             "type": 3,
@@ -300,41 +289,6 @@
             "ext": {
                 "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
                 "ver": 2
-            }
-        },
-        {
-            "key": "木瓜",
-            "name": "👑木瓜｜弹幕",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://www.yezitv.top"
-            }
-        },
-        {
-            "key": "爱看",
-            "name": "👑爱看｜弹幕",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://wiffxm.cn",
-                "dataKey": "AvwBFPUtGTEYPbY4",
-                "dataIv": "AvwBFPUtGTEYPbY4"
-            }
-        },
-        {
-            "key": "仓鼠",
-            "name": "👑仓鼠丨弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "dataKey": "da61247f5b662597",
-                "dataIv": "da61247f5b662597",
-                "version": "120"
             }
         },
         {
@@ -464,12 +418,64 @@
             }
         },
         {
-            "key": "木瓜",
-            "name": "👑木瓜｜弹幕",
+            "key": "麒麟",
+            "name": "👑麒麟｜弹幕",
             "type": 3,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://www.yezitv.top"
+                "host": "https://www.70yyw.cc",
+                "ver": 2
+            }
+        },
+        {
+            "key": "麻花",
+            "name": "👑麻花｜弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://49.235.114.19:150",
+                "dataKey": "q7gj4f9br3fls6nh",
+                "dataIv": "q7gj4f9br3fls6nh"
+            }
+        },
+        {
+            "key": "魔方",
+            "name": "👑魔方｜弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.mfsp4k.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321"
+            }
+        },
+        {
+            "key": "茉莉",
+            "name": "👑茉莉｜弹幕",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+                "dataKey": "88689667dce61725",
+                "dataIv": "88689667dce61725"
+            }
+        },
+        {
+            "key": "旗星",
+            "name": "👑旗星｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://ys.qist.top",
+                "dataKey": "2SWSPFxugBLPPOKo",
+                "dataIv": "2SWSPFxugBLPPOKo",
+                "version": "120"
             }
         },
         {
@@ -886,20 +892,7 @@
             }
         },
         {
-            "key": "老王",
-            "name": "🧿老王｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jars/养生堂.jar",
-            "ext": {
-                "副标题": "欧歌专属",
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "https://www.laowang.co/;;!H"
-            }
-        },
-        {
-            "key": "快快",
+            "key": "快1快",
             "name": "🧿快快｜影视",
             "type": 3,
             "api": "csp_XBPQ",
@@ -922,19 +915,6 @@
                 "编码": "UTF-8",
                 "分类url": "http://dyxz.tv/;;!H",
                 "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
-            }
-        },
-        {
-            "key": "片吧",
-            "name": "🧿片吧｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jars/养生堂.jar",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "https://www.ipianba.com/;;!H",
-                "分类": "电影$1#剧集$2#动漫$3#综艺$4"
             }
         },
         {
@@ -1396,19 +1376,6 @@
             "filterable": 1
         },
         {
-            "key": "本地",
-            "name": "🌸本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
-        {
-            "key": "预告",
-            "name": "🌸新片｜预告",
-            "type": 3,
-            "api": "csp_DouBan",
-            "searchable": 0
-        },
-        {
             "key": "push_agent",
             "name": "📢手机｜推送",
             "type": 3,
@@ -1450,7 +1417,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1460,17 +1427,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c2&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=3&url="
         },
         {
             "name": "装歌APP",

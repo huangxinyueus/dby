@@ -51,6 +51,12 @@
             "api": "csp_HBsuipian"
         },
         {
+            "key": "B站直播",
+            "name": "B站|直播",
+            "type": 3,
+            "api": "csp_BilibiliLive"
+        },
+        {
             "key": "聚合",
             "name": "聚合|在线",
             "type": 3,

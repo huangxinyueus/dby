@@ -153,7 +153,7 @@
             "name": "🐂达人┃影视",
             "type": 3,
             "api": "./api/5ee3676775064c1a83199653817a8104.py",
-            "ext": "http://fox.tvmao.top"
+            "ext": "http://www.yezitv.top/"
         },
         {
             "key": "快快",
@@ -195,6 +195,17 @@
             "ext": "http://117.50.204.35:520|ca94b06ca3c7d80e|okhttp/3.10.0"
         },
         {
+            "key": "AppGET",
+            "name": "🪞MOFANG┃小米",
+            "type": 3,
+            "api": "csp_AppGet",
+            "timeout": 25,
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://www.mfsp4k.top|1234567887654321|okhttp/3.10.0"
+        },
+        {
             "key": "AppQi3",
             "name": "💣爆炸┃小米",
             "type": 3,
@@ -213,7 +224,7 @@
             "searchable": 1,
             "type": 3,
             "api": "csp_AppQi",
-            "ext": "http://110.42.110.224:1133|AAdgrdghjfgswerA|okhttp/3.10.0"
+            "ext": "http://110.42.110.224:1133|AAdgrdghjfgswerA| "
         },
         {
             "key": "仓鼠2",

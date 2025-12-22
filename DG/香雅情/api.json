@@ -300,16 +300,6 @@
             "ext": "./json/戏曲多多.json"
         },
         {
-            "key": "csp_XYQHiker_速剧",
-            "name": "速剧(短剧)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/速剧.json"
-        },
-        {
             "key": "csp_XYQHiker_兔小贝",
             "name": "🐰兔小贝(XYQH)",
             "type": 3,

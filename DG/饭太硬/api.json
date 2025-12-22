@@ -5,8 +5,8 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "豆豆",
-            "name": "修复进入自己网盘，新公众号【太太太硬了】",
+            "key": "豆",
+            "name": "修复弹幕修复虎牙，新公众号【太太太硬了】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -71,6 +71,22 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "ZPan",
+            "name": "🎈聚盘搜┃三盘",
+            "type": 3,
+            "api": "csp_S_zpsGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "https://api.jkai.de/"
+            },
             "indexs": 0,
             "style": {
                 "type": "list"
@@ -434,19 +450,6 @@
             "name": "🦋米搜┃优夸",
             "type": 3,
             "api": "csp_MIPanSoGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "xzso",
-            "name": "👻盘他┃夸父",
-            "type": 3,
-            "api": "csp_XzsoGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
