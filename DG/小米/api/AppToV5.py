@@ -1,39 +1,49 @@
-# -*- coding: utf-8 -*-
-# 本资源来源于互联网公开渠道，仅可用于个人学习及爬虫技术交流。
-# 严禁将其用于任何商业用途，下载后请于 24 小时内删除，搜索结果均来自源站，本人不承担任何责任。
-"""
-{
-    "key": "xxx",
-    "name": "xxx",
-    "type": 3,
-    "api": "./ApptoV5无加密.py",
-    "ext": "http://domain.com"
-}
-"""
-
-import re,sys,uuid
+import sys, uuid, json
 from base.spider import Spider
 sys.path.append('..')
 
 class Spider(Spider):
-    host,config,local_uuid,parsing_config = '','','',[]
+    local_uuid = ''
+    config = ''
+    parsing_config = []
+    token = ''  
     headers = {
         'User-Agent': "Dart/2.19 (dart:io)",
         'Accept-Encoding': "gzip",
-        'appto-local-uuid': local_uuid
+        'appto-local-uuid': local_uuid,
+        'token': ''  
     }
+    line_order = []  
+    block_keywords = []  
 
-    def init(self, extend=''):
+    def init(self, extend=""):
         try:
-            host = extend.strip()
-            if not host.startswith('http'):
-                return {}
-            if not re.match(r'^https?://[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(:\d+)?/?$', host):
-                host_=self.fetch(host).json()
-                self.host = host_['domain']
+            self.token = ''  
+            if extend.startswith('{') and extend.endswith('}'):
+                ext_dict = json.loads(extend.strip())
+                self.host = ext_dict.get('host', '').strip()
+                self.token = ext_dict.get('token', '').strip()
+                line_order_input = ext_dict.get('line_order', '')
+                
+                line_order_str = ','.join(line_order_input) if isinstance(line_order_input, list) else str(line_order_input).strip()
+                
+                if '@' in line_order_str:
+                    order_part, block_part = line_order_str.split('@', 1)
+                    self.line_order = list({kw.strip().lower() for kw in order_part.split(',') if kw.strip()})
+                    self.block_keywords = list({kw.strip().lower() for kw in block_part.split(',') if kw.strip()})
+                else:
+                    self.line_order = list({kw.strip().lower() for kw in line_order_str.split(',') if kw.strip()})
+                    self.block_keywords = []
             else:
-                self.host = host
+                self.host = extend.strip()
+                self.line_order = []
+                self.block_keywords = []
+
+            if not self.host.startswith('http'):
+                return {}
             self.local_uuid = str(uuid.uuid4())
+            self.headers['appto-local-uuid'] = self.local_uuid
+            self.headers['token'] = self.token
             response = self.fetch(f'{self.host}/apptov5/v1/config/get?p=android&__platform=android', headers=self.headers).json()
             config = response['data']
             self.config = config
@@ -45,31 +55,56 @@ class Spider(Spider):
                     for j in i['config']:
                         if j['type'] == 'json':
                             label.append(j['label'])
-                    parsing_config.update({i['key']:label})
+                    parsing_config.update({i['key']: label})
             self.parsing_config = parsing_config
-            return None
         except Exception as e:
             print(f'初始化异常：{e}')
             return {}
 
     def detailContent(self, ids):
-        response = self.fetch(f"{self.host}/apptov5/v1/vod/getVod?id={ids[0]}",headers=self.headers).json()
+        response = self.fetch(f"{self.host}/apptov5/v1/vod/getVod?id={ids[0]}", headers=self.headers).json()
         data3 = response['data']
         videos = []
         vod_play_url = ''
         vod_play_from = ''
-        for i in data3['vod_play_list']:
+
+        vod_play_list = data3['vod_play_list']
+        
+        if self.block_keywords:
+            filtered_list = []
+            for play_item in vod_play_list:
+                show_val = play_item['player_info'].get('show', '').strip().lower()
+                if not any(kw in show_val for kw in self.block_keywords):
+                    filtered_list.append(play_item)
+            vod_play_list = filtered_list
+
+        if self.line_order:
+            def get_priority(play_item):
+                show_val = play_item['player_info'].get('show', '').strip().lower()
+                for idx, kw in enumerate(self.line_order):
+                    if kw in show_val:
+                        return idx
+                return float('inf')
+
+            vod_play_list = sorted(vod_play_list, key=get_priority, reverse=False)
+
+        for i in vod_play_list:
             play_url = ''
+            line_name = i['player_info'].get('show', '未知线路')
+            from_value = i['player_info'].get('from', '')
+            display_name = f"{line_name}({from_value})" if from_value else line_name
+            
             for j in i['urls']:
                 play_url += f"{j['name']}${i['player_info']['from']}@{j['url']}#"
-            vod_play_from += i['player_info']['show'] + '$$$'
+            vod_play_from += display_name + '$$$'
             vod_play_url += play_url.rstrip('#') + '$$$'
+        
         vod_play_url = vod_play_url.rstrip('$$$')
         vod_play_from = vod_play_from.rstrip('$$$')
         videos.append({
             'vod_id': data3.get('vod_id'),
             'vod_name': data3.get('vod_name'),
-            'vod_content': data3.get('vod_content'),
+            'vod_content': data3.get('vod_content', ''),
             'vod_remarks': data3.get('vod_remarks'),
             'vod_director': data3.get('vod_director'),
             'vod_actor': data3.get('vod_actor'),
@@ -85,7 +120,7 @@ class Spider(Spider):
         response = self.fetch(url, headers=self.headers).json()
         data = response['data']['data']
         for i in data:
-            if i.get('vod_pic').startswith('mac://'):
+            if i.get('vod_pic', '').startswith('mac://'):
                 i['vod_pic'] = i['vod_pic'].replace('mac://', 'http://', 1)
         return {'list': data, 'page': pg, 'total': response['data']['total']}
 
@@ -141,17 +176,17 @@ class Spider(Spider):
         home_cate = config['get_home_cate']
         classes = []
         for i in home_cate:
-            if isinstance(i.get('extend', []),dict):
+            if isinstance(i.get('extend', []), dict):
                 classes.append({'type_id': i['cate'], 'type_name': i['title']})
         return {'class': classes}
 
     def homeVideoContent(self):
-        response = self.fetch(f'{self.host}/apptov5/v1/home/data?id=1&mold=1&__platform=android',headers=self.headers).json()
+        response = self.fetch(f'{self.host}/apptov5/v1/home/data?id=1&mold=1&__platform=android', headers=self.headers).json()
         data = response['data']
         vod_list = []
         for i in data['sections']:
             for j in i['items']:
-                vod_pic = j.get('vod_pic')
+                vod_pic = j.get('vod_pic', '')
                 if vod_pic.startswith('mac://'):
                     vod_pic = vod_pic.replace('mac://', 'http://', 1)
                 vod_list.append({
@@ -163,7 +198,10 @@ class Spider(Spider):
         return {'list': vod_list}
 
     def categoryContent(self, tid, pg, filter, extend):
-        response = self.fetch(f"{self.host}/apptov5/v1/vod/lists?area={extend.get('area','')}&lang={extend.get('lang','')}&year={extend.get('year','')}&order={extend.get('sort','time')}&type_id={tid}&type_name=&page={pg}&pageSize=21&__platform=android", headers=self.headers).json()
+        response = self.fetch(
+            f"{self.host}/apptov5/v1/vod/lists?area={extend.get('area','')}&lang={extend.get('lang','')}&year={extend.get('year','')}&order={extend.get('sort','time')}&type_id={tid}&type_name=&page={pg}&pageSize=21&__platform=android",
+            headers=self.headers
+        ).json()
         data = response['data']
         data2 = data['data']
         for i in data['data']:

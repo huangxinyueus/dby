@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢人而无仪，不死何为。——《诗经·鄘风》",
+            "name": "📢网络收集免费仅限测试用内置接口会崩溃！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新12.20❤",
+            "name": "📢公告❤更新12.23❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -51,22 +51,23 @@
             }
         },
         {
-            "key": "csp_woog",
+            "key": "csp_wogg1",
             "name": "🐲玩歌｜4K弹幕",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
             "filterable": 1,
-            "jar": "./jars/csp_woog.jar",
+            "jar": "./jars/csp_wogg1.jar",
             "ext": {
                 "site_urls": [
                     "https://woog.nxog.fun",
                     "https://woog.nxog.eu.org",
-                    "https://woog.430520.xyz/"
+                    "https://woog.430520.xyz",
+                    "https://woog.歌.de5.net"
                 ],
-                "url_key": "woog",
+                "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 296,
+                    "chunksize": 253,
                     "threads": 16
                 }
             }
@@ -83,11 +84,12 @@
                 "site_urls": [
                     "https://ogkk.nxog.fun",
                     "https://ogkk.nxog.eu.org",
-                    "https://ogkk.430520.xyz"
+                    "https://ogkk.430520.xyz",
+                    "https://ogkk.歌.de5.net"
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 237,
+                    "chunksize": 272,
                     "threads": 16
                 }
             }
@@ -843,18 +845,15 @@
             "ext": "./json/八号影视.json"
         },
         {
-            "key": "旺旺影视",
-            "name": "🧿旺旺｜影视",
+            "key": "全看",
+            "name": "🧿全看｜影视",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jars/养生堂.jar",
             "ext": {
-                "副标题": "pic-text text-right\"&&/span>",
-                "请求头": "手机",
-                "简介": "装歌剧情介绍:+detail-sketch\"&&</span>",
-                "播放数组": "stui-content__playlist clearfix\"&&</ul>",
-                "分类url": "http://www.0719w.com/so-show/{cateId}-{area}--{class}-----{catePg}---{year}.html;;d",
-                "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.qkwaa.com//;;!H"
             }
         },
         {
@@ -1417,7 +1416,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c9&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1427,17 +1426,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c9&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c9&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=4c6&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=4c9&mz=3&url="
         },
         {
             "name": "装歌APP",
