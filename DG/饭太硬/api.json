@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "修复弹幕修复虎牙，新公众号【太太太硬了】",
+            "name": "支持影视仓6.1.7弹幕，新公众号【太太太硬了】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -233,7 +233,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg=="
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+T/f39S/lTA9LMm9V0hPZltHr3d1+KFzePgKxc5+/yjNcsFajjBz4m5zFvE/QJKc66/VGTSxSuuf1qGjR2fu1UY2NVdfv4c="
         },
         {
             "key": "糯米",
@@ -298,6 +298,18 @@
             "changeable": 1
         },
         {
+            "key": "88",
+            "name": "⚽88┃看球",
+            "type": 3,
+            "api": "csp_Sir88Guard",
+            "timeout": 10,
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "超全",
             "name": "⚽超全┃看球",
             "type": 3,
@@ -309,18 +321,6 @@
                 "type": "list"
             },
             "ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q=="
-        },
-        {
-            "key": "88",
-            "name": "⚽88┃看球",
-            "type": 3,
-            "api": "csp_Sir88Guard",
-            "timeout": 10,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "看球",

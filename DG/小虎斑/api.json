@@ -45,10 +45,11 @@
             "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
         },
         {
-            "key": "duanju",
+            "key": "duanju12",
             "name": "破碎|短剧",
             "type": 3,
-            "api": "csp_HBsuipian"
+            "api": "csp_HBsuipian",
+            "ext": "https://speed.howdbm.com/papaya/papaya-file/files/download/"
         },
         {
             "key": "B站直播",
