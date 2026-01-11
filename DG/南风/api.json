@@ -153,17 +153,6 @@
             "ext": "7lj763gg0939795i007ki485k612jli3hil9990l96j86i79025j08k7l8055g1h1i834kg3i900i0j06k4hg190k2lj0gk6k567614jl0k399gl72j06hkl3ilj1l"
         },
         {
-            "key": "时常",
-            "name": "🏛时常",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939791i5820839jhg498h93ljh9i353ihi73l2k5l5j48g4l21j035j01850ig6i904998l6j09g1j0g1l712hlg37g670ll5k39jl62jj329kl3ilj1l"
-        },
-        {
             "key": "优质",
             "name": "🌈优质",
             "type": 3,
@@ -173,16 +162,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"
-        },
-        {
-            "key": "巧技三",
-            "name": "⚡QD4K",
-            "type": 3,
-            "api": "csp_Qiji",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312gl815890ig2l05g9"
         },
         {
             "key": "永夜",
@@ -407,15 +386,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_MeijuTT",
-            "name": "🧲美剧天堂",
-            "type": 3,
-            "api": "csp_MeijuTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_MeijuMi",
             "name": "🧲美剧迷",
             "type": 3,
@@ -474,7 +444,6 @@
             "switchable": 0,
             "ext": {
                 "host": {
-                    "百度": "https://api.jkyai.top",
                     "甜圈": "https://mov.cenguigui.cn",
                     "锦鲤": "https://api.jinlidj.com",
                     "番茄": "https://reading.snssdk.com",
@@ -499,7 +468,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "🎦豪堪短剧",
@@ -510,7 +479,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "📺盒马短剧",
@@ -521,7 +490,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "🎞️拜拜短剧",
@@ -532,7 +501,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "🐠锦鲤短剧",
@@ -543,7 +512,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "🍩甜圈短剧",
@@ -554,7 +523,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "🐱喵喵短剧",
@@ -565,7 +534,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "⭐星星短剧",
@@ -576,7 +545,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
         },
         {
             "name": "🎂岁岁短剧",
@@ -587,7 +556,17 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/弹幕.jar"
+            "jar": "./jars/找短剧.jar"
+        },
+        {
+            "key": "豆瓣",
+            "name": "🚀豆瓣预告",
+            "type": 3,
+            "api": "csp_YGP",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "豆瓣",
@@ -827,15 +806,6 @@
                 "siteUrl": "https://www.91panta.cn/",
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
             }
-        },
-        {
-            "key": "AList",
-            "name": "🅰AList",
-            "type": 3,
-            "api": "csp_AList",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": "./json/alist.json"
         },
         {
             "key": "网盘集合",

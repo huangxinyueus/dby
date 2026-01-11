@@ -1,7 +1,7 @@
 import {
     cheerio,
     模板
-} from "https://pan.aa53.cn/down.php/4656e3ee7df1f4db03a6c0af17295b1d.js";
+} from "https://file.zhangyichi.dev/uploads/695cb61e4e153_1767683614.js";
 let vercode = typeof pdfl === "function" ? "drpy2.1" : "drpy2";
 const VERSION = vercode + " 3.9.52beta3 20250801";
 const UpdateInfo = [{

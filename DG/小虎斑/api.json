@@ -36,7 +36,16 @@
             "key": "设置",
             "name": "网弹|设置",
             "type": 3,
-            "api": "csp_HBconfig"
+            "api": "csp_Config"
+        },
+        {
+            "key": "我的网盘",
+            "name": "我的|网盘",
+            "type": 3,
+            "api": "csp_MyCloud",
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "全网",
@@ -45,7 +54,7 @@
             "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
         },
         {
-            "key": "duanju12",
+            "key": "duanju",
             "name": "破碎|短剧",
             "type": 3,
             "api": "csp_HBsuipian",
@@ -224,70 +233,42 @@
             "name": "景天|4K弹幕",
             "type": 3,
             "api": "csp_HBcms10Dou",
-            "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
+            "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/qq/"
         },
         {
             "key": "茂茂",
             "name": "茂茂|4K弹幕",
             "type": 3,
             "api": "csp_HBcms10Dou",
-            "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
+            "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
         },
         {
-            "key": "至尊",
-            "name": "魔尊|4K弹幕",
+            "key": "立春",
+            "name": "立春|4K弹幕",
             "type": 3,
-            "api": "csp_AppZzun",
-            "ext": "./txt/app.txt"
+            "api": "csp_HBNT4",
+            "ext": "DyoqWQIrBwMuGytIIxtMWy8FMQwtNStECyoUXy0YVUg="
         },
         {
-            "key": "魔尊",
-            "name": "重楼|4K弹幕",
+            "key": "夏至",
+            "name": "夏至|4K弹幕",
             "type": 3,
-            "api": "csp_HBcms10",
-            "ext": "./txt/cms.txt"
+            "api": "csp_HBNT4",
+            "ext": "DyoqWQInJUMuGFdFDzUQAgIGXUUAUi9H"
         },
         {
-            "key": "紫萱",
-            "name": "紫萱|4K弹幕",
+            "key": "秋分",
+            "name": "秋分|4K弹幕",
             "type": 3,
-            "api": "csp_AppZzun",
-            "ext": "./txt/app2.txt"
+            "api": "csp_HBNT4",
+            "ext": "DyoqWQInJUMuGFcBCgtNXAQ4Og8HOSNECiVBHi0YVUg="
         },
         {
-            "key": "竹生",
-            "name": "竹生|4K弹幕",
+            "key": "冬至",
+            "name": "冬至|4K弹幕",
             "type": 3,
-            "api": "csp_HBT4",
-            "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
-        },
-        {
-            "key": "归安",
-            "name": "归安|4K弹幕",
-            "type": 3,
-            "api": "csp_HBT4",
-            "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-        },
-        {
-            "key": "薄心",
-            "name": "薄心|4K弹幕",
-            "type": 3,
-            "api": "csp_HBT4",
-            "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
-        },
-        {
-            "key": "甜橙",
-            "name": "甜橙|4K弹幕",
-            "type": 3,
-            "api": "csp_HBT4",
-            "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-        },
-        {
-            "key": "花落",
-            "name": "花落|4K弹幕",
-            "type": 3,
-            "api": "csp_HBT4",
-            "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXhhVzVuZVdsdVp5TWpJM0ZwYm1kNWFXNW4="
+            "api": "csp_HBNT4",
+            "ext": "DyoqWQIrBwMuUgZBNzVBHQA7MUcsCFtcCjVMVA=="
         },
         {
             "key": "小猫",
@@ -522,27 +503,6 @@
             "name": "体育|实时",
             "type": 3,
             "api": "csp_Kanqiu"
-        },
-        {
-            "key": "搜素1",
-            "name": "影搜|忧思",
-            "type": 3,
-            "api": "csp_HByingSo",
-            "ext": "1"
-        },
-        {
-            "key": "搜素2",
-            "name": "影搜|夸壳",
-            "type": 3,
-            "api": "csp_HByingSo",
-            "ext": "2"
-        },
-        {
-            "key": "搜素4",
-            "name": "影搜|度娘",
-            "type": 3,
-            "api": "csp_HByingSo",
-            "ext": "4"
         },
         {
             "key": "360",
