@@ -1647,5 +1647,5 @@ var rule = {
     "推荐": "js:\n        let d = [];\n        let jo = JSON.parse(request(input)).data.datas;\n        jo.forEach(it => {\n                d.push({\n                    url: it.profileRoom,\n                    title: it.introduction,\n                    img: it.screenshot,\n                    desc: '👁' + it.totalCount + '  🆙' + it.nick,\n                })\n        });\n        setResult(d);\n    ",
     "一级": "js:\n        let d = [];\n        let jo = JSON.parse(request(input)).data.datas;\n        jo.forEach(it => {\n                d.push({\n                    url: it.profileRoom,\n                    title: it.introduction,\n                    img: it.screenshot,\n                    desc: '👁' + it.totalCount + '  🆙' + it.nick,\n                })\n        });\n        setResult(d);\n    ",
     "二级": "*",
-    "搜索": "json:response.3.docs;game_name;game_screenshot;game_nick;room_id"
+    "搜索": "json:response.3.docs;gameName;game_screenshot;game_nick;room_id"
 };

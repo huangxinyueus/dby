@@ -92,21 +92,7 @@
             "type": 3,
             "api": "csp_Qiji",
             "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i7942522l99jhh90ljii5g1l09i13i39g2l6i514l56l1li1k5107159113h6945h8g91351kgkijl5l315g8l3656756kjk699gj689125k773g94i16ghg596l5l022202ki910690ii5kh4i6724k0g83g70k09hgkj3jj7hl431480l3i3197"
-        },
-        {
-            "key": "蝴蝶",
-            "name": "🦋蝴蝶",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9677gg"
+            "ext": "7lj763gg402i7942522l99jhh90ljii5g1l09i13i39g2l6i514l56l1li1k5107159113h6945h8g91351kgkijl5l315g8l3656756kjk698gi689125k773lg5k6hl2l3i1g3gk5l1g5l8g5h06018gkh1l7559h9lk6j26hkk694g29k309h3i070l3i3197"
         },
         {
             "key": "橘子",
@@ -123,12 +109,9 @@
             "key": "驿站",
             "name": "🚗驿站",
             "type": 3,
-            "api": "csp_Qiji",
+            "api": "csp_Xdai",
             "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg402i794240208hi3g05l8181higgi609i7i73l224k141jg1lh405k0g49i60kh6ih53i6ji6g01k885g4lk4lk2l432240jk5k1igg97kj421g03lll"
+            "ext": "7lj763gg0939795i007gi48hk112jji7g1k69j079jj06g721j461kk7h703431g079j0g9hi15lg2j6232lk993i1g416hlg87i7l09i8khi6ij749j0lg77l9g154kg2gljkl1g625"
         },
         {
             "key": "趣看",
@@ -175,14 +158,15 @@
             "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"
         },
         {
-            "key": "主角",
-            "name": "🍃主角",
+            "key": "蝴蝶",
+            "name": "🦋蝴蝶",
             "type": 3,
-            "api": "csp_Muou",
+            "api": "csp_Qiji",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
+            "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9677gg"
         },
         {
             "key": "云云",
@@ -435,6 +419,17 @@
             "ext": "./json/樱花动漫.json"
         },
         {
+            "name": "☕韩剧",
+            "key": "Hxq",
+            "type": 3,
+            "api": "csp_HxqAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jars/弹幕.jar"
+        },
+        {
             "key": "聚合短剧",
             "name": "🈴聚合短剧",
             "type": 3,
@@ -444,16 +439,12 @@
             "switchable": 0,
             "ext": {
                 "host": {
-                    "甜圈": "https://mov.cenguigui.cn",
                     "锦鲤": "https://api.jinlidj.com",
                     "番茄": "https://reading.snssdk.com",
                     "番茄2": "https://fqgo.52dns.cc",
                     "星芽": "https://app.whjzjx.cn",
                     "星芽登录": "https://u.shytkjgs.com",
-                    "西饭": "https://xifan-api-cn.youlishipin.com",
-                    "围观": "https://api.drama.9ddm.com",
-                    "碎片": "https://free-api.bighotwind.cc",
-                    "碎片图片": "https://speed.hiknz.com"
+                    "西饭": "https://xifan-api-cn.youlishipin.com"
                 },
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
             }
@@ -468,7 +459,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "🎦豪堪短剧",
@@ -479,7 +470,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "📺盒马短剧",
@@ -490,7 +481,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "🎞️拜拜短剧",
@@ -501,7 +492,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "🐠锦鲤短剧",
@@ -512,18 +503,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
-        },
-        {
-            "name": "🍩甜圈短剧",
-            "key": "甜圈短剧",
-            "type": 3,
-            "api": "csp_TQdjAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "🐱喵喵短剧",
@@ -534,7 +514,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "⭐星星短剧",
@@ -545,7 +525,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
+            "jar": "./jars/弹幕.jar"
         },
         {
             "name": "🎂岁岁短剧",
@@ -556,17 +536,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/找短剧.jar"
-        },
-        {
-            "key": "豆瓣",
-            "name": "🚀豆瓣预告",
-            "type": 3,
-            "api": "csp_YGP",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "jar": "./jars/弹幕.jar"
         },
         {
             "key": "豆瓣",

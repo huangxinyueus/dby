@@ -270,6 +270,28 @@
             "timeout": 10
         },
         {
+            "key": "雪豹",
+            "name": "🐆雪豹┃秒播",
+            "type": 3,
+            "api": "csp_XueBaoGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "海狗",
+            "name": "🐶海狗┃秒播",
+            "type": 3,
+            "api": "csp_HaiGouGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
             "key": "热播",
             "name": "📺热播┃App",
             "type": 3,
@@ -361,45 +383,14 @@
             "timeout": 10
         },
         {
-            "key": "吉米",
-            "name": "🍙吉米┃App",
+            "key": "奇奇",
+            "name": "🐵奇奇┃App",
             "type": 3,
-            "api": "csp_AppFoxGuard",
+            "api": "csp_QiQiGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "ext": {
-                "siteUrl": "http://45.207.215.137:8006"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "恋鱼",
-            "name": "🐟恋鱼┃App",
-            "type": 3,
-            "api": "csp_AppFoxGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "siteFrom": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "麒麟",
-            "name": "🐓麒麟┃App",
-            "type": 3,
-            "api": "csp_AppFoxGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "siteUrl": "https://www.70yyw.cc"
-            },
             "timeout": 10
         },
         {
@@ -614,6 +605,17 @@
             "name": "💖星芽┃短剧",
             "type": 3,
             "api": "csp_AppXYGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "甜圈短剧",
+            "name": "🌸甜圈┃短剧",
+            "type": 3,
+            "api": "csp_TianQuanGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,

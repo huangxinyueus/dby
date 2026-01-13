@@ -269,17 +269,7 @@
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "0YM2rlqPCLd5eMAslwMf/kCE22ncNd3xnmwrQY9SCQHXWdeo2H/sfIiHuBMc3PzPEVY5G9M3x+gMD2forwOxfrm19dVzxOnNMp1ifx9OE2sq8B3N9rwsK51+tiWkbkBXe97ltXwk1WutyDZRGlllk+7h+Urgo217z5GqoWbso/7QmUZUdpH3zfXXuW0Guyanl7S1RWawJMkP7sCO23zv+Jp7lRMH5q/nWZFDYK7QKExZrzazEptEa/hczMEdnGJmibozbgaxeaWXIs8suJ0Y/4Oq41APBwdk28BygjvI88Wn+4GIquYsyopBZ+5lYZtn9Hi/35yqZM1xmBOqNi2QaK0o0tJGj7AWJL1nwE1Nd4rUtgvCL7CNGSnLmy35EeGfrx32x2qnpWDfLws/jyKbqkDphx1Fa9xxSqLVrulZVUJuWZS1hCeZ2yG9X0W2UWzivH+AzDUXDSWUwslvB4F4ZLR32ehoI+O39Y3/pZvCOlXjMVjvgT6von35RIiOjQbY"
-        },
-        {
-            "key": "星星",
-            "name": "🍥星星┃1080P",
-            "type": 3,
-            "api": "csp_AppGetV2",
-            "changeable": "1",
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "FNc7O3Sq/hxz7uCzbccPTwmKS9QhqbhDC5J/tBK99TVOHLlZGML6w5s00rYaRDRk44y4l2VZIg51xAZOs4LCX4bidVaNqnZSwvq1di3RUOk5+pqqDBbEhzsV2VsblBDDcFPmwFvwSc80outLvvsjfZ5L3Qj6KfDm63MsiSTI125bBAKRXPoqvfSLDcN0ojyD4p1gyFPEftaY/gE8Q/Z4zEzdsDaxnUJCA9wQrDOGOqmaHz400914DN7gJesIf/i+Hh8bjrqfej84yQ7cJDC6zX5MqaZFwtRGJ6PlEElJAw1i69/quACnLkHOQSHsLrs9Fuc/qM2iJqCXFsrojXIwhbDLpCasWXOJH3RLFMSd/T7nsIoeSsBt01k6xT2KC0Y5AjWMDyE1zCDwZoRoTm4MGBei0IyaWoWq6Kz+IGCqqsiC0ylLcX1nF3VM7mrhmWdZqPl6uFqpdMoGzfg+s8pRc5qH2ykzHmqLHx9pSoLiAdM="
+            "ext": "N/01JeZBCBEQ0wOXNuAI/kwsk5p8MqEDFtLQfMnVixA9uUmSyf8n3xJtB2ubjJgYDhEd8h65xeqKRf3iKR9uIvzwZqvJoAyTyNrVFvsjj6rcrxaUxJIDJDV+KiOB9j0MI9CVrh+0wQG3G8vH/qBglRDfzuIN1DlTTpdxYERAYZMCSEu+sgf5JR61CAzwsdc09W//YFaJbpDv8kHaw052cULBNQ/P1FyVDvk+GHOADm3OLhFSpDjSGPgKadu0GSlZGl+7EnLianWrSuY9H12iPoBA0zf6ulDwWqStOH2yTARHrda3y3m35sh0GGABp/ThOHszC2tl2naN0POZsXbyi7enFffI15opZinoBAA/LWiYkiEaH+cIZ/29C418TvMUpuM4GXXQsSbu43K56xSFdjTi66WemimTIKQ89FJIVuR9qDVI1iFyNmpS2kz8TwPJNsyrT8rAw3iXvLuwhNjOndlJruvPH+sewnXTdp9dqf6r4MAzLwL9f9EJ2C6F+Jqx"
         },
         {
             "key": "JINPAI",
@@ -334,14 +324,6 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_Jpys"
-        },
-        {
-            "key": "csp_WWYS",
-            "name": "👨农民┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_Wwys"
         },
         {
             "key": "csp_MiSou",
