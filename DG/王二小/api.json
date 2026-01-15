@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20260112】🐮",
+            "name": "🐮【更新日期:20260114】🐮",
             "type": 3,
             "api": "csp_NewDouBanGuard",
             "searchable": 0,
@@ -339,6 +339,14 @@
             "name": "🍉短剧┃小丽🍉",
             "type": 3,
             "api": "csp_DuanJuJinLiGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "AnimeGiriGiri",
+            "name": "🤡小爱┃动漫🤡",
+            "type": 3,
+            "api": "csp_AnimeGiriGiriGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -716,6 +724,14 @@
             "name": "🎠找盘┃综合🎠",
             "type": 3,
             "api": "csp_SoZhaoPanSoGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "push_agent",
+            "name": "推送",
+            "type": 3,
+            "api": "csp_PushGuard",
             "searchable": 1,
             "changeable": 0
         }

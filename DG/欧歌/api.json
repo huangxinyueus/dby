@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢人谁无过？过而能改，善莫大焉。——《论语》",
+            "name": "📢免费仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新01.11❤",
+            "name": "📢公告❤更新01.14❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -67,7 +67,7 @@
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 265,
+                    "chunksize": 278,
                     "threads": 16
                 }
             }
@@ -89,7 +89,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 236,
+                    "chunksize": 239,
                     "threads": 16
                 }
             }
@@ -756,13 +756,13 @@
             }
         },
         {
-            "key": "糖果",
-            "name": "❤糖果｜搜索",
+            "key": "盘搜",
+            "name": "❤盘搜｜搜索",
             "type": 3,
-            "api": "csp_TGSou",
+            "api": "csp_PanSou",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "夸克盘搜",
@@ -1522,7 +1522,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=70&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=72&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1532,17 +1532,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=70&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=72&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=70&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=72&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=70&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=72&mz=3&url="
         },
         {
             "name": "装歌APP",

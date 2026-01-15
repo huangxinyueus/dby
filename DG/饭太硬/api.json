@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆",
-            "name": "修复所有，新公众号【太太太硬了】",
+            "name": "新增自动安装，新公众号【太太太硬了】",
             "type": 3,
             "api": "csp_DouDouGuard",
             "indexs": 1,
@@ -39,8 +39,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
@@ -92,8 +91,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
@@ -163,11 +161,12 @@
             "key": "剧圈",
             "name": "🐻剧圈┃多线",
             "type": 3,
-            "api": "csp_JqqGuard",
+            "api": "csp_AppSxGuard",
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+S3T18333j8hL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0k5GV9Quw0AIzUurGBVyPqCLrdirfpAz+n0Qh7PVBWo8uxWhO1Bs1MCYA1oiM="
         },
         {
             "key": "热播",
@@ -204,6 +203,28 @@
             "ext": "rfOb1uAWbkRHp7hdxprG9un3+Szfz8zv0jAjao20UU0cIAxL6DQ15qJ1O+BZw910sXeeL8VPwXcg/2xjQv8/GZnOrqqcWiP4CKLWif2sVyC8ihYjNklP7o6mQAL7VoFMG5d5pWhXSwS1CO7g1gbyVYEQxV0sT36wczr1h9ANQMp05z40WLhuXPJeeRYy14vg"
         },
         {
+            "key": "猫猫",
+            "name": "🐟猫猫┃多线",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "rfOX1voDIQhH8epBwpmIsuSspW+fnt3j0Gkxas3qVQ5bZRBVvSwnsuM5MOJ0isFT7Xq5Kctln34euXsyXL42Edzeou/SGHg="
+        },
+        {
+            "key": "包子",
+            "name": "🍩包子┃多线",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+T/Ky8ijlm1jJ8+yU0seIgQe6DRwqrUqYeBZw91iuG3ZcN1Sz2Im+G8mF+shR+eNzbfXQ3SsRv/HiK+0XXGnjhlkfQQNopX5TgKxFIobBott+2QTSxa1Bv3jlR7vRcQK"
+        },
+        {
             "key": "橘子",
             "name": "🍊橘子┃多线",
             "type": 3,
@@ -212,7 +233,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprG9un3+S/Cz8j6xik9ZIrwCw8aZkEOtiQw5qNif+ZRw904uGiCZNFRz3ln6nh5Q+wpBsGA6aydW3fmWrXH1ve0HjKxzV5kNEdcrI7mT1i2DMtcTIh17XhLS0CiSqizjQaqBYcSlVc0Gm2wIGH134APQI1/"
+            "ext": "rfOX1voDIQhH8epBwpmIsuSqvyXCz8r+lS8mcJ/xVR1aMxpf9CY77fshWb9Qi+9wjlHTW/B2wksy6y04VuIpAozGrejSUw=="
         },
         {
             "key": "鲸鱼",
@@ -420,8 +441,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
@@ -433,8 +453,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
@@ -447,7 +466,6 @@
             "changeable": 0,
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto",
                 "yiSoCookie": "satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"
             }
         },
@@ -460,8 +478,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
@@ -473,8 +490,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
@@ -485,8 +501,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
         },
         {
