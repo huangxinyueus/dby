@@ -305,6 +305,16 @@
             "ext": "7lj763gg402i7942463j9j9jgg449698khhh845ki38473"
         },
         {
+            "key": "低端",
+            "name": "📺低端",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/低端影视.json"
+        },
+        {
             "key": "csp_Ikanbot",
             "name": "👾Ikanbot",
             "type": 3,

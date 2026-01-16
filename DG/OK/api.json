@@ -259,28 +259,6 @@
             "timeout": 10
         },
         {
-            "key": "雪豹",
-            "name": "🐆雪豹┃秒播",
-            "type": 3,
-            "api": "csp_XueBaoGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 10
-        },
-        {
-            "key": "海狗",
-            "name": "🐶海狗┃秒播",
-            "type": 3,
-            "api": "csp_HaiGouGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 10
-        },
-        {
             "key": "热播",
             "name": "📺热播┃App",
             "type": 3,
