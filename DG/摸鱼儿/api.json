@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "logo": "https://open.wya6.com/d/down/2026/logo.gif",
-    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
+    "wallpaper": "http://127.0.0.1:5266/wallpaper",
     "sites": [
         {
             "key": "Douban",
@@ -110,6 +110,14 @@
             "ext": "p+FPtr6fYIfomOnA4N4Sl0dFvFqJvfkho3Yem3nNyo6peH9nVFr0wIIfo96V7voEHGrq+0mvfYjwri/nkrWITQ=="
         },
         {
+            "key": "看呗",
+            "name": "看呗｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": "bB1iyOjtXWh234iOsqOpQ65mKOL2sRd+RcTIk0cmjrD8688Xw5ArmjN9zmaBcFgVgymXypm6lVMfsF9YOHbdKm0QT6K8/+z1B6YhKTatmFsNRMAw995p8MscOfu0wUGg"
+        },
+        {
             "key": "jumeng",
             "name": "剧梦｜APP",
             "type": 3,
@@ -148,7 +156,7 @@
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62oSKxLlLfPpOEf+mKvMQvSpMDoEavlzj4ib+jrumGW1Thrn8REq84SGVeJzq6F/vNAQbZlJ0rkT2djKJq4bTW1XFoW302XV0p+ZSEqBozzdjbdOxaZv+zZWCbSmIlsvXQU5cnwEBCx4/vTVK7uRAHKMytMSWmTqvFCAsCim4kXYme"
+            "ext": "sCnv2gwYzALZxDcfyX62oRPMT83Bt3Q5r5Q6ZwZ7Qq7ZfJZDdC8XcpJTArOjxs1hHGrH7JX/hlcGzED0RCFI/s5GJg5ZWPlTtK+GsArjWDyxNkvAnyr0ju34UuSCxQLD322RSid4K96h74Nx/SiPlH1VjrRyIHMEIfDj/wTAjZGrqJ89zsewId3PXJEpHlqc7ewAudH5J9EGzdit7AYOug=="
         },
         {
             "key": "Guwo",
@@ -437,7 +445,7 @@
         },
         {
             "key": "ReBoYingShi",
-            "name": "雪映｜影视",
+            "name": "热播｜影视",
             "type": 3,
             "api": "csp_ReBoYingShi",
             "searchable": 1,
@@ -445,7 +453,7 @@
         },
         {
             "key": "DianYingYunJi",
-            "name": "河清｜影视",
+            "name": "云集｜影视",
             "type": 3,
             "api": "csp_DianYingYunJi",
             "searchable": 1,
@@ -476,7 +484,7 @@
         },
         {
             "key": "Hema",
-            "name": "河马｜影视",
+            "name": "河马｜短剧",
             "type": 3,
             "api": "csp_Hema",
             "searchable": 1,
@@ -509,6 +517,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "番薯动漫",
+            "name": "番薯丨动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": "N5u2FS3i/elUFAoSVYBzne8+r0r/kX1E+KdfHQ6FVY6/wHmWZoFfjCv2f3YfjfSbJm0/trORuqYE1PzwW9Z2IT6SnMHG1Beaes3+9Ad9p9Dy7MPFARRTA33haDFOP4SZtpBkd4utjKPyprZNVKMxvA=="
         },
         {
             "key": "mifun",
@@ -639,6 +655,13 @@
             }
         },
         {
+            "key": "TuneFree",
+            "name": "自由｜音乐",
+            "type": 3,
+            "api": "csp_TuneFree",
+            "searchable": 1
+        },
+        {
             "key": "Music24bit",
             "name": "无损｜音乐",
             "type": 3,
@@ -654,13 +677,6 @@
                     "薛之谦"
                 ]
             }
-        },
-        {
-            "key": "TuneFree",
-            "name": "自由｜音乐",
-            "type": 3,
-            "api": "csp_TuneFree",
-            "searchable": 1
         },
         {
             "key": "Kanqiu",
