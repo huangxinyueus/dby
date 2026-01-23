@@ -16,14 +16,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢免费仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
+            "name": "📢网络收集勿演示贩卖！严谨用于任何商业用途！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新01.19❤",
+            "name": "📢公告❤更新01.21❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -67,7 +67,7 @@
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 217,
+                    "chunksize": 239,
                     "threads": 16
                 }
             }
@@ -89,7 +89,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 288,
+                    "chunksize": 228,
                     "threads": 16
                 }
             }
@@ -129,12 +129,6 @@
             "type": 3,
             "api": "csp_Wwys",
             "ext": "https://vip.wwgz.cn:5200"
-        },
-        {
-            "key": "荐片",
-            "name": "💡荐片｜影视",
-            "api": "csp_JianPian",
-            "type": 3
         },
         {
             "key": "小猪",
@@ -301,19 +295,6 @@
             }
         },
         {
-            "key": "影视",
-            "name": "👑影视┃影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "datakey": "AAdgrdghjfgswerA",
-                "api": 2
-            }
-        },
-        {
             "key": "奇奇",
             "name": "👑奇奇｜弹幕",
             "type": 3,
@@ -322,18 +303,6 @@
                 "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg"
-            }
-        },
-        {
-            "key": "方圆",
-            "name": "👑方圆｜弹幕",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://fyys1.fytd.top",
-                "dataKey": "0ef6fc92a64b4ee7",
-                "dataIv": "0ef6fc92a64b4ee7"
             }
         },
         {
@@ -369,17 +338,6 @@
                 "url": "https://vv.229d.cn",
                 "dataKey": "8888888888888888",
                 "dataIv": "8888888888888888"
-            }
-        },
-        {
-            "key": "随看",
-            "name": "👑随看｜弹幕",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://suikan.tpmbt.cn",
-                "dataKey": "pHQsm6wjYaCuSPEz",
-                "dataIv": "pHQsm6wjYaCuSPEz"
             }
         },
         {
@@ -497,7 +455,7 @@
         },
         {
             "key": "cat_荐片app",
-            "name": "🥇荐片｜备用",
+            "name": "🥇荐片｜影视",
             "type": 3,
             "api": "./api/荐片app.js",
             "ext": {
@@ -1499,14 +1457,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "api": "./api/93e0decefe3a2ad8949c5fe389d6cab2.js"
+            "api": "./api/preview"
         },
         {
             "key": "采集之王",
             "name": "🐢采集｜合集",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/采集之王.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json$1$1"
+            "ext": "./js/采集之王.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/json/采集静态.json"
         },
         {
             "key": "巧技2",
@@ -1561,7 +1519,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=77&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=7b&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1571,17 +1529,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=77&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=7b&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=77&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=7b&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=77&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=7b&mz=3&url="
         },
         {
             "name": "装歌APP",

@@ -90,33 +90,23 @@
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://121.40.131.51:2556/host.json",
+                "host": "http://host1.sopython.top/host.json",
                 "ver": 2
             }
         },
         {
-            "key": "恋鱼",
-            "name": "恋鱼｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
-                "ver": 2
-            }
-        },
-        {
-            "key": "爆炸",
-            "name": "爆炸｜APP",
+            "key": "奇奇",
+            "name": "奇奇｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-                "dataKey": "37kj83zs1q16jk6t",
-                "dataIv": "37kj83zs1q16jk6t",
-                "search": "searchList4",
+                "url": "http://110.42.67.221:8006",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg",
+                "search": "searchList7",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -156,36 +146,6 @@
             }
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
-                "dataKey": "ca94b06ca3c7d80e",
-                "dataIv": "ca94b06ca3c7d80e",
-                "version": "305",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "仓鼠",
-            "name": "仓鼠｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://hk440cms.cs4k.top",
-                "dataKey": "fL7sY4zN4kB3pG4p",
-                "dataIv": "fL7sY4zN4kB3pG4p",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "鲸鱼",
             "name": "鲸鱼｜APP",
             "type": 3,
@@ -213,19 +173,6 @@
             }
         },
         {
-            "key": "云云",
-            "name": "云云丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-                "dataKey": "staraugust123456",
-                "dataIv": "staraugust123456",
-                "version": "120"
-            }
-        },
-        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,
@@ -237,15 +184,14 @@
             }
         },
         {
-            "key": "方圆",
-            "name": "方圆｜APP",
+            "key": "火狐",
+            "name": "火狐｜APP",
             "type": 3,
-            "searchable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://fyys1.fytd.top",
-                "dataKey": "0ef6fc92a64b4ee7",
-                "dataIv": "0ef6fc92a64b4ee7"
+                "site": "http://122.114.171.79:568/huohushipin.txt",
+                "dataKey": "huohushipingetap",
+                "dataIv": "huohushipingetap"
             }
         },
         {
@@ -498,7 +444,8 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xsayang.fun:12512"
+                    "http://xsayang.fun:12512",
+                    "http://154.201.83.50:12512"
                 ]
             }
         },
@@ -621,7 +568,8 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xhban.xyz:20720"
+                    "http://xhban.xyz:20720",
+                    "http://154.222.27.33:20720"
                 ]
             }
         },
@@ -728,9 +676,9 @@
             },
             "ext": {
                 "site": [
-                    "https://www.kfzy.cc"
+                    "https://www.kfjwzz.com"
                 ],
-                "cookie": "bbs_sid=qtrfbfct9gs8e7qat96o3nf09t; isClose=yes; __mxau__c2-lS6GI0pR=de438e75-e385-47c4-acb1-6564b407c7b1; __mxaf__c2-lS6GI0pR=1761439615; bbs_token=9NqiBWxAvM2MN_2FST20QOg5g9gcyzm2Hqfd9YwaQjK6Y_3D; __mxas__c2-lS6GI0pR=%7B%22sid%22%3A%22e4f30c47-1290-431b-b228-b9116c4744bd%22%2C%22vd%22%3A5%2C%22stt%22%3A168%2C%22dr%22%3A3%2C%22expires%22%3A1761476207%2C%22ct%22%3A1761474407%7D; __mxav__c2-lS6GI0pR=13"
+                "cookie": "bbs_sid=bi7dpnm6vp31s38rjqlqq8vq84; bbs_token=TWiR3YUrGoVpbdTkjAJ0xMe_2B_2FiaFvd84V3_2FEZJRRSKU_3D"
             }
         },
         {
@@ -811,16 +759,6 @@
             "filterable": 1
         },
         {
-            "key": "七猫短剧",
-            "name": "七猫｜短剧",
-            "type": 3,
-            "api": "csp_QiMaoDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "星阁短剧",
             "name": "星阁｜短剧",
             "type": 3,
@@ -849,13 +787,6 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "番茄短剧",
-            "name": "番茄｜短剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/FQDJ.json"
         },
         {
             "key": "厂长影视",

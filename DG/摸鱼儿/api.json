@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "logo": "https://open.wya6.com/d/down/2026/logo.gif",
-    "wallpaper": "http://127.0.0.1:5266/wallpaper",
+    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "sites": [
         {
             "key": "Douban",
@@ -102,14 +102,6 @@
             }
         },
         {
-            "key": "huahua",
-            "name": "花花｜APP",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_AppFox",
-            "ext": "p+FPtr6fYIfomOnA4N4Sl0dFvFqJvfkho3Yem3nNyo6peH9nVFr0wIIfo96V7voEHGrq+0mvfYjwri/nkrWITQ=="
-        },
-        {
             "key": "看呗",
             "name": "看呗｜APP",
             "type": 3,
@@ -136,6 +128,24 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": "N5u2FS3i/elUFAoSVYBzndHyWmPoQhZsTIJ5ve8B5RdbojKSoqbNo9TORMUWkv2seRAMOLNXC0kGo4lOAL64Xk7pAb68ZHIckNJyo2vC4NFuLci8sMhhnj60v/nDbU1U"
+        },
+        {
+            "key": "shuzi",
+            "name": "数字｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": "ij8RUkhocZ9ruRgraOrV50cdijznPXJjPSmDdoI59PzF/K2UT7pKnau1ohLhZpTHxdrsBe+l0Qca19BaNsP0tMwh5qgX5Vzp8djZcM8TGlBmgxUOngKyNKQe04jcTDCX"
+        },
+        {
+            "key": "bimoxinghe",
+            "name": "笔墨｜APP",
+            "type": 3,
+            "changeable": 0,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppYsV2",
+            "ext": "wYceOHC6X3P3alhnB4RtmzgFD1Irln8apuUGgGt0cGNu1m3wi32g5216U4VmaeMAakuchzAtkZK4hN76RGX+SgXswlO9BU7AAQg57WGKJIWptJgUaSjRv+dsCFHAMS7NtEkaU8HcHtu3mNmXmiGVLae6KtmpbuT1razd8CkTO1A="
         },
         {
             "key": "Jinpaijm",
@@ -201,22 +211,22 @@
             "ext": "sCnv2gwYzALZxDcfyX62oXau36TAwGPWJQM5HukwC/t03nAE412fGglV43GvCzvMmcXvxGHi3FBbhKuWPsq1PI72H6CXEzX9I+nFeFHjBnMuRuB5BgkWGUzQevgXd5yW4M7bWEBM9JH2gOo1VBrfLt2+nk9sHARrStb7Vdl0bnmbbPs13qDJ+r+99OwKOgkx"
         },
         {
-            "key": "shuzi",
-            "name": "数字｜APP",
+            "key": "奇奇",
+            "name": "奇奇｜APP",
             "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
             "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": "ij8RUkhocZ9ruRgraOrV50cdijznPXJjPSmDdoI59PzF/K2UT7pKnau1ohLhZpTHxdrsBe+l0Qca19BaNsP0tMwh5qgX5Vzp8djZcM8TGlBmgxUOngKyNKQe04jcTDCX"
+            "filterable": 1,
+            "ext": "rfybymXQLYz2AOjxv9E+GjGZ4aPRDopgAoZMaekF8R4z6zy8t7yg8WDfbx59olhMHb0O9FbZj/J9WdUvlLnK/Iy4eLA/0WHQRN66h3zagNrxakCVWBSBUPyhzNBidkmVqDPVrZXbwGZ9lf6mzH2XGyIn17EElu0gZjkvtDPRo+zAe2aylMUPhZ8kh7OSZZKljREHl8dSSWKRfnTEcPWbBQ=="
         },
         {
-            "key": "bimoxinghe",
-            "name": "笔墨｜APP",
+            "key": "麒麟",
+            "name": "麒麟｜APP",
             "type": 3,
             "changeable": 0,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppYsV2",
-            "ext": "wYceOHC6X3P3alhnB4RtmzgFD1Irln8apuUGgGt0cGNu1m3wi32g5216U4VmaeMAakuchzAtkZK4hN76RGX+SgXswlO9BU7AAQg57WGKJIWptJgUaSjRv+dsCFHAMS7NtEkaU8HcHtu3mNmXmiGVLae6KtmpbuT1razd8CkTO1A="
+            "api": "csp_AppFox",
+            "ext": "uPkpfg9pQ6vPsaEfxxMLT0PGnn2AgQ4Z2NGLtKKM6Y/9kRwIO2KU4AC3GdvvEV+8"
         },
         {
             "key": "FishLabi",
@@ -291,40 +301,12 @@
             }
         },
         {
-            "key": "HaiMian",
-            "name": "海绵｜4K",
+            "key": "LeiJing",
+            "name": "雷鲸｜4K",
             "type": 3,
-            "api": "csp_HaiMian",
+            "api": "csp_LeiJing",
             "searchable": 1,
-            "ext": {
-                "site": [
-                    "https://www.haimianxz.com",
-                    "https://www.hmxz.org",
-                    "http://haimian.eu.org"
-                ],
-                "Classes": [
-                    {
-                        "type_name": "电影",
-                        "type_id": "1"
-                    },
-                    {
-                        "type_name": "剧集",
-                        "type_id": "2"
-                    },
-                    {
-                        "type_name": "动漫",
-                        "type_id": "3"
-                    },
-                    {
-                        "type_name": "其它",
-                        "type_id": "4"
-                    },
-                    {
-                        "type_name": "综艺",
-                        "type_id": "5"
-                    }
-                ]
-            }
+            "changeable": 1
         },
         {
             "key": "PanTa",
@@ -335,35 +317,53 @@
             "changeable": 1
         },
         {
-            "key": "LeiJing",
-            "name": "雷鲸｜4K",
+            "key": "夸父",
+            "name": "夸父｜4K",
             "type": 3,
-            "api": "csp_LeiJing",
+            "api": "csp_FishKF",
             "searchable": 1,
-            "changeable": 1
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": {
+                "site": [
+                    "https://www.kfjwzz.com"
+                ],
+                "cookie": "bbs_sid=nqj3m4c3jo14hj61o3mtulmbqm; bbs_token=0DJ_2FBrXm3SPQ2qtwzIJd70iM_2BK02F_2BYOzTNOUy4TquXt5l4J"
+            }
+        },
+        {
+            "key": "ShuangXing",
+            "name": "双星｜4K",
+            "type": 3,
+            "api": "csp_ShuangXing",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1
+            }
         },
         {
             "key": "YunPanBa",
-            "name": "云盘｜4K",
+            "name": "云吧｜4K",
             "type": 3,
             "api": "csp_YunPanBa",
             "searchable": 1,
             "ext": "https://yunpan6.com/"
         },
         {
-            "key": "Kvm4k",
-            "name": "流光｜4K",
+            "key": "YsSo",
+            "name": "奕搜｜4K",
             "type": 3,
-            "api": "csp_Kvm4k",
+            "api": "csp_YsSo",
             "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": [
-                    "https://www.4kvm.me",
-                    "https://www.4kvm.tv",
-                    "https://www.4kvm.org"
-                ]
-            }
+            "ext": "https://ysso.cc"
         },
         {
             "key": "CZ",
@@ -397,17 +397,6 @@
             "api": "csp_Zxzj",
             "searchable": 1,
             "ext": "https://www.zxzjhd.com"
-        },
-        {
-            "key": "Libvio",
-            "name": "立播｜影视",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "filterable": 0,
-            "ext": {
-                "site": "https://www.libvio.app"
-            }
         },
         {
             "key": "Xpg",
@@ -458,6 +447,21 @@
             "api": "csp_DianYingYunJi",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "Kvm4k",
+            "name": "流光｜影视",
+            "type": 3,
+            "api": "csp_Kvm4k",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://www.4kvm.me",
+                    "https://www.4kvm.tv",
+                    "https://www.4kvm.org"
+                ]
+            }
         },
         {
             "key": "XiaoHongYS",
@@ -601,58 +605,11 @@
             "searchable": 1
         },
         {
-            "key": "YsSo",
-            "name": "资源｜搜索",
+            "key": "TGSou",
+            "name": "糖果｜搜索",
             "type": 3,
-            "api": "csp_YsSo",
-            "searchable": 1,
-            "ext": "https://ysso.cc"
-        },
-        {
-            "key": "TgApiSearch",
-            "name": "群组｜搜索",
-            "type": 3,
-            "api": "csp_TgApiSearch",
-            "searchable": 1,
-            "filterable": 0,
-            "ext": {
-                "api_urls": [
-                    "https://psweb.banye.tech:7777/api/search",
-                    "https://so.566987.xyz/api/search",
-                    "http://152.69.222.142:8088/api/search"
-                ]
-            }
-        },
-        {
-            "key": "TgWebSearch",
-            "name": "网搜｜搜索",
-            "type": 3,
-            "api": "csp_TgWebSearch",
-            "searchable": 1,
-            "filterable": 0,
-            "ext": {
-                "channels": [
-                    "tianyirigeng",
-                    "tyypzhpd",
-                    "XiangxiuNB",
-                    "yunpanpan",
-                    "kuakeyun",
-                    "zaihuayun",
-                    "Quark_Movies",
-                    "alyp_4K_Movies",
-                    "vip115hot",
-                    "yunpanshare",
-                    "dianyingshare",
-                    "cloud189_group",
-                    "yunpan139",
-                    "cloudtianyi"
-                ],
-                "filters": [
-                    "189",
-                    "139",
-                    "quark"
-                ]
-            }
+            "api": "csp_TGSou",
+            "searchable": 1
         },
         {
             "key": "TuneFree",
@@ -707,7 +664,10 @@
             "type": 3,
             "api": "csp_Local",
             "searchable": 0,
-            "changeable": 0
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "Market",
@@ -715,6 +675,9 @@
             "type": 3,
             "api": "csp_Market",
             "searchable": 0,
+            "style": {
+                "type": "list"
+            },
             "ext": "KeJpmGBHNDNtao15t//le3m1n9Z5ZXrQs8D+mt98HNScmDTy9nipe+1ejIo29HghDD4pfCqWua4Qkg5r0/MnKRwsD05VU7eWVi6rNUa5LHima2FYwW6EGq+rMF4KUUvYw4o87aAGALNwz/9G1sF1KJUOIDTvspHyGeoPJZwdhcFqOYFaAnva+X9/XEo519IWmHO15S20HMt9zg//bmTi9Q=="
         },
         {

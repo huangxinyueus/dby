@@ -93,7 +93,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
                 "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
                 "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-                "site": "http://103.45.162.207:20720/"
+                "site": "http://154.222.27.33:20720/"
             }
         },
         {
@@ -103,7 +103,7 @@
             "playerType": 2,
             "api": "csp_Mogg",
             "ext": {
-                "site": "http://xsayang.fun:12512/"
+                "site": "http://154.201.83.50:12512/"
             }
         },
         {
