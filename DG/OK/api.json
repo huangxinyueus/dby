@@ -856,6 +856,19 @@
             "timeout": 10
         },
         {
+            "key": "爱听音乐",
+            "name": "🎧爱听┃音乐",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "sp": "AiMusic"
+            },
+            "timeout": 10
+        },
+        {
             "key": "世界听书",
             "name": "🎸世界┃听书",
             "type": 3,
@@ -1310,6 +1323,11 @@
             "name": "AI直播",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+        },
+        {
+            "name": "MIGU",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://ds65.tv1288.xyz"
         },
         {
             "name": "冰茶",

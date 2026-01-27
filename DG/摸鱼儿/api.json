@@ -90,6 +90,20 @@
             "changeable": 0
         },
         {
+            "key": "Kan360",
+            "name": "倦枕｜星河",
+            "type": 3,
+            "api": "csp_Kan360",
+            "searchable": 1,
+            "filterable": 1,
+            "ext": {
+                "filter": "https://open.wya6.com/d/down/2026/json/360.json",
+                "fishjx": [
+                    "https://jx.xmflv.com/?url="
+                ]
+            }
+        },
+        {
             "key": "Rebo",
             "name": "热播｜APP",
             "type": 3,
@@ -108,6 +122,14 @@
             "searchable": 1,
             "api": "csp_AppGet",
             "ext": "bB1iyOjtXWh234iOsqOpQ65mKOL2sRd+RcTIk0cmjrD8688Xw5ArmjN9zmaBcFgVgymXypm6lVMfsF9YOHbdKm0QT6K8/+z1B6YhKTatmFsNRMAw995p8MscOfu0wUGg"
+        },
+        {
+            "key": "乐柔",
+            "name": "乐柔｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": "VASETDFRsu3l5WWe51GKvTyRYQAaLaVChdrS1sM9T3RnDep1+RxdH0Ec+6amNaDQJc3tR+HcogeYahduEdscYQ9iPvdsyEWJhhPXgWXneDiD+tnTt1fce5OEp0IcyqYeacinOSFxrW53ivDWLDXIfOKVJPbU/QCZx2nPwoNB+ryCLDAuM24OWDaeR8Dj2fjxRXXeczV6jOwKGoTC4HkF2U/I0Iza93G8DKboyirsYdsFjrmFjHoL6y+pKNDCzzSz"
         },
         {
             "key": "jumeng",
@@ -148,6 +170,26 @@
             "ext": "wYceOHC6X3P3alhnB4RtmzgFD1Irln8apuUGgGt0cGNu1m3wi32g5216U4VmaeMAakuchzAtkZK4hN76RGX+SgXswlO9BU7AAQg57WGKJIWptJgUaSjRv+dsCFHAMS7NtEkaU8HcHtu3mNmXmiGVLae6KtmpbuT1razd8CkTO1A="
         },
         {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "sCnv2gwYzALZxDcfyX62oW++ox9Jh6h4QkB1i+EGK3ekvDmqeqBPh42sIHxvgm/x8TCuCXa4BugXe0CjqECTO2bXxziujdAIqU7bCxjnfJsDHt56Mmj4+UfAUNyt5g1uPbOlU+D6RuHWckW35AwdcZWKg+qVKE9fenD9/Z0uGMd69MX4bT72IgOBNmu7Bw0pfhOQQDriYziQ4KdOedqIV8xp8E3LJfZ/Jgkyl/phblY="
+        },
+        {
+            "key": "花花",
+            "name": "花花｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "sCnv2gwYzALZxDcfyX62oZlInpl/IHzP9hKirDJh9mLRSjR0V0k/bVJvjkcyuNSgJCZmqMd/PHQd6Shj39JYDeGVFQrkZQ/HP/EAG4X2CeAMjyBNQJV73zHeeNI5QtyUv23a70I9XYkyk4O6ytG3P6SNrI2xpFw1sIDy0bF5n7KogHpiWFB4fFJUYAK3LhawYZ5FkczX9jWMKWVQMo9ZKOXo4pKMn58Zh5qBZMHulLudoq133WqDw3cDDW42dBey"
+        },
+        {
             "key": "Jinpaijm",
             "name": "金牌｜APP",
             "type": 3,
@@ -169,46 +211,12 @@
             "ext": "sCnv2gwYzALZxDcfyX62oRPMT83Bt3Q5r5Q6ZwZ7Qq7ZfJZDdC8XcpJTArOjxs1hHGrH7JX/hlcGzED0RCFI/s5GJg5ZWPlTtK+GsArjWDyxNkvAnyr0ju34UuSCxQLD322RSid4K96h74Nx/SiPlH1VjrRyIHMEIfDj/wTAjZGrqJ89zsewId3PXJEpHlqc7ewAudH5J9EGzdit7AYOug=="
         },
         {
-            "key": "Guwo",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62odvj29IK9rBjcucXypKIufFdmPNgdqJ1QC3/1tU5BzpE6QRHyZZhpYE2iANvQyJEcJnbxot6ElLhqczbYD9E7Gx0ZX5Ndfe/gYfH96S/3Bh/ZnBuT8RppP0xfvhJLL9XtgVCfYQom4JnY6Ax5y9Q9ihBWCa4RFS/Hzwz8+j3Ro/8nxwNFEf5J1MQD7xUihD4PQ=="
-        },
-        {
-            "key": "Cangshu",
-            "name": "仓鼠｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": "sCnv2gwYzALZxDcfyX62oU5WQkrrls9RmlBFANGm63njwlAIzmedjdoNo6sg4fA61BJQWaOKuP4gcUzdcgr/eQ0/xUFHrBuL/BhUmgc59s2AShZHvKfpqHq3l4bsWmELcFmGjlr2D/+7Wv2do0s4c+bSmv6VVthXz7kj9aQ8Abil5n7PmZ/S+AlxLxllUIaU0CWfA/vMYL/AxbwgZlH2Nw=="
-        },
-        {
-            "key": "Jingyu",
-            "name": "鲸鱼｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": "sCnv2gwYzALZxDcfyX62oZ+IU0AyvsGMnyyhtaWmhS1Cnf/YszSw+hAfankjknvF2e0ym7cXiVpYRg3GDCbOHZOs6Xq5UnFHXB4iUCElNZeIeC99mNU4iKOz6wnCThCbO4u9hQotX7aO/JSsJT/KC6Dh95YCFad3n8Tf6kSSz2Dl1E3yrn3190D5BBWJtjIo"
-        },
-        {
             "key": "Xiaozhu",
             "name": "小猪｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
-            "ext": "sCnv2gwYzALZxDcfyX62oSrS2f56gC6PfB9fUMobU8tFCjY2XWcaioCX4TeXapR9mhHvCc2Qbqw2o3+TIKUevhOHBVYn3mS0V96FB6CX80m4eAYj3+E63PGY3DXkUiZrkU17g2F5ATf8TeTPcDUFWGgQ2D/6vke0un+2TcUNlP84p51Lqmovhijo6ADPlzV48F16ydyOI8NH0KWXNLc3ig=="
-        },
-        {
-            "key": "Yunyun",
-            "name": "云云｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": "sCnv2gwYzALZxDcfyX62oXau36TAwGPWJQM5HukwC/t03nAE412fGglV43GvCzvMmcXvxGHi3FBbhKuWPsq1PI72H6CXEzX9I+nFeFHjBnMuRuB5BgkWGUzQevgXd5yW4M7bWEBM9JH2gOo1VBrfLt2+nk9sHARrStb7Vdl0bnmbbPs13qDJ+r+99OwKOgkx"
+            "ext": "sCnv2gwYzALZxDcfyX62ocnzUvJAKkFYjANTpxiK4/gGbDrz9ldn19W+exdncXnlqR08hfUr/v07gMuoCqnxT/O9WGtW6zaH8aFD4Spq4NK92kGzWrDcb5Nc8ycIEjHAWTd/BDtWfd5tajTFKjhLQXUAooetlpwSJ0eM3WJVfEmRjHm9NTC7gfAABbjO7nkX1YEGgMQ5872CBiFGKF29HHLt3WokOXaCkLyr2R3/Edo="
         },
         {
             "key": "奇奇",
@@ -218,7 +226,7 @@
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "rfybymXQLYz2AOjxv9E+GjGZ4aPRDopgAoZMaekF8R4z6zy8t7yg8WDfbx59olhMHb0O9FbZj/J9WdUvlLnK/Iy4eLA/0WHQRN66h3zagNrxakCVWBSBUPyhzNBidkmVqDPVrZXbwGZ9lf6mzH2XGyIn17EElu0gZjkvtDPRo+zAe2aylMUPhZ8kh7OSZZKljREHl8dSSWKRfnTEcPWbBQ=="
+            "ext": "rfybymXQLYz2AOjxv9E+GjGZ4aPRDopgAoZMaekF8R7yxQRay6xZvf9BVHX7htbE+pur0CivAOMyHs4vWWCsCZTithbu5MFCnxlS1v8lFghyNlpnzsT0e4uUy+otOY9C3NRj8yu0AQuDfQ9W2RdL2oOwYn2UYvS7L+scnozvG+X7AqgnwRHIVB4Eg5JVdcNxFs99J0xXYg0JZferIMi5Xg=="
         },
         {
             "key": "麒麟",
@@ -314,7 +322,11 @@
             "type": 3,
             "api": "csp_PanTa",
             "searchable": 1,
-            "changeable": 1
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
         },
         {
             "key": "夸父",
@@ -346,7 +358,7 @@
             "changeable": 1,
             "style": {
                 "type": "list",
-                "ratio": 1
+                "ratio": 1.433
             }
         },
         {
@@ -364,6 +376,30 @@
             "api": "csp_YsSo",
             "searchable": 1,
             "ext": "https://ysso.cc"
+        },
+        {
+            "key": "Symx",
+            "name": "山有｜木兮",
+            "type": 3,
+            "api": "csp_Symx",
+            "ext": "https://film.symx.club"
+        },
+        {
+            "key": "RenRen",
+            "name": "人人｜影视",
+            "type": 3,
+            "api": "csp_RenRen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "Lingdu",
+            "name": "零度｜影视",
+            "type": 3,
+            "api": "csp_Lingdu",
+            "searchable": 1,
+            "filterable": 1
         },
         {
             "key": "CZ",
@@ -531,6 +567,15 @@
             "ext": "N5u2FS3i/elUFAoSVYBzne8+r0r/kX1E+KdfHQ6FVY6/wHmWZoFfjCv2f3YfjfSbJm0/trORuqYE1PzwW9Z2IT6SnMHG1Beaes3+9Ad9p9Dy7MPFARRTA33haDFOP4SZtpBkd4utjKPyprZNVKMxvA=="
         },
         {
+            "key": "AoWu",
+            "name": "嗷呜｜动漫",
+            "type": 3,
+            "api": "csp_AoWu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "mifun",
             "name": "米饭｜动漫",
             "type": 3,
@@ -591,7 +636,7 @@
         },
         {
             "key": "Xb6v",
-            "name": "6V｜磁力",
+            "name": "6 V｜磁力",
             "type": 3,
             "api": "csp_Xb6v",
             "searchable": 1,
@@ -612,11 +657,13 @@
             "searchable": 1
         },
         {
-            "key": "TuneFree",
-            "name": "自由｜音乐",
+            "key": "ChuXin",
+            "name": "初心｜音乐",
             "type": 3,
-            "api": "csp_TuneFree",
-            "searchable": 1
+            "api": "csp_ChuXin",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
         },
         {
             "key": "Music24bit",
@@ -634,6 +681,24 @@
                     "薛之谦"
                 ]
             }
+        },
+        {
+            "key": "TuXiaoBei",
+            "name": "小兔｜少儿",
+            "type": 3,
+            "api": "csp_TuXiaoBei",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "BeiLeHu",
+            "name": "小虎｜少儿",
+            "type": 3,
+            "api": "csp_BeiLeHu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "Kanqiu",
@@ -678,7 +743,20 @@
             "style": {
                 "type": "list"
             },
-            "ext": "KeJpmGBHNDNtao15t//le3m1n9Z5ZXrQs8D+mt98HNScmDTy9nipe+1ejIo29HghDD4pfCqWua4Qkg5r0/MnKRwsD05VU7eWVi6rNUa5LHima2FYwW6EGq+rMF4KUUvYw4o87aAGALNwz/9G1sF1KJUOIDTvspHyGeoPJZwdhcFqOYFaAnva+X9/XEo519IWmHO15S20HMt9zg//bmTi9Q=="
+            "ext": "KeJpmGBHNDNtao15t//le3m1n9Z5ZXrQs8D+mt98HNScmDTy9nipe+1ejIo29HghDD4pfCqWua4Qkg5r0/MnKRwsD05VU7eWVi6rNUa5LHima2FYwW6EGq+rMF4KUUvYw4o87aAGALNwz/9G1sF1KJUOIDTvspHyGeoPJZwdhcFqOYFaAnva+X9/XEo519IW2il56dy06dXYsaYe0qPT3DxyJzv3LytZzp3Bf2hzYhhAWHNSPgFPOc7kj/A73ThJb2MoNLEly2nXmZLawu9etmCQt5bcXG71ioR2IY0FlvrPbLyHxJ8kzT5+BVv2lziT/krjPnj0+FFmLpLdtI3VryMWnP13WopOwyV9CjmIUVisFEsUVHIGf2NjyDWDLV4yCFuQBMnfhTHhBCK05AGzmg=="
+        },
+        {
+            "key": "Wallpaper",
+            "name": "摸鱼｜壁纸",
+            "type": 3,
+            "api": "csp_Wallpaper",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 0.56
+            }
         },
         {
             "key": "push_agent",

@@ -533,11 +533,11 @@
             "ext": "https://api.maoyanapi.top/api.php/provide/vod/"
         },
         {
-            "key": "木耳",
-            "name": "木耳|弹幕",
+            "key": "天堂",
+            "name": "天堂|弹幕",
             "type": 3,
             "api": "csp_HBcms10",
-            "ext": "https://json02.heimuer.xyz/api.php/provide/vod/"
+            "ext": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/"
         },
         {
             "key": "234XBPQ",

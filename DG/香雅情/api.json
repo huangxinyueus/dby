@@ -15,11 +15,6 @@
             "type": 0,
             "url": "./lives/Tianmu.txt",
             "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
-        },
-        {
-            "name": "fanmingming",
-            "type": 0,
-            "url": "./lives/fanmingming.txt"
         }
     ],
     "sites": [
@@ -311,14 +306,14 @@
             "ext": "./json/播视童趣.json"
         },
         {
-            "key": "csp_XYQHiker_风车动漫",
-            "name": "🌪风车动漫(XYQH)",
+            "key": "csp_XYQHiker_风铃动漫",
+            "name": "🛎风铃动漫(XYQH)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/风车动漫.json"
+            "ext": "./json/风铃动漫.json"
         },
         {
             "key": "csp_XYQHiker_樱花动漫",
