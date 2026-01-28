@@ -81,13 +81,15 @@
             }
         },
         {
-            "key": "zuiWanQingFeng",
+            "key": "Zwqf",
             "name": "醉挽｜清风",
-            "type": 4,
-            "api": "http://我不是.摸鱼儿.com/api/yyutx.php",
+            "type": 3,
+            "api": "csp_Zwqf",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
+            "ext": {
+                "url": "http://我不是.摸鱼儿.com/api/yyutx.php",
+                "token": "moyufucking"
+            }
         },
         {
             "key": "Kan360",
