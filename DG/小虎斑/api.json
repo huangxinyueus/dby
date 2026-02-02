@@ -229,6 +229,50 @@
             "api": "https://so.yinpai.xyz/api.php?type=tianyi"
         },
         {
+            "key": "茉莉",
+            "name": "茉莉|弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_HBgetapp",
+            "ext": {
+                "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+                "appkey": "88689667dce61725",
+                "appiv": "88689667dce61725"
+            }
+        },
+        {
+            "key": "灵虎",
+            "name": "灵虎|弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_HBgetapp",
+            "ext": {
+                "host": "https://bind.315999.xyz/89.txt",
+                "appkey": "#getapp@TMD@2025",
+                "appiv": "#getapp@TMD@2025"
+            }
+        },
+        {
+            "key": "魔方",
+            "name": "魔方|4K弹幕",
+            "type": 3,
+            "api": "csp_HBgetapp",
+            "ext": {
+                "host": "https://snysw.xyz/mf4kzs327.txt",
+                "key": "MTIzNDU2Nzg4NzY1NDMyMQ==",
+                "iv": "MTIzNDU2Nzg4NzY1NDMyMQ=="
+            }
+        },
+        {
+            "key": "狐狸",
+            "name": "狐狸|4K弹幕",
+            "type": 3,
+            "api": "csp_HBAppfox",
+            "ext": "./json/host.json"
+        },
+        {
             "key": "景天",
             "name": "景天|4K弹幕",
             "type": 3,
@@ -353,73 +397,6 @@
             "ext": "http://pizazzGY.zxbwv.com"
         },
         {
-            "key": "风神",
-            "name": "风神|弹幕",
-            "type": 3,
-            "api": "csp_HBv1Class",
-            "ext": "DyoqWQInJUMuGFdINDU2AQMoEEAuDFdLDRtJAwMGWR8DJjhENFAqWC0CLgYDOQIADA82Ey0CJgMAMldLCzFBAQIoAwAGKQYB"
-        },
-        {
-            "key": "爱影",
-            "name": "爱影|弹幕",
-            "type": 3,
-            "api": "csp_HBv1Class",
-            "ext": "./txt/api.txt"
-        },
-        {
-            "key": "0°",
-            "name": "0°|弹幕",
-            "type": 3,
-            "api": "csp_HBlingDu"
-        },
-        {
-            "key": "橘汁",
-            "name": "橘汁|弹幕",
-            "type": 3,
-            "api": "csp_HBmoou",
-            "ext": "https://ajuzi.top"
-        },
-        {
-            "key": "123",
-            "name": "123|弹幕",
-            "type": 3,
-            "api": "csp_HBmoou",
-            "ext": "https://123ysw.com"
-        },
-        {
-            "key": "演员",
-            "name": "演员|弹幕",
-            "type": 3,
-            "api": "csp_HBmoou",
-            "ext": "DyoqWQInJUMuGFcDDFApHDsCPgUGUyhENBtNAzgWUEg="
-        },
-        {
-            "key": "橘子",
-            "name": "橘子|弹幕",
-            "type": 3,
-            "api": "csp_HBmoou",
-            "ext": "DyoqWQInJUMuGFdZDwwuXwA8XUUAUi9HJxs1AwAnOkUBKSMHIhtBXQABPkMDMlsBDFE5HygWJR9XEANoWwNKOCgWJR8sIlpIIgg5AygWJUc7NT8FIw89WiwoIUEvJjhdNA81XCgWJR87GwUEIDYfEC8CLQ84NQkDNA8uAjsuVUg="
-        },
-        {
-            "key": "趣看",
-            "name": "趣看|弹幕",
-            "type": 3,
-            "api": "csp_HBmoou",
-            "ext": "DyoqWQInJUMuGFcCClEbHAI3Pg0GNhpZDAtNAzgWUEg="
-        },
-        {
-            "key": "HBqwKan",
-            "name": "全网|弹幕",
-            "type": 3,
-            "api": "csp_HBqwKan"
-        },
-        {
-            "key": "csp_HBhcShun",
-            "name": "蝴蝶|弹幕",
-            "type": 3,
-            "api": "csp_HBhcShun"
-        },
-        {
             "key": "磁力",
             "name": "6V|弹幕",
             "type": 3,
@@ -458,13 +435,6 @@
             "type": 3,
             "api": "csp_Wcai",
             "ext": "https://www.jxshdzs.com/"
-        },
-        {
-            "key": "星河",
-            "name": "星河|弹幕",
-            "type": 3,
-            "api": "csp_HBgetapp",
-            "ext": "eyJob3N0IjoiaHR0cDovLzEyMS42Mi4yMi4yMDQ6OTg3Ni8iLCJrZXkiOiJaalZsTW5SNE5UTjVhM0EyY3pKak9RPT0iLCJpdiI6IlpqVmxNblI0TlRONWEzQTJjekpqT1E9PSIsInR5cGVJZHMiOlsiMSIsIjIiLCIzIiwiNCJdLCJ0eXBlTmFtZXMiOlsi55S15b2xIiwi55S16KeG5YmnIiwi5Yqo5ryrIiwi57u86Im6Il19"
         },
         {
             "key": "追追",

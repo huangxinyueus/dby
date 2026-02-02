@@ -126,14 +126,6 @@
             "ext": "bB1iyOjtXWh234iOsqOpQ65mKOL2sRd+RcTIk0cmjrD8688Xw5ArmjN9zmaBcFgVgymXypm6lVMfsF9YOHbdKm0QT6K8/+z1B6YhKTatmFsNRMAw995p8MscOfu0wUGg"
         },
         {
-            "key": "乐柔",
-            "name": "乐柔｜APP",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": "VASETDFRsu3l5WWe51GKvTyRYQAaLaVChdrS1sM9T3RnDep1+RxdH0Ec+6amNaDQJc3tR+HcogeYahduEdscYQ9iPvdsyEWJhhPXgWXneDiD+tnTt1fce5OEp0IcyqYeacinOSFxrW53ivDWLDXIfOKVJPbU/QCZx2nPwoNB+ryCLDAuM24OWDaeR8Dj2fjxRXXeczV6jOwKGoTC4HkF2U/I0Iza93G8DKboyirsYdsFjrmFjHoL6y+pKNDCzzSz"
-        },
-        {
             "key": "jumeng",
             "name": "剧梦｜APP",
             "type": 3,
@@ -145,21 +137,22 @@
             "changeable": 1
         },
         {
-            "key": "baige",
-            "name": "白鸽｜APP",
+            "key": "茉莉",
+            "name": "茉莉｜APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
-            "ext": "N5u2FS3i/elUFAoSVYBzndHyWmPoQhZsTIJ5ve8B5RdbojKSoqbNo9TORMUWkv2seRAMOLNXC0kGo4lOAL64Xk7pAb68ZHIckNJyo2vC4NFuLci8sMhhnj60v/nDbU1U"
+            "ext": "pWLjYsLv1mpiSv+WqFNaIqp5t2Fo1rfLU1hwJwJ3KAGKWPMicT5CGiEJRsrqJm9/nvc1/bybKq1jaWaAf7G9gUJC37DHLmVmIm9/p/N1fBD+82t9o4+ohiIbelQv/KcjFIKtpyq6+YLDnlgrruYRKUgTa4rOFFgLDPhiYQ9OCWc="
         },
         {
-            "key": "shuzi",
-            "name": "数字｜APP",
+            "key": "驿站",
+            "name": "驿站丨APP",
             "type": 3,
-            "quickSearch": 1,
+            "searchable": 1,
+            "changeable": 1,
             "api": "csp_AppGet",
-            "ext": "ij8RUkhocZ9ruRgraOrV50cdijznPXJjPSmDdoI59PzF/K2UT7pKnau1ohLhZpTHxdrsBe+l0Qca19BaNsP0tMwh5qgX5Vzp8djZcM8TGlBmgxUOngKyNKQe04jcTDCX"
+            "ext": "pWLjYsLv1mpiSv+WqFNaIm66mYd3wj8hTGH18iQWPMOsJQb0GzUsB8gINUmUt9ktN2asJBwog2UGrTKUT2iY8NRz8qdgv5ctIC4NHKNarxWpwJPC52QcuqpdWKb8HK5mKYzOD7hj1nFrKL2gyacGOuMvUnqtIF5tWCjfnMws2K5omAGxO4lwWXOv7klFBE5q"
         },
         {
             "key": "bimoxinghe",
@@ -170,6 +163,15 @@
             "quickSearch": 1,
             "api": "csp_AppYsV2",
             "ext": "wYceOHC6X3P3alhnB4RtmzgFD1Irln8apuUGgGt0cGNu1m3wi32g5216U4VmaeMAakuchzAtkZK4hN76RGX+SgXswlO9BU7AAQg57WGKJIWptJgUaSjRv+dsCFHAMS7NtEkaU8HcHtu3mNmXmiGVLae6KtmpbuT1razd8CkTO1A="
+        },
+        {
+            "key": "优兔",
+            "name": "优兔｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "sCnv2gwYzALZxDcfyX62oa/GcFEmb/I/xXqDZHfxD21nygxbF0g0k2XZ3eHUgcbapE9SlSBNGML4tm9z8djfku+EgbK9ImWx26mt1XH7qoOLZOX6Rbfvov/kxcOpd6VZno3RJd7gpzk5gabcuJLOw30jtpjQjXU5ScVOQ0OmHoBoMc6kkivh0wIRj1VFxSUc"
         },
         {
             "key": "顾我",
@@ -211,14 +213,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "sCnv2gwYzALZxDcfyX62oRPMT83Bt3Q5r5Q6ZwZ7Qq7ZfJZDdC8XcpJTArOjxs1hHGrH7JX/hlcGzED0RCFI/s5GJg5ZWPlTtK+GsArjWDyxNkvAnyr0ju34UuSCxQLD322RSid4K96h74Nx/SiPlH1VjrRyIHMEIfDj/wTAjZGrqJ89zsewId3PXJEpHlqc7ewAudH5J9EGzdit7AYOug=="
-        },
-        {
-            "key": "Xiaozhu",
-            "name": "小猪｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": "sCnv2gwYzALZxDcfyX62ocnzUvJAKkFYjANTpxiK4/gGbDrz9ldn19W+exdncXnlqR08hfUr/v07gMuoCqnxT/O9WGtW6zaH8aFD4Spq4NK92kGzWrDcb5Nc8ycIEjHAWTd/BDtWfd5tajTFKjhLQXUAooetlpwSJ0eM3WJVfEmRjHm9NTC7gfAABbjO7nkX1YEGgMQ5872CBiFGKF29HHLt3WokOXaCkLyr2R3/Edo="
         },
         {
             "key": "奇奇",
@@ -324,11 +318,7 @@
             "type": 3,
             "api": "csp_PanTa",
             "searchable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            }
+            "changeable": 1
         },
         {
             "key": "夸父",
@@ -663,6 +653,15 @@
             "name": "初心｜音乐",
             "type": 3,
             "api": "csp_ChuXin",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "aiting",
+            "name": "爱听｜音乐",
+            "type": 3,
+            "api": "csp_AiTingMusic",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0

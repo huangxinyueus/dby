@@ -167,16 +167,15 @@
         },
         {
             "key": "小猪",
-            "name": "小猪丨APP",
+            "name": "小猪｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "seb5tq9mykp2w9ry",
-                "dataIv": "seb5tq9mykp2w9ry",
-                "search": "qearchList",
+                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/zhuzhuxia.txt",
+                "dataKey": "j8sr6d93yp49db3p",
+                "dataIv": "j8sr6d93yp49db3p",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -193,6 +192,21 @@
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg",
                 "search": "searchList7",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "鲸鱼",
+            "name": "鲸鱼｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json",
+                "dataKey": "AAdgrdghjfgsABC1",
+                "dataIv": "AAdgrdghjfgsABC1",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -453,29 +467,29 @@
             }
         },
         {
-            "key": "腾讯视频",
-            "name": "腾讯｜视频",
+            "key": "腾腾视频",
+            "name": "腾腾｜视频",
             "type": 3,
             "api": "./api/695cb6347d0b1_1767683636.js",
             "ext": "./js/TXSP.js"
         },
         {
-            "key": "优酷视频",
-            "name": "优酷｜视频",
+            "key": "酷酷视频",
+            "name": "酷酷｜视频",
             "type": 3,
             "api": "./api/695cb6347d0b1_1767683636.js",
             "ext": "./js/YKSP.js"
         },
         {
-            "key": "芒果视频",
-            "name": "芒果｜视频",
+            "key": "果果视频",
+            "name": "果果｜视频",
             "type": 3,
             "api": "./api/695cb6347d0b1_1767683636.js",
             "ext": "./js/MGSP.js"
         },
         {
-            "key": "爱奇艺",
-            "name": "爱奇艺｜视频",
+            "key": "奇奇视频",
+            "name": "奇奇｜视频",
             "type": 3,
             "api": "./api/695cb6347d0b1_1767683636.js",
             "ext": "./js/AQY.js"
@@ -1599,6 +1613,12 @@
             "searchable": 0,
             "filterable": 0,
             "changeable": 0
+        }
+    ],
+    "lives": [
+        {
+            "name": "直播源",
+            "type": 0
         }
     ],
     "parses": [

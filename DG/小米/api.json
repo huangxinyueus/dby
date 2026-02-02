@@ -58,12 +58,12 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
+                    "https://www.erixaopan.fun/",
                     "https://www.wexwp.cc",
                     "https://wexwp.cc",
                     "https://zhizhen1.top",
                     "https://www.2xiaopan.fun/",
-                    "https://2xiaopan.fun/",
-                    "https://www.2xiaoyun.fun/"
+                    "https://2xiaopan.fun/"
                 ],
                 "url_key": "UC",
                 "token": "",
@@ -126,8 +126,8 @@
             "type": 3,
             "quickSearch": 1,
             "searchable": 1,
-            "api": "./api/%E9%BA%BB%E9%9B%80%E8%A7%86%E9%A2%91.js",
-            "ext": ""
+            "api": "./api/Applzxw.py",
+            "ext": "http://118.89.203.120:8365/"
         },
         {
             "key": "csp_Music",
@@ -164,7 +164,7 @@
             "quickSearch": 0,
             "searchable": 1,
             "ext": {
-                "json": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1ef9257f7cd6eac9/bilibil.json",
+                "json": "https://pan-1.vma.cc/pan/down.php/699148f919c79be3493e53c780d8e2a8.txt",
                 "cookie": ""
             },
             "style": {

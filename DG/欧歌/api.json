@@ -2,7 +2,7 @@
 
 {
     "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
-    "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
+    "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
     "spider": "./spider.jar",
     "warningText": "an装🅱na提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
@@ -23,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新01.28❤",
+            "name": "📢公告❤更新01.31❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -67,7 +67,7 @@
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 265,
+                    "chunksize": 241,
                     "threads": 16
                 }
             }
@@ -89,7 +89,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 282,
+                    "chunksize": 229,
                     "threads": 16
                 }
             }
@@ -1398,7 +1398,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=80&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=ca&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1408,17 +1408,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=80&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=ca&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=80&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=ca&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=80&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=ca&mz=3&url="
         },
         {
             "name": "装歌APP",

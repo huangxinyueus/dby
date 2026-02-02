@@ -33,7 +33,7 @@
             "type": 3,
             "api": "csp_Living",
             "playerType": 2,
-            "ext": "https://bt.muxia.fun"
+            "ext": "https://lemonlive-api-1.deno.dev"
         },
         {
             "key": "csp_FeiMaoUC",
@@ -107,28 +107,28 @@
             "name": "🐼┃肥猫┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "http://103.236.61.192:8006|123456789abcdefg"
+            "ext": "https://wsapi.dafenqi.mom/yuming.txt|bH5mI8iK0tK7aQ5x"
         },
         {
             "key": "干饭",
             "name": "🍚┃干饭┃APP",
             "type": 3,
-            "api": "csp_AppQi",
-            "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|120"
+            "api": "csp_AppGet",
+            "ext": "http://122.114.171.79:568/huohushipin.txt|huohushipingetap"
         },
         {
             "key": "光盘",
             "name": "📀┃光盘┃APP",
             "type": 3,
             "api": "csp_AppQi",
-            "ext": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json|AAdgrdghjfgswerA|120"
+            "ext": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt|UrWKPnmQWJA8AQzd"
         },
         {
             "key": "行动",
             "name": "😌┃行动┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "https://zjm-1302383509.cos.ap-guangzhou.myqcloud.com/zjm.txt|zjmznbl2026zcxgb"
+            "ext": "http://165.99.42.137:5432|1234567890987654"
         },
         {
             "key": "再来",
@@ -149,7 +149,7 @@
             "name": "🐱┃猫抓┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "https://www.mfsp4k.top|1234567887654321"
+            "ext": "https://app.95112475.xyz|5a9w6x58dsq6z3a6"
         },
         {
             "key": "仓鼠",
@@ -170,7 +170,7 @@
             "name": "🐼┃黑猫┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "http://app1-0-0.87333.cc|VwsHxkCViDXEExWa"
+            "ext": "https://uutu.efjhl.cn|uXVVRRuaPnjEfsX5"
         },
         {
             "key": "优优",
@@ -199,6 +199,20 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": "http://ys.qist.top|2SWSPFxugBLPPOKo"
+        },
+        {
+            "key": "QD4K",
+            "name": "🐷┃猪猪┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "./api/AppV2.py",
+            "playerType": 2,
+            "ext": {
+                "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
+                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
+            }
         },
         {
             "key": "csp_Jpys",
@@ -296,7 +310,7 @@
             "api": "csp_Bili",
             "playerType": 2,
             "ext": {
-                "json": "http://bili.json",
+                "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
                 "cookie": ""
             },
             "style": {
