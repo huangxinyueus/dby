@@ -36,7 +36,14 @@
             "key": "设置",
             "name": "网弹|设置",
             "type": 3,
-            "api": "csp_Config"
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.618
+            }
         },
         {
             "key": "我的网盘",
@@ -227,6 +234,14 @@
             "name": "天翼|推送",
             "type": 4,
             "api": "https://so.yinpai.xyz/api.php?type=tianyi"
+        },
+        {
+            "key": "茶壶",
+            "name": "茶壶|弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_HBCupfox"
         },
         {
             "key": "茉莉",

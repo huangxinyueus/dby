@@ -88,7 +88,7 @@
             "searchable": 1,
             "ext": {
                 "url": "http://我不是.摸鱼儿.com/api/yyutx.php",
-                "token": "moyufucking"
+                "token": "moyufuck007"
             }
         },
         {
@@ -384,14 +384,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
-        },
-        {
-            "key": "Lingdu",
-            "name": "零度｜影视",
-            "type": 3,
-            "api": "csp_Lingdu",
-            "searchable": 1,
-            "filterable": 1
         },
         {
             "key": "CZ",

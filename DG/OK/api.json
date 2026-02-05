@@ -455,20 +455,6 @@
             "timeout": 10
         },
         {
-            "key": "汤圆",
-            "name": "🍚汤圆┃App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "TangYuan"
-            },
-            "timeout": 10
-        },
-        {
             "key": "木瓜",
             "name": "🥑木瓜┃App",
             "type": 3,
@@ -888,7 +874,7 @@
             "name": "🐕酷狗┃音乐",
             "type": 3,
             "api": "csp_AweSomeGuard",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
