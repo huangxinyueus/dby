@@ -870,6 +870,19 @@
             "timeout": 10
         },
         {
+            "key": "易听音乐",
+            "name": "🎧易听┃音乐",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "sp": "ShiJiMusic"
+            },
+            "timeout": 10
+        },
+        {
             "key": "酷狗音乐",
             "name": "🐕酷狗┃音乐",
             "type": 3,

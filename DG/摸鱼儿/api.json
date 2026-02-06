@@ -14,10 +14,10 @@
             "filterable": 1
         },
         {
-            "key": "Introduce",
+            "key": "FishConfig",
             "name": "设置｜中心",
             "type": 3,
-            "api": "csp_Introduce"
+            "api": "csp_FishConfig"
         },
         {
             "key": "YGP",
@@ -60,6 +60,15 @@
                     "https://www.muou.asia"
                 ]
             }
+        },
+        {
+            "key": "panglian1",
+            "name": "盘链｜4K",
+            "type": 3,
+            "api": "csp_PanLian",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "7NKTHz2sQiMUKNdXIYAc8a17zckjfQaSU+HK9QrnTApsg+Xp2SzcedyBcaA7ZEw0"
         },
         {
             "key": "FishPs",
@@ -118,25 +127,6 @@
             }
         },
         {
-            "key": "看呗",
-            "name": "看呗｜APP",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": "bB1iyOjtXWh234iOsqOpQ65mKOL2sRd+RcTIk0cmjrD8688Xw5ArmjN9zmaBcFgVgymXypm6lVMfsF9YOHbdKm0QT6K8/+z1B6YhKTatmFsNRMAw995p8MscOfu0wUGg"
-        },
-        {
-            "key": "jumeng",
-            "name": "剧梦｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "N5u2FS3i/elUFAoSVYBznb2XBsH21Pu8ka/X8qXgAK2VPcUud/asZs4ML65ngDd3ob1Y/WEaAS/XqMkeQchxAs1tgVw2qnUZJoLNHj6pVZm+8OiyK5gYaZals2ovboy6",
-            "changeable": 1
-        },
-        {
             "key": "茉莉",
             "name": "茉莉｜APP",
             "type": 3,
@@ -144,6 +134,14 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": "pWLjYsLv1mpiSv+WqFNaIqp5t2Fo1rfLU1hwJwJ3KAGKWPMicT5CGiEJRsrqJm9/nvc1/bybKq1jaWaAf7G9gUJC37DHLmVmIm9/p/N1fBD+82t9o4+ohiIbelQv/KcjFIKtpyq6+YLDnlgrruYRKUgTa4rOFFgLDPhiYQ9OCWc="
+        },
+        {
+            "key": "shuzi",
+            "name": "数字｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": "ij8RUkhocZ9ruRgraOrV50cdijznPXJjPSmDdoI59PzF/K2UT7pKnau1ohLhZpTHxdrsBe+l0Qca19BaNsP0tMwh5qgX5Vzp8djZcM8TGlBmgxUOngKyNKQe04jcTDCX"
         },
         {
             "key": "驿站",
@@ -162,7 +160,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_AppYsV2",
-            "ext": "wYceOHC6X3P3alhnB4RtmzgFD1Irln8apuUGgGt0cGNu1m3wi32g5216U4VmaeMAakuchzAtkZK4hN76RGX+SgXswlO9BU7AAQg57WGKJIWptJgUaSjRv+dsCFHAMS7NtEkaU8HcHtu3mNmXmiGVLae6KtmpbuT1razd8CkTO1A="
+            "ext": "/vJ/ilOqx6PeOdoC1iNzdKMLPzQcmSnbLfV1cIaoC0d8Ve52Tx5xaecqonGGMKaDa0xGGdGp4V6J2EqA7+fb2GX4guYD/G31mAvacKz7ZtCPoLaXKQym/fWtbGrD8XoQaRuH87hZSiGJ1m1yf8d7D5x0QgPuJfLWAmFxiWmHyxY="
         },
         {
             "key": "优兔",
@@ -171,7 +169,7 @@
             "api": "csp_AppQi",
             "searchable": 1,
             "changeable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62oa/GcFEmb/I/xXqDZHfxD21nygxbF0g0k2XZ3eHUgcbapE9SlSBNGML4tm9z8djfku+EgbK9ImWx26mt1XH7qoOLZOX6Rbfvov/kxcOpd6VZno3RJd7gpzk5gabcuJLOw30jtpjQjXU5ScVOQ0OmHoBoMc6kkivh0wIRj1VFxSUc"
+            "ext": "pWLjYsLv1mpiSv+WqFNaIpyoX40W3q4OUF0E5oPTeBSqex5loL3xne8uqSOSIfjRNlXY+b4f5x8mRa08btUSMCzb1ZQnwoJi+sSy7gdxF5uuorkRtpEINqcHFa91KR7vihKwjGtZKEN+lOQRuhBuYKrS0Y2Uixd7AJo5v9nrj5O0HybhCJOYTkhWEnuTEQIu"
         },
         {
             "key": "顾我",
@@ -181,7 +179,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62oW++ox9Jh6h4QkB1i+EGK3ekvDmqeqBPh42sIHxvgm/x8TCuCXa4BugXe0CjqECTO2bXxziujdAIqU7bCxjnfJsDHt56Mmj4+UfAUNyt5g1uPbOlU+D6RuHWckW35AwdcZWKg+qVKE9fenD9/Z0uGMd69MX4bT72IgOBNmu7Bw0pfhOQQDriYziQ4KdOedqIV8xp8E3LJfZ/Jgkyl/phblY="
+            "ext": "pWLjYsLv1mpiSv+WqFNaIoEuco3PXPBxoLkOiVeOktPnxnt2E0PVuzvK7F7x1ynX1v8YSUBGs2JHAIuhIm1wYiWmv9DIhlQpRP9BiU9ZFbBMjDIXMCJ3qkAjDRLyy06u7nmYwLMXVj7tmABUTWw155g3/HsQaLbd2tCXKZrsh0iSqp9yMbNuGYjW3EbKOHQpXlVOrvvfLgjHi8EsUMVR8KAJ1AoQoFhzwF06Ah/5hW0="
         },
         {
             "key": "花花",
@@ -191,7 +189,7 @@
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62oZlInpl/IHzP9hKirDJh9mLRSjR0V0k/bVJvjkcyuNSgJCZmqMd/PHQd6Shj39JYDeGVFQrkZQ/HP/EAG4X2CeAMjyBNQJV73zHeeNI5QtyUv23a70I9XYkyk4O6ytG3P6SNrI2xpFw1sIDy0bF5n7KogHpiWFB4fFJUYAK3LhawYZ5FkczX9jWMKWVQMo9ZKOXo4pKMn58Zh5qBZMHulLudoq133WqDw3cDDW42dBey"
+            "ext": "pWLjYsLv1mpiSv+WqFNaIuAZ5dZzARzCSS2gKGspHMr+TFjUjEThWTy9ZyhqZksxe0O/CzCfd+tkeOM5Y4AULGNU9OCK5ZymuHT7hd69y7FqDdCaPR2lf0LLn9LKrQFrKplQ86axiEsV09iFAYfeAbEiJzbUDPTUif0a+xRRtXebfzrd9cepb7mBMFwa36pq4jfuPoJYSfrStpvpHzUd0sDClQmjciyCn0H6e1Mjo4vDtUKfH0Mx/1PDPyNV/m89"
         },
         {
             "key": "Jinpaijm",
@@ -201,7 +199,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62oT9dE7Gb6ket71O6kp6+0mTtnjdLHRR785IFK5WP7ejkAw2qKHtqwA0BzacEhwsWR46EFUSGjC+C/Q3AHUvecIUmppksjxVLEwnfCmbyHEmEBb87ZHq386bVwkvEwzxGdA==",
+            "ext": "pWLjYsLv1mpiSv+WqFNaIsBLlLdO9V6MNUUOiALEzROk9DiK+kXEcKkT7G4kj30o7jA59X44VJM+jS3KRMVIBVEO4BdDuO2VSMGWuiFbNLWm3sBL9Bf0vAZVnEg3tOUUprLZn5BrotfyAuTIHI7nmQ==",
             "changeable": 1
         },
         {
@@ -212,7 +210,7 @@
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "sCnv2gwYzALZxDcfyX62oRPMT83Bt3Q5r5Q6ZwZ7Qq7ZfJZDdC8XcpJTArOjxs1hHGrH7JX/hlcGzED0RCFI/s5GJg5ZWPlTtK+GsArjWDyxNkvAnyr0ju34UuSCxQLD322RSid4K96h74Nx/SiPlH1VjrRyIHMEIfDj/wTAjZGrqJ89zsewId3PXJEpHlqc7ewAudH5J9EGzdit7AYOug=="
+            "ext": "pWLjYsLv1mpiSv+WqFNaIiIe+MInC+MKo9Qp54n8L69caGGEFd0M5chE1Qtd1YwdzgI3e1uyrDVixRQBRk9RoWOhnReh6DoqtgoIwBUFAQieLIPEeSDJYjTVwvlm05+zfeSPbM/NKlCZtk7ylKXUSdj3p6UCylMo3Jdt9qDJmEPMA0zv2M8fE97v1F4BTBKQ0qgTbnMzV4MhRUEAc1ggTQ=="
         },
         {
             "key": "奇奇",
@@ -222,7 +220,7 @@
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "rfybymXQLYz2AOjxv9E+GjGZ4aPRDopgAoZMaekF8R7yxQRay6xZvf9BVHX7htbE+pur0CivAOMyHs4vWWCsCZTithbu5MFCnxlS1v8lFghyNlpnzsT0e4uUy+otOY9C3NRj8yu0AQuDfQ9W2RdL2oOwYn2UYvS7L+scnozvG+X7AqgnwRHIVB4Eg5JVdcNxFs99J0xXYg0JZferIMi5Xg=="
+            "ext": "eI9Unls3p3XJYUZcE6AQwkAKMgDgkdAAEoPRhPALoToPsMGPis6+UfI7EkKy3cjHzrm7Jp3eSevlYAkrtxMViLTQKdILnIQezVLbAwowcl4C6MWDB7FO2OhNS+xSamKc20DAzzeMkopYGBnfK3GgWvKKF+cWa/iPFyGOuYL26kWB29d6nYi/YlLPpebbZHocX07VIHibrZBdrFyCy3UN8w=="
         },
         {
             "key": "麒麟",
@@ -230,7 +228,26 @@
             "type": 3,
             "changeable": 0,
             "api": "csp_AppFox",
-            "ext": "uPkpfg9pQ6vPsaEfxxMLT0PGnn2AgQ4Z2NGLtKKM6Y/9kRwIO2KU4AC3GdvvEV+8"
+            "ext": "GvE9VjZcKAqoJldDfjF/ECcNd1RQlbzQsau0pQNOL/YWscnJYTMdB9NKsGcYtklo"
+        },
+        {
+            "key": "看呗",
+            "name": "看呗｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": "bB1iyOjtXWh234iOsqOpQ65mKOL2sRd+RcTIk0cmjrD8688Xw5ArmjN9zmaBcFgVgymXypm6lVMfsF9YOHbdKm0QT6K8/+z1B6YhKTatmFsNRMAw995p8MscOfu0wUGg"
+        },
+        {
+            "key": "jumeng",
+            "name": "剧梦｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "N5u2FS3i/elUFAoSVYBznb2XBsH21Pu8ka/X8qXgAK2VPcUud/asZs4ML65ngDd3ob1Y/WEaAS/XqMkeQchxAs1tgVw2qnUZJoLNHj6pVZm+8OiyK5gYaZals2ovboy6",
+            "changeable": 1
         },
         {
             "key": "FishLabi",
@@ -384,6 +401,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
+        },
+        {
+            "key": "Lingdu",
+            "name": "零度｜影视",
+            "type": 3,
+            "api": "csp_Lingdu",
+            "searchable": 1,
+            "filterable": 1
         },
         {
             "key": "CZ",

@@ -1,0 +1,48 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "name": "应用商店",
+                "url": "",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg",
+                "version": " "
+            }
+        ]
+    },
+    {
+        "name": "OK影视",
+        "list": [
+            {
+                "name": "OK影视_手机端",
+                "url": "https://gh.jasonzeng.dev/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/mobile-arm64_v8a-3.6.7.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.7(64位)"
+            },
+            {
+                "name": "OK影视_手机端",
+                "url": "https://gh.jasonzeng.dev/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/mobile-armeabi_v7a-3.6.7.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.7(32位)"
+            },
+            {
+                "name": "OK影视_电视端",
+                "url": "https://gh.jasonzeng.dev/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/leanback-arm64_v8a-3.6.7.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.7(64位)"
+            },
+            {
+                "name": "OK影视_电视端",
+                "url": "https://gh.jasonzeng.dev/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/leanback-armeabi_v7a-3.6.7.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.7(32位)"
+            },
+            {
+                "name": "OK影视_电视端",
+                "url": "https://gh.jasonzeng.dev/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/leanback-hisense-3.6.7.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.7(海信)"
+            }
+        ]
+    }
+]

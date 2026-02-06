@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20260119】🐮",
+            "name": "🐮【更新日期:20260206】🐮",
             "type": 3,
             "api": "csp_NewDouBanGuard",
             "searchable": 0,
@@ -359,14 +359,6 @@
             "changeable": 1
         },
         {
-            "key": "AnimeNeko",
-            "name": "🤡耐克┃动漫🤡",
-            "type": 3,
-            "api": "csp_AnimeNekoGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "AnimeYHDM",
             "name": "🤡巴士┃动漫🤡",
             "type": 3,
@@ -606,6 +598,22 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "AList",
+            "name": "👁️Alist┃DIY👁️",
+            "type": 3,
+            "api": "csp_AListGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "webdav",
+            "name": "👁️WebDav┃DIY👁️",
+            "type": 3,
+            "api": "csp_WebDAVGuard",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "MyQuark",
