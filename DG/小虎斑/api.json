@@ -55,6 +55,19 @@
             }
         },
         {
+            "key": "独播",
+            "name": "独播|弹幕",
+            "type": 3,
+            "api": "csp_Duboku"
+        },
+        {
+            "key": "fishhxq",
+            "name": "韩圈|弹幕",
+            "type": 3,
+            "api": "csp_FishHxq",
+            "ext": "DyoqWQInJUMuGFdcDzo2Bjg3KgUuDwoENzYhHDhdUQEuUzRBDVAfHzsCBA8DJgYFDTFNHgAnKUg"
+        },
+        {
             "key": "全网",
             "name": "全网|短剧",
             "type": 4,
