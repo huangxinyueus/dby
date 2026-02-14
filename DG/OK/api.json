@@ -343,20 +343,6 @@
             "timeout": 10
         },
         {
-            "key": "小苹果",
-            "name": "🍎苹果┃直连",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "Xpg"
-            },
-            "timeout": 10
-        },
-        {
             "key": "云云",
             "name": "☁️云云┃App",
             "type": 3,
@@ -381,20 +367,6 @@
             "filterable": 1,
             "ext": {
                 "sp": "XiongYing"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "小猪",
-            "name": "🐖小猪┃App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "XiaoZhu"
             },
             "timeout": 10
         },
@@ -687,6 +659,20 @@
             "filterable": 1,
             "ext": {
                 "sp": "AppXY"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "碎片短剧",
+            "name": "🧸碎片┃短剧",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "sp": "SuiPian"
             },
             "timeout": 10
         },
@@ -1157,6 +1143,19 @@
             "changeable": 0,
             "ext": {
                 "sp": "Djps"
+            },
+            "timeout": 25
+        },
+        {
+            "key": "djso",
+            "name": "🔍剧搜┃搜索",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "sp": "Djso"
             },
             "timeout": 25
         },

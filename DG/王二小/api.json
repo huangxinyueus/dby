@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20260210】🐮",
+            "name": "🐮【更新日期:20260214】🐮",
             "type": 3,
             "api": "csp_NewDouBanGuard",
             "searchable": 0,
@@ -175,14 +175,6 @@
             "changeable": 1
         },
         {
-            "key": "WexXiaoPingGuo",
-            "name": "💥苹果┃秒播💥",
-            "type": 3,
-            "api": "csp_WexXiaoPingGuoGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "WexDuBoKu",
             "name": "💥独播┃秒播💥",
             "type": 3,
@@ -203,14 +195,6 @@
             "name": "💥伊影┃秒播💥",
             "type": 3,
             "api": "csp_WexYiYsGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexKaFei",
-            "name": "💥咖啡┃秒播💥",
-            "type": 3,
-            "api": "csp_WexKaFeiGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -598,6 +582,14 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "emby",
+            "name": "🀄️emby┃4K🀄️",
+            "type": 3,
+            "api": "csp_EmbyGuard",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "AList",

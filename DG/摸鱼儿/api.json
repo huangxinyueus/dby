@@ -95,9 +95,17 @@
             "api": "csp_Zwqf",
             "searchable": 1,
             "ext": {
-                "url": "http://我不是.摸鱼儿.com/api/yyutx.php",
-                "token": "moyufucking"
+                "url": "https://fishapi.wya6.com/fish/zui/moyu.php",
+                "token": "moyu996"
             }
+        },
+        {
+            "key": "zhiqiu",
+            "name": "听风｜知秋",
+            "type": 3,
+            "api": "csp_zhiqiu",
+            "searchable": 1,
+            "ext": "https://fishapi.wya6.com/fish/zhiqiu.php"
         },
         {
             "key": "Kan360",
@@ -144,16 +152,6 @@
             "ext": "pWLjYsLv1mpiSv+WqFNaIm66mYd3wj8hTGH18iQWPMOsJQb0GzUsB8gINUmUt9ktN2asJBwog2UGrTKUT2iY8NRz8qdgv5ctIC4NHKNarxWpwJPC52QcuqpdWKb8HK5mKYzOD7hj1nFrKL2gyacGOuMvUnqtIF5tWCjfnMws2K5omAGxO4lwWXOv7klFBE5q"
         },
         {
-            "key": "bimoxinghe",
-            "name": "笔墨｜APP",
-            "type": 3,
-            "changeable": 0,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppYsV2",
-            "ext": "/vJ/ilOqx6PeOdoC1iNzdKMLPzQcmSnbLfV1cIaoC0d8Ve52Tx5xaecqonGGMKaDa0xGGdGp4V6J2EqA7+fb2GX4guYD/G31mAvacKz7ZtCPoLaXKQym/fWtbGrD8XoQaRuH87hZSiGJ1m1yf8d7D5x0QgPuJfLWAmFxiWmHyxY="
-        },
-        {
             "key": "顾我",
             "name": "顾我｜APP",
             "type": 3,
@@ -164,6 +162,16 @@
             "ext": "pWLjYsLv1mpiSv+WqFNaIoEuco3PXPBxoLkOiVeOktPnxnt2E0PVuzvK7F7x1ynX1v8YSUBGs2JHAIuhIm1wYiWmv9DIhlQpRP9BiU9ZFbBMjDIXMCJ3qkAjDRLyy06u7nmYwLMXVj7tmABUTWw155g3/HsQaLbd2tCXKZrsh0iSqp9yMbNuGYjW3EbKOHQpXlVOrvvfLgjHi8EsUMVR8KAJ1AoQoFhzwF06Ah/5hW0="
         },
         {
+            "key": "奇奇",
+            "name": "奇奇｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "pWLjYsLv1mpiSv+WqFNaIkNDN8GUdrdHxZ3pBjorHTjYgR7KXXNFLGVkC9G50eeOLXtQy0ZDMb5f9pwYF7Vc6Wl4MkeDSUfZOTSVUMii296I02zMM5F2ary/97eVkmT0Y6FOe5TM3GzGIIdjctS4LsH18RBl6ndQqhmjeYb08l26YdnRobA7AzNqrcIRezchhBckk7QhS8czjb/IWnV5dr7R96NcsmAAFge+4T6YH/wBcpvrGGW+35IDRLQ2o1nR"
+        },
+        {
             "key": "花花",
             "name": "花花｜APP",
             "type": 3,
@@ -171,7 +179,7 @@
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "pWLjYsLv1mpiSv+WqFNaIuAZ5dZzARzCSS2gKGspHMr+TFjUjEThWTy9ZyhqZksxe0O/CzCfd+tkeOM5Y4AULGNU9OCK5ZymuHT7hd69y7FqDdCaPR2lf0LLn9LKrQFrKplQ86axiEsV09iFAYfeAbEiJzbUDPTUif0a+xRRtXebfzrd9cepb7mBMFwa36pq4jfuPoJYSfrStpvpHzUd0sDClQmjciyCn0H6e1Mjo4vDtUKfH0Mx/1PDPyNV/m89"
+            "ext": "N5u2FS3i/elUFAoSVYBzneo5w0aTnBRfZHmjD4nx23Nt35lc88GStfF3jcgPot4Hs4TudzVK2AObvLJT/IcsgjQFaLl2y6FF8byUTrYrdn3b7ZPDSKDMjxsl+6ks2PCIz8AC2UeJs2Sg7Uu6ZQz0PHaKfSJKZaOgODAmdfiFgUXxhW6LXlHXUiOrsw3GD1JtQO4SZugaGvlRHZ7oWTA0y2eBu7E8ZnFPVmNfMtWu8dE="
         },
         {
             "key": "aiying",
@@ -182,16 +190,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "pWLjYsLv1mpiSv+WqFNaIiIe+MInC+MKo9Qp54n8L69caGGEFd0M5chE1Qtd1YwdzgI3e1uyrDVixRQBRk9RoWOhnReh6DoqtgoIwBUFAQieLIPEeSDJYjTVwvlm05+zfeSPbM/NKlCZtk7ylKXUSdj3p6UCylMo3Jdt9qDJmEPMA0zv2M8fE97v1F4BTBKQ0qgTbnMzV4MhRUEAc1ggTQ=="
-        },
-        {
-            "key": "奇奇",
-            "name": "奇奇｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "eI9Unls3p3XJYUZcE6AQwkAKMgDgkdAAEoPRhPALoTrJhTFXyWcp6Xvq0qax3d5r1FwsY86o2MmjfU7ySN4g11oo9dUwQ3c/gSFbkeqAxXriAuWUUHFtpBegYmyR/TZfx2bq8vOtnqrVQ78pyT+xOVgPU+A6yIDYkqphyrjJnNpbFLtr/dOtt70+y6YwwEh3rsRndLw7Chdzs7im5Md2iQ=="
         },
         {
             "key": "麒麟",
@@ -367,15 +365,6 @@
             "api": "csp_CupFox",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "Xpg",
-            "name": "小苹果｜影视",
-            "type": 3,
-            "api": "csp_Xpg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "Symx",
