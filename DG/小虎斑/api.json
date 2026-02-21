@@ -55,10 +55,23 @@
             }
         },
         {
+            "key": "知秋",
+            "name": "知秋|弹幕",
+            "type": 3,
+            "api": "csp_MYzhiqiu",
+            "ext": "https://fishapi.wya6.com/fish/zhiqiu.php"
+        },
+        {
             "key": "独播",
             "name": "独播|弹幕",
             "type": 3,
             "api": "csp_Duboku"
+        },
+        {
+            "key": "muxi",
+            "name": "人人|弹幕",
+            "type": 3,
+            "api": "csp_HBrenren"
         },
         {
             "key": "fishhxq",
@@ -257,6 +270,32 @@
             "api": "csp_HBCupfox"
         },
         {
+            "key": "房源",
+            "name": "房源|弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_HBgetapp",
+            "ext": {
+                "host": "https://fyys9.fytd.top/",
+                "appkey": "88689667dce61725",
+                "appiv": "88689667dce61725"
+            }
+        },
+        {
+            "key": "奇奇",
+            "name": "奇奇|弹幕",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_HBgetapp",
+            "ext": {
+                "host": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/b.txt",
+                "appkey": "123456789abcdefg",
+                "appiv": "123456789abcdefg"
+            }
+        },
+        {
             "key": "茉莉",
             "name": "茉莉|弹幕",
             "type": 3,
@@ -313,34 +352,6 @@
             "type": 3,
             "api": "csp_HBcms10Dou",
             "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
-        },
-        {
-            "key": "立春",
-            "name": "立春|4K弹幕",
-            "type": 3,
-            "api": "csp_HBNT4",
-            "ext": "DyoqWQIrBwMuGytIIxtMWy8FMQwtNStECyoUXy0YVUg="
-        },
-        {
-            "key": "夏至",
-            "name": "夏至|4K弹幕",
-            "type": 3,
-            "api": "csp_HBNT4",
-            "ext": "DyoqWQInJUMuGFdFDzUQAgIGXUUAUi9H"
-        },
-        {
-            "key": "秋分",
-            "name": "秋分|4K弹幕",
-            "type": 3,
-            "api": "csp_HBNT4",
-            "ext": "DyoqWQInJUMuGFcBCgtNXAQ4Og8HOSNECiVBHi0YVUg="
-        },
-        {
-            "key": "冬至",
-            "name": "冬至|4K弹幕",
-            "type": 3,
-            "api": "csp_HBNT4",
-            "ext": "DyoqWQIrBwMuUgZBNzVBHQA7MUcsCFtcCjVMVA=="
         },
         {
             "key": "小猫",

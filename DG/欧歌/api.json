@@ -8,14 +8,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢人谁无过？过而能改，善莫大焉。——《论语》",
+            "name": "📢骏马开新岁，纳福迎祥，健康欢乐平安富贵！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新02.13❤",
+            "name": "📢公告❤更新02.16❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -59,7 +59,7 @@
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 447,
+                    "chunksize": 430,
                     "threads": 16
                 }
             }
@@ -81,7 +81,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 493,
+                    "chunksize": 483,
                     "threads": 16
                 }
             }
@@ -514,12 +514,6 @@
             "api": "./api/鬼片之家.js"
         },
         {
-            "key": "apple",
-            "name": "🥇苹果｜影视",
-            "type": 3,
-            "api": "./api/apple.js"
-        },
-        {
             "key": "爱看机器1人",
             "name": "🥇爱看┃影视",
             "type": 3,
@@ -542,6 +536,14 @@
             "name": "🥇耐看┃影视",
             "type": 3,
             "api": "./api/耐看.js"
+        },
+        {
+            "key": "久久影视",
+            "name": "🥇久久┃影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "playerType": 2,
+            "ext": "http://99cms.jj99.icu:8199/api.php/app/"
         },
         {
             "key": "New6v",
@@ -1503,7 +1505,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=d6&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1513,17 +1515,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=d6&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=d6&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=d6&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=3&url="
         },
         {
             "name": "装歌APP",

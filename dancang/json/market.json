@@ -77,6 +77,18 @@
                 "url": "https://wget.la/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/leanback-hisense-5.0.0.apk",
                 "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
                 "version": "5.0.0"
+            },
+            {
+                "name": "电视端(64位)",
+                "url": "https://wget.la/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/leanback-arm64_v8a-3.6.9_5.x.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.9(5.x)"
+            },
+            {
+                "name": "电视端(32位)",
+                "url": "https://wget.la/https://github.com/PizazzGY/OK-APP/releases/download/OK影视/leanback-armeabi_v7a-3.6.9_5.x.apk",
+                "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+                "version": "3.6.9(5.x)"
             }
         ]
     },

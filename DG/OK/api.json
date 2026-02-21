@@ -1069,6 +1069,19 @@
             "timeout": 25
         },
         {
+            "key": "影链",
+            "name": "🎞️影链┃搜索",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "sp": "YingLian"
+            },
+            "timeout": 25
+        },
+        {
             "key": "音海",
             "name": "🎸音海┃搜索",
             "type": 3,
@@ -1289,12 +1302,12 @@
     ],
     "lives": [
         {
-            "name": "AI直播",
+            "name": "MIGU（登录版）",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+            "url": "http://127.0.0.1:9978/proxy?do=migu&type=m3u8"
         },
         {
-            "name": "MIGU",
+            "name": "MIGU（AI版本）",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://ds65.tv1288.xyz"
         },

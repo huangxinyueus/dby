@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "Douban",
-            "name": "豆瓣｜首页",
+            "name": "新年｜快乐",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -95,7 +95,7 @@
             "api": "csp_Zwqf",
             "searchable": 1,
             "ext": {
-                "url": "https://fishapi.wya6.com/fish/zui/moyu.php",
+                "url": "http://我不是.摸鱼儿.com/api/yyutx.php",
                 "token": "moyu996"
             }
         },
