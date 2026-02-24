@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "Douban",
-            "name": "新年｜快乐",
+            "name": "豆瓣｜推荐",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -62,14 +62,6 @@
             }
         },
         {
-            "key": "panglian1",
-            "name": "盘链｜4K",
-            "type": 3,
-            "api": "csp_PanLian",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "FishPs",
             "name": "鱼鱼｜盘搜",
             "type": 3,
@@ -95,7 +87,7 @@
             "api": "csp_Zwqf",
             "searchable": 1,
             "ext": {
-                "url": "http://我不是.摸鱼儿.com/api/yyutx.php",
+                "url": "https://fishapi.wya6.com/fish/zui/moyu.php",
                 "token": "moyu996"
             }
         },
@@ -106,6 +98,13 @@
             "api": "csp_zhiqiu",
             "searchable": 1,
             "ext": "https://fishapi.wya6.com/fish/zhiqiu.php"
+        },
+        {
+            "key": "Symx",
+            "name": "山有｜木兮",
+            "type": 3,
+            "api": "csp_Symx",
+            "ext": "https://film.symx.club"
         },
         {
             "key": "Kan360",
@@ -152,16 +151,6 @@
             "ext": "pWLjYsLv1mpiSv+WqFNaIm66mYd3wj8hTGH18iQWPMOsJQb0GzUsB8gINUmUt9ktN2asJBwog2UGrTKUT2iY8NRz8qdgv5ctIC4NHKNarxWpwJPC52QcuqpdWKb8HK5mKYzOD7hj1nFrKL2gyacGOuMvUnqtIF5tWCjfnMws2K5omAGxO4lwWXOv7klFBE5q"
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "pWLjYsLv1mpiSv+WqFNaIoEuco3PXPBxoLkOiVeOktPnxnt2E0PVuzvK7F7x1ynX1v8YSUBGs2JHAIuhIm1wYiWmv9DIhlQpRP9BiU9ZFbBMjDIXMCJ3qkAjDRLyy06u7nmYwLMXVj7tmABUTWw155g3/HsQaLbd2tCXKZrsh0iSqp9yMbNuGYjW3EbKOHQpXlVOrvvfLgjHi8EsUMVR8KAJ1AoQoFhzwF06Ah/5hW0="
-        },
-        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,
@@ -198,6 +187,36 @@
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": "GvE9VjZcKAqoJldDfjF/ECcNd1RQlbzQsau0pQNOL/YWscnJYTMdB9NKsGcYtklo"
+        },
+        {
+            "key": "gying",
+            "name": "观影｜4K",
+            "type": 3,
+            "api": "csp_Gying",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "",
+                "site": [
+                    "https://www.gying.si",
+                    "https://www.gying.org",
+                    "https://www.gying.net",
+                    "https://www.gying.in",
+                    "https://www.gying.st",
+                    "https://www.gyg.la",
+                    "https://www.gyg.si",
+                    "https://www.gyg.st"
+                ]
+            }
+        },
+        {
+            "key": "panglian1",
+            "name": "盘链｜4K",
+            "type": 3,
+            "api": "csp_PanLian",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "FishLabi",
@@ -365,13 +384,6 @@
             "api": "csp_CupFox",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "Symx",
-            "name": "山有｜木兮",
-            "type": 3,
-            "api": "csp_Symx",
-            "ext": "https://film.symx.club"
         },
         {
             "key": "RenRen",

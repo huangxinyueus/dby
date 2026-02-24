@@ -896,9 +896,14 @@
     ],
     "lives": [
         {
-            "name": "冰茶",
+            "name": "Kimentanm",
             "type": 0,
-            "url": "./lives/冰茶.txt",
+            "url": "./lives/Kimentanm.txt"
+        },
+        {
+            "name": "综合直播",
+            "type": 0,
+            "url": "./lives/综合直播.txt",
             "ua": "bingcha/1.1 (mianfeifenxiang)"
         }
     ],

@@ -343,20 +343,6 @@
             "timeout": 10
         },
         {
-            "key": "云云",
-            "name": "☁️云云┃App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "YunYun"
-            },
-            "timeout": 10
-        },
-        {
             "key": "雄鹰",
             "name": "🦅雄鹰┃App",
             "type": 3,
@@ -1312,12 +1298,6 @@
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://ds65.tv1288.xyz"
         },
         {
-            "name": "冰茶",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Fbc.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dbingcha1130%26json%3Dtrue",
-            "ua": "bingcha/1.1 (mianfeifenxiang)"
-        },
-        {
             "name": "江苏移动",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/529EAA1_773_jsyd_20251205182514164newMediaFile.bmp"
@@ -1332,25 +1312,25 @@
             "name": "肥羊虎牙一起看",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/huyayqk.m3u",
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         },
         {
             "name": "肥羊B站直播",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/bililive.m3u",
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         },
         {
             "name": "肥羊斗鱼一起看",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/douyuyqk.m3u",
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         },
         {
             "name": "肥羊YY轮播",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/yylunbo.m3u",
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         }
     ],
     "ijk": [

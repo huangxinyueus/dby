@@ -8,14 +8,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢骏马开新岁，纳福迎祥，健康欢乐平安富贵！",
+            "name": "📢新春快乐、万事如意、吉祥如意、财源广进！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新02.16❤",
+            "name": "📢公告❤更新02.19❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -55,11 +55,12 @@
                     "https://woog.nxog.fun",
                     "https://woog.nxog.eu.org",
                     "https://woog.430520.xyz",
-                    "https://woog.装歌.de5.net"
+                    "https://woog.装歌.de5.net",
+                    "https://ogkk.nxog.fun"
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 430,
+                    "chunksize": 410,
                     "threads": 16
                 }
             }
@@ -77,11 +78,12 @@
                     "https://ogkk.nxog.fun",
                     "https://ogkk.nxog.eu.org",
                     "https://ogkk.430520.xyz",
-                    "https://ogkk.装歌.de5.net"
+                    "https://ogkk.装歌.de5.net",
+                    "https://woog.430520.xyz"
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 483,
+                    "chunksize": 500,
                     "threads": 16
                 }
             }
@@ -1505,7 +1507,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1515,17 +1517,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=da&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=3&url="
         },
         {
             "name": "装歌APP",

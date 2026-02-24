@@ -232,6 +232,12 @@
             }
         },
         {
+            "key": "xunlei",
+            "name": "迅雷|推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=xunlei"
+        },
+        {
             "key": "123",
             "name": "123|推送",
             "type": 4,

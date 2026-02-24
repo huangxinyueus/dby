@@ -1,11 +1,31 @@
-[
-    {
-        "name": "我的网盘",
-        "folders": [
-            {
-                "shareId": "",
-                "folder": "root"
-            }
-        ]
-    }
-]
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>403 · 缺首页鸭</title>
+<style>
+html,body{height:100%;margin:0;background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23ffeef7" width="1200" height="800"/><circle cx="150" cy="200" r="80" fill="%23ffd1e2" opacity="0.6"/><circle cx="1000" cy="600" r="120" fill="%23c1f5ff" opacity="0.5"/><circle cx="900" cy="150" r="60" fill="%23d0c5ff" opacity="0.7"/></svg>') center/cover;font-family:"Helvetica Neue",Arial,"Noto Sans SC",sans-serif;}
+.wrap{display:flex;align-items:center;justify-content:center;height:100%;}
+.box{background:rgba(255,255,255,0.92);border-radius:20px;padding:60px 80px;text-align:center;color:#444;box-shadow:0 10px 40px rgba(255,182,193,0.4);}
+h1{font-size:100px;margin:0 0 20px;font-weight:800;background:linear-gradient(45deg,#ff9a9e,#fad0c4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.txt{margin:10px 0;font-size:18px;color:#666;}
+small{display:block;margin-top:25px;font-size:13px;color:#aaa;}
+.btns{display:flex;gap:20px;justify-content:center;margin-top:35px;}
+a{padding:14px 36px;border-radius:28px;font-weight:600;text-decoration:none;transition:.2s;background:#ffe3f1;color:#ff769c;}
+a:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="box">
+<h1>403</h1>
+<p class="txt">(｡•́︿•̀｡) 抱歉，您没有权限访问此页面~</p>
+<small>RequestId: 5266568218226890390</small>
+<div class="btns">
+<a href="/">返回首页</a>
+<a href="javascript:history.back()">返回上一页</a>
+</div>
+</div>
+</div>
+</body>
+</html>
