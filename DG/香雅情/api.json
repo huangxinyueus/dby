@@ -356,6 +356,16 @@
             "ext": "./json/动漫巴士.json"
         },
         {
+            "key": "csp_XYQHiker_路漫漫",
+            "name": "路漫漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/路漫漫.json"
+        },
+        {
             "key": "csp_XYQHiker_番茶动漫",
             "name": "番茶动漫(XYQH)",
             "type": 3,
@@ -858,7 +868,8 @@
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.800000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3\\.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.566667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.566667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3\\.900,[\\s\\S]*?#EXT-X-DISCONTINUITY"
             ]
         },
         {

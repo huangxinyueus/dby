@@ -357,20 +357,6 @@
             "timeout": 10
         },
         {
-            "key": "一起",
-            "name": "📺一起┃秒播",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "sp": "Yqs"
-            },
-            "timeout": 10
-        },
-        {
             "key": "奇奇",
             "name": "🐵奇奇┃App",
             "type": 3,
@@ -612,12 +598,31 @@
         {
             "key": "电影天堂",
             "name": "🎞️天堂┃采集",
-            "type": 1,
-            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
+            "ext": {
+                "sp": "Caiji",
+                "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "量子",
+            "name": "📷量子┃采集",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Caiji",
+                "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/m3u8/"
+            },
             "timeout": 10
         },
         {

@@ -133,6 +133,20 @@
             }
         },
         {
+            "key": "橘猫",
+            "name": "橘猫｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": "Aep6Tjj9+pZvYWUIQK91hCuTzZqHBiuEoA9ZmPXChZEwXjnJuJUQyJD5eJoj2GkeVjE8nf6AOx58qTMkbhVf9j8gZVBaX6kyRSd9DuHjvbM/lQmdRtCOtbqX/znkAQR9+PQjt/y3Hl4PnC+gz83DjPGOyHzMKMUPt1oj3Z8gqb4GPOufZ947WhPaaBDRMcuecNVa5RFm48p0DDNUaHmZUIQLK6eVZGvG04mkVftdxPRnfSE9V5wyjkUnGDc8Zf0LyQ1J88wWItUjMWlgWZ+iPx8wt8WBUIN1RPBjwwtVxR0LQ4nAookH2Ni/taQEQ+K5vrW4gWrS+j5keoJDllB9/uPiyaOHMJ1QD0CFuN9Fm6ixntlGX/D5VsYCYg1UbHx9VvujMpFQajHcMQKm+EoAK5U="
+        },
+        {
+            "key": "金牌Nox",
+            "name": "金牌｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": "AZxQT8xfUMqFweKa1V4hqUkv/e/3ERhqqXMAhGAJj67FGQPn650EXO/awjdB0issnrNYdvWwFjG80BpTMzwZj+dahbCZ/nMD+qGLBWJPtthB/R2dhoV3qZI9IY3IpgKqngVtr5WylTOS6ehNNfQB5sfCXD+h61biz7mVZjOQb/7+QDN+yNdcEdmMx/qF+gs1Q2Fh+MpJ7pKkgF2IHkzjg0Drfz66sQqtQlRUEHTd2p4HAWJWA9V9Ls1IA5+yQSYswf8P0dhe72kh4HrOtFk33gksqipcmjcBTHnr+3dT9tgSiX9CPUIVs79NEckA7crAQ3Sg3WI7LfzOAAbm2a+S4k+xFzXRYpFNPuR/qi8Yc98vspokzONekkKjSMESB7Y6O/VMf1wjEcyMqI5d2y2v6Yo="
+        },
+        {
             "key": "魔方",
             "name": "魔方｜APP",
             "type": 3,
@@ -161,16 +175,6 @@
             "ext": "pWLjYsLv1mpiSv+WqFNaIkNDN8GUdrdHxZ3pBjorHTjYgR7KXXNFLGVkC9G50eeOLXtQy0ZDMb5f9pwYF7Vc6Wl4MkeDSUfZOTSVUMii296I02zMM5F2ary/97eVkmT0Y6FOe5TM3GzGIIdjctS4LsH18RBl6ndQqhmjeYb08l26YdnRobA7AzNqrcIRezchhBckk7QhS8czjb/IWnV5dr7R96NcsmAAFge+4T6YH/wBcpvrGGW+35IDRLQ2o1nR"
         },
         {
-            "key": "花花",
-            "name": "花花｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "N5u2FS3i/elUFAoSVYBzneo5w0aTnBRfZHmjD4nx23Nt35lc88GStfF3jcgPot4Hs4TudzVK2AObvLJT/IcsgjQFaLl2y6FF8byUTrYrdn3b7ZPDSKDMjxsl+6ks2PCIz8AC2UeJs2Sg7Uu6ZQz0PHaKfSJKZaOgODAmdfiFgUXxhW6LXlHXUiOrsw3GD1JtQO4SZugaGvlRHZ7oWTA0y2eBu7E8ZnFPVmNfMtWu8dE="
-        },
-        {
             "key": "aiying",
             "name": "爱盈｜APP",
             "type": 3,
@@ -181,12 +185,29 @@
             "ext": "pWLjYsLv1mpiSv+WqFNaIiIe+MInC+MKo9Qp54n8L69caGGEFd0M5chE1Qtd1YwdzgI3e1uyrDVixRQBRk9RoWOhnReh6DoqtgoIwBUFAQieLIPEeSDJYjTVwvlm05+zfeSPbM/NKlCZtk7ylKXUSdj3p6UCylMo3Jdt9qDJmEPMA0zv2M8fE97v1F4BTBKQ0qgTbnMzV4MhRUEAc1ggTQ=="
         },
         {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "AVSfR+uqlPEBHdwlcDYl8ruVekV5DXQ9AswZUxXhzdMf8il6XZZ2j5+b1nwZQOJi63jk1ndlOTjcBcY1bRL698ggfbh7mNg2ACtDb7vgPV4a6y726DBUQ/NfqPuNX/l2f+krZV89nUqZYIpAWjsyELWt7ZvFu5yEl6IxPd2cX2aRcW1NEdSBVQddbXPuTphu59vHxNc/ylOZnAEgwZ5zbww="
+        },
+        {
             "key": "麒麟",
             "name": "麒麟｜APP",
             "type": 3,
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": "GvE9VjZcKAqoJldDfjF/ECcNd1RQlbzQsau0pQNOL/YWscnJYTMdB9NKsGcYtklo"
+        },
+        {
+            "key": "咕噜",
+            "name": "咕噜｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": "AVxeJLni92C+e8/LzhaR6T2R8Pl82gBs9/Kfg/DeJ5KXV62LI4eZj+4pHIUPStS31pkh0yWUJsQ4pArrU/NwAKpKvqITDSwnRdbPmi4ktDCKLVCH1cQsIBA3Q5RZLxeQcHmG7Covdxsd++FzpaZQqThhpxwVUMFFn8HKtRvF4qbJ"
         },
         {
             "key": "gying",
@@ -459,6 +480,7 @@
             "api": "csp_Hema",
             "searchable": 1,
             "quickSearch": 1,
+            "类型": "短剧",
             "filterable": 1
         },
         {
@@ -468,6 +490,7 @@
             "api": "csp_FishDuanju",
             "searchable": 1,
             "quickSearch": 1,
+            "类型": "短剧",
             "filterable": 1
         },
         {
@@ -477,6 +500,7 @@
             "api": "csp_HHkk",
             "searchable": 1,
             "quickSearch": 1,
+            "类型": "短剧",
             "filterable": 1
         },
         {
@@ -486,6 +510,7 @@
             "api": "csp_JLdj",
             "searchable": 1,
             "quickSearch": 1,
+            "类型": "短剧",
             "filterable": 1
         },
         {
@@ -664,7 +689,7 @@
             "style": {
                 "type": "list"
             },
-            "ext": "KeJpmGBHNDNtao15t//le3m1n9Z5ZXrQs8D+mt98HNScmDTy9nipe+1ejIo29HghDD4pfCqWua4Qkg5r0/MnKRwsD05VU7eWVi6rNUa5LHima2FYwW6EGq+rMF4KUUvYw4o87aAGALNwz/9G1sF1KJUOIDTvspHyGeoPJZwdhcFqOYFaAnva+X9/XEo519IW2il56dy06dXYsaYe0qPT3DxyJzv3LytZzp3Bf2hzYhhAWHNSPgFPOc7kj/A73ThJb2MoNLEly2nXmZLawu9etmCQt5bcXG71ioR2IY0FlvrPbLyHxJ8kzT5+BVv2lziT/krjPnj0+FFmLpLdtI3VryMWnP13WopOwyV9CjmIUVisFEsUVHIGf2NjyDWDLV4yCFuQBMnfhTHhBCK05AGzmg=="
+            "ext": "KeJpmGBHNDNtao15t//le78AVNnA15NohxNlQzOy74KP4rP9PzNe6/JMxl2ealSMH+DMy3pMWGdoIgfZhbU6Gnwr6RCt2yx5qzhbchh4Dkea8uxJiFKZrXXX+78cGsE5xVesK28LUCDPGza58+ymXCFyviXGbf7VroGuGiCSI3O9U0RJIcWVbQWDQ2lWduKWYyFrlmEPQu3ePYFHUX8EGXDXMr15WH88JVlN7vnLqUhJv4qheq3TMcdceNQZ4e96eiWjAtdlSkOId644S2gQbHPsE1m68RxAx95ZTlMf0sGMFzsDp6MA9eQrbRP3sPWfW4I2nNxjTga+BbnLe5ES7TrsDfzJ7wCqjDAzW2LoHxxvnlJ7qrc+pWpKJARiszk+7dVLhNqhfjWY/i/GftEZiA71wbT4wul4QoPCmVrIYyaFWFxUaVHUVGrqEmw++js/87Xb8sawjnFXROsI6qK0+wRmiiGJ37nw0Dsyuxn7jUMYOpzEQFTlxq8Y3JcBGK8lGIcTrx0OTGwFH8Rhdsur4gdF4fxHM9BvKI5LFAO5wNSpAY429fskzXx97IsdI7HIeSQ+YY5Yir2ZnVeDDBK8qA=="
         },
         {
             "key": "Wallpaper",

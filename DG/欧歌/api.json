@@ -8,14 +8,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢新春快乐、万事如意、吉祥如意、财源广进！",
+            "name": "📢万事顺意、喜气洋洋、阖家幸福、岁岁平安！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新02.19❤",
+            "name": "📢公告❤更新02.24❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -60,7 +60,7 @@
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 410,
+                    "chunksize": 436,
                     "threads": 16
                 }
             }
@@ -83,7 +83,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 500,
+                    "chunksize": 445,
                     "threads": 16
                 }
             }
@@ -1507,7 +1507,7 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=0&url=",
+            "url": "https://by1.nxog.eu.org/jx.php?ou=e1&mz=0&url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1517,17 +1517,17 @@
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=e1&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=e1&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=dd&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=e1&mz=3&url="
         },
         {
             "name": "装歌APP",

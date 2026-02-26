@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "Tg|豆瓣",
-            "name": "🔍Tg豆瓣┃刷新一下源才能出来",
+            "name": "🔍Tg豆瓣┃本接口免费-🈲贩卖",
             "type": 3,
             "api": "csp_TgYunDouBanPan",
             "searchable": 1,
@@ -50,13 +50,21 @@
         },
         {
             "key": "巧技二",
-            "name": "💢聚搜┃仅搜索",
+            "name": "💢聚搜",
             "type": 3,
             "api": "csp_qiao2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
+        },
+        {
+            "key": "qiao2",
+            "name": "💢聚搜2",
+            "type": 3,
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
         },
         {
             "key": "天天",
@@ -79,17 +87,6 @@
             "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
         },
         {
-            "key": "星河",
-            "name": "💫星河",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "7lj763gg0939795i007ki485k612jli3hil9990l96j86i79025j08k7l8055g1h1i834kg3i900i0j06k4hg190k2lj0gk6k567614jl0k399gl72j06hkl3ilj1l"
-        },
-        {
             "key": "优质",
             "name": "🌈优质",
             "type": 3,
@@ -110,6 +107,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"
+        },
+        {
+            "key": "趣看",
+            "name": "🥽趣看",
+            "type": 3,
+            "api": "csp_Qiji",
+            "playerType": 2,
+            "ext": "7lj763gg402i794245238hjjg45j8295khg7jl51j9i73332410i18ljh4155k07119l53h0j6539l8j2208h380k5h21hk8lj2l7551l0h7i6lj28ih29kh7hh14150g9l396h6g3243h218h173857igkk546g62k2lk3g33h39jh5ji9l7ig56g470g73329575"
         },
         {
             "name": "👀注视",
@@ -308,7 +313,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://xl01.com.de/"
+            "ext": "https://www.xlys02.com"
         },
         {
             "key": "csp_New6v",
@@ -592,20 +597,6 @@
             }
         },
         {
-            "key": "观影",
-            "name": "🎥观影(需要账号登录)",
-            "type": 3,
-            "api": "csp_GuanYing",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
-                "siteUrl": "https://www.gyg.la/",
-                "username": "",
-                "password": ""
-            }
-        },
-        {
             "key": "片库",
             "name": "🅿片库",
             "type": 3,
@@ -882,18 +873,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
-            }
-        },
-        {
-            "key": "游戏直播",
-            "name": "🙀游戏直播",
-            "type": 3,
-            "api": "csp_Living",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "siteUrl": "https://bt.muxia.fun/api",
                 "commonConfig": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
             }
         },
