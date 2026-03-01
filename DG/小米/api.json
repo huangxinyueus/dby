@@ -35,7 +35,7 @@
                     "https://mihdr.top",
                     "https://www.mihdr.top",
                     "https://www.miqk.cc",
-                    "https://xiaomi666.fun",
+                    "https://zhizhenpan.com/",
                     "https://zhizhen8.click",
                     "https://www.zhizhen8.click"
                 ],
@@ -64,8 +64,8 @@
                     "https://www.wexwp.cc",
                     "https://wexwp.cc",
                     "https://zhizhen1.top",
-                    "https://www.2xiaopan.fun",
-                    "https://2xiaopan.fun"
+                    "https://2xiaopan.top",
+                    "https://www.2xiaopan.top"
                 ],
                 "url_key": "UC",
                 "token": "",
@@ -193,15 +193,6 @@
             "ext": "0YM2rlqPCLd5eMAslwMf/kCE22ncNd3xnmwrQY9SCQH4bzbsInD9sIckq+98B40sapFI39hNz19UJRSOMiO5WF7Ct1G6M0pXHPfBZ3URMQAUGIFaIwQBxfim4IuDd+JtVRuOIXJonLrsDQ6YTPTu/9DzxK2yUhySEsxgZYEjICuH86BscJNcew7X60/NQzx0HNLgfebn40B7XJIXoQDUCL4EVrIxuWAPZhF+/jvhWtPRUzMJUNeNP/xsqNz66JJkK3QKvMj/9Ybkjfe1zka9UOykuKDrZj/wCtUdlP7AcN2RT9NYsg2SafDmJn2iVNRCqG6lUwbT63SjfOlbX5rnqN57KvmUJOHLWW9/fGbqKyqVEVRhPR8X5VOTX7iX69AQa6d3N1DOe74vzHwt8MuvsfzHFPDsJJr+06Mwna4B/aYDbNnK1FYck/9p8vMz7KPnb2sIFDEYpPgcEWk1/rdp5YXEXoRAN3FmvYr3RJgmVwmguO+Zvpqfx5SDVmJxgctZ"
         },
         {
-            "key": "橘子",
-            "name": "🥭小米┃橘子",
-            "type": 3,
-            "api": "csp_AppNox",
-            "timeout": 15,
-            "playerType": "1",
-            "ext": "YLWJkztQiwSjuZDrZ91gip8ZpX/jAcq+e6JYZJ1zu9qVBMl4/yJwa3gHDaHenBMoRodJbXRStSjAY3TvKzVibVjhM6gyO3D23RaVDa99kFD1571FT72h+Hdqw0lZTejHxIduMZbuO6vur2CS41T4TxM0v1hrNszRCSd6B72KQh8ED57otSzRgAisD6RBFvP/8MCWgGzLS6jzlnrStAaE9AHBEzv7RJNLuPpy10eBo2c="
-        },
-        {
             "key": "3QQQ",
             "name": "🍅小米┃大鹅",
             "type": 3,
@@ -223,15 +214,15 @@
             "ext": "4ssljNMN/eUwGSlXfYi+I/0aH7+7tGMJdPyvcC/ONkDcrPnzuXgPr7VzKMQ+0RdRGNnJUWhFAkXSfkrYxcD9OehUyKHXNLtGz7OFaGJO+DwPs5ipGzItuJVXfrSlLNBzu9VJFl7E7Yb6UQ1tG0WTwHfzYK8CLALWrnqZHukqBcDD6X7xQQcBHYk4H2pC0w50rekALVyyh+FiNYF4h3i41jTCIJT8NeQeS/yFspZpAW8="
         },
         {
-            "key": "爱婴",
-            "name": "💨爱影┃1080P",
+            "key": "爱营",
+            "name": "🍊爱影┃1080P",
             "type": 3,
-            "timeout": 15,
             "api": "csp_AppGetV2",
             "changeable": "1",
+            "timeout": 15,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "7DgWlrk+zTw/OTxcOCwV3r7Lpk/K0TtaGVKJShO/E6Lk6FeK68XEx1pCxXVGd79dHo3uoVmkO8cjE/OPrzfqwtqkLmII0OFhC+/yXTQYD1LnjTjwaziomg6j1QgFlaH8SiWSpPbCdJ793wFaE6h/B0Gu8rh1IIA6oSO5q1t+wC5J3bwWj68Ld5wJv85CyjZ0FZaAPxa3AEpX2qHwf6pxlSfXxW0+QrujAQyyGrboM4p1W/QMVGUY4TInedIR3s9XjQ9dtYsoyDE3W2Q2yDaW+HssklIUDZB4wP+fzQWFItdjG1QYDAki8rLiMUha/kMh5rCVIreKFUzrDC5Bq8GVo8BzSc1c3B2G78i3/lmFS87IfEMv9cU5TYXXbbnvphZOAWONg5fMXYgXhets5TtPzzwwdleVgQ+2hHE+7bJXqsoOQi5SgKT2+4vMI+h7c9xDXGZaLlfWpfFcWuSkZ3xnXUMLzUM1aN114TEOUtYcxM5ZdiGBhaYWS9+7YF4KwmZ+lj52a59sbTBxrTDuX7ueObojalskLlsfobtEfskw4xg="
+            "ext": "JyrToknN5uLOlsitzBJ39qJnMEaMwQSAZR9uzkp9v3yJBtK2PrAcXhJnNjiixwS6vrWirQq42oP1txl1xVAoYP49Qgrx/rSRifuVbQBUp1DvxJesyvbDHvbKT8ppv0MAilXO8AkJlUgmjy6AqHJO73w3Up22TCgIHEbLqDf2aKJYMdJSpprdIvkp9sNcDsyD92j1DwuSQtYH6DmSxBtoUkMicrkmW4b7Lb9YKoQnk1hxL5N1O0EOuKkeOxldYKOyIc49RB9tgtHbpcEOrKtpsAfn15/fuAoxrlCWhXu1D7gZeBEgOxpevXYjcaF8VxWA0mDVphQfqxDlek5hRNTy08hRWfN19oZaiLeyh3ifWEfcMjp00PjNvwTkJSOsxBhnMSPLp87yZ+cqf230cVXoZzQm+kkuzSPFeuQGdn+sRWeElOSKwY/voalPkuQgpf3VTIM8AAQpuYIisxOyoLFHGTTe7aVTYu3gAHKjnoPxX4P1zNW23JAxxEpfcK/lk4D9VFnOVTfVMSP/2GA/y79C4g=="
         },
         {
             "key": "橘子",
@@ -304,6 +295,38 @@
             "searchable": 1,
             "quickSearch": 0,
             "api": "csp_MiSou"
+        },
+        {
+            "key": "Huya",
+            "name": "🎮游戏┃直播",
+            "type": 3,
+            "jar": "./jars/Huya.jar",
+            "api": "csp_Huya",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "Douyu",
+            "name": "🎮手游┃直播",
+            "type": 3,
+            "api": "csp_Douyu",
+            "jar": "./jars/Huya.jar",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
         },
         {
             "key": "csp_TingBook",

@@ -10,8 +10,10 @@
             "name": "豆瓣｜推荐",
             "type": 3,
             "api": "csp_Douban",
+            "indexs": 1,
             "searchable": 0,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "./txt/doudou.txt"
         },
         {
             "key": "FishConfig",
@@ -133,13 +135,6 @@
             }
         },
         {
-            "key": "橘猫",
-            "name": "橘猫｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": "Aep6Tjj9+pZvYWUIQK91hCuTzZqHBiuEoA9ZmPXChZEwXjnJuJUQyJD5eJoj2GkeVjE8nf6AOx58qTMkbhVf9j8gZVBaX6kyRSd9DuHjvbM/lQmdRtCOtbqX/znkAQR9+PQjt/y3Hl4PnC+gz83DjPGOyHzMKMUPt1oj3Z8gqb4GPOufZ947WhPaaBDRMcuecNVa5RFm48p0DDNUaHmZUIQLK6eVZGvG04mkVftdxPRnfSE9V5wyjkUnGDc8Zf0LyQ1J88wWItUjMWlgWZ+iPx8wt8WBUIN1RPBjwwtVxR0LQ4nAookH2Ni/taQEQ+K5vrW4gWrS+j5keoJDllB9/uPiyaOHMJ1QD0CFuN9Fm6ixntlGX/D5VsYCYg1UbHx9VvujMpFQajHcMQKm+EoAK5U="
-        },
-        {
             "key": "金牌Nox",
             "name": "金牌｜APP",
             "type": 3,
@@ -247,9 +242,13 @@
             "searchable": 1,
             "ext": {
                 "site": [
-                    "https://www.labi88.sbs",
                     "https://feimao666.fun",
-                    "http://feimao888.fun"
+                    "http://xiaocge.fun",
+                    "http://feimo.fun",
+                    "https://feimao666.fun",
+                    "http://fmao.site",
+                    "http://fmao.shop",
+                    "http://xiaocgege.shop"
                 ]
             }
         },
@@ -262,11 +261,11 @@
             "ext": {
                 "site": [
                     "https://mihdr.top",
-                    "https://www.miqk.cc",
-                    "https://xiaomiai.site",
-                    "https://xiaomi666.fun",
                     "https://www.mihdr.top",
-                    "https://www.zhizhenpan.fun"
+                    "https://www.miqk.cc",
+                    "https://zhizhenpan.com/",
+                    "https://zhizhen8.click",
+                    "https://www.zhizhen8.click"
                 ]
             }
         },
@@ -292,10 +291,11 @@
             "searchable": 1,
             "ext": {
                 "site": [
-                    "https://xhww.net",
-                    "https://erxiaofn.site",
-                    "https://erxiaofn.click",
-                    "https://www.xhww.net"
+                    "https://www.erixaopan.fun",
+                    "https://www.wexwp.cc",
+                    "https://wexwp.cc",
+                    "https://2xiaopan.top",
+                    "https://www.2xiaopan.top"
                 ]
             }
         },
@@ -407,6 +407,16 @@
             "changeable": 1
         },
         {
+            "key": "Fishdrive",
+            "name": "超级｜媒体库",
+            "type": 3,
+            "api": "csp_FishDrive",
+            "indexs": 0,
+            "searchable": 1,
+            "filterable": 1,
+            "ext": "./json/fishdrive.json"
+        },
+        {
             "key": "RenRen",
             "name": "人人｜影视",
             "type": 3,
@@ -498,16 +508,6 @@
             "name": "好看｜短剧",
             "type": 3,
             "api": "csp_HHkk",
-            "searchable": 1,
-            "quickSearch": 1,
-            "类型": "短剧",
-            "filterable": 1
-        },
-        {
-            "key": "JLdj",
-            "name": "金粒｜短剧",
-            "type": 3,
-            "api": "csp_JLdj",
             "searchable": 1,
             "quickSearch": 1,
             "类型": "短剧",
@@ -653,6 +653,7 @@
             "api": "csp_Kanqiu",
             "searchable": 0,
             "filterable": 1,
+            "indexs": 0,
             "ext": "http://www.88kanqiu.one",
             "style": {
                 "type": "list"
@@ -660,11 +661,25 @@
         },
         {
             "key": "TingBook",
-            "name": "听书｜有声",
+            "name": "六月｜有声",
             "type": 3,
             "api": "csp_TingBook",
             "searchable": 1,
+            "indexs": 0,
             "ext": "http://www.5weiting.com",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "TingBookJinXia",
+            "name": "堇夏｜有声",
+            "type": 3,
+            "api": "csp_TingBookJinXia",
+            "searchable": 1,
+            "filterable": 1,
+            "indexs": 0,
+            "ext": "https://m.ting15.com",
             "style": {
                 "type": "list"
             }
@@ -676,6 +691,7 @@
             "api": "csp_Local",
             "searchable": 0,
             "changeable": 0,
+            "indexs": 0,
             "style": {
                 "type": "list"
             }
@@ -686,6 +702,7 @@
             "type": 3,
             "api": "csp_Market",
             "searchable": 0,
+            "indexs": 0,
             "style": {
                 "type": "list"
             },
@@ -697,6 +714,7 @@
             "type": 3,
             "api": "csp_Wallpaper",
             "searchable": 0,
+            "indexs": 0,
             "quickSearch": 0,
             "filterable": 0,
             "style": {
@@ -711,6 +729,7 @@
             "api": "csp_Push",
             "searchable": 0,
             "changeable": 0,
+            "indexs": 0,
             "timeout": 60
         }
     ],
