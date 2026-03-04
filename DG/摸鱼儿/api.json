@@ -135,22 +135,6 @@
             }
         },
         {
-            "key": "金牌Nox",
-            "name": "金牌｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": "AZxQT8xfUMqFweKa1V4hqUkv/e/3ERhqqXMAhGAJj67FGQPn650EXO/awjdB0issnrNYdvWwFjG80BpTMzwZj+dahbCZ/nMD+qGLBWJPtthB/R2dhoV3qZI9IY3IpgKqngVtr5WylTOS6ehNNfQB5sfCXD+h61biz7mVZjOQb/7+QDN+yNdcEdmMx/qF+gs1Q2Fh+MpJ7pKkgF2IHkzjg0Drfz66sQqtQlRUEHTd2p4HAWJWA9V9Ls1IA5+yQSYswf8P0dhe72kh4HrOtFk33gksqipcmjcBTHnr+3dT9tgSiX9CPUIVs79NEckA7crAQ3Sg3WI7LfzOAAbm2a+S4k+xFzXRYpFNPuR/qi8Yc98vspokzONekkKjSMESB7Y6O/VMf1wjEcyMqI5d2y2v6Yo="
-        },
-        {
-            "key": "魔方",
-            "name": "魔方｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": "bB1iyOjtXWh234iOsqOpQ+DjgYRZW8TG8cxUqpxxK69Bp+glCgEE/kF5sOjSfZVtInmtaWIxfpMHTQ7tRS1J46/t6qvA/G5Vo6WHm5blH6Rh7Ev5Z9sCJDAQfJhaTFVr"
-        },
-        {
             "key": "驿站",
             "name": "驿站丨APP",
             "type": 3,
@@ -189,20 +173,26 @@
             "ext": "AVSfR+uqlPEBHdwlcDYl8ruVekV5DXQ9AswZUxXhzdMf8il6XZZ2j5+b1nwZQOJi63jk1ndlOTjcBcY1bRL698ggfbh7mNg2ACtDb7vgPV4a6y726DBUQ/NfqPuNX/l2f+krZV89nUqZYIpAWjsyELWt7ZvFu5yEl6IxPd2cX2aRcW1NEdSBVQddbXPuTphu59vHxNc/ylOZnAEgwZ5zbww="
         },
         {
+            "key": "金牌Nox",
+            "name": "金牌｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": "AZxQT8xfUMqFweKa1V4hqUkv/e/3ERhqqXMAhGAJj67FGQPn650EXO/awjdB0issnrNYdvWwFjG80BpTMzwZj+dahbCZ/nMD+qGLBWJPtthB/R2dhoV3qZI9IY3IpgKqngVtr5WylTOS6ehNNfQB5sfCXD+h61biz7mVZjOQb/7+QDN+yNdcEdmMx/qF+gs1Q2Fh+MpJ7pKkgF2IHkzjg0Drfz66sQqtQlRUEHTd2p4HAWJWA9V9Ls1IA5+yQSYswf8P0dhe72kh4HrOtFk33gksqipcmjcBTHnr+3dT9tgSiX9CPUIVs79NEckA7crAQ3Sg3WI7LfzOAAbm2a+S4k+xFzXRYpFNPuR/qi8Yc98vspokzONekkKjSMESB7Y6O/VMf1wjEcyMqI5d2y2v6Yo="
+        },
+        {
+            "key": "火猫",
+            "name": "火猫｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": "Abpz3wR4BwEqZfUxku208xb3Ftin5UgR4i9HH/iWmtETT2EAcR38+Ksq+CASAJNhRAxrLnzAf9f94W7r4nk40uat0YzpZg7M2R70AmFDRBrXZwiMpsmGepF2V+w8/GY0F6sUFA3ZmikYynt6h1Fj/l+cijMsv5hBSfs7uRG6nfIGmLBT3eX09Vdlm4+6b973PshXKYMMeIhsrlEJ0ctFf/+tri0ArBe+RzH+B5S9DGFv76Qo/xYHXXaNKxDYJqaMPUtr/R7rrHEXXLmh8th7BMIR0v1zNix7ahfYiFZZdOwALjyzYfEsJ869JVeo8dzBzwD3KgM1x37olSbDfeEilBW2wH6ir992ppMC2mR3aXEWsFWdRpcK62sBqTIvw1T6JNgiVXq3nvdG0JvNeTXAKaM="
+        },
+        {
             "key": "麒麟",
             "name": "麒麟｜APP",
             "type": 3,
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": "GvE9VjZcKAqoJldDfjF/ECcNd1RQlbzQsau0pQNOL/YWscnJYTMdB9NKsGcYtklo"
-        },
-        {
-            "key": "咕噜",
-            "name": "咕噜｜APP",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_AppFox",
-            "ext": "AVxeJLni92C+e8/LzhaR6T2R8Pl82gBs9/Kfg/DeJ5KXV62LI4eZj+4pHIUPStS31pkh0yWUJsQ4pArrU/NwAKpKvqITDSwnRdbPmi4ktDCKLVCH1cQsIBA3Q5RZLxeQcHmG7Covdxsd++FzpaZQqThhpxwVUMFFn8HKtRvF4qbJ"
         },
         {
             "key": "gying",
@@ -405,16 +395,6 @@
             "api": "csp_CupFox",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "Fishdrive",
-            "name": "超级｜媒体库",
-            "type": 3,
-            "api": "csp_FishDrive",
-            "indexs": 0,
-            "searchable": 1,
-            "filterable": 1,
-            "ext": "./json/fishdrive.json"
         },
         {
             "key": "RenRen",
@@ -709,8 +689,28 @@
             "ext": "KeJpmGBHNDNtao15t//le78AVNnA15NohxNlQzOy74KP4rP9PzNe6/JMxl2ealSMH+DMy3pMWGdoIgfZhbU6Gnwr6RCt2yx5qzhbchh4Dkea8uxJiFKZrXXX+78cGsE5xVesK28LUCDPGza58+ymXCFyviXGbf7VroGuGiCSI3O9U0RJIcWVbQWDQ2lWduKWYyFrlmEPQu3ePYFHUX8EGXDXMr15WH88JVlN7vnLqUhJv4qheq3TMcdceNQZ4e96eiWjAtdlSkOId644S2gQbHPsE1m68RxAx95ZTlMf0sGMFzsDp6MA9eQrbRP3sPWfW4I2nNxjTga+BbnLe5ES7TrsDfzJ7wCqjDAzW2LoHxxvnlJ7qrc+pWpKJARiszk+7dVLhNqhfjWY/i/GftEZiA71wbT4wul4QoPCmVrIYyaFWFxUaVHUVGrqEmw++js/87Xb8sawjnFXROsI6qK0+wRmiiGJ37nw0Dsyuxn7jUMYOpzEQFTlxq8Y3JcBGK8lGIcTrx0OTGwFH8Rhdsur4gdF4fxHM9BvKI5LFAO5wNSpAY429fskzXx97IsdI7HIeSQ+YY5Yir2ZnVeDDBK8qA=="
         },
         {
+            "key": "push_agent",
+            "name": "推送｜接收",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "timeout": 60
+        },
+        {
+            "key": "Fishdrive",
+            "name": "摸鱼｜媒体库",
+            "type": 3,
+            "api": "csp_FishDrive",
+            "indexs": 0,
+            "searchable": 1,
+            "filterable": 1,
+            "ext": "./json/fishdrive.json"
+        },
+        {
             "key": "Wallpaper",
-            "name": "摸鱼｜壁纸",
+            "name": "摸鱼｜壁纸库",
             "type": 3,
             "api": "csp_Wallpaper",
             "searchable": 0,
@@ -721,16 +721,6 @@
                 "type": "rect",
                 "ratio": 0.56
             }
-        },
-        {
-            "key": "push_agent",
-            "name": "推送｜接收",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "timeout": 60
         }
     ],
     "lives": [],
