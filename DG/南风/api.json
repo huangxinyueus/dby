@@ -111,6 +111,13 @@
             "ext": "7lj763gg0939795i007hi482k70ii2i5hilg9g0h96j16j79035j00h3hh1454000l9353g3j5468g943k5lk7i3h4lj08l7li69775ll0hhi4l2698l2kli61kl0100h8kl8lg3k6676l6h9645325486k25g6330khhg2i75i494lijij17882323g453536k67jj99711k31lj57h2j775ki045i58l4378h459l05k12l32317i6l00g4l4i6117495j149j17g388hi0h6687630lk63g23gj74gj38229k5h4jh61j023hlh4l51lhh5li0k975l900923l4718k913358744l5h479gg3545102828i45kg208871635i07107jhi222g064kji82g2i6lj522i2lg4l60lij8h1k2k25469hlh9jj5kkl89607g15l82h8j4243kh7jl7i86jl98507578032hj1kgj81i93k8ig22i6508hh3k5gh270k07li176ii4kik8j1162k01057j52"
         },
         {
+            "key": "驿站",
+            "name": "🚗驿站",
+            "type": 3,
+            "api": "csp_Xdai",
+            "ext": "7lj763gg402i7942553393i9g44g8j82k2g9jg54ih863325555955g5g1595i1741i70lk1i00hji87320gh6j1gkkg0jh4g8697h06ghh3jhl5339731hj7hh5595ilkkkjhh8k261236896432i458hkk4i756kh5k3773jl2j8gj958228h178060g6h72j974g8k1"
+        },
+        {
             "key": "火猫",
             "name": "😺火猫",
             "type": 3,
@@ -163,14 +170,6 @@
             "api": "csp_Xdai",
             "playerType": 2,
             "ext": "7lj763gg402i794246398hi3h9128893l4gji44ii5i7312k5l0k02k6l41k5509558245g38450hhj13634k58gjjgi0iiig761450hligki9j4738814gh66861j54j1g0i393g36l3k2hil10"
-        },
-        {
-            "key": "狂风",
-            "name": "🌪狂风",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "7lj763gg402i7942422493i0g712948hk8k7i75h98823937011343hjkj0l4l124gi40kk3ij04i4ji634gkhj6g2gl4gh6ki31260jh0k79jgh7kjj6gg53gl91k12ghkh91l2g4"
         },
         {
             "key": "番薯",
@@ -916,17 +915,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0
-        },
-        {
-            "key": "有声小说吧",
-            "name": "📚有声小说吧",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/有声小说吧.js"
         },
         {
             "key": "哔哩",

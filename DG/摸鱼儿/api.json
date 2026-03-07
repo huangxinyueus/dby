@@ -102,13 +102,6 @@
             "ext": "https://fishapi.wya6.com/fish/zhiqiu.php"
         },
         {
-            "key": "Symx",
-            "name": "山有｜木兮",
-            "type": 3,
-            "api": "csp_Symx",
-            "ext": "https://film.symx.club"
-        },
-        {
             "key": "Kan360",
             "name": "倦枕｜星河",
             "type": 3,
@@ -135,56 +128,76 @@
             }
         },
         {
-            "key": "驿站",
-            "name": "驿站丨APP",
+            "key": "晚吟",
+            "name": "晚吟｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "AS489lHIPXXnFM64nq+j83AKsZBAWHJxiolcdAQhVx+XVHnaLVj3OiTSytruFyLqxsmm1AhgdalU+scPnz4hkUu01Ppy9Ttysn+LieUGod/lwmSMJ4CVW/EDO33YUhidr+lqJcnx7APcA2mG4Y+5AmEYH2Wol6qcFUo1sogtH+iYZ/YXtoPKCywF1JMyBjfj7Pn83+MTjKTUrb53bT4gJlw="
+        },
+        {
+            "key": "厌离",
+            "name": "厌离｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "AQ8xy13uUB+vU0X5VQoLoHQ0PbaWVadAyXpMKT4lGXmz4P8/XgMiirPtAaVdXwlAm5uF7AEvL3DXQh1rGvz8VkkK/iJRxAipX1t/HMeh8FiNDuXLu5Z6IRNARKpTACYVrIClJSw/mWpypTq/VHPWokB3OA8LPPKPaOao8P8nVbJ8xyA50XNWEVFnl2cVRf3xMlAzAZVOwhnDWXYRcDjo8oE="
+        },
+        {
+            "key": "枫眠",
+            "name": "枫眠｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "ASeCaY5Xxcx0BdbJGIqllhkRBuCPwC/Kv1uDvURkfncW+fNupjJjBKERvDuCKL7Nc8bCYJ/Fboktq3geJgU0aE2SxOjoiU03IEtvv1np76XEOBn7dBJNwW8toIqv9PBY9T18yzCX3DoyksVEv01kRtBDqSTgbilbqOHhtNEm+L3ti2PLM08SEhkA/nE//PAwfIVtUWhsYKorNLuB7RxQ2Egqj4D7q7Tw3sH/yNbHthqw"
+        },
+        {
+            "key": "琼林",
+            "name": "琼林｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": "AbxTsrfXTR/X02mKKEFlZ2mWBxkBXDz8hy/1cKUHgVgXe7rjelHgtwVvIUbOOUsniZ2R2mEZVcH1l2nV6ocpV/LkgiCf7uP+GGfv4UBgx4LJ7J9wcc3rHbSA8Fs+DAWFykFa1o37Y/mwDRr/ikbof52Zs7e+qldp4sT/ixG0tvBw7V9zMA0YD8q3rQFc0TZf83MLE+P1y7/q4J8msjy3jx4="
+        },
+        {
+            "key": "思追",
+            "name": "思追丨APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
-            "ext": "pWLjYsLv1mpiSv+WqFNaIm66mYd3wj8hTGH18iQWPMOsJQb0GzUsB8gINUmUt9ktN2asJBwog2UGrTKUT2iY8NRz8qdgv5ctIC4NHKNarxWpwJPC52QcuqpdWKb8HK5mKYzOD7hj1nFrKL2gyacGOuMvUnqtIF5tWCjfnMws2K5omAGxO4lwWXOv7klFBE5q"
+            "ext": "AZMWjtBVHqg1eqc24zPBCnp+8nUMJ1DhABffeziVNB/hZ1AHDr9HynmQ7Hea0MJa9TQvImvwo+VcBjCulptXIj6796jroFgU16XtcGODMtfDJ8RJjrEa+2QJ1eVamXkB+N3GrowCHjQsVd5GK4QAxVeW7oVMa/kmxFpF4XWFHhz5YGcXOSxIhznhRlZln5Ap8sol6sjWUfBhblNbLgjDBzKdTxu/NjbUZFhO8y6IP8SZhvrY0CxMo8/Kp6AnCYGRyA=="
         },
         {
-            "key": "奇奇",
-            "name": "奇奇｜APP",
+            "key": "忘机",
+            "name": "忘机｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "pWLjYsLv1mpiSv+WqFNaIkNDN8GUdrdHxZ3pBjorHTjYgR7KXXNFLGVkC9G50eeOLXtQy0ZDMb5f9pwYF7Vc6Wl4MkeDSUfZOTSVUMii296I02zMM5F2ary/97eVkmT0Y6FOe5TM3GzGIIdjctS4LsH18RBl6ndQqhmjeYb08l26YdnRobA7AzNqrcIRezchhBckk7QhS8czjb/IWnV5dr7R96NcsmAAFge+4T6YH/wBcpvrGGW+35IDRLQ2o1nR"
+            "ext": "ARIf/javCFZrnb7bhwzDQ1I/gYi3vwqodTXDNuHLJQLoHd59j15mVOndyVuPO6QgZdzkptgM5xHcyglZVNZ5Y03yB+SaFazAu3GCkMHSzwpbm/dSSiQ8OxQeetnxiSz91ibY5976IFoMCFopDPhKbYNTr7teWVcVWi20mwhdkrg3Ul7mJ8cYHqa57ZUYzAH1Ab4ht/EMVZSnHosw6B+3jUNcHywS4S4CgRS+0BRsZFNaTcutrXgEYm7d12jGjT9cj7XmK0cj+2mV6zrCROKE+wUb6bLDVrtsxwHLykBah4DLQIlRxqKtSkCA3NU1U+Zlb800G77DrCf3g86bItws62w="
         },
         {
-            "key": "aiying",
-            "name": "爱盈｜APP",
+            "key": "曦臣",
+            "name": "曦臣｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "pWLjYsLv1mpiSv+WqFNaIiIe+MInC+MKo9Qp54n8L69caGGEFd0M5chE1Qtd1YwdzgI3e1uyrDVixRQBRk9RoWOhnReh6DoqtgoIwBUFAQieLIPEeSDJYjTVwvlm05+zfeSPbM/NKlCZtk7ylKXUSdj3p6UCylMo3Jdt9qDJmEPMA0zv2M8fE97v1F4BTBKQ0qgTbnMzV4MhRUEAc1ggTQ=="
+            "ext": "AcQgxCZJh0zfuqWhi3EWO0lHZHvcxjcjkSwh/L0j5HEY9Fq3+o2hdqQXb/2viRHayRmBY64JuCWIkKKgRdpy650qa/qp5Yx5LMXbHLNBOw7Y2ZGmPIKIXZw4s07EI1OuOTxg5Jj1a2VvZaGGrWPO5Zx84C6LNBDniS3O/XXNtDexGf7mP03SjlVcLkS00BSjgZJIy7PZA3fuP0lUeIdK+T0JzxKFrX5IxrgxOGYTCb4UUXOKaASBFqPcbpdj1SMNkCxWhqz9lcA8n+r81dRn4TMOKoyFaxJmX3DfKc1UzGgH"
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
+            "key": "景仪",
+            "name": "景仪｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "searchable": 1,
             "changeable": 1,
-            "ext": "AVSfR+uqlPEBHdwlcDYl8ruVekV5DXQ9AswZUxXhzdMf8il6XZZ2j5+b1nwZQOJi63jk1ndlOTjcBcY1bRL698ggfbh7mNg2ACtDb7vgPV4a6y726DBUQ/NfqPuNX/l2f+krZV89nUqZYIpAWjsyELWt7ZvFu5yEl6IxPd2cX2aRcW1NEdSBVQddbXPuTphu59vHxNc/ylOZnAEgwZ5zbww="
-        },
-        {
-            "key": "金牌Nox",
-            "name": "金牌｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": "AZxQT8xfUMqFweKa1V4hqUkv/e/3ERhqqXMAhGAJj67FGQPn650EXO/awjdB0issnrNYdvWwFjG80BpTMzwZj+dahbCZ/nMD+qGLBWJPtthB/R2dhoV3qZI9IY3IpgKqngVtr5WylTOS6ehNNfQB5sfCXD+h61biz7mVZjOQb/7+QDN+yNdcEdmMx/qF+gs1Q2Fh+MpJ7pKkgF2IHkzjg0Drfz66sQqtQlRUEHTd2p4HAWJWA9V9Ls1IA5+yQSYswf8P0dhe72kh4HrOtFk33gksqipcmjcBTHnr+3dT9tgSiX9CPUIVs79NEckA7crAQ3Sg3WI7LfzOAAbm2a+S4k+xFzXRYpFNPuR/qi8Yc98vspokzONekkKjSMESB7Y6O/VMf1wjEcyMqI5d2y2v6Yo="
-        },
-        {
-            "key": "火猫",
-            "name": "火猫｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": "Abpz3wR4BwEqZfUxku208xb3Ftin5UgR4i9HH/iWmtETT2EAcR38+Ksq+CASAJNhRAxrLnzAf9f94W7r4nk40uat0YzpZg7M2R70AmFDRBrXZwiMpsmGepF2V+w8/GY0F6sUFA3ZmikYynt6h1Fj/l+cijMsv5hBSfs7uRG6nfIGmLBT3eX09Vdlm4+6b973PshXKYMMeIhsrlEJ0ctFf/+tri0ArBe+RzH+B5S9DGFv76Qo/xYHXXaNKxDYJqaMPUtr/R7rrHEXXLmh8th7BMIR0v1zNix7ahfYiFZZdOwALjyzYfEsJ869JVeo8dzBzwD3KgM1x37olSbDfeEilBW2wH6ir992ppMC2mR3aXEWsFWdRpcK62sBqTIvw1T6JNgiVXq3nvdG0JvNeTXAKaM="
+            "ext": "AXBlmIaXssBpd3Fa+kwjwLQb1/iS17U9n98QF7PrEQQBsrDqGYa/UHvP9eMSQFc7xxy63YaGklVEc+zsxq7CHCQEnNfRoaZdDnwsUwKmWxnYn4lRh3CRnB6gOvpRkamwTzo6Ytzy0enTk/xpedKn+Z8DUSn7CsdzN51bXQA8I2K32X7yAnnIKXwZfslGY5H8Y0eMEYSLh/Ny+xy2UQO2jT7GrWI9Ih8uT6wSdIXGXAnpjySRe5YMMXwVltzCkBw0Ow=="
         },
         {
             "key": "麒麟",
@@ -192,7 +205,23 @@
             "type": 3,
             "changeable": 0,
             "api": "csp_AppFox",
-            "ext": "GvE9VjZcKAqoJldDfjF/ECcNd1RQlbzQsau0pQNOL/YWscnJYTMdB9NKsGcYtklo"
+            "ext": "Ac9bpM2BcSDtRFXJIKv7cKam+MagzI4MRN9VkD0cdbZYR2sdZMY+KrFlbb/4YNndRu8tZ6ryTJc7jJekLp6O4gnnRwzqwP3+4rp/r5A5u/Qt"
+        },
+        {
+            "key": "Libvio",
+            "name": "立播｜4K",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://www.libvio.in",
+                    "https://www.libvio.la",
+                    "https://www.libvio.site",
+                    "https://www.libvio.mov"
+                ]
+            }
         },
         {
             "key": "gying",
@@ -215,14 +244,6 @@
                     "https://www.gyg.st"
                 ]
             }
-        },
-        {
-            "key": "panglian1",
-            "name": "盘链｜4K",
-            "type": 3,
-            "api": "csp_PanLian",
-            "searchable": 1,
-            "changeable": 1
         },
         {
             "key": "FishLabi",

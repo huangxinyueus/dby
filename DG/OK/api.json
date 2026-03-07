@@ -371,21 +371,6 @@
             "timeout": 10
         },
         {
-            "key": "紫金",
-            "name": "🍇紫金┃App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "AppFox",
-                "siteUrl": "https://www.zjcvod.com"
-            },
-            "timeout": 10
-        },
-        {
             "key": "独播",
             "name": "👠独播┃直连",
             "type": 3,
