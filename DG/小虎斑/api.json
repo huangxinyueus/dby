@@ -422,12 +422,6 @@
             }
         },
         {
-            "key": "苹果",
-            "name": "苹果|弹幕",
-            "type": 3,
-            "api": "csp_HBPguo"
-        },
-        {
             "key": "天天",
             "name": "天天|弹幕",
             "type": 3,
@@ -680,7 +674,12 @@
         {
             "name": "自定：请先设置",
             "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+            "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getuserjx&url="
+        },
+        {
+            "name": "布偶",
+            "type": 1,
+            "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi1&url="
         },
         {
             "name": "晴天4K Q1026038872",
@@ -688,45 +687,20 @@
             "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi&url="
         },
         {
+            "name": "虎斑AB",
+            "type": 1,
+            "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getAbjx&url="
+        },
+        {
             "name": "虎斑XM",
             "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getXmflvjx&url=",
+            "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getXmflvjx&url=",
             "ext": {
                 "header": {
                     "Accept": "*/*",
                     "Origin": "https://jx.xmflv.com"
                 }
             }
-        },
-        {
-            "name": "虎斑szy",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getszyjx&url="
-        },
-        {
-            "name": "虎斑mt4K",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getmgtvjx&url="
-        },
-        {
-            "name": "虎斑HJ",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=gethuajx&url="
-        },
-        {
-            "name": "虎斑WS",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getWsjx&url="
-        },
-        {
-            "name": "虎斑AB",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getAbjx&url="
-        },
-        {
-            "name": "虎斑V6",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getV6jx&url="
         }
     ],
     "flags": [
