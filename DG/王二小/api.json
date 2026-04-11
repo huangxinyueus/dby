@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20260406】🐮",
+            "name": "🐮【更新日期:20260410】🐮",
             "type": 3,
             "api": "csp_NewDouBanGuard",
             "searchable": 0,
@@ -215,14 +215,6 @@
             "changeable": 1
         },
         {
-            "key": "WexXiongYing",
-            "name": "💥雄鹰┃秒播💥",
-            "type": 3,
-            "api": "csp_WexXiongYingGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "WexBoBo",
             "name": "🎇伯伯┃秒播🎇",
             "type": 3,
@@ -335,6 +327,14 @@
             "changeable": 1
         },
         {
+            "key": "AnimeFanShu",
+            "name": "🤡番薯┃动漫🤡",
+            "type": 3,
+            "api": "csp_AnimeFanShuGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "AnimeXiFan",
             "name": "🤡稀饭┃动漫🤡",
             "type": 3,
@@ -364,6 +364,22 @@
             "name": "🎃‍无忧┃听书🎃",
             "type": 3,
             "api": "csp_BookWuWeiGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "BookTingShu",
+            "name": "🎃‍精品┃听书🎃",
+            "type": 3,
+            "api": "csp_BookTingShuGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Book23TingShu",
+            "name": "🎃‍爱上┃听书🎃",
+            "type": 3,
+            "api": "csp_Book23TingShuGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -426,6 +442,26 @@
                 "type": "rect",
                 "ratio": 2
             }
+        },
+        {
+            "key": "MusicLiYuan",
+            "name": "🎎戏曲┃秒播🎎",
+            "type": 3,
+            "api": "csp_MusicLiYuanGuard",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 2
+            }
+        },
+        {
+            "key": "MusicQingTing",
+            "name": "🎼蜻蜓┃电台🎼",
+            "type": 3,
+            "api": "csp_MusicQingTingGuard",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "MusicIKtv",

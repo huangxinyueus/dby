@@ -67,7 +67,7 @@
         },
         {
             "key": "seed",
-            "name": "💡聚剧剧┃三盘",
+            "name": "💡聚剧剧┃四盘",
             "type": 3,
             "api": "csp_SeedhubGuard",
             "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
@@ -81,7 +81,7 @@
         },
         {
             "key": "ZPan",
-            "name": "🎈聚盘搜┃三盘",
+            "name": "🎈聚盘搜┃四盘",
             "type": 3,
             "api": "csp_S_zpsGuard",
             "searchable": 1,
@@ -470,7 +470,7 @@
         },
         {
             "key": "米搜",
-            "name": "🦋米搜┃优夸",
+            "name": "🦋米搜┃夸嘟",
             "type": 3,
             "api": "csp_MIPanSoGuard",
             "searchable": 1,

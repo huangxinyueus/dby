@@ -442,18 +442,6 @@
             "jar": "./jars/弹幕.jar"
         },
         {
-            "name": "🍩甜圈短剧",
-            "key": "甜圈短剧",
-            "type": 3,
-            "api": "csp_TQdjAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama",
-            "jar": "./jars/弹幕.jar"
-        },
-        {
             "name": "🐱喵喵短剧",
             "key": "喵喵短剧",
             "type": 3,

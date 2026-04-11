@@ -34,11 +34,9 @@
                 "site_urls": [
                     "https://pan.mihdr.top",
                     "https://www.zhizhen1.top",
-                    "https://mihdr.top",
                     "https://www.mihdr.top",
                     "https://www.miqk.cc",
-                    "https://zhizhenpan.com",
-                    "https://zhizhen8.click",
+                    "https://www.zhizhenpan.com",
                     "https://www.zhizhen8.click"
                 ],
                 "url_key": "Netfixtv",
@@ -61,8 +59,7 @@
                     "https://www.erxiaozhan.top",
                     "https://www.2xiaozhan.top",
                     "https://www.2xiaopan.top",
-                    "https://www.wexwp.cc",
-                    "https://wexwp.cc"
+                    "https://www.wexwp.cc"
                 ],
                 "url_key": "UC",
                 "token": "",
@@ -179,7 +176,7 @@
             "name": "⭐星河┃1080P",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt|kj37zs29q22jk96t|122|okhttp/3.10.0|Lavf/58.12.100"
+            "ext": "http://117.50.204.35:8090|ca94b06ca3c7d80e|122|okhttp/3.10.0|Lavf/58.12.100"
         },
         {
             "key": "爱营",
@@ -201,7 +198,7 @@
         },
         {
             "key": "世界",
-            "name": "🐭世界｜1080P",
+            "name": "🏙️世界｜1080P",
             "type": 3,
             "timeout": 15,
             "api": "csp_AppGet",
@@ -209,7 +206,7 @@
         },
         {
             "key": "仓鼠1080P",
-            "name": "🐭仓鼠｜1080P",
+            "name": "🐑仓鼠｜1080P",
             "type": 3,
             "timeout": 15,
             "api": "csp_AppGet",
@@ -229,6 +226,12 @@
             "type": 3,
             "timeout": 15,
             "api": "csp_App3Q"
+        },
+        {
+            "key": "独播库",
+            "name": "⛵播库|影视",
+            "type": 3,
+            "api": "./api/VmOlRys8_vip.js"
         },
         {
             "key": "csp_SaoHuo",
