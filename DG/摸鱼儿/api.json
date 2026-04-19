@@ -1,4 +1,4 @@
-//资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
+//资源全部免费，仅供测试交流，请勿内置传播与转卖，微信公众号：奇奇资源库，交流Q群号码：90859992。
 
 {
     "spider": "./spider.jar",
@@ -165,37 +165,28 @@
             "key": "思追",
             "name": "思追丨APP",
             "type": 3,
-            "api": "csp_AppQi",
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "ext": "AXWocdyEmc02GdKtON+2yd7P2uD1HWlKHM3YrD9Uifedy+6SbcdH8TVHuIRauOiqPVbRbMFR8Pec58VZE3Z182Bh381NrWL9RD0qVgcQR0AKrR0e41KThsNXB7mMj4lVtZy1DNhIQTp0KBzRf8x1OnL+i2ZPU3OPmqm8XQOMUg8JRiieP7GhmTsHf/I8WjViOEx4ZO7JzvZ+pEk/3/hiuVq1pL02U+mY66zkA0Qv43GZ"
+            "ext": "AXSPv1QTX2YODCabxYrWbjsonWnChCniisnkjUUKrxIvZiN5ZktdpPDujWS4CAfVWUrveohU/an8/qxoDr0wQVRV3lQOXz6ywxR0zjhG9ORIdfxw5I7qLcNJe+qiBm1wqruUd1Yz51BKS05LZ0w2Be5fhRK1oc5kmaIaf0iKyvrN85ApJLoJBEKsUzh+wdVgr5Dx69uvVk+tq/QcoUDCKC8="
         },
         {
             "key": "琼林",
             "name": "琼林｜APP",
             "type": 3,
-            "api": "csp_AppQi",
-            "ext": "AW8zc43nkd9VeK5DW/DjDZZyQ8CitfFSJkst0xRXhXKcj6hD8v1lusJ6ESqiEdq4U9Sr7SwyYTtqa4cJasPcQfIJNNXAbtzzK1SRuX5y5rV0MoS7+vWxG8iPCQvXee+amQTW4IiuoWX3HVnOSd+ViPayPdXO+rvvR+ymyTYToZAW8UikQ/chpFk3HKJ+bLBq/FejMjlZvZdbCyM/3ZYxY9E="
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "AcypoLshXevaIwOchXsBiqVf7biLBwhTaXaYdcHA/t0fxoRZzxiPzwGnjZloUZJZJCCZCpLRBLloE5f+AW99EejxMtfNbZDoLH1X93KzLQ9LG8OXt9CHd/XEdN1n84kpwTxP5c9LF3ai3g+rq0wwqg+FzphyK0RQOCgjZT6PwiaOxBDQn1JVMQx0QG2uWNnvAhN75N08N9LkABpolWUReeA="
         },
         {
-            "key": "忘机",
-            "name": "忘机｜APP",
+            "key": "秒看",
+            "name": "秒看｜APP",
             "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "AVXYDOeB/e2Zo9SElMnckVbtaTsb8ch9KCrhVx810+mfwrY1WkTsLDW4MFebXHk1rTmSEbbkpwAjfY05iNJUmCGDO8MEzTxRt1ZGwEbD9xasdNga71gnFVOR6tNbSL/Yel9RRuQp3jKScnBjH7XqGfBjy6H3T3U8UuzbuVHwNOXYoWlYYw3eb7z0/Z+GotNka0HTGycPyX6fSxaLTLzy9z/iezcYLAJIVkSPqCAHQy1igFHgQqhqoJeHsv/rBAZWiQ=="
-        },
-        {
-            "key": "曦臣",
-            "name": "曦臣｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "AcQgxCZJh0zfuqWhi3EWO0lHZHvcxjcjkSwh/L0j5HEY9Fq3+o2hdqQXb/2viRHayRmBY64JuCWIkKKgRdpy650qa/qp5Yx5LMXbHLNBOw7Y2ZGmPIKIXZw4s07EI1OuOTxg5Jj1a2VvZaGGrWPO5Zx84C6LNBDniS3O/XXNtDexGf7mP03SjlVcLkS00BSjgZJIy7PZA3fuP0lUeIdK+T0JzxKFrX5IxrgxOGYTCb4UUXOKaASBFqPcbpdj1SMNkCxWhqz9lcA8n+r81dRn4TMOKoyFaxJmX3DfKc1UzGgH"
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "AVlCCt+oOgyuCbgzPqfoCV8aVKt6GVz95SmNTP/fjcYOaI/FHSztIzyB71UwnDj8Wl8vIJ8/EHCs6roRZVoZIXpZqMCsWfq1iRvgEIv9guv2R58kKcfzyjbYEKyJaNJ62TAai1SQAGgKyYO3cIVjpmmVTQN7qyQimzAst8ulMljg+BGAg+B53sn58TnLVM0KzVeba8CvHR/qdOmiXcmoIGf6HtPEOI/4/EIeBhf05qkJ2XBHZaoTQhRzV65NzZxhkSsf/KUw+p1cFdBEsTMqrjRZp+nWvBrgI6vKk9WCS2Vd0m6NJ2iZAG8xq/Q8pGKIjA=="
         },
         {
             "key": "麒麟",

@@ -1,4 +1,4 @@
-//资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
+//资源全部免费，仅供测试交流，请勿内置传播与转卖，微信公众号：奇奇资源库，交流Q群号码：90859992。
 
 {
     "spider": "./spider.jar",
@@ -32,12 +32,11 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
+                    "https://www.zhizhen8.click",
                     "https://pan.mihdr.top",
                     "https://www.zhizhen1.top",
                     "https://www.mihdr.top",
-                    "https://www.miqk.cc",
-                    "https://www.zhizhenpan.com",
-                    "https://www.zhizhen8.click"
+                    "https://www.miqk.cc"
                 ],
                 "url_key": "Netfixtv",
                 "token": "",
@@ -76,7 +75,7 @@
             "changeable": "0",
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "mAdMvijsdpLz+xMtYQCW1nJ+mpefKKrleWG+USa3HASosYowG2Xe9BbL8zxHG1DkWdiVh0m6LG6VYMJFvR3xW7OinT8T49Syz2URwzKvNBjZfpQG6/DDnE8BWZ6D0Fis6qvUniDw6LNh5NC5nYC3n/ksXurTx/CR+fIdbq5f9LTzYVBl2JAOANmX1v3Ps8K0sKsLP9hZvweUoE36pPzb54LMqIRhoIBjcmrJFlRcrbwo2Vqv8R8x6ZbBV6I9ErFQwdq9i54PytUYdEaQoxGnuTsKaqxNFGC95gs9voNh+64="
+            "ext": "mAdMvijsdpLz+xMtYQCW1nJ+mpefKKrleWG+USa3HAQF0Wda8x8BRQSJRodHFY2hKQz4xOGzqrkdk6J3GyKwYzUDE31AC1/hAwHPGdQFMTIRRA80BfktmoKy2H4fPLkpolzUjDlsCu/ltzqKSl/lA9FIni4h7a11NXpsLzP/Dtp2nY7912lB450Oa2DUtHRJM4eS7Go0zQ8EsBiykV+SQpMNy/e6vaLBPedzLCl7yJjJuxSW9wfH0YfBA2mmUvts"
         },
         {
             "key": "csp_Duopan",
@@ -94,7 +93,8 @@
                     "http://www.labi88.sbs",
                     "http://fmao.site",
                     "http://fmao.shop",
-                    "http://xiaocgege.shop"
+                    "http://xiaocgege.shop",
+                    "http://www.xiaocgege.shop"
                 ],
                 "url_key": "Duopan4"
             }
@@ -166,17 +166,17 @@
         },
         {
             "key": "花猪",
-            "name": "🐷花猪┃1080P",
+            "name": "🐷花猪｜1080P",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://niuhulu.oss-cn-hangzhou.aliyuncs.com/niuniu.txt|uxxDgHxsdoSgVGZZ|122|okhttp/3.10.0|Lavf/58.12.100"
         },
         {
-            "key": "幕启星河",
-            "name": "⭐星河┃1080P",
+            "key": "四叶草",
+            "name": "🍀星叶｜1080P",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "http://117.50.204.35:8090|ca94b06ca3c7d80e|122|okhttp/3.10.0|Lavf/58.12.100"
+            "ext": "https://qj4.catbb.xyz|eecbio48dsq13kkk|122|okhttp/3.10.0|Lavf/58.12.100"
         },
         {
             "key": "爱营",
@@ -185,40 +185,7 @@
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
-            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q21.txt|okkfKgnc9JIBISh1|122"
-        },
-        {
-            "key": "星河",
-            "name": "💥可以｜1080P",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/APP.txt|kB79jPQIpDxxcy7y|122"
-        },
-        {
-            "key": "世界",
-            "name": "🏙️世界｜1080P",
-            "type": 3,
-            "timeout": 15,
-            "api": "csp_AppGet",
-            "ext": "https://4ksjcms.4ksj.app|bF4fD1fC0gR0mB0b"
-        },
-        {
-            "key": "仓鼠1080P",
-            "name": "🐑仓鼠｜1080P",
-            "type": 3,
-            "timeout": 15,
-            "api": "csp_AppGet",
-            "ext": "https://qjappcms410.xy4k.com|mC6kG4mI1uM8tS4o|122"
-        },
-        {
-            "key": "金牌影院GET",
-            "name": "🥇金牌｜1080P",
-            "type": 3,
-            "timeout": 15,
-            "api": "csp_AppGet",
-            "ext": "https://qj3.ggtvb.cc|eecbio48dsq13kkk|122"
+            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q22.txt|nzEqOYYH3QzHuEPl|122|Lavf/58.12.100"
         },
         {
             "key": "3QQQ",
@@ -229,19 +196,19 @@
         },
         {
             "key": "独播库",
-            "name": "⛵播库|影视",
+            "name": "🔥播库｜标清",
             "type": 3,
             "api": "./api/VmOlRys8_vip.js"
         },
         {
             "key": "csp_SaoHuo",
-            "name": "🔥火火┃影视",
+            "name": "🔥火火｜影视",
             "type": 3,
             "api": "csp_SaoHuo"
         },
         {
             "key": "追剧达人",
-            "name": "💢追剧┃影视",
+            "name": "💢追剧｜影视",
             "type": 3,
             "jar": "./jars/追剧达人.jar",
             "api": "csp_AppV6",
@@ -250,7 +217,7 @@
         },
         {
             "key": "特狗",
-            "name": "💥特狗┃影视",
+            "name": "💥特狗｜影视",
             "type": 3,
             "jar": "./jars/追剧达人.jar",
             "api": "csp_AppV6",
@@ -259,7 +226,7 @@
         },
         {
             "key": "大师兄",
-            "name": "💨师兄┃影视",
+            "name": "💨师兄｜影视",
             "type": 3,
             "jar": "./jars/追剧达人.jar",
             "api": "csp_AppV6",
@@ -279,7 +246,7 @@
                 "type": "rect",
                 "ratio": 1.333
             },
-            "ext": "https://fg7q8g.zxesz.com"
+            "ext": "https://api.ztcgi.com"
         },
         {
             "key": "番剧2",
@@ -301,7 +268,7 @@
         },
         {
             "key": "Huya",
-            "name": "🎮游戏┃直播",
+            "name": "🎮游戏｜直播",
             "type": 3,
             "jar": "./jars/追剧达人.jar",
             "api": "csp_Huya",
@@ -317,7 +284,7 @@
         },
         {
             "key": "Douyu",
-            "name": "🎮手游┃直播",
+            "name": "🎮手游｜直播",
             "type": 3,
             "api": "csp_Douyu",
             "jar": "./jars/追剧达人.jar",
@@ -410,7 +377,7 @@
         {
             "name": "🐮牛牛2",
             "type": 1,
-            "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+            "url": "",
             "ext": {
                 "flag": [
                     "QD4K",
@@ -442,19 +409,6 @@
             "regex": [
                 "video/tos/cn"
             ]
-        },
-        {
-            "name": "豆瓣图片",
-            "hosts": [
-                "doubanio.com"
-            ],
-            "regex": [
-                "view/photo",
-                "m_ratio_poster",
-                "public",
-                "jpg"
-            ],
-            "referer": "https://www.douban.com/"
         },
         {
             "name": "火山",
