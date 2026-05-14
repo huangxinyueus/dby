@@ -654,15 +654,15 @@
     ],
     "lives": [
         {
-            "name": "Kimentanm",
-            "type": 0,
-            "url": "./lives/Kimentanm.txt"
-        },
-        {
             "name": "develop202",
             "type": 0,
             "url": "./lives/develop202.txt",
             "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "Kimentanm",
+            "type": 0,
+            "url": "./lives/Kimentanm.txt"
         },
         {
             "name": "范明明（需开启V6网络）",
