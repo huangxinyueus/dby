@@ -14,15 +14,6 @@
             "searchable": 0
         },
         {
-            "key": "豆瓣1",
-            "name": "📢公告❤更新日志 ❤",
-            "type": 3,
-            "api": "csp_Notice",
-            "searchable": 1,
-            "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告?b=an装🅱na"
-        },
-        {
             "key": "config",
             "name": "🐲歌配置｜中心",
             "type": 3,
@@ -1335,31 +1326,8 @@
             "searchable": 0,
             "filterable": 0,
             "changeable": 0
-        },
-        {
-            "key": "应用商店",
-            "name": "🛒本地包更新",
-            "type": 3,
-            "api": "csp_Market",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/zm/sd?b=an装🅱na"
-        },
-        {
-            "key": "豆瓣3",
-            "name": "📢接口软件永远免费",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
-        {
-            "key": "豆瓣4",
-            "name": "📢长期维护切勿贩卖",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        }
-    ],
+        } 
+           ],
     "parses": [
         {
             "name": "-聚合-",
