@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "本地包更新",
-            "name": "💞本地包｜0527",
+            "name": "💞本地包｜0613",
             "type": 3,
             "api": "csp_Market",
             "jar": "./jars/gx.jar",
@@ -69,20 +69,6 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": "./json/MTV.json"
-        },
-        {
-            "key": "酷奇",
-            "name": "🎤酷奇┃MV",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "哔哩哔哩",
