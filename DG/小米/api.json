@@ -14,10 +14,10 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🎬豆瓣┃精选 仅供测试 备用：https://zzzy.shop/tv/",
+            "name": "🎬豆瓣┃精选 仅供测试 端午快乐 备用：https://zzzy.shop/tv/",
             "type": 3,
             "quickSearch": 0,
-            "filterable": 0,
+            "filterable": 1,
             "changeable": 0,
             "api": "csp_Douban",
             "searchable": 0
@@ -31,7 +31,7 @@
         },
         {
             "key": "csp_Netfixtv",
-            "name": "🚀臻臻┃网盘4K",
+            "name": "🚀🚀臻臻┃网盘4K",
             "type": 3,
             "changeable": "0",
             "quickSearch": 1,
@@ -42,7 +42,7 @@
         },
         {
             "key": "csp_Netfixtv2",
-            "name": "🛸指南┃网盘4K",
+            "name": "🚀🛸指南┃网盘4K",
             "type": 3,
             "changeable": "0",
             "quickSearch": 1,
@@ -71,7 +71,7 @@
             "timeout": 15,
             "api": "csp_Duopan",
             "filterable": 1,
-            "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg+ee307Jolxt57nLC0OB8QTAaQECXgoCdfa+NAfFr50Q0H20uUd1aQ2nma/GKLE53c0RMg3NEC3dBwNh6UdN2slbUiTpN+SkYF7RJUFQc5IlGg4kPKQWjMvzkeO4RHNiq2oSisJQQ/FbSj0hw6ktZJz4mLQ8mbVsfuOatef0Ue5KXA8xrK3J+XhzJjUrTUe24GVUYl3hRKLajYtEuMTwrEAd/vXe9ErtvmcJZBuyPsHWzCNBAFYHQg4FVt1Nz5pmCx6PICr7dIAOYDaRI7LlTXJrZmRQGrlm+hda8npQ8itTE0V/J29Wxk5vJM/Vfjb3gthaOyL890yzXgimA5ac82x6j+pgLXVSPDUH+sXveZv+bR8DfjUCPlz7r5FPjj3Rhw="
+            "ext": "PfoQ21FsXzLNOjwZ8RymNbY02A9VYBmEHmajoh4nXXACJNPrFj69vwxLj4d68ngPJt1wGvT+PkUSe7Ve1o+8RfpcIgYf7LjjHi4sx2hg57mhdmuP1DykCFCSlHwod+owmc53QmJuMs2SFn4Xeui077ckz2HYEja6zFdw5FDx1ko6D6lkQzK2FDRT7tMYjOXswOcpONJ6hA87KN+UJ6aiBHrzD4tENYc0UvImSwakK5A9rN7at/RviVt+nu5o8IBC19uR4eCpBDpnpoY2/PpOWQ=="
         },
         {
             "key": "天天",
@@ -146,7 +146,7 @@
             "timeout": 12,
             "searchable": 1,
             "ext": {
-                "json": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/50e4430df0b5644f/bilibil.json",
+                "json": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/db3b02559ec04736/bili.json",
                 "cookie": ""
             },
             "style": {
@@ -193,10 +193,25 @@
             "ext": "https://asd123sx23xdacsx.top"
         },
         {
+            "key": "山楂",
+            "name": "🔴山楂┃1080P",
+            "type": 3,
+            "timeout": 15,
+            "api": "./api/shanzha.py",
+            "ext": ""
+        },
+        {
             "key": "csp_SaoHuo",
             "name": "🔥火火┃1080P",
             "type": 3,
             "api": "csp_SaoHuo"
+        },
+        {
+            "key": "csp_Czsapp",
+            "name": "🏭厂长┃影视",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "ext": "https://www.4kcz.com"
         },
         {
             "key": "麦田",
@@ -223,41 +238,8 @@
             }
         },
         {
-            "key": "追番达人99",
-            "name": "🐎追番┃1080P",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "https://app2026.ystva.com/api",
-                "LoginPath": "/app/log",
-                "version": "f341a4e57976d59e",
-                "appkey": "f3a8a193a7dc782cbc294159fcd91faf",
-                "versionName": "6.1.1",
-                "name": "追番达人",
-                "package": "com.yuaiweiwu.aixue.zfdr",
-                "buildNumber": "2001",
-                "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
-            }
-        },
-        {
-            "key": "咕噜99",
-            "name": "👀咕噜丨APP",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://103.45.132.22:19987/app/bn",
-                "LoginPath": "/app/log",
-                "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-                "versionName": "1.9.5",
-                "name": "咕噜咕噜",
-                "package": "com.bd.tool.gulu",
-                "buildNumber": "2001",
-                "buildSignature": "B07C8F6DBEBD3ABEE6A4A4DE2BFBBF29A0AC3F984D532A39448EC3BF5DD36311"
-            }
-        },
-        {
             "key": "剧圈99",
-            "name": "🫎剧圈丨APP",
+            "name": "🫎剧圈丨1080P",
             "type": 3,
             "api": "csp_App99",
             "ext": {
@@ -272,7 +254,7 @@
         },
         {
             "key": "顾我99",
-            "name": "🖼️顾我丨APP",
+            "name": "🖼️顾我丨1080P",
             "type": 3,
             "api": "csp_App99",
             "ext": {
