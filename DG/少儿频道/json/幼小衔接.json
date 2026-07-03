@@ -12,7 +12,7 @@
 		{"type_name":"看图说话","type_id":"看图说话"}
 		],
 
-	"filter":{
+	"filters":{
 		"识字启蒙":[
 			{"key":"tid","name":"分类","value":[
 				{"n":"全部","v":"识字启蒙"},

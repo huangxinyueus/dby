@@ -8,14 +8,14 @@
     "sites": [
         {
             "key": "豆瓣2",
-            "name": "📢龙马精神、金戈铁马、骏马迎春、马行千里！",
+            "name": "📢网络收集免费仅限测试用内置接口会崩溃！",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢公告❤更新0627❤",
+            "name": "📢公告❤更新0702❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 1,
@@ -60,7 +60,7 @@
                 ],
                 "url_key": "wogg1",
                 "threadinfo": {
-                    "chunksize": 412,
+                    "chunksize": 466,
                     "threads": 16
                 }
             }
@@ -83,7 +83,7 @@
                 ],
                 "url_key": "woog2",
                 "threadinfo": {
-                    "chunksize": 493,
+                    "chunksize": 422,
                     "threads": 16
                 }
             }
@@ -317,29 +317,6 @@
                 "init": "initV120",
                 "ua": "okhttp/3.10.0"
             }
-        },
-        {
-            "key": "咕噜",
-            "name": "👑咕噜丨APP",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://103.45.132.22:19987/app/bn",
-                "LoginPath": "/app/log",
-                "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-                "versionName": "1.9.5",
-                "name": "咕噜咕噜",
-                "package": "com.bd.tool.gulu",
-                "buildNumber": "2001",
-                "buildSignature": "B07C8F6DBEBD3ABEE6A4A4DE2BFBBF29A0AC3F984D532A39448EC3BF5DD36311"
-            }
-        },
-        {
-            "key": "峥嵘",
-            "name": "👑峥嵘｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": "https://api2026.hboqy.cn"
         },
         {
             "key": "毒舌影视",
@@ -972,27 +949,22 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=274&mz=0&url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-                }
-            }
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2be&mz=0&url="
         },
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=274&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2be&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=274&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2be&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=274&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2be&mz=3&url="
         },
         {
             "name": "装歌APP",
@@ -1002,43 +974,22 @@
         {
             "name": "线路1",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"
-                }
-            }
+            "url": "https://jx.xmflv.com/?url="
         },
         {
             "name": "线路2",
             "type": 0,
-            "url": "http://www.ckplayer.vip/jiexi/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-                }
-            }
+            "url": "http://www.ckplayer.vip/jiexi/?url="
         },
         {
             "name": "线路3",
             "type": 0,
-            "url": "https://jx.yparse.com/index.php?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-                }
-            }
+            "url": "https://jx.yparse.com/index.php?url="
         },
         {
             "name": "线路4",
             "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36",
-                    "referer": "https://jiejie.uk/"
-                }
-            }
+            "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
             "name": "线路5",

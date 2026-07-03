@@ -69,7 +69,7 @@
 		{"type_name":"了不起的新科技","type_id": "小灯塔了不起的新科技"}
 	],
 	
-	"filter":{
+	"filters":{
 		
 		"10天玩转世界top10博物馆":[
 			{"key":"tid","name":"分类","value":[

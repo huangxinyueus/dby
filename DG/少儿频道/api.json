@@ -4,6 +4,16 @@
     "spider": "./spider.jar",
     "sites": [
         {
+            "key": "哔哩哔哩",
+            "name": "🅱️哔哩合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/bili.json"
+        },
+        {
             "key": "csp_XYQHiker_兔小贝",
             "name": "🐰兔小贝",
             "type": 3,
@@ -71,7 +81,7 @@
             "name": "🌏小灯塔",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/小灯塔百科.json"
@@ -201,7 +211,7 @@
             "name": "🌏兴趣培养",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/兴趣培养.json"
@@ -246,16 +256,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./json/央视经典.json"
-        },
-        {
-            "key": "哔哩哔哩",
-            "name": "🅱️哔哩合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/bili.json"
         }
     ],
     "parses": [

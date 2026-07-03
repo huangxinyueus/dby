@@ -277,6 +277,22 @@
             }
         },
         {
+            "key": "123社区",
+            "name": "🥉社区┃[网盘]",
+            "type": 3,
+            "timeout": 60,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_Pan123Fx",
+            "ext": {
+                "cookie": "",
+                "filters": "http://rihou.cc:88/json/pan123fx.json",
+                "comment": ""
+            }
+        },
+        {
             "key": "csp_QiWei",
             "name": "🏇七味┃[网盘]",
             "type": 3,
@@ -305,7 +321,8 @@
             "timeout": 60,
             "ext": {
                 "filters": "http://rihou.cc:88/json/xxzn.json",
-                "sites": "https://4kzn.com"
+                "sites": "https://4kzn.com",
+                "proxy": "proxy"
             }
         },
         {
@@ -802,7 +819,7 @@
         },
         {
             "key": "csp_Biliyy",
-            "name": "🅱️哔哩┃[哗哩]",
+            "name": "🅱️音乐┃[哗哩]",
             "type": 3,
             "api": "csp_BiliJs",
             "filterable": 1,
