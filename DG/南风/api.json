@@ -670,7 +670,8 @@
                 "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
                 "siteUrl": [
                     "https://www.2xiaopan.top",
-                    "https://2xiaopan.top"
+                    "https://2xiaopan.top",
+                    "https://wexwp.cc"
                 ],
                 "filter": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/wogg.json"
             }
@@ -822,30 +823,6 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://1.star2.cn",
-                "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
-            }
-        },
-        {
-            "key": "FourKZN",
-            "name": "️4️⃣4k指南",
-            "type": 3,
-            "api": "csp_FourKZN",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
-            }
-        },
-        {
-            "key": "盘Ta",
-            "name": "🍥盘Ta",
-            "type": 3,
-            "api": "csp_PanTa",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "siteUrl": "https://www.91panta.cn/",
                 "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
             }
         },

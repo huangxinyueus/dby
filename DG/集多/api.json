@@ -60,18 +60,11 @@
             "changeable": 0
         },
         {
-            "key": "Nostr",
-            "name": "🎿推荐┃[盘搜]",
+            "key": "wojh",
+            "name": "🎿玩偶┃[网盘]",
             "type": 3,
             "api": "csp_Nostr",
-            "homePage": "https://www.252035.xyz/xs/tvbox/nostr.html"
-        },
-        {
-            "key": "Nostr2",
-            "name": "🏄Nostr┃[盘搜]",
-            "type": 3,
-            "api": "csp_Nostr",
-            "homePage": "https://www.252035.xyz/xs/tvbox/test.html"
+            "homePage": "http://rihou.cc:88/html/wo.html"
         },
         {
             "key": "Eclipse",
@@ -380,7 +373,7 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "https://sd.sduc.site",
+                "sites": "http://shandian.blog",
                 "filters": "http://rihou.cc:88/json/wogg2.json",
                 "proxy": "noproxy"
             }
@@ -603,14 +596,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./json/啊哈DJ网.json",
-            "jar": "./jars/夸克短剧.jar"
-        },
-        {
-            "key": "100听书",
-            "name": "📚100┃[听看]",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/100听书.json",
             "jar": "./jars/夸克短剧.jar"
         },
         {
