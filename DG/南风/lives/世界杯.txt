@@ -1,26 +1,14 @@
 #EXTM3U x-tvg-url="https://epg.zsdc.eu.org/t.xml"
 #EXTINF:-1 tvg-name="注意事项" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/notice.jpg" group-title="注意事项",注意事项
 https://cdn.jsdelivr.net/gh/jkwu5472/first/media.m3u8
-#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5.png" group-title="普通频道",cctv5
-http://82.156.243.185:36888/av3a/cctv5n.m3u8
-#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5p.png" group-title="普通频道",cctv5p
-http://82.156.243.185:36888/av3a/cctv5pn.m3u8
-#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv16.png" group-title="普通频道",cctv16
-http://82.156.243.185:36888/av3a/cctv16n.m3u8
-#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv4k.png" group-title="普通频道",cctv4k
-http://82.156.243.185:36888/av3a/cctv4kn.m3u8
-#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv8k.png" group-title="普通频道",cctv8k
-http://82.156.243.185:36888/av3a/cctv8kn.m3u8
-#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5.png" group-title="AV3A频道",cctv5-av3a
-http://82.156.243.185:36888/av3a/cctv5.m3u8
-#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5p.png" group-title="AV3A频道",cctv5p-av3a
-http://82.156.243.185:36888/av3a/cctv5p.m3u8
-#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv16.png" group-title="AV3A频道",cctv16-av3a
-http://82.156.243.185:36888/av3a/cctv16.m3u8
-#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv4k.png" group-title="AV3A频道",cctv4k-av3a
-http://82.156.243.185:36888/av3a/cctv4k.m3u8
-#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv8k.png" group-title="AV3A频道",cctv8k-av3a
-http://82.156.243.185:36888/av3a/cctv8k.m3u8
+#EXTINF:-1 tvg-name="TSN 4K" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos/countries/canada/tsn-4k-ca.png" group-title="4K英文解说",TSN 4K
+https://kan.waiguotai.top/p/e755232a-1c0f-4bd6-bfbd-6ff95e78d29e
+#EXTINF:-1 tvg-name="Fox Sports 4K HDR" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fox.png" group-title="4K英文解说",Fox Sports 4K HDR
+https://watch.yingyujieshuo.top/p/93b26e23-94a0-42eb-9fbd-500c8374acb5
+#EXTINF:-1 tvg-name="FussBall TV" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fussball.png" group-title="4K杜比视界世界杯正赛",FussBall TV
+https://cdn.staticres.top/p/b1ea7ad7-d641-4c00-8b52-185c98fb9190
+#EXTINF:-1 tvg-name="4tos de Final: Francia v. Marruecos" group-title="4K杜比视界世界杯正赛",4tos de Final: Francia v. Marruecos_2026-07-10 03:40:00_1783626000000
+https://picture.shenniaokongque.top/event/4df3658b-f1ec-3648-be72-6a04c503733b
 #EXTINF:-1 tvg-name="世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d27h70069ip3a5i0000000000440f3dmm" group-title="4K世界杯回放",世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00
 http://82.156.243.185:34567/xhs/4459820
 #EXTINF:-1 tvg-name="世界杯4K回放-韩国vs捷克_2026-06-12 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d98u74069ip3a5i000000000040ihhf18" group-title="4K世界杯回放",世界杯4K回放-韩国vs捷克_2026-06-12 09:30:00
@@ -201,9 +189,15 @@ http://82.156.243.185:34567/xhs/4459732
 http://82.156.243.185:34567/xhs/4459801
 #EXTINF:-1 tvg-name="世界杯4K回放-巴拉圭vs法国_2026-07-05 04:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03222cilqu7u76k77ao0jp40000000006j9tnci" group-title="4K世界杯回放",世界杯4K回放-巴拉圭vs法国_2026-07-05 04:00:00
 http://82.156.243.185:34567/xhs/4459800
-#EXTINF:-1 tvg-name="FussBall TV" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fussball.png" group-title="4K杜比视界世界杯正赛",FussBall TV
-https://cdn.staticres.top/p/b1ea7ad7-d641-4c00-8b52-185c98fb9190
-#EXTINF:-1 tvg-name="8vos de Final: Brasil v. Noruega" group-title="4K杜比视界世界杯正赛",8vos de Final: Brasil v. Noruega_2026-07-06 03:40:00_1783280400000
-https://picture.shenniaokongque.top/event/407b94f1-ad3f-3731-9427-23e5eb10baaf
-#EXTINF:-1 tvg-name="8vos de Final: México v. Inglaterra" group-title="4K杜比视界世界杯正赛",8vos de Final: México v. Inglaterra_2026-07-06 06:10:00_1783289400000
-https://picture.shenniaokongque.top/event/9bda0e99-0720-3dce-ac25-53802f3bb618
+#EXTINF:-1 tvg-name="世界杯4K回放-巴西vs挪威_2026-07-06 03:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03222lfviuna06goq2oo30k000000000l9b9bg4" group-title="4K世界杯回放",世界杯4K回放-巴西vs挪威_2026-07-06 03:00:00
+http://82.156.243.185:34567/xhs/4459802
+#EXTINF:-1 tvg-name="世界杯4K回放-墨西哥vs英格兰_2026-07-06 07:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03223n7t73ne06goq2oo30k000000000gsbncvo" group-title="4K世界杯回放",世界杯4K回放-墨西哥vs英格兰_2026-07-06 07:00:00
+http://82.156.243.185:34567/xhs/4459803
+#EXTINF:-1 tvg-name="世界杯4K回放-葡萄牙vs西班牙_2026-07-07 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032253o8jd7k06goq2oo30k000000000nq1g7i8" group-title="4K世界杯回放",世界杯4K回放-葡萄牙vs西班牙_2026-07-07 02:00:00
+http://82.156.243.185:34567/xhs/4459804
+#EXTINF:-1 tvg-name="世界杯4K回放-美国vs比利时_2026-07-07 07:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03223rjvjunu06goq2oo30k000000000i2maogi" group-title="4K世界杯回放",世界杯4K回放-美国vs比利时_2026-07-07 07:30:00
+http://82.156.243.185:34567/xhs/4459805
+#EXTINF:-1 tvg-name="世界杯4K回放-阿根廷vs埃及_2026-07-07 23:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03226e5gc5na06goq2oo30k000000000g2788l8" group-title="4K世界杯回放",世界杯4K回放-阿根廷vs埃及_2026-07-07 23:00:00
+http://82.156.243.185:34567/xhs/4459806
+#EXTINF:-1 tvg-name="世界杯4K回放-瑞士vs哥伦比亚_2026-07-08 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03226foegs7e06goq2oo30k000000000mss5k68" group-title="4K世界杯回放",世界杯4K回放-瑞士vs哥伦比亚_2026-07-08 03:30:00
+http://82.156.243.185:34567/xhs/4459807

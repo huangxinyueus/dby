@@ -3,6 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
+    "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
     "sites": [
         {
             "key": "豆瓣",
@@ -80,22 +81,6 @@
             }
         },
         {
-            "key": "听心99",
-            "name": "听心 • APP",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "https://api.12321app.com/api",
-                "LoginPath": "/app/log",
-                "appkey": "a0a18659a9977a47e53442cd084b536c",
-                "versionName": "2.8.1",
-                "name": "听心视频",
-                "package": "com.iksp.adsys.jjsp",
-                "buildNumber": "2001",
-                "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
-            }
-        },
-        {
             "key": "橙子99",
             "name": "橙子 • APP",
             "type": 3,
@@ -140,6 +125,22 @@
                 "package": "com.yingfu.mobile.android.pgsp",
                 "buildNumber": "2003",
                 "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
+            }
+        },
+        {
+            "key": "咕噜",
+            "name": "咕噜 • APP",
+            "type": 3,
+            "api": "csp_App99",
+            "ext": {
+                "host": "http://103.45.132.22:19987/app/bn",
+                "LoginPath": "/app/log",
+                "appkey": "1a4c69b3c23e4cd2a315c26fb96cbac8",
+                "versionName": "2.0.5",
+                "name": "咕噜咕噜",
+                "package": "com.xiatianxiansheng.gulugulu",
+                "buildNumber": "2001",
+                "buildSignature": "8370FB5A96B50F39CC0FAEDE68759DFF6B0F0B6C6376331D8F22D171331DC96C"
             }
         },
         {
@@ -551,19 +552,6 @@
             "timeout": 60
         },
         {
-            "key": "盘它",
-            "name": "盘它 • 4K",
-            "type": 3,
-            "api": "csp_PanWebSharePT",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 60
-        },
-        {
             "key": "123",
             "name": "123 • 4K",
             "type": 3,
@@ -799,7 +787,7 @@
             "searchable": 1,
             "api": "csp_AppSy",
             "ext": {
-                "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
+                "url": "http://114.66.27.208:806",
                 "siteKey": "rectangleadsadxa",
                 "listKey": "aassddwwxxllsx1x",
                 "parsesKey": "aassddwwxxllsx1x"
@@ -970,6 +958,16 @@
             }
         },
         {
+            "key": "聚合",
+            "name": "聚合• 搜索",
+            "type": 3,
+            "api": "csp_JuheSo",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
             "key": "盘搜",
             "name": "盘搜 • 搜索",
             "type": 3,
@@ -980,20 +978,20 @@
             "timeout": 60
         },
         {
-            "key": "古哥",
-            "name": "古哥 • 搜索",
+            "key": "百酷",
+            "name": "百酷 • 搜索",
             "type": 3,
-            "api": "csp_GugeSo",
+            "api": "csp_Baiku",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
             "timeout": 60
         },
         {
-            "key": "百酷",
-            "name": "百酷 • 搜索",
+            "key": "酷乐",
+            "name": "酷乐 • 搜索",
             "type": 3,
-            "api": "csp_Baiku",
+            "api": "csp_KuLe",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -1026,20 +1024,10 @@
             "timeout": 60
         },
         {
-            "key": "混合",
-            "name": "混合 • 搜索",
-            "type": 3,
-            "api": "csp_HunHePan",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
             "key": "天翼",
             "name": "天翼 • 搜索",
             "type": 3,
-            "api": "csp_TianYiSou",
+            "api": "csp_TianYiSo",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,

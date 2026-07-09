@@ -10,10 +10,16 @@
             "key": "Douban",
             "name": "🌕️┆片单┆精选",
             "type": 3,
-            "api": "csp_Douban",
+            "api": "csp_PianDan",
             "indexs": 1,
             "searchable": 0,
-            "filterable": 1
+            "filterable": 1,
+            "ext": {
+                "home": {
+                    "douban": "https://6800.kstore.vip/douban.json",
+                    "tmdb": "https://6800.kstore.vip/tmdb.json"
+                }
+            }
         },
         {
             "key": "YGP",
@@ -460,14 +466,6 @@
                     "http://38.76.197.172:12521"
                 ]
             }
-        },
-        {
-            "key": "PanTa",
-            "name": "💿┆盘它┆4K",
-            "type": 3,
-            "api": "csp_PanTa",
-            "searchable": 1,
-            "changeable": 1
         },
         {
             "key": "夸父",
@@ -919,6 +917,17 @@
             }
         },
         {
+            "key": "TingShijie",
+            "name": "🌍┆听界┆有声",
+            "type": 3,
+            "api": "csp_TingShijie",
+            "searchable": 1,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "Market",
             "name": "🛒┆网盘┆市场",
             "type": 3,
@@ -928,7 +937,26 @@
             "style": {
                 "type": "list"
             },
-            "ext": "AWmNzXUj5sW3E9cmHg7HzJYgcAvvRz30uYzOo5s+V+dNu26wvhfMrZXAaq9RcngbFaXU6gtq9etJ6nql9shxXjY567AyaX/mLQYkQNARHNfUnsxZ3sLFpUWallggHoCuAf0dAiLFsgi3T9KAB9sPHpuYrBF26N3YZX6a62CsVtBgqMXEP0Apg8s12I6R7dUOT0F6+Cr0+P3JmOcA98Ir/RkGi0AaWDwQSPtVOarYdbvhy1WzXn//N9hGjuXYhRnJgOmBiWPZAacCyxbFHLV0G/vjjbEXMK7fLa1KLdJ9RWWz9/Z0UevEdx2CEqTKsJFjD7WOxrsubZps5ylQj3ZQqBF0m9A8wBDhz2oksq5VrXsUolAHAKrNaz0t8K13IRbkxA3fYUH6v2YTzcz5HYrAz7McDNJyDfXLIw3bVwH+FU97"
+            "ext": {
+                "categories": [
+                    {
+                        "name": "潇洒资源一",
+                        "url": "https://pan.quark.cn/s/969cc97687d3"
+                    },
+                    {
+                        "name": "潇洒资源二",
+                        "url": "https://drive.uc.cn/s/ba531661b3eb4"
+                    },
+                    {
+                        "name": "奇奇更新一",
+                        "url": "https://pan.quark.cn/s/ab00f85da8ea"
+                    },
+                    {
+                        "name": "奇奇更新二",
+                        "url": "https://drive.uc.cn/s/ef22fcbfdd934"
+                    }
+                ]
+            }
         },
         {
             "key": "push_agent",

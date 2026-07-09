@@ -207,6 +207,18 @@
             }
         },
         {
+            "key": "csp_PanShare123",
+            "name": "🆘123┃[个人盘]",
+            "type": 3,
+            "api": "csp_PanShare123",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 60,
+            "ext": {
+                "class": "http://rihou.cc:88/json/123share.txt"
+            }
+        },
+        {
             "key": "csp_Panta91",
             "name": "🐹盘Ta┃[网盘]",
             "type": 3,
@@ -388,7 +400,7 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "https://www.erxiaozhan.top",
+                "sites": "https://www.wexwp.cc",
                 "filters": "http://rihou.cc:88/json/wogg2.json",
                 "proxy": "noproxy"
             }
@@ -403,7 +415,7 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "https://www.muou.site",
+                "sites": "https://123.666291.xyz",
                 "filters": "http://rihou.cc:88/json/wogg2.json",
                 "proxy": "noproxy"
             }
@@ -418,7 +430,7 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "http://www.miqk.cc",
+                "sites": "https://zhizhen1.top",
                 "filters": "http://rihou.cc:88/json/wogg2.json",
                 "proxy": "noproxy"
             }

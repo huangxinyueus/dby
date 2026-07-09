@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20260705】🐮",
+            "name": "🐮【更新日期:20260707】🐮",
             "type": 3,
             "api": "csp_NewDouBanGuard",
             "searchable": 0,
@@ -289,6 +289,15 @@
             "type": 3,
             "类型": "短剧",
             "api": "csp_ManJuQiMaoGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "ManJuXiFan",
+            "name": "🍉漫短┃小喜🍉",
+            "type": 3,
+            "类型": "短剧",
+            "api": "csp_ManJuXiFanGuard",
             "searchable": 1,
             "changeable": 0
         },
