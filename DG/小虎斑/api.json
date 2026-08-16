@@ -61,6 +61,24 @@
             "api": "csp_Duboku"
         },
         {
+            "key": "HBGuaZi",
+            "name": "瓜子|弹幕",
+            "type": 3,
+            "api": "csp_HBGuaZi"
+        },
+        {
+            "key": "HBPianKu8",
+            "name": "片库|弹幕",
+            "type": 3,
+            "api": "csp_HBPianKu8"
+        },
+        {
+            "key": "HBXingKong4K",
+            "name": "空星|弹幕",
+            "type": 3,
+            "api": "csp_HBXingKong4K"
+        },
+        {
             "key": "muxi",
             "name": "人人|弹幕",
             "type": 3,
@@ -252,6 +270,23 @@
             "name": "天翼|推送",
             "type": 4,
             "api": "http://38.76.197.172:15151/api.php?type=tianyi"
+        },
+        {
+            "key": "枫叶电影",
+            "name": "枫叶|弹幕",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": {
+                "请求头": "手机",
+                "简介": "剧情介绍:+text cor3\">[*],&&</div>",
+                "图片": "data-src=\"&&\"[替换:amp;>>空]",
+                "主页url": "https://www.cd-zj.com/label/qq.html",
+                "副标题": "ft2\">&&</i>",
+                "线路数组": "<i class=\"fa ds-dianying\">&&</span>",
+                "播放数组": "anthology-list-play size\">&&</ul>",
+                "分类url": "https://www.cd-zj.com/cupfox-list/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+                "分类": "短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
+            }
         },
         {
             "key": "茉莉",
@@ -548,6 +583,11 @@
             "name": "虎斑AB",
             "type": 1,
             "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=getAbjx&url="
+        },
+        {
+            "name": "虎斑getSBSjx",
+            "type": 1,
+            "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getSBSjx&url="
         },
         {
             "name": "虎斑XM",

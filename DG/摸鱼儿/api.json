@@ -11,8 +11,9 @@
             "name": "🌕️┆片单┆精选",
             "type": 3,
             "api": "csp_PianDan",
+            "searchable": 1,
             "indexs": 1,
-            "searchable": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "home": {
@@ -46,7 +47,8 @@
             "indexs": 0,
             "style": {
                 "type": "list"
-            }
+            },
+            "ext": "./json/share.json"
         },
         {
             "key": "ALLLive",
@@ -137,6 +139,16 @@
             "ext": "ASrqK2y8hBjF6nWBT4VA6nl6pMHBuUkTFU8G1oArN4pFIRBIK3Koep4Mpa+rHr3EEKPvWTsPKevEKAGNJkBG3jYkvcbsm4uMR4SEGFXEVUK5k5GC1r3GrXXjDgc1ezNOEnVyK6ZdKI+xk/a/S3HSnknsxpSteN1SyaZ76LlkHDg8oTcmvsm6VWIJmoLG+EXXFO47gkwl6Z2cGWF6122DYXd9rqv5d1nPkPmMRFOjZmeIQwGet75HMuUQH2SD6tMhrHwqOVYxsZhaEJyp6C5P7lQgMd2fNfTUjdB8IXkeVnT+wuAKOiT09go+UHAmjghG58OMf/v/2ou2/Ojv5RTxZkUiiLZ5tUfJMSW87nNKi1Ak4w3wJ2h0OBR83irMrQjD68TCU0pG+ecPOjclNg7OFlbYxsLd0PPUBDQOAxFhq9+IpEgRp04Fi5Eb9B2exKN8CXuEoyf6ISv5l7FkIamTpm0="
         },
         {
+            "key": "PianKu8",
+            "name": "🫡┆片库┆4K",
+            "type": 3,
+            "api": "csp_PianKu8",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://qkys.qukanwh.com"
+        },
+        {
             "key": "BuBu",
             "name": "🧸┆布布┆4K",
             "type": 3,
@@ -183,20 +195,6 @@
             "type": 3,
             "api": "csp_App88",
             "ext": "Aa+WBBIIxghmbVYkWqlC4wrZvlocl4rSZS9+QyJDF6RgWFfYSb+nEM6WkMHPVbQFva551Srt16FqFroyjNssEXemH+xC5pCMj/ewgFuLEIbY2mXCVJ1bJxWRJAggNgH1f3mjwrBxlZA0kGgfAd0os29Mdi3RNJilSo5VMkPpcQPMeF8/PTbZHNymotiTwtICNcA5Q0WXsqe/wJ3HoLU4gBYQs1lBmYdxtAuvsnte3SbumQEFlaQnygFscx6EGrwKMFZLVcmu9egAXxygsf5PmyzN/xvOr+b+HslccoKqDbHNU/C6yWFwaHBawww0ckXRtoJ8fFbV7Xv4NiRcEf6ePm/cd06xYiZmjRts11gE0r8f7D0vx/TgigmU3v8nrgNYDokUGl/jDdza3o7BXyQumCWRD45wYbmKJ1LKb0ybRvNt"
-        },
-        {
-            "key": "知予",
-            "name": "🍒┆知予┆4K",
-            "api": "csp_AppNox",
-            "type": 3,
-            "ext": "AXa/dhw2PLXN7GTzaamHOCEf9KWdx8b5bp7n8hAmf9Boa6AZrB5/hhb4qGO6kjkz/Oh5Uei9rzPWsZlQhgxQGSu7Zb/ZmT15NpqUP+qEjAXGPyOlfFWZbr4rxW3WZSqH6i+OT49idbNqqJdm1jXPR00G5O44GJb+9H7f1iioaW5GOEXjTbDGfBqd4uVVCz6vPPgb/k1NVY/Ze+bb5AsQMmZyAcHWgow8PEaTln0cVXxkb5VmKMQfj5sEq9ZnWGHbu4/32qI2Jjtkmj6VijcdWZSyxuwW/O1i8QbrqQZMeYyr16m5gwNFIyv3ppAxMfyjSz6P7J9dbMfS5PaT3xL3TKTAnZFjS0KyZIKYrJBLj9lXwgox8aFmPV1fT2CBX5t/dHX6gL8CfkhYGjFj7LnVLZo5se/1WjuMkzPTSZharqLvXySQsKpiGKLhfs8DsgQppW4BP8Lv2wPFDmbwB2op21RJDJNQhJXbOW6Z4rI5uXZJAW6LuvudGVKVD/RF3/yUlM4Boda3iuV/7ER45wPegGXouEiiuS7QHjYCgiMLVmUEiYLVhiTe3qDU6VlHqn5YhP7+1kibrXrRQ7JzyQ0sOxljdVHQw6IIRTQwzSBJLoDiiCddIncVXxYmKuhW6Pxen1bOfQgd723GkDyLB1Y5U9KXbzS9y6+ko37HVfmwUzDEcG+DYyxa2lJTCIXbdPbl8LBGUGMURx1S43wMLh1rurnz41qwPL5/WULQJmx4bt4E30dcTi/KfIBD8EUM8YZk8z7JSG5bi3oyYToXXRJCXK/qNpxaJ5I0s27MfnJRE/xF2k7Pv0YtFPmwdQr6Z3neEzOo/Vt1E5WlC0JiURC2bO+MWqA70m6B5WJkmnd46qPLtaofki6EzbH81AMvgsYAgjf8iAO6nYWFcrVoAsYMMgJkyPExJEUQStc+TB4gvUFUT9VeTHMXNSWiHMrhGkAQIA37PXzfig3c0sAUy+9iNlKXZv/lfbVFRgV9w8k0eDLrcR40Ma1Pmgnwq7v05RqJiSQCngiXOQgzR4wFar5anDJT73LmmP77+zaoJDH0aZeY"
-        },
-        {
-            "key": "沐辞",
-            "name": "🍫┆沐辞┆4K",
-            "api": "csp_AppNox",
-            "type": 3,
-            "ext": "AQUucLUJRH9RFWo2llKlyTrMCyVJ0Kpob6GGGwM0j5jiyraPW+SaJOKlkFrgd1ZhRMCnf0G74bm9C+4z5cinWObAMVMVtYf3sq6ftyqkjscrCwmACTm3lYdUtHGXFJI5MibkogunAZdw4jqNzeJW5yZmcvtvNWAB2u3HpiPCZ/7BBa+frYoJk64v5fZCFR9ywNGr0nXP+F3iwSBdiuzG3EiSTWwdh66EiviaRCI17Qad4cXfy3SMDsy39ejvXzdTrN0VOAx2XDqhFRpL6JnxweIDg8NZ75R0qJDpn9hLiTUxiIB2fT9pjD+Da10ThaLJbcf49f2N2AbwIYaL0+7lGdPD4/WSG1B/MsJYbNVEIPVn4d3lWofSBf904ualn0Yx+RE8SQfoXWXiHowqIU01uQfWuFXV+1LwHTc3ZkTfdAd9SRqQgkfl4QwyogKb9KXE51rexjvPo7heswXhKJVnginjrFrCSuPbQ5I4G9mY0ivmsNLhl4YgezZ8nNLYJTisU7gn4Q5tSUdGCo4NGVmTAm9hRLKz5ao1FNnQ6zbq33/IRtiwfHPlGZf543z+wA4ZCXukLVd2HKmNniR7dnIScjvSENMatCmS60pm6xW0ZapgZZd6rDnSivtChrU+GetWYQBBA1d/FeFgOSGhd175JvnInnwe0sGlQ+aoSyaANoEDXjk8LSzJPScRIqEn4sUBHehjWBQyQjb8wGFjciWlQETGYFYyXn4SEAhqk/KSNNHbAO7nDTZrVJatDtF/e1W0+ryHzoY+UWoVoHqm2zbsqNezbSpumOfaIJIfM5GmcpiMdjAh7w/HpGngmX/MI574TixdhpqWvtagwEVu61hxxmK5ZDJXER2wjFxZBMn2T5QelhNRHUNT7HoxkrHs8VXBwkYbLjoXs05vtXVpkLkokEi2QJU/Qjh0lCCyvHHIE2cvEzcpAqRfvzGHksXSWwZzV1MO4iHjd86Sgo/8Xp7RLQMe4G57+bg+HoZXY5YDQzK+ESXGIs1p3agfPhvaP/0fkUhUSHkLCsoO3yCuQarGPR4qgDVN8bayFm7Ya3rK9zD4"
         },
         {
             "key": "清沅",
@@ -427,7 +425,7 @@
         },
         {
             "key": "FishErxiao",
-            "name": "🍒┆二小┆4K",
+            "name": "🐂┆二小┆4K",
             "type": 3,
             "api": "csp_FishCloud",
             "searchable": 1,
@@ -456,7 +454,7 @@
         },
         {
             "key": "Fishshayang",
-            "name": "🐅┆傻样┆4K",
+            "name": "🤭┆傻样┆4K",
             "type": 3,
             "api": "csp_FishCloud",
             "searchable": 1,
@@ -515,6 +513,15 @@
             "api": "csp_YunPanBa",
             "searchable": 1,
             "ext": "https://yunpan6.com/"
+        },
+        {
+            "key": "VideoX",
+            "name": "📺┆小北┆云视",
+            "type": 3,
+            "api": "csp_VideoX",
+            "searchable": 1,
+            "changeable": 1,
+            "filterable": 1
         },
         {
             "key": "Wwys",
@@ -587,43 +594,41 @@
             "changeable": 1
         },
         {
-            "key": "Ikanbot",
-            "name": "🥰┆爱看┆影视",
+            "key": "HonHon",
+            "name": "🍅┆红红┆短剧",
             "type": 3,
-            "api": "csp_Ikanbot",
-            "searchable": 1,
-            "filterable": 0,
-            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-        },
-        {
-            "key": "Hema",
-            "name": "🦛┆河马┆短剧",
-            "type": 3,
-            "api": "csp_Hema",
+            "api": "csp_HonHon",
             "searchable": 1,
             "quickSearch": 1,
             "genre": "shortdrama",
-            "filterable": 1
+            "filterable": 1,
+            "ext": {
+                "host": "https://short.fishcloud.top",
+                "quality": "1080p",
+                "danmu": false
+            }
         },
         {
-            "key": "WeiguanDJ",
-            "name": "🔍┆微观┆短剧",
+            "key": "DJHub",
+            "name": "🎭┆短剧┆聚合",
             "type": 3,
-            "api": "csp_WeiguanDJ",
+            "api": "csp_DJHub",
             "searchable": 1,
-            "filterable": 1,
+            "quickSearch": 1,
             "genre": "shortdrama",
+            "filterable": 1,
             "changeable": 1
         },
         {
-            "key": "HHkk",
-            "name": "😍┆好看┆短剧",
+            "key": "XingHui",
+            "name": "✨┆星绘┆动漫",
             "type": 3,
-            "api": "csp_HHkk",
+            "api": "csp_XingHui",
             "searchable": 1,
             "quickSearch": 1,
-            "genre": "shortdrama",
-            "filterable": 1
+            "changeable": 1,
+            "filterable": 1,
+            "ext": "https://max.moyu666666.top/xinghui.php"
         },
         {
             "key": "FanShu",
@@ -640,17 +645,6 @@
             "type": 3,
             "api": "csp_App88",
             "ext": "AcT3r+Yx4xV/LlB7Os5BUaHRLhSxKWwSAgpq3V+7Eo/lCbgRu4w9WaFSZNmvzIyEv57jMmi3y9UyfY2V3hG6r2ZXOYxjb2VtNGcc31qnT/0V8c5RhLl5yhVOC1di9IjfQ/w+842AXS7IaMxh6737IMQrO04oidEfNkqKs39imu3vmC7Qu0fR1zcCk4JWmurxw4V7qab1Sc/gkANOoml0aHP4VRJJ+vIuIb9yQZNRyOjKUjC0XQmPKJbcexNyZqnRghr5ADZOAN3NMjlQzd914ixCDj5ME+wlkvmbTjL+ECb0EG5LfX/ATTYr8e0EWLfOBzVon/BrbJdZU5m3k4jVSQwEjREWtS1z9bbii6G9ts77nx3P3smsdE9Mu4dEYZaSkekI62B98hP4gLCvw7qw8wZlymehntj/MTc7KupQ9sCKzPMiu8yz4eed4PGdfc6HMg=="
-        },
-        {
-            "key": "XiFan",
-            "name": "🥣┆稀饭┆动漫",
-            "type": 3,
-            "api": "csp_XiFan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "ext": {
-                "SiteUrl": "https://next.xifanacg.com"
-            }
         },
         {
             "key": "Manbo",
@@ -928,6 +922,17 @@
             }
         },
         {
+            "key": "TingYou",
+            "name": "🎧┆听友┆有声",
+            "type": 3,
+            "api": "csp_TingYou",
+            "searchable": 1,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "Market",
             "name": "🛒┆网盘┆市场",
             "type": 3,
@@ -1163,63 +1168,5 @@
                 }
             ]
         }
-    ],
-    "ads": [
-        "mimg.0c1q0l.cn",
-        "www.googletagmanager.com",
-        "www.google-analytics.com",
-        "mc.usihnbcq.cn",
-        "mg.g1mm3d.cn",
-        "mscs.svaeuzh.cn",
-        "cnzz.hhttm.top",
-        "tp.vinuxhome.com",
-        "cnzz.mmstat.com",
-        "www.baihuillq.com",
-        "s23.cnzz.com",
-        "z3.cnzz.com",
-        "c.cnzz.com",
-        "stj.v1vo.top",
-        "z12.cnzz.com",
-        "img.mosflower.cn",
-        "tips.gamevvip.com",
-        "ehwe.yhdtns.com",
-        "xdn.cqqc3.com",
-        "www.jixunkyy.cn",
-        "sp.chemacid.cn",
-        "hm.baidu.com",
-        "s9.cnzz.com",
-        "z6.cnzz.com",
-        "um.cavuc.com",
-        "mav.mavuz.com",
-        "wofwk.aoidf3.com",
-        "z5.cnzz.com",
-        "xc.hubeijieshikj.cn",
-        "tj.tianwenhu.com",
-        "xg.gars57.cn",
-        "k.jinxiuzhilv.com",
-        "cdn.bootcss.com",
-        "ppl.xunzhuo123.com",
-        "xomk.jiangjunmh.top",
-        "img.xunzhuo123.com",
-        "z1.cnzz.com",
-        "s13.cnzz.com",
-        "xg.huataisangao.cn",
-        "z7.cnzz.com",
-        "z2.cnzz.com",
-        "s96.cnzz.com",
-        "q11.cnzz.com",
-        "thy.dacedsfa.cn",
-        "xg.whsbpw.cn",
-        "s19.cnzz.com",
-        "z8.cnzz.com",
-        "s4.cnzz.com",
-        "f5w.as12df.top",
-        "ae01.alicdn.com",
-        "www.92424.cn",
-        "k.wudejia.com",
-        "vivovip.mmszxc.top",
-        "qiu.xixiqiu.com",
-        "cdnjs.hnfenxun.com",
-        "cms.qdwght.com"
     ]
 }

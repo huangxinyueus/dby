@@ -2,13 +2,11 @@
 #EXTINF:-1 tvg-name="注意事项" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/notice.jpg" group-title="注意事项",注意事项
 https://cdn.jsdelivr.net/gh/jkwu5472/first/media.m3u8
 #EXTINF:-1 tvg-name="TSN 4K" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos/countries/canada/tsn-4k-ca.png" group-title="4K英文解说",TSN 4K
-https://kan.waiguotai.top/p/e755232a-1c0f-4bd6-bfbd-6ff95e78d29e
+https://kan.waiguotai.top/p/9328de0c-13f0-451b-aad5-5b061e44ca08
 #EXTINF:-1 tvg-name="Fox Sports 4K HDR" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fox.png" group-title="4K英文解说",Fox Sports 4K HDR
-https://watch.yingyujieshuo.top/p/93b26e23-94a0-42eb-9fbd-500c8374acb5
+https://watch.yingyujieshuo.top/p/10bf977d-8b5c-4b77-abe7-bfdb45057daa
 #EXTINF:-1 tvg-name="FussBall TV" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fussball.png" group-title="4K杜比视界世界杯正赛",FussBall TV
-https://cdn.staticres.top/p/b1ea7ad7-d641-4c00-8b52-185c98fb9190
-#EXTINF:-1 tvg-name="4tos de Final: Francia v. Marruecos" group-title="4K杜比视界世界杯正赛",4tos de Final: Francia v. Marruecos_2026-07-10 03:40:00_1783626000000
-https://picture.shenniaokongque.top/event/4df3658b-f1ec-3648-be72-6a04c503733b
+https://cdn.staticres.top/p/2e78179a-b837-4050-bd1c-a260536c755c
 #EXTINF:-1 tvg-name="世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d27h70069ip3a5i0000000000440f3dmm" group-title="4K世界杯回放",世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00
 http://82.156.243.185:34567/xhs/4459820
 #EXTINF:-1 tvg-name="世界杯4K回放-韩国vs捷克_2026-06-12 09:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d98u74069ip3a5i000000000040ihhf18" group-title="4K世界杯回放",世界杯4K回放-韩国vs捷克_2026-06-12 09:30:00
@@ -201,3 +199,19 @@ http://82.156.243.185:34567/xhs/4459805
 http://82.156.243.185:34567/xhs/4459806
 #EXTINF:-1 tvg-name="世界杯4K回放-瑞士vs哥伦比亚_2026-07-08 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03226foegs7e06goq2oo30k000000000mss5k68" group-title="4K世界杯回放",世界杯4K回放-瑞士vs哥伦比亚_2026-07-08 03:30:00
 http://82.156.243.185:34567/xhs/4459807
+#EXTINF:-1 tvg-name="世界杯4K回放-法国vs摩洛哥_2026-07-10 03:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322d5iekune06k77ao0jp400000000039dqd1g" group-title="4K世界杯回放",世界杯4K回放-法国vs摩洛哥_2026-07-10 03:00:00
+http://82.156.243.185:34567/xhs/4459808
+#EXTINF:-1 tvg-name="世界杯4K回放-西班牙vs比利时_2026-07-11 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322ddm7d5no06k0a0d0jpk000000000127gj9u" group-title="4K世界杯回放",世界杯4K回放-西班牙vs比利时_2026-07-11 02:00:00
+http://82.156.243.185:34567/xhs/4459809
+#EXTINF:-1 tvg-name="世界杯4K回放-挪威vs英格兰_2026-07-12 04:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322frdhoi7a06k77ao0jp40000000006cg1l0k" group-title="4K世界杯回放",世界杯4K回放-挪威vs英格兰_2026-07-12 04:00:00
+http://82.156.243.185:34567/xhs/4459810
+#EXTINF:-1 tvg-name="世界杯4K回放-阿根廷vs瑞士_2026-07-12 08:05:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322frduvg7ue6k77ao0jp40000000006kkuvqk" group-title="4K世界杯回放",世界杯4K回放-阿根廷vs瑞士_2026-07-12 08:05:00
+http://82.156.243.185:34567/xhs/4459811
+#EXTINF:-1 tvg-name="世界杯4K回放-法国vs西班牙_2026-07-15 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322jo2h1j7k06k77ao0jp40000000006ifukpa" group-title="4K世界杯回放",世界杯4K回放-法国vs西班牙_2026-07-15 02:00:00
+http://82.156.243.185:34567/xhs/4459812
+#EXTINF:-1 tvg-name="世界杯4K回放-英格兰vs阿根廷_2026-07-16 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322jo9hornk06k77ao0jp4000000000644rho4" group-title="4K世界杯回放",世界杯4K回放-英格兰vs阿根廷_2026-07-16 02:00:00
+http://82.156.243.185:34567/xhs/4459813
+#EXTINF:-1 tvg-name="世界杯4K回放-法国vs英格兰_2026-07-19 04:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322lje9b8nk06k77ao0jp40000000005drpj98" group-title="4K世界杯回放",世界杯4K回放-法国vs英格兰_2026-07-19 04:00:00
+http://82.156.243.185:34567/xhs/4459814
+#EXTINF:-1 tvg-name="世界杯4K回放-西班牙vs阿根廷_2026-07-20 00:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322pubmvg7k06k77ao0jp400000000020k4rb4" group-title="4K世界杯回放",世界杯4K回放-西班牙vs阿根廷_2026-07-20 00:00:00
+http://82.156.243.185:34567/xhs/4459815
