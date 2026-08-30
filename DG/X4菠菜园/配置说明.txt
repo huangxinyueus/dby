@@ -1,0 +1,12 @@
+配置地址
+clan://localhost/tvbox/x4/tv.json
+clan://localhost/tvbox/x4/tvpro.json
+clan://localhost/tvbox/x4/tv少儿.json
+clan://localhost/tvbox/x4/x4.json
+clan://localhost/tvbox/x4/x4pro.json
+clan://localhost/tvbox/x4/x4all.json
+区别
+x4基础版纯采集站接口
+pro增加一些py和js接口
+tv版净化删除了教程使用说明本地包，适合家庭公共电视配置
+x4all保留一些接口的福+利片和伦+理片，适合个人设备配置

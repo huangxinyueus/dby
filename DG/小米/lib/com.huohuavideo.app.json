@@ -1,0 +1,174 @@
+{
+  "app": {
+    "name": "火花影视",
+    "packageName": "com.huohuavideo.app",
+    "officialWebsite": "https://www.huohua.app",
+    "latestApkURL": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+    "latestVersion": "2.7.0",
+    "textURL": "https://js.trgfd.cn",
+    "otherURL": "https://js.trgfd.cn",
+    "resourceURL": "https://js.trgfd.cn",
+    "feedbackURL": "https://js.trgfd.cn",
+    "adFreeVersion": "",
+    "adFreeChannel": "",
+    "isForceUpdate": 1,
+    "notice": "",
+    "openNoticeCiShu": 0,
+    "openNotice": "",
+    "noticeleixing": 0,
+    "fuwenbennotice": {
+      "title": "",
+      "content": "",
+      "footer": ""
+    },
+    "bofangyeguanggaotishi": "推荐解锁全天免广特权@观看激励视频，解锁当天APP无广体验",
+    "xiazaixiancheng": 4,
+    "xiazaishuliang": 4,
+    "aiurl": "",
+    "aitishiyu": [
+      ""
+    ],
+    "csjad": "0",
+    "adyujiazai": 1,
+    "withoutads": 2,
+    "withoutadsshijian": 600,
+    "uaprefix": "huohuavideo-",
+    "shebeimingxianzhi": 2,
+    "bofangyetubili": 0
+  },
+  "channels": [
+    "首页",
+    "剧集",
+    "电影",
+    "综艺",
+    "动漫",
+    "少儿",
+    "纪录片"
+  ],
+  "channel": [
+    "首页",
+    "剧集",
+    "电影",
+    "综艺",
+    "动漫",
+    "少儿",
+    "纪录片"
+  ],
+  "filter": null,
+  "ranks": [
+    "热播榜",
+    "飙升榜",
+    "热搜榜",
+    "新片榜",
+    "剧集",
+    "电影",
+    "综艺",
+    "动漫",
+    "少儿",
+    "纪录片"
+  ],
+  "guanggao": [
+    {
+      "appName": "",
+      "appid": 0,
+      "id": 0,
+      "name": "",
+      "dangtianmian": 0,
+      "chaping": 0,
+      "gid": 0,
+      "jilishiping": 0,
+      "jilishipingcishu": 0,
+      "kaiping": 0,
+      "lunbotu": 0,
+      "videoInfo": 0,
+      "xinyonghu": 0,
+      "zhangjiexia": 0,
+      "zhangjiezhong": 0,
+      "description": "",
+      "playViewEveryTimePeriods": "",
+      "playViewInterval": 0,
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z",
+      "tuiguangmiantian": 5,
+      "tuiguangmiaoshu": "每成功邀请1人，送5天免广告\n累计邀请3人，额外送5天免广告\n累计邀请10人，额外送30天免广告\n累计邀请30人，送永久免广告特权",
+      "jili": [
+        {
+          "tishi": "第一个广告",
+          "shijian": 3600
+        },
+        {
+          "tishi": "第二个广告",
+          "shijian": 3600
+        },
+        {
+          "tishi": "第三个广告",
+          "shijian": 3600
+        },
+        {
+          "tishi": "第四个广告",
+          "shijian": 7200
+        },
+        {
+          "tishi": "第五个广告",
+          "shijian": 7200
+        }
+      ],
+      "jilixiazaici": 3,
+      "jilizuixiaojiange": 8,
+      "xiazaizuixiaojiange": 8
+    }
+  ],
+  "huancun": 86400,
+  "tishi": "新版本已上线，优化体验，建议立即更新！",
+  "qiangzhi": 1,
+  "qudao": [
+    {
+      "qudaoming": "baidutuiguang",
+      "banben": "2.7.0",
+      "qiangzhi": 1,
+      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+      "yanchijiancha": "0"
+    },
+    {
+      "qudaoming": "fenxiang",
+      "banben": "2.7.0",
+      "qiangzhi": 1,
+      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+      "yanchijiancha": "0"
+    },
+    {
+      "qudaoming": "yingyongshichang",
+      "banben": "2.7.0",
+      "qiangzhi": 1,
+      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+      "yanchijiancha": "0"
+    }
+  ],
+  "color": {
+    "morenzhuti": 0,
+    "homeHeadColor": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ],
+    "bottomLabel": [
+      "首页",
+      "榜单",
+      "我的"
+    ],
+    "bgWhite": "#EDEDED",
+    "textBlack": "#121212",
+    "textGray": "#666666",
+    "textModule": "#121212",
+    "textSubModule": "#666666",
+    "tintBlack": "#121212",
+    "buttonBg": "#ffffff",
+    "moduleBg": "#ffffff",
+    "mineBg": "#EDEDED",
+    "longinRegisterBg": "#EDEDED",
+    "feedBackBg": "#EDEDED",
+    "requestVideoBg": "#EDEDED",
+    "searchBg": "#EDEDED",
+    "videoBg": "#fefefe"
+  }
+}
