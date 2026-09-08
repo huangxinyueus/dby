@@ -9,6 +9,7 @@
     "otherURL": "https://js.trgfd.cn",
     "resourceURL": "https://js.trgfd.cn",
     "feedbackURL": "https://js.trgfd.cn",
+    "danmuURL": "https://js.trgfd.cn",
     "adFreeVersion": "",
     "adFreeChannel": "",
     "isForceUpdate": 1,
@@ -66,6 +67,67 @@
     "动漫",
     "少儿",
     "纪录片"
+  ],
+  "xinRanks": [
+    {
+      "name": "热播榜",
+      "types": [
+        "全部",
+        "美剧",
+        "英剧",
+        "韩剧",
+        "日剧",
+        "电影",
+        "泰剧"
+      ]
+    },
+    {
+      "name": "热搜榜",
+      "types": [
+        "全部",
+        "美剧",
+        "电影",
+        "韩剧",
+        "日剧",
+        "泰剧",
+        "英剧"
+      ]
+    },
+    {
+      "name": "飙升榜",
+      "types": [
+        "全部",
+        "电影",
+        "美剧",
+        "韩剧",
+        "泰剧",
+        "日剧",
+        "英剧"
+      ]
+    },
+    {
+      "name": "新片榜",
+      "types": [
+        "全部",
+        "美剧",
+        "英剧",
+        "韩剧",
+        "日剧",
+        "电影",
+        "泰剧"
+      ]
+    },
+    {
+      "name": "高分榜",
+      "types": [
+        "全部",
+        "美剧",
+        "英剧",
+        "韩剧",
+        "电影",
+        "日剧"
+      ]
+    }
   ],
   "guanggao": [
     {
@@ -170,5 +232,22 @@
     "requestVideoBg": "#EDEDED",
     "searchBg": "#EDEDED",
     "videoBg": "#fefefe"
-  }
+  },
+  "tongzhibuju": [
+    {
+      "tubiao": "",
+      "mingzi": "评论/回复",
+      "id": 2
+    },
+    {
+      "tubiao": "",
+      "mingzi": "赞/收藏",
+      "id": 3
+    },
+    {
+      "tubiao": "",
+      "mingzi": "系统通知",
+      "id": 1
+    }
+  ]
 }

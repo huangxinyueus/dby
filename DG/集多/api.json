@@ -1,7 +1,6 @@
 {
-  "spider": "./jar/vox.jar;md5;ba80a47fdabd94c7a903b41cf6f02e38",
-  "README": "./ext/README.txt",
-  "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用。",
+  "spider": "http://xz.rihou.cc:88/xz/api.php/vox.jar;md5;ea9cdee94e4424ca617761c3f4ca9891",
+  "logo": "./lib/1.gif",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "lives": [
     {
@@ -58,7 +57,7 @@
       "searchable": 0,
       "changeable": 1,
       "indexs": 1,
-      "ext": "./ext/douban.json"
+      "ext": "./lib/douban.json"
     },
     {
       "key": "csp_Config",
@@ -73,14 +72,14 @@
       "name": "🎿玩偶┃[网盘]",
       "type": 3,
       "api": "csp_Nostr",
-      "homePage": "http://rihou.cc:88/html/wo.html"
+      "homePage": "./html/wo.html"
     },
     {
       "key": "Eclipse",
       "name": "🚢Eclipse┃[盘搜]",
       "type": 3,
       "api": "csp_Nostr",
-      "homePage": "http://rihou.cc:88/html/Eclipse.html"
+      "homePage": "./html/Eclipse.html"
     },
     {
       "key": "csp_MakkaPakka",
@@ -100,7 +99,7 @@
       "changeable": 1,
       "timeout": 60,
       "ext": {
-        "filters": "./ext/douban.json"
+        "filters": "./lib/douban.json"
       }
     },
     {
@@ -116,8 +115,8 @@
       "name": "🐼️电视┃[直播]",
       "type": 3,
       "searchable": 0,
-      "api": "./ext/live2vod.js",
-      "ext": "./ext/feimaolive.json"
+      "api": "./lib/live2vod.js",
+      "ext": "./lib/feimaolive.json"
     },
     {
       "key": "csp_PanShareQuark",
@@ -128,7 +127,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/quarkshare.txt"
+        "class": "./lib/quarkshare.txt"
       }
     },
     {
@@ -140,7 +139,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/ucshare.txt"
+        "class": "./lib/ucshare.txt"
       }
     },
     {
@@ -152,7 +151,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/115share.txt"
+        "class": "./lib/115share.txt"
       }
     },
     {
@@ -164,7 +163,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/189share.txt"
+        "class": "./lib/189share.txt"
       }
     },
     {
@@ -176,7 +175,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/baidushare.txt"
+        "class": "./lib/baidushare.txt"
       }
     },
     {
@@ -188,7 +187,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/alishare.txt"
+        "class": "./lib/alishare.txt"
       }
     },
     {
@@ -200,7 +199,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/thundershare.txt"
+        "class": "./lib/thundershare.txt"
       }
     },
     {
@@ -212,7 +211,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/guangyashare.txt"
+        "class": "./lib/guangyashare.txt"
       }
     },
     {
@@ -224,7 +223,7 @@
       "changeable": 0,
       "timeout": 60,
       "ext": {
-        "class": "./ext/123share.txt"
+        "class": "./lib/123share.txt"
       }
     },
     {
@@ -237,9 +236,9 @@
       "timeout": 60,
       "ext": {
         "cookie": "",
-        "filters": "./ext/guanying.json",
-        "sites": "https://www.xn--wcv59z.com/",
-        "proxy": "noproxy"
+        "filters": "./lib/guanying.json",
+        "sites": "https://www.xn--wcv59z.com,https://www.xn--74qz10cqsltibh40akss.com,https://www.xn--dpqv20e8ug6r8a.com,https://www.xn--10vr61a3xc5x3b.com,https://www.xn--kivn76b41nnhi.com",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -252,24 +251,9 @@
       "timeout": 60,
       "ext": {
         "cookie": "",
-        "filters": "./ext/pinglian.json",
+        "filters": "./lib/pinglian.json",
         "sites": "https://pinglian.lol",
-        "proxy": "noproxy"
-      }
-    },
-    {
-      "key": "csp_Gyzzs",
-      "name": "🦆鸭社┃[网盘]",
-      "type": 3,
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 60,
-      "api": "csp_Qsxy",
-      "ext": {
-        "cookie": "",
-        "comment": ""
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -284,7 +268,35 @@
       "api": "csp_Pan123Fx",
       "ext": {
         "cookie": "",
-        "filters": "./ext/pan123fx.json",
+        "filters": "./lib/pan123fx.json",
+        "comment": ""
+      }
+    },
+    {
+      "key": "csp_Pzzg123",
+      "name": "🛒臻藏┃[网盘]",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_Qsxy123",
+      "timeout": 60,
+      "ext": {
+        "cookie": "",
+        "comment": ""
+      }
+    },
+    {
+      "key": "csp_Gyzz",
+      "name": "🦆鸭臻┃[网盘]",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_Qsxy",
+      "timeout": 60,
+      "ext": {
+        "cookie": "",
         "comment": ""
       }
     },
@@ -328,7 +340,7 @@
       "changeable": 1,
       "timeout": 60,
       "ext": {
-        "filters": "./ext/xxzn.json",
+        "filters": "./lib/xxzn.json",
         "sites": "https://4kzn.cc"
       }
     },
@@ -347,6 +359,15 @@
       }
     },
     {
+      "key": "csp_JuTouShe",
+      "name": "😳剧透┃[网盘]",
+      "type": 3,
+      "timeout": 60,
+      "api": "csp_JuTouShe",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
       "key": "csp_Wogg",
       "name": "😁玩偶┃[网盘]",
       "type": 3,
@@ -357,8 +378,8 @@
       "changeable": 1,
       "ext": {
         "sites": "https://woggpan.xxooo.cf",
-        "filters": "./ext/wogg.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -372,8 +393,8 @@
       "timeout": 60,
       "ext": {
         "sites": "https://woog.nxog.eu.org",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -387,8 +408,8 @@
       "timeout": 60,
       "ext": {
         "sites": "http://tvpanpan.site",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -402,8 +423,8 @@
       "timeout": 60,
       "ext": {
         "sites": "http://shandian.blog",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -417,8 +438,8 @@
       "timeout": 60,
       "ext": {
         "sites": "https://www.wexwp.cc",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -432,8 +453,8 @@
       "timeout": 60,
       "ext": {
         "sites": "https://123.666291.xyz",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -447,8 +468,8 @@
       "timeout": 60,
       "ext": {
         "sites": "https://www.mihdr.top",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -462,8 +483,8 @@
       "timeout": 60,
       "ext": {
         "sites": "https://tv.yydsys.top/",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -477,8 +498,8 @@
       "timeout": 60,
       "ext": {
         "sites": "http://38.76.197.172:16969",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -492,8 +513,8 @@
       "timeout": 60,
       "ext": {
         "sites": "http://38.76.197.172:12521",
-        "filters": "./ext/wogg2.json",
-        "proxy": "noproxy"
+        "filters": "./lib/wogg2.json",
+        "proxy": "http://rihou.cc:88/noproxy"
       }
     },
     {
@@ -504,7 +525,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "filters": "./ext/jianpian.json",
+        "filters": "./lib/jianpian.json",
         "imgUrl": "https://img.zgbkz.com",
         "sites": "https://api.ztcgi.com"
       }
@@ -518,6 +539,15 @@
       "changeable": 1
     },
     {
+      "key": "csp_Hanxiaoquan",
+      "name": "🇰🇷韩剧┃[秒播]",
+      "type": 3,
+      "api": "csp_Hanxiaoquan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_Kan90",
       "name": "😇最全┃[短剧]",
       "type": 3,
@@ -528,17 +558,12 @@
       "changeable": 0
     },
     {
-      "key": "csp_DuanJuCen",
-      "name": "😒果果┃[短剧]",
+      "key": "csp_HongGuo",
+      "name": "🍎果子┃[短剧]",
       "type": 3,
-      "api": "csp_DuanJuCen",
+      "api": "csp_HongGuo",
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "api": "https://mov.cenguigui.cn/duanju/api.php",
-        "classes": "./ext/duanjucen.json"
-      }
+      "changeable": 0
     },
     {
       "key": "csp_Jbdj",
@@ -549,22 +574,6 @@
       "changeable": 0
     },
     {
-      "key": "双星99",
-      "name": "🍇双星｜[APP]",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://175.178.65.250:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "f66f65db127e48449f073c2c6eb0f993",
-        "versionName": "6.4.5",
-        "name": "双子星动漫",
-        "package": "com.yingfu.mobile.android.pgsp",
-        "buildNumber": "2003",
-        "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-      }
-    },
-    {
       "key": "mifun",
       "name": "🐸mifun｜[APP]",
       "type": 3,
@@ -572,8 +581,8 @@
       "changeable": 1,
       "api": "csp_AppGet",
       "ext": {
-        "host": "./ext/mifun.txt",
-        "datakey": "GETMIFUNGEIMIFUN"
+        "host": "./lib/mifun.txt",
+        "datakey": "http://rihou.cc:88/GETMIFUNGEIMIFUN"
       }
     },
     {
@@ -595,58 +604,40 @@
       "api": "csp_AppGet",
       "ext": {
         "host": "https://app.95112475.xyz",
-        "datakey": "5a9w6x58dsq6z3a6"
+        "datakey": "http://rihou.cc:88/5a9w6x58dsq6z3a6"
       }
-    },
-    {
-      "key": "夸克短剧",
-      "name": "🌽夸克┃[短剧]",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "timeout": 60,
-      "ext": "./ext/夸克短剧.json",
-      "jar": "./jar/xbpq.jar"
-    },
-    {
-      "key": "短剧夸克",
-      "name": "🍆夸短┃[短剧]",
-      "type": 3,
-      "timeout": 60,
-      "api": "csp_XBPQ",
-      "ext": "./ext/短剧夸克.json",
-      "jar": "./jar/xbpq.jar"
     },
     {
       "key": "旺旺影视",
       "name": "🐶旺旺┃[XBPQ]",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./ext/旺旺影视.json",
-      "jar": "./jar/xbpq.jar"
+      "ext": "./lib/旺旺影视.json",
+      "jar": "./lib/xbpq.jar"
     },
     {
       "key": "韩剧看看",
       "name": "🇰🇷韩剧┃[XBPQ]",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./ext/韩剧看看.json",
-      "jar": "./jar/xbpq.jar"
+      "ext": "./lib/韩剧看看.json",
+      "jar": "./lib/xbpq.jar"
     },
     {
       "key": "韩剧在线",
       "name": "🇰🇷韩剧┃[XBPQ]",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./ext/韩剧在线.json",
-      "jar": "./jar/xbpq.jar"
+      "ext": "./lib/韩剧在线.json",
+      "jar": "./lib/xbpq.jar"
     },
     {
       "key": "啊哈DJ网",
       "name": "🎵啊哈┃[音乐]",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./ext/啊哈DJ网.json",
-      "jar": "./jar/xbpq.jar"
+      "ext": "./lib/啊哈DJ网.json",
+      "jar": "./lib/xbpq.jar"
     },
     {
       "key": "csp_AiWanMusic",
@@ -660,65 +651,58 @@
       "key": "随身评书",
       "name": "📚随身┃[听看]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/随身评书.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/随身评书.js"
     },
     {
       "key": "酷我听书",
       "name": "📚酷我┃[听看]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/酷我听书.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/酷我听书.js"
     },
     {
       "key": "第一故事",
       "name": "🦁第一┃[听看]",
       "type": 3,
       "timeout": 60,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/第一故事.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/第一故事.js"
     },
     {
       "key": "凤凰FM",
       "name": "📻凤凰┃[听看]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/凤凰FM.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/凤凰FM.js"
     },
     {
       "key": "蜻蜓FM",
       "name": "📻蜻蜓┃[听看]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/蜻蜓FM.js"
-    },
-    {
-      "key": "cat_夸克影院",
-      "name": "👶夸克┃[网盘]",
-      "type": 3,
-      "timeout": 60,
-      "api": "./ext/夸克影院.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/蜻蜓FM.js"
     },
     {
       "key": "人人电影",
       "name": "👰人人┃[网盘]",
       "type": 3,
       "timeout": 60,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/人人电影.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/人人电影.js"
     },
     {
       "key": "泥泥视频",
       "name": "🍋泥泥┃[秒播]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/泥泥视频.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/泥泥视频.js"
     },
     {
       "key": "星辰影院",
       "name": "🪐星辰┃[秒播]",
       "type": 3,
-      "api": "./ext/星辰影院.js"
+      "api": "./lib/星辰影院.js"
     },
     {
       "key": "官采",
@@ -732,29 +716,29 @@
       "key": "腾腾",
       "name": "🐧腾腾┃[解析]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/腾腾.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾腾.js"
     },
     {
       "key": "奇奇",
       "name": "🐴奇奇┃[解析]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/奇奇.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/奇奇.js"
     },
     {
       "key": "果果",
       "name": "🍋果果┃[解析]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/果果.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/果果.js"
     },
     {
       "key": "酷酷",
       "name": "😎酷酷┃[解析]",
       "type": 3,
-      "api": "./ext/drpy2.min.js",
-      "ext": "./ext/酷酷.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/酷酷.js"
     },
     {
       "key": "csp_IkanBot",
@@ -831,7 +815,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "type": "./ext/bili.json"
+        "type": "./lib/bili.json"
       },
       "style": {
         "type": "rect",
@@ -847,7 +831,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "type": "./ext/biliyy.json"
+        "type": "./lib/biliyy.json"
       },
       "style": {
         "type": "rect",
@@ -863,7 +847,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "type": "./ext/mtv.json"
+        "type": "./lib/mtv.json"
       },
       "style": {
         "type": "rect",
@@ -879,7 +863,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "type": "./ext/bilirt.json"
+        "type": "./lib/bilirt.json"
       },
       "style": {
         "type": "rect",
@@ -903,7 +887,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "type": "./ext/bilims.json"
+        "type": "./lib/bilims.json"
       },
       "style": {
         "type": "rect",
@@ -930,7 +914,7 @@
       "key": "酷克PHP",
       "name": "⚽酷克┃[体育]",
       "type": 4,
-      "api": "http://jiduo.3116598.xyz/PHP/pkty.php",
+      "api": "./lib/pkty.php",
       "searchable": 0,
       "changeable": 1
     },
@@ -955,7 +939,7 @@
       "changeable": 1,
       "timeout": 60,
       "playerType": 2,
-      "ext": "./ext/alist.json"
+      "ext": "./lib/alist.json"
     },
     {
       "key": "WebDAV",
@@ -967,7 +951,7 @@
       "changeable": 1,
       "timeout": 60,
       "playerType": 2,
-      "ext": "./ext/webdav.json"
+      "ext": "./lib/webdav.json"
     },
     {
       "key": "商店",
@@ -976,7 +960,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./ext/market.json"
+      "ext": "./lib/market.json"
     },
     {
       "key": "csp_PanSou",
@@ -989,12 +973,29 @@
       "timeout": 60,
       "ext": {
         "include": [
-          "HDR",
-          "高码"
+          "http://rihou.cc:88/HDR",
+          "http://rihou.cc:88/高码"
         ],
         "exclude": [
-          "预告",
-          "花絮"
+          "http://rihou.cc:88/预告",
+          "http://rihou.cc:88/花絮"
+        ]
+      }
+    },
+    {
+      "key": "csp_MiSou",
+      "name": "🔍米搜┃搜索",
+      "type": 3,
+      "api": "csp_MiSou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "hide": 1,
+      "timeout": 60,
+      "ext": {
+        "site": [
+          "http://gesoso.fun",
+          "http://www.misoso.shop"
         ]
       }
     },
@@ -1048,22 +1049,11 @@
       "api": "https://so.yinpai.xyz/api.php?type=xunlei"
     },
     {
-      "key": "py_盘友圈",
-      "name": "🤒盘友┃搜索",
-      "api": "./ext/盘友圈.py",
-      "filterable": 1,
-      "timeout": 60,
-      "quickSearch": 1,
-      "searchable": 1,
-      "hide": 1,
-      "type": 3
-    },
-    {
       "key": "短裤",
       "name": "🐥短剧┃搜索",
       "type": 4,
       "hide": 1,
-      "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
+      "api": "./lib/duanju.php"
     },
     {
       "key": "push_agent",
@@ -1076,204 +1066,7 @@
       "timeout": 60
     }
   ],
-  "doh": [
-    {
-      "name": "DNSPod",
-      "url": "https://doh.pub/dns-query",
-      "ips": [
-        "119.29.29.29",
-        "119.28.28.28",
-        "2400:da00::6666",
-        "2400:da00:1::6666"
-      ]
-    },
-    {
-      "name": "Alidns",
-      "url": "https://dns.alidns.com/dns-query",
-      "ips": [
-        "223.5.5.5",
-        "223.6.6.6",
-        "2400:3200::1",
-        "2400:3200:baba::1"
-      ]
-    },
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "Tencent",
-      "url": "https://doh.pub/dns-query",
-      "ips": [
-        "1.12.12.12",
-        "120.53.53.53",
-        "2402:4e00::",
-        "2402:4e00:1::"
-      ]
-    },
-    {
-      "name": "360DNS",
-      "url": "https://doh.360.cn/dns-query",
-      "ips": [
-        "101.226.4.6",
-        "218.30.118.6",
-        "123.125.81.6",
-        "140.207.198.6"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141",
-        "2a10:50c0::ad1:ff",
-        "2a10:50c0::ad2:ff"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40",
-        "2001:67c:2354:2::64",
-        "2001:67c:2354:3::64"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-query",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112",
-        "2620:fe::fe",
-        "2620:fe::9"
-      ]
-    }
-  ],
-  "proxy": [
-    "raw.githubusercontent.com",
-    "googlevideo.com",
-    "googleapis.com",
-    "youtube.com",
-    "www.youtube.com",
-    "m.youtube.com",
-    "youtu.be",
-    "ytimg.com",
-    "i.ytimg.com",
-    "ggpht.com",
-    "yt3.ggpht.com",
-    "youtubei.googleapis.com",
-    "gstatic.com",
-    "nhacmp3youtube.com",
-    "edgeware.tvb.com",
-    "cdn-2.ttvb.eu.org",
-    "yang-1989.eu.org",
-    "hinet.net",
-    "4gtv.tv",
-    "eu.org",
-    "15.204.105.50",
-    "7707bo.trustdeveloppment.com",
-    "1tv41.icu",
-    "lb59.xxip9.top",
-    "php.946985.filegear-sg.me",
-    "github.com",
-    "gcore.jsdelivr.net",
-    "iptv.852851.xyz",
-    "static.wikia.nocookie.net",
-    "static.hbo.com",
-    "cdn.jsdelivr.net",
-    "upload.wikimedia.org",
-    "get.perfecttv.net",
-    "tvlogo-282.pages.dev",
-    "logodownload.org",
-    "tvpnlogopus.samsungcloud.tv",
-    "provider-static.plex.tv",
-    "upload.wikimedia.org",
-    "tvpnlogopeu.samsungcloud.tv",
-    "schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com"
-  ],
   "rules": [],
-  "headers": [
-    {
-      "host": "img\\d+.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img1.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img2.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img3.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img4.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img5.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img6.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img7.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img8.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    },
-    {
-      "host": "img9.doubanio.com",
-      "header": {
-        "Referer": "https://movie.douban.com"
-      }
-    }
-  ],
-  "hosts": [],
   "parses": [
     {
       "name": "测试解析",
@@ -1330,21 +1123,5 @@
         }
       }
     }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "wasu"
-  ],
-  "ads": [
-    "static-mozai.4gtv.tv",
-    "s3t3d2y8.afcdn.net"
   ]
 }

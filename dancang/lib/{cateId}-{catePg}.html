@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>提示信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<base target='_self'/>
+<style>body{background:#f9fafd;color:#818181}a {text-decoration: none}.mac_msg_jump{width:90%;max-width:420px;margin:5% auto 0;border: 1px solid #293846;border-radius: 4px;box-shadow: 0px 1px 2px rgba(0,0,0,0.1);border: 1px solid #0099CC;background-color: #F2F9FD;}.mac_msg_jump .title{margin-bottom:11px}.mac_msg_jump .text{margin-top: 20px;font-size:14px;color:#555;font-weight: normal;}.msg_jump_tit{height: 32px;padding: 0px;line-height: 32px;font-size: 14px;color: #DFE4ED;text-align: left;background: #0099CC;}</style></head>
+<body leftmargin='0' topmargin='0'>
+<center>
+<script>
+      var pgo=0;
+      function JumpUrl(){
+        if(pgo==0){ location='javascript:history.go(-1);'; pgo=1; }
+      }
+document.write("<br /><div class='mac_msg_jump'><div class='text'>");
+document.write("<img style='height: 28px;margin-bottom: 15px;'; src='https://www.mochadj.com/pic/i2.png'><br>参数丢失，请返回！");
+document.write("<div style='margin-top:20px;'><a href='javascript:history.go(-1);'><font style='color:#0099CC;font-size:12px;'>[点击这里手动跳转]</font></a></div><br/></div></div>");
+setTimeout('JumpUrl()',1000);</script>
+</center>
+</body>
+</html>

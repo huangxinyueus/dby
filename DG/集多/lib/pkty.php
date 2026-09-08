@@ -1,0 +1,1 @@
+{"class":[{"type_id":"2@直播","type_name":"足球直播"},{"type_id":"1@直播","type_name":"篮球直播"},{"type_id":"football@赛程","type_name":"足球赛程"},{"type_id":"basketball@赛程","type_name":"篮球赛程"}]}

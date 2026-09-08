@@ -1,7 +1,7 @@
 {
-  "spider": "./jar/234044207_4_1787290437788.jar;md5;ba25eb6bad40a9352017438a47865a10",
+  "spider": "https://tc-new.z.wiki/autoupload/k2fxc/20260902/xJZz/fish09020618.jar;md5;282aee405654188f1bc1822bbf137410",
+  "logo": "./lib/avatar%2Ff5309172-1af6-4c4f-a1c5-a4773a1cc718.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
-  "danmaku": "http://127.0.0.1:5266/danmu/webhtv?name={name}&episode={episode}",
   "sites": [
     {
       "key": "Douban",
@@ -14,8 +14,8 @@
       "filterable": 1,
       "ext": {
         "home": {
-          "douban": "./ext/douban.json",
-          "tmdb": "./ext/tmdb.json"
+          "douban": "https://6800.kstore.vip/douban.json",
+          "tmdb": "https://6800.kstore.vip/tmdb.json"
         }
       }
     },
@@ -45,7 +45,7 @@
       "style": {
         "type": "list"
       },
-      "ext": "./ext/share.json"
+      "ext": "./lib/share.json"
     },
     {
       "key": "ALLLive",
@@ -85,11 +85,10 @@
         "site": [
           "https://wogg.xxooo.cf",
           "https://woggpan.888484.xyz",
-          "https://wogg.333232.xyz",
-          "http://woggpan.xxooo.cf",
-          "https://www.wogg.one"
+          "https://www.wogg.live",
+          "http://woggpan.xxooo.cf"
         ],
-        "filter": "./ext/wogg.json"
+        "filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"
       }
     },
     {
@@ -100,22 +99,84 @@
       "searchable": 1,
       "ext": {
         "site": [
-          "https://123.666291.xyz",
-          "https://666.666291.xyz",
-          "https://www.muou.site",
-          "https://www.muou.asia"
+          "https://www.muoua.top",
+          "https://333.333291.xyz",
+          "https://666.666291.xyz"
         ]
       }
     },
     {
-      "key": "PianKu8",
-      "name": "🫡┆片库┆4K",
+      "key": "bl",
+      "name": "🤪┆摆烂┆4K",
       "type": 3,
-      "api": "csp_PianKu8",
+      "api": "csp_App88",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://qkys.qukanwh.com"
+      "ext": "https://max.moyu666666.top/app88.php?site=bl"
+    },
+    {
+      "key": "FuYun",
+      "name": "☁️┆浮云┆4K",
+      "type": 3,
+      "api": "csp_FuYun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://6800.kstore.vip/AT5gVJoBJLBjA8bGv16T3JrqN2LXBIOz+yh3i+Q62mrf39gRwFyDvBsZFicI+C39mJcLm9J7qY/293gromRPJAf+9zAbwWTtKnR5Ums7P1Q5ts6eqP1gLc/RID4P3Mia9LSNqOxWJ8U9XZRYJl6gdtnZo7oR8T8JMWvWFVZzu5pAGSlzcJxMzqaVrWaPTrC3x790BI+cfF1ogCKAwNaVQxU="
+    },
+    {
+      "key": "花信",
+      "name": "🌼┆花信┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/huaxin"
+      }
+    },
+    {
+      "key": "砚池",
+      "name": "🪨┆砚池┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/yanchi"
+      }
+    },
+    {
+      "key": "素笺",
+      "name": "📜┆素笺┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/sujian"
+      }
+    },
+    {
+      "key": "丹青",
+      "name": "🖌️┆丹青┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/danqing"
+      }
     },
     {
       "key": "huaisang",
@@ -124,7 +185,7 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 1,
-      "ext": "AdYEovlEKsDy77+R58YGahWCxrDZyBxExcQNC2NSeH0n1b5mu6tvh8b4Eh0RCpoPF6eivKdrR1Hsb8X4sSVBS8zF6jkwLW+wze9yh+hSY5iimm4gM9mAtmt0obTi+6Iox/Jp4GCsN4MQyFebMK162SKnILklpXc1UMiJv9gnPOe5aOPUxCftL+x7/UGhBdFYWIegpiHvKeavUtCUkhxtDyC8KqVVPPW0StI5GdmUA3WBbnnrNiKqNc5GBmrffd6pDN+Cf9IIjzNNvos/5KXJmBbe/baAzTLkoafeIoDhO451"
+      "ext": "https://6800.kstore.vip/AdYEovlEKsDy77+R58YGahWCxrDZyBxExcQNC2NSeH0n1b5mu6tvh8b4Eh0RCpoPF6eivKdrR1Hsb8X4sSVBS8zF6jkwLW+wze9yh+hSY5iimm4gM9mAtmt0obTi+6Iox/Jp4GCsN4MQyFebMK162SKnILklpXc1UMiJv9gnPOe5aOPUxCftL+x7/UGhBdFYWIegpiHvKeavUtCUkhxtDyC8KqVVPPW0StI5GdmUA3WBbnnrNiKqNc5GBmrffd6pDN+Cf9IIjzNNvos/5KXJmBbe/baAzTLkoafeIoDhO451"
     },
     {
       "key": "枫眠",
@@ -133,14 +194,27 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 1,
-      "ext": "AWfUDttOwxKXIsxIZto8I5pb8v1yk+QgFQrqkJTMegeLMTRfs9C/EkFDgcQYoGmzdlmg8nek2YH5Oc89IMbRw57jIX3I+pJ82euuxi0ywouJ4IOWiVeQIwKEbV4EejQSdrC22e7dnmi8/WHMY19IRndGP2Aews4RcVt+MnJwibWI"
+      "ext": "https://6800.kstore.vip/AWdPh5PnFxq1XZ1+qPrYSqER0/V56CsPtyhgchXfwuAECyRqGnmaLDChTlIn6qwjfE0Hr9d1et+8HEB6MOa6J+NFI/q9jj1dLRTXdE2kKzczaxo6/yaY9q8jEfksZElPK2hPF0UlOPg3Dy5xjGlHXKPA4p5WFet29QlPbubxC6L1"
     },
     {
       "key": "长泽",
       "name": "😗┆长泽┆4K",
       "type": 3,
       "api": "csp_App88",
-      "ext": "Aa+WBBIIxghmbVYkWqlC4wrZvlocl4rSZS9+QyJDF6RgWFfYSb+nEM6WkMHPVbQFva551Srt16FqFroyjNssEXemH+xC5pCMj/ewgFuLEIbY2mXCVJ1bJxWRJAggNgH1f3mjwrBxlZA0kGgfAd0os29Mdi3RNJilSo5VMkPpcQPMeF8/PTbZHNymotiTwtICNcA5Q0WXsqe/wJ3HoLU4gBYQs1lBmYdxtAuvsnte3SbumQEFlaQnygFscx6EGrwKMFZLVcmu9egAXxygsf5PmyzN/xvOr+b+HslccoKqDbHNU/C6yWFwaHBawww0ckXRtoJ8fFbV7Xv4NiRcEf6ePm/cd06xYiZmjRts11gE0r8f7D0vx/TgigmU3v8nrgNYDokUGl/jDdza3o7BXyQumCWRD45wYbmKJ1LKb0ybRvNt"
+      "ext": "https://max.moyu666666.top/app88.php?site=legacy_a"
+    },
+    {
+      "key": "云岫",
+      "name": "☁️┆云岫┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/yunxiu"
+      }
     },
     {
       "key": "zhiqiu",
@@ -166,7 +240,7 @@
       "searchable": 1,
       "filterable": 1,
       "ext": {
-        "filter": "https://open.wya6.com/d/down/2026/json/360.json",
+        "filter": "./lib/360.json",
         "fishjx": [
           "https://jx.xmflv.com/?url="
         ]
@@ -215,13 +289,143 @@
       "ext": "https://max.moyu666666.top/app3q.php?site=yd"
     },
     {
+      "key": "茶寮",
+      "name": "🍵┆茶寮┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/chaliao"
+      }
+    },
+    {
+      "key": "栖桐",
+      "name": "🌳┆栖桐┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/qitong"
+      }
+    },
+    {
+      "key": "锦书",
+      "name": "✉️┆锦书┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/jinshu"
+      }
+    },
+    {
+      "key": "棋枰",
+      "name": "♟️┆棋枰┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/qiping"
+      }
+    },
+    {
+      "key": "竹隐",
+      "name": "🎋┆竹隐┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/zhuyin"
+      }
+    },
+    {
+      "key": "玉阶",
+      "name": "🏛️┆玉阶┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/yujie"
+      }
+    },
+    {
+      "key": "香篆",
+      "name": "🪔┆香篆┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/xiangzhu"
+      }
+    },
+    {
+      "key": "松庭",
+      "name": "🌲┆松庭┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/songting"
+      }
+    },
+    {
+      "key": "纸鸢",
+      "name": "🪁┆纸鸢┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/zhiyuan"
+      }
+    },
+    {
+      "key": "墨砚",
+      "name": "🖋️┆墨砚┆APP",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "php": "https://max.moyu666666.top/niulai.php",
+        "site": "https://6800.kstore.vip/moyan"
+      }
+    },
+    {
       "key": "知年",
       "name": "📅┆知年┆APP",
       "api": "csp_AppUn",
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "zn"
+        "playname": "https://6800.kstore.vip/zn"
       }
     },
     {
@@ -231,7 +435,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "xg"
+        "playname": "https://6800.kstore.vip/xg"
       }
     },
     {
@@ -241,7 +445,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "lz"
+        "playname": "https://6800.kstore.vip/lz"
       }
     },
     {
@@ -251,7 +455,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "hj"
+        "playname": "https://6800.kstore.vip/hj"
       }
     },
     {
@@ -261,7 +465,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "sy"
+        "playname": "https://6800.kstore.vip/sy"
       }
     },
     {
@@ -271,7 +475,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "jh"
+        "playname": "https://6800.kstore.vip/jh"
       }
     },
     {
@@ -281,7 +485,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "zh"
+        "playname": "https://6800.kstore.vip/zh"
       }
     },
     {
@@ -291,7 +495,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "zs"
+        "playname": "https://6800.kstore.vip/zs"
       }
     },
     {
@@ -301,17 +505,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "qy"
-      }
-    },
-    {
-      "key": "令汐",
-      "name": "🌊┆令汐┆APP",
-      "api": "csp_AppUn",
-      "type": 3,
-      "ext": {
-        "php": "https://max.moyu666666.top/appun.php",
-        "playname": "lx"
+        "playname": "https://6800.kstore.vip/qy"
       }
     },
     {
@@ -321,7 +515,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "gl"
+        "playname": "https://6800.kstore.vip/gl"
       }
     },
     {
@@ -331,7 +525,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "mj"
+        "playname": "https://6800.kstore.vip/mj"
       }
     },
     {
@@ -341,7 +535,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "cm"
+        "playname": "https://6800.kstore.vip/cm"
       }
     },
     {
@@ -351,7 +545,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "xc"
+        "playname": "https://6800.kstore.vip/xc"
       }
     },
     {
@@ -361,7 +555,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "nz"
+        "playname": "https://6800.kstore.vip/nz"
       }
     },
     {
@@ -371,7 +565,7 @@
       "type": 3,
       "ext": {
         "php": "https://max.moyu666666.top/appun.php",
-        "playname": "mc"
+        "playname": "https://6800.kstore.vip/mc"
       }
     },
     {
@@ -648,14 +842,6 @@
       "changeable": 1
     },
     {
-      "key": "YunPanBa",
-      "name": "📀┆盘吧┆4K",
-      "type": 3,
-      "api": "csp_YunPanBa",
-      "searchable": 1,
-      "ext": "https://yunpan6.com/"
-    },
-    {
       "key": "VideoX",
       "name": "📺┆小北┆云视",
       "type": 3,
@@ -720,14 +906,6 @@
       "filterable": 1
     },
     {
-      "key": "MqTv",
-      "name": "🐦┆麻雀┆影视",
-      "type": 3,
-      "api": "csp_MqTv",
-      "searchable": 1,
-      "ext": "https://www.mqtv.cc"
-    },
-    {
       "key": "SaoHuo",
       "name": "🌶️┆骚火┆影视",
       "type": 3,
@@ -757,7 +935,7 @@
       "filterable": 1,
       "ext": {
         "host": "https://short.fishcloud.top",
-        "quality": "1080p",
+        "quality": "https://6800.kstore.vip/1080p",
         "danmu": false
       }
     },
@@ -789,7 +967,7 @@
       "type": 3,
       "api": "csp_FanShu",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "filterable": 1,
       "ext": "https://max.moyu666666.top/fanshu.php"
     },
@@ -798,7 +976,7 @@
       "name": "✨┆双星┆动漫",
       "type": 3,
       "api": "csp_App88",
-      "ext": "AcT3r+Yx4xV/LlB7Os5BUaHRLhSxKWwSAgpq3V+7Eo/lCbgRu4w9WaFSZNmvzIyEv57jMmi3y9UyfY2V3hG6r2ZXOYxjb2VtNGcc31qnT/0V8c5RhLl5yhVOC1di9IjfQ/w+842AXS7IaMxh6737IMQrO04oidEfNkqKs39imu3vmC7Qu0fR1zcCk4JWmurxw4V7qab1Sc/gkANOoml0aHP4VRJJ+vIuIb9yQZNRyOjKUjC0XQmPKJbcexNyZqnRghr5ADZOAN3NMjlQzd914ixCDj5ME+wlkvmbTjL+ECb0EG5LfX/ATTYr8e0EWLfOBzVon/BrbJdZU5m3k4jVSQwEjREWtS1z9bbii6G9ts77nx3P3smsdE9Mu4dEYZaSkekI62B98hP4gLCvw7qw8wZlymehntj/MTc7KupQ9sCKzPMiu8yz4eed4PGdfc6HMg=="
+      "ext": "https://max.moyu666666.top/app88.php?site=legacy_b"
     },
     {
       "key": "XgAnime",
@@ -817,7 +995,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
+      "ext": "https://6800.kstore.vip/AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
     },
     {
       "key": "Gugu",
@@ -827,7 +1005,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "ARKK6LQnl4dB2QciLugEzZ8QD2WdbeK23tPAre1QOEbbL5BfB8cV39JNfSd2+Xhcqr/z+V5To0krLYHUX7NtRtwYBC44/9ayncZMomdbv4ZCBNOUsBEedUQx7SWf1J0pE0BsLG9QlR8tURwRwx/sqT0="
+      "ext": "https://6800.kstore.vip/ARKK6LQnl4dB2QciLugEzZ8QD2WdbeK23tPAre1QOEbbL5BfB8cV39JNfSd2+Xhcqr/z+V5To0krLYHUX7NtRtwYBC44/9ayncZMomdbv4ZCBNOUsBEedUQx7SWf1J0pE0BsLG9QlR8tURwRwx/sqT0="
     },
     {
       "key": "Jianpian",
@@ -906,11 +1084,11 @@
       "changeable": 1,
       "ext": {
         "categories": [
-          "周杰伦",
-          "林俊杰",
-          "陈奕迅",
-          "邓紫棋",
-          "薛之谦"
+          "https://6800.kstore.vip/周杰伦",
+          "https://6800.kstore.vip/林俊杰",
+          "https://6800.kstore.vip/陈奕迅",
+          "https://6800.kstore.vip/邓紫棋",
+          "https://6800.kstore.vip/薛之谦"
         ]
       }
     },
@@ -945,7 +1123,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./ext/89370c8ddf36b5e1beb4d71adb921bda.txt"
+        "json": "./lib/89370c8ddf36b5e1beb4d71adb921bda.txt"
       }
     },
     {
@@ -961,7 +1139,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./ext/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+        "json": "./lib/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       }
     },
     {
@@ -977,7 +1155,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./ext/8f55d520f8d70056695740ef151744a7.txt"
+        "json": "./lib/8f55d520f8d70056695740ef151744a7.txt"
       }
     },
     {
@@ -993,7 +1171,39 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./ext/c66a4b5356141c49fd45ec51568017b4.txt"
+        "json": "./lib/c66a4b5356141c49fd45ec51568017b4.txt"
+      }
+    },
+    {
+      "key": "BiliHeji",
+      "name": "🎉┆笔璃┆合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "json": "./lib/0075389dca9afadd4614e9713765ff17.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      }
+    },
+    {
+      "name": "🎉┆笔璃┆歌曲",
+      "key": "BiliGequ",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "./lib/6496356286589c68f52c2f99c0c674c7.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
       }
     },
     {
@@ -1144,7 +1354,7 @@
       "indexs": 0,
       "searchable": 1,
       "filterable": 1,
-      "ext": "./ext/fishdrive.json"
+      "ext": "./lib/fishdrive.json"
     },
     {
       "key": "Wallpaper",
@@ -1169,168 +1379,5 @@
       "playerType": 2
     }
   ],
-  "parses": [],
-  "flags": [],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    }
-  ]
+  "parses": []
 }
