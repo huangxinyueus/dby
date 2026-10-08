@@ -1,11 +1,11 @@
 {
-  "spider": "./lib/spider.jar;md5;9f55040b32bfe4a5c9a2353cdef51544",
-  "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
+  "spider": "./lib/spider.jar;md5;fc8f993c9297d38139363cd0e3db9853",
+  "wallpaper": "https://www.loliapi.com/acg/",
   "logo": "./lib/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
       "key": "Douban",
-      "name": "🐮【王二小放牛娃】🐮",
+      "name": "🐮【免费分享】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -16,7 +16,7 @@
     },
     {
       "key": "Doubanaaaa",
-      "name": "🐮【更新日期:20260906】🐮",
+      "name": "🐮【更新日期:20260923】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -50,10 +50,10 @@
       }
     },
     {
-      "key": "二小",
-      "name": "💓‍指南┃4K💓‍",
+      "key": "花卷",
+      "name": "💓花卷┃4K💓‍",
       "type": 3,
-      "api": "csp_AiNewXiaoPanGuard",
+      "api": "csp_AiNewHuaJuanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -81,24 +81,6 @@
       "name": "💓‍七味┃4K💓‍",
       "type": 3,
       "api": "csp_AiQwMkvGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "NewZhiZhen",
-      "name": "💓至臻┃4K💓",
-      "type": 3,
-      "api": "csp_AiNewZhiZhenGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "AiNewPanLian",
-      "name": "💓盘链┃4K💓",
-      "type": 3,
-      "api": "csp_AiNewPanLianGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -264,7 +246,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Dsx",
+        "config": "AppV7Dsx",
         "proxyImg": false
       },
       "timeout": 120
@@ -277,7 +259,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Fz",
+        "config": "AppV7Fz",
         "proxyImg": false
       },
       "timeout": 120
@@ -290,7 +272,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Xy",
+        "config": "AppV7Xy",
         "proxyImg": false
       },
       "timeout": 120
@@ -303,7 +285,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Zjdr",
+        "config": "AppV7Zjdr",
         "proxyImg": false
       },
       "timeout": 120
@@ -316,7 +298,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Xyz",
+        "config": "AppV7Xyz",
         "proxyImg": false
       },
       "timeout": 120
@@ -329,7 +311,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Xnm",
+        "config": "AppV7Xnm",
         "proxyImg": false
       },
       "timeout": 120
@@ -342,7 +324,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Mtq",
+        "config": "AppV7Mtq",
         "proxyImg": false
       },
       "timeout": 120
@@ -355,7 +337,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Llq",
+        "config": "AppV7Llq",
         "proxyImg": false
       },
       "timeout": 120
@@ -368,7 +350,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Xsz",
+        "config": "AppV7Xsz",
         "proxyImg": false
       },
       "timeout": 120
@@ -381,7 +363,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "config": "https://9280.kstore.space/AppV7Xhr",
+        "config": "AppV7Xhr",
         "proxyImg": false
       },
       "timeout": 120

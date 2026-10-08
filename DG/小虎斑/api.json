@@ -1,6 +1,7 @@
 {
-  "spider": "./lib/spider.jar;md5;94853819c2821c2de34a4a64b07dfaa2",
+  "spider": "./custom_spider.jar;md5;a8ad0888ed266b37298dbae7f741c27a",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
     {
       "name": "钵钵鸡(四网通用)",
@@ -53,10 +54,46 @@
       }
     },
     {
+      "key": "pansou",
+      "api": "http://tvbox.zling.vip/wanpan.php?type=quark|uc|baidu|tianyi|xunlei|123",
+      "name": "盘搜|集合",
+      "type": 4
+    },
+    {
+      "key": "HBFiveDm",
+      "api": "csp_HBFiveDm",
+      "name": "五漫|弹幕",
+      "type": 3
+    },
+    {
+      "key": "HBBaoHuo",
+      "api": "csp_HBBaoHuo",
+      "name": "火火|弹幕",
+      "type": 3
+    },
+    {
+      "key": "HBYiQi",
+      "api": "csp_HBYiQi",
+      "name": "一起|弹幕",
+      "type": 3
+    },
+    {
       "key": "落雨",
       "name": "落雨|弹幕",
       "type": 3,
       "api": "csp_HBXueluo"
+    },
+    {
+      "key": "HBMaiTian",
+      "api": "csp_HBMaiTian",
+      "name": "美美|弹幕",
+      "type": 3
+    },
+    {
+      "key": "HBDYYZ",
+      "api": "csp_HBDYYZ",
+      "name": "驿站|弹幕",
+      "type": 3
     },
     {
       "key": "独播",
@@ -69,6 +106,12 @@
       "name": "瓜子|弹幕",
       "type": 3,
       "api": "csp_HBGuaZi"
+    },
+    {
+      "key": "HBDYYZ",
+      "name": "驿站|弹幕",
+      "type": 3,
+      "api": "csp_HBDYYZ"
     },
     {
       "key": "HBPianKu8",
@@ -92,7 +135,7 @@
       "key": "全网",
       "name": "全网|短剧",
       "type": 4,
-      "api": "./lib/duanju.php"
+      "api": "http://38.76.197.172:15151/duanju.php?type=dquark"
     },
     {
       "key": "B站直播",
@@ -222,45 +265,9 @@
       "playerType": 2,
       "api": "csp_HBleiJing",
       "ext": {
-        "tyitoken": "http://127.0.0.1:9978/file/HBTV/tyitoken.txt",
+        "tyitoken": "./lib/tyitoken.txt",
         "leijck": ""
       }
-    },
-    {
-      "key": "xunlei",
-      "name": "迅雷|推送",
-      "type": 4,
-      "api": "http://38.76.197.172:15151/api.php?type=xunlei"
-    },
-    {
-      "key": "123",
-      "name": "123|推送",
-      "type": 4,
-      "api": "http://38.76.197.172:15151/api.php?type=123"
-    },
-    {
-      "key": "夸克推送",
-      "name": "夸克|推送",
-      "type": 4,
-      "api": "http://38.76.197.172:15151/api.php?type=quark"
-    },
-    {
-      "key": "优惜",
-      "name": "优惜|推送",
-      "type": 4,
-      "api": "http://38.76.197.172:15151/api.php?type=uc"
-    },
-    {
-      "key": "百度",
-      "name": "百度|推送",
-      "type": 4,
-      "api": "http://38.76.197.172:15151/api.php?type=baidu"
-    },
-    {
-      "key": "天翼",
-      "name": "天翼|推送",
-      "type": 4,
-      "api": "http://38.76.197.172:15151/api.php?type=tianyi"
     },
     {
       "key": "灵虎",
@@ -466,7 +473,7 @@
         "免嗅": "1",
         "播放数组": "<ul class=\"stui-content__playlist&&</ul>",
         "播放列表": "<li&&</li>",
-        "分类url": "./lib/{cateId}-{catePg}.html",
+        "分类url": "https://ikan234.com/list/{cateId}-{catePg}.html",
         "分类": "电视剧$2#电影$1#动漫$4#短剧$5#综艺$3"
       }
     },
@@ -561,6 +568,23 @@
         }
       }
     }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "pptv",
+    "PPTV",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "m1905",
+    "seven",
+    "m78"
   ],
   "rules": [
     {
@@ -691,5 +715,216 @@
         "video/tos/cn"
       ]
     }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "wan.51img1.com",
+    "iqiyi.hbuioo.com",
+    "vip.ffzyad.com"
   ]
 }

@@ -3,8 +3,8 @@
     "name": "火花影视",
     "packageName": "com.huohuavideo.app",
     "officialWebsite": "https://www.huohua.app",
-    "latestApkURL": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
-    "latestVersion": "2.7.0",
+    "latestApkURL": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA0ZjFjMjU0ODoyMzQ1MTkxNDUyOTQxOA%3D%3D.apk",
+    "latestVersion": "2.8.0",
     "textURL": "https://js.trgfd.cn",
     "otherURL": "https://js.trgfd.cn",
     "resourceURL": "https://js.trgfd.cn",
@@ -35,7 +35,8 @@
     "withoutadsshijian": 600,
     "uaprefix": "huohuavideo-",
     "shebeimingxianzhi": 2,
-    "bofangyetubili": 0
+    "bofangyetubili": 0,
+    "alluseryincangvidlist": ""
   },
   "channels": [
     "首页",
@@ -73,59 +74,105 @@
       "name": "热播榜",
       "types": [
         "全部",
+        "大陆剧",
         "美剧",
-        "英剧",
         "韩剧",
+        "英剧",
+        "泰剧",
         "日剧",
+        "台剧",
+        "港剧",
         "电影",
-        "泰剧"
+        "国内综艺",
+        "国外综艺",
+        "国漫",
+        "日漫",
+        "少儿",
+        "纪录片"
       ]
     },
     {
       "name": "热搜榜",
       "types": [
         "全部",
+        "大陆剧",
         "美剧",
-        "电影",
         "韩剧",
-        "日剧",
+        "英剧",
         "泰剧",
-        "英剧"
+        "日剧",
+        "台剧",
+        "港剧",
+        "电影",
+        "国内综艺",
+        "国外综艺",
+        "国漫",
+        "日漫",
+        "少儿",
+        "纪录片"
       ]
     },
     {
       "name": "飙升榜",
       "types": [
         "全部",
-        "电影",
+        "大陆剧",
         "美剧",
         "韩剧",
+        "英剧",
         "泰剧",
         "日剧",
-        "英剧"
+        "台剧",
+        "港剧",
+        "电影",
+        "国内综艺",
+        "国外综艺",
+        "国漫",
+        "日漫",
+        "少儿",
+        "纪录片"
       ]
     },
     {
       "name": "新片榜",
       "types": [
         "全部",
+        "大陆剧",
         "美剧",
-        "英剧",
         "韩剧",
+        "英剧",
+        "泰剧",
         "日剧",
+        "台剧",
+        "港剧",
         "电影",
-        "泰剧"
+        "国内综艺",
+        "国外综艺",
+        "国漫",
+        "日漫",
+        "少儿",
+        "纪录片"
       ]
     },
     {
       "name": "高分榜",
       "types": [
         "全部",
+        "大陆剧",
         "美剧",
-        "英剧",
         "韩剧",
+        "英剧",
+        "泰剧",
+        "日剧",
+        "台剧",
+        "港剧",
         "电影",
-        "日剧"
+        "国内综艺",
+        "国外综艺",
+        "国漫",
+        "日漫",
+        "少儿",
+        "纪录片"
       ]
     }
   ],
@@ -153,6 +200,8 @@
       "updated_at": "0001-01-01T00:00:00Z",
       "tuiguangmiantian": 5,
       "tuiguangmiaoshu": "每成功邀请1人，送5天免广告\n累计邀请3人，额外送5天免广告\n累计邀请10人，额外送30天免广告\n累计邀请30人，送永久免广告特权",
+      "tuiguangGuizeTitle": "邀新有礼｜双方享免广告福利！",
+      "tuiguangGuizeContent": "邀请好友下载 APP，好友（新用户）24 小时内填写你的邀请码，邀请成功！\n你：获得免广告会员5天  多邀多得 !\n好友（新用户）：直接领取 3 天免广告权益",
       "jili": [
         {
           "tishi": "第一个广告",
@@ -181,28 +230,28 @@
     }
   ],
   "huancun": 86400,
-  "tishi": "新版本已上线，优化体验，建议立即更新！",
+  "tishi": "华为手机安装被系统拦截，内置更新无法安装。请点击官网地址下载最新版",
   "qiangzhi": 1,
   "qudao": [
     {
       "qudaoming": "baidutuiguang",
-      "banben": "2.7.0",
+      "banben": "2.8.0",
       "qiangzhi": 1,
-      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA0ZjFjMjU0ODoyMzQ1MTkxNDUyOTQxOA%3D%3D.apk",
       "yanchijiancha": "0"
     },
     {
       "qudaoming": "fenxiang",
-      "banben": "2.7.0",
+      "banben": "2.8.0",
       "qiangzhi": 1,
-      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA0ZjFjMjU0ODoyMzQ1MTkxNDUyOTQxOA%3D%3D.apk",
       "yanchijiancha": "0"
     },
     {
       "qudaoming": "yingyongshichang",
-      "banben": "2.7.0",
+      "banben": "2.8.0",
       "qiangzhi": 1,
-      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA3Y2FjZmNkODoyMjU4OTM1MzA4ODQxOA%3D%3D.apk",
+      "apk": "https://p1-ad.adukwai.com/bs2/ad-app/YWQtYXBwOmFkX2RzcF9hcHA6MjU4NzI3NzQxODpNRVJDSEFOVDpbQkA0ZjFjMjU0ODoyMzQ1MTkxNDUyOTQxOA%3D%3D.apk",
       "yanchijiancha": "0"
     }
   ],
@@ -216,8 +265,10 @@
     "bottomLabel": [
       "首页",
       "榜单",
+      "任务",
       "我的"
     ],
+    "rankbg": "/tu/1789478906885546416.png",
     "bgWhite": "#EDEDED",
     "textBlack": "#121212",
     "textGray": "#666666",

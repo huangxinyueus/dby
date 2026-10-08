@@ -1,27 +1,22 @@
 {
-  "spider": "http://xz.rihou.cc:88/xz/api.php/vox.jar;md5;ea9cdee94e4424ca617761c3f4ca9891",
+  "spider": "./lib/spider.jar;md5;0a591a381676c3d72427a77faed45902",
   "logo": "./lib/1.gif",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "lives": [
     {
       "name": "📡咪咕直播",
       "type": 0,
-      "url": "http://124.77.202.8:49155"
+      "url": "http://139.224.44.53:1234"
     },
     {
       "name": "📡咪咕直播2",
       "type": 0,
-      "url": "http://27.18.216.122:55555"
+      "url": "http://psp1000.asuscomm.com:1234"
     },
     {
       "name": "📡咪咕直播3",
       "type": 0,
-      "url": "http://120.24.194.118:10002"
-    },
-    {
-      "name": "📡裤佬直播",
-      "type": 0,
-      "url": "https://seep.eu.org/https://live.445569.xyz/live.m3u"
+      "url": "http://117.72.81.53:3000"
     },
     {
       "name": "📡虎牙",
@@ -66,20 +61,6 @@
       "api": "csp_Config",
       "searchable": 0,
       "changeable": 0
-    },
-    {
-      "key": "wojh",
-      "name": "🎿玩偶┃[网盘]",
-      "type": 3,
-      "api": "csp_Nostr",
-      "homePage": "./html/wo.html"
-    },
-    {
-      "key": "Eclipse",
-      "name": "🚢Eclipse┃[盘搜]",
-      "type": 3,
-      "api": "csp_Nostr",
-      "homePage": "./html/Eclipse.html"
     },
     {
       "key": "csp_MakkaPakka",
@@ -238,22 +219,7 @@
         "cookie": "",
         "filters": "./lib/guanying.json",
         "sites": "https://www.xn--wcv59z.com,https://www.xn--74qz10cqsltibh40akss.com,https://www.xn--dpqv20e8ug6r8a.com,https://www.xn--10vr61a3xc5x3b.com,https://www.xn--kivn76b41nnhi.com",
-        "proxy": "http://rihou.cc:88/noproxy"
-      }
-    },
-    {
-      "key": "csp_PingLian",
-      "name": "😃盘链┃[网盘]",
-      "type": 3,
-      "api": "csp_PingLian",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "ext": {
-        "cookie": "",
-        "filters": "./lib/pinglian.json",
-        "sites": "https://pinglian.lol",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
@@ -318,7 +284,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "host": "https://sidhub.cc"
+        "host": "https://seedog.cc"
       }
     },
     {
@@ -369,7 +335,7 @@
     },
     {
       "key": "csp_Wogg",
-      "name": "😁玩偶┃[网盘]",
+      "name": "😁玩偶┃哥哥",
       "type": 3,
       "api": "csp_Wogg",
       "timeout": 60,
@@ -377,39 +343,9 @@
       "filterable": 1,
       "changeable": 1,
       "ext": {
-        "sites": "https://woggpan.xxooo.cf",
+        "sites": "https://woggpan.888484.xyz,https://wogg.xxooo.cf,https://www.wogg.net,https://woggpan.xxooo.cf",
         "filters": "./lib/wogg.json",
-        "proxy": "http://rihou.cc:88/noproxy"
-      }
-    },
-    {
-      "key": "欧歌网盘",
-      "name": "🤪欧歌┃[网盘]",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "ext": {
-        "sites": "https://woog.nxog.eu.org",
-        "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
-      }
-    },
-    {
-      "key": "蜡笔网盘",
-      "name": "🤩蜡笔┃[网盘]",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "ext": {
-        "sites": "http://tvpanpan.site",
-        "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
@@ -424,22 +360,7 @@
       "ext": {
         "sites": "http://shandian.blog",
         "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
-      }
-    },
-    {
-      "key": "二小网盘",
-      "name": "🤬二小┃[网盘]",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "ext": {
-        "sites": "https://www.wexwp.cc",
-        "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
@@ -454,27 +375,12 @@
       "ext": {
         "sites": "https://123.666291.xyz",
         "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
-      }
-    },
-    {
-      "key": "至臻网盘",
-      "name": "🤫至臻┃[网盘]",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "ext": {
-        "sites": "https://www.mihdr.top",
-        "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
       "key": "多多网盘",
-      "name": "😘多多┃[网盘]",
+      "name": "😘多多┃网盘",
       "type": 3,
       "api": "csp_Wobg",
       "searchable": 1,
@@ -482,9 +388,9 @@
       "changeable": 1,
       "timeout": 60,
       "ext": {
-        "sites": "https://tv.yydsys.top/",
+        "sites": "https://tv.214521.xyz,https://yydsys.de5.net,https://tv.yydsys.top",
         "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
@@ -499,7 +405,7 @@
       "ext": {
         "sites": "http://38.76.197.172:16969",
         "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
@@ -514,7 +420,7 @@
       "ext": {
         "sites": "http://38.76.197.172:12521",
         "filters": "./lib/wogg2.json",
-        "proxy": "http://rihou.cc:88/noproxy"
+        "proxy": "noproxy"
       }
     },
     {
@@ -582,19 +488,7 @@
       "api": "csp_AppGet",
       "ext": {
         "host": "./lib/mifun.txt",
-        "datakey": "http://rihou.cc:88/GETMIFUNGEIMIFUN"
-      }
-    },
-    {
-      "key": "八天App",
-      "name": "🐷八天┃[APP]",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "host": "https://dy.8ttv.cn/",
-        "datakey": "1111111111111111"
+        "datakey": "GETMIFUNGEIMIFUN"
       }
     },
     {
@@ -604,7 +498,7 @@
       "api": "csp_AppGet",
       "ext": {
         "host": "https://app.95112475.xyz",
-        "datakey": "http://rihou.cc:88/5a9w6x58dsq6z3a6"
+        "datakey": "5a9w6x58dsq6z3a6"
       }
     },
     {
@@ -697,12 +591,6 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/泥泥视频.js"
-    },
-    {
-      "key": "星辰影院",
-      "name": "🪐星辰┃[秒播]",
-      "type": 3,
-      "api": "./lib/星辰影院.js"
     },
     {
       "key": "官采",
@@ -914,7 +802,7 @@
       "key": "酷克PHP",
       "name": "⚽酷克┃[体育]",
       "type": 4,
-      "api": "./lib/pkty.php",
+      "api": "http://jiduo.3116598.xyz/PHP/pkty.php",
       "searchable": 0,
       "changeable": 1
     },
@@ -928,30 +816,6 @@
       "ext": {
         "sites": ""
       }
-    },
-    {
-      "key": "AList",
-      "name": "😇Alist┃[网络]",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "playerType": 2,
-      "ext": "./lib/alist.json"
-    },
-    {
-      "key": "WebDAV",
-      "name": "🙃Web┃[网络]",
-      "type": 3,
-      "api": "csp_WebDAV",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 60,
-      "playerType": 2,
-      "ext": "./lib/webdav.json"
     },
     {
       "key": "商店",
@@ -973,12 +837,12 @@
       "timeout": 60,
       "ext": {
         "include": [
-          "http://rihou.cc:88/HDR",
-          "http://rihou.cc:88/高码"
+          "HDR",
+          "高码"
         ],
         "exclude": [
-          "http://rihou.cc:88/预告",
-          "http://rihou.cc:88/花絮"
+          "预告",
+          "花絮"
         ]
       }
     },
@@ -1053,7 +917,7 @@
       "name": "🐥短剧┃搜索",
       "type": 4,
       "hide": 1,
-      "api": "./lib/duanju.php"
+      "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
     },
     {
       "key": "push_agent",

@@ -1,10 +1,10 @@
 {
-  "spider": "./lib/spider.jar;md5;9bf5c1f491cc633ff14e1fee5c91daa9",
-  "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
+  "spider": "./lib/spider.jar;md5;f782cdee81118405176fd260be9ca5cd",
+  "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {
       "key": "点我切源",
-      "name": "<9.07更新> 修复海绵 奥特",
+      "name": "豆豆┃片单",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -14,7 +14,7 @@
     },
     {
       "key": "MDrive",
-      "name": "🗂我的云盘┃我配置",
+      "name": "🗂我的云盘┃配置",
       "type": 3,
       "api": "csp_MyDriveGuard",
       "changeable": 0,
@@ -24,7 +24,7 @@
         "type": "oval"
       },
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -37,12 +37,12 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
       "key": "YGP",
-      "name": "🚀叨观荐影┃预告片",
+      "name": "🚀荐影┃预告片",
       "type": 3,
       "api": "csp_YGPGuard",
       "searchable": 0,
@@ -51,7 +51,7 @@
     },
     {
       "key": "MTV1",
-      "name": "🎙️易听音乐┃带歌词",
+      "name": "🎙️易听┃音乐",
       "type": 3,
       "api": "csp_MusicGuard",
       "style": {
@@ -107,17 +107,6 @@
       "changeable": 1
     },
     {
-      "key": "海绵",
-      "name": "🐬海绵┃不卡",
-      "type": 3,
-      "api": "csp_HmysGuard",
-      "timeout": 10,
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "立播",
       "name": "🌟立播┃不卡",
       "type": 3,
@@ -127,7 +116,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt",
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt",
         "siteUrl": "https://www.libvio.pw/"
       }
     },
@@ -207,17 +196,6 @@
       "ext": "http://www.饭太硬.net/rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bLJRdkFLnijAn5Q+ofVM5hgGb8c="
     },
     {
-      "key": "播客",
-      "name": "🦊播客┃多线",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://www.饭太硬.net/rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru"
-    },
-    {
       "key": "剧圈",
       "name": "🐻剧圈┃多线",
       "type": 3,
@@ -259,6 +237,21 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/"
+    },
+    {
+      "key": "AiDj",
+      "name": "❤️AI┃短漫剧",
+      "type": 3,
+      "api": "csp_AiDjGuard",
+      "ext": {
+        "type": "video",
+        "name": "短剧",
+        "DanMu": false
+      },
+      "indexs": 0,
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "咕咕",
@@ -331,7 +324,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "http://www.饭太硬.net/uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="
+      "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="
     },
     {
       "key": "MTV",
@@ -448,7 +441,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -460,19 +453,19 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
       "key": "抠搜",
-      "name": "🍄抠抠┃搜搜",
+      "name": "🌶️抠抠┃搜搜",
       "type": 3,
       "api": "csp_KkSsGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -484,7 +477,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -524,7 +517,7 @@
       "name": "📚儿童┃启蒙",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "ext": "./lib/兔小贝.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -605,7 +598,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "ext": {
-        "Cloud-drive": "./lib/Cloud-drive.txt"
+        "Cloud-drive": "http://www.饭太硬.net/tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -633,7 +626,7 @@
       ]
     }
   ],
-  "logo": "./lib/6941612717007.gif",
+  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "lives": [
     {
       "name": "Kimentanm",

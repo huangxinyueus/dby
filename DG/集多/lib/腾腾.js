@@ -1,22 +1,66 @@
+var txFilter = {
+    "100173": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最新", "v": "83"}, {"n": "高分好评", "v": "81"}]},
+        {"key": "itype", "name": "类型", "value": [{"n": "全部", "v": "-1"}, {"n": "动作", "v": "4"}, {"n": "喜剧", "v": "3"}, {"n": "爱情", "v": "5"}, {"n": "科幻", "v": "12"}, {"n": "犯罪", "v": "6"}, {"n": "冒险", "v": "7"}, {"n": "恐怖", "v": "11"}, {"n": "动画", "v": "15"}, {"n": "战争", "v": "8"}, {"n": "悬疑", "v": "10"}, {"n": "灾难", "v": "25"}, {"n": "青春", "v": "26"}]},
+        {"key": "iarea", "name": "地区", "value": [{"n": "全部", "v": "-1"}, {"n": "内地", "v": "100024"}, {"n": "中国香港", "v": "100025"}, {"n": "中国台湾", "v": "100026"}, {"n": "美国", "v": "100029"}, {"n": "日本", "v": "100027"}, {"n": "韩国", "v": "100028"}, {"n": "泰国", "v": "100031"}, {"n": "印度", "v": "100030"}, {"n": "英国", "v": "15"}, {"n": "法国", "v": "16"}, {"n": "德国", "v": "17"}, {"n": "其他", "v": "100033"}]},
+        {"key": "ipay", "name": "资费", "value": [{"n": "全部", "v": "-1"}, {"n": "免费", "v": "1"}, {"n": "会员", "v": "8"}, {"n": "付费", "v": "4"}]},
+        {"key": "iyear", "name": "年份", "value": [{"n": "全部", "v": "-1"}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {"n": "2021", "v": "2021"}, {"n": "2020", "v": "2020"}, {"n": "2019", "v": "20"}, {"n": "2018", "v": "2018"}, {"n": "2017", "v": "1"}, {"n": "2016", "v": "2"}, {"n": "2015", "v": "3"}, {"n": "2014", "v": "4"}, {"n": "2013-2011", "v": "5"}, {"n": "2010-2006", "v": "6"}, {"n": "2005-2000", "v": "7"}, {"n": "90年代", "v": "8"}, {"n": "80年代", "v": "9"}]}
+    ],
+    "120188": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最新上架", "v": "76"}, {"n": "限免中", "v": "90"}]}
+    ],
+    "100113": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最新上架", "v": "79"}, {"n": "高分好评", "v": "85"}]},
+        {"key": "itype", "name": "类型", "value": [{"n": "全部", "v": "-1"}, {"n": "爱情", "v": "1"}, {"n": "都市", "v": "2"}, {"n": "青春", "v": "3"}, {"n": "奇幻", "v": "4"}, {"n": "武侠", "v": "5"}, {"n": "古装", "v": "6"}, {"n": "科幻", "v": "7"}, {"n": "猎奇", "v": "8"}, {"n": "竞技", "v": "9"}, {"n": "传奇", "v": "10"}, {"n": "逆袭", "v": "19"}, {"n": "军旅", "v": "11"}, {"n": "家庭", "v": "12"}, {"n": "喜剧", "v": "13"}, {"n": "悬疑", "v": "14"}, {"n": "权谋", "v": "15"}, {"n": "革命", "v": "16"}, {"n": "现实", "v": "17"}, {"n": "刑侦", "v": "18"}, {"n": "民国", "v": "20"}, {"n": "IP改编", "v": "21"}]},
+        {"key": "iarea", "name": "地区", "value": [{"n": "全部", "v": "-1"}, {"n": "内地", "v": "0"}, {"n": "中国香港", "v": "14"}, {"n": "中国台湾", "v": "4"}, {"n": "美国", "v": "8"}, {"n": "泰国", "v": "9"}, {"n": "英国", "v": "1"}, {"n": "韩国", "v": "5"}, {"n": "日本", "v": "10"}, {"n": "其他", "v": "9999"}]},
+        {"key": "ipay", "name": "资费", "value": [{"n": "全部", "v": "-1"}, {"n": "免费", "v": "1"}, {"n": "限免", "v": "2"}, {"n": "会员", "v": "3"}]},
+        {"key": "iyear", "name": "年份", "value": [{"n": "全部", "v": "-1"}, {"n": "即将上线", "v": "1"}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2"}, {"n": "2023", "v": "3"}, {"n": "2022", "v": "4"}, {"n": "2021", "v": "5"}, {"n": "2020-2016", "v": "6"}, {"n": "2015-2011", "v": "7"}, {"n": "2010-2000", "v": "8"}, {"n": "更早", "v": "9"}]}
+    ],
+    "100109": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最近更新", "v": "23"}, {"n": "高分好评", "v": "85"}]},
+        {"key": "itype", "name": "类型", "value": [{"n": "全部", "v": "-1"}, {"n": "游戏", "v": "10"}, {"n": "脱口秀", "v": "2"}, {"n": "音乐舞台", "v": "11"}, {"n": "情感", "v": "12"}, {"n": "生活", "v": "22"}, {"n": "职场", "v": "20"}, {"n": "喜剧", "v": "14"}, {"n": "美食", "v": "19"}, {"n": "潮流运动", "v": "21"}, {"n": "竞技", "v": "24"}, {"n": "影视", "v": "16"}, {"n": "电竞", "v": "15"}, {"n": "推理", "v": "25"}, {"n": "访谈", "v": "3"}, {"n": "亲子", "v": "17"}, {"n": "文化", "v": "26"}, {"n": "互动", "v": "23"}, {"n": "晚会", "v": "6"}, {"n": "资讯", "v": "7"}]},
+        {"key": "iarea", "name": "地区", "value": [{"n": "全部", "v": "-1"}, {"n": "国内", "v": "1"}, {"n": "海外", "v": "2"}]},
+        {"key": "ipay", "name": "资费", "value": [{"n": "全部", "v": "-1"}, {"n": "免费", "v": "1"}, {"n": "会员", "v": "6"}]},
+        {"key": "iyear", "name": "年份", "value": [{"n": "全部", "v": "-1"}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {"n": "2021", "v": "2021"}, {"n": "2020", "v": "50"}, {"n": "2019", "v": "7"}, {"n": "2018", "v": "1"}, {"n": "2017", "v": "2"}, {"n": "2016", "v": "3"}, {"n": "2015", "v": "4"}, {"n": "2014", "v": "5"}, {"n": "2013", "v": "6"}, {"n": "2012", "v": "2012"}, {"n": "2011", "v": "2011"}, {"n": "2010", "v": "2010"}, {"n": "更早", "v": "99"}]}
+    ],
+    "100119": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最近更新", "v": "23"}, {"n": "高分好评", "v": "85"}]},
+        {"key": "itype", "name": "类型", "value": [{"n": "全部", "v": "-1"}, {"n": "玄幻", "v": "9"}, {"n": "科幻", "v": "4"}, {"n": "奇幻", "v": "21"}, {"n": "武侠", "v": "13"}, {"n": "仙侠", "v": "23"}, {"n": "都市", "v": "24"}, {"n": "恋爱", "v": "7"}, {"n": "搞笑", "v": "1"}, {"n": "冒险", "v": "2"}, {"n": "悬疑", "v": "17"}, {"n": "竞技", "v": "20"}, {"n": "日常", "v": "15"}, {"n": "真人", "v": "18"}, {"n": "治愈", "v": "25"}, {"n": "游戏", "v": "26"}, {"n": "异能", "v": "27"}, {"n": "历史", "v": "19"}, {"n": "古风", "v": "28"}, {"n": "智斗", "v": "29"}, {"n": "恐怖", "v": "30"}, {"n": "美食", "v": "31"}, {"n": "音乐", "v": "32"}, {"n": "其他", "v": "12"}]},
+        {"key": "iarea", "name": "地区", "value": [{"n": "全部", "v": "-1"}, {"n": "内地", "v": "1"}, {"n": "日本", "v": "2"}, {"n": "欧美", "v": "3"}, {"n": "其他", "v": "4"}]},
+        {"key": "ipay", "name": "资费", "value": [{"n": "全部", "v": "-1"}, {"n": "免费", "v": "867"}, {"n": "会员", "v": "6"}]},
+        {"key": "iyear", "name": "年份", "value": [{"n": "全部", "v": "-1"}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {"n": "2021", "v": "2021"}, {"n": "2020", "v": "50"}, {"n": "2019", "v": "11"}, {"n": "2018", "v": "2018"}, {"n": "2017", "v": "2017"}, {"n": "2016", "v": "1"}, {"n": "2015", "v": "2"}, {"n": "2014", "v": "3"}, {"n": "2013", "v": "4"}, {"n": "2012", "v": "5"}, {"n": "2011", "v": "6"}, {"n": "00年代", "v": "7"}, {"n": "90年代", "v": "8"}, {"n": "更早", "v": "10"}]}
+    ],
+    "100150": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最新", "v": "76"}]},
+        {"key": "itype", "name": "类型", "value": [{"n": "全部", "v": "-1"}, {"n": "磨耳朵", "v": "22"}, {"n": "涨知识", "v": "23"}, {"n": "冒险", "v": "10"}, {"n": "儿歌", "v": "1"}, {"n": "交通工具", "v": "11"}, {"n": "益智早教", "v": "2"}, {"n": "玩具", "v": "4"}, {"n": "魔幻·科幻", "v": "12"}, {"n": "动物", "v": "13"}, {"n": "真人·特摄", "v": "14"}, {"n": "家长甄选", "v": "17"}, {"n": "动画电影", "v": "20"}]},
+        {"key": "ipay", "name": "资费", "value": [{"n": "全部", "v": "-1"}, {"n": "免费", "v": "1"}, {"n": "会员", "v": "2"}]},
+        {"key": "iyear", "name": "年龄", "value": [{"n": "全部", "v": "-1"}, {"n": "0-3岁", "v": "1"}, {"n": "4-6岁", "v": "2"}, {"n": "7-9岁", "v": "3"}, {"n": "10岁以上", "v": "4"}, {"n": "全年龄", "v": "7"}]}
+    ],
+    "100105": [
+        {"key": "sort", "name": "排序", "value": [{"n": "最热", "v": "75"}, {"n": "最新", "v": "74"}, {"n": "高分好评", "v": "85"}]},
+        {"key": "itype", "name": "分类", "value": [{"n": "全部", "v": "-1"}, {"n": "自然", "v": "4"}, {"n": "美食", "v": "10"}, {"n": "社会", "v": "3"}, {"n": "人文", "v": "6"}, {"n": "历史", "v": "1"}, {"n": "军事", "v": "2"}, {"n": "科技", "v": "8"}, {"n": "财经", "v": "14"}, {"n": "探险", "v": "15"}, {"n": "罪案", "v": "7"}, {"n": "竞技", "v": "12"}, {"n": "旅游", "v": "11"}]},
+        {"key": "iyear", "name": "年份", "value": [{"n": "全部", "v": "-1"}, {"n": "2026", "v": "2026"}, {"n": "2025", "v": "2025"}, {"n": "2024", "v": "1"}, {"n": "2023", "v": "2"}, {"n": "2022", "v": "3"}, {"n": "2021", "v": "4"}, {"n": "2020", "v": "5"}, {"n": "2019-2015", "v": "6"}, {"n": "2014-2010", "v": "7"}, {"n": "2009-2005", "v": "8"}, {"n": "更早", "v": "9"}]}
+    ]
+};
 var rule = {
     title: '小心儿悠悠',
     host: 'https://v.qq.com',
-    homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
+    homeUrl: '',
     detailUrl: 'https://node.video.qq.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '**',
     searchable: 1,
     filterable: 1,
     multi: 1,
-    url: '/x/bu/pagesheet/list?_all=1&append=1&channel=fyclass&listpage=1&offset=((fypage-1)*21)&pagesize=21&iarea=-1',
-    filter_url: 'sort={{fl.sort or 75}}&iyear={{fl.iyear}}&year={{fl.year}}&itype={{fl.type}}&ifeature={{fl.feature}}&iarea={{fl.area}}&itrailer={{fl.itrailer}}&gender={{fl.sex}}',
-    filter: 'H4sIAAAAAAAAA+1YW08TWxR+92fMMySdFlrwEY3RnOT4YnzQ8DDBOaERqamVHGJIWksvXFIoYvEcSuViDxVpKYpYprb+mdl7Zv6Fe9rurrXdqE2OlRd4mvnW7L3u31r0mTIxGQpO6MrV+8+Uh/qsclV5EgpHlAFlWnvEUIVm1oixwt5ntKmn7c+mXTgfteJlF2YvgWFlbqCL01y1g4/4ujgpNuyjeY6ryty4K2krDM7qWhg0krMTs74naSSJkhMvdW4YZDcMXGkLvB6vvwO3HrFgGARgI3sZAnwI4z7AfRj3Au7FuAq4inEP4B6Eq6NdnD0ifATwEYwHAA9gHBxW/RgHf9kji/H4gBKZ6UtuA6Pn59a1B+X2L12LPA3roNM6rpPCUg/ZbeNW+pjGE/xuULnyxt7jMGSEPj+0ctkODAl04g1Se96BId+kckoM7ie4SXJ5srDfgSG65udtUkxx70Fl+T+zuc0LGy5JbtINbiCEim7F7eoSdwdKw9l6S7INjiP3M1VSKXAcebS1Rl8VOQ4uWcsZMFIFn6z9LDmroxRx/F2BLkY5HkB659H3I/1t18tuhW59FJoJXigZR2Yf/49uXTyyGgdyoy0eky8bUrcKjaZ62B8q5HjZ3okimR+0CF3eOgfZEfnClX2vCZhIRcwRW6XRHJZ5kPkla104h0KcfmUaC1gfZFjgl9Y5qArmuGgnqlTWwd/YCXcKdNOSIVLMJMnKe3wnyOxozFpI4XNQDnbxC2QTwZUqabwUT7n9gYrlkgn6xwQzWjioR2b7wgVukC4Z/ffkcUILR0Kh6YvkdC2sayi9+SpZNnrmdJJMsBPSBkY3ijR/KG9gh/tWMyNxCUmcmnVOr0O/cODgPQVNAcz0UGAieSLrkmvOP28loxm30xwfWygDqwXrMCsHJLbEho+0HzrldTDlO4sXqlFxtgVwuEmtJi92dHuHbHZnDLo//9o0DLTA8e8zJWs1KS+O4uxAkayvkETtx/l0x+glm/wmNpkMTj3ozz90aHHBXPLNyH+i/430RfdJ+l3vVFL8QMq8z1ATr38C2Nsn5vLhVjqPucSS/klFO815WvnYsyWeQR95H5McHxr0AwyWBAZHAQa7VQ9DzXrRrC3KG3aiJFjVpqBWxTwITYT6UzAijwcjYS04peM4pQzyIkZzZz3HaWzsmhQkstlwF+l8FXgL/L45dpvHSUV2/nnzDzm/LYZzdrNO7IXE0rfu3OX3DPsQG2d2rZNd4QzTA+rvXb8BMPSPnWjalSM7dUDSpzJlk9W02cjTvEELvMf851fh8K8blMwYa/5Uih+b1c7e6+6CD/ibpvn5X6kE2UihuZRstDA8UP9tmsaSlAg2nGH0AT/aJ7ts2MiTieUAhjP+SaNxQHfSUibFXzTQYrKRoDBAW/09PvcVk1nUEv4UAAA=',
+    url: '/tx?channel=fyclass&page=fypage',
+    filter_url: 'sort={{fl.sort or 75}}&itype={{fl.itype or -1}}&iarea={{fl.iarea or -1}}&ipay={{fl.ipay or -1}}&iyear={{fl.iyear or -1}}',
+    filter: txFilter,
     headers: {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
     cate_exclude: '会员|游戏|全部',
-    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
-    class_url: 'movie&tv&variety&cartoon&child&doco',
+    class_name: '电影&短剧&剧集&综艺&动漫&动画&纪录',
+    class_url: '100173&120188&100113&100109&100119&100150&100105',
     limit: 20,
     play_parse: true,
     lazy: $js.toString(() => {
@@ -61,7 +105,110 @@ var rule = {
     }),
 
     推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
-    一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
+    一级: $js.toString(() => {
+        let d = [];
+        let params = {};
+        input.split(/[?&]/).forEach(function(kv) {
+            let i = kv.indexOf('=');
+            if (i > 0) params[kv.substring(0, i)] = kv.substring(i + 1);
+        });
+        let cid = params.channel;
+        let page = parseInt(params.page || '1');
+
+        let fp = ['sort=' + (params.sort || '75')];
+        ['itype', 'iarea', 'ipay', 'iyear'].forEach(function(k) {
+            if (params[k] && params[k] !== '-1' && params[k] !== '') fp.push(k + '=' + params[k]);
+        });
+        let filterParams = fp.join('&');
+
+        let apiUrl = 'https://pbaccess.video.qq.com/trpc.universal_backend_service.page_server_rpc.PageServer/GetPageData?video_appid=1000005&vplatform=2&vversion_name=8.9.10&new_mark_label_enabled=1';
+        let payload;
+        if (page <= 1) {
+            payload = {
+                page_params: {
+                    channel_id: cid,
+                    filter_params: filterParams,
+                    page_type: "channel_operation",
+                    page_id: "channel_list_second_page"
+                }
+            };
+        } else {
+            let sdk_page_ctx = {page_offset: page, page_size: 1, used_module_num: page + 1};
+            payload = {
+                page_params: {
+                    channel_id: cid,
+                    filter_params: filterParams,
+                    page_type: "channel_operation",
+                    page_id: "channel_list_second_page"
+                },
+                page_context: {
+                    data_src_647bd63b21ef4b64b50fe65201d89c6e_page: String(page),
+                    view_ad_ssp_mgv2_flush_num: String(page),
+                    view_ad_ssp_mgv2_cards_consumed: "0",
+                    view_ad_ssp_cards_consumed: "0",
+                    view_ad_ssp_mg_ad_count_send: "0",
+                    view_ad_ssp_mgv2_remaining: "0",
+                    view_ad_ssp_mgv2_ad_count_send: "0",
+                    view_ad_ssp_mg_remaining: "0",
+                    view_ad_ssp_ad_count_send: "0",
+                    view_ad_ssp_remaining: "0",
+                    data_src_647bd63b21ef4b64b50fe65201d89c6e_data_version: "",
+                    sdk_page_ctx: JSON.stringify(sdk_page_ctx),
+                    view_ad_ssp_flush_num: String(page),
+                    page_index: String(page),
+                    view_ad_ssp_mg_flush_num: String(page),
+                    view_ad_ssp_mg_cards_consumed: "0",
+                    view_ad_ssp_mgv2_ctx_version: "1",
+                    view_ad_ssp_mg_ctx_version: "1"
+                }
+            };
+        }
+
+        function pushItems(itemDatas) {
+            if (!itemDatas) return;
+            itemDatas.forEach(function(vod) {
+                let ip = vod.item_params;
+                if (!ip || !ip.title) return;
+                let remark = ip.timelong ? ip.timelong : (ip.year || '推荐');
+                d.push({
+                    title: ip.title,
+                    img: ip.new_pic_vt,
+                    desc: '集多▶️' + remark,
+                    url: ip.cid
+                });
+            });
+        }
+
+        try {
+            let html = request(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Referer': 'https://v.qq.com/',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
+                },
+                body: JSON.stringify(payload)
+            });
+            let json = JSON.parse(html);
+            let mlds = json.data.module_list_datas;
+            if (page <= 1) {
+                try {
+                    pushItems(mlds[1].module_datas[0].item_data_lists.item_datas);
+                } catch (e) {
+                    mlds.forEach(function(m) {
+                        try { pushItems(m.module_datas[0].item_data_lists.item_datas); } catch (e2) {}
+                    });
+                }
+            } else {
+                mlds.forEach(function(m) {
+                    try { pushItems(m.module_datas[0].item_data_lists.item_datas); } catch (e) {}
+                });
+            }
+        } catch (e) {
+            log('分类获取失败: ' + e.message);
+        }
+        setResult(d);
+    }),
     二级: $js.toString(() => {
         VOD = {};
         let d = [];
