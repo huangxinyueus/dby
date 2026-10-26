@@ -26,7 +26,7 @@
       "type": 3,
       "api": "csp_Douban",
       "ext": "./lib/douban.json",
-      "jar": "./lib/tan2.jar"
+      "jar": "http://47.120.41.246:8025/vip/jar/tan2.php"
     },
     {
       "key": "配置中心",
@@ -507,7 +507,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Blixq.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "相声小品",
@@ -518,7 +518,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Blixs.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "演唱会",
@@ -529,7 +529,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/演唱会.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "MTV",
@@ -540,7 +540,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/MTV.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "哔哩哔哩",
@@ -551,7 +551,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Bili.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "csp_Bili短剧",
@@ -562,7 +562,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Bili短剧.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "影视解说",
@@ -573,7 +573,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/影视解说.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "push_agent",
