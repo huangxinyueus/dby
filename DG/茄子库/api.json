@@ -26,7 +26,7 @@
       "type": 3,
       "api": "csp_Douban",
       "ext": "./lib/douban.json",
-      "jar": "http://47.120.41.246:8025/vip/jar/tan2.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/tan2.php?.jar"
     },
     {
       "key": "配置中心",
@@ -254,7 +254,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "NewGrV2",
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "name": "🍁┃特狗┃秒播",
@@ -265,7 +265,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV6Tg",
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "name": "🍁┃ACE┃秒播",
@@ -276,7 +276,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xhr",
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "name": "🍁┃独家┃秒播",
@@ -287,7 +287,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xyz",
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "key": "华谊",
@@ -472,7 +472,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "key": "戏曲多多",
@@ -482,7 +482,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "name": "📡虎牙┃Live",
@@ -496,7 +496,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/aowu.php?.jar"
     },
     {
       "key": "戏 曲",
