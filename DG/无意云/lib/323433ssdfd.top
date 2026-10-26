@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <link rel="alternate icon" href="/favicon.ico?v=20260614" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>多多影视</title>
+  <meta name="keywords" content="多多影视下载，多多影视APP下载，多多APP下载无需vip免费观影,在线免费追剧,免费追剧不用会员,无需注册免费观影,免费视频网站推荐" />
+  <meta name="description" content="专业免费观影平台，提供最新最快的视频分享数据，高清电影电视剧免费观看，无需VIP会员，支持在线追剧，最新影视资源实时更新" />
+  <script defer src="https://umm.dduotv01.top/script.js" data-website-id="25d6ffdb-c3cb-4c23-8fbb-0e3cc6f71d9b"></script>
+  <script type="module" crossorigin src="/assets/index-CyTZheoy.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vue-CEjU_ERb.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-BzANzDJu.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-42gKhkaK.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    // 低版本浏览器兼容性检测 (ES5语法)
+    (function() {
+      var isModern = 'Promise' in window && 'fetch' in window && 'Symbol' in window && 'Proxy' in window;
+      if (!isModern) {
+        document.getElementById('app').innerHTML = '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:20px;text-align:center;font-family:system-ui,-apple-system,sans-serif;background:#111;color:#fff;"><h2 style="margin:0 0 16px;font-size:20px;">浏览器版本过低</h2><p style="margin:0;color:#999;font-size:14px;line-height:1.6;">当前浏览器不支持本站，请升级浏览器或使用 Chrome、Safari、Edge 等现代浏览器访问</p></div>';
+      }
+    })();
+  </script>
+</body>
+
+</html>

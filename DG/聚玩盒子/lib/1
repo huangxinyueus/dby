@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+  <title>海量接口搬运备份</title>
+  <link rel="icon" type="image/jpeg" href="vip/jueson.jpg">
+  
+  <script>
+    // =========================================================
+    // 拦截逻辑：优先读取 config.json 判断是否开启弹窗
+    // =========================================================
+    (function checkGuide() {
+      // 1. 先通过同步请求或预读缓存获取配置开关（为了不阻塞加载，这里用异步 fetch）
+      // 考虑到阻塞问题，我们用最快的方式去拿 config，或者预置一个默认开关
+      fetch('config.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(res => res.json())
+        .then(cfg => {
+          const guideEnabled = cfg.site && cfg.site.enableGuide;
+          if (!guideEnabled) return; // 如果关闭了弹窗，直接返回，继续加载页面
+
+          // 2. 弹窗状态机判断
+          const STATE_KEY = 'guide_prompt_state';
+          let state = null;
+          try { state = JSON.parse(localStorage.getItem(STATE_KEY)); } catch(e) {}
+          
+          const now = Date.now();
+          const DAY_MS = 24 * 60 * 60 * 1000;
+
+          if (!state) {
+            window.location.replace('guide.html');
+            return;
+          }
+
+          const diffDays = (now - state.lastShow) / DAY_MS;
+          let needGuide = false;
+
+          if (state.phase === 'daily') {
+            if (state.count < 3 || diffDays >= 1) needGuide = true;
+          } else if (state.phase === 'weekly') {
+            if (state.count < 3 || diffDays >= 7) needGuide = true;
+          } else if (state.phase === 'monthly') {
+            if (state.count < 3 || diffDays >= 30) needGuide = true;
+          }
+
+          if (needGuide) {
+            window.location.replace('guide.html');
+          }
+        })
+        .catch(e => console.warn('检查弹窗状态失败，跳过拦截', e));
+    })();
+  </script>
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #eef2f7;
+      color: #1a2b3d;
+      padding: 20px 14px 10px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    button:focus, button:focus-visible, input:focus, input:focus-visible,
+    .nav-tab:focus, .copy-btn:focus { outline: none !important; }
+
+    .container { max-width: 820px; margin: 0 auto; position: relative; width: 100%; overflow-x: hidden; flex: 1; display: flex; flex-direction: column; }
+
+    #modeToggleBtn {
+      position: absolute; top: 14px; left: 10px; z-index: 999;
+      width: 56px; padding: 6px 4px; border-radius: 50px;
+      border: 1px solid #4a9eff; background: #fff; color: #4a9eff;
+      font-size: .58rem; line-height: 1.3; text-align: center; cursor: pointer;
+    }
+
+    .header-block { text-align: center; margin-bottom: 16px; padding-top: 14px; }
+    h1 { font-size: 1.35rem; font-weight: 700; color: #0a1a2b; }
+    h1 .header-logo { width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid #4a9eff; object-fit: cover; vertical-align: -.5rem; margin-right: 8px; }
+    .header-divider { height: 1px; background: #e4ebf3; margin: 12px 0; }
+    .subtitle { font-size: .78rem; color: #7a8fa3; line-height: 1.6; }
+    .qq-link { color: #4a9eff; text-decoration: none; font-weight: 600; }
+    .qq-link:hover { text-decoration: underline; }
+
+    .search-box {
+      width: 100%; padding: 10px 16px; border: 1px solid #d4dbe5;
+      border-radius: 50px; font-size: .92rem; background: #fff;
+      outline: none; -webkit-appearance: none;
+    }
+    body.simple-mode .search-box { margin-bottom: 20px; }
+    body:not(.simple-mode) .search-box { margin-bottom: 14px; }
+
+    .main-card {
+      background: #fff; border-radius: 8px; padding: 20px 22px 18px;
+      border: 1px solid #d4dbe5; width: 100%; overflow-x: hidden; flex: 1;
+    }
+
+    .nav-tabs {
+      display: flex; gap: 6px; margin-bottom: 14px; justify-content: center;
+      flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 2px 0;
+    }
+    .nav-tabs::-webkit-scrollbar { display: none; }
+    .nav-tab {
+      padding: 5px 12px; border: 1.5px solid #4a9eff; border-radius: 30px;
+      background: #fff; color: #4a9eff; font-size: .72rem; font-weight: 500;
+      cursor: pointer; white-space: nowrap; flex-shrink: 0; line-height: 1.2;
+    }
+    .nav-tab.active { background: #4a9eff; color: #fff; }
+    .nav-tab:active { transform: scale(.95); }
+
+    .tab-panel { display: none; width: 100%; }
+    .tab-panel.active { display: block; }
+
+    /* ===== 基础列表样式 ===== */
+    .api-list { display: flex; flex-direction: column; width: 100%; }
+    .api-item { padding: 14px 0; border-bottom: 1px solid #e4ebf3; }
+    .api-item:last-child { border-bottom: none; }
+    .api-item.hidden { display: none !important; }
+    .api-item-header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+    .api-item-name { font-size: 1rem; font-weight: 700; color: #0a1a2b; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+    .api-item-meta { display: flex; align-items: center; gap: 8px; font-size: .72rem; white-space: nowrap; flex-shrink: 0; }
+    .badge-new { color: #16a34a; font-weight: 600; }
+    .badge-old { color: #ca8a04; font-weight: 600; }
+    .api-item-urls { display: flex; flex-direction: column; gap: 6px; }
+    .url-line {
+      display: flex; align-items: center; gap: 8px; padding: 6px 14px;
+      background: #f4f8fc; border: 1px solid #e0e8f0; border-radius: 50px; min-width: 0;
+    }
+    .url-tag { font-size: .68rem; font-weight: 600; color: #3a5a7a; background: #d8e8f8; padding: 2px 14px; border-radius: 50px; white-space: nowrap; flex-shrink: 0; }
+    .url-text { font-size: .78rem; color: #2563eb; word-break: break-all; overflow-wrap: break-word; line-height: 1.4; flex: 1; min-width: 0; }
+
+    .copy-btn {
+      flex-shrink: 0; background: #4a9eff; color: #fff; border: none;
+      border-radius: 30px; padding: 0 14px; font-size: .7rem; font-weight: 500;
+      cursor: pointer; height: 26px; display: inline-flex; align-items: center; justify-content: center;
+      transition: background .15s, transform .05s; white-space: nowrap; margin-left: auto;
+      position: relative; z-index: 2; touch-action: manipulation; -webkit-user-select: none; user-select: none;
+    }
+    .copy-btn:active { background: #2a7ed9; transform: scale(.96); }
+    .copy-btn.copied { background: #3b9b6c; }
+
+    .loading { text-align: center; color: #8fa3b8; padding: 60px 0; font-size: .88rem; }
+    .error-msg { text-align: center; color: #dc2626; padding: 16px 20px; font-size: .8rem; background: #fef2f2; border: 1px solid #fecaca; border-radius: 4px; margin: 12px 0; word-break: break-all; }
+    .page-footer { text-align: center; padding: 24px 0 10px; font-size: .7rem; color: #8fa3b8; line-height: 1.8; margin-top: auto; }
+
+    body.simple-mode .nav-tabs { display: none !important; }
+    body.simple-mode .tab-panel:not(#api-panel) { display: none !important; }
+    body.simple-mode #api-panel { display: block !important; }
+
+    /* ===== 直播面板 ===== */
+    #live-panel { overflow-x: hidden; width: 100%; }
+    .live-top-aggregate { background: linear-gradient(135deg, #4a9eff 0%, #1e6fda 100%); border-radius: 16px; padding: 18px 20px; margin-bottom: 18px; color: #fff; box-shadow: 0 4px 12px rgba(74,158,255,.3); overflow-x: hidden; }
+    .live-top-aggregate h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }
+    .live-top-aggregate .domain-line { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); margin-top: 10px; display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 50px; min-width: 0; }
+    .live-top-aggregate .domain-line span { flex: 1; font-size: .74rem; font-weight: 500; word-break: break-all; overflow-wrap: break-word; pointer-events: none; }
+    .live-top-aggregate .copy-btn { position: relative; z-index: 2; background: rgba(255,255,255,.92); color: #1a4a7a; margin-left: 0; border-radius: 30px; cursor: pointer; }
+    .live-top-aggregate .copy-btn:active { transform: scale(.96); background: rgba(255,255,255,1); }
+    .live-top-aggregate .copy-btn.copied { background: #d1f5e0; color: #0a6a3a; }
+    .live-list { display: flex; flex-direction: column; width: 100%; }
+    .live-item { padding: 14px 0; border-bottom: 1px solid #e4ebf3; }
+    .live-item:last-child { border-bottom: none; }
+    .live-item.hidden { display: none !important; }
+    .live-item-header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+    .live-item-name { font-size: 1rem; font-weight: 700; color: #0a1a2b; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+    .live-item-meta { display: flex; align-items: center; gap: 8px; font-size: .72rem; white-space: nowrap; flex-shrink: 0; }
+    .live-badge-new { color: #16a34a; font-weight: 600; }
+    .live-badge-old { color: #ca8a04; font-weight: 600; }
+    .live-item-urls { display: flex; flex-direction: column; gap: 6px; }
+    .live-url-line { background: #f4f8fc; border: 1px solid #e0e8f0; border-radius: 8px; padding: 10px 14px; display: flex; flex-direction: column; gap: 6px; width: 100%; min-width: 0; }
+    .live-info-inline { display: flex; align-items: center; gap: 6px; font-size: .65rem; color: #7a8fa3; line-height: 1.4; flex-wrap: wrap; word-break: break-all; }
+    .live-info-inline .sep { color: #b8c8d8; }
+    .live-url-body { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .live-url-tag { font-size: .68rem; font-weight: 600; color: #3a5a7a; background: #d8e8f8; padding: 2px 14px; border-radius: 50px; white-space: nowrap; flex-shrink: 0; }
+    .live-url-text { font-size: .78rem; color: #2563eb; word-break: break-all; overflow-wrap: break-word; line-height: 1.4; flex: 1; min-width: 0; }
+
+    /* =========================================================
+       万能面板样式（快链、更多、下载 三合一）
+       ========================================================= */
+    .has-sidebar { display: flex; flex-direction: row; gap: 12px; align-items: flex-start; width: 100%; overflow-x: hidden; }
+    .panel-sidebar { flex: 0 0 auto; width: 96px; display: flex; flex-direction: column; gap: 8px; padding: 4px 2px 4px 0; position: sticky; top: 0; align-self: flex-start; max-height: 72vh; overflow-y: auto; }
+    .panel-side-btn { width: 100%; padding: 11px 6px; border: 1.5px solid #4a9eff; border-radius: 12px; background: #fff; color: #4a9eff; font-size: .76rem; font-weight: 600; line-height: 1.3; cursor: pointer; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 4px; word-break: break-word; transition: background .15s, color .15s, transform .05s; }
+    .panel-side-btn .icon-box { width: 1.4rem; height: 1.4rem; font-size: 1.15rem; }
+    .panel-side-btn.active { background: #4a9eff; color: #fff; }
+    .panel-side-btn:active { transform: scale(.96); }
+    .panel-side-btn.panel-pinned { border-color: #f5a623; color: #f5a623; background: linear-gradient(180deg, #fff9ec 0%, #fff 100%); }
+    .panel-side-btn.panel-pinned.active { background: linear-gradient(135deg, #f5a623 0%, #e08a00 100%); color: #fff; border-color: #e08a00; }
+    .panel-divider { height: 1px; background: linear-gradient(90deg, transparent, #d4dbe5, transparent); margin: 2px 0; flex-shrink: 0; }
+    .panel-body { flex: 1; min-width: 0; }
+    .panel-group { display: none; width: 100%; }
+    .panel-group.active { display: block; }
+
+    /* 在线卡片 */
+    .online-list { display: flex; flex-direction: column; gap: 10px; width: 100%; }
+    .online-item { display: flex; align-items: center; gap: 14px; background: #fff; border: 1px solid #e4ebf3; border-radius: 10px; padding: 12px 14px; text-decoration: none; color: inherit; transition: border-color .15s, box-shadow .15s; min-width: 0; width: 100%; }
+    .online-item:active { border-color: #4a9eff; box-shadow: 0 2px 8px rgba(74,158,255,.15); }
+    .online-item-icon { flex-shrink: 0; width: 48px; height: 48px; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #f0f3f8; }
+    .online-item-icon img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+    .online-item-icon .site-ph { font-size: 1.2rem; font-weight: 700; color: #4a9eff; }
+    .online-item-info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+    .online-item-name { font-size: .82rem; font-weight: 600; color: #0a1a2b; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .online-item-desc { font-size: .68rem; color: #8b9eb0; margin-top: 3px; line-height: 1.4; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    @media (min-width: 600px) { .online-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; } }
+    @media (min-width: 1100px) { .online-list { grid-template-columns: repeat(2, 1fr); } }
+
+    /* 工具网格 */
+    .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; width: 100%; }
+    .tool-chip { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 12px; background: #fff; border: 1px solid #e4ebf3; border-radius: 10px; text-decoration: none; color: #0a1a2b; font-size: .74rem; font-weight: 500; line-height: 1.3; text-align: center; transition: border-color .15s, box-shadow .15s, background .15s; min-width: 0; }
+    .tool-chip:active { border-color: #4a9eff; background: #f0f7ff; box-shadow: 0 2px 8px rgba(74,158,255,.15); }
+    .tool-chip .tool-icon { font-size: .9rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; }
+    .tool-chip .tool-icon img { width: 100%; height: 100%; border-radius: 4px; object-fit: cover; }
+
+    /* 下载卡片 */
+    .dl-cards { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 100%; overflow: hidden; }
+    .download-card { display: flex; align-items: center; gap: 12px; background: #fff; border: 1px solid #e4ebf3; border-radius: 10px; padding: 10px 12px; text-decoration: none; color: inherit; transition: border-color .15s, box-shadow .15s; min-width: 0; width: 100%; }
+    .download-card:active { border-color: #4a9eff; box-shadow: 0 2px 8px rgba(74,158,255,.15); }
+    .dl-item-icon { flex-shrink: 0; width: 44px; height: 44px; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #f0f3f8; }
+    .dl-item-icon img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+    .dl-item-icon .site-ph { font-size: 1.2rem; font-weight: 700; color: #4a9eff; }
+    .dl-item-info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+    .dl-item-name { font-size: .82rem; font-weight: 600; color: #0a1a2b; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .dl-item-desc { font-size: .68rem; color: #8b9eb0; margin-top: 3px; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .dl-item-btn { flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; gap: 4px; height: 32px; padding: 0 14px; background: #4a9eff; color: #fff; border: none; border-radius: 30px; font-size: .7rem; font-weight: 500; line-height: 1; cursor: pointer; white-space: nowrap; transition: background .15s, transform .05s; }
+    .dl-item-btn:active { background: #2a7ed9; transform: scale(.96); }
+    @media (min-width: 600px) { .dl-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; } }
+
+    .dl-subgroup { margin-bottom: 16px; }
+    .dl-subgroup:last-child { margin-bottom: 0; }
+    .dl-subgroup-title { font-size: .82rem; font-weight: 600; color: #0b1e33; line-height: 1.3; margin: 2px 0 8px; padding-left: 9px; border-left: 3px solid #4a9eff; word-break: break-word; }
+    .dl-group-title { font-size: .95rem; font-weight: 600; color: #0b1e33; margin-bottom: 2px; }
+    .dl-group-desc { font-size: .7rem; color: #8b9eb0; margin-bottom: 10px; }
+
+    .icon-box { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; line-height: 1; }
+    .icon-box img { width: 100%; height: 100%; object-fit: contain; border-radius: inherit; }
+
+    @media (max-width: 600px) {
+      .has-sidebar { gap: 8px; }
+      .panel-sidebar { width: 72px; gap: 6px; max-height: 66vh; }
+      .panel-side-btn { padding: 9px 3px; font-size: .66rem; border-radius: 10px; }
+      .panel-side-btn .icon-box { width: 1.2rem; height: 1.2rem; font-size: .95rem; }
+      .dl-item-icon { width: 40px; height: 40px; }
+      .dl-item-btn { height: 30px; padding: 0 12px; font-size: .66rem; }
+      .dl-subgroup-title { font-size: .76rem; }
+      .tools-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 6px; }
+      .tool-chip { padding: 8px 8px; font-size: .68rem; }
+    }
+
+    /* ===== 关于页 & 快捷图标 ===== */
+    #about-panel > div { background: #f8fafc !important; border-radius: 8px !important; padding: 16px 18px !important; margin-bottom: 14px !important; border: 1px solid #e4ebf3 !important; }
+    #about-panel h3 { font-size: .9rem !important; margin-bottom: 10px !important; }
+    #about-panel p, #about-panel li { font-size: .75rem !important; line-height: 1.7 !important; }
+    #about-panel > div > div:not(#about-domains-list) { background: #fff !important; border: 1px solid #e4ebf3 !important; border-radius: 50px !important; padding: 8px 16px !important; margin-top: 8px !important; }
+    #about-domains-list { background: transparent !important; padding: 0 !important; border: none !important; border-radius: 0 !important; margin-top: 0 !important; }
+    #about-domains-list .domain-group-card { background: #fff; border: 1px solid #e4ebf3; border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; min-width: 0; }
+    #about-domains-list .domain-group-card:last-child { margin-bottom: 0; }
+    #about-domains-list .domain-group-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; min-width: 0; }
+    #about-domains-list .domain-group-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: linear-gradient(135deg, #4a9eff, #1e6fda); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9rem; overflow: hidden; }
+    #about-domains-list .domain-group-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+    #about-domains-list .domain-group-info { flex: 1; min-width: 0; }
+    #about-domains-list .domain-group-name { font-size: .85rem; font-weight: 700; color: #0a1a2b; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    #about-domains-list .domain-group-desc { display: inline-block; margin-top: 4px; font-size: .62rem; font-weight: 500; color: #4a9eff; background: #e8f2ff; padding: 2px 10px; border-radius: 50px; max-width: 100%; overflow-wrap: break-word; word-break: break-word; }
+    #about-domains-list .domain-line { display: flex; align-items: center; gap: 8px; padding: 6px 14px; background: #f4f8fc; border: 1px solid #e0e8f0; border-radius: 50px; margin-top: 6px; min-width: 0; }
+    #about-domains-list .domain-line .url-text { font-size: .75rem; color: #2563eb; word-break: break-all; overflow-wrap: break-word; line-height: 1.4; flex: 1; min-width: 0; }
+    #about-domains-list .domain-empty { font-size: .7rem; color: #8fa3b8; padding: 4px 2px; }
+
+    .contributor-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 12px; }
+    @media (min-width: 600px) { .contributor-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 960px) { .contributor-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); } }
+    .contributor-card { background: rgba(255,255,255,.75); border: 1px solid rgba(255,255,255,.6); border-radius: 12px; padding: 12px 14px; min-width: 0; width: 100%; }
+    .contributor-card.hidden { display: none !important; }
+    .contributor-inner-card { display: flex; align-items: center; gap: 12px; width: 100%; min-width: 0; background: transparent; border: none; border-radius: 0; padding: 0; box-sizing: border-box; }
+    .contributor-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: linear-gradient(135deg, #4a9eff, #1e6fda); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: .85rem; overflow: hidden; }
+    .contributor-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+    .contributor-info { flex: 1; min-width: 0; }
+    .contributor-name { font-size: .82rem; font-weight: 600; color: #0a1a2b; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .contributor-role { display: inline-block; margin-top: 4px; font-size: .6rem; font-weight: 500; color: #4a9eff; background: #e8f2ff; padding: 2px 10px; border-radius: 50px; max-width: 100%; overflow-wrap: break-word; word-break: break-word; }
+    .contributor-desc { margin-top: 6px; font-size: .68rem; color: #7a8fa3; line-height: 1.4; overflow-wrap: break-word; word-break: break-word; }
+    .contributor-social { margin-top: 6px; font-size: .68rem; color: #4a9eff; overflow-wrap: break-word; word-break: break-word; }
+
+    #about-quick-links { display: flex !important; justify-content: center; align-items: flex-start; gap: 26px; flex-wrap: wrap; margin: 0 0 8px !important; background: transparent !important; border: none !important; border-radius: 0 !important; padding: 0 !important; }
+    .quick-item { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 0; border: none; background: transparent; text-decoration: none; cursor: pointer; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; font-family: inherit; color: inherit; }
+    .quick-icon { width: 54px; height: 54px; display: block; filter: drop-shadow(0 3px 8px rgba(10,26,43,.16)); transition: transform .16s ease, filter .16s ease; }
+    .quick-icon-text { display: flex; align-items: center; justify-content: center; font-size: 2.2rem; line-height: 1; }
+    .quick-item:hover .quick-icon { transform: translateY(-3px); filter: drop-shadow(0 8px 16px rgba(10,26,43,.26)); }
+    .quick-item:active .quick-icon { transform: scale(.93); }
+    .quick-label { font-size: .7rem !important; color: #7a8fa3; line-height: 1.2; white-space: nowrap; }
+
+    .zsm-modal { position: fixed; inset: 0; z-index: 999; display: flex; align-items: center; justify-content: center; padding: 26px 22px; visibility: hidden; opacity: 0; transition: opacity .2s ease, visibility .2s ease; }
+    .zsm-modal.open { visibility: visible; opacity: 1; }
+    .zsm-modal-mask { position: absolute; inset: 0; background: rgba(10,26,43,.62); -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px); }
+    .zsm-modal-panel { position: relative; width: 100%; max-width: 330px; background: #fff; border-radius: 14px; padding: 18px 18px 14px; text-align: center; box-shadow: 0 18px 50px rgba(0,0,0,.32); transform: scale(.9); opacity: 0; transition: transform .22s cubic-bezier(.2,.9,.3,1.2), opacity .2s ease; }
+    .zsm-modal.open .zsm-modal-panel { transform: scale(1); opacity: 1; }
+    .zsm-modal-panel img { display: block; width: auto; max-width: 100%; max-height: 56vh; margin: 0 auto; border-radius: 8px; border: 1px solid #e4ebf3; background: #fff; }
+    .zsm-modal-title { font-size: .82rem !important; font-weight: 700; color: #0a1a2b; margin-bottom: 12px !important; display: flex; align-items: center; justify-content: center; gap: 6px; }
+    .zsm-modal-title svg { width: 18px; height: 18px; display: block; }
+    .zsm-modal-tip { font-size: .72rem !important; color: #7a8fa3; line-height: 1.7 !important; margin-top: 12px !important; }
+    .zsm-modal-close { position: absolute; top: -11px; right: -11px; width: 32px; height: 32px; border: none; border-radius: 50%; background: #4a9eff; color: #fff; font-size: 19px; line-height: 1; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 2px 8px rgba(74,158,255,.45); transition: background .15s, transform .08s; touch-action: manipulation; }
+    .zsm-modal-close:hover { background: #2a7ed9; }
+    .zsm-modal-close:active { transform: scale(.9); }
+
+    @media (max-width: 600px) {
+      body { padding: 14px 8px 6px; }
+      #modeToggleBtn { top: 10px; left: 6px; width: 48px; font-size: .52rem; padding: 4px 2px; }
+      .main-card { padding: 14px 14px 12px; }
+      .header-block { padding-top: 10px; margin-bottom: 12px; }
+      h1 { font-size: 1.15rem; }
+      h1 .header-logo { width: 1.7rem; height: 1.7rem; vertical-align: -.4rem; }
+      .nav-tabs { gap: 4px; margin-bottom: 10px; justify-content: space-between; flex-wrap: nowrap; }
+      .nav-tab { flex: 1; text-align: center; padding: 4px 0; font-size: .95rem; border-radius: 24px; white-space: nowrap; }
+      .api-item, .live-item { padding: 12px 0; }
+      .api-item-name, .live-item-name { font-size: .92rem; }
+      .url-line { padding: 6px 10px; gap: 6px; }
+      .url-tag, .live-url-tag { font-size: .62rem; padding: 2px 10px; }
+      .url-text, .live-url-text { font-size: .72rem; }
+      .copy-btn { font-size: .62rem; padding: 0 10px; height: 24px; }
+      .live-top-aggregate { padding: 14px 16px; }
+      .live-url-line { padding: 8px 10px; }
+      .live-url-body .live-url-tag { font-size: .62rem; padding: 2px 10px; }
+      .live-url-body .live-url-text { font-size: .72rem; }
+      .live-info-inline { font-size: .6rem; }
+      .contributor-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; }
+      .contributor-card { padding: 8px 10px; }
+      .contributor-inner-card { gap: 8px; }
+      .contributor-avatar { width: 36px; height: 36px; font-size: .75rem; }
+      .contributor-name { font-size: .78rem; }
+      .contributor-role { font-size: .58rem; padding: 2px 8px; }
+      .contributor-desc { font-size: .65rem; line-height: 1.35; }
+      #about-domains-list .domain-group-card { padding: 12px 12px; }
+      #about-domains-list .domain-group-avatar { width: 38px; height: 38px; font-size: .8rem; }
+      #about-domains-list .domain-group-name { font-size: .8rem; }
+      #about-domains-list .domain-line { padding: 6px 10px; gap: 6px; }
+      #about-domains-list .domain-line .url-text { font-size: .7rem; }
+      #about-quick-links { gap: 18px; margin: 0 0 6px !important; }
+      .quick-icon { width: 50px; height: 50px; }
+      .quick-icon-text { font-size: 2rem; }
+      .zsm-modal-panel { max-width: 300px; }
+      .zsm-modal-panel img { max-height: 52vh; }
+    }
+  </style>
+</head>
+
+<body class="simple-mode">
+
+  <div class="container">
+    <button id="modeToggleBtn">切换<br>全能版</button>
+
+    <div class="header-block">
+      <h1>
+        <img class="header-logo" id="header-logo" src="" alt="Logo">
+        <span id="header-title"></span>
+      </h1>
+      <div class="header-divider"></div>
+      <p class="subtitle" id="header-subtitle"></p>
+    </div>
+
+    <div class="main-card">
+      <div class="nav-tabs" id="navTabs"></div>
+      <input class="search-box" id="search" type="text" placeholder="" oninput="globalSearch()">
+
+      <div class="tab-panel active" id="api-panel">
+        <div class="api-list" id="listContainer">
+          <div class="loading" id="apiLoading">⏳ 正在加载接口列表...</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="live-panel">
+        <div class="live-top-aggregate">
+          <h3 id="liveAggTitle"></h3>
+          <div class="domain-line">
+            <span id="liveAggUrl"></span>
+            <button class="copy-btn" id="liveAggCopy" data-url="">复制</button>
+          </div>
+        </div>
+        <div class="live-list" id="liveListContainer">
+          <div class="loading" id="liveLoading">⏳ 正在加载直播列表...</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="download-panel">
+        <div id="downloads-content">
+          <div class="loading">⏳ 正在加载下载资源...</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="video-panel">
+        <div id="video-content">
+          <div class="loading">⏳ 正在加载快链...</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="more-panel">
+        <div id="more-content">
+          <div class="loading">⏳ 正在加载更多资源...</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="about-panel">
+        <div>
+          <h3>🌐 备份线路域名</h3>
+          <p style="margin-bottom: 6px; font-size: .76rem; color: #5a6f88;">按站长分组，每组域名互为备份，任一个可用：</p>
+          <div id="about-domains-list"></div>
+        </div>
+
+        <div id="contributors-card">
+          <h3>🤝 合作共创</h3>
+          <p style="font-size: .76rem; color: #5a6f88; margin-bottom: 4px;">
+            感谢以下伙伴对本站的内容贡献与支持（<strong style="color: #ca8a04;">排名不分先后</strong>）：
+          </p>
+          <div class="contributor-grid" id="contributors-list">
+            <div class="loading">⏳ 正在加载贡献者...</div>
+          </div>
+          <p id="contributors-note" style="font-size: .68rem; color: #8fa3b8; margin-top: 10px; line-height: 1.5; font-style: italic;"></p>
+        </div>
+
+        <div>
+          <h3>📢 声明与联系</h3>
+          <ul style="padding-left: 16px;">
+            <li id="about-declaration" style="font-size: .76rem; color: #5a6f88; line-height: 1.6;"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div id="about-quick-links"></div>
+      <p id="footer-text"></p>
+    </footer>
+  </div>
+
+  <div class="zsm-modal" id="zsmModal" aria-hidden="true">
+    <div class="zsm-modal-mask" data-close></div>
+    <div class="zsm-modal-panel" role="dialog" aria-modal="true" aria-label="赞赏码">
+      <button class="zsm-modal-close" type="button" data-close aria-label="关闭">×</button>
+      <div class="zsm-modal-title">
+        <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="48" height="48" rx="12" fill="#07C160"/>
+          <path d="M10 26.2 L5.4 32.2 L14.4 29.2 Z" fill="#ffffff"/>
+          <ellipse cx="18.5" cy="19" rx="11.2" ry="9.6" fill="#ffffff" stroke="#07C160" stroke-width="1.8"/>
+          <path d="M37.4 35.8 L42.4 41 L33.6 38.6 Z" fill="#ffffff"/>
+          <ellipse cx="32" cy="30.5" rx="8.8" ry="7.4" fill="#ffffff" stroke="#07C160" stroke-width="1.8"/>
+          <circle cx="14.5" cy="18.3" r="1.75" fill="#07C160"/>
+          <circle cx="22.5" cy="18.3" r="1.75" fill="#07C160"/>
+          <circle cx="28.6" cy="29.9" r="1.45" fill="#07C160"/>
+          <circle cx="35.4" cy="29.9" r="1.45" fill="#07C160"/>
+        </svg>
+        <span id="zsmModalTitle">微信赞赏码</span>
+      </div>
+      <img id="zsmModalImg" src="" alt="赞赏码">
+      <p class="zsm-modal-tip" id="zsmModalTip"></p>
+    </div>
+  </div>
+
+  <script>
+    const MODE_KEY = 'site_mode';
+    const TAB_KEY  = 'current_tab';
+
+    const btn = document.getElementById('modeToggleBtn');
+    const searchBox = document.getElementById('search');
+    const mainCard = document.querySelector('.main-card');
+    const navTabs = document.getElementById('navTabs');
+    const headerLogo = document.getElementById('header-logo');
+    const headerTitle = document.getElementById('header-title');
+    const headerSubtitle = document.getElementById('header-subtitle');
+    const footerText = document.getElementById('footer-text');
+
+    let SITE_CONFIG = null;
+    let VALID_TABS = [];
+    let TABS = [];
+    let API_DOMAINS = [];
+    let LIVE_DOMAINS = [];
+    let API_WEIGHTS = {};
+    let ROTATE_KEYWORDS = [];
+    let ROTATE_CFG = { keywords: [], seed: 'time-random', randomRange: 10000 };
+    let RECENT_DAYS = 2;
+    let SEARCH_CFG = { placeholder: '🔍 搜索...', hideOnTabs: [], searchableTabs: [], searchableTabsFull: [], selectors: {} };
+    let CUSTOM_APIS = [];
+    let DOWNLOAD_SOURCES = [];
+    
+    let currentMode = localStorage.getItem(MODE_KEY) || 'simple';
+    let currentTabId = 'api';
+    let topSeed = Date.now();
+    let rawListText = null;
+    let rawLiveText = null;
+
+    const PanelDataCache = new Map();
+
+    document.body.className = currentMode + '-mode';
+    updateBtnText();
+
+    function isImageIcon(icon) {
+      if (!icon || typeof icon !== 'string') return false;
+      const s = icon.trim();
+      if (!s) return false;
+      if (/^(https?:)?\/\//i.test(s)) return true;
+      if (/^(\.{1,2}\/|\/)/.test(s)) return true;
+      if (/^data:image\//i.test(s)) return true;
+      if (/\.(png|jpe?g|gif|webp|svg|ico|bmp|avif)(\?.*)?$/i.test(s)) return true;
+      return false;
+    }
+
+    function renderIcon(icon, opts) {
+      opts = opts || {};
+      const size   = opts.size || '1.1rem';
+      const box    = opts.box || '1.4rem';
+      const fallback = opts.fallback || '📌';
+      const cls    = opts.cls || '';
+
+      const val = (icon && String(icon).trim()) ? icon : fallback;
+
+      if (isImageIcon(val)) {
+        const url = String(val).trim();
+        return `<span class="icon-box ${cls}" style="width:${box};height:${box}">
+          <img src="${url}" alt="" loading="lazy"
+            onerror="this.style.display='none';this.parentNode.innerHTML='<span style=&quot;font-size:${size}&quot;>${fallback}</span>';">
+        </span>`;
+      } else {
+        return `<span class="icon-box ${cls}" style="font-size:${size}">${val}</span>`;
+      }
+    }
+
+    const QUICK_ICON_FILE_MAP = {
+      qq:       'vip/icon-qq.svg',
+      wechat:   'vip/icon-wechat.svg',
+      telegram: 'vip/icon-telegram.svg',
+      tg:       'vip/icon-telegram.svg',
+      github:   'vip/icon-github.svg'
+    };
+
+    function buildQuickIcon(icon, color) {
+      const val = String(icon || '').trim();
+      const c = color || '#4a9eff';
+
+      if (!val) return `<span class="quick-icon quick-icon-text" style="color:${c}">🔗</span>`;
+      if (isImageIcon(val)) return `<img class="quick-icon" src="${val}" alt="" loading="lazy">`;
+      const key = val.toLowerCase();
+      if (QUICK_ICON_FILE_MAP[key]) return `<img class="quick-icon" src="${QUICK_ICON_FILE_MAP[key]}" alt="" loading="lazy">`;
+      return `<span class="quick-icon quick-icon-text" style="color:${c}">${val}</span>`;
+    }
+
+    let QUICK_LINKS = [];
+
+    function renderQuickLinks(list) {
+      const box = document.getElementById('about-quick-links');
+      if (!box) return;
+      QUICK_LINKS = Array.isArray(list) ? list : [];
+
+      if (!QUICK_LINKS.length) { box.innerHTML = ''; box.style.display = 'none'; return; }
+      box.style.display = '';
+
+      box.innerHTML = QUICK_LINKS.map((item, i) => {
+        const label = item.label || '';
+        const iconHtml = buildQuickIcon(item.icon, item.color);
+        if (item.type === 'modal') {
+          return `<button class="quick-item" type="button" data-ql-modal="${i}" aria-label="${label}">${iconHtml}<span class="quick-label">${label}</span></button>`;
+        }
+        return `<a class="quick-item" href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" aria-label="${label}">${iconHtml}<span class="quick-label">${label}</span></a>`;
+      }).join('');
+
+      box.querySelectorAll('[data-ql-modal]').forEach(b => {
+        b.addEventListener('click', () => {
+          const idx = parseInt(b.getAttribute('data-ql-modal'), 10);
+          openQuickModal(QUICK_LINKS[idx] || {});
+        });
+      });
+    }
+
+    function openQuickModal(item) {
+      const modal = document.getElementById('zsmModal');
+      const img   = document.getElementById('zsmModalImg');
+      const tip   = document.getElementById('zsmModalTip');
+      const title = document.getElementById('zsmModalTitle');
+      if (!modal || !img) return;
+
+      if (title) title.textContent = item.title || item.label || '赞赏码';
+      if (tip)   tip.innerHTML     = item.tip || '';
+      if (item.image) {
+        img.style.display = '';
+        img.onerror = function () {
+          this.style.display = 'none';
+          if (tip) tip.textContent = '图片未找到，请检查 ' + item.image;
+        };
+        img.src = item.image;
+      } else {
+        img.style.display = 'none';
+      }
+
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      const closeBtn = modal.querySelector('.zsm-modal-close');
+      if (closeBtn) closeBtn.focus();
+    }
+
+    function closeQuickModal() {
+      const modal = document.getElementById('zsmModal');
+      if (!modal) return;
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    (function initQuickModal() {
+      const modal = document.getElementById('zsmModal');
+      if (!modal) return;
+      modal.addEventListener('click', function (e) {
+        if (e.target.hasAttribute('data-close')) closeQuickModal();
+      });
+      document.addEventListener('keydown', function (e) {
+        if ((e.key === 'Escape' || e.keyCode === 27) && modal.classList.contains('open')) closeQuickModal();
+      });
+    })();
+
+    async function resolveExternal(value, fallback) {
+      if (Array.isArray(value) || (value && typeof value === 'object')) return value;
+      if (typeof value === 'string' && value.trim()) {
+        try {
+          const res = await fetch(value.trim() + '?t=' + Date.now() + '&r=' + Math.random(), { cache: 'no-store' });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return await res.json();
+        } catch (e) {
+          console.warn('外部资源加载失败:', value, e);
+          return fallback;
+        }
+      }
+      return fallback;
+    }
+
+    document.addEventListener('click', function (e) {
+      const copyBtn = e.target.closest('.copy-btn');
+      if (!copyBtn) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const url = copyBtn.getAttribute('data-url');
+      if (!url) return;
+      const done = () => {
+        const originalText = copyBtn.textContent;
+        copyBtn.textContent = '✅ 已复制';
+        copyBtn.classList.add('copied');
+        setTimeout(() => {
+          copyBtn.textContent = originalText;
+          copyBtn.classList.remove('copied');
+        }, 1500);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done).catch(fb);
+      } else {
+        fb();
+      }
+      function fb() {
+        const input = document.createElement('input');
+        input.value = url;
+        input.style.position = 'fixed';
+        input.style.opacity = '0';
+        document.body.appendChild(input);
+        input.focus();
+        input.select();
+        try { document.execCommand('copy'); } catch (_) {}
+        document.body.removeChild(input);
+        done();
+      }
+    });
+
+    function getTopItem(rotateItems) {
+      if (!rotateItems || !rotateItems.length) return null;
+      if (rotateItems.length === 1) return rotateItems[0];
+      const range = ROTATE_CFG.randomRange || 10000;
+      return rotateItems[Math.abs(Math.floor(Math.sin(topSeed) * range)) % rotateItems.length];
+    }
+    function formatDateToChinese(d) {
+      if (!d || d.length !== 8) return '----';
+      return d.slice(0, 4) + '年' + d.slice(4, 6) + '月' + d.slice(6, 8) + '日';
+    }
+    function isRecent(d) {
+      if (!d || d.length !== 8) return false;
+      const y = parseInt(d.slice(0, 4)), m = parseInt(d.slice(4, 6)) - 1, day = parseInt(d.slice(6, 8));
+      return (Date.now() - new Date(y, m, day).getTime()) / 86400000 <= RECENT_DAYS;
+    }
+    function getInitials(name) { return name ? name.slice(0, 1).toUpperCase() : '?'; }
+
+    async function fetchJSON(path) {
+      if (PanelDataCache.has(path)) return PanelDataCache.get(path);
+      const res = await fetch(path + '?t=' + Date.now() + '&r=' + Math.random(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      PanelDataCache.set(path, data);
+      return data;
+    }
+
+    async function loadConfig() {
+      if (SITE_CONFIG) return SITE_CONFIG;
+      const res = await fetch('config.json?t=' + Date.now() + '&r=' + Math.random(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      SITE_CONFIG = await res.json();
+
+      const site = SITE_CONFIG.site || {};
+      if (site.logo) headerLogo.src = site.logo;
+      headerTitle.textContent = site.title || '海量接口搬运备份';
+
+      headerSubtitle.innerHTML = `
+        ${site.subtitle || '备用数据源，防屏不迷路'}<br>
+        <a class="qq-link" href="${site.qqUrl || '#'}" target="_blank" rel="noopener noreferrer">
+          ${site.qqText || '猛戳这里加入QQ群: '}<span style="color:#00C853;">${site.qqHighlight || '点击'}</span>
+        </a>
+      `;
+
+      if (site.footer) footerText.textContent = site.footer;
+
+      API_DOMAINS = Array.isArray(SITE_CONFIG.apiDomains) ? SITE_CONFIG.apiDomains : [];
+      LIVE_DOMAINS = Array.isArray(SITE_CONFIG.liveDomains) ? SITE_CONFIG.liveDomains : [];
+      API_WEIGHTS = SITE_CONFIG.apiWeights || {};
+      ROTATE_CFG = SITE_CONFIG.rotate || { keywords: [], seed: 'time-random', randomRange: 10000 };
+      ROTATE_KEYWORDS = Array.isArray(ROTATE_CFG.keywords) ? ROTATE_CFG.keywords : [];
+      RECENT_DAYS = (SITE_CONFIG.recent && SITE_CONFIG.recent.days) || 2;
+
+      SEARCH_CFG = Object.assign({
+        placeholder: '🔍 搜索...',
+        hideOnTabs: [],
+        searchableTabs: ['api', 'live'],
+        searchableTabsFull: ['api', 'live', 'download', 'video', 'more', 'contributors'],
+        selectors: {
+          api: '#api-panel .api-item',
+          live: '#live-panel .live-item',
+          download: '.download-card',
+          video: '.online-item, .tool-chip',
+          more: '.api-item',
+          contributors: '.contributor-card'
+        }
+      }, SITE_CONFIG.search || {});
+      searchBox.placeholder = SEARCH_CFG.placeholder;
+
+      TABS = Array.isArray(SITE_CONFIG.tabs) ? SITE_CONFIG.tabs : [];
+      VALID_TABS = TABS.map(t => t.id);
+
+      DOWNLOAD_SOURCES = Array.isArray(SITE_CONFIG.downloadSources) ? SITE_CONFIG.downloadSources : [];
+
+      CUSTOM_APIS = await resolveExternal(SITE_CONFIG.customApis, []);
+
+      const agg = SITE_CONFIG.liveAggregate || {};
+      const aggTitle = document.getElementById('liveAggTitle');
+      const aggUrl = document.getElementById('liveAggUrl');
+      const aggCopy = document.getElementById('liveAggCopy');
+      if (aggTitle) aggTitle.textContent = agg.title || '';
+      if (aggUrl) aggUrl.textContent = agg.url || '';
+      if (aggCopy) aggCopy.setAttribute('data-url', agg.url || '');
+
+      const about = SITE_CONFIG.about || {};
+      const domainsData = await resolveExternal(about.domains, []);
+
+      renderContributors(about.contributors || []);
+      renderAboutDomains(domainsData);
+      renderAboutText(about);
+
+      currentTabId = VALID_TABS.includes(localStorage.getItem(TAB_KEY))
+        ? localStorage.getItem(TAB_KEY)
+        : (TABS[0] ? TABS[0].id : 'api');
+
+      renderTabs();
+      positionSearchBox();
+      return SITE_CONFIG;
+    }
+
+    function renderAboutDomains(domains) {
+      const box = document.getElementById('about-domains-list');
+      if (!box) return;
+
+      if (!Array.isArray(domains) || !domains.length) {
+        box.innerHTML = '<div class="error-msg">暂无域名</div>';
+        return;
+      }
+
+      let groups;
+      if (typeof domains[0] === 'string') {
+        groups = [{ name: '默认线路', icon: '', desc: '域名互为备份', domains }];
+      } else {
+        groups = domains;
+      }
+
+      box.innerHTML = groups.map(g => {
+        const name = g.name || '未命名站点';
+        const desc = g.desc || '';
+        const list = Array.isArray(g.domains) ? g.domains.filter(Boolean) : [];
+
+        const avatarHtml = isImageIcon(g.icon)
+          ? `<div class="domain-group-avatar"><img src="${g.icon}" alt="${name}" loading="lazy"
+                onerror="this.style.display='none';this.parentNode.textContent='${getInitials(name)}';"></div>`
+          : `<div class="domain-group-avatar">${(g.icon && String(g.icon).trim()) || getInitials(name)}</div>`;
+
+        const domainHtml = list.length
+          ? list.map(d => `
+            <div class="domain-line">
+              <span class="url-text">${d}</span>
+              <button class="copy-btn" data-url="${d}">复制</button>
+            </div>`).join('')
+          : '<div class="domain-empty">该站点暂未提供域名</div>';
+
+        return `
+          <div class="domain-group-card" data-name="${name.toLowerCase()}">
+            <div class="domain-group-head">
+              ${avatarHtml}
+              <div class="domain-group-info">
+                <div class="domain-group-name" title="${name}">${name}</div>
+                ${desc ? `<div class="domain-group-desc">${desc}</div>` : ''}
+              </div>
+            </div>
+            <div>${domainHtml}</div>
+          </div>`;
+      }).join('');
+    }
+
+    function renderAboutText(about) {
+      const dec  = document.getElementById('about-declaration');
+      const note = document.getElementById('contributors-note');
+
+      if (dec && about.declaration) dec.textContent = about.declaration;
+      if (note && about.contributorsNote) note.textContent = about.contributorsNote;
+
+      renderQuickLinks(about.quickLinks || []);
+    }
+
+    function renderContributors(list) {
+      const c = document.getElementById('contributors-list');
+      if (!c) return;
+      if (!Array.isArray(list) || !list.length) {
+        c.innerHTML = '<div class="error-msg">暂无合作共创人员</div>';
+        return;
+      }
+      c.innerHTML = list.map(x => {
+        const avatarHtml = isImageIcon(x.avatar)
+          ? `<div class="contributor-avatar"><img src="${x.avatar}" alt="${x.name}" loading="lazy"
+                onerror="this.style.display='none';this.parentNode.textContent='${getInitials(x.name)}';"></div>`
+          : `<div class="contributor-avatar">${(x.avatar && String(x.avatar).trim()) || getInitials(x.name)}</div>`;
+
+        return `
+        <div class="contributor-card" data-name="${(x.name || '').toLowerCase()}">
+          <div class="contributor-inner-card">
+            ${avatarHtml}
+            <div class="contributor-info">
+              <div class="contributor-name" title="${x.name}">${x.name}</div>
+              ${x.role ? `<div class="contributor-role">${x.role}</div>` : ''}
+              ${x.desc ? `<div class="contributor-desc">${x.desc}</div>` : ''}
+              ${x.social ? `<div class="contributor-social">${x.social}</div>` : ''}
+            </div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    function renderOnlineItem(item) {
+      const name = item.name || '';
+      const url  = item.url || '#';
+      const desc = item.desc || '';
+      const ph   = name.charAt(0) || '?';
+
+      let iconHtml;
+      if (item.icon && String(item.icon).trim()) {
+        if (isImageIcon(item.icon)) {
+          iconHtml = `<img src="${item.icon}" alt="${name}" loading="lazy"
+            onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <span class="site-ph" style="display:none">${ph}</span>`;
+        } else {
+          iconHtml = `<span class="site-ph" style="display:flex;font-size:1.4rem">${item.icon}</span>`;
+        }
+      } else {
+        iconHtml = `<span class="site-ph" style="display:flex">${ph}</span>`;
+      }
+
+      return `<a class="online-item" href="${url}" target="_blank" rel="noopener noreferrer" data-name="${name.toLowerCase()}">
+        <span class="online-item-icon">${iconHtml}</span>
+        <div class="online-item-info">
+          <div class="online-item-name">${name}</div>
+          <div class="online-item-desc">${desc}</div>
+        </div>
+      </a>`;
+    }
+
+    function renderToolChip(item) {
+      const name = item.name || '';
+      const url  = item.url || '#';
+      const desc = item.desc || '';
+      const iconHtml = renderIcon(item.icon, { size: '.9rem', box: '1.1rem', fallback: '🔗' });
+      return `<a class="tool-chip" href="${url}" target="_blank" rel="noopener noreferrer" title="${desc}" data-name="${name.toLowerCase()}">
+        ${iconHtml}<span>${name}</span>
+      </a>`;
+    }
+
+    function renderApiItemCard(item) {
+      const badge = item.badge || item.count || '';
+      const note  = item.note  || item.desc  || '';
+      let noteHtml = note ? `<div style="font-size:.68rem;color:#8b9eb0;margin-top:6px">${note}</div>` : '';
+      return `<div class="api-item" data-name="${(item.name || '').toLowerCase()}">
+        <div class="api-item-header">
+          <div class="api-item-name" title="${item.name}">${item.name}</div>
+          <div class="api-item-meta"><span class="badge-new">${badge}</span></div>
+        </div>
+        ${noteHtml}
+        <div class="api-item-urls">
+          <div class="url-line">
+            <span class="url-tag">${item.tag || '导入'}</span>
+            <span class="url-text">${item.url}</span>
+            <button class="copy-btn" data-url="${item.url}">复制</button>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    function renderItemsByType(type, items) {
+      const list = Array.isArray(items) ? items : [];
+      const targetType = (type === 'more') ? 'api' : type;
+      switch (targetType) {
+        case 'online':
+          return `<div class="online-list">${list.map(renderOnlineItem).join('\n')}</div>`;
+        case 'tools':
+          return `<div class="tools-grid">${list.map(renderToolChip).join('\n')}</div>`;
+        case 'api':
+        default:
+          return `<div class="api-list">${list.map(renderApiItemCard).join('\n')}</div>`;
+      }
+    }
+
+    function renderPanelCard(title, description, type, items) {
+      return `<div style="background:#f8fafc;border-radius:12px;padding:14px 16px;border:1px solid #eef2f7">
+        <h3 style="font-size:.92rem;font-weight:600;color:#0b1e33;margin-bottom:4px">${title}</h3>
+        <p style="font-size:.76rem;color:#5a6f88;margin-bottom:4px">${description}</p>
+        ${renderItemsByType(type, items)}
+      </div>`;
+    }
+
+    async function renderDynamicPanel(rawTabs, containerId, defaultType = 'api') {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      const tabs = (rawTabs || []).map(t => {
+        const file = t.file || t.url || '';
+        return {
+          id: t.id || file || Math.random().toString(36).slice(2),
+          label: t.label || t.name || '未命名',
+          icon: t.icon || '',
+          file: file,
+          type: t.type || defaultType,
+          pinned: !!t.pinned,
+          description: t.description || ''
+        };
+      });
+
+      if (!tabs.length) { container.innerHTML = '<div class="error-msg">⚠️ 暂无配置</div>'; return; }
+
+      const pinned = tabs.filter(t => t.pinned);
+      const normal = tabs.filter(t => !t.pinned);
+      const ordered = pinned.concat(normal);
+
+      container.className = 'has-sidebar';
+      container.innerHTML = `
+        <div class="panel-sidebar" id="${containerId}-sidebar"></div>
+        <div class="panel-body" id="${containerId}-body"><div class="loading">⏳ 正在加载...</div></div>
+      `;
+
+      const sidebar = document.getElementById(`${containerId}-sidebar`);
+      sidebar.innerHTML = ordered.map((t, i) => {
+        const isPinned = t.pinned;
+        const needDivider = isPinned && i === pinned.length - 1 && normal.length > 0;
+        const iconHtml = renderIcon(t.icon, { size: '1.15rem', box: '1.4rem', fallback: '📦' });
+        const btn = `<button class="panel-side-btn ${isPinned ? 'panel-pinned' : ''} ${i === 0 ? 'active' : ''}" data-tab-id="${t.id}">
+          ${iconHtml}<span>${t.label}</span>
+        </button>`;
+        return btn + (needDivider ? '<div class="panel-divider"></div>' : '');
+      }).join('');
+
+      const dataMap = {};
+      await Promise.all(ordered.map(async t => {
+        if (!t.file) { dataMap[t.id] = { items: [] }; return; }
+        try {
+          if (t.type === 'download' || t.file.includes('下载') || t.file.includes('app')) {
+            const res = await fetch(t.file + '?t=' + Date.now() + '&r=' + Math.random(), { cache: 'no-store' });
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            const raw = await res.text();
+            const cleaned = raw.replace(/[\u201c\u201d]/g, '"').replace(/[\u2018\u2019]/g, "'").replace(/：/g, ':').replace(/，/g, ',');
+            const data = JSON.parse(cleaned);
+            let groups = [];
+            const arr = data.list || data;
+            if (Array.isArray(arr)) {
+              arr.forEach(group => {
+                if (group && Array.isArray(group.list)) {
+                  groups.push({ name: group.name || '', list: group.list });
+                } else if (group) {
+                  groups.push({ name: '', list: [group] });
+                }
+              });
+            }
+            dataMap[t.id] = { groups, title: data.title || '', description: data.description || '' };
+          } else {
+            dataMap[t.id] = await fetchJSON(t.file);
+          }
+        } catch (e) { dataMap[t.id] = { error: e.message }; }
+      }));
+
+      const body = document.getElementById(`${containerId}-body`);
+      body.innerHTML = ordered.map((t, i) => {
+        const data = dataMap[t.id];
+        const isActive = i === 0 ? 'active' : '';
+
+        if (data && data.error) {
+          return `<div class="panel-group ${isActive}"><div class="error-msg">❌ ${t.label} 加载失败：${data.error}</div></div>`;
+        }
+
+        let innerHtml = '';
+        if (data && data.groups) {
+          const groups = data.groups;
+          const dlTitle = data.title || t.label;
+          const dlDesc = data.description || t.description || '';
+
+          const groupsHtml = groups.map(g => {
+            const list = g.list || [];
+            if (!list.length) return '';
+            const cardsHtml = list.map(item => {
+              const ph = (item.name || '?').slice(0, 1).toUpperCase();
+              let iconInner = '';
+              if (isImageIcon(item.icon)) {
+                iconInner = `<img src="${item.icon}" alt="${item.name}" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex';"><span class="site-ph" style="display:none">${ph}</span>`;
+              } else if (item.icon && String(item.icon).trim()) {
+                iconInner = `<span class="site-ph" style="display:flex;font-size:1.4rem">${item.icon}</span>`;
+              } else {
+                iconInner = `<span class="site-ph" style="display:flex">${ph}</span>`;
+              }
+              return `
+                <a class="download-card" href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" data-name="${(item.name || '').toLowerCase()}">
+                  <span class="dl-item-icon">${iconInner}</span>
+                  <span class="dl-item-info">
+                    <span class="dl-item-name">${item.name || ''}</span>
+                    ${item.version ? `<span class="dl-item-desc">${item.version}</span>` : ''}
+                  </span>
+                  <span class="dl-item-btn">⬇ 下载</span>
+                </a>`;
+            }).join('');
+            const gTitle = g.name ? `<div class="dl-subgroup-title">${g.name}</div>` : '';
+            return `<div class="dl-subgroup">${gTitle}<div class="dl-cards">${cardsHtml}</div></div>`;
+          }).join('');
+
+          innerHtml = `<div style="background:#f8fafc;border-radius:12px;padding:14px 16px;border:1px solid #eef2f7">${dlTitle ? `<h3 style="font-size:.92rem;font-weight:600;color:#0b1e33;margin-bottom:4px">${dlTitle}</h3>` : ''}${dlDesc ? `<p style="font-size:.76rem;color:#5a6f88;margin-bottom:10px">${dlDesc}</p>` : ''}${groupsHtml}</div>`;
+        } else {
+          const title = (data && data.title) || t.label;
+          const desc = (data && data.description) || t.description || '';
+          const items = (data && data.items) || [];
+          innerHtml = renderPanelCard(title, desc, t.type, items);
+        }
+
+        return `<div class="panel-group ${isActive}" id="grp-${t.id}">${innerHtml}</div>`;
+      }).join('');
+
+      sidebar.querySelectorAll('.panel-side-btn').forEach(b => {
+        b.addEventListener('click', () => {
+          sidebar.querySelectorAll('.panel-side-btn').forEach(x => x.classList.remove('active'));
+          b.classList.add('active');
+          const tabId = b.getAttribute('data-tab-id');
+          body.querySelectorAll('.panel-group').forEach(g => g.classList.remove('active'));
+          const target = document.getElementById(`grp-${tabId}`);
+          if (target) target.classList.add('active');
+        });
+      });
+    }
+
+    async function renderVideo() {
+      let cfg;
+      try { cfg = await loadConfig(); } catch (err) { return; }
+      await renderDynamicPanel(cfg.videoTabs || [], 'video-content', 'more');
+    }
+
+    async function renderMore() {
+      let cfg;
+      try { cfg = await loadConfig(); } catch (err) { return; }
+      await renderDynamicPanel(cfg.moreTabs || [], 'more-content', 'more');
+    }
+
+    async function renderDownloads() {
+      await renderDynamicPanel(DOWNLOAD_SOURCES, 'downloads-content', 'more');
+    }
+
+    async function fetchListText() {
+      if (rawListText !== null) return rawListText;
+      const file = (SITE_CONFIG && SITE_CONFIG.sourceFiles && SITE_CONFIG.sourceFiles.list) || 'list.txt';
+      const res = await fetch(file + '?t=' + Date.now() + '&r=' + Math.random(), {
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' }
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      rawListText = await res.text();
+      return rawListText;
+    }
+    function parseItems(text) {
+      if (!text || !text.trim()) return [];
+      return text.trim().split('\n').filter(l => l.trim()).map(line => {
+        const p = line.split('|').map(s => s.trim());
+        if (!p[0]) return null;
+        return {
+          file: p[0],
+          name: p[0].replace(/\.json$/i, ''),
+          date: p[1] || '',
+          size: p[2] || '',
+          origUrl: p[3] || '',
+          weight: API_WEIGHTS.hasOwnProperty(p[0]) ? API_WEIGHTS[p[0]] : 999
+        };
+      }).filter(Boolean);
+    }
+    function parseCustomApis() {
+      return CUSTOM_APIS.map(c => {
+        if (!c || !c.name) return null;
+        const urls = Array.isArray(c.urls) ? c.urls.filter(u => u && u.label && u.url) : [];
+        return {
+          file: c.name + '.json',
+          name: c.name,
+          date: c.date || '',
+          size: c.size || '',
+          origUrl: c.origUrl || '',
+          customUrls: urls,
+          weight: 999
+        };
+      }).filter(Boolean);
+    }
+    function renderUrlLine(tag, url) {
+      if (!tag || !url) return '';
+      return `<div class="url-line"><span class="url-tag">${tag}</span><span class="url-text">${url}</span><button class="copy-btn" data-url="${url}">复制</button></div>`;
+    }
+    async function renderApi() {
+      const container = document.getElementById('listContainer');
+      try {
+        try { await loadConfig(); } catch (_) {}
+        const text = await fetchListText();
+        const tip = document.getElementById('apiLoading');
+        if (tip) tip.style.display = 'none';
+
+        let items = parseItems(text).concat(parseCustomApis());
+        if (!items.length) { container.innerHTML = '<div class="error-msg">⚠️ 接口列表为空</div>'; return; }
+
+        const ri = items.filter(i => ROTATE_KEYWORDS.some(kw => i.name.toLowerCase().includes(kw.toLowerCase())));
+        const top = getTopItem(ri);
+        if (top) top.weight = Number.MIN_SAFE_INTEGER;
+        items.sort((a, b) => a.weight - b.weight);
+
+        let html = '';
+        items.forEach(it => {
+          const isNew = isRecent(it.date);
+          let lines = '';
+          if (it.origUrl) lines += renderUrlLine('原始线路', it.origUrl);
+          if (it.customUrls && it.customUrls.length) {
+            it.customUrls.forEach(u => { lines += renderUrlLine(u.label, u.url); });
+          } else {
+            API_DOMAINS.forEach(d => { lines += renderUrlLine(d.tag, d.base + it.name + '.json'); });
+          }
+          const dateHtml = it.date ? `<span class="${isNew ? 'badge-new' : 'badge-old'}">备份时间 ${formatDateToChinese(it.date)}</span>` : '';
+          const sizeHtml = it.size ? `&nbsp;&nbsp;${it.size}` : '';
+          const metaHtml = (dateHtml || sizeHtml) ? `<div class="api-item-meta">${dateHtml}${sizeHtml}</div>` : '';
+          html += `<div class="api-item" data-name="${it.name.toLowerCase()}">
+            <div class="api-item-header">
+              <div class="api-item-name" title="${it.name}">${it.name}</div>
+              ${metaHtml}
+            </div>
+            <div class="api-item-urls">${lines}</div>
+          </div>`;
+        });
+        container.innerHTML = html;
+      } catch (err) {
+        const tip = document.getElementById('apiLoading');
+        if (tip) tip.style.display = 'none';
+        container.innerHTML = `<div class="error-msg">❌ 接口加载失败：${err.message || err}</div>`;
+      }
+    }
+
+    async function fetchLiveText() {
+      if (rawLiveText !== null) return rawLiveText;
+      const file = (SITE_CONFIG && SITE_CONFIG.sourceFiles && SITE_CONFIG.sourceFiles.live) || 'livelist.txt';
+      const res = await fetch(file + '?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      rawLiveText = await res.text();
+      return rawLiveText;
+    }
+    function parseLiveItems(text) {
+      if (!text || !text.trim()) return [];
+      return text.trim().split('\n').filter(l => l.trim()).map(line => {
+        const p = line.split('|').map(s => s.trim());
+        if (!p[0]) return null;
+        return {
+          name: p[0] || '',
+          displayName: p[0].replace(/\.[^.]+$/, ''),
+          date: p[1] || '',
+          size: p[2] || '',
+          origUrl: p[3] || '',
+          source: p[4] || '',
+          ua: p[5] || ''
+        };
+      }).filter(Boolean);
+    }
+    function renderLiveList() {
+      const container = document.getElementById('liveListContainer');
+      const loading = document.getElementById('liveLoading');
+      fetchLiveText().then(text => {
+        if (loading) loading.style.display = 'none';
+        const items = parseLiveItems(text);
+        if (!items.length) { container.innerHTML = '<div class="error-msg">⚠️ 直播列表为空</div>'; return; }
+        let html = '';
+        items.forEach(it => {
+          const isNew = isRecent(it.date);
+          let urls = '';
+          if (it.origUrl) urls += `<div class="live-url-line"><div class="live-info-inline"><span>来源：${it.source || '未知'}</span>${it.ua ? '<span class="sep">|</span><span>UA：' + it.ua + '</span>' : ''}</div><div class="live-url-body"><span class="live-url-tag">原始线路</span><span class="live-url-text">${it.origUrl}</span><button class="copy-btn" data-url="${it.origUrl}">复制</button></div></div>`;
+          LIVE_DOMAINS.forEach(d => {
+            const u = d.base + it.name;
+            urls += `<div class="live-url-line"><div class="live-url-body"><span class="live-url-tag">${d.tag}</span><span class="live-url-text">${u}</span><button class="copy-btn" data-url="${u}">复制</button></div></div>`;
+          });
+          
+          // 【搜索增强】将来源和UA放入 data-extra 供全局搜索匹配
+          const extraStr = `${(it.source||'').toLowerCase()} ${(it.ua||'').toLowerCase()}`;
+          
+          html += `<div class="live-item" data-name="${it.displayName.toLowerCase()}" data-extra="${extraStr}">
+            <div class="live-item-header">
+              <div class="live-item-name" title="${it.displayName}">${it.displayName}</div>
+              <div class="live-item-meta">
+                <span class="${isNew ? 'live-badge-new' : 'live-badge-old'}">备份时间 ${formatDateToChinese(it.date)}</span>${it.size ? '&nbsp;&nbsp;' + it.size : ''}
+              </div>
+            </div>
+            <div class="live-item-urls">${urls}</div>
+          </div>`;
+        });
+        container.innerHTML = html;
+      }).catch(err => {
+        if (loading) loading.style.display = 'none';
+        container.innerHTML = `<div class="error-msg">❌ 直播加载失败：${err.message || err}</div>`;
+      });
+    }
+
+    function renderTabs() {
+      if (!TABS.length) return;
+      navTabs.innerHTML = TABS.map(t =>
+        `<button class="nav-tab ${t.id === currentTabId ? 'active' : ''}" data-tab="${t.id}">${t.label}</button>`
+      ).join('');
+      navTabs.querySelectorAll('.nav-tab').forEach(tab => {
+        tab.addEventListener('click', function () {
+          navTabs.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+          this.classList.add('active');
+          currentTabId = this.getAttribute('data-tab');
+          localStorage.setItem(TAB_KEY, currentTabId);
+          showPanel(currentTabId);
+        });
+      });
+    }
+
+    function showPanel(tabId) {
+      if (searchBox) {
+        searchBox.value = '';
+        document.querySelectorAll('.api-item.hidden, .live-item.hidden, .download-card.hidden, .contributor-card.hidden')
+          .forEach(e => e.classList.remove('hidden'));
+      }
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      const panel = document.getElementById(tabId + '-panel');
+      if (panel) panel.classList.add('active');
+
+      if (searchBox) {
+        const hide = SEARCH_CFG.hideOnTabs || [];
+        searchBox.style.display = hide.includes(tabId) ? 'none' : '';
+      }
+
+      if (tabId === 'api') { topSeed = Date.now() + Math.random(); renderApi(); }
+      if (tabId === 'live') renderLiveList();
+      if (tabId === 'download') renderDownloads();
+      if (tabId === 'video') renderVideo();
+      if (tabId === 'more') renderMore();
+    }
+
+    function globalSearch() {
+      const kw = (searchBox.value || '').toLowerCase().trim();
+      const list = (currentMode === 'simple')
+        ? (SEARCH_CFG.searchableTabs || [])
+        : (SEARCH_CFG.searchableTabsFull || []);
+      list.forEach(key => {
+        const sel = (SEARCH_CFG.selectors || {})[key];
+        if (!sel) return;
+        document.querySelectorAll(sel).forEach(el => {
+          const name = el.getAttribute('data-name') || '';
+          const extra = el.getAttribute('data-extra') || '';
+          // 【搜索增强】同时匹配 data-name 和 data-extra
+          el.classList.toggle('hidden', !(name + ' ' + extra).includes(kw));
+        });
+      });
+    }
+
+    function positionSearchBox() {
+      if (currentMode === 'simple') {
+        if (searchBox.parentNode !== mainCard.parentNode) mainCard.parentNode.insertBefore(searchBox, mainCard);
+      } else {
+        if (searchBox.parentNode !== mainCard) navTabs.insertAdjacentElement('afterend', searchBox);
+      }
+    }
+    function updateBtnText() {
+      btn.innerHTML = currentMode === 'simple' ? '切换<br>全能版' : '切换<br>简洁版';
+    }
+
+    btn.addEventListener('click', () => {
+      topSeed = Date.now() + Math.random();
+      currentMode = currentMode === 'simple' ? 'full' : 'simple';
+      localStorage.setItem(MODE_KEY, currentMode);
+      document.body.className = currentMode + '-mode';
+      updateBtnText();
+      if (currentMode !== 'simple') {
+        positionSearchBox();
+        renderTabs();
+        showPanel(currentTabId);
+      } else {
+        currentTabId = 'api';
+        localStorage.setItem(TAB_KEY, 'api');
+        searchBox.style.display = '';
+        positionSearchBox();
+        renderApi();
+      }
+    });
+
+    (async function init() {
+      try {
+        await loadConfig();
+      } catch (e) {
+        document.getElementById('listContainer').innerHTML =
+          `<div class="error-msg">❌ config.json 加载失败：${e.message || e}</div>`;
+        return;
+      }
+
+      if (currentMode === 'simple') {
+        currentTabId = 'api';
+        localStorage.setItem(TAB_KEY, 'api');
+        renderApi();
+      } else {
+        showPanel(currentTabId);
+      }
+    })();
+  </script>
+</body>
+</html>
