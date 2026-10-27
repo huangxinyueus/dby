@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/spider.jar;md5;722d5c1bdcb1b38fc62874941e060d6b",
+  "spider": "http://oss4liview.moji.com/thd_file/2026/10/26/837a77b77fc98aba6b97856944e94d7c.jpg;md5;722d5c1bdcb1b38fc62874941e060d6b",
   "wallpaper": "https://www.loliapi.com/acg/",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -872,7 +872,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./lib/183E562_773_xiqu_20251130182006749newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/183E562_773_xiqu_20251130182006749newMediaImage.txt"
       }
     },
     {
@@ -905,7 +905,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
       }
     },
     {
@@ -921,7 +921,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
       }
     },
     {
@@ -937,7 +937,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
       }
     },
     {
@@ -953,7 +953,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
       }
     },
     {

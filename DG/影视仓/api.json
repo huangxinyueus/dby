@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/spider.jar",
+  "spider": "http://124.71.19.220/jar/1/spider.jar?g=none&v=10",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "lives": [
     {
@@ -23,11 +23,11 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🔄️20261018✅【配置中心|点主页切换】",
+      "name": "🔄️20261027✅【配置中心|点主页切换】",
       "type": 3,
       "api": "csp_Douban",
       "ext": "./lib/douban.json",
-      "jar": "./lib/tan2.jar"
+      "jar": "http://124.71.19.220/jar/1/tan2.jar?v=25"
     },
     {
       "key": "配置中心",
@@ -59,7 +59,7 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://103.231.12.104:22776"
+          "http://118.89.172.248:22776"
         ]
       },
       "hide": 1
@@ -149,7 +149,7 @@
       "api": "csp_JinPai",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./lib/tan2.jar"
+      "jar": "http://124.71.19.220/jar/1/tan2.jar?v=25"
     },
     {
       "key": "520",
@@ -159,7 +159,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "ext": "{\"site\":\"http://23.225.14.70:520\",\"block\":[\"co\",\"qq\",\"qiyi\",\"JD4k\"],\"rename\":{\"nby\":\"1NBY\",\"bba\":\"2BBA\",\"yktx\":\"3YKTX\",\"zijianm3u8\":\"ZJ4K\",\"bfzym3u8\":\"暴风资源\",\"ffm3u8\":\"非凡资源\",\"lzm3u8\":\"量子资源\"}}",
-      "jar": "./lib/tan2.jar"
+      "jar": "http://124.71.19.220/jar/1/tan2.jar?v=25"
     },
     {
       "key": "Dubk",
@@ -168,17 +168,7 @@
       "api": "csp_Dubk",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./lib/tan2.jar"
-    },
-    {
-      "name": "🍂┃橘汁┃快速",
-      "key": "线路14",
-      "type": 3,
-      "jar": "https://zl.wpscdn.cn/2026/09/11/space_img/0f5c235d-ee40-42a0-a19a-b7f29986c51c.png;md5;7a2cb30dc4937d27e57288b5c381e19c",
-      "api": "csp_Woshinidie",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "jar": "http://124.71.19.220/jar/1/tan2.jar?v=25"
     },
     {
       "key": "华谊",
@@ -382,7 +372,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Blixq.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "相声小品",
@@ -393,7 +383,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Blixs.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "演唱会",
@@ -404,7 +394,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/演唱会.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "MTV",
@@ -415,7 +405,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/MTV.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "哔哩哔哩",
@@ -426,7 +416,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Bili.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "csp_Bili短剧",
@@ -437,7 +427,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Bili短剧.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "影视解说",
@@ -448,7 +438,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/影视解说.json",
-      "jar": "./lib/spider.jar"
+      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "少儿教育",

@@ -1,6 +1,6 @@
 {
-  "spider": "./lib/spider.jar;md5;2d842238d97d949fef5c679cb876f81d",
-  "danmaku": "http://xn--z7x900a.net/danmu5266/auto.php?name={name}&episode={episode}",
+  "spider": "https://img2.gelonghui.com/library/7bfc9-59cca2d0-d2b6-469c-b02d-a876987822fc.png;md5;7bfc9f9c0b3ed23d0ea38400ac9d356b",
+  "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "http://w.junce.dpdns.org/fm.gif",
   "sites": [
@@ -89,13 +89,13 @@
       "api": "csp_AppDrama2",
       "ext": {
         "appName": "华谊",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-        "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.muyue.tool",
+        "pkg": "com.lxf.sncgtzxyx",
         "host": "",
-        "site": "./lib/az5.txt",
-        "version": "1.0.0.4",
+        "site": "./lib/44107727",
+        "version": "6.0.0.1",
         "decrypt": "1"
       }
     },
@@ -149,15 +149,6 @@
       "filterable": 0
     },
     {
-      "key": "番茄",
-      "name": "🍅┃番茄┃APP",
-      "type": 3,
-      "api": "csp_AppFQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "咕噜",
       "name": "🕊┃︎咕噜┃APP",
       "type": 3,
@@ -181,19 +172,12 @@
       "ext": "./lib/y2s52n7.com"
     },
     {
-      "key": "csp_Wwys",
-      "name": "🌾️┃农民┃影视",
-      "type": 3,
-      "api": "csp_Wwys",
-      "ext": "./lib/vip.wwgz.cn:5200"
-    },
-    {
       "key": "荐片",
       "name": "🎬┃荐片┃影视",
       "api": "csp_Jianpian",
       "type": 3,
       "playerType": "2",
-      "ext": "./lib/api.ztcgi.com"
+      "ext": "https://api.ztcgi.com"
     },
     {
       "key": "csp_SaoHuo",
@@ -219,7 +203,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.czzy89.com"
+      "ext": "https://cz01.vip"
     },
     {
       "key": "csp_SP360",

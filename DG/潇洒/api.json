@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/spider.jar",
+  "spider": "./spider.jar",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -446,7 +446,7 @@
       "ext": {
         "site": [
           "http://tvpanpan.site",
-          "http://feimo.fun",
+          "./lib/feimo.fun",
           "http://xiaocgege.shop",
           "http://www.xiaocgege.shop",
           "https://www.xiaocge.fun"
@@ -517,10 +517,10 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://woog.nxog.eu.org",
-          "https://woog.nxog.fun",
-          "https://woog.nxog.eu.org",
-          "https://woog.430520.xyz"
+          "./lib/woog.nxog.eu.org",
+          "./lib/woog.nxog.fun",
+          "./lib/woog.nxog.eu.org",
+          "./lib/woog.430520.xyz"
         ]
       },
       "timeout": 60
@@ -866,7 +866,7 @@
       "name": "剧圈 • 影视",
       "type": 3,
       "api": "csp_XYQHiker",
-      "ext": "./lib/剧圈影视.json"
+      "ext": "./XYQHiker/剧圈影视.json"
     },
     {
       "key": "1905",
@@ -885,14 +885,14 @@
       "style": {
         "type": "list"
       },
-      "ext": "./lib/哆啦新番社.json"
+      "ext": "./XBPQ/哆啦新番社.json"
     },
     {
       "key": "Anime1",
       "name": "A1 • 动漫",
       "type": 3,
       "api": "./js/drpy2.min.js",
-      "ext": "./lib/Anime1.js"
+      "ext": "./js/Anime1.js"
     },
     {
       "key": "喵呜动漫",
@@ -978,21 +978,21 @@
       "name": "巴士 • 动漫",
       "type": 3,
       "api": "csp_XYQHiker",
-      "ext": "./lib/巴士动漫.json"
+      "ext": "./XYQHiker/巴士动漫.json"
     },
     {
       "key": "路漫漫",
       "name": "路漫漫 • 动漫",
       "type": 3,
       "api": "./js/drpy2.min.js",
-      "ext": "./lib/路漫漫.js"
+      "ext": "./js/路漫漫.js"
     },
     {
       "key": "去看吧",
       "name": "去看吧 • 动漫",
       "type": 3,
       "api": "./js/drpy2.min.js",
-      "ext": "./lib/去看吧.js"
+      "ext": "./js/去看吧.js"
     },
     {
       "key": "荐片",
@@ -1047,7 +1047,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/电影港.json"
+      "ext": "./XYQHiker/电影港.json"
     },
     {
       "key": "阿里云盘",
@@ -1400,7 +1400,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
-        "json": "./lib/少儿教育.json",
+        "json": "./json/少儿教育.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1417,7 +1417,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
-        "json": "./lib/小学课堂.json",
+        "json": "./json/小学课堂.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1434,7 +1434,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
-        "json": "./lib/初中课堂.json",
+        "json": "./json/初中课堂.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1451,7 +1451,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
-        "json": "./lib/高中课堂.json",
+        "json": "./json/高中课堂.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {

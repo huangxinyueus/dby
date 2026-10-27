@@ -1,13 +1,8 @@
 {
   "api.json": {
-    "md5": "f0aa14fd120e4ce9035c6fffb62843c0",
-    "size": 17343,
-    "mtime": 1793000581.241325
-  },
-  "api_本地版.json": {
-    "md5": "e7acd33e9a8387dfa6fa08c8fdce9ce4",
-    "size": 17614,
-    "mtime": 1793000770.6734376
+    "md5": "bad1b32bf7233d89df2244c6fa6f1170",
+    "size": 17522,
+    "mtime": 1793143310.6779728
   },
   "spider.jar": {
     "md5": "dab654f794a271c3d7a33d18acfbfa95",
@@ -54,6 +49,16 @@
     "size": 9659,
     "mtime": 1793000757.0669131
   },
+  "lib/DAB654F794A271C3D7A33D18ACFBFA95.jpg": {
+    "md5": "dab654f794a271c3d7a33d18acfbfa95",
+    "size": 1119538,
+    "mtime": 1793143305.6356034
+  },
+  "lib/ext_23.json": {
+    "md5": "c35100ed2c185afe97e8cb663d52ff8a",
+    "size": 51579,
+    "mtime": 1793143306.3791535
+  },
   "lib/ext_config.txt": {
     "md5": "e6788382fa41424eea8806787b4aebd8",
     "size": 52057,
@@ -68,6 +73,16 @@
     "md5": "dab654f794a271c3d7a33d18acfbfa95",
     "size": 1119538,
     "mtime": 1793000581.6779969
+  },
+  "lib/斗鱼直播.js": {
+    "md5": "2d5917fa4db8e0da5460a3930f37f78c",
+    "size": 32258,
+    "mtime": 1793143306.135005
+  },
+  "lib/虎牙.js": {
+    "md5": "37011cf63acfd4d8f4d83b3e9c5bb01c",
+    "size": 46047,
+    "mtime": 1793143306.101081
   },
   "live/3d75a78a0fc7ede372c03598d6d10367.m3u": {
     "md5": "baeb85e0484332c546114ed375321bd1",
