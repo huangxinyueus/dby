@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>厂长资源官网</title>
+<meta name="keywords" content="厂长资源,厂长电影,厂长影视" />
+<meta name="description" content="厂长资源官网分享！" />
+<link rel="stylesheet" href="//cdn.bytedance.com/cdn/expire-1-M/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+<script src="//npm.elemecdn.com/jquery@3.7.0/dist/jquery.min.js"></script>
+<body>
+	<div class="container" style="margin-top:9%;">
+  		<div class="jumbotron">
+        <div class="panel panel-success">
+        <div class="panel-heading"><h2>欢迎回家，厂长资源！</h2></div>
+        </div>
+          <p><h2>新地址 www.4kcz.com</a>，本页面是默认跳转页面</h3></p>
+          <p><h2><li>cz01.vip/本导航页地址，请保存CTRL+D保存导航地址
+          <p><h2><li>易记域名<a href="//cz01.tv">cz01.tv</a>
+          <p><h3><li>推荐访问<a href="//www.4kcz.com">https://www.4kcz.com</a>
+          <p><h3><li>推荐访问<a href="//czzy.top">https://czzy.top</a>
+          <p><h3><li>推荐访问<a href="//www.cz4k.com">https://www.cz4k.com</a>
+          <p><h3><li>以往的域名都已失效，敬请知晓！
+          <p><li>本地址不定期无法访问,看见的记得保存一下！</li></a>
+          <p><li>访问不了加www试试 如：www.baidu.com ！</li></a>
+          <p><li style="color: red;"><span id="html"></span>秒后自动跳转，<a href="https://www.4kcz.com">点击这里手动跳转></a></li></p>
+        </div>
+  	</div> 
+	<script type="text/javascript">
+		$(function() {
+		    var autoJump = {
+		        t: 108360,
+		        timer: null,
+		        el: '#html',
+		        href: 'https://www.4kcz.com',
+		        jump: function() {
+		            window.location.href = this.href;
+		        },
+		        render: function() {
+		            $(this.el).html(this.t);
+		        },
+		        init: function() {
+		            this.render();
+		            var _this = this;
+		            _this.timer = setInterval(function() {
+		                if (_this.t < 1) {
+		                    _this.jump();
+		                    clearInterval(_this.timer);
+		                } else {
+		                    _this.t--;
+		                    _this.render();
+		                }
+		            }, 1000);
+		        }
+		    };
+		    autoJump.init();
+		})
+	</script>
+</body>
+</html>

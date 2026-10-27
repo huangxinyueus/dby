@@ -1,0 +1,72 @@
+{
+  "api.json": {
+    "md5": "754e5e17cd1c8e06b77a203072adb04a",
+    "size": 34555,
+    "mtime": 1793000852.7562113
+  },
+  "api_本地版.json": {
+    "md5": "4c447c108866289524aa4015aa045627",
+    "size": 27704,
+    "mtime": 1793000860.6549354
+  },
+  "spider.jar": {
+    "md5": "722d5c1bdcb1b38fc62874941e060d6b",
+    "size": 1010202,
+    "mtime": 1793000852.9170997
+  },
+  "lib/183E562_773_xiqu_20251130182006749newMediaImage.txt": {
+    "md5": "e3a4aee6559a5cae5797a54ff6eb9e94",
+    "size": 13658,
+    "mtime": 1793000857.3610265
+  },
+  "lib/19B1839_773_chuzhong_20250828171521929newMediaImage.txt": {
+    "md5": "ba156c52e0742b16eb85b4650bc6f8c8",
+    "size": 31748,
+    "mtime": 1793000858.8527093
+  },
+  "lib/20260414181247-ae51abfbfe.txt": {
+    "md5": "a2ef6faddc91911b12dbbec1cab7b011",
+    "size": 6160,
+    "mtime": 1793000853.1859217
+  },
+  "lib/345A587_773_gaozhong_20250828171449997newMediaImage.txt": {
+    "md5": "e44b3a3a8b79afc16bff38acb59ed35b",
+    "size": 32030,
+    "mtime": 1793000859.2660422
+  },
+  "lib/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt": {
+    "md5": "1903bbf1fae3cd0b0ee915b326caeed2",
+    "size": 3666,
+    "mtime": 1793000857.946774
+  },
+  "lib/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt": {
+    "md5": "a1140f98d40d21f5f522c0daf9e380cb",
+    "size": 9611,
+    "mtime": 1793000858.3008275
+  },
+  "lib/bili001.txt": {
+    "md5": "5fff83491221136a43d4800c37956c3e",
+    "size": 116794,
+    "mtime": 1793000856.8621302
+  },
+  "lib/bilisong.txt": {
+    "md5": "bec248b43df5a635d808fb14a976ba36",
+    "size": 17580,
+    "mtime": 1793000857.5771577
+  },
+  "lib/spider.jar": {
+    "md5": "722d5c1bdcb1b38fc62874941e060d6b",
+    "size": 1010202,
+    "mtime": 1793000852.9324327
+  },
+  "live/iptv.m3u": {
+    "md5": "dc2e4e8279aaa8175bba1aa31cb156a1",
+    "size": 21944,
+    "mtime": 1793000859.909718
+  },
+  "live/iptv.php": {
+    "md5": "1c4b758b2c965524b3e27adf5d7999cb",
+    "size": 42900,
+    "mtime": 1793000860.6498964
+  }
+}

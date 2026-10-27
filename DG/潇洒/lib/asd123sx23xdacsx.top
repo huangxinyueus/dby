@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>布布追剧 - 新站通知</title>
+  <style>
+    :root {
+      --background: #f7f8fa;
+      --surface: #ffffff;
+      --text: #18181b;
+      --muted: #62666d;
+      --border: #dfe2e7;
+      --primary: #13795b;
+      --primary-hover: #0f654c;
+      --accent: #b45309;
+      --focus: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      color: var(--text);
+      background: var(--background);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+    }
+
+    main {
+      width: min(100%, 620px);
+      text-align: center;
+    }
+
+    .brand {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 28px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      color: #ffffff;
+      background: var(--primary);
+      font-size: 28px;
+      font-weight: 700;
+      box-shadow: 0 10px 28px rgba(19, 121, 91, 0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.2;
+      font-weight: 750;
+      letter-spacing: 0;
+    }
+
+    .message {
+      max-width: 520px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .address-box {
+      margin-top: 34px;
+      padding: 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 14px 36px rgba(24, 24, 27, 0.06);
+    }
+
+    .address {
+      min-width: 0;
+      flex: 1;
+      overflow-wrap: anywhere;
+      color: var(--primary);
+      font-size: 16px;
+      font-weight: 650;
+      line-height: 1.5;
+      text-align: left;
+      text-decoration: none;
+    }
+
+    .address:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    button,
+    .visit-button {
+      min-height: 46px;
+      border-radius: 8px;
+      font: inherit;
+      font-size: 15px;
+      font-weight: 650;
+      cursor: pointer;
+      transition: background-color 180ms ease, border-color 180ms ease,
+        color 180ms ease, transform 180ms ease;
+    }
+
+    button:focus-visible,
+    .visit-button:focus-visible,
+    .address:focus-visible {
+      outline: 3px solid rgba(37, 99, 235, 0.35);
+      outline-offset: 3px;
+    }
+
+    .copy-button {
+      flex: 0 0 auto;
+      padding: 0 18px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: #ffffff;
+    }
+
+    .copy-button:hover {
+      border-color: #aeb4bd;
+      background: #f4f5f7;
+    }
+
+    .visit-button {
+      width: 100%;
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 22px;
+      color: #ffffff;
+      background: var(--primary);
+      text-decoration: none;
+    }
+
+    .visit-button:hover {
+      background: var(--primary-hover);
+    }
+
+    button:active,
+    .visit-button:active {
+      transform: translateY(1px);
+    }
+
+    .countdown {
+      min-height: 24px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .countdown strong {
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tip {
+      margin: 8px 0 0;
+      color: #858991;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 20px;
+      }
+
+      .brand {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 24px;
+        font-size: 24px;
+      }
+
+      .message {
+        font-size: 16px;
+      }
+
+      .address-box {
+        align-items: stretch;
+        flex-direction: column;
+        padding: 16px;
+      }
+
+      .address {
+        text-align: center;
+      }
+
+      .copy-button {
+        width: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand" aria-hidden="true">布</div>
+    <h1>布布追剧已停止维护</h1>
+    <p class="message">
+      感谢大家一直以来的支持。请复制下方新站地址，或直接点击按钮继续访问。
+    </p>
+
+    <div class="address-box">
+      <a
+        class="address"
+        id="new-site-address"
+        href="https://duoduozhuiju.com/"
+      >https://duoduozhuiju.com/</a>
+      <button class="copy-button" id="copy-button" type="button">复制地址</button>
+    </div>
+
+    <a class="visit-button" href="https://duoduozhuiju.com/">立即访问新站</a>
+
+    <p class="countdown" aria-live="polite">
+      页面将在 <strong id="countdown">10</strong> 秒后自动跳转
+    </p>
+    <p class="tip">若未自动跳转，请点击“立即访问新站”。</p>
+  </main>
+
+  <script>
+    (() => {
+      const targetUrl = 'https://duoduozhuiju.com/';
+      const countdownElement = document.getElementById('countdown');
+      const copyButton = document.getElementById('copy-button');
+      let secondsRemaining = 30;
+
+      const redirectTimer = window.setInterval(() => {
+        secondsRemaining -= 1;
+        countdownElement.textContent = String(secondsRemaining);
+
+        if (secondsRemaining <= 0) {
+          window.clearInterval(redirectTimer);
+          window.location.replace(targetUrl);
+        }
+      }, 1000);
+
+      async function copyAddress() {
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(targetUrl);
+          } else {
+            const input = document.createElement('textarea');
+            input.value = targetUrl;
+            input.setAttribute('readonly', '');
+            input.style.position = 'fixed';
+            input.style.opacity = '0';
+            document.body.appendChild(input);
+            input.select();
+            const copied = document.execCommand('copy');
+            input.remove();
+            if (!copied) throw new Error('Copy command failed');
+          }
+
+          copyButton.textContent = '已复制';
+          window.setTimeout(() => {
+            copyButton.textContent = '复制地址';
+          }, 1800);
+        } catch {
+          copyButton.textContent = '请长按复制';
+          document.getElementById('new-site-address').focus();
+        }
+      }
+
+      copyButton.addEventListener('click', copyAddress);
+    })();
+  </script>
+</body>
+</html>

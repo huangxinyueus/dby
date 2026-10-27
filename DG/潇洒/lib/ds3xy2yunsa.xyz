@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <link rel="alternate icon" href="/favicon.ico?v=20260614" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <title>云朵影视 | 私有访问</title>
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="description" content="云朵影视私有访问入口，仅限已授权账号使用。" />
+  <script>
+    // 主题初始化（默认亮色）：在渲染前恢复用户选择的暗色，避免闪烁
+    (function() {
+      try {
+        if (localStorage.getItem('theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-BncX9OOa.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vue-DRFXcBTf.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-Co_-KCfI.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DcJxYaGa.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    // 低版本浏览器兼容性检测 (ES5语法)
+    (function() {
+      var isModern = 'Promise' in window && 'fetch' in window && 'Symbol' in window && 'Proxy' in window;
+      if (!isModern) {
+        document.getElementById('app').innerHTML = '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:20px;text-align:center;font-family:system-ui,-apple-system,sans-serif;background:#111;color:#fff;"><h2 style="margin:0 0 16px;font-size:20px;">浏览器版本过低</h2><p style="margin:0;color:#999;font-size:14px;line-height:1.6;">当前浏览器不支持本站，请升级浏览器或使用 Chrome、Safari、Edge 等现代浏览器访问</p></div>';
+      }
+    })();
+  </script>
+</body>
+
+</html>
