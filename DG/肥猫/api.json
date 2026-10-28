@@ -49,7 +49,7 @@
       "name": "🏜┃潮流┃APP",
       "type": 3,
       "api": "csp_AppRJ",
-      "ext": "./lib/v.rbotv.cn"
+      "ext": "http://v.rbotv.cn"
     },
     {
       "key": "肥猫",
@@ -63,17 +63,17 @@
       "name": "🍚┃干饭┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "./lib/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      }
+       "ext": {
+                "appName": "小苹果",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+                "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.juechufsh.android.xpg1",
+                "host": "",
+                "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+                "version": "1.0.0.3",
+                "decrypt": "0"
+            }
     },
     {
       "key": "光盘",
@@ -87,34 +87,35 @@
       "name": "😌┃行动┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
-      "ext": {
-        "appName": "华谊",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.sncgtzxyx",
-        "host": "",
-        "site": "./lib/44107727",
-        "version": "6.0.0.1",
-        "decrypt": "1"
-      }
+ "ext": {
+                "appName": "华谊",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+                "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.lxf.sncgtzxyx",
+                "host": "",
+                "site": "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
+                "version": "6.0.0.1",
+                "decrypt": "1"
+            }
     },
+
     {
       "key": "再来",
       "name": "✌️┃再来┃APP",
       "type": 3,
       "api": "csp_AppDrama2",
-      "ext": {
-        "appName": "电影天堂",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.dytiantang.one",
-        "host": "",
-        "site": "./lib/app_dyttandroid.txt",
-        "version": "3.0.0.7",
-        "decrypt": "0"
-      }
+ "ext": {
+                "appName": "电影天堂",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+                "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.dytiantang.one",
+                "host": "",
+                "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+                "version": "3.0.0.7",
+                "decrypt": "0"
+            }
     },
     {
       "key": "一碗",
@@ -122,16 +123,16 @@
       "type": 3,
       "api": "csp_AppDrama2",
       "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.mxj.wylcjbxyx",
-        "host": "",
-        "site": "./lib/app.txt",
-        "version": "3.0.2.4",
-        "decrypt": "1"
-      }
+                "appName": "橘汁",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+                "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.mxj.wylcjbxyx",
+                "host": "",
+                "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+                "version": "3.0.2.4",
+                "decrypt": "1"
+            }
     },
     {
       "key": "韩圈",
@@ -139,24 +140,24 @@
       "type": 3,
       "api": "csp_Hxq"
     },
-    {
-      "key": "一起",
-      "name": "👀┃一起┃APP",
-      "type": 3,
-      "api": "csp_AppYQK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "咕噜",
-      "name": "🕊┃︎咕噜┃APP",
-      "type": 3,
-      "api": "csp_Gulu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+        {
+            "key": "一起",
+            "name": "👀┃一起┃APP",
+            "type": 3,
+            "api": "csp_AppYQK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "咕噜",
+            "name": "🕊┃︎咕噜┃APP",
+            "type": 3,
+            "api": "csp_Gulu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
     {
       "key": "蔬菜",
       "name": "🫛┃蔬菜┃APP",
@@ -169,7 +170,7 @@
       "name": "🥇️┃金牌┃影视",
       "type": 3,
       "api": "csp_Jpys",
-      "ext": "./lib/y2s52n7.com"
+      "ext":"https://y2s52n7.com"
     },
     {
       "key": "荐片",
@@ -218,7 +219,7 @@
       "api": "csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "./lib/0075389dca9afadd4614e9713765ff17.txt",
+        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
         "cookie": ""
       },
       "style": {
@@ -232,7 +233,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_Dm84",
-      "ext": "./lib/dm84.net"
+      "ext": "https://dm84.net"
     },
     {
       "key": "方舟",
@@ -283,7 +284,7 @@
       "api": "csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "./lib/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull",
+        "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull",
         "cookie": ""
       },
       "style": {
@@ -355,7 +356,7 @@
       "api": "csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "./lib/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
+        "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
         "cookie": ""
       },
       "style": {
@@ -370,7 +371,7 @@
       "api": "csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "./lib/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
+        "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
         "cookie": ""
       },
       "style": {
@@ -385,7 +386,7 @@
       "api": "csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "./lib/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
+        "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
         "cookie": ""
       },
       "style": {
@@ -400,7 +401,7 @@
       "api": "csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "./lib/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
+        "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
         "cookie": ""
       },
       "style": {
@@ -515,16 +516,16 @@
     }
   ],
   "lives": [
+
     {
       "name": "Gather「果」",
       "type": 3,
       "url": "https://tv.tmxk.kdns.fr/yplrnuc7",
-      "epg": "https://material.1989.click/epg.xml.gz",
+      "epg":"https://material.1989.click/epg.xml.gz",
       "ua": "okhttp/3.8.1",
       "timeout": 10,
       "playerType": 2
-    }
-  ],
+  }],
   "headers": [
     {
       "host": "hlsztemgsplive.miguvideo.com",

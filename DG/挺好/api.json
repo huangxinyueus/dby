@@ -266,7 +266,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "./lib/ext_22.json"
+      "ext": "https://www.xb6v.com/"
     },
     {
       "key": "咕咕",
@@ -364,7 +364,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/5af5fbe12a88b7c45aa1c21e6551826c.txt"
+        "json": "https://ztha.top/TVBox/lib/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       }
     },
     {
@@ -398,7 +398,7 @@
       "name": "🐯虎牙┃直播",
       "type": 3,
       "api": "https://ztha.top/TVBox/lib/drpy2.min.js",
-      "ext": "./lib/虎牙.js",
+      "ext": "https://ztha.top/TVBox/lib/虎牙.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -414,7 +414,7 @@
       "name": "🐟斗鱼┃直播",
       "type": 3,
       "api": "https://ztha.top/TVBox/lib/drpy2.min.js",
-      "ext": "./lib/斗鱼直播.js",
+      "ext": "https://ztha.top/TVBox/lib/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -497,7 +497,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/0075389dca9afadd4614e9713765ff17.txt"
+        "json": "https://ztha.top/TVBox/lib/0075389dca9afadd4614e9713765ff17.txt"
       }
     },
     {
@@ -513,7 +513,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/6496356286589c68f52c2f99c0c674c7.txt"
+        "json": "https://ztha.top/TVBox/lib/6496356286589c68f52c2f99c0c674c7.txt"
       }
     },
     {
@@ -521,7 +521,7 @@
       "name": "📚儿童┃启蒙",
       "type": 3,
       "api": "https://ztha.top/TVBox/lib/drpy2.min.js",
-      "ext": "./lib/兔小贝.js",
+      "ext": "https://ztha.top/TVBox/lib/兔小贝.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -543,7 +543,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/89370c8ddf36b5e1beb4d71adb921bda.txt"
+        "json": "https://ztha.top/TVBox/lib/89370c8ddf36b5e1beb4d71adb921bda.txt"
       }
     },
     {
@@ -559,7 +559,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+        "json": "https://ztha.top/TVBox/lib/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       }
     },
     {
@@ -575,7 +575,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/8f55d520f8d70056695740ef151744a7.txt"
+        "json": "https://ztha.top/TVBox/lib/8f55d520f8d70056695740ef151744a7.txt"
       }
     }
   ],

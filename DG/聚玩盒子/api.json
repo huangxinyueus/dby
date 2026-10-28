@@ -190,7 +190,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/ext_18.json"
+      "ext": "http://www.xb6v.com/"
     },
     {
       "key": "csp_Anime1",
@@ -381,7 +381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/农民影视.json"
+      "ext": "http://xhztv.top/xhz/sub/农民影视.json"
     },
     {
       "key": "骚火",
@@ -413,7 +413,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/奇优.json"
+      "ext": "http://xhztv.top/xhz/sub/奇优.json"
     },
     {
       "key": "云播",
@@ -459,7 +459,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/虎牙直播.js"
+      "ext": "http://xhztv.top/xhz/js/虎牙直播.js"
     },
     {
       "key": "drpy_js_斗鱼直播",
@@ -469,7 +469,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/斗鱼直播.js"
+      "ext": "http://xhztv.top/xhz/js/斗鱼直播.js"
     },
     {
       "key": "drpy_js_有声小说吧",
@@ -480,7 +480,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/有声小说吧.js"
+      "ext": "http://xhztv.top/xhz/js/有声小说吧.js"
     },
     {
       "key": "drpy_js_JRKAN直播",
@@ -490,7 +490,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/JRKAN直播.js"
+      "ext": "http://xhztv.top/xhz/js/JRKAN直播.js"
     },
     {
       "key": "短视频",
@@ -543,7 +543,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/Bili.json"
+      "ext": "http://xhztv.top/xhz/sub/Bili.json"
     },
     {
       "key": "相声小品",
@@ -553,7 +553,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/Blixs.json"
+      "ext": "http://xhztv.top/xhz/sub/Blixs.json"
     },
     {
       "key": "戏曲",
@@ -563,7 +563,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/Blixq.json"
+      "ext": "http://xhztv.top/xhz/sub/Blixq.json"
     },
     {
       "key": "少儿",
@@ -573,7 +573,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/少儿教育.json"
+      "ext": "http://xhztv.top/xhz/sub/少儿教育.json"
     },
     {
       "key": "小学",
@@ -583,7 +583,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/小学课堂.json"
+      "ext": "http://xhztv.top/xhz/sub/小学课堂.json"
     },
     {
       "key": "初中",
@@ -593,7 +593,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/初中课堂.json"
+      "ext": "http://xhztv.top/xhz/sub/初中课堂.json"
     },
     {
       "key": "高中",
@@ -603,7 +603,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/高中课堂.json"
+      "ext": "http://xhztv.top/xhz/sub/高中课堂.json"
     }
   ],
   "parses": [
@@ -732,7 +732,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "./live/live.txt",
+      "url": "http://xhztv.top/xhz/live.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
