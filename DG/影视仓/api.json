@@ -5,13 +5,13 @@
     {
       "name": "平台直播",
       "type": 0,
-      "url": "./live/zb.php",
+      "url": "http://47.120.41.246:8025/vip/jar/zb.php",
       "playerType": 1
     },
     {
       "name": "Guovin",
       "type": 0,
-      "url": "./live/result.m3u"
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
     },
     {
       "name": "港澳台",
@@ -26,7 +26,7 @@
       "name": "🔄️20261027✅【配置中心|点主页切换】",
       "type": 3,
       "api": "csp_Douban",
-      "ext": "./lib/douban.json",
+      "ext": "https://gitee.com/jiandan1232/BabyOS/raw/master/test/douban.json",
       "jar": "http://124.71.19.220/jar/1/tan2.jar?v=25"
     },
     {
@@ -185,7 +185,7 @@
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.muyue.tool",
         "host": "",
-        "site": "./lib/az5.txt",
+        "site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
         "version": "1.0.0.4",
         "decrypt": "1"
       },
@@ -200,7 +200,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": {
-        "url": "./lib/v.rbotv.cn"
+        "url": "http://v.rbotv.cn"
       },
       "hide": 1
     },
@@ -210,7 +210,7 @@
       "type": 3,
       "api": "csp_App99",
       "ext": {
-        "host": "./lib/bn",
+        "host": "http://124.221.3.182:19987/app/bn",
         "appkey": "d1f0c269eab74d93821fffc9befdbbba",
         "versionName": "1.2.0",
         "name": "剧圈圈",
@@ -235,7 +235,7 @@
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.dytiantang.one",
         "host": "",
-        "site": "./lib/app_dyttandroid.txt",
+        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
         "version": "3.0.0.7",
         "decrypt": "0"
       },
@@ -256,7 +256,7 @@
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.juechufsh.android.xpg1",
         "host": "",
-        "site": "./lib/app_xpg_android.txt",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
         "version": "1.0.0.3",
         "decrypt": "0"
       },
@@ -371,7 +371,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/Blixq.json",
+      "ext": "https://z.qiqiv.cn/666/json/Blixq.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -382,7 +382,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/Blixs.json",
+      "ext": "https://z.qiqiv.cn/666/json/Blixs.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -393,7 +393,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/演唱会.json",
+      "ext": "https://z.qiqiv.cn/666/json/演唱会.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -404,7 +404,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/MTV.json",
+      "ext": "https://z.qiqiv.cn/666/json/MTV.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -415,7 +415,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/Bili.json",
+      "ext": "https://z.qiqiv.cn/666/json/Bili.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -426,7 +426,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/Bili短剧.json",
+      "ext": "https://z.qiqiv.cn/666/json/Bili短剧.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -437,7 +437,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/影视解说.json",
+      "ext": "https://z.qiqiv.cn/666/json/影视解说.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {

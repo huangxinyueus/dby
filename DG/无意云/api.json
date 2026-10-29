@@ -246,7 +246,7 @@
         "site": [
           "https://www.fmcf.fun",
           "https://www.mmpanpan.site",
-          "http://tvpanpan.site",
+          "./lib/tvpanpan.site",
           "http://www.tvpanpan.site"
         ]
       },
@@ -1312,7 +1312,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
+      "ext": "./lib/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
     },
     {
       "key": "Gugu",
@@ -1322,7 +1322,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "ARKK6LQnl4dB2QciLugEzZ8QD2WdbeK23tPAre1QOEbbL5BfB8cV39JNfSd2+Xhcqr/z+V5To0krLYHUX7NtRtwYBC44/9ayncZMomdbv4ZCBNOUsBEedUQx7SWf1J0pE0BsLG9QlR8tURwRwx/sqT0="
+      "ext": "./lib/sqT0="
     },
     {
       "key": "Dora",
@@ -1787,7 +1787,7 @@
       "name": "无意┃美图1",
       "type": 3,
       "api": "csp_P74",
-      "ext": "AfrJb9KydBKjv+8a0rYJolKchNJF8z93xx/AWcdD4VfKcfKzsYSyoI/+wSAcK6zC3RBsmXq81x/uGn53bpc3Cjg=",
+      "ext": "./lib/uGn53bpc3Cjg=",
       "searchable": 1,
       "indexs": 0,
       "quickSearch": 0,
