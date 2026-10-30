@@ -1,0 +1,6 @@
+{
+  "spider": "./lib/spider.jar",
+  "sites": [
+    { "key": "douban", "name": "豆瓣", "type": 3, "api": "./lib/drpy.js" }
+  ]
+}
